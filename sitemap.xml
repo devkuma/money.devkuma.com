@@ -2,6 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://money.devkuma.com/</loc>
+    <lastmod>2026-04-30T23:59:00+09:00</lastmod>
+  </url><url>
+    <loc>https://money.devkuma.com/posts/economy/</loc>
+    <lastmod>2026-04-30T23:59:00+09:00</lastmod>
+  </url><url>
     <loc>https://money.devkuma.com/categories/</loc>
     <lastmod>2026-04-30T21:40:00+09:00</lastmod>
   </url><url>
@@ -12,9 +18,6 @@
     <lastmod>2026-04-30T21:40:00+09:00</lastmod>
   </url><url>
     <loc>https://money.devkuma.com/tags/</loc>
-    <lastmod>2026-04-30T21:40:00+09:00</lastmod>
-  </url><url>
-    <loc>https://money.devkuma.com/</loc>
     <lastmod>2026-04-30T21:40:00+09:00</lastmod>
   </url><url>
     <loc>https://money.devkuma.com/categories/%EA%B8%88%EC%9C%B5/</loc>
@@ -157,7 +160,5 @@
   </url><url>
     <loc>https://money.devkuma.com/posts/loan-terms/</loc>
     <lastmod>2023-03-12T20:51:00+09:00</lastmod>
-  </url><url>
-    <loc>https://money.devkuma.com/posts/economy/</loc>
   </url>
 </urlset>
