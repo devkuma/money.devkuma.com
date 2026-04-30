@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on Show Me the Money</title>
+    <link>https://money.devkuma.com/categories/</link>
+    <description>Recent content in Categories on Show Me the Money</description>
+    <generator>Hugo</generator>
+    <language>ko</language>
+    <lastBuildDate>Thu, 30 Apr 2026 21:40:00 +0900</lastBuildDate>
+    <atom:link href="https://money.devkuma.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>금융</title>
+      <link>https://money.devkuma.com/categories/%EA%B8%88%EC%9C%B5/</link>
+      <pubDate>Thu, 30 Apr 2026 21:40:00 +0900</pubDate>
+      <guid>https://money.devkuma.com/categories/%EA%B8%88%EC%9C%B5/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>재테크</title>
+      <link>https://money.devkuma.com/categories/%EC%9E%AC%ED%85%8C%ED%81%AC/</link>
+      <pubDate>Thu, 30 Apr 2026 21:40:00 +0900</pubDate>
+      <guid>https://money.devkuma.com/categories/%EC%9E%AC%ED%85%8C%ED%81%AC/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>경제 이야기</title>
+      <link>https://money.devkuma.com/categories/%EA%B2%BD%EC%A0%9C-%EC%9D%B4%EC%95%BC%EA%B8%B0/</link>
+      <pubDate>Thu, 30 Apr 2026 00:09:00 +0900</pubDate>
+      <guid>https://money.devkuma.com/categories/%EA%B2%BD%EC%A0%9C-%EC%9D%B4%EC%95%BC%EA%B8%B0/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>
