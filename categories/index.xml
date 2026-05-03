@@ -6,8 +6,22 @@
     <description>Recent content in Categories on DK::Show Me the Money</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 03 May 2026 11:36:16 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 03 May 2026 12:03:02 +0900</lastBuildDate>
     <atom:link href="https://money.devkuma.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>부동산</title>
+      <link>https://money.devkuma.com/categories/%EB%B6%80%EB%8F%99%EC%82%B0/</link>
+      <pubDate>Sun, 03 May 2026 12:03:02 +0900</pubDate>
+      <guid>https://money.devkuma.com/categories/%EB%B6%80%EB%8F%99%EC%82%B0/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>세금</title>
+      <link>https://money.devkuma.com/categories/%EC%84%B8%EA%B8%88/</link>
+      <pubDate>Sun, 03 May 2026 12:03:02 +0900</pubDate>
+      <guid>https://money.devkuma.com/categories/%EC%84%B8%EA%B8%88/</guid>
+      <description></description>
+    </item>
     <item>
       <title>금융</title>
       <link>https://money.devkuma.com/categories/%EA%B8%88%EC%9C%B5/</link>
@@ -27,20 +41,6 @@
       <link>https://money.devkuma.com/categories/%EB%8C%80%EC%B6%9C/</link>
       <pubDate>Sun, 03 May 2026 11:30:57 +0900</pubDate>
       <guid>https://money.devkuma.com/categories/%EB%8C%80%EC%B6%9C/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>부동산</title>
-      <link>https://money.devkuma.com/categories/%EB%B6%80%EB%8F%99%EC%82%B0/</link>
-      <pubDate>Sun, 03 May 2026 11:30:57 +0900</pubDate>
-      <guid>https://money.devkuma.com/categories/%EB%B6%80%EB%8F%99%EC%82%B0/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>세금</title>
-      <link>https://money.devkuma.com/categories/%EC%84%B8%EA%B8%88/</link>
-      <pubDate>Sun, 03 May 2026 11:14:33 +0900</pubDate>
-      <guid>https://money.devkuma.com/categories/%EC%84%B8%EA%B8%88/</guid>
       <description></description>
     </item>
     <item>
