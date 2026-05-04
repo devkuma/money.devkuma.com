@@ -3,21 +3,66 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://money.devkuma.com/categories/</loc>
-    <lastmod>2026-05-03T12:03:02+09:00</lastmod>
+    <lastmod>2026-05-04T23:37:36+09:00</lastmod>
+  </url><url>
+    <loc>https://money.devkuma.com/tags/gdp/</loc>
+    <lastmod>2026-05-04T23:37:36+09:00</lastmod>
+  </url><url>
+    <loc>https://money.devkuma.com/tags/gni/</loc>
+    <lastmod>2026-05-04T23:37:36+09:00</lastmod>
   </url><url>
     <loc>https://money.devkuma.com/tags/</loc>
-    <lastmod>2026-05-03T12:03:02+09:00</lastmod>
+    <lastmod>2026-05-04T23:37:36+09:00</lastmod>
   </url><url>
     <loc>https://money.devkuma.com/</loc>
-    <lastmod>2026-05-03T12:03:02+09:00</lastmod>
+    <lastmod>2026-05-04T23:37:36+09:00</lastmod>
   </url><url>
-    <loc>https://money.devkuma.com/tags/%EB%82%B4%EC%A7%91%EB%A7%88%EB%A0%A8/</loc>
-    <lastmod>2026-05-03T12:03:02+09:00</lastmod>
+    <loc>https://money.devkuma.com/categories/%EA%B2%BD%EC%A0%9C/</loc>
+    <lastmod>2026-05-04T23:37:36+09:00</lastmod>
+  </url><url>
+    <loc>https://money.devkuma.com/posts/economy/</loc>
+    <lastmod>2026-05-04T23:37:36+09:00</lastmod>
+  </url><url>
+    <loc>https://money.devkuma.com/tags/%EA%B2%BD%EC%A0%9C%EC%A7%80%ED%91%9C/</loc>
+    <lastmod>2026-05-04T23:37:36+09:00</lastmod>
+  </url><url>
+    <loc>https://money.devkuma.com/tags/%EA%B5%AD%EB%82%B4%EC%B4%9D%EC%83%9D%EC%82%B0/</loc>
+    <lastmod>2026-05-04T23:37:36+09:00</lastmod>
+  </url><url>
+    <loc>https://money.devkuma.com/posts/gross-domestic-product-gdp/</loc>
+    <lastmod>2026-05-04T23:37:36+09:00</lastmod>
+  </url><url>
+    <loc>https://money.devkuma.com/tags/%EB%AA%85%EB%AA%A9gdp/</loc>
+    <lastmod>2026-05-04T23:37:36+09:00</lastmod>
+  </url><url>
+    <loc>https://money.devkuma.com/tags/%EC%8B%A4%EC%A7%88gdp/</loc>
+    <lastmod>2026-05-04T23:37:36+09:00</lastmod>
+  </url><url>
+    <loc>https://money.devkuma.com/tags/%EA%B1%B4%EC%B6%95%EB%AC%BC%EB%8C%80%EC%9E%A5/</loc>
+    <lastmod>2026-05-04T22:51:17+09:00</lastmod>
   </url><url>
     <loc>https://money.devkuma.com/categories/%EB%B6%80%EB%8F%99%EC%82%B0/</loc>
-    <lastmod>2026-05-03T12:03:02+09:00</lastmod>
+    <lastmod>2026-05-04T22:51:17+09:00</lastmod>
   </url><url>
     <loc>https://money.devkuma.com/posts/real-estate/</loc>
+    <lastmod>2026-05-04T22:51:17+09:00</lastmod>
+  </url><url>
+    <loc>https://money.devkuma.com/tags/%EB%B6%80%EB%8F%99%EC%82%B0%EB%A7%A4%EB%A7%A4/</loc>
+    <lastmod>2026-05-04T22:51:17+09:00</lastmod>
+  </url><url>
+    <loc>https://money.devkuma.com/posts/illegal-building-home-purchase/</loc>
+    <lastmod>2026-05-04T22:51:17+09:00</lastmod>
+  </url><url>
+    <loc>https://money.devkuma.com/tags/%EB%B6%88%EB%B2%95%EA%B1%B4%EC%B6%95%EB%AC%BC/</loc>
+    <lastmod>2026-05-04T22:51:17+09:00</lastmod>
+  </url><url>
+    <loc>https://money.devkuma.com/tags/%EC%9C%84%EB%B0%98%EA%B1%B4%EC%B6%95%EB%AC%BC/</loc>
+    <lastmod>2026-05-04T22:51:17+09:00</lastmod>
+  </url><url>
+    <loc>https://money.devkuma.com/tags/%EC%9D%B4%ED%96%89%EA%B0%95%EC%A0%9C%EA%B8%88/</loc>
+    <lastmod>2026-05-04T22:51:17+09:00</lastmod>
+  </url><url>
+    <loc>https://money.devkuma.com/tags/%EB%82%B4%EC%A7%91%EB%A7%88%EB%A0%A8/</loc>
     <lastmod>2026-05-03T12:03:02+09:00</lastmod>
   </url><url>
     <loc>https://money.devkuma.com/tags/%EB%B6%80%EB%8F%99%EC%82%B0%EA%B1%B0%EB%9E%98%EC%8B%A0%EA%B3%A0/</loc>
@@ -100,9 +145,6 @@
   </url><url>
     <loc>https://money.devkuma.com/tags/%EC%A2%85%EB%B6%80%EC%84%B8/</loc>
     <lastmod>2026-05-03T11:56:02+09:00</lastmod>
-  </url><url>
-    <loc>https://money.devkuma.com/posts/economy/</loc>
-    <lastmod>2026-05-03T11:36:16+09:00</lastmod>
   </url><url>
     <loc>https://money.devkuma.com/posts/high-oil-price-support-2026/</loc>
     <lastmod>2026-05-03T11:36:16+09:00</lastmod>
@@ -371,7 +413,7 @@
     <loc>https://money.devkuma.com/tags/%EB%B3%B4%ED%97%98/</loc>
     <lastmod>2024-01-21T13:57:00+09:00</lastmod>
   </url><url>
-    <loc>https://money.devkuma.com/posts/insurance/</loc>
+    <loc>https://money.devkuma.com/posts/insurance-basic/</loc>
     <lastmod>2024-01-21T13:57:00+09:00</lastmod>
   </url><url>
     <loc>https://money.devkuma.com/tags/%EC%97%AD%EC%82%AC/</loc>
