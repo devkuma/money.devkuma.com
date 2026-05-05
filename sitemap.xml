@@ -2,13 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://money.devkuma.com/about/</loc>
+    <lastmod>2026-05-05T12:12:00+09:00</lastmod>
+  </url><url>
+    <loc>https://money.devkuma.com/</loc>
+    <lastmod>2026-05-05T12:12:00+09:00</lastmod>
+  </url><url>
     <loc>https://money.devkuma.com/categories/</loc>
     <lastmod>2026-05-05T09:06:00+09:00</lastmod>
   </url><url>
     <loc>https://money.devkuma.com/tags/</loc>
-    <lastmod>2026-05-05T09:06:00+09:00</lastmod>
-  </url><url>
-    <loc>https://money.devkuma.com/</loc>
     <lastmod>2026-05-05T09:06:00+09:00</lastmod>
   </url><url>
     <loc>https://money.devkuma.com/tags/%EA%B7%BC%EB%A1%9C%EC%86%8C%EB%93%9D%EC%84%B8/</loc>
