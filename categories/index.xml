@@ -6,12 +6,19 @@
     <description>Recent content in Categories on DK::Show Me the Money</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 05 May 2026 08:04:07 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 05 May 2026 08:45:45 +0900</lastBuildDate>
     <atom:link href="https://money.devkuma.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>세금</title>
+      <link>https://money.devkuma.com/categories/%EC%84%B8%EA%B8%88/</link>
+      <pubDate>Tue, 05 May 2026 08:45:45 +0900</pubDate>
+      <guid>https://money.devkuma.com/categories/%EC%84%B8%EA%B8%88/</guid>
+      <description></description>
+    </item>
     <item>
       <title>보험</title>
       <link>https://money.devkuma.com/categories/%EB%B3%B4%ED%97%98/</link>
-      <pubDate>Tue, 05 May 2026 08:04:07 +0900</pubDate>
+      <pubDate>Tue, 05 May 2026 08:23:57 +0900</pubDate>
       <guid>https://money.devkuma.com/categories/%EB%B3%B4%ED%97%98/</guid>
       <description></description>
     </item>
@@ -41,13 +48,6 @@
       <link>https://money.devkuma.com/categories/%EB%B6%80%EB%8F%99%EC%82%B0/</link>
       <pubDate>Mon, 04 May 2026 22:51:17 +0900</pubDate>
       <guid>https://money.devkuma.com/categories/%EB%B6%80%EB%8F%99%EC%82%B0/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>세금</title>
-      <link>https://money.devkuma.com/categories/%EC%84%B8%EA%B8%88/</link>
-      <pubDate>Sun, 03 May 2026 12:03:02 +0900</pubDate>
-      <guid>https://money.devkuma.com/categories/%EC%84%B8%EA%B8%88/</guid>
       <description></description>
     </item>
     <item>

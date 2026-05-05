@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>원천징수 on DK::Show Me the Money</title>
+    <link>https://money.devkuma.com/tags/%EC%9B%90%EC%B2%9C%EC%A7%95%EC%88%98/</link>
+    <description>Recent content in 원천징수 on DK::Show Me the Money</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 05 May 2026 08:45:45 +0900</lastBuildDate>
+    <atom:link href="https://money.devkuma.com/tags/%EC%9B%90%EC%B2%9C%EC%A7%95%EC%88%98/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>근로소득세와 종합소득세 차이, 직장인과 사업자는 세금 신고가 어떻게 다를까</title>
+      <link>https://money.devkuma.com/posts/employment-income-tax-vs-global-income-tax/</link>
+      <pubDate>Tue, 05 May 2026 08:45:45 +0900</pubDate>
+      <guid>https://money.devkuma.com/posts/employment-income-tax-vs-global-income-tax/</guid>
+      <description>&lt;p&gt;나는 직장인이라 월급에서 근로소득세가 빠진다. 그런데 사업을 하는 친구는 매년 5월에 종합소득세를 신고한다고 했다. 둘 다 소득에 붙는 세금인 것 같은데, 왜 이름도 다르고 신고 방식도 다를까.&lt;/p&gt;&#xA;&lt;p&gt;처음에는 &amp;ldquo;직장인은 근로소득세, 사업자는 종합소득세&amp;rdquo; 정도로만 이해하기 쉽다. 완전히 틀린 말은 아니지만 이것만으로는 부족하다. 직장인도 부업, 금융소득, 임대소득이 있으면 종합소득세 신고 대상이 될 수 있고, 사업자도 원천징수된 세금을 종합소득세 신고에서 다시 정산할 수 있다.&lt;/p&gt;&#xA;&lt;p&gt;핵심은 소득의 종류와 신고 방식이다. 근로소득세는 회사에서 받는 월급에 붙는 세금이고, 종합소득세는 1년 동안 발생한 여러 소득을 합산해 신고하는 세금이다. 이 글에서는 근로소득세와 종합소득세의 차이를 초보자 기준으로 정리하였다.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>원천징수 제도 뜻 쉽게 정리, 세전·세후 월급 차이까지 한 번에 이해하기</title>
+      <link>https://money.devkuma.com/posts/withholding-tax-system/</link>
+      <pubDate>Tue, 05 May 2026 08:39:33 +0900</pubDate>
+      <guid>https://money.devkuma.com/posts/withholding-tax-system/</guid>
+      <description>&lt;p&gt;월급을 받으면 세전, 세후라는 말을 자주 듣는다. 연봉 계약서에는 분명 5,000만 원이라고 적혀 있는데, 실제 통장에 들어오는 돈을 계산해보면 생각보다 적다. 대략 &amp;ldquo;세금 떼고 들어오는 돈이구나&amp;rdquo; 정도는 알지만, 정확히 무엇이 빠지는지는 헷갈린다.&lt;/p&gt;&#xA;&lt;p&gt;여기에 원천징수라는 말까지 나오면 더 어렵게 느껴진다. 월급명세서에도 원천징수, 근로소득세, 지방소득세 같은 항목이 보이고, 연말정산 때도 원천징수영수증이라는 서류가 등장한다.&lt;/p&gt;&#xA;&lt;p&gt;원천징수는 어렵게 말하면 세금 제도지만, 쉽게 말하면 &lt;strong&gt;돈을 지급하기 전에 세금을 먼저 떼는 방식&lt;/strong&gt; 이다. 이 글에서는 원천징수 제도가 무엇인지, 세전과 세후는 어떻게 다른지, 왜 회사가 세금을 대신 떼는지, 연말정산과는 어떤 관계가 있는지 초보자 기준으로 정리하였다.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
