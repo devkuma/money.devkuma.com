@@ -3,10 +3,40 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://money.devkuma.com/categories/</loc>
-    <lastmod>2026-05-07T23:44:47+09:00</lastmod>
+    <lastmod>2026-05-07T23:55:55+09:00</lastmod>
   </url><url>
     <loc>https://money.devkuma.com/tags/</loc>
-    <lastmod>2026-05-07T23:44:47+09:00</lastmod>
+    <lastmod>2026-05-07T23:55:55+09:00</lastmod>
+  </url><url>
+    <loc>https://money.devkuma.com/tags/%EB%8B%B4%EB%B3%B4%EB%8C%80%EC%B6%9C/</loc>
+    <lastmod>2026-05-07T23:55:55+09:00</lastmod>
+  </url><url>
+    <loc>https://money.devkuma.com/categories/%EB%8C%80%EC%B6%9C/</loc>
+    <lastmod>2026-05-07T23:55:55+09:00</lastmod>
+  </url><url>
+    <loc>https://money.devkuma.com/posts/loan/</loc>
+    <lastmod>2026-05-07T23:55:55+09:00</lastmod>
+  </url><url>
+    <loc>https://money.devkuma.com/tags/%EB%8C%80%EC%B6%9C%EC%84%9C%EB%A5%98/</loc>
+    <lastmod>2026-05-07T23:55:55+09:00</lastmod>
+  </url><url>
+    <loc>https://money.devkuma.com/categories/%EB%B6%80%EB%8F%99%EC%82%B0/</loc>
+    <lastmod>2026-05-07T23:55:55+09:00</lastmod>
+  </url><url>
+    <loc>https://money.devkuma.com/</loc>
+    <lastmod>2026-05-07T23:55:55+09:00</lastmod>
+  </url><url>
+    <loc>https://money.devkuma.com/tags/%EC%A0%84%EC%9E%85%EC%84%B8%EB%8C%80%ED%99%95%EC%9D%B8%EC%84%9C/</loc>
+    <lastmod>2026-05-07T23:55:55+09:00</lastmod>
+  </url><url>
+    <loc>https://money.devkuma.com/tags/%EC%A3%BC%EB%8B%B4%EB%8C%80/</loc>
+    <lastmod>2026-05-07T23:55:55+09:00</lastmod>
+  </url><url>
+    <loc>https://money.devkuma.com/tags/%EC%A3%BC%ED%83%9D%EB%8B%B4%EB%B3%B4%EB%8C%80%EC%B6%9C/</loc>
+    <lastmod>2026-05-07T23:55:55+09:00</lastmod>
+  </url><url>
+    <loc>https://money.devkuma.com/posts/mortgage-loan-documents/</loc>
+    <lastmod>2026-05-07T23:55:55+09:00</lastmod>
   </url><url>
     <loc>https://money.devkuma.com/tags/%EA%B2%BD%EA%B8%B0%EB%B6%80%EC%96%91/</loc>
     <lastmod>2026-05-07T23:44:47+09:00</lastmod>
@@ -24,9 +54,6 @@
     <lastmod>2026-05-07T23:44:47+09:00</lastmod>
   </url><url>
     <loc>https://money.devkuma.com/posts/trickle-down-vs-fountain-effect/</loc>
-    <lastmod>2026-05-07T23:44:47+09:00</lastmod>
-  </url><url>
-    <loc>https://money.devkuma.com/</loc>
     <lastmod>2026-05-07T23:44:47+09:00</lastmod>
   </url><url>
     <loc>https://money.devkuma.com/tags/%EB%B6%84%EC%88%98%ED%9A%A8%EA%B3%BC/</loc>
@@ -275,12 +302,6 @@
     <loc>https://money.devkuma.com/posts/fixed-variable-loan-interest/</loc>
     <lastmod>2026-05-06T22:36:58+09:00</lastmod>
   </url><url>
-    <loc>https://money.devkuma.com/categories/%EB%8C%80%EC%B6%9C/</loc>
-    <lastmod>2026-05-06T22:36:58+09:00</lastmod>
-  </url><url>
-    <loc>https://money.devkuma.com/posts/loan/</loc>
-    <lastmod>2026-05-06T22:36:58+09:00</lastmod>
-  </url><url>
     <loc>https://money.devkuma.com/tags/%EB%B3%80%EB%8F%99%EA%B8%88%EB%A6%AC/</loc>
     <lastmod>2026-05-06T22:36:58+09:00</lastmod>
   </url><url>
@@ -305,9 +326,6 @@
     <loc>https://money.devkuma.com/tags/%EC%A3%BC%EC%8B%9D%EC%8B%9C%EC%9E%A5%EB%8F%99%ED%96%A5/</loc>
     <lastmod>2026-05-06T21:28:04+09:00</lastmod>
   </url><url>
-    <loc>https://money.devkuma.com/categories/%EB%B6%80%EB%8F%99%EC%82%B0/</loc>
-    <lastmod>2026-05-06T21:09:16+09:00</lastmod>
-  </url><url>
     <loc>https://money.devkuma.com/posts/real-estate/</loc>
     <lastmod>2026-05-06T21:09:16+09:00</lastmod>
   </url><url>
@@ -320,13 +338,7 @@
     <loc>https://money.devkuma.com/tags/%EC%A0%84%EC%9E%85%EC%84%B8%EB%8C%80%EC%97%B4%EB%9E%8C%EC%9B%90/</loc>
     <lastmod>2026-05-06T21:09:16+09:00</lastmod>
   </url><url>
-    <loc>https://money.devkuma.com/tags/%EC%A0%84%EC%9E%85%EC%84%B8%EB%8C%80%ED%99%95%EC%9D%B8%EC%84%9C/</loc>
-    <lastmod>2026-05-06T21:09:16+09:00</lastmod>
-  </url><url>
     <loc>https://money.devkuma.com/posts/move-in-household-confirmation-certificate/</loc>
-    <lastmod>2026-05-06T21:09:16+09:00</lastmod>
-  </url><url>
-    <loc>https://money.devkuma.com/tags/%EC%A3%BC%ED%83%9D%EB%8B%B4%EB%B3%B4%EB%8C%80%EC%B6%9C/</loc>
     <lastmod>2026-05-06T21:09:16+09:00</lastmod>
   </url><url>
     <loc>https://money.devkuma.com/tags/%EB%A0%88%EB%B2%84%EB%A6%AC%EC%A7%80/</loc>
@@ -636,12 +648,6 @@
     <lastmod>2026-05-03T11:30:57+09:00</lastmod>
   </url><url>
     <loc>https://money.devkuma.com/tags/ltv/</loc>
-    <lastmod>2026-05-03T11:30:57+09:00</lastmod>
-  </url><url>
-    <loc>https://money.devkuma.com/tags/%EB%8B%B4%EB%B3%B4%EB%8C%80%EC%B6%9C/</loc>
-    <lastmod>2026-05-03T11:30:57+09:00</lastmod>
-  </url><url>
-    <loc>https://money.devkuma.com/tags/%EC%A3%BC%EB%8B%B4%EB%8C%80/</loc>
     <lastmod>2026-05-03T11:30:57+09:00</lastmod>
   </url><url>
     <loc>https://money.devkuma.com/posts/mortgage-loan-basics/</loc>
