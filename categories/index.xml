@@ -6,8 +6,22 @@
     <description>Recent content in Categories on DK::Show Me the Money</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 07 May 2026 23:55:55 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 08 May 2026 08:29:40 +0900</lastBuildDate>
     <atom:link href="https://money.devkuma.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>세금</title>
+      <link>https://money.devkuma.com/categories/%EC%84%B8%EA%B8%88/</link>
+      <pubDate>Fri, 08 May 2026 08:29:40 +0900</pubDate>
+      <guid>https://money.devkuma.com/categories/%EC%84%B8%EA%B8%88/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>주식</title>
+      <link>https://money.devkuma.com/categories/%EC%A3%BC%EC%8B%9D/</link>
+      <pubDate>Fri, 08 May 2026 08:29:40 +0900</pubDate>
+      <guid>https://money.devkuma.com/categories/%EC%A3%BC%EC%8B%9D/</guid>
+      <description></description>
+    </item>
     <item>
       <title>대출</title>
       <link>https://money.devkuma.com/categories/%EB%8C%80%EC%B6%9C/</link>
@@ -37,24 +51,10 @@
       <description></description>
     </item>
     <item>
-      <title>주식</title>
-      <link>https://money.devkuma.com/categories/%EC%A3%BC%EC%8B%9D/</link>
-      <pubDate>Thu, 07 May 2026 22:59:01 +0900</pubDate>
-      <guid>https://money.devkuma.com/categories/%EC%A3%BC%EC%8B%9D/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>투자</title>
       <link>https://money.devkuma.com/categories/%ED%88%AC%EC%9E%90/</link>
       <pubDate>Wed, 06 May 2026 23:04:47 +0900</pubDate>
       <guid>https://money.devkuma.com/categories/%ED%88%AC%EC%9E%90/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>세금</title>
-      <link>https://money.devkuma.com/categories/%EC%84%B8%EA%B8%88/</link>
-      <pubDate>Wed, 06 May 2026 22:50:07 +0900</pubDate>
-      <guid>https://money.devkuma.com/categories/%EC%84%B8%EA%B8%88/</guid>
       <description></description>
     </item>
     <item>
