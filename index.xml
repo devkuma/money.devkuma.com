@@ -6,8 +6,29 @@
     <description>Recent content in 부자 너구리! on DK::Show Me the Money</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 07 May 2026 18:23:54 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 07 May 2026 23:44:47 +0900</lastBuildDate>
     <atom:link href="https://money.devkuma.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>낙수효과와 분수효과 뜻, 경제정책이 위에서 내려오느냐 아래서 올라오느냐의 차이</title>
+      <link>https://money.devkuma.com/posts/trickle-down-vs-fountain-effect/</link>
+      <pubDate>Thu, 07 May 2026 23:44:47 +0900</pubDate>
+      <guid>https://money.devkuma.com/posts/trickle-down-vs-fountain-effect/</guid>
+      <description>&lt;p&gt;경제 기사를 읽다 보면 낙수효과와 분수효과라는 말을 자주 보게 된다. 둘 다 경제를 살리기 위한 정책 논리와 관련된 말인데, 방향이 완전히 다르다. 낙수효과는 위에서 아래로 흘러내리는 효과를 기대하고, 분수효과는 아래에서 위로 솟아오르는 효과를 기대한다.&lt;/p&gt;&#xA;&lt;p&gt;말만 들으면 그림은 쉽게 떠오른다. 하지만 실제 의미는 조금 더 복잡하다. 세금을 누구에게 줄일 것인지, 정부 지출을 어디에 집중할 것인지, 기업 투자와 가계 소비 중 무엇을 먼저 살릴 것인지가 모두 연결되어 있기 때문이다.&lt;/p&gt;&#xA;&lt;p&gt;이 글에서는 낙수효과와 분수효과의 뜻, 두 개념의 차이, 실제 정책 사례, 그리고 경제 뉴스를 볼 때 어떤 기준으로 이해하면 좋은지 정리하였다.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>HBM이란? AI 반도체와 SK하이닉스 삼성전자 주가가 움직인 이유</title>
+      <link>https://money.devkuma.com/posts/hbm-ai-semiconductor-memory/</link>
+      <pubDate>Thu, 07 May 2026 22:59:01 +0900</pubDate>
+      <guid>https://money.devkuma.com/posts/hbm-ai-semiconductor-memory/</guid>
+      <description>&lt;p&gt;요즘 주식을 공부하다 보면 반도체, AI, 엔비디아, HBM이라는 단어가 계속 나온다. 처음에는 모두 따로 노는 말처럼 보이지만, 실제로는 하나의 흐름으로 연결되어 있다. AI 서비스를 돌리려면 고성능 반도체가 필요하고, 그 반도체가 제 성능을 내려면 데이터를 아주 빠르게 주고받는 메모리가 필요하다. 여기서 등장하는 핵심 부품이 HBM이다.&lt;/p&gt;&#xA;&lt;p&gt;HBM은 High Bandwidth Memory의 줄임말이고, 우리말로는 고대역 메모리라고 부른다. 쉽게 말하면 데이터를 아주 넓은 도로로 빠르게 보내는 D램이다. 일반 D램보다 구조가 복잡하고 만들기 어렵지만, AI 연산에서는 그만큼 가치가 커졌다.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>1금융권과 2금융권 차이, 은행과 저축은행을 고르기 전에 알아야 할 것</title>
+      <link>https://money.devkuma.com/posts/first-second-financial-sector-difference/</link>
+      <pubDate>Thu, 07 May 2026 22:39:13 +0900</pubDate>
+      <guid>https://money.devkuma.com/posts/first-second-financial-sector-difference/</guid>
+      <description>&lt;p&gt;은행 앱에서 예금을 찾다 보면 제1금융권, 제2금융권이라는 말을 자주 보게 된다. 대출을 알아볼 때도 마찬가지다. 어떤 곳은 금리가 낮지만 심사가 까다롭고, 어떤 곳은 금리가 높지만 승인 가능성이 상대적으로 높다고 말한다. 그러다 보면 자연스럽게 이런 생각이 든다. 도대체 1금융권과 2금융권은 무엇이 다를까.&lt;/p&gt;&#xA;&lt;p&gt;결론부터 말하면 제1금융권은 우리가 보통 &amp;ldquo;은행&amp;quot;이라고 부르는 기관이고, 제2금융권은 은행은 아니지만 금융 서비스를 제공하는 제도권 금융기관이다. 둘 다 돈을 맡기고 빌리는 금융 업무를 하지만, 적용받는 법, 취급하는 상품, 금리 수준, 심사 기준, 안정성에서 차이가 있다.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>S&amp;P500 ETF 종류 비교, KODEX TIGER ACE RISE 중 초보자는 무엇을 사야 할까?</title>
       <link>https://money.devkuma.com/posts/sp500-etf-provider-comparison-guide/</link>
