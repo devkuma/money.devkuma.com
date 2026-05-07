@@ -1,4 +1,4 @@
 User-agent: *
-Allow: /posts/
+Allow: /
 
 Sitemap: https://money.devkuma.com/sitemap.xml
