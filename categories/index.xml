@@ -9,9 +9,16 @@
     <lastBuildDate>Sat, 09 May 2026 17:47:09 +0900</lastBuildDate>
     <atom:link href="https://money.devkuma.com/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>채권</title>
+      <link>https://money.devkuma.com/categories/%EC%B1%84%EA%B6%8C/</link>
+      <pubDate>Sat, 09 May 2026 17:47:09 +0900</pubDate>
+      <guid>https://money.devkuma.com/categories/%EC%B1%84%EA%B6%8C/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>경제</title>
       <link>https://money.devkuma.com/categories/%EA%B2%BD%EC%A0%9C/</link>
-      <pubDate>Sat, 09 May 2026 17:47:09 +0900</pubDate>
+      <pubDate>Sat, 09 May 2026 09:17:26 +0900</pubDate>
       <guid>https://money.devkuma.com/categories/%EA%B2%BD%EC%A0%9C/</guid>
       <description></description>
     </item>
