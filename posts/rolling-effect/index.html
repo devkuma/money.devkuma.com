@@ -1,0 +1,1766 @@
+
+
+
+
+
+<!doctype html>
+<html lang="ko" class="no-js">
+    <head>
+
+<script src="/js/critical.bundle.min.8b80676a41018c1e1644d9ccdbb34f113985d369ab293c4f465d58780bc16a3a.js"
+         integrity="sha256-i4BnakEBjB4WRNnM27NPETmF02mrKTxPRl1YeAvBajo=" crossorigin="anonymous"></script><meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="generator" content="Hugo 0.161.1">
+    <meta name="theme" content="Hinode 1.23.7">
+    
+
+
+
+
+
+    
+    
+<link rel="stylesheet" href="/css/main.min.5c0a6ccde660fb8eee62987bcc5e225fdb588aaf1d533d18d58dcb26d8b6c05d.css" integrity="sha256-XApszeZg+47uYph7zF4iX9tYiq8dUz0Y1Y3LJti2wF0=" crossorigin="anonymous">
+    
+        
+    
+    
+         
+        <link rel="preload" href="/fonts/inter-v12-latin-regular.woff2" as="font" type="font/woff2" crossorigin>
+
+
+
+    
+    
+    
+
+
+
+
+
+
+    
+  <meta name="robots" content="index, follow">
+    <meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta name="bingbot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <title>경제 용어: 롤링 효과, 채권 가격이 만기가 가까워질수록 오를 수 있는 이유 - DK::Show Me the Money </title>
+    <meta name="description" content="롤링 효과의 뜻과 채권 가격, 잔존기간, 수익률곡선의 관계를 초보자도 이해하기 쉽게 예시와 함께 정리했다.">
+
+
+
+
+<meta property="og:locale" content="en_US">
+<meta property="og:type" content="article">
+<meta property="og:title" content="경제 용어: 롤링 효과, 채권 가격이 만기가 가까워질수록 오를 수 있는 이유">
+<meta property="og:description" content="롤링 효과의 뜻과 채권 가격, 잔존기간, 수익률곡선의 관계를 초보자도 이해하기 쉽게 예시와 함께 정리했다.">
+
+<meta property="og:url" content="https://money.devkuma.com/posts/rolling-effect/">
+<meta property="og:site_name" content="DK::Show Me the Money">
+<meta property="article:published_time" content="2026-05-09T17:47:09+09:00">
+    <meta property="article:modified_time" content="2026-05-09T17:47:09+09:00">
+    <meta property="og:image" content="https://money.devkuma.com/posts/economy/economy-1280x640.png">
+<meta property="og:image:alt" content="경제 용어: 롤링 효과, 채권 가격이 만기가 가까워질수록 오를 수 있는 이유">
+
+
+
+<meta name="twitter:card" content="summary_large_image">
+
+
+<meta name="twitter:title" content="경제 용어: 롤링 효과, 채권 가격이 만기가 가까워질수록 오를 수 있는 이유">
+<meta name="twitter:description" content="롤링 효과의 뜻과 채권 가격, 잔존기간, 수익률곡선의 관계를 초보자도 이해하기 쉽게 예시와 함께 정리했다.">
+<meta name="twitter:image" content="https://money.devkuma.com/posts/economy/economy-1280x640.png">
+<meta name="twitter:image:alt" content="경제 용어: 롤링 효과, 채권 가격이 만기가 가까워질수록 오를 수 있는 이유">
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+        "@id": "https://money.devkuma.com/#/schema/organization/1",
+      "name": "Hinode",
+      "url": "https://money.devkuma.com/",
+      "sameAs": [null,"https://github.com/gethinode/hinode"],
+      "logo": {
+          "@type": "ImageObject",
+          "@id": "https://money.devkuma.com/#/schema/image/1",
+          "url": "https://money.devkuma.com/favicons/512x512.png",
+          "width": 512 ,
+          "height": 512 ,
+          "caption": "Hinode"
+        },
+        "image": {
+          "@id": "https://money.devkuma.com/#/schema/image/1"
+        }
+      },
+    {
+      "@type": "WebSite",
+      "@id": "https://money.devkuma.com/#/schema/website/1",
+      "url": "https://money.devkuma.com/",
+      "name": "DK::Show Me the Money",
+      "description": "Hinode is a clean documentation and blog theme for your Hugo site based on Bootstrap 5.",
+      "publisher": {
+          "@id": "https://money.devkuma.com/#/schema/organization/1"
+        }
+      },
+    {
+      "@type": "WebPage",
+      "@id": "https://money.devkuma.com/posts/rolling-effect/",
+      "url": "https://money.devkuma.com/posts/rolling-effect/",
+      "name": "경제 용어: 롤링 효과, 채권 가격이 만기가 가까워질수록 오를 수 있는 이유",
+      "description": "롤링 효과의 뜻과 채권 가격, 잔존기간, 수익률곡선의 관계를 초보자도 이해하기 쉽게 예시와 함께 정리했다.",
+      "isPartOf": {
+        "@id": "https://money.devkuma.com/#/schema/website/1"
+      },
+      "about": {
+          "@id": "https://money.devkuma.com/#/schema/organization/1"
+        },
+      "datePublished": "2026-05-09T17:47:09CET","dateModified": "2026-05-09T17:47:09CET","breadcrumb": {
+        "@id": "https://money.devkuma.com/posts/rolling-effect/#/schema/breadcrumb/1"
+      },
+      "primaryImageOfPage": {
+        "@id": "https://money.devkuma.com/posts/rolling-effect/#/schema/image/2"
+      },
+      "inLanguage": "en-US",
+      "potentialAction": [{
+        "@type": "ReadAction", "target": ["https://money.devkuma.com/posts/rolling-effect/"]
+      }]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://money.devkuma.com/posts/rolling-effect/#/schema/breadcrumb/1",
+      "name": "Breadcrumbs",
+      "itemListElement": [{
+        "@type": "ListItem",
+        "position":  1 ,
+        "item": {
+          "@type": "WebPage",
+          "@id": "https://money.devkuma.com/",
+          "url": "https://money.devkuma.com/",
+          "name": "Home"
+          }
+        },{
+        "@type": "ListItem",
+        "position":  2 ,
+        "item": {
+          "@type": "WebPage",
+          "@id": "https://money.devkuma.com/posts/",
+          "url": "https://money.devkuma.com/posts/",
+          "name": "Posts"
+          }
+        },{
+        "@type": "ListItem",
+        "position":  3 ,
+        "item": {
+          "@id": "https://money.devkuma.com/posts/rolling-effect/"
+          }
+        }]
+    },
+
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "ImageObject",
+          "@id": "https://money.devkuma.com/posts/rolling-effect/#/schema/image/2",
+          "url": "https://money.devkuma.com/posts/economy/economy-1280x640.png",
+          "contentUrl": "https://money.devkuma.com/posts/economy/economy-1280x640.png",
+          "caption": "경제 용어: 롤링 효과, 채권 가격이 만기가 가까워질수록 오를 수 있는 이유"
+        }
+      ]
+    }
+
+  ]
+}
+</script>
+
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicons/favicon-96x96_hu_bcafd75a361bcb2.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicons/favicon-96x96_hu_ef780cd502e896ea.png">
+        <link rel="icon" type="image/png" sizes="48x48" href="/favicons/favicon-96x96_hu_8f60ad9056f52802.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="/favicons/favicon-96x96_hu_a6aa36da47e45ca3.png">
+    
+
+</head>
+
+    <body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        
+        
+        
+    
+
+
+
+
+<div class="container-fluid fixed-top p-0">
+
+
+
+
+
+<nav class="navbar px-4 py-4 navbar-fs-6 navbar-md-fs bg-body navbar-fixed-top navbar-expand-md"
+        
+        
+        >
+        <div class="container-xxl p-0">
+            <div class="d-flex navbar-container">
+                
+                <div class="d-flex align-items-center">
+                            <button class="navbar-toggler collapsed p-0 mx-auto invisible fw-30" type="button">
+
+
+
+
+
+
+
+
+<!-- <i class="fas fa-ellipsis fa-fw"></i> -->
+        <svg class="svg-inline--fa fas fa-ellipsis fa-fw" fill="currentColor" aria-hidden="true" role="img" viewBox="0 0 448 512"><use href="#fas-ellipsis"></use></svg></button></div>
+                
+        
+                
+                <div class="width-100 d-flex align-items-center width-md-auto">
+                    <a class="navbar-brand mx-auto" href="/" aria-label="Home">
+    
+    
+
+
+<img class="img-fluid m-auto"
+            src="/img/logo_icon-2800x2800.png"
+             srcset="/img/logo_icon-576x576.webp 576w, /img/logo_icon-768x768.webp 768w, /img/logo_icon-992x992.webp 992w, /img/logo_icon-1200x1200.webp 1200w, /img/logo_icon-1400x1400.webp 1400w, /img/logo_icon-2800x2800.webp 2800w" sizes="100vw" height="30" width="30" alt="DK::Show Me the Money"></a>
+                </div>
+        
+                
+                <div class="d-flex align-items-center">
+                    <button class="navbar-toggler main-nav-toggler collapsed p-0" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbar-0-collapse"
+                        aria-controls="navbar-0" aria-expanded="false" aria-label="Toggle main navigation">
+                        <span class="toggler-icon top-bar emphasis"></span>
+                        <span class="toggler-icon middle-bar emphasis"></span>
+                        <span class="toggler-icon bottom-bar emphasis"></span>
+                    </button>
+                </div>
+            </div>
+    
+            <div class="navbar-collapse collapse" id="navbar-0-collapse">
+                
+                    <div class="d-flex flex-fill ms-md-3 mt-4 mt-md-0 me-md-3">
+    <form class="search flex-fill position-relative me-auto">
+        <input class="search-input form-control is-search" type="search" placeholder="" aria-label="" autocomplete="off" name="search-input">
+        <div class="search-suggestions shadow bg-body rounded d-none" data-no-results=""></div>
+    </form>
+</div>
+
+                <ul class="navbar-nav navbar-nav-scroll ms-auto">
+                    
+        
+            <li class="nav-item ">
+
+
+
+
+
+
+
+
+    
+
+
+    
+    
+
+    
+        <a 
+            class="nav-link" 
+            
+            data-nav="main" data-nav-main="home" 
+             href="/"
+            
+            
+            ><span class=" d-md-none ">Home</span>
+            
+            <span class=" d-none d-md-block">Home</span>
+            
+        </a>
+    
+</li>
+        
+            <li class="nav-item ">
+
+
+
+
+
+
+
+
+    
+
+
+    
+    
+
+    
+        <a 
+            class="nav-link" 
+            
+            data-nav="main" data-nav-main="%EA%B2%BD%EC%A0%9C" 
+             href="/posts/economy/"
+            
+            
+            ><span class=" d-md-none ">경제</span>
+            
+            <span class=" d-none d-md-block">경제</span>
+            
+        </a>
+    
+</li>
+        
+            <li class="nav-item ">
+
+
+
+
+
+
+
+
+    
+
+
+    
+    
+
+    
+        <a 
+            class="nav-link" 
+            
+            data-nav="main" data-nav-main="%EA%B8%88%EC%9C%B5" 
+             href="/posts/finance/"
+            
+            
+            ><span class=" d-md-none ">금융</span>
+            
+            <span class=" d-none d-md-block">금융</span>
+            
+        </a>
+    
+</li>
+        
+            <li class="nav-item ">
+
+
+
+
+
+
+
+
+    
+
+
+    
+    
+
+    
+        <a 
+            class="nav-link" 
+            
+            data-nav="main" data-nav-main="%EC%A3%BC%EC%8B%9D" 
+             href="/posts/stock/"
+            
+            
+            ><span class=" d-md-none ">주식</span>
+            
+            <span class=" d-none d-md-block">주식</span>
+            
+        </a>
+    
+</li>
+        
+            <li class="nav-item ">
+
+
+
+
+
+
+
+
+    
+
+
+    
+    
+
+    
+        <a 
+            class="nav-link" 
+            
+            data-nav="main" data-nav-main="%EB%8C%80%EC%B6%9C" 
+             href="/posts/loan/"
+            
+            
+            ><span class=" d-md-none ">대출</span>
+            
+            <span class=" d-none d-md-block">대출</span>
+            
+        </a>
+    
+</li>
+        
+            <li class="nav-item ">
+
+
+
+
+
+
+
+
+    
+
+
+    
+    
+
+    
+        <a 
+            class="nav-link" 
+            
+            data-nav="main" data-nav-main="%EB%B6%80%EB%8F%99%EC%82%B0" 
+             href="/posts/real-estate/"
+            
+            
+            ><span class=" d-md-none ">부동산</span>
+            
+            <span class=" d-none d-md-block">부동산</span>
+            
+        </a>
+    
+</li>
+        
+            <li class="nav-item ">
+
+
+
+
+
+
+
+
+    
+
+
+    
+    
+
+    
+        <a 
+            class="nav-link" 
+            
+            data-nav="main" data-nav-main="%EB%B3%B4%ED%97%98" 
+             href="/posts/insurance/"
+            
+            
+            ><span class=" d-md-none ">보험</span>
+            
+            <span class=" d-none d-md-block">보험</span>
+            
+        </a>
+    
+</li>
+        
+            <li class="nav-item ">
+
+
+
+
+
+
+
+
+    
+
+
+    
+    
+
+    
+        <a 
+            class="nav-link" 
+            
+            data-nav="main" data-nav-main="%EC%84%B8%EA%B8%88" 
+             href="/posts/tax/"
+            
+            
+            ><span class=" d-md-none ">세금</span>
+            
+            <span class=" d-none d-md-block">세금</span>
+            
+        </a>
+    
+</li>
+        
+            <li class="nav-item ">
+
+
+
+
+
+
+
+
+    
+
+
+    
+    
+
+    
+        <a 
+            class="nav-link" 
+            
+            data-nav="main" data-nav-main="about-me" 
+             href="/about/"
+            
+            
+            ><span class=" d-md-none ">About Me</span>
+            
+            <span class=" d-none d-md-block">About Me</span>
+            
+        </a>
+    
+</li>
+        
+            <li class="nav-item ">
+
+
+
+
+
+
+
+
+    
+
+
+    
+    
+
+    
+        <a 
+            class="nav-link" 
+            
+            data-nav="main" data-nav-main="tags" 
+             href="/tags/"
+            
+            
+            ><span class=" d-md-none ">Tags</span>
+            
+            <span class=" d-none d-md-block">Tags</span>
+            
+        </a>
+    
+</li>
+    
+                    
+                    
+                    
+                        <li class="nav-item py-2 py-md-1 col-12 col-md-auto d-none d-md-block me-auto">
+        <div class="vr d-none d-md-flex h-100 mx-md-2"></div>
+    </li>
+    <li><hr class="dropdown-divider-bg"></li>
+                    
+                                    
+                    <li class="nav-link navbar-fs-6 navbar-md-fs d-flex mode-switch align-items-center" id="navbar-mode">
+    <input type="checkbox" class="checkbox navbar-mode-selector" id="navbar-mode-checkbox" aria-label="Toggle theme" />
+    <label class="label" for="navbar-mode-checkbox">
+        
+
+
+
+
+
+
+
+
+<!-- <i class="fas fa-sun fa-fw"></i> -->
+        <svg class="svg-inline--fa fas fa-sun fa-fw" fill="currentColor" aria-hidden="true" role="img" viewBox="0 0 576 512"><use href="#fas-sun"></use></svg>
+
+
+
+
+
+
+
+
+<!-- <i class="fas fa-moon fa-fw"></i> -->
+        <svg class="svg-inline--fa fas fa-moon fa-fw" fill="currentColor" aria-hidden="true" role="img" viewBox="0 0 512 512"><use href="#fas-moon"></use></svg>
+            <div class="ball"></div>
+        
+    </label>
+</li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</div>
+<main id="container" class="main">
+            
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="container-xxl flex-fill p-4 px-xxl-0">
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3">
+            <div class="col col-lg-2 d-none d-lg-block sidebar-overflow sticky-top pt-5">
+                
+            </div>
+            <div class="col-12 col-md-9 col-lg-8 mb-5 p-4">
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+    
+
+        
+    
+
+
+
+
+    <nav aria-label="breadcrumb" class="d-sm-none">
+        <ol class="breadcrumb">
+                <li class="breadcrumb-item">
+                    <a href="/posts/">
+                        
+
+
+
+
+
+
+
+
+<!-- <i class="fas fa-angle-left "></i> -->
+        <svg class="svg-inline--fa fas fa-angle-left " fill="currentColor" aria-hidden="true" role="img" viewBox="0 0 256 512"><use href="#fas-angle-left"></use></svg>&nbsp;&nbsp;Posts
+                    </a>
+                </li></ol>
+    </nav>
+
+    <nav aria-label="breadcrumb" class="d-none d-sm-block">
+        <ol class="breadcrumb">
+                
+                <li class="breadcrumb-item"><a href="/">Home</a></li>
+                
+                <li class="breadcrumb-item"><a href="/posts/">Posts</a></li><li class="breadcrumb-item active" aria-current="page">
+                
+                
+                경제 용어: 롤링 효과, 채권 가격이 만기가 가까워질수록 오를 수 있는 이유
+            </li>
+        </ol>
+    </nav>
+
+<h1 id="경제-용어-롤링-효과-채권-가격이-만기가-가까워질수록-오를-수-있는-이유" class="display-4 pt-1">경제 용어: 롤링 효과, 채권 가격이 만기가 가까워질수록 오를 수 있는 이유</h1>
+
+
+    <small class="text-body-secondary text-uppercase">
+        
+            
+                Posted on May 9, 2026
+            &bull;
+        
+        6&nbsp;min read &bull;
+        1,098&nbsp;words
+    </small>
+
+
+<div class="mt-3">
+        <div class="d-none-dark">
+            <div class="hstack gap-1">
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+<a aria-label="롤링효과"
+        href="/tags/%EB%A1%A4%EB%A7%81%ED%9A%A8%EA%B3%BC/" class="btn btn-light btn-sm position-relative "
+        role="button"
+        >
+        <span class="d-flex justify-content-start">
+            <span class="my-auto">롤링효과</span>
+        </span></a>&nbsp;
+
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+<a aria-label="RollingEffect"
+        href="/tags/rollingeffect/" class="btn btn-light btn-sm position-relative "
+        role="button"
+        >
+        <span class="d-flex justify-content-start">
+            <span class="my-auto">RollingEffect</span>
+        </span></a>&nbsp;
+
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+<a aria-label="채권투자"
+        href="/tags/%EC%B1%84%EA%B6%8C%ED%88%AC%EC%9E%90/" class="btn btn-light btn-sm position-relative "
+        role="button"
+        >
+        <span class="d-flex justify-content-start">
+            <span class="my-auto">채권투자</span>
+        </span></a>&nbsp;
+
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+<a aria-label="수익률곡선"
+        href="/tags/%EC%88%98%EC%9D%B5%EB%A5%A0%EA%B3%A1%EC%84%A0/" class="btn btn-light btn-sm position-relative "
+        role="button"
+        >
+        <span class="d-flex justify-content-start">
+            <span class="my-auto">수익률곡선</span>
+        </span></a>&nbsp;
+
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+<a aria-label="채권가격"
+        href="/tags/%EC%B1%84%EA%B6%8C%EA%B0%80%EA%B2%A9/" class="btn btn-light btn-sm position-relative "
+        role="button"
+        >
+        <span class="d-flex justify-content-start">
+            <span class="my-auto">채권가격</span>
+        </span></a>&nbsp;
+
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+<a aria-label="금리"
+        href="/tags/%EA%B8%88%EB%A6%AC/" class="btn btn-light btn-sm position-relative "
+        role="button"
+        >
+        <span class="d-flex justify-content-start">
+            <span class="my-auto">금리</span>
+        </span></a>&nbsp;
+
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+<a aria-label="경제용어"
+        href="/tags/%EA%B2%BD%EC%A0%9C%EC%9A%A9%EC%96%B4/" class="btn btn-light btn-sm position-relative "
+        role="button"
+        >
+        <span class="d-flex justify-content-start">
+            <span class="my-auto">경제용어</span>
+        </span></a>&nbsp;
+
+                </div>
+        </div>
+        
+        <div class="d-none-light">
+            <div class="hstack gap-1">
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+<a aria-label="롤링효과"
+        href="/tags/%EB%A1%A4%EB%A7%81%ED%9A%A8%EA%B3%BC/" class="btn btn-outline-primary btn-sm position-relative "
+        role="button"
+        >
+        <span class="d-flex justify-content-start">
+            <span class="my-auto">롤링효과</span>
+        </span></a>&nbsp;
+
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+<a aria-label="RollingEffect"
+        href="/tags/rollingeffect/" class="btn btn-outline-primary btn-sm position-relative "
+        role="button"
+        >
+        <span class="d-flex justify-content-start">
+            <span class="my-auto">RollingEffect</span>
+        </span></a>&nbsp;
+
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+<a aria-label="채권투자"
+        href="/tags/%EC%B1%84%EA%B6%8C%ED%88%AC%EC%9E%90/" class="btn btn-outline-primary btn-sm position-relative "
+        role="button"
+        >
+        <span class="d-flex justify-content-start">
+            <span class="my-auto">채권투자</span>
+        </span></a>&nbsp;
+
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+<a aria-label="수익률곡선"
+        href="/tags/%EC%88%98%EC%9D%B5%EB%A5%A0%EA%B3%A1%EC%84%A0/" class="btn btn-outline-primary btn-sm position-relative "
+        role="button"
+        >
+        <span class="d-flex justify-content-start">
+            <span class="my-auto">수익률곡선</span>
+        </span></a>&nbsp;
+
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+<a aria-label="채권가격"
+        href="/tags/%EC%B1%84%EA%B6%8C%EA%B0%80%EA%B2%A9/" class="btn btn-outline-primary btn-sm position-relative "
+        role="button"
+        >
+        <span class="d-flex justify-content-start">
+            <span class="my-auto">채권가격</span>
+        </span></a>&nbsp;
+
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+<a aria-label="금리"
+        href="/tags/%EA%B8%88%EB%A6%AC/" class="btn btn-outline-primary btn-sm position-relative "
+        role="button"
+        >
+        <span class="d-flex justify-content-start">
+            <span class="my-auto">금리</span>
+        </span></a>&nbsp;
+
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+<a aria-label="경제용어"
+        href="/tags/%EA%B2%BD%EC%A0%9C%EC%9A%A9%EC%96%B4/" class="btn btn-outline-primary btn-sm position-relative "
+        role="button"
+        >
+        <span class="d-flex justify-content-start">
+            <span class="my-auto">경제용어</span>
+        </span></a>&nbsp;
+
+                </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="lead text-muted py-4">롤링 효과의 뜻과 채권 가격, 잔존기간, 수익률곡선의 관계를 초보자도 이해하기 쉽게 예시와 함께 정리했다.</div>
+
+
+<div class="d-md-none pb-5">
+
+
+
+
+
+
+
+
+
+
+
+    
+        <div class="d-grid gap-2 mx-auto">
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+<a aria-label="On this page"
+        href="#toc-collapse" class="btn btn-outline-secondary position-relative toc-button"
+         data-bs-toggle="collapse" aria-expanded="false" aria-controls="toc-collapse"role="button"
+        >
+        <span class="d-flex justify-content-between">
+            <span class="my-auto">On this page</span>
+                <span class="align-self-center ps-1">
+                    
+
+
+
+
+
+
+
+
+<!-- <i class="fas fa-sort "></i> -->
+        <svg class="svg-inline--fa fas fa-sort " fill="currentColor" aria-hidden="true" role="img" viewBox="0 0 384 512"><use href="#fas-sort"></use></svg>
+                </span>
+            
+        </span></a>
+</div>
+
+        <div class="collapse border bg-body-tertiary rounded p-1 navbar-nav-scroll" id="toc-collapse">
+            <small>
+                <div class="toc toc-panel text-body p-2">
+                        <a class="toc-item toc-level-1" href="/posts/rolling-effect/#롤링-효과란-무엇인가">롤링 효과란 무엇인가 &nbsp; </a>
+                        <a class="toc-item toc-level-1" href="/posts/rolling-effect/#채권-가격과-수익률은-왜-반대로-움직일까">채권 가격과 수익률은 왜 반대로 움직일까 &nbsp; </a>
+                        <a class="toc-item toc-level-1" href="/posts/rolling-effect/#수익률곡선-타기-전략과-롤링-효과">수익률곡선 타기 전략과 롤링 효과 &nbsp; </a>
+                        <a class="toc-item toc-level-1" href="/posts/rolling-effect/#간단한-숫자로-보는-롤링-효과">간단한 숫자로 보는 롤링 효과 &nbsp; </a>
+                        <a class="toc-item toc-level-1" href="/posts/rolling-effect/#롤링-효과가-항상-수익을-보장하지는-않는다">롤링 효과가 항상 수익을 보장하지는 않는다 &nbsp; </a>
+                        <a class="toc-item toc-level-1" href="/posts/rolling-effect/#개인-투자자는-어떻게-이해하면-좋을까">개인 투자자는 어떻게 이해하면 좋을까 &nbsp; </a>
+                        <a class="toc-item toc-level-1" href="/posts/rolling-effect/#마무리">마무리 &nbsp; </a>
+                        <a class="toc-item toc-level-1" href="/posts/rolling-effect/#자주-묻는-질문">자주 묻는 질문 &nbsp; </a>
+                        <a class="toc-item toc-level-2" href="/posts/rolling-effect/#롤링-효과는-금리-하락과-같은-말인가">롤링 효과는 금리 하락과 같은 말인가? &nbsp; </a>
+                        <a class="toc-item toc-level-2" href="/posts/rolling-effect/#롤링-효과는-장기채에서만-나타나는가">롤링 효과는 장기채에서만 나타나는가? &nbsp; </a>
+                        <a class="toc-item toc-level-2" href="/posts/rolling-effect/#롤링-효과를-기대하려면-어떤-시장이-유리한가">롤링 효과를 기대하려면 어떤 시장이 유리한가? &nbsp; </a>
+                </div>
+            </small>
+        </div>
+</div>
+
+                
+
+
+
+<div class="img-wrap mb-5"><img class="img-fluid rounded"
+            src="/posts/economy/economy-2800x1200.png"
+             fetchpriority="high" srcset="/posts/economy/economy-576x247.webp 576w, /posts/economy/economy-768x329.webp 768w, /posts/economy/economy-992x425.webp 992w, /posts/economy/economy-1200x514.webp 1200w, /posts/economy/economy-1400x600.webp 1400w, /posts/economy/economy-2800x1200.webp 2800w" sizes="100vw" height="1200" width="2800" alt="경제 용어: 롤링 효과, 채권 가격이 만기가 가까워질수록 오를 수 있는 이유"></div><p>채권 투자를 공부하다 보면 &ldquo;롤링 효과&quot;라는 말을 보게 된다. 처음 들으면 어려운 전문 용어처럼 느껴지지만, 핵심은 단순하다. 시간이 지나면서 채권의 남은 만기가 짧아지고, 그 과정에서 채권 가격이 오를 수 있다는 뜻이다.</p>
+<p>채권은 주식처럼 매일 기업 실적만 보고 움직이는 자산이 아니다. 약속된 이자, 만기, 시장금리, 남은 기간이 함께 가격을 만든다. 그래서 같은 채권이라도 만기까지 10년 남았을 때와 8년 남았을 때의 가격이 달라질 수 있다.</p>
+<p>롤링 효과는 이 &ldquo;남은 기간이 줄어드는 과정&quot;에서 생기는 투자 수익을 설명하는 말이다. 특히 수익률곡선이 일반적인 우상향 모양일 때 더 자주 이야기된다.</p>
+<hr>
+
+
+
+
+
+<h2 id="롤링-효과란-무엇인가" class="heading ">롤링 효과란 무엇인가<a href="#%eb%a1%a4%eb%a7%81-%ed%9a%a8%ea%b3%bc%eb%9e%80-%eb%ac%b4%ec%97%87%ec%9d%b8%ea%b0%80" aria-labelledby="롤링-효과란-무엇인가">
+
+
+
+
+
+
+
+
+<!-- <i class="fas fa-link anchor"></i> -->
+        <svg class="svg-inline--fa fas fa-link anchor" fill="currentColor" aria-hidden="true" role="img" viewBox="0 0 576 512"><use href="#fas-link"></use></svg>&nbsp;
+    </a>
+</h2>
+<p>롤링 효과는 채권의 잔존기간이 짧아지면서 수익률은 낮아지고, 그 결과 채권 가격이 상승하는 효과를 말한다. 영어로는 Rolling Effect라고 한다.</p>
+<p>채권에는 만기가 있다. 10년 만기 채권을 샀다면 시간이 1년 지나면 남은 만기는 9년이 된다. 2년이 지나면 8년이 남는다. 이처럼 채권은 시간이 지날수록 수익률곡선 위에서 만기가 짧은 쪽으로 굴러간다. 그래서 &ldquo;롤링&quot;이라는 표현을 쓴다.</p>
+<p>일반적으로 만기가 긴 채권은 만기가 짧은 채권보다 더 높은 수익률을 요구받는다. 오래 돈을 묶어두는 만큼 불확실성이 크기 때문이다. 그래서 정상적인 시장에서는 수익률곡선이 우상향하는 경우가 많다.</p>
+<p>이때 시장금리가 크게 변하지 않는다고 가정하면, 시간이 지나 채권의 잔존기간이 줄어들수록 그 채권은 더 낮은 수익률 구간으로 이동한다. 채권 가격은 수익률과 반대로 움직이므로, 수익률이 낮아지면 가격은 올라간다. 이것이 롤링 효과다.</p>
+<hr>
+
+
+
+
+
+<h2 id="채권-가격과-수익률은-왜-반대로-움직일까" class="heading ">채권 가격과 수익률은 왜 반대로 움직일까<a href="#%ec%b1%84%ea%b6%8c-%ea%b0%80%ea%b2%a9%ea%b3%bc-%ec%88%98%ec%9d%b5%eb%a5%a0%ec%9d%80-%ec%99%9c-%eb%b0%98%eb%8c%80%eb%a1%9c-%ec%9b%80%ec%a7%81%ec%9d%bc%ea%b9%8c" aria-labelledby="채권-가격과-수익률은-왜-반대로-움직일까">
+
+
+
+
+
+
+
+
+<!-- <i class="fas fa-link anchor"></i> -->
+        <svg class="svg-inline--fa fas fa-link anchor" fill="currentColor" aria-hidden="true" role="img" viewBox="0 0 576 512"><use href="#fas-link"></use></svg>&nbsp;
+    </a>
+</h2>
+<p>롤링 효과를 이해하려면 채권 가격과 수익률의 관계를 먼저 알아야 한다. 채권 가격과 수익률은 반대로 움직인다.</p>
+<p>예를 들어 액면가 10,000원이고 매년 이자를 주는 채권이 있다고 하자. 시장금리가 낮아지면 이미 높은 이자를 주는 기존 채권의 매력이 커진다. 사람들이 그 채권을 더 비싼 가격에 사려고 하므로 채권 가격이 오른다.</p>
+<p>반대로 시장금리가 올라가면 새로 발행되는 채권이 더 높은 이자를 줄 수 있다. 그러면 기존 채권의 매력이 떨어지고, 가격을 낮춰야 거래가 된다. 그래서 채권 가격은 하락한다.</p>
+<p>정리하면 다음과 같다.</p>
+
+
+
+
+
+
+    
+
+
+
+
+
+
+<table class="table">
+  <thead>
+    
+      
+      <tr>
+          <th >상황</th>
+          <th class="text-end">채권 수익률</th>
+          <th class="text-end">채권 가격</th>
+      </tr>
+    
+  </thead>
+  <tbody>
+    
+      
+        <tr>
+            <td >금리 또는 요구수익률 하락</td>
+            <td class="text-end">내려감</td>
+            <td class="text-end">올라감</td>
+        </tr>
+      
+    
+      
+        <tr>
+            <td >금리 또는 요구수익률 상승</td>
+            <td class="text-end">올라감</td>
+            <td class="text-end">내려감</td>
+        </tr>
+      
+  </tbody>
+</table><p>롤링 효과는 시장 전체 금리가 내려가서 생기는 가격 상승과는 조금 다르다. 시장금리가 그대로라고 가정해도, 채권의 남은 만기가 짧아지면서 수익률곡선상 더 낮은 수익률 구간으로 이동하기 때문에 가격 상승이 생길 수 있다는 점이 핵심이다.</p>
+<hr>
+
+
+
+
+
+<h2 id="수익률곡선-타기-전략과-롤링-효과" class="heading ">수익률곡선 타기 전략과 롤링 효과<a href="#%ec%88%98%ec%9d%b5%eb%a5%a0%ea%b3%a1%ec%84%a0-%ed%83%80%ea%b8%b0-%ec%a0%84%eb%9e%b5%ea%b3%bc-%eb%a1%a4%eb%a7%81-%ed%9a%a8%ea%b3%bc" aria-labelledby="수익률곡선-타기-전략과-롤링-효과">
+
+
+
+
+
+
+
+
+<!-- <i class="fas fa-link anchor"></i> -->
+        <svg class="svg-inline--fa fas fa-link anchor" fill="currentColor" aria-hidden="true" role="img" viewBox="0 0 576 512"><use href="#fas-link"></use></svg>&nbsp;
+    </a>
+</h2>
+<p>롤링 효과는 &ldquo;수익률곡선 타기 전략&quot;과 함께 자주 나온다. 영어로는 Yield Curve Riding이라고 한다. 말 그대로 채권이 시간이 지나면서 수익률곡선 위를 타고 내려오는 효과를 노리는 전략이다.</p>
+<p>일반적인 우상향 수익률곡선을 생각해보자.</p>
+
+
+
+
+
+
+    
+
+
+
+
+
+
+<table class="table">
+  <thead>
+    
+      
+      <tr>
+          <th class="text-end">잔존기간</th>
+          <th class="text-end">시장 수익률 예시</th>
+      </tr>
+    
+  </thead>
+  <tbody>
+    
+      
+        <tr>
+            <td class="text-end">3년</td>
+            <td class="text-end">3.0%</td>
+        </tr>
+      
+    
+      
+        <tr>
+            <td class="text-end">5년</td>
+            <td class="text-end">3.2%</td>
+        </tr>
+      
+    
+      
+        <tr>
+            <td class="text-end">10년</td>
+            <td class="text-end">3.7%</td>
+        </tr>
+      
+  </tbody>
+</table><p>투자자가 잔존기간 10년 채권을 샀는데 2년이 지났다면, 이 채권은 이제 잔존기간 8년 채권에 가까워진다. 만약 수익률곡선의 모양이 크게 변하지 않았다면 10년 구간보다 8년 구간의 수익률이 낮을 가능성이 있다. 이때 채권 가격은 상승 압력을 받는다.</p>
+<p>입력 자료의 예시처럼 잔존기간 10년 채권을 수익률 7.5% 수준에서 샀고, 2년 뒤 잔존기간이 8년이 되면서 해당 구간 수익률이 7.4% 수준으로 낮아졌다고 하자. 이 경우 투자자는 보유 기간 동안 받은 이자뿐 아니라 수익률 하락에 따른 채권 가격 상승분도 얻을 수 있다.</p>
+<p>여기서 중요한 점은 이 가격 상승분이 시장금리 하락 때문만은 아니라는 것이다. 시간이 지나 잔존기간이 줄어든 것 자체가 수익률 하락과 가격 상승을 만든다. 이것이 롤링 효과에 의한 수익이다.</p>
+<hr>
+
+
+
+
+
+<h2 id="간단한-숫자로-보는-롤링-효과" class="heading ">간단한 숫자로 보는 롤링 효과<a href="#%ea%b0%84%eb%8b%a8%ed%95%9c-%ec%88%ab%ec%9e%90%eb%a1%9c-%eb%b3%b4%eb%8a%94-%eb%a1%a4%eb%a7%81-%ed%9a%a8%ea%b3%bc" aria-labelledby="간단한-숫자로-보는-롤링-효과">
+
+
+
+
+
+
+
+
+<!-- <i class="fas fa-link anchor"></i> -->
+        <svg class="svg-inline--fa fas fa-link anchor" fill="currentColor" aria-hidden="true" role="img" viewBox="0 0 576 512"><use href="#fas-link"></use></svg>&nbsp;
+    </a>
+</h2>
+<p>조금 더 쉬운 예를 들어보자. 어떤 채권의 액면가가 10,000원이고, 만기까지 갈수록 원금에 가까워지는 구조라고 가정하자.</p>
+<p>처음에는 만기가 8년 남아 있어 9,000원에 거래되었다. 시간이 지나 만기가 5년 남게 되었고, 시장 상황이 크게 바뀌지 않았다면 이 채권은 9,300원에 거래될 수 있다. 투자자는 300원의 가격 상승을 얻는다.</p>
+<p>이 가격 상승은 단순히 &ldquo;금리가 떨어져서 운 좋게 오른 것&quot;과 다르다. 채권이 만기에 가까워지면서 불확실성이 줄고, 수익률곡선상 더 짧은 만기 구간으로 이동했기 때문에 생긴 효과다.</p>
+<p>물론 실제 채권 가격은 훨씬 복잡하게 계산된다. 표면금리, 할인율, 신용등급, 시장 유동성, 발행기관의 위험, 중앙은행 정책 등이 모두 영향을 준다. 그래도 초보자 입장에서는 다음 흐름만 기억해도 충분하다.</p>
+<ol>
+<li>채권은 시간이 지나면 잔존기간이 줄어든다.</li>
+<li>우상향 수익률곡선에서는 짧은 만기일수록 수익률이 낮은 편이다.</li>
+<li>채권 수익률이 낮아지면 채권 가격은 오른다.</li>
+<li>이 과정에서 생기는 가격 상승이 롤링 효과다.</li>
+</ol>
+<hr>
+
+
+
+
+
+<h2 id="롤링-효과가-항상-수익을-보장하지는-않는다" class="heading ">롤링 효과가 항상 수익을 보장하지는 않는다<a href="#%eb%a1%a4%eb%a7%81-%ed%9a%a8%ea%b3%bc%ea%b0%80-%ed%95%ad%ec%83%81-%ec%88%98%ec%9d%b5%ec%9d%84-%eb%b3%b4%ec%9e%a5%ed%95%98%ec%a7%80%eb%8a%94-%ec%95%8a%eb%8a%94%eb%8b%a4" aria-labelledby="롤링-효과가-항상-수익을-보장하지는-않는다">
+
+
+
+
+
+
+
+
+<!-- <i class="fas fa-link anchor"></i> -->
+        <svg class="svg-inline--fa fas fa-link anchor" fill="currentColor" aria-hidden="true" role="img" viewBox="0 0 576 512"><use href="#fas-link"></use></svg>&nbsp;
+    </a>
+</h2>
+<p>롤링 효과는 매력적으로 들리지만, 항상 돈을 벌게 해주는 공식은 아니다. 중요한 조건이 있다. 수익률곡선이 우상향 형태를 유지하고, 시장금리가 크게 상승하지 않아야 한다.</p>
+<p>만약 금리가 빠르게 오르면 이야기가 달라진다. 시간이 지나 잔존기간이 짧아지는 효과로 수익률이 조금 내려가더라도, 시장 전체 금리 상승폭이 더 크면 채권 가격은 오히려 떨어질 수 있다.</p>
+<p>예를 들어 잔존기간 단축으로 기대할 수 있는 수익률 하락 효과가 0.1%포인트인데, 시장금리가 0.5%포인트 올라버리면 롤링 효과는 금리 상승 충격을 이기기 어렵다. 이 경우 채권 투자자는 가격 손실을 볼 수 있다.</p>
+<p>또 수익률곡선이 평평하거나 역전된 경우에도 롤링 효과가 약해질 수 있다. 장기 금리와 단기 금리 차이가 거의 없다면 시간이 지나 만기가 짧아져도 수익률 하락 여지가 작다. 오히려 단기 금리가 더 높은 역전 곡선에서는 기대했던 방향과 다르게 움직일 수 있다.</p>
+<p>그래서 롤링 효과를 볼 때는 세 가지를 함께 확인해야 한다.</p>
+
+
+
+
+
+
+    
+
+
+
+
+
+
+<table class="table">
+  <thead>
+    
+      
+      <tr>
+          <th >확인할 것</th>
+          <th >이유</th>
+      </tr>
+    
+  </thead>
+  <tbody>
+    
+      
+        <tr>
+            <td >수익률곡선의 기울기</td>
+            <td >우상향일수록 롤링 효과를 기대하기 쉽다</td>
+        </tr>
+      
+    
+      
+        <tr>
+            <td >금리 방향</td>
+            <td >금리 상승기에는 가격 손실 위험이 커진다</td>
+        </tr>
+      
+    
+      
+        <tr>
+            <td >보유 기간</td>
+            <td >너무 짧게 보유하면 효과가 작을 수 있다</td>
+        </tr>
+      
+  </tbody>
+</table><hr>
+
+
+
+
+
+<h2 id="개인-투자자는-어떻게-이해하면-좋을까" class="heading ">개인 투자자는 어떻게 이해하면 좋을까<a href="#%ea%b0%9c%ec%9d%b8-%ed%88%ac%ec%9e%90%ec%9e%90%eb%8a%94-%ec%96%b4%eb%96%bb%ea%b2%8c-%ec%9d%b4%ed%95%b4%ed%95%98%eb%a9%b4-%ec%a2%8b%ec%9d%84%ea%b9%8c" aria-labelledby="개인-투자자는-어떻게-이해하면-좋을까">
+
+
+
+
+
+
+
+
+<!-- <i class="fas fa-link anchor"></i> -->
+        <svg class="svg-inline--fa fas fa-link anchor" fill="currentColor" aria-hidden="true" role="img" viewBox="0 0 576 512"><use href="#fas-link"></use></svg>&nbsp;
+    </a>
+</h2>
+<p>개인 투자자가 롤링 효과를 직접 계산하기는 쉽지 않다. 하지만 채권형 펀드, 장기채 ETF, 국채 투자 상품을 볼 때 개념을 알고 있으면 설명을 훨씬 잘 이해할 수 있다.</p>
+<p>예를 들어 장기채 ETF는 금리 하락기에 가격이 크게 오를 수 있지만, 금리 상승기에는 손실도 크게 날 수 있다. 여기에 롤링 효과가 더해지면 금리가 안정적인 구간에서는 시간이 지날수록 추가적인 가격 상승 요인이 생길 수 있다.</p>
+<p>다만 &ldquo;장기채는 시간이 지나면 무조건 오른다&quot;라고 받아들이면 위험하다. 롤링 효과는 조건부 효과다. 수익률곡선의 모양, 금리 전망, 채권의 만기 구조가 맞아야 의미가 커진다.</p>
+<p>초보자라면 다음 정도로 이해하면 된다.</p>
+<ul>
+<li>롤링 효과는 채권의 남은 만기가 줄어들며 생길 수 있는 가격 상승 효과다.</li>
+<li>금리가 안정적이고 수익률곡선이 우상향일 때 기대하기 쉽다.</li>
+<li>금리 상승기에는 롤링 효과보다 금리 상승에 따른 가격 하락이 더 클 수 있다.</li>
+<li>채권형 상품 설명에서 &ldquo;듀레이션&rdquo;, &ldquo;장기채&rdquo;, &ldquo;수익률곡선&quot;이라는 말이 나오면 함께 봐야 한다.</li>
+</ul>
+<hr>
+
+
+
+
+
+<h2 id="마무리" class="heading ">마무리<a href="#%eb%a7%88%eb%ac%b4%eb%a6%ac" aria-labelledby="마무리">
+
+
+
+
+
+
+
+
+<!-- <i class="fas fa-link anchor"></i> -->
+        <svg class="svg-inline--fa fas fa-link anchor" fill="currentColor" aria-hidden="true" role="img" viewBox="0 0 576 512"><use href="#fas-link"></use></svg>&nbsp;
+    </a>
+</h2>
+<p>롤링 효과는 채권 투자에서 시간이 수익으로 작동할 수 있는 원리를 설명한다. 채권의 잔존기간이 줄어들고, 수익률곡선상 더 낮은 수익률 구간으로 이동하면서 가격이 오를 수 있다는 개념이다.</p>
+<p>하지만 롤링 효과만 보고 채권에 투자하면 안 된다. 금리 상승, 수익률곡선 변화, 장기채 가격 변동성은 언제든 기대 수익을 흔들 수 있다. 채권 투자는 &ldquo;안전하다&quot;는 한 단어로 끝나는 자산이 아니라, 금리와 시간의 영향을 함께 받는 자산이다.</p>
+<p>채권형 ETF나 국채 상품을 볼 때 롤링 효과를 알고 있으면 상품 설명이 덜 낯설어진다. 특히 금리가 안정되거나 하락할 것으로 보는 시기에는 왜 장기채 투자 이야기가 늘어나는지도 더 쉽게 이해할 수 있다.</p>
+<hr>
+
+
+
+
+
+<h2 id="자주-묻는-질문" class="heading ">자주 묻는 질문<a href="#%ec%9e%90%ec%a3%bc-%eb%ac%bb%eb%8a%94-%ec%a7%88%eb%ac%b8" aria-labelledby="자주-묻는-질문">
+
+
+
+
+
+
+
+
+<!-- <i class="fas fa-link anchor"></i> -->
+        <svg class="svg-inline--fa fas fa-link anchor" fill="currentColor" aria-hidden="true" role="img" viewBox="0 0 576 512"><use href="#fas-link"></use></svg>&nbsp;
+    </a>
+</h2>
+
+
+
+
+
+<h3 id="롤링-효과는-금리-하락과-같은-말인가" class="heading ">롤링 효과는 금리 하락과 같은 말인가?<a href="#%eb%a1%a4%eb%a7%81-%ed%9a%a8%ea%b3%bc%eb%8a%94-%ea%b8%88%eb%a6%ac-%ed%95%98%eb%9d%bd%ea%b3%bc-%ea%b0%99%ec%9d%80-%eb%a7%90%ec%9d%b8%ea%b0%80" aria-labelledby="롤링-효과는-금리-하락과-같은-말인가">
+
+
+
+
+
+
+
+
+<!-- <i class="fas fa-link anchor"></i> -->
+        <svg class="svg-inline--fa fas fa-link anchor" fill="currentColor" aria-hidden="true" role="img" viewBox="0 0 576 512"><use href="#fas-link"></use></svg>&nbsp;
+    </a>
+</h3>
+<p>같은 말은 아니다. 금리 하락은 시장 전체의 금리 수준이 내려가면서 채권 가격이 오르는 현상이다. 롤링 효과는 시장금리가 그대로라고 가정해도 시간이 지나 채권의 잔존기간이 짧아지면서 수익률곡선상 더 낮은 수익률 구간으로 이동해 가격이 오를 수 있는 효과다.</p>
+
+
+
+
+
+<h3 id="롤링-효과는-장기채에서만-나타나는가" class="heading ">롤링 효과는 장기채에서만 나타나는가?<a href="#%eb%a1%a4%eb%a7%81-%ed%9a%a8%ea%b3%bc%eb%8a%94-%ec%9e%a5%ea%b8%b0%ec%b1%84%ec%97%90%ec%84%9c%eb%a7%8c-%eb%82%98%ed%83%80%eb%82%98%eb%8a%94%ea%b0%80" aria-labelledby="롤링-효과는-장기채에서만-나타나는가">
+
+
+
+
+
+
+
+
+<!-- <i class="fas fa-link anchor"></i> -->
+        <svg class="svg-inline--fa fas fa-link anchor" fill="currentColor" aria-hidden="true" role="img" viewBox="0 0 576 512"><use href="#fas-link"></use></svg>&nbsp;
+    </a>
+</h3>
+<p>장기채에서 더 크게 언급되는 경우가 많다. 만기가 긴 채권은 수익률곡선의 기울기 영향을 받을 여지가 크고, 가격 변동성도 상대적으로 크기 때문이다. 다만 원리 자체는 잔존기간이 있는 채권 전반에 적용될 수 있다.</p>
+
+
+
+
+
+<h3 id="롤링-효과를-기대하려면-어떤-시장이-유리한가" class="heading ">롤링 효과를 기대하려면 어떤 시장이 유리한가?<a href="#%eb%a1%a4%eb%a7%81-%ed%9a%a8%ea%b3%bc%eb%a5%bc-%ea%b8%b0%eb%8c%80%ed%95%98%eb%a0%a4%eb%a9%b4-%ec%96%b4%eb%96%a4-%ec%8b%9c%ec%9e%a5%ec%9d%b4-%ec%9c%a0%eb%a6%ac%ed%95%9c%ea%b0%80" aria-labelledby="롤링-효과를-기대하려면-어떤-시장이-유리한가">
+
+
+
+
+
+
+
+
+<!-- <i class="fas fa-link anchor"></i> -->
+        <svg class="svg-inline--fa fas fa-link anchor" fill="currentColor" aria-hidden="true" role="img" viewBox="0 0 576 512"><use href="#fas-link"></use></svg>&nbsp;
+    </a>
+</h3>
+<p>수익률곡선이 우상향이고 금리가 크게 오르지 않는 시장이 유리하다. 반대로 금리가 빠르게 상승하거나 수익률곡선이 평평해지거나 역전되면 롤링 효과가 약해지거나 가격 손실이 더 커질 수 있다.</p>
+
+
+                
+                
+<div class="row row-cols-2 mt-5 mb-3">
+    <div class="col">
+        </div>
+    <div class="col text-end">
+        <a class="previous" href="/posts/what-is-a-bond/">
+                    채권이란? 뜻과 종류, 주식과의 차이, 투자 방법까지 쉽게 정리&nbsp;
+
+
+
+
+
+
+
+
+<!-- <i class="fas fa-arrow-right "></i> -->
+        <svg class="svg-inline--fa fas fa-arrow-right " fill="currentColor" aria-hidden="true" role="img" viewBox="0 0 512 512"><use href="#fas-arrow-right"></use></svg>
+                </a></div>
+</div>
+
+            </div>
+            <div class="col col-md-3 col-lg-2 d-none d-md-block pt-5">
+                
+    
+
+
+<div class="toc toc-sidebar mb-5 my-md-0 mb-lg-5 p-3 text-body-secondary sticky-top">
+    
+
+    
+        
+        
+
+
+
+
+
+
+
+
+
+            <strong class="d-block h6 my-2 pt-4">On this page:</strong>
+            <nav class="toc">
+                
+                
+                    
+                
+
+                
+                    
+                    <a  class="toc-item toc-level-1" href="/posts/rolling-effect/#롤링-효과란-무엇인가">롤링 효과란 무엇인가</a>
+                
+                    
+                    <a  class="toc-item toc-level-1" href="/posts/rolling-effect/#채권-가격과-수익률은-왜-반대로-움직일까">채권 가격과 수익률은 왜 반대로 움직일까</a>
+                
+                    
+                    <a  class="toc-item toc-level-1" href="/posts/rolling-effect/#수익률곡선-타기-전략과-롤링-효과">수익률곡선 타기 전략과 롤링 효과</a>
+                
+                    
+                    <a  class="toc-item toc-level-1" href="/posts/rolling-effect/#간단한-숫자로-보는-롤링-효과">간단한 숫자로 보는 롤링 효과</a>
+                
+                    
+                    <a  class="toc-item toc-level-1" href="/posts/rolling-effect/#롤링-효과가-항상-수익을-보장하지는-않는다">롤링 효과가 항상 수익을 보장하지는 않는다</a>
+                
+                    
+                    <a  class="toc-item toc-level-1" href="/posts/rolling-effect/#개인-투자자는-어떻게-이해하면-좋을까">개인 투자자는 어떻게 이해하면 좋을까</a>
+                
+                    
+                    <a  class="toc-item toc-level-1" href="/posts/rolling-effect/#마무리">마무리</a>
+                
+                    
+                    <a  class="toc-item toc-level-1" href="/posts/rolling-effect/#자주-묻는-질문">자주 묻는 질문</a>
+                
+                    
+                    <a  class="toc-item toc-level-2" href="/posts/rolling-effect/#롤링-효과는-금리-하락과-같은-말인가">롤링 효과는 금리 하락과 같은 말인가?</a>
+                
+                    
+                        
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+<a aria-label="Show 2 more"
+        href="#toc-collapse-items" id="btnTOCShowMore" class="btn btn-link link-primary position-relative toc-item" data-bs-toggle="collapse" aria-expanded="false" aria-controls="toc-collapse-items"role="button"
+        >
+        <span class="d-flex justify-content-start">
+            <span class="my-auto">Show 2 more</span>
+        </span></a>
+
+                        <div class="collapse" id="toc-collapse-items">
+                        
+                    <a  class="toc-item toc-level-2" href="/posts/rolling-effect/#롤링-효과는-장기채에서만-나타나는가">롤링 효과는 장기채에서만 나타나는가?</a>
+                
+                    
+                    <a  class="toc-item toc-level-2" href="/posts/rolling-effect/#롤링-효과를-기대하려면-어떤-시장이-유리한가">롤링 효과를 기대하려면 어떤 시장이 유리한가?</a>
+                
+
+                
+                    &nbsp;
+                    
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+<a aria-label="Show less"
+        href="#toc-collapse-items" id="btnTOCShowLess" class="btn btn-link link-primary position-relative toc-item" data-bs-toggle="collapse" aria-expanded="false" aria-controls="toc-collapse-items"role="button"
+        >
+        <span class="d-flex justify-content-start">
+            <span class="my-auto">Show less</span>
+        </span></a>
+
+                </div>
+            </nav>
+        
+    
+
+
+
+    </div>
+
+            </div>
+        </div>
+    </div>
+</main>
+
+<footer class="container-fluid footer text-center p-3">
+    <div class="container-xxl text-center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8543127460401091"
+     crossorigin="anonymous"></script>
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-8543127460401091"
+     data-ad-slot="3689386360"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+        <small>
+            Copyright © 2026 DK::Show Me the Money All rights reserved.
+             |
+            
+                
+                Powered by 
+
+
+
+
+
+
+
+
+
+    
+
+
+    <a href="https://gethinode.com" class="link-bg-footer"  target="_blank" rel="noopener noreferrer nofollow">Hinode</a>.
+            
+        </small>
+    </div>
+</footer>
+<div id="toast-container" class="toast-container position-fixed bottom-0 end-0 p-3">
+
+
+
+
+
+
+
+
+<div id="toast-copied-code-message" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+    <div class="toast-header">
+        <strong class="me-auto">DK::Show Me the Money</strong>
+        <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+    </div>
+    <div class="toast-body">Code copied to clipboard</div>
+</div>
+</div>
+<!-- SVG symbol map -->
+    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" display="none">
+        <symbol id="fas-ellipsis" ><path fill="currentColor" d="M0 256a56 56 0 1 1 112 0 56 56 0 1 1 -112 0zm168 0a56 56 0 1 1 112 0 56 56 0 1 1 -112 0zm224-56a56 56 0 1 1 0 112 56 56 0 1 1 0-112z"/></symbol>
+<symbol id="fas-sun" ><path fill="currentColor" d="M178.2-10.1c7.4-3.1 15.8-2.2 22.5 2.2l87.8 58.2 87.8-58.2c6.7-4.4 15.1-5.2 22.5-2.2S411.4-.5 413 7.3l20.9 103.2 103.2 20.9c7.8 1.6 14.4 7 17.4 14.3s2.2 15.8-2.2 22.5l-58.2 87.8 58.2 87.8c4.4 6.7 5.2 15.1 2.2 22.5s-9.6 12.8-17.4 14.3L433.8 401.4 413 504.7c-1.6 7.8-7 14.4-14.3 17.4s-15.8 2.2-22.5-2.2l-87.8-58.2-87.8 58.2c-6.7 4.4-15.1 5.2-22.5 2.2s-12.8-9.6-14.3-17.4L143 401.4 39.7 380.5c-7.8-1.6-14.4-7-17.4-14.3s-2.2-15.8 2.2-22.5L82.7 256 24.5 168.2c-4.4-6.7-5.2-15.1-2.2-22.5s9.6-12.8 17.4-14.3L143 110.6 163.9 7.3c1.6-7.8 7-14.4 14.3-17.4zM207.6 256a80.4 80.4 0 1 1 160.8 0 80.4 80.4 0 1 1 -160.8 0zm208.8 0a128.4 128.4 0 1 0 -256.8 0 128.4 128.4 0 1 0 256.8 0z"/></symbol>
+<symbol id="fas-moon" ><path fill="currentColor" d="M256 0C114.6 0 0 114.6 0 256S114.6 512 256 512c68.8 0 131.3-27.2 177.3-71.4 7.3-7 9.4-17.9 5.3-27.1s-13.7-14.9-23.8-14.1c-4.9 .4-9.8 .6-14.8 .6-101.6 0-184-82.4-184-184 0-72.1 41.5-134.6 102.1-164.8 9.1-4.5 14.3-14.3 13.1-24.4S322.6 8.5 312.7 6.3C294.4 2.2 275.4 0 256 0z"/></symbol>
+<symbol id="fas-angle-left" ><path fill="currentColor" d="M9.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L77.3 256 214.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z"/></symbol>
+<symbol id="fas-sort" ><path fill="currentColor" d="M2.4 204.2c5 12 16.6 19.8 29.6 19.8l320 0c12.9 0 24.6-7.8 29.6-19.8s2.2-25.7-6.9-34.9l-160-160c-12.5-12.5-32.8-12.5-45.3 0l-160 160c-9.2 9.2-11.9 22.9-6.9 34.9zm0 103.5c-5 12-2.2 25.7 6.9 34.9l160 160c12.5 12.5 32.8 12.5 45.3 0l160-160c9.2-9.2 11.9-22.9 6.9-34.9S364.9 288 352 288L32 288c-12.9 0-24.6 7.8-29.6 19.8z"/></symbol>
+<symbol id="fas-link" ><path fill="currentColor" d="M419.5 96c-16.6 0-32.7 4.5-46.8 12.7-15.8-16-34.2-29.4-54.5-39.5 28.2-24 64.1-37.2 101.3-37.2 86.4 0 156.5 70 156.5 156.5 0 41.5-16.5 81.3-45.8 110.6l-71.1 71.1c-29.3 29.3-69.1 45.8-110.6 45.8-86.4 0-156.5-70-156.5-156.5 0-1.5 0-3 .1-4.5 .5-17.7 15.2-31.6 32.9-31.1s31.6 15.2 31.1 32.9c0 .9 0 1.8 0 2.6 0 51.1 41.4 92.5 92.5 92.5 24.5 0 48-9.7 65.4-27.1l71.1-71.1c17.3-17.3 27.1-40.9 27.1-65.4 0-51.1-41.4-92.5-92.5-92.5zM275.2 173.3c-1.9-.8-3.8-1.9-5.5-3.1-12.6-6.5-27-10.2-42.1-10.2-24.5 0-48 9.7-65.4 27.1L91.1 258.2c-17.3 17.3-27.1 40.9-27.1 65.4 0 51.1 41.4 92.5 92.5 92.5 16.5 0 32.6-4.4 46.7-12.6 15.8 16 34.2 29.4 54.6 39.5-28.2 23.9-64 37.2-101.3 37.2-86.4 0-156.5-70-156.5-156.5 0-41.5 16.5-81.3 45.8-110.6l71.1-71.1c29.3-29.3 69.1-45.8 110.6-45.8 86.6 0 156.5 70.6 156.5 156.9 0 1.3 0 2.6 0 3.9-.4 17.7-15.1 31.6-32.8 31.2s-31.6-15.1-31.2-32.8c0-.8 0-1.5 0-2.3 0-33.7-18-63.3-44.8-79.6z"/></symbol>
+<symbol id="fas-arrow-right" ><path fill="currentColor" d="M502.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L402.7 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l370.7 0-105.4 105.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"/></symbol>
+    </svg>
+
+  
+    
+
+  
+
+
+<script src="/js/core.bundle-analytics.ko.min.bef138a0b0039c16630a4767e923e751563c440bb5d0c7c226422e8df10640e9.js"
+         data-category="analytics" integrity="sha256-vvE4oLADnBZjCkdn6SPnUVY8RAu10MfCJkIujfEGQOk=" crossorigin="anonymous" async></script>
+
+<script src="/js/core.bundle.ko.min.1ba52d8fb748d5345ff8638934e1eac69339e8067441463bb70e7acc7ad644f1.js"
+         integrity="sha256-G6Utj7dI1TRf&#43;GOJNOHqxpM56AZ0QUY7tw56zHrWRPE=" crossorigin="anonymous" async></script></body>
+</html>

@@ -6,10 +6,17 @@
     <description>Recent content in 경제용어 on DK::Show Me the Money</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 09 May 2026 09:17:26 +0900</lastBuildDate>
+    <lastBuildDate>Sat, 09 May 2026 17:47:09 +0900</lastBuildDate>
     <atom:link href="https://money.devkuma.com/tags/%EA%B2%BD%EC%A0%9C%EC%9A%A9%EC%96%B4/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>스필오버 효과 뜻, 경제에서 좋은 영향과 나쁜 영향이 번지는 원리</title>
+      <title>경제 용어: 롤링 효과, 채권 가격이 만기가 가까워질수록 오를 수 있는 이유</title>
+      <link>https://money.devkuma.com/posts/rolling-effect/</link>
+      <pubDate>Sat, 09 May 2026 17:47:09 +0900</pubDate>
+      <guid>https://money.devkuma.com/posts/rolling-effect/</guid>
+      <description>&lt;p&gt;채권 투자를 공부하다 보면 &amp;ldquo;롤링 효과&amp;quot;라는 말을 보게 된다. 처음 들으면 어려운 전문 용어처럼 느껴지지만, 핵심은 단순하다. 시간이 지나면서 채권의 남은 만기가 짧아지고, 그 과정에서 채권 가격이 오를 수 있다는 뜻이다.&lt;/p&gt;&#xA;&lt;p&gt;채권은 주식처럼 매일 기업 실적만 보고 움직이는 자산이 아니다. 약속된 이자, 만기, 시장금리, 남은 기간이 함께 가격을 만든다. 그래서 같은 채권이라도 만기까지 10년 남았을 때와 8년 남았을 때의 가격이 달라질 수 있다.&lt;/p&gt;&#xA;&lt;p&gt;롤링 효과는 이 &amp;ldquo;남은 기간이 줄어드는 과정&amp;quot;에서 생기는 투자 수익을 설명하는 말이다. 특히 수익률곡선이 일반적인 우상향 모양일 때 더 자주 이야기된다.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>경재용어: 스필오버 효과, 경제에서 좋은 영향과 나쁜 영향이 번지는 원리</title>
       <link>https://money.devkuma.com/posts/spillover-effect/</link>
       <pubDate>Sat, 09 May 2026 09:17:26 +0900</pubDate>
       <guid>https://money.devkuma.com/posts/spillover-effect/</guid>
