@@ -6,8 +6,22 @@
     <description>Recent content in 금융 on DK::Show Me the Money</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 07 May 2026 22:39:13 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 10 May 2026 00:48:42 +0900</lastBuildDate>
     <atom:link href="https://money.devkuma.com/posts/finance/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>BIS 비율이란? 은행 건전성을 보는 자본 적정성 지표 쉽게 이해하기</title>
+      <link>https://money.devkuma.com/posts/bis-capital-ratio/</link>
+      <pubDate>Sun, 10 May 2026 00:48:42 +0900</pubDate>
+      <guid>https://money.devkuma.com/posts/bis-capital-ratio/</guid>
+      <description>&lt;p&gt;은행은 평소에는 안전해 보인다. 예금을 받고, 대출을 해주고, 이자를 받는 구조라 단순해 보이기도 한다. 하지만 은행의 자산 대부분은 대출과 투자자산이다. 경기 침체가 오거나 부동산 가격이 급락하거나 기업이 대출을 갚지 못하면 은행도 손실을 볼 수 있다.&lt;/p&gt;&#xA;&lt;p&gt;이때 중요한 질문이 생긴다. &amp;ldquo;은행이 손실을 감당할 만큼 충분한 자본을 갖고 있는가?&amp;rdquo; 이 질문에 답하기 위해 쓰는 대표적인 지표가 &lt;strong&gt;BIS 비율&lt;/strong&gt;이다.&lt;/p&gt;&#xA;&lt;p&gt;BIS 비율은 은행의 자기자본을 위험가중자산으로 나눈 비율이다. 쉽게 말하면 은행이 위험한 자산을 얼마나 갖고 있고, 그 위험을 버틸 자기자본은 얼마나 준비했는지 보는 지표다. 은행의 체력을 보는 숫자라고 이해하면 된다.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>캐리 트레이드란? 금리 차이로 수익을 노리는 외환 투자 전략 쉽게 이해하기</title>
+      <link>https://money.devkuma.com/posts/carry-trade/</link>
+      <pubDate>Sun, 10 May 2026 00:33:17 +0900</pubDate>
+      <guid>https://money.devkuma.com/posts/carry-trade/</guid>
+      <description>&lt;p&gt;환율 뉴스를 보다 보면 &amp;ldquo;엔 캐리 트레이드 청산&amp;rdquo;, &amp;ldquo;달러 강세와 캐리 트레이드&amp;rdquo;, &amp;ldquo;고금리 통화로 자금이 이동한다&amp;rdquo; 같은 표현이 나온다. 주식이나 예금보다 낯선 말이라 어렵게 느껴지지만, 핵심은 단순하다. 금리가 낮은 통화로 돈을 조달하고, 금리가 높은 통화에 투자해 차이를 노리는 전략이다.&lt;/p&gt;&#xA;&lt;p&gt;캐리 트레이드(Carry Trade)는 서로 다른 통화 간의 금리 차이를 활용해 수익을 얻으려는 외환 투자 전략이다. 예를 들어 어떤 통화는 연 1% 금리이고 다른 통화는 연 5% 금리라면, 낮은 금리 통화로 자금을 마련해 높은 금리 통화에 투자할 때 연 4%포인트의 금리 차이를 기대할 수 있다.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>1금융권과 2금융권 차이, 은행과 저축은행을 고르기 전에 알아야 할 것</title>
       <link>https://money.devkuma.com/posts/first-second-financial-sector-difference/</link>
