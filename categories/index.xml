@@ -6,8 +6,22 @@
     <description>Recent content in Categories on DK::Show Me the Money</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 10 May 2026 00:52:16 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 10 May 2026 07:57:10 +0900</lastBuildDate>
     <atom:link href="https://money.devkuma.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>부동산</title>
+      <link>https://money.devkuma.com/categories/%EB%B6%80%EB%8F%99%EC%82%B0/</link>
+      <pubDate>Sun, 10 May 2026 07:57:10 +0900</pubDate>
+      <guid>https://money.devkuma.com/categories/%EB%B6%80%EB%8F%99%EC%82%B0/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>세금</title>
+      <link>https://money.devkuma.com/categories/%EC%84%B8%EA%B8%88/</link>
+      <pubDate>Sun, 10 May 2026 07:57:10 +0900</pubDate>
+      <guid>https://money.devkuma.com/categories/%EC%84%B8%EA%B8%88/</guid>
+      <description></description>
+    </item>
     <item>
       <title>주식</title>
       <link>https://money.devkuma.com/categories/%EC%A3%BC%EC%8B%9D/</link>
@@ -37,24 +51,10 @@
       <description></description>
     </item>
     <item>
-      <title>세금</title>
-      <link>https://money.devkuma.com/categories/%EC%84%B8%EA%B8%88/</link>
-      <pubDate>Fri, 08 May 2026 08:29:40 +0900</pubDate>
-      <guid>https://money.devkuma.com/categories/%EC%84%B8%EA%B8%88/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>대출</title>
       <link>https://money.devkuma.com/categories/%EB%8C%80%EC%B6%9C/</link>
       <pubDate>Thu, 07 May 2026 23:55:55 +0900</pubDate>
       <guid>https://money.devkuma.com/categories/%EB%8C%80%EC%B6%9C/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>부동산</title>
-      <link>https://money.devkuma.com/categories/%EB%B6%80%EB%8F%99%EC%82%B0/</link>
-      <pubDate>Thu, 07 May 2026 23:55:55 +0900</pubDate>
-      <guid>https://money.devkuma.com/categories/%EB%B6%80%EB%8F%99%EC%82%B0/</guid>
       <description></description>
     </item>
     <item>
