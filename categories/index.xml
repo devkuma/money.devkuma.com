@@ -6,13 +6,27 @@
     <description>Recent content in Categories on DK::Show Me the Money</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 10 May 2026 09:14:09 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 10 May 2026 18:25:11 +0900</lastBuildDate>
     <atom:link href="https://money.devkuma.com/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>금융</title>
       <link>https://money.devkuma.com/categories/%EA%B8%88%EC%9C%B5/</link>
-      <pubDate>Sun, 10 May 2026 09:14:09 +0900</pubDate>
+      <pubDate>Sun, 10 May 2026 18:25:11 +0900</pubDate>
       <guid>https://money.devkuma.com/categories/%EA%B8%88%EC%9C%B5/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>재테크</title>
+      <link>https://money.devkuma.com/categories/%EC%9E%AC%ED%85%8C%ED%81%AC/</link>
+      <pubDate>Sun, 10 May 2026 18:25:11 +0900</pubDate>
+      <guid>https://money.devkuma.com/categories/%EC%9E%AC%ED%85%8C%ED%81%AC/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>경제 이야기</title>
+      <link>https://money.devkuma.com/categories/%EA%B2%BD%EC%A0%9C-%EC%9D%B4%EC%95%BC%EA%B8%B0/</link>
+      <pubDate>Sun, 10 May 2026 18:12:21 +0900</pubDate>
+      <guid>https://money.devkuma.com/categories/%EA%B2%BD%EC%A0%9C-%EC%9D%B4%EC%95%BC%EA%B8%B0/</guid>
       <description></description>
     </item>
     <item>
@@ -65,13 +79,6 @@
       <description></description>
     </item>
     <item>
-      <title>재테크</title>
-      <link>https://money.devkuma.com/categories/%EC%9E%AC%ED%85%8C%ED%81%AC/</link>
-      <pubDate>Wed, 06 May 2026 21:28:04 +0900</pubDate>
-      <guid>https://money.devkuma.com/categories/%EC%9E%AC%ED%85%8C%ED%81%AC/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>보험</title>
       <link>https://money.devkuma.com/categories/%EB%B3%B4%ED%97%98/</link>
       <pubDate>Tue, 05 May 2026 08:23:57 +0900</pubDate>
@@ -83,13 +90,6 @@
       <link>https://money.devkuma.com/categories/%EC%A7%80%EC%9B%90%EA%B8%88/</link>
       <pubDate>Sun, 03 May 2026 11:36:16 +0900</pubDate>
       <guid>https://money.devkuma.com/categories/%EC%A7%80%EC%9B%90%EA%B8%88/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>경제 이야기</title>
-      <link>https://money.devkuma.com/categories/%EA%B2%BD%EC%A0%9C-%EC%9D%B4%EC%95%BC%EA%B8%B0/</link>
-      <pubDate>Sat, 02 May 2026 09:46:24 +0900</pubDate>
-      <guid>https://money.devkuma.com/categories/%EA%B2%BD%EC%A0%9C-%EC%9D%B4%EC%95%BC%EA%B8%B0/</guid>
       <description></description>
     </item>
   </channel>
