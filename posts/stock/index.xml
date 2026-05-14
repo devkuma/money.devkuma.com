@@ -6,8 +6,22 @@
     <description>Recent content in 주식 on DK::Show Me the Money</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 13 May 2026 22:22:10 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 14 May 2026 22:12:16 +0900</lastBuildDate>
     <atom:link href="https://money.devkuma.com/posts/stock/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>주식 소수점 거래 방법과 장단점, 주식 모으기로 소액 투자 시작하기</title>
+      <link>https://money.devkuma.com/posts/fractional-stock-trading/</link>
+      <pubDate>Thu, 14 May 2026 22:12:16 +0900</pubDate>
+      <guid>https://money.devkuma.com/posts/fractional-stock-trading/</guid>
+      <description>&lt;p&gt;비싼 주식을 사고 싶은데 한 주 가격이 부담스러울 때가 있다. SK하이닉스, 현대자동차, 삼성바이오로직스처럼 한 주 가격이 몇십만 원을 넘는 종목은 초보자가 선뜻 매수하기 어렵다. 관심은 있지만 &amp;ldquo;일단 한 주부터 사보자&amp;quot;는 말 자체가 부담이 되는 경우가 많다.&lt;/p&gt;&#xA;&lt;p&gt;이럴 때 활용할 수 있는 방식이 소수점 거래다. 주식을 반드시 1주 단위로 사는 것이 아니라 1만 원, 5만 원처럼 금액을 정해 일부만 살 수 있는 거래 방식이다. 해외 주식에서 먼저 익숙해진 방식이지만, 요즘은 국내 주식도 소수점 거래를 지원하는 증권사가 늘었다.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>콜옵션 풋옵션 뜻과 차이, 초보자가 이해하기 쉬운 옵션 기초</title>
+      <link>https://money.devkuma.com/posts/call-option-put-option/</link>
+      <pubDate>Thu, 14 May 2026 21:53:49 +0900</pubDate>
+      <guid>https://money.devkuma.com/posts/call-option-put-option/</guid>
+      <description>&lt;p&gt;주식 공부를 하다 보면 콜옵션, 풋옵션이라는 말을 한 번쯤 듣게 된다. 뉴스에서는 경영권 분쟁, 임원 보상, 파생상품 투자, 커버드콜 ETF 같은 이야기와 함께 자주 나온다. 2024년에는 민희진 전 어도어 대표의 풋옵션 이슈가 알려지면서 &amp;ldquo;풋옵션이 대체 뭐길래 1,000억 원대라는 말이 나오지?&amp;ldquo;라고 궁금해한 사람도 많았다.&lt;/p&gt;&#xA;&lt;p&gt;옵션은 말 그대로 &amp;ldquo;권리&amp;quot;다. 미래의 특정 시점에 어떤 자산을 미리 정한 가격으로 사거나 팔 수 있는 권리를 말한다. 주식뿐 아니라 채권, 금, 원유, 지수 같은 여러 자산이 옵션의 대상이 될 수 있다.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>분산투자 왜 해야 할까? 포트폴리오 뜻과 투자 자산 나누는 방법</title>
       <link>https://money.devkuma.com/posts/diversified-investing-portfolio/</link>
