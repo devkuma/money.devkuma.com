@@ -2,23 +2,38 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://money.devkuma.com/docs/isa/account-type/brokerage/</loc>
+    <lastmod>2026-05-24T08:28:52+09:00</lastmod>
+  </url><url>
     <loc>https://money.devkuma.com/docs/isa/maturity/after-three-years-checklist/</loc>
     <lastmod>2026-05-12T22:00:37+09:00</lastmod>
   </url><url>
     <loc>https://money.devkuma.com/docs/isa/overview/</loc>
     <lastmod>2026-05-24T07:36:35+09:00</lastmod>
   </url><url>
+    <loc>https://money.devkuma.com/docs/isa/overview/account-guide-tax-saving/</loc>
+    <lastmod>2026-05-24T07:36:35+09:00</lastmod>
+  </url><url>
     <loc>https://money.devkuma.com/docs/stock/</loc>
     <lastmod>2024-01-21T12:38:00+09:00</lastmod>
   </url><url>
     <loc>https://money.devkuma.com/docs/isa/</loc>
-    <lastmod>2026-05-24T07:36:35+09:00</lastmod>
+    <lastmod>2026-05-24T08:28:52+09:00</lastmod>
+  </url><url>
+    <loc>https://money.devkuma.com/docs/isa/account-type/</loc>
+    <lastmod>2026-05-24T08:28:52+09:00</lastmod>
+  </url><url>
+    <loc>https://money.devkuma.com/docs/isa/account-type/managed/</loc>
+    <lastmod>2026-05-24T08:03:49+09:00</lastmod>
   </url><url>
     <loc>https://money.devkuma.com/docs/isa/maturity/</loc>
     <lastmod>2026-05-12T22:34:52+09:00</lastmod>
   </url><url>
     <loc>https://money.devkuma.com/docs/isa/maturity/maintenance-checklist/</loc>
     <lastmod>2026-05-12T22:30:13+09:00</lastmod>
+  </url><url>
+    <loc>https://money.devkuma.com/docs/isa/account-type/trust/</loc>
+    <lastmod>2026-05-24T08:20:34+09:00</lastmod>
   </url><url>
     <loc>https://money.devkuma.com/docs/isa/maturity/closure-pension-transfer-guide/</loc>
     <lastmod>2026-05-12T22:34:52+09:00</lastmod>
@@ -27,16 +42,64 @@
     <lastmod>2023-03-12T20:51:00+09:00</lastmod>
   </url><url>
     <loc>https://money.devkuma.com/categories/</loc>
-    <lastmod>2026-05-24T07:36:35+09:00</lastmod>
+    <lastmod>2026-05-24T08:28:52+09:00</lastmod>
+  </url><url>
+    <loc>https://money.devkuma.com/docs/</loc>
+    <lastmod>2026-05-24T08:28:52+09:00</lastmod>
+  </url><url>
+    <loc>https://money.devkuma.com/tags/etf/</loc>
+    <lastmod>2026-05-24T08:28:52+09:00</lastmod>
+  </url><url>
+    <loc>https://money.devkuma.com/tags/isa/</loc>
+    <lastmod>2026-05-24T08:28:52+09:00</lastmod>
+  </url><url>
+    <loc>https://money.devkuma.com/tags/</loc>
+    <lastmod>2026-05-24T08:28:52+09:00</lastmod>
+  </url><url>
+    <loc>https://money.devkuma.com/tags/%EA%B0%9C%EC%9D%B8%EC%A2%85%ED%95%A9%EC%9E%90%EC%82%B0%EA%B4%80%EB%A6%AC%EA%B3%84%EC%A2%8C/</loc>
+    <lastmod>2026-05-24T08:28:52+09:00</lastmod>
+  </url><url>
+    <loc>https://money.devkuma.com/categories/%EA%B2%BD%EC%A0%9C-%EC%9D%B4%EC%95%BC%EA%B8%B0/</loc>
+    <lastmod>2026-05-24T08:28:52+09:00</lastmod>
+  </url><url>
+    <loc>https://money.devkuma.com/tags/%EA%B5%AD%EB%82%B4%EC%A3%BC%EC%8B%9D/</loc>
+    <lastmod>2026-05-24T08:28:52+09:00</lastmod>
+  </url><url>
+    <loc>https://money.devkuma.com/</loc>
+    <lastmod>2026-05-24T08:28:52+09:00</lastmod>
+  </url><url>
+    <loc>https://money.devkuma.com/tags/%EC%A0%88%EC%84%B8/</loc>
+    <lastmod>2026-05-24T08:28:52+09:00</lastmod>
+  </url><url>
+    <loc>https://money.devkuma.com/tags/%EC%A4%91%EA%B0%9C%ED%98%95isa/</loc>
+    <lastmod>2026-05-24T08:28:52+09:00</lastmod>
+  </url><url>
+    <loc>https://money.devkuma.com/tags/%ED%88%AC%EC%9E%90%EA%B3%84%EC%A2%8C/</loc>
+    <lastmod>2026-05-24T08:28:52+09:00</lastmod>
+  </url><url>
+    <loc>https://money.devkuma.com/tags/%EC%8B%A0%ED%83%81%ED%98%95isa/</loc>
+    <lastmod>2026-05-24T08:20:34+09:00</lastmod>
+  </url><url>
+    <loc>https://money.devkuma.com/tags/%EC%A0%95%EA%B8%B0%EC%98%88%EA%B8%88/</loc>
+    <lastmod>2026-05-24T08:20:34+09:00</lastmod>
+  </url><url>
+    <loc>https://money.devkuma.com/tags/%ED%8E%80%EB%93%9C/</loc>
+    <lastmod>2026-05-24T08:20:34+09:00</lastmod>
+  </url><url>
+    <loc>https://money.devkuma.com/tags/%EB%AA%A8%EB%8D%B8%ED%8F%AC%ED%8A%B8%ED%8F%B4%EB%A6%AC%EC%98%A4/</loc>
+    <lastmod>2026-05-24T08:03:49+09:00</lastmod>
+  </url><url>
+    <loc>https://money.devkuma.com/tags/%EC%9D%BC%EC%9E%84%ED%98%95isa/</loc>
+    <lastmod>2026-05-24T08:03:49+09:00</lastmod>
+  </url><url>
+    <loc>https://money.devkuma.com/tags/%ED%88%AC%EC%9E%90%EC%9D%BC%EC%9E%84/</loc>
+    <lastmod>2026-05-24T08:03:49+09:00</lastmod>
   </url><url>
     <loc>https://money.devkuma.com/tags/qld/</loc>
     <lastmod>2026-05-23T00:47:33+09:00</lastmod>
   </url><url>
     <loc>https://money.devkuma.com/tags/qqq/</loc>
     <lastmod>2026-05-23T00:47:33+09:00</lastmod>
-  </url><url>
-    <loc>https://money.devkuma.com/tags/</loc>
-    <lastmod>2026-05-24T07:36:35+09:00</lastmod>
   </url><url>
     <loc>https://money.devkuma.com/tags/tqqq/</loc>
     <lastmod>2026-05-23T00:47:33+09:00</lastmod>
@@ -56,9 +119,6 @@
     <loc>https://money.devkuma.com/tags/%EB%AF%B8%EA%B5%ADetf/</loc>
     <lastmod>2026-05-23T00:47:33+09:00</lastmod>
   </url><url>
-    <loc>https://money.devkuma.com/</loc>
-    <lastmod>2026-05-24T07:36:35+09:00</lastmod>
-  </url><url>
     <loc>https://money.devkuma.com/categories/%EC%A3%BC%EC%8B%9D/</loc>
     <lastmod>2026-05-23T00:47:33+09:00</lastmod>
   </url><url>
@@ -69,9 +129,6 @@
     <lastmod>2026-05-23T00:38:42+09:00</lastmod>
   </url><url>
     <loc>https://money.devkuma.com/tags/dc%ED%98%95/</loc>
-    <lastmod>2026-05-23T00:38:42+09:00</lastmod>
-  </url><url>
-    <loc>https://money.devkuma.com/categories/%EA%B2%BD%EC%A0%9C-%EC%9D%B4%EC%95%BC%EA%B8%B0/</loc>
     <lastmod>2026-05-23T00:38:42+09:00</lastmod>
   </url><url>
     <loc>https://money.devkuma.com/posts/finance/</loc>
@@ -365,9 +422,6 @@
     <loc>https://money.devkuma.com/tags/%EC%A0%81%EA%B8%88/</loc>
     <lastmod>2026-05-20T08:21:02+09:00</lastmod>
   </url><url>
-    <loc>https://money.devkuma.com/tags/%EC%A0%95%EA%B8%B0%EC%98%88%EA%B8%88/</loc>
-    <lastmod>2026-05-20T08:21:02+09:00</lastmod>
-  </url><url>
     <loc>https://money.devkuma.com/tags/%EC%A0%95%EA%B8%B0%EC%A0%81%EA%B8%88/</loc>
     <lastmod>2026-05-20T08:21:02+09:00</lastmod>
   </url><url>
@@ -461,9 +515,6 @@
     <loc>https://money.devkuma.com/tags/%ED%88%AC%EC%9E%90%EC%82%AC%EC%9D%B4%ED%8A%B8/</loc>
     <lastmod>2026-05-19T07:22:53+09:00</lastmod>
   </url><url>
-    <loc>https://money.devkuma.com/tags/etf/</loc>
-    <lastmod>2026-05-18T23:26:03+09:00</lastmod>
-  </url><url>
     <loc>https://money.devkuma.com/tags/%EA%B0%84%EC%A0%91%ED%88%AC%EC%9E%90/</loc>
     <lastmod>2026-05-18T23:26:03+09:00</lastmod>
   </url><url>
@@ -480,9 +531,6 @@
     <lastmod>2026-05-18T23:26:03+09:00</lastmod>
   </url><url>
     <loc>https://money.devkuma.com/tags/%ED%88%AC%EC%9E%90%EA%B8%B0%EC%B4%88/</loc>
-    <lastmod>2026-05-18T23:26:03+09:00</lastmod>
-  </url><url>
-    <loc>https://money.devkuma.com/tags/%ED%8E%80%EB%93%9C/</loc>
     <lastmod>2026-05-18T23:26:03+09:00</lastmod>
   </url><url>
     <loc>https://money.devkuma.com/tags/pef/</loc>
@@ -653,9 +701,6 @@
     <loc>https://money.devkuma.com/tags/%EC%A0%81%EA%B2%A9%EC%A6%9D%EB%B9%99/</loc>
     <lastmod>2026-05-17T16:09:50+09:00</lastmod>
   </url><url>
-    <loc>https://money.devkuma.com/tags/%EC%A0%88%EC%84%B8/</loc>
-    <lastmod>2026-05-24T07:36:35+09:00</lastmod>
-  </url><url>
     <loc>https://money.devkuma.com/posts/tax-saving-vs-tax-evasion/</loc>
     <lastmod>2026-05-17T16:09:50+09:00</lastmod>
   </url><url>
@@ -697,9 +742,6 @@
   </url><url>
     <loc>https://money.devkuma.com/tags/%ED%98%B8%EA%B0%80/</loc>
     <lastmod>2026-05-14T22:27:28+09:00</lastmod>
-  </url><url>
-    <loc>https://money.devkuma.com/tags/%EA%B5%AD%EB%82%B4%EC%A3%BC%EC%8B%9D/</loc>
-    <lastmod>2026-05-14T22:12:16+09:00</lastmod>
   </url><url>
     <loc>https://money.devkuma.com/tags/%EC%86%8C%EC%88%98%EC%A0%90%EA%B1%B0%EB%9E%98/</loc>
     <lastmod>2026-05-14T22:12:16+09:00</lastmod>
@@ -833,12 +875,6 @@
     <loc>https://money.devkuma.com/posts/land-transaction-permit-system/</loc>
     <lastmod>2026-05-12T23:00:59+09:00</lastmod>
   </url><url>
-    <loc>https://money.devkuma.com/docs/</loc>
-    <lastmod>2026-05-24T07:36:35+09:00</lastmod>
-  </url><url>
-    <loc>https://money.devkuma.com/tags/isa/</loc>
-    <lastmod>2026-05-12T22:34:52+09:00</lastmod>
-  </url><url>
     <loc>https://money.devkuma.com/tags/isa%ED%95%B4%EC%A7%80/</loc>
     <lastmod>2026-05-12T22:34:52+09:00</lastmod>
   </url><url>
@@ -859,9 +895,6 @@
   </url><url>
     <loc>https://money.devkuma.com/tags/%EC%9E%AC%ED%85%8C%ED%81%AC/</loc>
     <lastmod>2026-05-24T07:36:35+09:00</lastmod>
-  </url><url>
-    <loc>https://money.devkuma.com/tags/%EC%A4%91%EA%B0%9C%ED%98%95isa/</loc>
-    <lastmod>2026-05-12T22:30:13+09:00</lastmod>
   </url><url>
     <loc>https://money.devkuma.com/tags/%EA%B8%88%EC%9C%B5/</loc>
     <lastmod>2026-05-24T07:36:35+09:00</lastmod>
@@ -2041,12 +2074,6 @@
   </url><url>
     <loc>https://money.devkuma.com/posts/speculation-vs-investment-difference/</loc>
     <lastmod>2026-04-30T23:37:00+09:00</lastmod>
-  </url><url>
-    <loc>https://money.devkuma.com/docs/isa/overview/account-guide-tax-saving/</loc>
-    <lastmod>2026-05-24T07:36:35+09:00</lastmod>
-  </url><url>
-    <loc>https://money.devkuma.com/tags/%EA%B0%9C%EC%9D%B8%EC%A2%85%ED%95%A9%EC%9E%90%EC%82%B0%EA%B4%80%EB%A6%AC%EA%B3%84%EC%A2%8C/</loc>
-    <lastmod>2026-05-24T07:36:35+09:00</lastmod>
   </url><url>
     <loc>https://money.devkuma.com/tags/%EA%B2%BD%EC%A0%9C%EA%B8%88%EC%9C%B5%EC%9A%A9%EC%96%B4/</loc>
     <lastmod>2026-04-30T00:09:00+09:00</lastmod>
