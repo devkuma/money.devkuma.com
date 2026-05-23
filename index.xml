@@ -6,7 +6,7 @@
     <description>Recent content in 부자 너구리! on Show Me the Money::devkuma</description>
     <generator>Hugo</generator>
     <language>ko-KR</language>
-    <lastBuildDate>Sun, 24 May 2026 08:28:52 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 24 May 2026 08:44:07 +0900</lastBuildDate>
     <atom:link href="https://money.devkuma.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>중개형 ISA란? 세금 혜택, 장점, 단점, 계좌 활용법 쉽게 정리</title>
@@ -24,10 +24,17 @@
     </item>
     <item>
       <title>ISA 계좌 완벽 정리: 계좌 종류, 장점, 절세부터 만기 활용까지 한 번에 끝내기</title>
-      <link>https://money.devkuma.com/docs/isa/overview/account-guide-tax-saving/</link>
+      <link>https://money.devkuma.com/docs/isa/basic/account-guide-tax-saving/</link>
       <pubDate>Thu, 30 Apr 2026 21:40:00 +0900</pubDate>
-      <guid>https://money.devkuma.com/docs/isa/overview/account-guide-tax-saving/</guid>
+      <guid>https://money.devkuma.com/docs/isa/basic/account-guide-tax-saving/</guid>
       <description>&lt;p&gt;ISA 계좌, 이름은 많이 들어봤는데 막상 만들려고 하면 생각보다 헷갈린다. 예금도 된다고 하고, ETF도 된다고 하고, 세금을 줄여준다고 하는데 &amp;ldquo;그래서 내게 진짜 필요한 계좌인가?&amp;ldquo;라는 질문이 먼저 나온다.&lt;/p&gt;&#xA;&lt;p&gt;결론부터 말하면 ISA는 투자나 저축을 조금이라도 할 계획이 있는 사람에게 꽤 쓸모 있는 절세 계좌다. 다만 종류가 여러 가지라서 아무 계좌나 만들면 기대한 방식으로 운용하기 어렵다. 이 글에서는 ISA 뜻부터 가입 조건, 계좌 종류, 세제 혜택, 가입 전 체크할 포인트까지 한 번에 정리했다.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>ISA 서민형 전환 방법, 일반형과 비과세 한도 차이 쉽게 정리</title>
+      <link>https://money.devkuma.com/docs/isa/basic/low-income-conversion/</link>
+      <pubDate>Sun, 24 May 2026 08:44:07 +0900</pubDate>
+      <guid>https://money.devkuma.com/docs/isa/basic/low-income-conversion/</guid>
+      <description>&lt;p&gt;ISA 계좌를 만들 때 대부분은 일반형으로 시작한다. 그런데 소득 조건을 충족한다면 서민형 ISA로 전환하는 것이 유리할 수 있다. 이유는 단순하다. 비과세 한도가 일반형보다 2배 크기 때문이다.&lt;/p&gt;&#xA;&lt;p&gt;일반형 ISA는 순이익 200만원까지 비과세지만, 서민형 ISA는 순이익 400만원까지 비과세다. 같은 계좌를 운용하더라도 조건이 맞으면 세금 혜택을 더 받을 수 있다.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&#xA;&#xA;&#xA;&lt;h2 id=&#34;isa-일반형과-서민형-차이&#34; class=&#34;heading &#34;&gt;ISA 일반형과 서민형 차이&lt;a href=&#34;#isa-%ec%9d%bc%eb%b0%98%ed%98%95%ea%b3%bc-%ec%84%9c%eb%af%bc%ed%98%95-%ec%b0%a8%ec%9d%b4&#34; aria-labelledby=&#34;isa-일반형과-서민형-차이&#34;&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;                &#xA;                        &#xA;                        &#xA;                        &lt;svg class=&#34;svg-inline--fa fas fa-link anchor&#34; fill=&#34;currentColor&#34; aria-hidden=&#34;true&#34; role=&#34;img&#34; viewBox=&#34;0 0 576 512&#34; overflow=&#34;visible&#34;&gt;&lt;use href=&#34;#fas-link&#34;&gt;&lt;/use&gt;&lt;/svg&gt;&amp;nbsp;&#xA;    &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;ISA는 소득 수준에 따라 일반형과 서민형으로 나뉜다. 둘 다 개인종합자산관리계좌이고, 한 계좌에서 여러 금융상품을 운용하면서 비과세와 분리과세 혜택을 받을 수 있다.&lt;/p&gt;</description>
     </item>
     <item>
       <title>일임형 ISA란? 모델포트폴리오, 신탁형 차이, 수수료까지 쉽게 정리</title>
