@@ -2078,7 +2078,13 @@
     <loc>https://money.devkuma.com/tags/%EC%97%AD%EC%82%AC/</loc>
     <lastmod>2024-01-21T13:57:00+09:00</lastmod>
   </url><url>
-    <loc>https://money.devkuma.com/posts/stock-history/</loc>
+    <loc>https://money.devkuma.com/docs/</loc>
+    <lastmod>2024-01-21T12:38:00+09:00</lastmod>
+  </url><url>
+    <loc>https://money.devkuma.com/docs/stock/</loc>
+    <lastmod>2024-01-21T12:38:00+09:00</lastmod>
+  </url><url>
+    <loc>https://money.devkuma.com/docs/stock-history/</loc>
     <lastmod>2024-01-21T12:38:00+09:00</lastmod>
   </url><url>
     <loc>https://money.devkuma.com/tags/%EC%A3%BC%EC%8B%9D%ED%9A%8C%EC%82%AC/</loc>
@@ -2087,13 +2093,7 @@
     <loc>https://money.devkuma.com/tags/%EC%A6%9D%EA%B6%8C/</loc>
     <lastmod>2024-01-21T12:38:00+09:00</lastmod>
   </url><url>
-    <loc>https://money.devkuma.com/docs/</loc>
-    <lastmod>2024-01-21T08:41:00+09:00</lastmod>
-  </url><url>
-    <loc>https://money.devkuma.com/docs/stock/</loc>
-    <lastmod>2024-01-21T08:41:00+09:00</lastmod>
-  </url><url>
-    <loc>https://money.devkuma.com/posts/stock-glossary/</loc>
+    <loc>https://money.devkuma.com/docs/stock-glossary/</loc>
     <lastmod>2024-01-21T08:41:00+09:00</lastmod>
   </url><url>
     <loc>https://money.devkuma.com/posts/house-type/</loc>
@@ -2105,10 +2105,10 @@
     <loc>https://money.devkuma.com/tags/%EB%8C%80%EC%B6%9C-%EA%B8%88%EB%A6%AC/</loc>
     <lastmod>2023-03-12T20:51:00+09:00</lastmod>
   </url><url>
-    <loc>https://money.devkuma.com/tags/%EB%8C%80%EC%B6%9C-%EC%9A%A9%EC%96%B4/</loc>
+    <loc>https://money.devkuma.com/docs/loan-glossary/</loc>
     <lastmod>2023-03-12T20:51:00+09:00</lastmod>
   </url><url>
-    <loc>https://money.devkuma.com/posts/loan-glossary/</loc>
+    <loc>https://money.devkuma.com/tags/%EB%8C%80%EC%B6%9C-%EC%9A%A9%EC%96%B4/</loc>
     <lastmod>2023-03-12T20:51:00+09:00</lastmod>
   </url><url>
     <loc>https://money.devkuma.com/tags/%EB%8C%80%EC%B6%9C-%EC%A2%85%EB%A5%98/</loc>
