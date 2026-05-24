@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>인버스ETF on Show Me the Money::devkuma</title>
+    <link>https://money.devkuma.com/tags/%EC%9D%B8%EB%B2%84%EC%8A%A4etf/</link>
+    <description>Recent content in 인버스ETF on Show Me the Money::devkuma</description>
+    <generator>Hugo</generator>
+    <language>ko-KR</language>
+    <lastBuildDate>Sun, 24 May 2026 12:20:54 +0900</lastBuildDate>
+    <atom:link href="https://money.devkuma.com/tags/%EC%9D%B8%EB%B2%84%EC%8A%A4etf/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ETF 종류 총정리, 지수형·섹터형·환헤지·레버리지·인버스 ETF 차이</title>
+      <link>https://money.devkuma.com/docs/etf/types/guide/</link>
+      <pubDate>Sun, 24 May 2026 12:06:57 +0900</pubDate>
+      <guid>https://money.devkuma.com/docs/etf/types/guide/</guid>
+      <description>&lt;p&gt;ETF를 처음 알게 되면 &amp;ldquo;S&amp;amp;P 500 ETF 하나 사면 되는 것 아닌가?&amp;ldquo;라고 생각하기 쉽다. 그런데 막상 증권사 앱에서 ETF를 검색해보면 종류가 너무 많다. 지수형, 섹터형, 테마형, 채권형, 배당형, 환헤지, 레버리지, 인버스 같은 말이 한꺼번에 나오니 어떤 상품을 골라야 할지 헷갈린다.&lt;/p&gt;&#xA;&lt;p&gt;ETF는 기본적으로 주식처럼 거래되는 펀드지만, 무엇을 담고 어떻게 움직이느냐에 따라 성격이 완전히 달라진다. 어떤 ETF는 시장 전체에 넓게 투자하는 상품이고, 어떤 ETF는 특정 산업에 집중 투자하는 상품이다. 또 어떤 ETF는 환율 영향을 줄이려 하고, 어떤 ETF는 하루 수익률을 2배로 키우거나 시장 하락에 베팅하기도 한다.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>인버스 레버리지 ETF 뜻과 투자방법, 초보자가 꼭 알아야 할 위험</title>
+      <link>https://money.devkuma.com/docs/etf/types/inverse-leveraged-guide/</link>
+      <pubDate>Sun, 24 May 2026 12:20:54 +0900</pubDate>
+      <guid>https://money.devkuma.com/docs/etf/types/inverse-leveraged-guide/</guid>
+      <description>&lt;p&gt;주식시장이 크게 오르거나 빠질 때마다 인버스 ETF와 레버리지 ETF가 검색어에 자주 오른다. 시장이 내려갈 것 같으면 인버스, 시장이 강하게 오를 것 같으면 레버리지에 관심이 생긴다. 이름만 보면 방향만 맞히면 쉽게 수익을 낼 수 있을 것 같지만, 실제 구조는 생각보다 까다롭다.&lt;/p&gt;&#xA;&lt;p&gt;인버스와 레버리지는 모두 기초지수의 &amp;ldquo;하루 수익률&amp;quot;을 기준으로 움직이도록 설계된 파생형 ETF다. 여기서 중요한 말은 하루 수익률이다. 한 달이나 1년 동안 지수가 10% 올랐다고 해서 레버리지 ETF가 정확히 20% 오르는 구조가 아니다. 매일 수익률을 다시 계산하기 때문에 시장이 오르락내리락하면 예상과 다른 결과가 나올 수 있다.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

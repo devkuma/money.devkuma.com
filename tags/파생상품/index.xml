@@ -6,8 +6,15 @@
     <description>Recent content in 파생상품 on Show Me the Money::devkuma</description>
     <generator>Hugo</generator>
     <language>ko-KR</language>
-    <lastBuildDate>Thu, 14 May 2026 21:53:49 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 24 May 2026 12:20:54 +0900</lastBuildDate>
     <atom:link href="https://money.devkuma.com/tags/%ED%8C%8C%EC%83%9D%EC%83%81%ED%92%88/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>인버스 레버리지 ETF 뜻과 투자방법, 초보자가 꼭 알아야 할 위험</title>
+      <link>https://money.devkuma.com/docs/etf/types/inverse-leveraged-guide/</link>
+      <pubDate>Sun, 24 May 2026 12:20:54 +0900</pubDate>
+      <guid>https://money.devkuma.com/docs/etf/types/inverse-leveraged-guide/</guid>
+      <description>&lt;p&gt;주식시장이 크게 오르거나 빠질 때마다 인버스 ETF와 레버리지 ETF가 검색어에 자주 오른다. 시장이 내려갈 것 같으면 인버스, 시장이 강하게 오를 것 같으면 레버리지에 관심이 생긴다. 이름만 보면 방향만 맞히면 쉽게 수익을 낼 수 있을 것 같지만, 실제 구조는 생각보다 까다롭다.&lt;/p&gt;&#xA;&lt;p&gt;인버스와 레버리지는 모두 기초지수의 &amp;ldquo;하루 수익률&amp;quot;을 기준으로 움직이도록 설계된 파생형 ETF다. 여기서 중요한 말은 하루 수익률이다. 한 달이나 1년 동안 지수가 10% 올랐다고 해서 레버리지 ETF가 정확히 20% 오르는 구조가 아니다. 매일 수익률을 다시 계산하기 때문에 시장이 오르락내리락하면 예상과 다른 결과가 나올 수 있다.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>콜옵션 풋옵션 뜻과 차이, 초보자가 이해하기 쉬운 옵션 기초</title>
       <link>https://money.devkuma.com/posts/call-option-put-option/</link>
