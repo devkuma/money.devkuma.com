@@ -1,0 +1,2135 @@
+
+
+
+<!doctype html>
+<html lang="ko" class="no-js">
+    <head>
+
+<script src="/js/critical.bundle.min.a8c0814b35e0a7b1a8e5265b551bde6d5e4bb321db28f493d51366366c118c70.js"
+         integrity="sha256-qMCBSzXgp7Go5SZbVRvebV5LsyHbKPST1RNmNmwRjHA=" crossorigin="anonymous"></script><meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="generator" content="Hugo 0.161.1">
+    <meta name="theme" content="Hinode 1.23.7">
+    
+
+
+
+
+
+    
+    
+<link rel="stylesheet" href="/css/main.min.61f5e816e4941e747285305e469159a3667ccbbe555246fa1e88b99feb18e4c2.css" integrity="sha256-YfXoFuSUHnRyhTBeRpFZo2Z8y75VUkb6Hoi5n+sY5MI=" crossorigin="anonymous">
+    
+        
+    
+    
+        
+        
+             
+            <link rel="preload" href="/fonts/inter-v12-latin-regular.woff2" as="font" type="font/woff2" crossorigin>
+        
+
+
+
+    
+    
+    
+
+
+
+
+
+
+    
+  <meta name="robots" content="index, follow">
+    <meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta name="bingbot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <title>ETF 가격 결정 원리, NAV 괴리율 추적오차 쉽게 이해하기 - Show Me the Money::devkuma </title>
+    <meta name="description" content="ETF 가격이 어떻게 결정되는지 NAV, iNAV, 괴리율, LP, 추적오차 개념을 초보자도 이해하기 쉽게 예시와 함께 정리했다.">
+
+<meta property="og:locale" content="en_US">
+<meta property="og:type" content="article">
+<meta property="og:title" content="ETF 가격 결정 원리, NAV 괴리율 추적오차 쉽게 이해하기">
+<meta property="og:description" content="ETF 가격이 어떻게 결정되는지 NAV, iNAV, 괴리율, LP, 추적오차 개념을 초보자도 이해하기 쉽게 예시와 함께 정리했다.">
+
+<meta property="og:url" content="https://money.devkuma.com/posts/etf-price-nav-premium-discount-tracking-error/">
+<meta property="og:site_name" content="Show Me the Money::devkuma">
+<meta property="article:published_time" content="2026-05-25T00:00:00+09:00">
+    <meta property="article:modified_time" content="2026-05-25T00:00:00+09:00">
+    <meta property="og:image" content="https://money.devkuma.com/posts/stock/exchange-traded-fund-1280x640.png">
+<meta property="og:image:alt" content="ETF 가격 결정 원리, NAV 괴리율 추적오차 쉽게 이해하기">
+
+
+
+<meta name="twitter:card" content="summary_large_image">
+
+
+<meta name="twitter:title" content="ETF 가격 결정 원리, NAV 괴리율 추적오차 쉽게 이해하기">
+<meta name="twitter:description" content="ETF 가격이 어떻게 결정되는지 NAV, iNAV, 괴리율, LP, 추적오차 개념을 초보자도 이해하기 쉽게 예시와 함께 정리했다.">
+<meta name="twitter:image" content="https://money.devkuma.com/posts/stock/exchange-traded-fund-1280x640.png">
+<meta name="twitter:image:alt" content="ETF 가격 결정 원리, NAV 괴리율 추적오차 쉽게 이해하기">
+
+
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+        "@id": "https://money.devkuma.com/#/schema/organization/1",
+      "name": "Hinode",
+      "url": "https://money.devkuma.com/",
+      "sameAs": [null,"https://github.com/gethinode/hinode"],
+      "logo": {
+          "@type": "ImageObject",
+          "@id": "https://money.devkuma.com/#/schema/image/1",
+          "url": "https://money.devkuma.com/favicons/512x512.png",
+          "width": 512 ,
+          "height": 512 ,
+          "caption": "Hinode"
+        },
+        "image": {
+          "@id": "https://money.devkuma.com/#/schema/image/1"
+        }
+      },
+    {
+      "@type": "WebSite",
+      "@id": "https://money.devkuma.com/#/schema/website/1",
+      "url": "https://money.devkuma.com/",
+      "name": "Show Me the Money::devkuma",
+      "description": "Hinode is a clean documentation and blog theme for your Hugo site based on Bootstrap 5.",
+      "publisher": {
+          "@id": "https://money.devkuma.com/#/schema/organization/1"
+        }
+      },
+    {
+      "@type": "WebPage",
+      "@id": "https://money.devkuma.com/posts/etf-price-nav-premium-discount-tracking-error/",
+      "url": "https://money.devkuma.com/posts/etf-price-nav-premium-discount-tracking-error/",
+      "name": "ETF 가격 결정 원리, NAV 괴리율 추적오차 쉽게 이해하기",
+      "description": "ETF 가격이 어떻게 결정되는지 NAV, iNAV, 괴리율, LP, 추적오차 개념을 초보자도 이해하기 쉽게 예시와 함께 정리했다.",
+      "isPartOf": {
+        "@id": "https://money.devkuma.com/#/schema/website/1"
+      },
+      "about": {
+          "@id": "https://money.devkuma.com/#/schema/organization/1"
+        },
+      "datePublished": "2026-05-25T00:00:00CET","dateModified": "2026-05-25T00:00:00CET","breadcrumb": {
+        "@id": "https://money.devkuma.com/posts/etf-price-nav-premium-discount-tracking-error/#/schema/breadcrumb/1"
+      },
+      "primaryImageOfPage": {
+        "@id": "https://money.devkuma.com/posts/etf-price-nav-premium-discount-tracking-error/#/schema/image/2"
+      },
+      "inLanguage": "en-US",
+      "potentialAction": [{
+        "@type": "ReadAction", "target": ["https://money.devkuma.com/posts/etf-price-nav-premium-discount-tracking-error/"]
+      }]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://money.devkuma.com/posts/etf-price-nav-premium-discount-tracking-error/#/schema/breadcrumb/1",
+      "name": "Breadcrumbs",
+      "itemListElement": [{
+        "@type": "ListItem",
+        "position":  1 ,
+        "item": {
+          "@type": "WebPage",
+          "@id": "https://money.devkuma.com/",
+          "url": "https://money.devkuma.com/",
+          "name": "Home"
+          }
+        },{
+        "@type": "ListItem",
+        "position":  2 ,
+        "item": {
+          "@type": "WebPage",
+          "@id": "https://money.devkuma.com/posts/",
+          "url": "https://money.devkuma.com/posts/",
+          "name": "Posts"
+          }
+        },{
+        "@type": "ListItem",
+        "position":  3 ,
+        "item": {
+          "@id": "https://money.devkuma.com/posts/etf-price-nav-premium-discount-tracking-error/"
+          }
+        }]
+    },
+
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "ImageObject",
+          "@id": "https://money.devkuma.com/posts/etf-price-nav-premium-discount-tracking-error/#/schema/image/2",
+          "url": "https://money.devkuma.com/posts/stock/exchange-traded-fund-1280x640.png",
+          "contentUrl": "https://money.devkuma.com/posts/stock/exchange-traded-fund-1280x640.png",
+          "caption": "ETF 가격 결정 원리, NAV 괴리율 추적오차 쉽게 이해하기"
+        }
+      ]
+    }
+
+  ]
+}
+</script>
+
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicons/favicon-96x96_hu_bcafd75a361bcb2.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicons/favicon-96x96_hu_ef780cd502e896ea.png">
+        <link rel="icon" type="image/png" sizes="48x48" href="/favicons/favicon-96x96_hu_8f60ad9056f52802.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="/favicons/favicon-96x96_hu_a6aa36da47e45ca3.png">
+    
+
+</head><body class="navbar-fixed">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        
+        
+        
+    
+
+
+
+
+<div class="container-fluid fixed-top p-0">
+
+
+
+
+
+<nav class="navbar px-4 py-4 navbar-fs-6 navbar-md-fs bg-body navbar-fixed-top navbar-expand-md"
+        
+        
+        >
+        <div class="container-xxl p-0">
+            <div class="d-flex navbar-container">
+                
+                <div class="d-flex align-items-center">
+                            <button class="navbar-toggler collapsed p-0 mx-auto invisible fw-30" type="button">
+
+
+
+
+
+
+                
+                        
+                        
+                        <svg class="svg-inline--fa fas fa-ellipsis fa-fw" fill="currentColor" aria-hidden="true" role="img" viewBox="0 0 448 512" overflow="visible"><use href="#fas-ellipsis"></use></svg></button></div>
+                
+
+                <div class="w-100 d-flex align-items-center w-md-auto">
+                    <a class="navbar-brand mx-auto" href="/" aria-label="Home">
+    
+    
+
+
+<img class="img-fluid m-auto"
+            src="/img/logo_icon-2800x2800.png"
+             srcset="/img/logo_icon-576x576.webp 576w, /img/logo_icon-768x768.webp 768w, /img/logo_icon-992x992.webp 992w, /img/logo_icon-1200x1200.webp 1200w, /img/logo_icon-1400x1400.webp 1400w, /img/logo_icon-2800x2800.webp 2800w" sizes="100vw" height="30" width="30" alt="Show Me the Money::devkuma"></a>
+                </div>
+                <div class="d-flex align-items-center">
+                    <button class="navbar-toggler main-nav-toggler collapsed p-0" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbar-0-collapse"
+                        aria-controls="navbar-0" aria-expanded="false" aria-label="Toggle main navigation">
+                        <span class="toggler-icon top-bar emphasis"></span>
+                        <span class="toggler-icon middle-bar emphasis"></span>
+                        <span class="toggler-icon bottom-bar emphasis"></span>
+                    </button>
+                </div>
+            </div>
+    
+            <div class="navbar-collapse collapse" id="navbar-0-collapse">
+                
+                    <div class="d-flex flex-fill ms-md-3 mt-4 mt-md-0 me-md-3">
+    <form class="search flex-fill position-relative me-auto">
+        <input class="search-input form-control is-search" type="search" placeholder="" aria-label="" autocomplete="off" name="search-input">
+        <div class="search-suggestions shadow bg-body rounded d-none" data-no-results=""></div>
+    </form>
+</div>
+
+                <ul class="navbar-nav navbar-nav-scroll ms-auto">
+                    
+        
+            <li class="nav-item ">
+
+
+
+
+
+
+
+
+    
+
+
+    
+    
+
+    
+        <a
+            class="nav-link"
+            
+            data-nav="main" data-nav-main="home"
+             href="/"
+            
+            
+            ><span class=" d-md-none ">Home</span>
+            
+            <span class=" d-none d-md-block">Home</span>
+            
+        </a>
+    
+</li>
+        
+            <li class="nav-item ">
+
+
+
+
+
+
+
+
+    
+
+
+    
+    
+
+    
+        <a
+            class="nav-link"
+            
+            data-nav="main" data-nav-main="%EB%89%B4%EC%8A%A4"
+             href="/news/"
+            
+            
+            ><span class=" d-md-none ">뉴스</span>
+            
+            <span class=" d-none d-md-block">뉴스</span>
+            
+        </a>
+    
+</li>
+        
+            <li class="nav-item ">
+
+
+
+
+
+
+
+
+    
+
+
+    
+    
+
+    
+        <a
+            class="nav-link"
+            
+            data-nav="main" data-nav-main="%EA%B2%BD%EC%A0%9C"
+             href="/posts/economy/"
+            
+            
+            ><span class=" d-md-none ">경제</span>
+            
+            <span class=" d-none d-md-block">경제</span>
+            
+        </a>
+    
+</li>
+        
+            <li class="nav-item ">
+
+
+
+
+
+
+
+
+    
+
+
+    
+    
+
+    
+        <a
+            class="nav-link"
+            
+            data-nav="main" data-nav-main="%EA%B8%88%EC%9C%B5"
+             href="/posts/finance/"
+            
+            
+            ><span class=" d-md-none ">금융</span>
+            
+            <span class=" d-none d-md-block">금융</span>
+            
+        </a>
+    
+</li>
+        
+            <li class="nav-item ">
+
+
+
+
+
+
+
+
+    
+
+
+    
+    
+
+    
+        <a
+            class="nav-link"
+            
+            data-nav="main" data-nav-main="%EC%A3%BC%EC%8B%9D"
+             href="/posts/stock/"
+            
+            
+            ><span class=" d-md-none ">주식</span>
+            
+            <span class=" d-none d-md-block">주식</span>
+            
+        </a>
+    
+</li>
+        
+            <li class="nav-item ">
+
+
+
+
+
+
+
+
+    
+
+
+    
+    
+
+    
+        <a
+            class="nav-link"
+            
+            data-nav="main" data-nav-main="%EC%B1%84%EA%B6%8C"
+             href="/posts/bond/"
+            
+            
+            ><span class=" d-md-none ">채권</span>
+            
+            <span class=" d-none d-md-block">채권</span>
+            
+        </a>
+    
+</li>
+        
+            <li class="nav-item ">
+
+
+
+
+
+
+
+
+    
+
+
+    
+    
+
+    
+        <a
+            class="nav-link"
+            
+            data-nav="main" data-nav-main="%EC%BD%94%EC%9D%B8"
+             href="/posts/coin/"
+            
+            
+            ><span class=" d-md-none ">코인</span>
+            
+            <span class=" d-none d-md-block">코인</span>
+            
+        </a>
+    
+</li>
+        
+            <li class="nav-item ">
+
+
+
+
+
+
+
+
+    
+
+
+    
+    
+
+    
+        <a
+            class="nav-link"
+            
+            data-nav="main" data-nav-main="%EB%8C%80%EC%B6%9C"
+             href="/posts/loan/"
+            
+            
+            ><span class=" d-md-none ">대출</span>
+            
+            <span class=" d-none d-md-block">대출</span>
+            
+        </a>
+    
+</li>
+        
+            <li class="nav-item ">
+
+
+
+
+
+
+
+
+    
+
+
+    
+    
+
+    
+        <a
+            class="nav-link"
+            
+            data-nav="main" data-nav-main="%EB%B6%80%EB%8F%99%EC%82%B0"
+             href="/posts/real-estate/"
+            
+            
+            ><span class=" d-md-none ">부동산</span>
+            
+            <span class=" d-none d-md-block">부동산</span>
+            
+        </a>
+    
+</li>
+        
+            <li class="nav-item ">
+
+
+
+
+
+
+
+
+    
+
+
+    
+    
+
+    
+        <a
+            class="nav-link"
+            
+            data-nav="main" data-nav-main="%EB%B3%B4%ED%97%98"
+             href="/posts/insurance/"
+            
+            
+            ><span class=" d-md-none ">보험</span>
+            
+            <span class=" d-none d-md-block">보험</span>
+            
+        </a>
+    
+</li>
+        
+            <li class="nav-item ">
+
+
+
+
+
+
+
+
+    
+
+
+    
+    
+
+    
+        <a
+            class="nav-link"
+            
+            data-nav="main" data-nav-main="%EC%84%B8%EA%B8%88"
+             href="/posts/tax/"
+            
+            
+            ><span class=" d-md-none ">세금</span>
+            
+            <span class=" d-none d-md-block">세금</span>
+            
+        </a>
+    
+</li>
+        
+            <li class="nav-item ">
+
+
+
+
+
+
+
+
+    
+
+
+    
+    
+
+    
+        <a
+            class="nav-link"
+            
+            data-nav="main" data-nav-main="about-me"
+             href="/about/"
+            
+            
+            ><span class=" d-md-none ">About Me</span>
+            
+            <span class=" d-none d-md-block">About Me</span>
+            
+        </a>
+    
+</li>
+        
+            <li class="nav-item ">
+
+
+
+
+
+
+
+
+    
+
+
+    
+    
+
+    
+        <a
+            class="nav-link"
+            
+            data-nav="main" data-nav-main="tags"
+             href="/tags/"
+            
+            
+            ><span class=" d-md-none ">Tags</span>
+            
+            <span class=" d-none d-md-block">Tags</span>
+            
+        </a>
+    
+</li>
+    
+                    
+                    
+                    
+                                    
+                    <li class="nav-link navbar-fs-6 navbar-md-fs d-flex mode-switch align-items-center" id="navbar-mode">
+    <input type="checkbox" class="checkbox navbar-mode-selector" id="navbar-mode-checkbox" aria-label="Toggle theme" />
+    <label class="label" for="navbar-mode-checkbox">
+        
+
+
+
+
+
+
+                
+                        
+                        
+                        <svg class="svg-inline--fa fas fa-sun fa-fw" fill="currentColor" aria-hidden="true" role="img" viewBox="0 0 576 512" overflow="visible"><use href="#fas-sun"></use></svg>
+
+
+
+
+
+
+                
+                        
+                        
+                        <svg class="svg-inline--fa fas fa-moon fa-fw" fill="currentColor" aria-hidden="true" role="img" viewBox="0 0 512 512" overflow="visible"><use href="#fas-moon"></use></svg>
+            <div class="ball"></div>
+        
+    </label>
+</li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</div>
+<main id="container" class="main">
+                
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvas-sidebar" aria-labelledby="offcanvas-label">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvas-label">Docs-etf</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            
+
+
+
+
+
+
+
+
+<nav class="sidebar flex-shrink-0 ps-1"
+         aria-label="Docs-etf navigation">
+            <ul class="list-unstyled ps-0">
+                    
+
+    
+        
+        
+    
+        <li class="mt-1 mb-1"></li>
+        <li>
+            <ul class="btn-toggle-nav list-unstyled pb-1">
+                <li>
+                    
+                    
+                    
+                        
+    <a href="/posts/etf-guide/" class="sidebar-item text-decoration-none rounded w-100" >ETF 기초 가이드</a>
+
+                    
+                </li>
+            </ul>
+        </li>
+    
+
+                    
+
+    
+        
+        
+    
+        <li class="mt-1 mb-1"></li>
+        <li>
+            <ul class="btn-toggle-nav list-unstyled pb-1">
+                <li>
+                    
+                    
+                    
+                        
+    <a href="/posts/etf-pros-cons-selection-guide/" class="sidebar-item text-decoration-none rounded w-100" >ETF 장점과 단점</a>
+
+                    
+                </li>
+            </ul>
+        </li>
+    
+
+                    
+
+    
+        
+        
+    
+        <li class="mt-1 mb-1"></li>
+        <li>
+            <ul class="btn-toggle-nav list-unstyled pb-1">
+                <li>
+                    
+                    
+                    
+                        
+    <a href="/posts/etf-types-guide/" class="sidebar-item text-decoration-none rounded w-100" >ETF 종류 총정리</a>
+
+                    
+                </li>
+            </ul>
+        </li>
+    
+
+                    
+
+    
+        
+        
+    
+        <li class="mt-1 mb-1"></li>
+        <li>
+            <ul class="btn-toggle-nav list-unstyled pb-1">
+                <li>
+                    
+                    
+                    
+                        
+    <a href="/posts/etf-types-retirement-pension-investing/" class="sidebar-item text-decoration-none rounded w-100" >ETF 퇴직연금 투자방법</a>
+
+                    
+                </li>
+            </ul>
+        </li>
+    
+
+                    
+
+    
+        
+        
+    
+        <li class="mt-1 mb-1"></li>
+        <li>
+            <ul class="btn-toggle-nav list-unstyled pb-1">
+                <li>
+                    
+                    
+                    
+                        
+    <a href="/posts/etf-types-gold-investing-guide/" class="sidebar-item text-decoration-none rounded w-100" >ETF 금 투자 방법</a>
+
+                    
+                </li>
+            </ul>
+        </li>
+    
+
+                    
+
+    
+        
+        
+    
+        <li class="mt-1 mb-1"></li>
+        <li>
+            <ul class="btn-toggle-nav list-unstyled pb-1">
+                <li>
+                    
+                    
+                    
+                        
+    <a href="/posts/etf-types-covered-call-guide/" class="sidebar-item text-decoration-none rounded w-100" >ETF 커버드콜</a>
+
+                    
+                </li>
+            </ul>
+        </li>
+    
+
+                    
+
+    
+        
+        
+    
+        <li class="mt-1 mb-1"></li>
+        <li>
+            <ul class="btn-toggle-nav list-unstyled pb-1">
+                <li>
+                    
+                    
+                    
+                        
+    <a href="/posts/etf-types-inverse-leveraged-guide/" class="sidebar-item text-decoration-none rounded w-100" >ETF 인버스 레버리지</a>
+
+                    
+                </li>
+            </ul>
+        </li>
+    
+
+                    
+
+    
+        
+        
+    
+        <li class="mt-1 mb-1"></li>
+        <li>
+            <ul class="btn-toggle-nav list-unstyled pb-1">
+                <li>
+                    
+                    
+                    
+                        
+    <a href="/posts/etf-price-nav-premium-discount-tracking-error/" class="sidebar-item text-decoration-none rounded w-100 active" >ETF 가격 결정 원리</a>
+
+                    
+                </li>
+            </ul>
+        </li>
+    
+
+                    
+
+    
+        
+        
+    
+        <li class="mt-1 mb-1"></li>
+        <li>
+            <ul class="btn-toggle-nav list-unstyled pb-1">
+                <li>
+                    
+                    
+                    
+                        
+    <a href="/posts/etf-tax-guide/" class="sidebar-item text-decoration-none rounded w-100" >ETF 세금 총정리</a>
+
+                    
+                </li>
+            </ul>
+        </li>
+    
+
+            </ul>
+    </nav>
+
+
+        </div>
+    </div>
+
+    <div class="container-xxl flex-fill py-4 px-4 px-xxl-0">
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3">
+            <div class="col col-lg-2 d-none d-lg-block sidebar-overflow sticky-top p-0">
+                
+
+
+
+
+
+
+
+
+<nav class="sidebar flex-shrink-0 ps-1"
+         aria-label="Docs-etf navigation">
+            <ul class="list-unstyled ps-0">
+                    
+
+    
+        
+        
+    
+        <li class="mt-1 mb-1"></li>
+        <li>
+            <ul class="btn-toggle-nav list-unstyled pb-1">
+                <li>
+                    
+                    
+                    
+                        
+    <a href="/posts/etf-guide/" class="sidebar-item text-decoration-none rounded w-100" >ETF 기초 가이드</a>
+
+                    
+                </li>
+            </ul>
+        </li>
+    
+
+                    
+
+    
+        
+        
+    
+        <li class="mt-1 mb-1"></li>
+        <li>
+            <ul class="btn-toggle-nav list-unstyled pb-1">
+                <li>
+                    
+                    
+                    
+                        
+    <a href="/posts/etf-pros-cons-selection-guide/" class="sidebar-item text-decoration-none rounded w-100" >ETF 장점과 단점</a>
+
+                    
+                </li>
+            </ul>
+        </li>
+    
+
+                    
+
+    
+        
+        
+    
+        <li class="mt-1 mb-1"></li>
+        <li>
+            <ul class="btn-toggle-nav list-unstyled pb-1">
+                <li>
+                    
+                    
+                    
+                        
+    <a href="/posts/etf-types-guide/" class="sidebar-item text-decoration-none rounded w-100" >ETF 종류 총정리</a>
+
+                    
+                </li>
+            </ul>
+        </li>
+    
+
+                    
+
+    
+        
+        
+    
+        <li class="mt-1 mb-1"></li>
+        <li>
+            <ul class="btn-toggle-nav list-unstyled pb-1">
+                <li>
+                    
+                    
+                    
+                        
+    <a href="/posts/etf-types-retirement-pension-investing/" class="sidebar-item text-decoration-none rounded w-100" >ETF 퇴직연금 투자방법</a>
+
+                    
+                </li>
+            </ul>
+        </li>
+    
+
+                    
+
+    
+        
+        
+    
+        <li class="mt-1 mb-1"></li>
+        <li>
+            <ul class="btn-toggle-nav list-unstyled pb-1">
+                <li>
+                    
+                    
+                    
+                        
+    <a href="/posts/etf-types-gold-investing-guide/" class="sidebar-item text-decoration-none rounded w-100" >ETF 금 투자 방법</a>
+
+                    
+                </li>
+            </ul>
+        </li>
+    
+
+                    
+
+    
+        
+        
+    
+        <li class="mt-1 mb-1"></li>
+        <li>
+            <ul class="btn-toggle-nav list-unstyled pb-1">
+                <li>
+                    
+                    
+                    
+                        
+    <a href="/posts/etf-types-covered-call-guide/" class="sidebar-item text-decoration-none rounded w-100" >ETF 커버드콜</a>
+
+                    
+                </li>
+            </ul>
+        </li>
+    
+
+                    
+
+    
+        
+        
+    
+        <li class="mt-1 mb-1"></li>
+        <li>
+            <ul class="btn-toggle-nav list-unstyled pb-1">
+                <li>
+                    
+                    
+                    
+                        
+    <a href="/posts/etf-types-inverse-leveraged-guide/" class="sidebar-item text-decoration-none rounded w-100" >ETF 인버스 레버리지</a>
+
+                    
+                </li>
+            </ul>
+        </li>
+    
+
+                    
+
+    
+        
+        
+    
+        <li class="mt-1 mb-1"></li>
+        <li>
+            <ul class="btn-toggle-nav list-unstyled pb-1">
+                <li>
+                    
+                    
+                    
+                        
+    <a href="/posts/etf-price-nav-premium-discount-tracking-error/" class="sidebar-item text-decoration-none rounded w-100 active" >ETF 가격 결정 원리</a>
+
+                    
+                </li>
+            </ul>
+        </li>
+    
+
+                    
+
+    
+        
+        
+    
+        <li class="mt-1 mb-1"></li>
+        <li>
+            <ul class="btn-toggle-nav list-unstyled pb-1">
+                <li>
+                    
+                    
+                    
+                        
+    <a href="/posts/etf-tax-guide/" class="sidebar-item text-decoration-none rounded w-100" >ETF 세금 총정리</a>
+
+                    
+                </li>
+            </ul>
+        </li>
+    
+
+            </ul>
+    </nav>
+
+
+            </div>
+            <div class="col-12 col-md-9 col-lg-8 mb-5">
+                
+                
+                    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+    
+
+        
+    
+
+
+
+
+    <nav aria-label="breadcrumb" class="d-sm-none">
+        <ol class="breadcrumb">
+                <li class="breadcrumb-item">
+                    <a href="/docs/etf/">
+                        
+
+
+
+
+
+
+                
+                        
+                        
+                        <svg class="svg-inline--fa fas fa-angle-left " fill="currentColor" aria-hidden="true" role="img" viewBox="0 0 256 512" overflow="visible"><use href="#fas-angle-left"></use></svg>&nbsp;&nbsp;ETF
+                    </a>
+                </li></ol>
+    </nav>
+
+    <nav aria-label="breadcrumb" class="d-none d-sm-block">
+        <ol class="breadcrumb">
+                
+                <li class="breadcrumb-item"><a href="/">Home</a></li>
+                
+                <li class="breadcrumb-item"><a href="/docs/etf/">ETF</a></li><li class="breadcrumb-item active" aria-current="page">
+                
+                
+                ETF 가격 결정 원리
+            </li>
+        </ol>
+    </nav>
+
+<h1 id="etf-가격-결정-원리-nav-괴리율-추적오차-쉽게-이해하기" class="display-4 pt-1">ETF 가격 결정 원리, NAV 괴리율 추적오차 쉽게 이해하기</h1>
+
+
+
+
+
+
+
+    <div class="lead text-muted py-4">ETF 가격이 어떻게 결정되는지 NAV, iNAV, 괴리율, LP, 추적오차 개념을 초보자도 이해하기 쉽게 예시와 함께 정리했다.</div>
+
+
+<div class="d-md-none pb-5">
+
+
+
+
+
+
+
+
+
+    
+        <div class="d-grid gap-2 mx-auto">
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+<a aria-label="On this page"
+        href="#toc-collapse" class="btn btn-outline-secondary position-relative toc-button"
+         data-bs-toggle="collapse" aria-expanded="false" aria-controls="toc-collapse"role="button"
+        >
+        <span class="d-flex justify-content-between">
+            <span class="my-auto">On this page</span>
+                <span class="align-self-center ps-1">
+                    
+
+
+
+
+
+
+                
+                        
+                        
+                        <svg class="svg-inline--fa fas fa-sort " fill="currentColor" aria-hidden="true" role="img" viewBox="0 0 384 512" overflow="visible"><use href="#fas-sort"></use></svg>
+                </span>
+            
+        </span></a>
+</div>
+
+        <div class="collapse border bg-body-tertiary rounded p-1 navbar-nav-scroll" id="toc-collapse">
+            <small>
+                <div class="toc toc-panel text-body p-2">
+                        <a class="toc-item toc-level-1" href="/posts/etf-price-nav-premium-discount-tracking-error/#etf-가격은-왜-일반-주식과-다를까">ETF 가격은 왜 일반 주식과 다를까?</a>
+                        <a class="toc-item toc-level-1" href="/posts/etf-price-nav-premium-discount-tracking-error/#nav와-inav-뜻">NAV와 iNAV 뜻</a>
+                        <a class="toc-item toc-level-2" href="/posts/etf-price-nav-premium-discount-tracking-error/#nav란">NAV란?</a>
+                        <a class="toc-item toc-level-2" href="/posts/etf-price-nav-premium-discount-tracking-error/#inav란">iNAV란?</a>
+                        <a class="toc-item toc-level-1" href="/posts/etf-price-nav-premium-discount-tracking-error/#괴리율-뜻과-계산-방법">괴리율 뜻과 계산 방법</a>
+                        <a class="toc-item toc-level-1" href="/posts/etf-price-nav-premium-discount-tracking-error/#lp는-etf-가격을-어떻게-잡아줄까">LP는 ETF 가격을 어떻게 잡아줄까?</a>
+                        <a class="toc-item toc-level-1" href="/posts/etf-price-nav-premium-discount-tracking-error/#추적오차는-괴리율과-무엇이-다를까">추적오차는 괴리율과 무엇이 다를까?</a>
+                        <a class="toc-item toc-level-1" href="/posts/etf-price-nav-premium-discount-tracking-error/#etf-매수-전-확인할-체크리스트">ETF 매수 전 확인할 체크리스트</a>
+                        <a class="toc-item toc-level-1" href="/posts/etf-price-nav-premium-discount-tracking-error/#정리">정리</a>
+                        <a class="toc-item toc-level-1" href="/posts/etf-price-nav-premium-discount-tracking-error/#자주-묻는-질문">자주 묻는 질문</a>
+                        <a class="toc-item toc-level-2" href="/posts/etf-price-nav-premium-discount-tracking-error/#etf-가격은-주식-가격처럼-수요와-공급으로만-정해지나">ETF 가격은 주식 가격처럼 수요와 공급으로만 정해지나?</a>
+                        <a class="toc-item toc-level-2" href="/posts/etf-price-nav-premium-discount-tracking-error/#nav와-inav-중-무엇을-더-봐야-하나">NAV와 iNAV 중 무엇을 더 봐야 하나?</a>
+                        <a class="toc-item toc-level-2" href="/posts/etf-price-nav-premium-discount-tracking-error/#괴리율이-플러스면-무조건-사면-안-되나">괴리율이 플러스면 무조건 사면 안 되나?</a>
+                        <a class="toc-item toc-level-2" href="/posts/etf-price-nav-premium-discount-tracking-error/#lp가-있으면-괴리율은-항상-0에-가까워지나">LP가 있으면 괴리율은 항상 0%에 가까워지나?</a>
+                        <a class="toc-item toc-level-2" href="/posts/etf-price-nav-premium-discount-tracking-error/#추적오차가-작으면-무조건-좋은-etf인가">추적오차가 작으면 무조건 좋은 ETF인가?</a>
+                </div>
+            </small>
+        </div>
+</div>
+                
+
+                <p>ETF는 주식처럼 장중에 바로 사고팔 수 있다. 그래서 처음 ETF를 보면 &ldquo;그냥 주식 가격처럼 수요와 공급으로 정해지는 것 아닌가?&ldquo;라고 생각하기 쉽다. 절반은 맞고 절반은 다르다. ETF도 거래소에서 매수자와 매도자가 만나 가격이 정해지지만, 그 뒤에는 ETF가 실제로 들고 있는 자산 가치가 기준으로 깔려 있다.</p>
+<p>ETF 투자에서 가격 구조를 모르면 생각보다 비싸게 사거나, 급하게 팔면서 손해를 키울 수 있다. 특히 거래량이 적은 ETF, 해외 자산을 담은 ETF, 장 시작 직후와 장 마감 직전에는 시장가격과 실제 가치의 차이가 벌어질 수 있다.</p>
+<p>이 글에서는 ETF 가격을 볼 때 꼭 알아야 하는 NAV, iNAV, 괴리율, LP, 추적오차를 초보자 기준으로 정리하였다.</p>
+<hr>
+
+
+
+<h2 id="etf-가격은-왜-일반-주식과-다를까" class="heading ">ETF 가격은 왜 일반 주식과 다를까?<a href="#etf-%ea%b0%80%ea%b2%a9%ec%9d%80-%ec%99%9c-%ec%9d%bc%eb%b0%98-%ec%a3%bc%ec%8b%9d%ea%b3%bc-%eb%8b%a4%eb%a5%bc%ea%b9%8c" aria-labelledby="etf-가격은-왜-일반-주식과-다를까">
+
+
+
+
+
+
+                
+                        
+                        
+                        <svg class="svg-inline--fa fas fa-link anchor" fill="currentColor" aria-hidden="true" role="img" viewBox="0 0 576 512" overflow="visible"><use href="#fas-link"></use></svg>&nbsp;
+    </a>
+</h2>
+<p>개별 주식의 가격은 기업에 대한 기대, 실적, 수급, 시장 분위기 등에 따라 움직인다. 삼성전자 주식을 산다면 삼성전자라는 한 기업의 가치와 투자자 심리가 가격에 크게 반영된다.</p>
+<p>ETF는 조금 다르다. ETF는 여러 주식, 채권, 원자재, 파생상품 등을 바구니처럼 담아놓은 펀드가 거래소에 상장된 형태다. 그래서 ETF 1주의 가격은 &ldquo;이 ETF가 실제로 들고 있는 자산이 얼마짜리인가&quot;라는 기준과 연결된다.</p>
+<p>예를 들어 어떤 ETF가 삼성전자, SK하이닉스, 현대차 같은 주식을 담고 있다면, ETF의 기본 가치는 그 안에 들어 있는 종목들의 현재 가치에 따라 바뀐다. 그런데 ETF 자체도 거래소에서 실시간으로 사고팔리기 때문에, 실제 매매 가격은 순간적인 주문 수급에 따라 조금씩 달라질 수 있다.</p>
+<p>즉 ETF 가격에는 두 가지 숫자가 함께 존재한다.</p>
+
+
+
+
+
+
+    
+
+
+
+
+
+
+<table class="table">
+  <thead>
+    
+      
+      <tr>
+          <th >구분</th>
+          <th >의미</th>
+      </tr>
+    
+  </thead>
+  <tbody>
+    
+      
+        <tr>
+            <td >자산 가치</td>
+            <td >ETF가 실제로 들고 있는 자산의 1주당 가치</td>
+        </tr>
+      
+    
+      
+        <tr>
+            <td >시장가격</td>
+            <td >투자자들이 거래소에서 실제로 사고파는 가격</td>
+        </tr>
+      
+  </tbody>
+</table><p>ETF를 볼 때는 시장가격만 보면 부족하다. 그 가격이 ETF의 실제 자산 가치와 비교해 적정한지도 함께 봐야 한다.</p>
+<hr>
+
+
+
+<h2 id="nav와-inav-뜻" class="heading ">NAV와 iNAV 뜻<a href="#nav%ec%99%80-inav-%eb%9c%bb" aria-labelledby="nav와-inav-뜻">
+
+
+
+
+
+
+                
+                        
+                        
+                        <svg class="svg-inline--fa fas fa-link anchor" fill="currentColor" aria-hidden="true" role="img" viewBox="0 0 576 512" overflow="visible"><use href="#fas-link"></use></svg>&nbsp;
+    </a>
+</h2>
+<p>ETF 가격 구조를 이해하려면 먼저 NAV와 iNAV를 알아야 한다. 이름은 어렵지만 개념은 단순하다.</p>
+
+
+
+<h3 id="nav란" class="heading ">NAV란?<a href="#nav%eb%9e%80" aria-labelledby="nav란">
+
+
+
+
+
+
+                
+                        
+                        
+                        <svg class="svg-inline--fa fas fa-link anchor" fill="currentColor" aria-hidden="true" role="img" viewBox="0 0 576 512" overflow="visible"><use href="#fas-link"></use></svg>&nbsp;
+    </a>
+</h3>
+<p>NAV는 Net Asset Value의 약자로 순자산가치라고 한다. ETF가 보유한 자산에서 운용 보수 같은 부채를 뺀 뒤, ETF 총 주식 수로 나눈 값이다. 쉽게 말해 ETF 1주가 이론적으로 얼마짜리인지 보여주는 기준이다.</p>
+<div class="codeblock syntax-highlight mb-3"><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-text" data-lang="text"><span style="display:flex;"><span>NAV = (ETF 보유 자산 - 부채) / ETF 총 주식 수</span></span></code></pre></div></div><p>예를 들어 어떤 ETF가 가진 자산 가치가 1,000억 원이고 부채가 10억 원이며, ETF 주식 수가 1,000만 주라면 1주당 NAV는 9,900원이 된다.</p>
+<div class="codeblock syntax-highlight mb-3"><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-text" data-lang="text"><span style="display:flex;"><span>(1,000억 원 - 10억 원) / 1,000만 주 = 9,900원</span></span></code></pre></div></div><p>다만 NAV는 보통 장 마감 후 하루에 한 번 계산된다. 그래서 증권사 앱에서 &ldquo;전일 NAV&quot;라고 표시되는 경우가 많다. 어제 장이 끝난 뒤 계산된 기준값이라는 뜻이다.</p>
+
+
+
+<h3 id="inav란" class="heading ">iNAV란?<a href="#inav%eb%9e%80" aria-labelledby="inav란">
+
+
+
+
+
+
+                
+                        
+                        
+                        <svg class="svg-inline--fa fas fa-link anchor" fill="currentColor" aria-hidden="true" role="img" viewBox="0 0 576 512" overflow="visible"><use href="#fas-link"></use></svg>&nbsp;
+    </a>
+</h3>
+<p>iNAV는 indicative Net Asset Value의 약자로 실시간 추정 순자산가치라고 보면 된다. ETF는 장중에도 계속 거래되는데 NAV가 하루 한 번만 나오면 투자 판단이 늦어질 수 있다. 그래서 장중에는 ETF가 담고 있는 자산 가격을 반영해 추정 가치인 iNAV를 제공한다.</p>
+<p>iNAV는 &ldquo;지금 이 ETF 1주의 적정 가치가 대략 얼마인가&quot;를 보여주는 실시간 참고값이다. 증권사마다 표현이 조금 다를 수 있다. 어떤 곳은 iNAV라고 쓰고, 어떤 곳은 장중 NAV, 추정 NAV, 당일 NAV처럼 표시하기도 한다.</p>
+<p>핵심은 이렇다.</p>
+
+
+
+
+
+
+    
+
+
+
+
+
+
+<table class="table">
+  <thead>
+    
+      
+      <tr>
+          <th >구분</th>
+          <th >NAV</th>
+          <th >iNAV</th>
+      </tr>
+    
+  </thead>
+  <tbody>
+    
+      
+        <tr>
+            <td >의미</td>
+            <td >ETF 1주당 순자산가치</td>
+            <td >장중 실시간 추정 순자산가치</td>
+        </tr>
+      
+    
+      
+        <tr>
+            <td >산출 시점</td>
+            <td >장 마감 후 1일 1회 중심</td>
+            <td >장중 실시간 또는 짧은 간격</td>
+        </tr>
+      
+    
+      
+        <tr>
+            <td >활용</td>
+            <td >ETF의 기준 가치 확인</td>
+            <td >현재 시장가격이 비싼지 싼지 판단</td>
+        </tr>
+      
+    
+      
+        <tr>
+            <td >주의점</td>
+            <td >전일 기준일 수 있음</td>
+            <td >추정값이라 완전히 정확하지는 않음</td>
+        </tr>
+      
+  </tbody>
+</table><p>ETF 매수 전에는 현재가만 보지 말고 iNAV와의 차이도 함께 보는 습관이 좋다.</p>
+<hr>
+
+
+
+<h2 id="괴리율-뜻과-계산-방법" class="heading ">괴리율 뜻과 계산 방법<a href="#%ea%b4%b4%eb%a6%ac%ec%9c%a8-%eb%9c%bb%ea%b3%bc-%ea%b3%84%ec%82%b0-%eb%b0%a9%eb%b2%95" aria-labelledby="괴리율-뜻과-계산-방법">
+
+
+
+
+
+
+                
+                        
+                        
+                        <svg class="svg-inline--fa fas fa-link anchor" fill="currentColor" aria-hidden="true" role="img" viewBox="0 0 576 512" overflow="visible"><use href="#fas-link"></use></svg>&nbsp;
+    </a>
+</h2>
+<p>괴리율은 ETF 시장가격과 기준 가치가 얼마나 벌어졌는지를 보여주는 비율이다. ETF가 실제 가치보다 비싸게 거래되면 플러스 괴리율, 싸게 거래되면 마이너스 괴리율로 볼 수 있다.</p>
+
+
+<img class="img-fluid "
+            src="/posts/stock/etf-nav-graph-2800x1545.png"
+             srcset="/posts/stock/etf-nav-graph-576x318.webp 576w, /posts/stock/etf-nav-graph-768x424.webp 768w, /posts/stock/etf-nav-graph-992x547.webp 992w, /posts/stock/etf-nav-graph-1200x662.webp 1200w, /posts/stock/etf-nav-graph-1400x772.webp 1400w, /posts/stock/etf-nav-graph-2800x1545.webp 2800w" sizes="100vw" height="1545" width="2800" alt="괴리율 뜻과 계산 방법">
+<div class="codeblock syntax-highlight mb-3"><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-text" data-lang="text"><span style="display:flex;"><span>괴리율 = (시장가격 - 기준가격) / 기준가격 x 100</span></span></code></pre></div></div><p>여기서 기준가격은 상황에 따라 NAV 또는 iNAV를 기준으로 볼 수 있다. 장중 투자 판단에서는 실시간에 가까운 iNAV가 더 유용하다.</p>
+<p>예를 들어 ETF의 iNAV가 10,000원인데 시장가격이 10,100원이라면 괴리율은 1%다.</p>
+<div class="codeblock syntax-highlight mb-3"><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-text" data-lang="text"><span style="display:flex;"><span>(10,100원 - 10,000원) / 10,000원 x 100 = 1%</span></span></code></pre></div></div><p>이 말은 ETF가 현재 추정 가치보다 1% 비싸게 거래되고 있다는 뜻이다. 반대로 iNAV가 10,000원인데 시장가격이 9,900원이라면 괴리율은 -1%다. 이때는 ETF가 추정 가치보다 1% 싸게 거래되고 있다고 볼 수 있다.</p>
+<p>괴리율은 숫자 자체보다 방향과 크기가 중요하다.</p>
+
+
+
+
+
+
+    
+
+
+
+
+
+
+<table class="table">
+  <thead>
+    
+      
+      <tr>
+          <th class="text-end">괴리율</th>
+          <th >해석</th>
+      </tr>
+    
+  </thead>
+  <tbody>
+    
+      
+        <tr>
+            <td class="text-end">0% 근처</td>
+            <td >시장가격과 기준 가치가 비슷함</td>
+        </tr>
+      
+    
+      
+        <tr>
+            <td class="text-end">플러스</td>
+            <td >ETF가 기준 가치보다 비싸게 거래됨</td>
+        </tr>
+      
+    
+      
+        <tr>
+            <td class="text-end">마이너스</td>
+            <td >ETF가 기준 가치보다 싸게 거래됨</td>
+        </tr>
+      
+    
+      
+        <tr>
+            <td class="text-end">절대값이 큼</td>
+            <td >가격 왜곡 가능성이 커짐</td>
+        </tr>
+      
+  </tbody>
+</table><p>괴리율이 크다고 해서 무조건 나쁜 ETF라고 단정할 수는 없다. 해외 자산 ETF는 해당 국가 시장이 열려 있지 않거나 환율이 움직이면서 일시적으로 차이가 날 수 있다. 다만 초보자라면 괴리율이 유난히 큰 시점에 시장가 주문으로 급하게 매수하는 것은 피하는 편이 낫다.</p>
+<hr>
+
+
+
+<h2 id="lp는-etf-가격을-어떻게-잡아줄까" class="heading ">LP는 ETF 가격을 어떻게 잡아줄까?<a href="#lp%eb%8a%94-etf-%ea%b0%80%ea%b2%a9%ec%9d%84-%ec%96%b4%eb%96%bb%ea%b2%8c-%ec%9e%a1%ec%95%84%ec%a4%84%ea%b9%8c" aria-labelledby="lp는-etf-가격을-어떻게-잡아줄까">
+
+
+
+
+
+
+                
+                        
+                        
+                        <svg class="svg-inline--fa fas fa-link anchor" fill="currentColor" aria-hidden="true" role="img" viewBox="0 0 576 512" overflow="visible"><use href="#fas-link"></use></svg>&nbsp;
+    </a>
+</h2>
+<p>LP는 Liquidity Provider의 약자로 유동성 공급자라고 한다. ETF 시장에서 LP는 투자자들이 너무 비싸게 사거나 너무 싸게 팔지 않도록 매수, 매도 호가를 제시하는 역할을 한다.</p>
+<p>ETF 시장가격이 iNAV보다 너무 높아지면 LP는 매도 호가를 내서 가격이 과도하게 올라가는 것을 완화한다. 반대로 ETF 시장가격이 iNAV보다 너무 낮아지면 매수 호가를 내서 가격이 지나치게 내려가는 것을 줄인다.</p>
+<p>물론 LP가 가격을 완벽하게 고정해주는 것은 아니다. 시장 상황이 급변하거나 거래가 매우 적거나 기초자산 가격 산정이 어려운 경우에는 괴리가 발생할 수 있다. 그래도 LP가 있기 때문에 일반적으로 ETF 가격은 iNAV 근처에서 움직이도록 관리된다.</p>
+<p>주의할 점은 LP가 항상 같은 강도로 호가를 내는 것은 아니라는 점이다. 특히 아래 시간대에는 LP 호가 제시 의무가 없거나 약해질 수 있어 가격이 흔들릴 수 있다.</p>
+
+
+
+
+
+
+    
+
+
+
+
+
+
+<table class="table">
+  <thead>
+    
+      
+      <tr>
+          <th >시간대</th>
+          <th >주의할 점</th>
+      </tr>
+    
+  </thead>
+  <tbody>
+    
+      
+        <tr>
+            <td >08:30~09:00</td>
+            <td >장 시작 전 동시호가 구간</td>
+        </tr>
+      
+    
+      
+        <tr>
+            <td >09:00~09:05</td>
+            <td >장 시작 직후 가격 변동이 큰 구간</td>
+        </tr>
+      
+    
+      
+        <tr>
+            <td >15:20~15:30</td>
+            <td >장 마감 전 동시호가 구간</td>
+        </tr>
+      
+  </tbody>
+</table><p>ETF를 매수하거나 매도할 때는 가능하면 장 시작 직후와 장 마감 직전의 급한 주문을 피하는 것이 좋다. 특히 시장가 주문은 예상보다 불리한 가격에 체결될 수 있으므로, 초보자라면 지정가 주문을 기본으로 사용하는 편이 안전하다.</p>
+<hr>
+
+
+
+<h2 id="추적오차는-괴리율과-무엇이-다를까" class="heading ">추적오차는 괴리율과 무엇이 다를까?<a href="#%ec%b6%94%ec%a0%81%ec%98%a4%ec%b0%a8%eb%8a%94-%ea%b4%b4%eb%a6%ac%ec%9c%a8%ea%b3%bc-%eb%ac%b4%ec%97%87%ec%9d%b4-%eb%8b%a4%eb%a5%bc%ea%b9%8c" aria-labelledby="추적오차는-괴리율과-무엇이-다를까">
+
+
+
+
+
+
+                
+                        
+                        
+                        <svg class="svg-inline--fa fas fa-link anchor" fill="currentColor" aria-hidden="true" role="img" viewBox="0 0 576 512" overflow="visible"><use href="#fas-link"></use></svg>&nbsp;
+    </a>
+</h2>
+<p>괴리율과 추적오차는 둘 다 ETF에서 자주 나오는 용어라 헷갈리기 쉽다. 하지만 보는 대상이 다르다.</p>
+<p>괴리율은 ETF의 시장가격과 NAV 또는 iNAV 사이의 차이다. 즉 &ldquo;지금 거래되는 가격이 실제 가치와 얼마나 다른가&quot;를 보는 지표다.</p>
+<p>추적오차는 ETF가 따라가려는 기초지수와 ETF의 실제 성과가 얼마나 차이 나는지를 보는 지표다. 즉 &ldquo;이 ETF가 지수를 얼마나 잘 따라가고 있는가&quot;를 보는 지표다.</p>
+<p>예를 들어 KOSPI 200을 추종하는 ETF가 있다고 하자. KOSPI 200이 1년 동안 10% 올랐는데 ETF의 순자산가치가 9.7% 올랐다면, 운용 과정에서 0.3%포인트 정도 차이가 난 것이다. 이런 차이가 계속 크게 벌어지면 ETF가 지수를 잘 따라가지 못하고 있다고 볼 수 있다.</p>
+<p>추적오차는 여러 이유로 생긴다.</p>
+<ul>
+<li>운용 보수와 기타 비용이 반영된다.</li>
+<li>지수 구성 종목을 완전히 똑같이 담기 어려울 수 있다.</li>
+<li>배당금 반영 시점이 다를 수 있다.</li>
+<li>해외 ETF는 환율과 거래 시간 차이가 영향을 줄 수 있다.</li>
+<li>레버리지, 인버스 ETF는 파생상품 운용 구조 때문에 차이가 커질 수 있다.</li>
+</ul>
+<p>초보자라면 ETF를 고를 때 수익률만 보지 말고, 같은 지수를 추종하는 ETF끼리 총보수, 거래량, 순자산 규모, 괴리율, 추적오차를 함께 비교하는 것이 좋다.</p>
+
+
+
+
+
+
+    
+
+
+
+
+
+
+<table class="table">
+  <thead>
+    
+      
+      <tr>
+          <th >구분</th>
+          <th >괴리율</th>
+          <th >추적오차</th>
+      </tr>
+    
+  </thead>
+  <tbody>
+    
+      
+        <tr>
+            <td >비교 대상</td>
+            <td >시장가격 vs NAV 또는 iNAV</td>
+            <td >ETF 성과 vs 기초지수</td>
+        </tr>
+      
+    
+      
+        <tr>
+            <td >확인 목적</td>
+            <td >지금 비싸게 사는지 확인</td>
+            <td >지수를 잘 따라가는지 확인</td>
+        </tr>
+      
+    
+      
+        <tr>
+            <td >중요 시점</td>
+            <td >매수, 매도할 때</td>
+            <td >ETF를 고를 때와 보유 중 점검할 때</td>
+        </tr>
+      
+  </tbody>
+</table><hr>
+
+
+
+<h2 id="etf-매수-전-확인할-체크리스트" class="heading ">ETF 매수 전 확인할 체크리스트<a href="#etf-%eb%a7%a4%ec%88%98-%ec%a0%84-%ed%99%95%ec%9d%b8%ed%95%a0-%ec%b2%b4%ed%81%ac%eb%a6%ac%ec%8a%a4%ed%8a%b8" aria-labelledby="etf-매수-전-확인할-체크리스트">
+
+
+
+
+
+
+                
+                        
+                        
+                        <svg class="svg-inline--fa fas fa-link anchor" fill="currentColor" aria-hidden="true" role="img" viewBox="0 0 576 512" overflow="visible"><use href="#fas-link"></use></svg>&nbsp;
+    </a>
+</h2>
+<p>ETF는 편리한 상품이지만 아무 가격에나 사도 되는 상품은 아니다. 특히 초보자는 아래 항목만 확인해도 불필요한 실수를 줄일 수 있다.</p>
+
+
+
+
+
+
+    
+
+
+
+
+
+
+<table class="table">
+  <thead>
+    
+      
+      <tr>
+          <th >체크 항목</th>
+          <th >보는 이유</th>
+      </tr>
+    
+  </thead>
+  <tbody>
+    
+      
+        <tr>
+            <td >현재가와 iNAV 차이</td>
+            <td >비싸게 매수하는지 확인</td>
+        </tr>
+      
+    
+      
+        <tr>
+            <td >괴리율</td>
+            <td >가격 왜곡 정도 확인</td>
+        </tr>
+      
+    
+      
+        <tr>
+            <td >거래량과 호가 간격</td>
+            <td >원하는 가격에 체결될 가능성 확인</td>
+        </tr>
+      
+    
+      
+        <tr>
+            <td >총보수</td>
+            <td >장기 보유 비용 확인</td>
+        </tr>
+      
+    
+      
+        <tr>
+            <td >순자산 규모</td>
+            <td >상품 안정성과 거래 편의성 확인</td>
+        </tr>
+      
+    
+      
+        <tr>
+            <td >추적오차</td>
+            <td >기초지수를 잘 따라가는지 확인</td>
+        </tr>
+      
+    
+      
+        <tr>
+            <td >환헤지 여부</td>
+            <td >해외 ETF의 환율 영향 확인</td>
+        </tr>
+      
+  </tbody>
+</table><p>실전에서는 이렇게 생각하면 쉽다. 같은 S&amp;P 500 ETF가 여러 개 있다면 무조건 최근 수익률이 가장 높은 상품만 고를 것이 아니라, 거래량이 충분한지, 보수가 낮은지, 추적오차가 크지 않은지, 괴리율이 안정적인지 확인해야 한다.</p>
+<p>매수 방식도 중요하다. ETF는 가능하면 지정가 주문을 사용하고, 장 시작 직후와 장 마감 직전에는 가격이 안정될 때까지 기다리는 편이 좋다. 특히 거래량이 적은 ETF를 시장가로 매수하면 호가가 비어 있는 구간을 타고 예상보다 높은 가격에 체결될 수 있다.</p>
+<hr>
+
+
+
+<h2 id="정리" class="heading ">정리<a href="#%ec%a0%95%eb%a6%ac" aria-labelledby="정리">
+
+
+
+
+
+
+                
+                        
+                        
+                        <svg class="svg-inline--fa fas fa-link anchor" fill="currentColor" aria-hidden="true" role="img" viewBox="0 0 576 512" overflow="visible"><use href="#fas-link"></use></svg>&nbsp;
+    </a>
+</h2>
+<p>ETF 가격은 단순히 투자자들의 수요와 공급만으로 움직이지 않는다. ETF가 보유한 자산의 가치가 기준이 되고, 실제 시장에서는 그 기준을 중심으로 매수자와 매도자가 거래하면서 가격이 형성된다.</p>
+<ul>
+<li>NAV는 ETF 1주의 순자산가치다.</li>
+<li>iNAV는 장중 실시간으로 추정한 ETF 1주의 가치다.</li>
+<li>괴리율은 시장가격과 기준 가치의 차이를 비율로 보여준다.</li>
+<li>LP는 ETF 가격이 iNAV 근처에서 움직이도록 유동성을 공급한다.</li>
+<li>추적오차는 ETF가 기초지수를 얼마나 잘 따라가는지 보여준다.</li>
+</ul>
+<p>ETF를 매수할 때 현재가만 보고 들어가면 실제 가치보다 비싸게 살 수 있다. 특히 초보자라면 iNAV, 괴리율, 거래량, 호가 간격을 함께 확인하고 지정가 주문을 사용하는 습관을 들이는 것이 좋다. ETF는 구조를 알고 나면 훨씬 편하게 활용할 수 있는 투자 도구다.</p>
+<hr>
+
+
+
+<h2 id="자주-묻는-질문" class="heading ">자주 묻는 질문<a href="#%ec%9e%90%ec%a3%bc-%eb%ac%bb%eb%8a%94-%ec%a7%88%eb%ac%b8" aria-labelledby="자주-묻는-질문">
+
+
+
+
+
+
+                
+                        
+                        
+                        <svg class="svg-inline--fa fas fa-link anchor" fill="currentColor" aria-hidden="true" role="img" viewBox="0 0 576 512" overflow="visible"><use href="#fas-link"></use></svg>&nbsp;
+    </a>
+</h2>
+
+
+
+<h3 id="etf-가격은-주식-가격처럼-수요와-공급으로만-정해지나" class="heading ">ETF 가격은 주식 가격처럼 수요와 공급으로만 정해지나?<a href="#etf-%ea%b0%80%ea%b2%a9%ec%9d%80-%ec%a3%bc%ec%8b%9d-%ea%b0%80%ea%b2%a9%ec%b2%98%eb%9f%bc-%ec%88%98%ec%9a%94%ec%99%80-%ea%b3%b5%ea%b8%89%ec%9c%bc%eb%a1%9c%eb%a7%8c-%ec%a0%95%ed%95%b4%ec%a7%80%eb%82%98" aria-labelledby="etf-가격은-주식-가격처럼-수요와-공급으로만-정해지나">
+
+
+
+
+
+
+                
+                        
+                        
+                        <svg class="svg-inline--fa fas fa-link anchor" fill="currentColor" aria-hidden="true" role="img" viewBox="0 0 576 512" overflow="visible"><use href="#fas-link"></use></svg>&nbsp;
+    </a>
+</h3>
+<p>ETF도 거래소에서 사고팔리기 때문에 시장가격은 수요와 공급의 영향을 받는다. 다만 ETF는 보유 자산의 가치인 NAV, iNAV가 기준 역할을 한다. 그래서 일반 주식보다 실제 자산 가치와의 차이를 함께 보는 것이 중요하다.</p>
+
+
+
+<h3 id="nav와-inav-중-무엇을-더-봐야-하나" class="heading ">NAV와 iNAV 중 무엇을 더 봐야 하나?<a href="#nav%ec%99%80-inav-%ec%a4%91-%eb%ac%b4%ec%97%87%ec%9d%84-%eb%8d%94-%eb%b4%90%ec%95%bc-%ed%95%98%eb%82%98" aria-labelledby="nav와-inav-중-무엇을-더-봐야-하나">
+
+
+
+
+
+
+                
+                        
+                        
+                        <svg class="svg-inline--fa fas fa-link anchor" fill="currentColor" aria-hidden="true" role="img" viewBox="0 0 576 512" overflow="visible"><use href="#fas-link"></use></svg>&nbsp;
+    </a>
+</h3>
+<p>장기적으로 ETF의 기준 가치를 이해할 때는 NAV가 중요하고, 장중 매수와 매도 판단에는 iNAV가 더 유용하다. NAV는 보통 전일 기준일 수 있으므로, 지금 매수하려는 가격이 적정한지 볼 때는 iNAV와 현재가 차이를 확인하는 편이 좋다.</p>
+
+
+
+<h3 id="괴리율이-플러스면-무조건-사면-안-되나" class="heading ">괴리율이 플러스면 무조건 사면 안 되나?<a href="#%ea%b4%b4%eb%a6%ac%ec%9c%a8%ec%9d%b4-%ed%94%8c%eb%9f%ac%ec%8a%a4%eb%a9%b4-%eb%ac%b4%ec%a1%b0%ea%b1%b4-%ec%82%ac%eb%a9%b4-%ec%95%88-%eb%90%98%eb%82%98" aria-labelledby="괴리율이-플러스면-무조건-사면-안-되나">
+
+
+
+
+
+
+                
+                        
+                        
+                        <svg class="svg-inline--fa fas fa-link anchor" fill="currentColor" aria-hidden="true" role="img" viewBox="0 0 576 512" overflow="visible"><use href="#fas-link"></use></svg>&nbsp;
+    </a>
+</h3>
+<p>무조건 피해야 하는 것은 아니다. 다만 플러스 괴리율이 크면 ETF를 실제 가치보다 비싸게 살 가능성이 있다. 특히 단기간에 급등한 ETF나 거래량이 적은 ETF는 괴리율을 확인한 뒤 지정가로 신중하게 접근하는 것이 좋다.</p>
+
+
+
+<h3 id="lp가-있으면-괴리율은-항상-0에-가까워지나" class="heading ">LP가 있으면 괴리율은 항상 0%에 가까워지나?<a href="#lp%ea%b0%80-%ec%9e%88%ec%9c%bc%eb%a9%b4-%ea%b4%b4%eb%a6%ac%ec%9c%a8%ec%9d%80-%ed%95%ad%ec%83%81-0%ec%97%90-%ea%b0%80%ea%b9%8c%ec%9b%8c%ec%a7%80%eb%82%98" aria-labelledby="lp가-있으면-괴리율은-항상-0에-가까워지나">
+
+
+
+
+
+
+                
+                        
+                        
+                        <svg class="svg-inline--fa fas fa-link anchor" fill="currentColor" aria-hidden="true" role="img" viewBox="0 0 576 512" overflow="visible"><use href="#fas-link"></use></svg>&nbsp;
+    </a>
+</h3>
+<p>대체로 괴리를 줄이는 역할을 하지만 항상 완벽하지는 않다. 시장 급변, 거래량 부족, 해외 시장 휴장, 환율 변화, 장 시작 직후와 장 마감 직전 같은 상황에서는 괴리율이 커질 수 있다.</p>
+
+
+
+<h3 id="추적오차가-작으면-무조건-좋은-etf인가" class="heading ">추적오차가 작으면 무조건 좋은 ETF인가?<a href="#%ec%b6%94%ec%a0%81%ec%98%a4%ec%b0%a8%ea%b0%80-%ec%9e%91%ec%9c%bc%eb%a9%b4-%eb%ac%b4%ec%a1%b0%ea%b1%b4-%ec%a2%8b%ec%9d%80-etf%ec%9d%b8%ea%b0%80" aria-labelledby="추적오차가-작으면-무조건-좋은-etf인가">
+
+
+
+
+
+
+                
+                        
+                        
+                        <svg class="svg-inline--fa fas fa-link anchor" fill="currentColor" aria-hidden="true" role="img" viewBox="0 0 576 512" overflow="visible"><use href="#fas-link"></use></svg>&nbsp;
+    </a>
+</h3>
+<p>추적오차가 작다는 것은 기초지수를 잘 따라간다는 뜻이므로 중요한 장점이다. 하지만 ETF를 고를 때는 추적오차만 보지 말고 총보수, 거래량, 순자산 규모, 괴리율, 세금, 환헤지 여부도 함께 확인해야 한다.</p>
+
+
+                
+                <div class="mt-5 small">
+    
+</div>
+
+            </div>
+            <div class="col col-md-3 col-lg-2 d-none d-md-block">
+                
+    <div class="toc toc-sidebar mb-5 my-md-0 mb-lg-5 pb-3 text-body-secondary sticky-top">
+        
+
+        
+            
+            
+
+
+
+
+
+
+
+
+
+            <strong class="d-block mb-2">On this page</strong>
+            <nav class="toc">
+                
+                
+                    
+                
+
+                
+                    
+                    <a  class="toc-item toc-level-1" href="/posts/etf-price-nav-premium-discount-tracking-error/#etf-가격은-왜-일반-주식과-다를까">ETF 가격은 왜 일반 주식과 다를까?</a>
+                
+                    
+                    <a  class="toc-item toc-level-1" href="/posts/etf-price-nav-premium-discount-tracking-error/#nav와-inav-뜻">NAV와 iNAV 뜻</a>
+                
+                    
+                    <a  class="toc-item toc-level-2" href="/posts/etf-price-nav-premium-discount-tracking-error/#nav란">NAV란?</a>
+                
+                    
+                    <a  class="toc-item toc-level-2" href="/posts/etf-price-nav-premium-discount-tracking-error/#inav란">iNAV란?</a>
+                
+                    
+                    <a  class="toc-item toc-level-1" href="/posts/etf-price-nav-premium-discount-tracking-error/#괴리율-뜻과-계산-방법">괴리율 뜻과 계산 방법</a>
+                
+                    
+                    <a  class="toc-item toc-level-1" href="/posts/etf-price-nav-premium-discount-tracking-error/#lp는-etf-가격을-어떻게-잡아줄까">LP는 ETF 가격을 어떻게 잡아줄까?</a>
+                
+                    
+                    <a  class="toc-item toc-level-1" href="/posts/etf-price-nav-premium-discount-tracking-error/#추적오차는-괴리율과-무엇이-다를까">추적오차는 괴리율과 무엇이 다를까?</a>
+                
+                    
+                    <a  class="toc-item toc-level-1" href="/posts/etf-price-nav-premium-discount-tracking-error/#etf-매수-전-확인할-체크리스트">ETF 매수 전 확인할 체크리스트</a>
+                
+                    
+                    <a  class="toc-item toc-level-1" href="/posts/etf-price-nav-premium-discount-tracking-error/#정리">정리</a>
+                
+                    
+                        
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+<a aria-label="Show 6 more"
+        href="#toc-collapse-items" id="btnTOCShowMore" class="btn btn-link link-primary position-relative toc-item" data-bs-toggle="collapse" aria-expanded="false" aria-controls="toc-collapse-items"role="button"
+        >
+        <span class="d-flex justify-content-start">
+            <span class="my-auto">Show 6 more</span>
+        </span></a>
+
+                        <div class="collapse" id="toc-collapse-items">
+                        
+                    <a  class="toc-item toc-level-1" href="/posts/etf-price-nav-premium-discount-tracking-error/#자주-묻는-질문">자주 묻는 질문</a>
+                
+                    
+                    <a  class="toc-item toc-level-2" href="/posts/etf-price-nav-premium-discount-tracking-error/#etf-가격은-주식-가격처럼-수요와-공급으로만-정해지나">ETF 가격은 주식 가격처럼 수요와 공급으로만 정해지나?</a>
+                
+                    
+                    <a  class="toc-item toc-level-2" href="/posts/etf-price-nav-premium-discount-tracking-error/#nav와-inav-중-무엇을-더-봐야-하나">NAV와 iNAV 중 무엇을 더 봐야 하나?</a>
+                
+                    
+                    <a  class="toc-item toc-level-2" href="/posts/etf-price-nav-premium-discount-tracking-error/#괴리율이-플러스면-무조건-사면-안-되나">괴리율이 플러스면 무조건 사면 안 되나?</a>
+                
+                    
+                    <a  class="toc-item toc-level-2" href="/posts/etf-price-nav-premium-discount-tracking-error/#lp가-있으면-괴리율은-항상-0에-가까워지나">LP가 있으면 괴리율은 항상 0%에 가까워지나?</a>
+                
+                    
+                    <a  class="toc-item toc-level-2" href="/posts/etf-price-nav-premium-discount-tracking-error/#추적오차가-작으면-무조건-좋은-etf인가">추적오차가 작으면 무조건 좋은 ETF인가?</a>
+                
+
+                
+                    &nbsp;
+                    
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+<a aria-label="Show less"
+        href="#toc-collapse-items" id="btnTOCShowLess" class="btn btn-link link-primary position-relative toc-item" data-bs-toggle="collapse" aria-expanded="false" aria-controls="toc-collapse-items"role="button"
+        >
+        <span class="d-flex justify-content-start">
+            <span class="my-auto">Show less</span>
+        </span></a>
+
+                </div>
+            </nav>
+        
+    
+
+
+
+        </div>
+
+
+            </div>
+        </div>
+    </div>
+</main>
+
+<footer class="container-fluid footer text-center p-3">
+    <div class="container-xxl text-center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8543127460401091"
+     crossorigin="anonymous"></script>
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-8543127460401091"
+     data-ad-slot="3689386360"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+        <small>
+            Copyright © 2026 Show Me the Money::devkuma All rights reserved.
+             |
+            
+                
+                Powered by 
+    <a href="https://gethinode.com" class="link-bg-footer"  target="_blank" rel="noopener noreferrer nofollow">Hinode</a>
+.
+            
+        </small>
+    </div>
+</footer>
+<div id="toast-container" class="toast-container position-fixed bottom-0 end-0 p-3">
+
+
+
+
+
+
+
+
+<div id="toast-copied-code-message" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+    <div class="toast-header">
+        <strong class="me-auto">Show Me the Money::devkuma</strong>
+        <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+    </div>
+    <div class="toast-body">Code copied to clipboard</div>
+</div>
+</div>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" display="none">
+        <symbol id="fas-ellipsis" overflow="visible" viewBox="0 0 448 512"><path fill="currentColor" d="M0 256a56 56 0 1 1 112 0 56 56 0 1 1 -112 0zm168 0a56 56 0 1 1 112 0 56 56 0 1 1 -112 0zm224-56a56 56 0 1 1 0 112 56 56 0 1 1 0-112z"/></symbol>
+<symbol id="fas-sun" overflow="visible" viewBox="0 0 576 512"><path fill="currentColor" d="M288-32c8.4 0 16.3 4.4 20.6 11.7L364.1 72.3 468.9 46c8.2-2 16.9 .4 22.8 6.3S500 67 498 75.1l-26.3 104.7 92.7 55.5c7.2 4.3 11.7 12.2 11.7 20.6s-4.4 16.3-11.7 20.6L471.7 332.1 498 436.8c2 8.2-.4 16.9-6.3 22.8S477 468 468.9 466l-104.7-26.3-55.5 92.7c-4.3 7.2-12.2 11.7-20.6 11.7s-16.3-4.4-20.6-11.7L211.9 439.7 107.2 466c-8.2 2-16.8-.4-22.8-6.3S76 445 78 436.8l26.2-104.7-92.6-55.5C4.4 272.2 0 264.4 0 256s4.4-16.3 11.7-20.6L104.3 179.9 78 75.1c-2-8.2 .3-16.8 6.3-22.8S99 44 107.2 46l104.7 26.2 55.5-92.6 1.8-2.6c4.5-5.7 11.4-9.1 18.8-9.1zm0 144a144 144 0 1 0 0 288 144 144 0 1 0 0-288zm0 240a96 96 0 1 1 0-192 96 96 0 1 1 0 192z"/></symbol>
+<symbol id="fas-moon" overflow="visible" viewBox="0 0 512 512"><path fill="currentColor" d="M256 0C114.6 0 0 114.6 0 256S114.6 512 256 512c68.8 0 131.3-27.2 177.3-71.4 7.3-7 9.4-17.9 5.3-27.1s-13.7-14.9-23.8-14.1c-4.9 .4-9.8 .6-14.8 .6-101.6 0-184-82.4-184-184 0-72.1 41.5-134.6 102.1-164.8 9.1-4.5 14.3-14.3 13.1-24.4S322.6 8.5 312.7 6.3C294.4 2.2 275.4 0 256 0z"/></symbol>
+<symbol id="fas-angle-left" overflow="visible" viewBox="0 0 256 512"><path fill="currentColor" d="M9.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L77.3 256 214.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z"/></symbol>
+<symbol id="fas-sort" overflow="visible" viewBox="0 0 384 512"><path fill="currentColor" d="M2.4 204.2c5 12 16.6 19.8 29.6 19.8l320 0c12.9 0 24.6-7.8 29.6-19.8s2.2-25.7-6.9-34.9l-160-160c-12.5-12.5-32.8-12.5-45.3 0l-160 160c-9.2 9.2-11.9 22.9-6.9 34.9zm0 103.5c-5 12-2.2 25.7 6.9 34.9l160 160c12.5 12.5 32.8 12.5 45.3 0l160-160c9.2-9.2 11.9-22.9 6.9-34.9S364.9 288 352 288L32 288c-12.9 0-24.6 7.8-29.6 19.8z"/></symbol>
+<symbol id="fas-link" overflow="visible" viewBox="0 0 576 512"><path fill="currentColor" d="M419.5 96c-16.6 0-32.7 4.5-46.8 12.7-15.8-16-34.2-29.4-54.5-39.5 28.2-24 64.1-37.2 101.3-37.2 86.4 0 156.5 70 156.5 156.5 0 41.5-16.5 81.3-45.8 110.6l-71.1 71.1c-29.3 29.3-69.1 45.8-110.6 45.8-86.4 0-156.5-70-156.5-156.5 0-1.5 0-3 .1-4.5 .5-17.7 15.2-31.6 32.9-31.1s31.6 15.2 31.1 32.9c0 .9 0 1.8 0 2.6 0 51.1 41.4 92.5 92.5 92.5 24.5 0 48-9.7 65.4-27.1l71.1-71.1c17.3-17.3 27.1-40.9 27.1-65.4 0-51.1-41.4-92.5-92.5-92.5zM275.2 173.3c-1.9-.8-3.8-1.9-5.5-3.1-12.6-6.5-27-10.2-42.1-10.2-24.5 0-48 9.7-65.4 27.1L91.1 258.2c-17.3 17.3-27.1 40.9-27.1 65.4 0 51.1 41.4 92.5 92.5 92.5 16.5 0 32.6-4.4 46.7-12.6 15.8 16 34.2 29.4 54.6 39.5-28.2 23.9-64 37.2-101.3 37.2-86.4 0-156.5-70-156.5-156.5 0-41.5 16.5-81.3 45.8-110.6l71.1-71.1c29.3-29.3 69.1-45.8 110.6-45.8 86.6 0 156.5 70.6 156.5 156.9 0 1.3 0 2.6 0 3.9-.4 17.7-15.1 31.6-32.8 31.2s-31.6-15.1-31.2-32.8c0-.8 0-1.5 0-2.3 0-33.7-18-63.3-44.8-79.6z"/></symbol>
+    </svg>
+
+  
+    
+
+  
+
+
+<script src="/js/core.bundle-analytics.ko.min.bef138a0b0039c16630a4767e923e751563c440bb5d0c7c226422e8df10640e9.js"
+         data-category="analytics" integrity="sha256-vvE4oLADnBZjCkdn6SPnUVY8RAu10MfCJkIujfEGQOk=" crossorigin="anonymous" async></script>
+
+<script src="/js/core.bundle.ko.min.a554bd5c9ff440be0f6e199d4aa159d2d44f7b3bab63ddf7364826d277825926.js"
+         integrity="sha256-pVS9XJ/0QL4PbhmdSqFZ0tRPezurY933Nkgm0neCWSY=" crossorigin="anonymous" async></script></body>
+</html>
