@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>파생상품 on Show Me the Money::devkuma</title>
+    <link>https://money.devkuma.com/tags/%ED%8C%8C%EC%83%9D%EC%83%81%ED%92%88/</link>
+    <description>Recent content in 파생상품 on Show Me the Money::devkuma</description>
+    <generator>Hugo</generator>
+    <language>ko-KR</language>
+    <lastBuildDate>Sun, 24 May 2026 12:20:54 +0900</lastBuildDate>
+    <atom:link href="https://money.devkuma.com/tags/%ED%8C%8C%EC%83%9D%EC%83%81%ED%92%88/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>인버스 레버리지 ETF 뜻과 투자방법, 초보자가 꼭 알아야 할 위험</title>
+      <link>https://money.devkuma.com/posts/etf-types-inverse-leveraged-guide/</link>
+      <pubDate>Sun, 24 May 2026 12:20:54 +0900</pubDate>
+      <guid>https://money.devkuma.com/posts/etf-types-inverse-leveraged-guide/</guid>
+      <description>&lt;p&gt;주식시장이 크게 오르거나 빠질 때마다 인버스 ETF와 레버리지 ETF가 검색어에 자주 오른다. 시장이 내려갈 것 같으면 인버스, 시장이 강하게 오를 것 같으면 레버리지에 관심이 생긴다. 이름만 보면 방향만 맞히면 쉽게 수익을 낼 수 있을 것 같지만, 실제 구조는 생각보다 까다롭다.&lt;/p&gt;&#xA;&lt;p&gt;인버스와 레버리지는 모두 기초지수의 &amp;ldquo;하루 수익률&amp;quot;을 기준으로 움직이도록 설계된 파생형 ETF다. 여기서 중요한 말은 하루 수익률이다. 한 달이나 1년 동안 지수가 10% 올랐다고 해서 레버리지 ETF가 정확히 20% 오르는 구조가 아니다. 매일 수익률을 다시 계산하기 때문에 시장이 오르락내리락하면 예상과 다른 결과가 나올 수 있다.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>콜옵션 풋옵션 뜻과 차이, 초보자가 이해하기 쉬운 옵션 기초</title>
+      <link>https://money.devkuma.com/posts/call-option-put-option/</link>
+      <pubDate>Thu, 14 May 2026 21:53:49 +0900</pubDate>
+      <guid>https://money.devkuma.com/posts/call-option-put-option/</guid>
+      <description>&lt;p&gt;주식 공부를 하다 보면 콜옵션, 풋옵션이라는 말을 한 번쯤 듣게 된다. 뉴스에서는 경영권 분쟁, 임원 보상, 파생상품 투자, 커버드콜 ETF 같은 이야기와 함께 자주 나온다. 2024년에는 민희진 전 어도어 대표의 풋옵션 이슈가 알려지면서 &amp;ldquo;풋옵션이 대체 뭐길래 1,000억 원대라는 말이 나오지?&amp;ldquo;라고 궁금해한 사람도 많았다.&lt;/p&gt;&#xA;&lt;p&gt;옵션은 말 그대로 &amp;ldquo;권리&amp;quot;다. 미래의 특정 시점에 어떤 자산을 미리 정한 가격으로 사거나 팔 수 있는 권리를 말한다. 주식뿐 아니라 채권, 금, 원유, 지수 같은 여러 자산이 옵션의 대상이 될 수 있다.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

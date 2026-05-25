@@ -1,0 +1,1717 @@
+
+
+
+<!doctype html>
+<html lang="ko" class="no-js">
+    <head>
+
+<script src="/js/critical.bundle.min.a8c0814b35e0a7b1a8e5265b551bde6d5e4bb321db28f493d51366366c118c70.js"
+         integrity="sha256-qMCBSzXgp7Go5SZbVRvebV5LsyHbKPST1RNmNmwRjHA=" crossorigin="anonymous"></script><meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="generator" content="Hugo 0.161.1">
+    <meta name="theme" content="Hinode 1.23.7">
+    
+
+
+
+
+
+    
+    
+<link rel="stylesheet" href="/css/main.min.61f5e816e4941e747285305e469159a3667ccbbe555246fa1e88b99feb18e4c2.css" integrity="sha256-YfXoFuSUHnRyhTBeRpFZo2Z8y75VUkb6Hoi5n+sY5MI=" crossorigin="anonymous">
+    
+        
+    
+    
+        
+        
+             
+            <link rel="preload" href="/fonts/inter-v12-latin-regular.woff2" as="font" type="font/woff2" crossorigin>
+        
+
+
+
+    
+    
+    
+
+
+
+
+
+
+    
+  <meta name="robots" content="index, follow">
+    <meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta name="bingbot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <title>기준금리가 오르면 예금금리와 대출금리는 왜 같이 움직일까 - Show Me the Money::devkuma </title>
+    <meta name="description" content="기준금리의 뜻과 예금금리, 대출금리의 차이, 기준금리 인상과 인하가 은행 예금과 대출 이자에 반영되는 과정을 초보자도 이해하기 쉽게 정리했다.">
+
+<meta property="og:locale" content="en_US">
+<meta property="og:type" content="article">
+<meta property="og:title" content="기준금리가 오르면 예금금리와 대출금리는 왜 같이 움직일까">
+<meta property="og:description" content="기준금리의 뜻과 예금금리, 대출금리의 차이, 기준금리 인상과 인하가 은행 예금과 대출 이자에 반영되는 과정을 초보자도 이해하기 쉽게 정리했다.">
+
+<meta property="og:url" content="https://money.devkuma.com/posts/base-rate-deposit-loan-interest/">
+<meta property="og:site_name" content="Show Me the Money::devkuma">
+<meta property="article:published_time" content="2026-05-06T23:32:08+09:00">
+    <meta property="article:modified_time" content="2026-05-06T23:32:08+09:00">
+    <meta property="og:image" content="https://money.devkuma.com/posts/finance/bank-graph-1280x640.png">
+<meta property="og:image:alt" content="기준금리가 오르면 예금금리와 대출금리는 왜 같이 움직일까">
+
+
+
+<meta name="twitter:card" content="summary_large_image">
+
+
+<meta name="twitter:title" content="기준금리가 오르면 예금금리와 대출금리는 왜 같이 움직일까">
+<meta name="twitter:description" content="기준금리의 뜻과 예금금리, 대출금리의 차이, 기준금리 인상과 인하가 은행 예금과 대출 이자에 반영되는 과정을 초보자도 이해하기 쉽게 정리했다.">
+<meta name="twitter:image" content="https://money.devkuma.com/posts/finance/bank-graph-1280x640.png">
+<meta name="twitter:image:alt" content="기준금리가 오르면 예금금리와 대출금리는 왜 같이 움직일까">
+
+
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+        "@id": "https://money.devkuma.com/#/schema/organization/1",
+      "name": "Hinode",
+      "url": "https://money.devkuma.com/",
+      "sameAs": [null,"https://github.com/gethinode/hinode"],
+      "logo": {
+          "@type": "ImageObject",
+          "@id": "https://money.devkuma.com/#/schema/image/1",
+          "url": "https://money.devkuma.com/favicons/512x512.png",
+          "width": 512 ,
+          "height": 512 ,
+          "caption": "Hinode"
+        },
+        "image": {
+          "@id": "https://money.devkuma.com/#/schema/image/1"
+        }
+      },
+    {
+      "@type": "WebSite",
+      "@id": "https://money.devkuma.com/#/schema/website/1",
+      "url": "https://money.devkuma.com/",
+      "name": "Show Me the Money::devkuma",
+      "description": "Hinode is a clean documentation and blog theme for your Hugo site based on Bootstrap 5.",
+      "publisher": {
+          "@id": "https://money.devkuma.com/#/schema/organization/1"
+        }
+      },
+    {
+      "@type": "WebPage",
+      "@id": "https://money.devkuma.com/posts/base-rate-deposit-loan-interest/",
+      "url": "https://money.devkuma.com/posts/base-rate-deposit-loan-interest/",
+      "name": "기준금리가 오르면 예금금리와 대출금리는 왜 같이 움직일까",
+      "description": "기준금리의 뜻과 예금금리, 대출금리의 차이, 기준금리 인상과 인하가 은행 예금과 대출 이자에 반영되는 과정을 초보자도 이해하기 쉽게 정리했다.",
+      "isPartOf": {
+        "@id": "https://money.devkuma.com/#/schema/website/1"
+      },
+      "about": {
+          "@id": "https://money.devkuma.com/#/schema/organization/1"
+        },
+      "datePublished": "2026-05-06T23:32:08CET","dateModified": "2026-05-06T23:32:08CET","breadcrumb": {
+        "@id": "https://money.devkuma.com/posts/base-rate-deposit-loan-interest/#/schema/breadcrumb/1"
+      },
+      "primaryImageOfPage": {
+        "@id": "https://money.devkuma.com/posts/base-rate-deposit-loan-interest/#/schema/image/2"
+      },
+      "inLanguage": "en-US",
+      "potentialAction": [{
+        "@type": "ReadAction", "target": ["https://money.devkuma.com/posts/base-rate-deposit-loan-interest/"]
+      }]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://money.devkuma.com/posts/base-rate-deposit-loan-interest/#/schema/breadcrumb/1",
+      "name": "Breadcrumbs",
+      "itemListElement": [{
+        "@type": "ListItem",
+        "position":  1 ,
+        "item": {
+          "@type": "WebPage",
+          "@id": "https://money.devkuma.com/",
+          "url": "https://money.devkuma.com/",
+          "name": "Home"
+          }
+        },{
+        "@type": "ListItem",
+        "position":  2 ,
+        "item": {
+          "@type": "WebPage",
+          "@id": "https://money.devkuma.com/posts/",
+          "url": "https://money.devkuma.com/posts/",
+          "name": "Posts"
+          }
+        },{
+        "@type": "ListItem",
+        "position":  3 ,
+        "item": {
+          "@id": "https://money.devkuma.com/posts/base-rate-deposit-loan-interest/"
+          }
+        }]
+    },
+
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "ImageObject",
+          "@id": "https://money.devkuma.com/posts/base-rate-deposit-loan-interest/#/schema/image/2",
+          "url": "https://money.devkuma.com/posts/finance/bank-graph-1280x640.png",
+          "contentUrl": "https://money.devkuma.com/posts/finance/bank-graph-1280x640.png",
+          "caption": "기준금리가 오르면 예금금리와 대출금리는 왜 같이 움직일까"
+        }
+      ]
+    }
+
+  ]
+}
+</script>
+
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicons/favicon-96x96_hu_bcafd75a361bcb2.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicons/favicon-96x96_hu_ef780cd502e896ea.png">
+        <link rel="icon" type="image/png" sizes="48x48" href="/favicons/favicon-96x96_hu_8f60ad9056f52802.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="/favicons/favicon-96x96_hu_a6aa36da47e45ca3.png">
+    
+
+</head><body class="navbar-fixed">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        
+        
+        
+    
+
+
+
+
+<div class="container-fluid fixed-top p-0">
+
+
+
+
+
+<nav class="navbar px-4 py-4 navbar-fs-6 navbar-md-fs bg-body navbar-fixed-top navbar-expand-md"
+        
+        
+        >
+        <div class="container-xxl p-0">
+            <div class="d-flex navbar-container">
+                
+                <div class="d-flex align-items-center">
+                            <button class="navbar-toggler collapsed p-0 mx-auto invisible fw-30" type="button">
+
+
+
+
+
+
+                
+                        
+                        
+                        <svg class="svg-inline--fa fas fa-ellipsis fa-fw" fill="currentColor" aria-hidden="true" role="img" viewBox="0 0 448 512" overflow="visible"><use href="#fas-ellipsis"></use></svg></button></div>
+                
+
+                <div class="w-100 d-flex align-items-center w-md-auto">
+                    <a class="navbar-brand mx-auto" href="/" aria-label="Home">
+    
+    
+
+
+<img class="img-fluid m-auto"
+            src="/img/logo_icon-2800x2800.png"
+             srcset="/img/logo_icon-576x576.webp 576w, /img/logo_icon-768x768.webp 768w, /img/logo_icon-992x992.webp 992w, /img/logo_icon-1200x1200.webp 1200w, /img/logo_icon-1400x1400.webp 1400w, /img/logo_icon-2800x2800.webp 2800w" sizes="100vw" height="30" width="30" alt="Show Me the Money::devkuma"></a>
+                </div>
+                <div class="d-flex align-items-center">
+                    <button class="navbar-toggler main-nav-toggler collapsed p-0" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbar-0-collapse"
+                        aria-controls="navbar-0" aria-expanded="false" aria-label="Toggle main navigation">
+                        <span class="toggler-icon top-bar emphasis"></span>
+                        <span class="toggler-icon middle-bar emphasis"></span>
+                        <span class="toggler-icon bottom-bar emphasis"></span>
+                    </button>
+                </div>
+            </div>
+    
+            <div class="navbar-collapse collapse" id="navbar-0-collapse">
+                
+                    <div class="d-flex flex-fill ms-md-3 mt-4 mt-md-0 me-md-3">
+    <form class="search flex-fill position-relative me-auto">
+        <input class="search-input form-control is-search" type="search" placeholder="" aria-label="" autocomplete="off" name="search-input">
+        <div class="search-suggestions shadow bg-body rounded d-none" data-no-results=""></div>
+    </form>
+</div>
+
+                <ul class="navbar-nav navbar-nav-scroll ms-auto">
+                    
+        
+            <li class="nav-item ">
+
+
+
+
+
+
+
+
+    
+
+
+    
+    
+
+    
+        <a
+            class="nav-link"
+            
+            data-nav="main" data-nav-main="home"
+             href="/"
+            
+            
+            ><span class=" d-md-none ">Home</span>
+            
+            <span class=" d-none d-md-block">Home</span>
+            
+        </a>
+    
+</li>
+        
+            <li class="nav-item ">
+
+
+
+
+
+
+
+
+    
+
+
+    
+    
+
+    
+        <a
+            class="nav-link"
+            
+            data-nav="main" data-nav-main="%EB%89%B4%EC%8A%A4"
+             href="/news/"
+            
+            
+            ><span class=" d-md-none ">뉴스</span>
+            
+            <span class=" d-none d-md-block">뉴스</span>
+            
+        </a>
+    
+</li>
+        
+            <li class="nav-item ">
+
+
+
+
+
+
+
+
+    
+
+
+    
+    
+
+    
+        <a
+            class="nav-link"
+            
+            data-nav="main" data-nav-main="%EA%B2%BD%EC%A0%9C"
+             href="/posts/economy/"
+            
+            
+            ><span class=" d-md-none ">경제</span>
+            
+            <span class=" d-none d-md-block">경제</span>
+            
+        </a>
+    
+</li>
+        
+            <li class="nav-item ">
+
+
+
+
+
+
+
+
+    
+
+
+    
+    
+
+    
+        <a
+            class="nav-link"
+            
+            data-nav="main" data-nav-main="%EA%B8%88%EC%9C%B5"
+             href="/posts/finance/"
+            
+            
+            ><span class=" d-md-none ">금융</span>
+            
+            <span class=" d-none d-md-block">금융</span>
+            
+        </a>
+    
+</li>
+        
+            <li class="nav-item ">
+
+
+
+
+
+
+
+
+    
+
+
+    
+    
+
+    
+        <a
+            class="nav-link"
+            
+            data-nav="main" data-nav-main="%EC%A3%BC%EC%8B%9D"
+             href="/posts/stock/"
+            
+            
+            ><span class=" d-md-none ">주식</span>
+            
+            <span class=" d-none d-md-block">주식</span>
+            
+        </a>
+    
+</li>
+        
+            <li class="nav-item ">
+
+
+
+
+
+
+
+
+    
+
+
+    
+    
+
+    
+        <a
+            class="nav-link"
+            
+            data-nav="main" data-nav-main="%EC%B1%84%EA%B6%8C"
+             href="/posts/bond/"
+            
+            
+            ><span class=" d-md-none ">채권</span>
+            
+            <span class=" d-none d-md-block">채권</span>
+            
+        </a>
+    
+</li>
+        
+            <li class="nav-item ">
+
+
+
+
+
+
+
+
+    
+
+
+    
+    
+
+    
+        <a
+            class="nav-link"
+            
+            data-nav="main" data-nav-main="%EC%BD%94%EC%9D%B8"
+             href="/posts/coin/"
+            
+            
+            ><span class=" d-md-none ">코인</span>
+            
+            <span class=" d-none d-md-block">코인</span>
+            
+        </a>
+    
+</li>
+        
+            <li class="nav-item ">
+
+
+
+
+
+
+
+
+    
+
+
+    
+    
+
+    
+        <a
+            class="nav-link"
+            
+            data-nav="main" data-nav-main="%EB%8C%80%EC%B6%9C"
+             href="/posts/loan/"
+            
+            
+            ><span class=" d-md-none ">대출</span>
+            
+            <span class=" d-none d-md-block">대출</span>
+            
+        </a>
+    
+</li>
+        
+            <li class="nav-item ">
+
+
+
+
+
+
+
+
+    
+
+
+    
+    
+
+    
+        <a
+            class="nav-link"
+            
+            data-nav="main" data-nav-main="%EB%B6%80%EB%8F%99%EC%82%B0"
+             href="/posts/real-estate/"
+            
+            
+            ><span class=" d-md-none ">부동산</span>
+            
+            <span class=" d-none d-md-block">부동산</span>
+            
+        </a>
+    
+</li>
+        
+            <li class="nav-item ">
+
+
+
+
+
+
+
+
+    
+
+
+    
+    
+
+    
+        <a
+            class="nav-link"
+            
+            data-nav="main" data-nav-main="%EB%B3%B4%ED%97%98"
+             href="/posts/insurance/"
+            
+            
+            ><span class=" d-md-none ">보험</span>
+            
+            <span class=" d-none d-md-block">보험</span>
+            
+        </a>
+    
+</li>
+        
+            <li class="nav-item ">
+
+
+
+
+
+
+
+
+    
+
+
+    
+    
+
+    
+        <a
+            class="nav-link"
+            
+            data-nav="main" data-nav-main="%EC%84%B8%EA%B8%88"
+             href="/posts/tax/"
+            
+            
+            ><span class=" d-md-none ">세금</span>
+            
+            <span class=" d-none d-md-block">세금</span>
+            
+        </a>
+    
+</li>
+        
+            <li class="nav-item ">
+
+
+
+
+
+
+
+
+    
+
+
+    
+    
+
+    
+        <a
+            class="nav-link"
+            
+            data-nav="main" data-nav-main="about-me"
+             href="/about/"
+            
+            
+            ><span class=" d-md-none ">About Me</span>
+            
+            <span class=" d-none d-md-block">About Me</span>
+            
+        </a>
+    
+</li>
+        
+            <li class="nav-item ">
+
+
+
+
+
+
+
+
+    
+
+
+    
+    
+
+    
+        <a
+            class="nav-link"
+            
+            data-nav="main" data-nav-main="tags"
+             href="/tags/"
+            
+            
+            ><span class=" d-md-none ">Tags</span>
+            
+            <span class=" d-none d-md-block">Tags</span>
+            
+        </a>
+    
+</li>
+    
+                    
+                    
+                    
+                                    
+                    <li class="nav-link navbar-fs-6 navbar-md-fs d-flex mode-switch align-items-center" id="navbar-mode">
+    <input type="checkbox" class="checkbox navbar-mode-selector" id="navbar-mode-checkbox" aria-label="Toggle theme" />
+    <label class="label" for="navbar-mode-checkbox">
+        
+
+
+
+
+
+
+                
+                        
+                        
+                        <svg class="svg-inline--fa fas fa-sun fa-fw" fill="currentColor" aria-hidden="true" role="img" viewBox="0 0 576 512" overflow="visible"><use href="#fas-sun"></use></svg>
+
+
+
+
+
+
+                
+                        
+                        
+                        <svg class="svg-inline--fa fas fa-moon fa-fw" fill="currentColor" aria-hidden="true" role="img" viewBox="0 0 512 512" overflow="visible"><use href="#fas-moon"></use></svg>
+            <div class="ball"></div>
+        
+    </label>
+</li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</div>
+<main id="container" class="main">
+                
+
+    
+    
+    
+    
+    
+        <div class="container-xxl flex-fill py-4 px-4 px-xxl-0">
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3">
+                <div class="col col-lg-2 d-none d-lg-block sidebar-overflow sticky-top p-0">
+                    
+                </div>
+                <div class="col-12 col-md-9 col-lg-8 mb-5">
+                    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+    
+
+        
+    
+
+        
+    
+
+
+
+
+    <nav aria-label="breadcrumb" class="d-sm-none">
+        <ol class="breadcrumb">
+                <li class="breadcrumb-item">
+                    <a href="/posts/finance/">
+                        
+
+
+
+
+
+
+                
+                        
+                        
+                        <svg class="svg-inline--fa fas fa-angle-left " fill="currentColor" aria-hidden="true" role="img" viewBox="0 0 256 512" overflow="visible"><use href="#fas-angle-left"></use></svg>&nbsp;&nbsp;금융
+                    </a>
+                </li></ol>
+    </nav>
+
+    <nav aria-label="breadcrumb" class="d-none d-sm-block">
+        <ol class="breadcrumb">
+                
+                <li class="breadcrumb-item"><a href="/">Home</a></li>
+                
+                <li class="breadcrumb-item"><a href="/posts/">금융의 모든 지식!</a></li>
+                
+                <li class="breadcrumb-item"><a href="/posts/finance/">금융</a></li><li class="breadcrumb-item active" aria-current="page">
+                
+                
+                기준금리가 오르면 예금금리와 대출금리는 왜 같이 움직일까
+            </li>
+        </ol>
+    </nav>
+
+<h1 id="기준금리가-오르면-예금금리와-대출금리는-왜-같이-움직일까" class="display-4 pt-1">기준금리가 오르면 예금금리와 대출금리는 왜 같이 움직일까</h1>
+
+
+    <small class="text-body-secondary text-uppercase">
+            
+                Posted on 2026년 5월 6일
+            &bull;
+        
+            6&nbsp;min read
+            &bull;
+        1,243&nbsp;words
+    </small>
+
+<div class="mt-3">
+        <div class="d-none-dark">
+            <div class="hstack gap-1">
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+<a aria-label="기준금리"
+        href="/tags/%EA%B8%B0%EC%A4%80%EA%B8%88%EB%A6%AC/" class="btn btn-light btn-sm position-relative "
+        role="button"
+        >
+        <span class="d-flex justify-content-start">
+            <span class="my-auto">기준금리</span>
+        </span></a>&nbsp;
+
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+<a aria-label="예금금리"
+        href="/tags/%EC%98%88%EA%B8%88%EA%B8%88%EB%A6%AC/" class="btn btn-light btn-sm position-relative "
+        role="button"
+        >
+        <span class="d-flex justify-content-start">
+            <span class="my-auto">예금금리</span>
+        </span></a>&nbsp;
+
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+<a aria-label="대출금리"
+        href="/tags/%EB%8C%80%EC%B6%9C%EA%B8%88%EB%A6%AC/" class="btn btn-light btn-sm position-relative "
+        role="button"
+        >
+        <span class="d-flex justify-content-start">
+            <span class="my-auto">대출금리</span>
+        </span></a>&nbsp;
+
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+<a aria-label="시장금리"
+        href="/tags/%EC%8B%9C%EC%9E%A5%EA%B8%88%EB%A6%AC/" class="btn btn-light btn-sm position-relative "
+        role="button"
+        >
+        <span class="d-flex justify-content-start">
+            <span class="my-auto">시장금리</span>
+        </span></a>&nbsp;
+
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+<a aria-label="코픽스"
+        href="/tags/%EC%BD%94%ED%94%BD%EC%8A%A4/" class="btn btn-light btn-sm position-relative "
+        role="button"
+        >
+        <span class="d-flex justify-content-start">
+            <span class="my-auto">코픽스</span>
+        </span></a>&nbsp;
+
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+<a aria-label="금융기초"
+        href="/tags/%EA%B8%88%EC%9C%B5%EA%B8%B0%EC%B4%88/" class="btn btn-light btn-sm position-relative "
+        role="button"
+        >
+        <span class="d-flex justify-content-start">
+            <span class="my-auto">금융기초</span>
+        </span></a>&nbsp;
+
+                </div>
+        </div>
+        
+        <div class="d-none-light">
+            <div class="hstack gap-1">
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+<a aria-label="기준금리"
+        href="/tags/%EA%B8%B0%EC%A4%80%EA%B8%88%EB%A6%AC/" class="btn btn-outline-primary btn-sm position-relative "
+        role="button"
+        >
+        <span class="d-flex justify-content-start">
+            <span class="my-auto">기준금리</span>
+        </span></a>&nbsp;
+
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+<a aria-label="예금금리"
+        href="/tags/%EC%98%88%EA%B8%88%EA%B8%88%EB%A6%AC/" class="btn btn-outline-primary btn-sm position-relative "
+        role="button"
+        >
+        <span class="d-flex justify-content-start">
+            <span class="my-auto">예금금리</span>
+        </span></a>&nbsp;
+
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+<a aria-label="대출금리"
+        href="/tags/%EB%8C%80%EC%B6%9C%EA%B8%88%EB%A6%AC/" class="btn btn-outline-primary btn-sm position-relative "
+        role="button"
+        >
+        <span class="d-flex justify-content-start">
+            <span class="my-auto">대출금리</span>
+        </span></a>&nbsp;
+
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+<a aria-label="시장금리"
+        href="/tags/%EC%8B%9C%EC%9E%A5%EA%B8%88%EB%A6%AC/" class="btn btn-outline-primary btn-sm position-relative "
+        role="button"
+        >
+        <span class="d-flex justify-content-start">
+            <span class="my-auto">시장금리</span>
+        </span></a>&nbsp;
+
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+<a aria-label="코픽스"
+        href="/tags/%EC%BD%94%ED%94%BD%EC%8A%A4/" class="btn btn-outline-primary btn-sm position-relative "
+        role="button"
+        >
+        <span class="d-flex justify-content-start">
+            <span class="my-auto">코픽스</span>
+        </span></a>&nbsp;
+
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+<a aria-label="금융기초"
+        href="/tags/%EA%B8%88%EC%9C%B5%EA%B8%B0%EC%B4%88/" class="btn btn-outline-primary btn-sm position-relative "
+        role="button"
+        >
+        <span class="d-flex justify-content-start">
+            <span class="my-auto">금융기초</span>
+        </span></a>&nbsp;
+
+                </div>
+        </div>
+    </div>
+
+    <div class="lead text-muted py-4">기준금리의 뜻과 예금금리, 대출금리의 차이, 기준금리 인상과 인하가 은행 예금과 대출 이자에 반영되는 과정을 초보자도 이해하기 쉽게 정리했다.</div>
+
+
+<div class="d-md-none pb-5">
+
+
+
+
+
+
+
+
+
+    
+        <div class="d-grid gap-2 mx-auto">
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+<a aria-label="On this page"
+        href="#toc-collapse" class="btn btn-outline-secondary position-relative toc-button"
+         data-bs-toggle="collapse" aria-expanded="false" aria-controls="toc-collapse"role="button"
+        >
+        <span class="d-flex justify-content-between">
+            <span class="my-auto">On this page</span>
+                <span class="align-self-center ps-1">
+                    
+
+
+
+
+
+
+                
+                        
+                        
+                        <svg class="svg-inline--fa fas fa-sort " fill="currentColor" aria-hidden="true" role="img" viewBox="0 0 384 512" overflow="visible"><use href="#fas-sort"></use></svg>
+                </span>
+            
+        </span></a>
+</div>
+
+        <div class="collapse border bg-body-tertiary rounded p-1 navbar-nav-scroll" id="toc-collapse">
+            <small>
+                <div class="toc toc-panel text-body p-2">
+                        <a class="toc-item toc-level-1" href="/posts/base-rate-deposit-loan-interest/#기준금리란-무엇인가">기준금리란 무엇인가</a>
+                        <a class="toc-item toc-level-1" href="/posts/base-rate-deposit-loan-interest/#예금금리와-대출금리는-무엇이-다를까">예금금리와 대출금리는 무엇이 다를까</a>
+                        <a class="toc-item toc-level-1" href="/posts/base-rate-deposit-loan-interest/#기준금리가-오르면-왜-예금금리도-오를까">기준금리가 오르면 왜 예금금리도 오를까</a>
+                        <a class="toc-item toc-level-1" href="/posts/base-rate-deposit-loan-interest/#기준금리가-오르면-왜-대출금리도-오를까">기준금리가 오르면 왜 대출금리도 오를까</a>
+                        <a class="toc-item toc-level-1" href="/posts/base-rate-deposit-loan-interest/#예금금리와-대출금리가-같은-속도로-움직이지-않는-이유">예금금리와 대출금리가 같은 속도로 움직이지 않는 이유</a>
+                        <a class="toc-item toc-level-1" href="/posts/base-rate-deposit-loan-interest/#금리-변화를-볼-때-개인이-확인할-것">금리 변화를 볼 때 개인이 확인할 것</a>
+                        <a class="toc-item toc-level-1" href="/posts/base-rate-deposit-loan-interest/#정리">정리</a>
+                        <a class="toc-item toc-level-1" href="/posts/base-rate-deposit-loan-interest/#자주-묻는-질문">자주 묻는 질문</a>
+                        <a class="toc-item toc-level-2" href="/posts/base-rate-deposit-loan-interest/#기준금리가-오르면-내-예금금리도-바로-오를까">기준금리가 오르면 내 예금금리도 바로 오를까?</a>
+                        <a class="toc-item toc-level-2" href="/posts/base-rate-deposit-loan-interest/#기준금리가-내려가면-대출금리도-바로-내려갈까">기준금리가 내려가면 대출금리도 바로 내려갈까?</a>
+                        <a class="toc-item toc-level-2" href="/posts/base-rate-deposit-loan-interest/#예금금리보다-대출금리가-더-높은-이유는-무엇일까">예금금리보다 대출금리가 더 높은 이유는 무엇일까?</a>
+                </div>
+            </small>
+        </div>
+</div>
+
+                    
+
+
+
+<div class="img-wrap mb-5"><img class="img-fluid rounded"
+            src="/posts/finance/bank-graph-2800x1200.png"
+             fetchpriority="high" srcset="/posts/finance/bank-graph-576x247.webp 576w, /posts/finance/bank-graph-768x329.webp 768w, /posts/finance/bank-graph-992x425.webp 992w, /posts/finance/bank-graph-1200x514.webp 1200w, /posts/finance/bank-graph-1400x600.webp 1400w, /posts/finance/bank-graph-2800x1200.webp 2800w" sizes="100vw" height="1200" width="2800" alt="기준금리가 오르면 예금금리와 대출금리는 왜 같이 움직일까"></div><p>뉴스에서 &ldquo;한국은행이 기준금리를 올렸다&quot;는 말을 들으면 바로 궁금해진다. 그러면 내 예금 이자도 오를까. 대출 이자는 언제부터 늘어날까. 은행 앱에서 보는 금리는 왜 뉴스에 나온 기준금리와 숫자가 다를까.</p>
+<p>금리는 돈의 가격이다. 돈을 맡기는 사람에게는 이자가 수익이고, 돈을 빌리는 사람에게는 이자가 비용이다. 그래서 기준금리가 움직이면 예금금리와 대출금리도 영향을 받는다. 다만 버튼을 누르듯이 동시에 똑같이 움직이는 것은 아니다.</p>
+<p>이 글에서는 기준금리가 무엇인지, 예금금리와 대출금리는 무엇이 다른지, 기준금리가 오를 때 왜 예금과 대출 금리가 같이 움직일 수 있는지 쉽게 정리하였다.</p>
+<hr>
+
+
+
+<h2 id="기준금리란-무엇인가" class="heading ">기준금리란 무엇인가<a href="#%ea%b8%b0%ec%a4%80%ea%b8%88%eb%a6%ac%eb%9e%80-%eb%ac%b4%ec%97%87%ec%9d%b8%ea%b0%80" aria-labelledby="기준금리란-무엇인가">
+
+
+
+
+
+
+                
+                        
+                        
+                        <svg class="svg-inline--fa fas fa-link anchor" fill="currentColor" aria-hidden="true" role="img" viewBox="0 0 576 512" overflow="visible"><use href="#fas-link"></use></svg>&nbsp;
+    </a>
+</h2>
+<p>기준금리는 한 나라의 중앙은행이 정하는 금리의 기준점이다. 한국에서는 한국은행 금융통화위원회가 기준금리를 결정한다. 쉽게 말하면 시중의 돈 흐름을 조절하기 위해 중앙은행이 제시하는 &ldquo;가장 중요한 출발 금리&quot;라고 보면 된다.</p>
+<p>기준금리는 경제 전체에 영향을 준다. 경기가 너무 뜨겁고 물가가 빠르게 오르면 한국은행은 기준금리를 올려 돈을 빌리기 어렵게 만들 수 있다. 반대로 경기가 너무 위축되고 소비와 투자가 줄어들면 기준금리를 내려 돈이 더 잘 돌도록 유도할 수 있다.</p>
+<p>기준금리가 중요한 이유는 은행, 기업, 개인이 실제로 거래하는 여러 금리의 기준이 되기 때문이다. 예금금리, 대출금리, 채권금리, 금융채 금리, 코픽스 같은 시장금리는 기준금리의 영향을 받는다.</p>
+<p>다만 기준금리와 내가 은행에서 실제로 보는 금리는 같은 숫자가 아니다.</p>
+
+
+
+
+
+
+    
+
+
+
+
+
+
+<table class="table">
+  <thead>
+    
+      
+      <tr>
+          <th >구분</th>
+          <th >뜻</th>
+      </tr>
+    
+  </thead>
+  <tbody>
+    
+      
+        <tr>
+            <td >기준금리</td>
+            <td >한국은행이 정하는 통화정책의 기준 금리</td>
+        </tr>
+      
+    
+      
+        <tr>
+            <td >시장금리</td>
+            <td >금융시장에서 실제 거래되며 움직이는 금리</td>
+        </tr>
+      
+    
+      
+        <tr>
+            <td >예금금리</td>
+            <td >은행이 예금자에게 주는 이자율</td>
+        </tr>
+      
+    
+      
+        <tr>
+            <td >대출금리</td>
+            <td >은행이 돈을 빌려주는 사람에게 받는 이자율</td>
+        </tr>
+      
+  </tbody>
+</table><p>기준금리는 출발점이고, 예금금리와 대출금리는 그 영향을 받은 결과물에 가깝다.</p>
+<hr>
+
+
+
+<h2 id="예금금리와-대출금리는-무엇이-다를까" class="heading ">예금금리와 대출금리는 무엇이 다를까<a href="#%ec%98%88%ea%b8%88%ea%b8%88%eb%a6%ac%ec%99%80-%eb%8c%80%ec%b6%9c%ea%b8%88%eb%a6%ac%eb%8a%94-%eb%ac%b4%ec%97%87%ec%9d%b4-%eb%8b%a4%eb%a5%bc%ea%b9%8c" aria-labelledby="예금금리와-대출금리는-무엇이-다를까">
+
+
+
+
+
+
+                
+                        
+                        
+                        <svg class="svg-inline--fa fas fa-link anchor" fill="currentColor" aria-hidden="true" role="img" viewBox="0 0 576 512" overflow="visible"><use href="#fas-link"></use></svg>&nbsp;
+    </a>
+</h2>
+<p>예금금리는 내가 은행에 돈을 맡길 때 받는 금리다. 은행 입장에서는 예금이 돈을 빌리는 행위와 비슷하다. 고객에게 돈을 맡아두고, 그 대가로 이자를 지급한다. 그래서 예금금리는 은행이 돈을 모으기 위해 지불하는 비용이다.</p>
+<p>예를 들어 정기예금 금리가 연 4%라면, 은행은 고객의 돈을 1년 동안 맡아두는 대신 약속한 이자를 지급한다. 고객 입장에서는 이자 수익이고, 은행 입장에서는 자금 조달 비용이다.</p>
+<p>반대로 대출금리는 은행이 고객에게 돈을 빌려줄 때 받는 금리다. 대출을 받은 사람에게는 비용이고, 은행에게는 수익이 된다.</p>
+<p>대출금리는 보통 다음 구조로 이해하면 쉽다.</p>
+<div class="codeblock syntax-highlight mb-3"><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-text" data-lang="text"><span style="display:flex;"><span>대출금리 = 기준이 되는 금리 + 가산금리 - 우대금리</span></span></code></pre></div></div><p>여기서 기준이 되는 금리는 코픽스, 금융채 금리, CD금리처럼 상품마다 다를 수 있다. 가산금리는 은행의 비용, 위험, 고객 신용도, 담보 조건 등이 반영되는 부분이다. 우대금리는 급여 이체, 카드 사용, 자동이체 같은 조건을 충족하면 빼주는 금리다.</p>
+<p>그래서 기준금리가 내려도 내 대출금리가 바로 똑같이 내려가지 않을 수 있다. 기준이 되는 금리의 반영 시점, 변동주기, 은행의 가산금리, 내 우대금리 조건이 함께 작동하기 때문이다.</p>
+<hr>
+
+
+
+<h2 id="기준금리가-오르면-왜-예금금리도-오를까" class="heading ">기준금리가 오르면 왜 예금금리도 오를까<a href="#%ea%b8%b0%ec%a4%80%ea%b8%88%eb%a6%ac%ea%b0%80-%ec%98%a4%eb%a5%b4%eb%a9%b4-%ec%99%9c-%ec%98%88%ea%b8%88%ea%b8%88%eb%a6%ac%eb%8f%84-%ec%98%a4%eb%a5%bc%ea%b9%8c" aria-labelledby="기준금리가-오르면-왜-예금금리도-오를까">
+
+
+
+
+
+
+                
+                        
+                        
+                        <svg class="svg-inline--fa fas fa-link anchor" fill="currentColor" aria-hidden="true" role="img" viewBox="0 0 576 512" overflow="visible"><use href="#fas-link"></use></svg>&nbsp;
+    </a>
+</h2>
+<p>기준금리가 오르면 은행이 돈을 구하는 비용이 전반적으로 올라간다. 은행도 돈이 있어야 대출을 해줄 수 있다. 돈을 구하는 방법은 여러 가지다. 고객 예금을 모을 수도 있고, 은행채를 발행해 시장에서 자금을 조달할 수도 있다.</p>
+<p>기준금리가 올라 시장금리도 오르면, 은행은 고객의 예금을 끌어오기 위해 예금금리를 올릴 유인이 생긴다. 고객 입장에서는 더 높은 금리를 주는 은행으로 돈을 옮길 수 있기 때문이다.</p>
+<p>예를 들어 A은행은 정기예금 금리를 3%로 주고, B은행은 4%로 준다고 해보자. 조건이 비슷하다면 많은 사람은 B은행으로 돈을 옮기려 할 것이다. 그러면 A은행도 예금을 모으기 위해 금리를 올릴 수밖에 없다.</p>
+<p>하지만 예금금리가 항상 기준금리만큼 바로 오르는 것은 아니다. 은행이 이미 충분한 예금을 가지고 있거나, 은행채 발행 같은 다른 방법으로 싸게 돈을 구할 수 있다면 예금금리를 크게 올리지 않을 수 있다. 금융당국의 정책 방향이나 은행 간 경쟁 강도도 영향을 준다.</p>
+<p>어느 기사에서도 예금금리가 내려가는데 대출금리는 높게 유지되는 상황을 설명하면서, 은행채 금리와 은행의 자금 조달 필요성이 예금금리에 영향을 준다고 다루었다. 즉, 예금금리는 기준금리만 보는 것이 아니라 은행이 지금 얼마나 돈을 필요로 하는지도 함께 봐야 한다.</p>
+
+
+<img class="img-fluid "
+            src="/posts/finance/bank-money-2800x1431.png"
+             srcset="/posts/finance/bank-money-576x294.webp 576w, /posts/finance/bank-money-768x393.webp 768w, /posts/finance/bank-money-992x507.webp 992w, /posts/finance/bank-money-1200x613.webp 1200w, /posts/finance/bank-money-1400x716.webp 1400w, /posts/finance/bank-money-2800x1431.webp 2800w" sizes="100vw" height="1431" width="2800" alt="은행과 돈 이미지">
+<hr>
+
+
+
+<h2 id="기준금리가-오르면-왜-대출금리도-오를까" class="heading ">기준금리가 오르면 왜 대출금리도 오를까<a href="#%ea%b8%b0%ec%a4%80%ea%b8%88%eb%a6%ac%ea%b0%80-%ec%98%a4%eb%a5%b4%eb%a9%b4-%ec%99%9c-%eb%8c%80%ec%b6%9c%ea%b8%88%eb%a6%ac%eb%8f%84-%ec%98%a4%eb%a5%bc%ea%b9%8c" aria-labelledby="기준금리가-오르면-왜-대출금리도-오를까">
+
+
+
+
+
+
+                
+                        
+                        
+                        <svg class="svg-inline--fa fas fa-link anchor" fill="currentColor" aria-hidden="true" role="img" viewBox="0 0 576 512" overflow="visible"><use href="#fas-link"></use></svg>&nbsp;
+    </a>
+</h2>
+<p>대출금리는 은행이 돈을 빌려주는 가격이다. 은행이 돈을 구하는 비용이 올라가면, 고객에게 빌려주는 돈의 가격도 올라갈 가능성이 크다.</p>
+<p>예를 들어 은행이 돈을 조달하는 비용이 연 3%인데 대출을 연 3.2%로만 내준다면, 은행은 위험과 운영비를 감당하기 어렵다. 그래서 은행은 조달 비용에 가산금리를 붙여 대출금리를 정한다.</p>
+<p>기준금리가 오르면 금융채 금리, 코픽스, CD금리 같은 대출의 준거금리가 같이 오를 수 있다. 그러면 변동금리 대출은 정해진 변동주기에 맞춰 금리가 올라갈 수 있다.</p>
+<p>특히 주택담보대출 변동금리는 코픽스의 영향을 받는 경우가 많다. 코픽스는 은행이 실제로 돈을 조달하는 데 든 비용을 반영한 지표다. 예금금리와 은행채 금리 같은 조달 비용이 오르면 코픽스도 영향을 받을 수 있고, 이것이 대출금리에 반영될 수 있다.</p>
+<p>다만 대출금리도 예금금리처럼 바로 똑같이 움직이지 않는다. 대출 종류마다 기준이 다르고, 변동주기도 다르다.</p>
+
+
+
+
+
+
+    
+
+
+
+
+
+
+<table class="table">
+  <thead>
+    
+      
+      <tr>
+          <th >대출 유형</th>
+          <th >금리 반영 방식</th>
+      </tr>
+    
+  </thead>
+  <tbody>
+    
+      
+        <tr>
+            <td >변동금리 대출</td>
+            <td >코픽스, 금융채 등 준거금리가 변동주기에 따라 반영</td>
+        </tr>
+      
+    
+      
+        <tr>
+            <td >고정금리 대출</td>
+            <td >약정 기간 동안 금리가 유지되는 경우가 많음</td>
+        </tr>
+      
+    
+      
+        <tr>
+            <td >혼합금리 대출</td>
+            <td >일정 기간 고정 후 변동금리로 전환</td>
+        </tr>
+      
+    
+      
+        <tr>
+            <td >신용대출</td>
+            <td >금융채 금리, 은행 정책, 개인 신용도 영향</td>
+        </tr>
+      
+  </tbody>
+</table><p>그래서 같은 기준금리 인상 뉴스가 나와도 어떤 사람은 대출 이자가 바로 늘고, 어떤 사람은 몇 달 뒤 반영되고, 어떤 사람은 고정금리라 당장은 변하지 않을 수 있다.</p>
+<hr>
+
+
+
+<h2 id="예금금리와-대출금리가-같은-속도로-움직이지-않는-이유" class="heading ">예금금리와 대출금리가 같은 속도로 움직이지 않는 이유<a href="#%ec%98%88%ea%b8%88%ea%b8%88%eb%a6%ac%ec%99%80-%eb%8c%80%ec%b6%9c%ea%b8%88%eb%a6%ac%ea%b0%80-%ea%b0%99%ec%9d%80-%ec%86%8d%eb%8f%84%eb%a1%9c-%ec%9b%80%ec%a7%81%ec%9d%b4%ec%a7%80-%ec%95%8a%eb%8a%94-%ec%9d%b4%ec%9c%a0" aria-labelledby="예금금리와-대출금리가-같은-속도로-움직이지-않는-이유">
+
+
+
+
+
+
+                
+                        
+                        
+                        <svg class="svg-inline--fa fas fa-link anchor" fill="currentColor" aria-hidden="true" role="img" viewBox="0 0 576 512" overflow="visible"><use href="#fas-link"></use></svg>&nbsp;
+    </a>
+</h2>
+<p>많은 사람이 헷갈리는 지점은 이것이다. 기준금리가 오르면 예금금리와 대출금리가 같이 오를 수는 있지만, 같은 폭과 같은 속도로 움직이지는 않는다.</p>
+<p>첫 번째 이유는 은행의 조달 구조가 다르기 때문이다. 은행은 예금만으로 돈을 마련하지 않는다. 은행채, 금융시장 차입, 기존 예금, 자기자본 등 여러 방식으로 자금을 조달한다. 어느 쪽 비용이 더 싼지에 따라 예금금리 조정 폭이 달라질 수 있다.</p>
+<p>두 번째 이유는 대출금리 안에 가산금리가 있기 때문이다. 대출금리는 단순히 기준금리만 더해서 정해지지 않는다. 고객의 신용도, 담보 안정성, 은행의 리스크 관리, 영업 전략이 반영된다. 그래서 기준금리가 그대로여도 가산금리가 오르면 대출금리는 올라갈 수 있다.</p>
+<p>세 번째 이유는 상품의 적용 시점이 다르기 때문이다. 새로 가입하는 정기예금은 금리가 빨리 바뀔 수 있지만, 이미 가입한 정기예금은 만기까지 약정금리가 유지된다. 대출도 고정금리인지 변동금리인지, 변동주기가 3개월인지 6개월인지에 따라 체감 시점이 달라진다.</p>
+<p>네 번째 이유는 은행 간 경쟁과 정책 환경이다. 은행들이 예금을 많이 모아야 하는 시기에는 예금금리를 더 공격적으로 올릴 수 있다. 반대로 대출 수요가 줄고 자금이 충분하면 예금금리 인상 폭이 작을 수 있다.</p>
+<p>결국 기준금리는 방향을 만드는 큰 신호이고, 실제 예금금리와 대출금리는 여러 조건을 거쳐 결정된다.</p>
+<hr>
+
+
+
+<h2 id="금리-변화를-볼-때-개인이-확인할-것" class="heading ">금리 변화를 볼 때 개인이 확인할 것<a href="#%ea%b8%88%eb%a6%ac-%eb%b3%80%ed%99%94%eb%a5%bc-%eb%b3%bc-%eb%95%8c-%ea%b0%9c%ec%9d%b8%ec%9d%b4-%ed%99%95%ec%9d%b8%ed%95%a0-%ea%b2%83" aria-labelledby="금리-변화를-볼-때-개인이-확인할-것">
+
+
+
+
+
+
+                
+                        
+                        
+                        <svg class="svg-inline--fa fas fa-link anchor" fill="currentColor" aria-hidden="true" role="img" viewBox="0 0 576 512" overflow="visible"><use href="#fas-link"></use></svg>&nbsp;
+    </a>
+</h2>
+<p>기준금리가 오르거나 내려갈 때는 뉴스 제목만 보고 판단하기보다 내 금융상품에 어떻게 반영되는지 확인해야 한다.</p>
+<p>예금을 가진 사람은 신규 가입 금리와 기존 가입 금리를 나누어 봐야 한다. 이미 가입한 정기예금은 대부분 만기까지 약정금리가 유지된다. 기준금리가 올랐다고 해서 기존 예금 이자가 자동으로 올라가는 것은 아니다. 새로 가입하거나 만기 후 재예치할 때 적용 금리를 확인해야 한다.</p>
+<p>대출을 가진 사람은 대출 약정서를 확인해야 한다. 내가 고정금리인지 변동금리인지, 변동금리라면 기준이 코픽스인지 금융채인지, 변동주기가 몇 개월인지 봐야 한다.</p>
+<p>확인할 항목은 다음과 같다.</p>
+<ul>
+<li>내 예금은 고정금리인지, 회전식인지 확인한다.</li>
+<li>새 예금 가입 전에는 세전금리와 세후금리를 함께 본다.</li>
+<li>내 대출이 고정금리인지 변동금리인지 확인한다.</li>
+<li>변동금리라면 기준금리, 변동주기, 다음 금리 변경일을 확인한다.</li>
+<li>대출금리는 가산금리와 우대금리 조건까지 함께 본다.</li>
+<li>금리가 오르는 시기에는 만기 짧은 대출과 고금리 대출부터 점검한다.</li>
+</ul>
+<p>특히 대출이 있다면 &ldquo;기준금리가 얼마나 올랐나&quot;보다 &ldquo;내 월 상환액이 얼마나 늘어나는가&quot;를 계산하는 것이 더 중요하다. 예금은 금리가 오르면 반갑지만, 대출은 현금흐름에 바로 부담이 될 수 있기 때문이다.</p>
+<hr>
+
+
+
+<h2 id="정리" class="heading ">정리<a href="#%ec%a0%95%eb%a6%ac" aria-labelledby="정리">
+
+
+
+
+
+
+                
+                        
+                        
+                        <svg class="svg-inline--fa fas fa-link anchor" fill="currentColor" aria-hidden="true" role="img" viewBox="0 0 576 512" overflow="visible"><use href="#fas-link"></use></svg>&nbsp;
+    </a>
+</h2>
+<p>기준금리는 한국은행이 정하는 금리의 기준점이고, 예금금리와 대출금리는 은행과 고객 사이에서 실제로 적용되는 금리다. 기준금리가 오르면 시장금리와 은행의 조달비용이 올라가면서 예금금리와 대출금리도 함께 움직일 수 있다.</p>
+<p>핵심만 다시 정리하면 이렇다.</p>
+<ul>
+<li>기준금리는 한국은행이 정하는 금리의 출발점이다.</li>
+<li>예금금리는 은행이 고객의 돈을 맡기 위해 지급하는 이자율이다.</li>
+<li>대출금리는 은행이 고객에게 돈을 빌려주며 받는 이자율이다.</li>
+<li>기준금리가 오르면 은행의 자금 조달 비용이 올라 예금금리와 대출금리에 영향을 줄 수 있다.</li>
+<li>실제 금리는 코픽스, 금융채, 가산금리, 우대금리, 은행 경쟁 상황에 따라 다르게 움직인다.</li>
+<li>기존 예금과 기존 대출은 상품 구조와 약정 조건에 따라 반영 시점이 다르다.</li>
+</ul>
+<p>기준금리 뉴스를 볼 때는 &ldquo;금리가 올랐다&quot;에서 멈추지 말고, 내 예금과 대출이 어떤 방식으로 연결되어 있는지 확인해야 한다. 금리를 이해하면 예금 갈아타기, 대출 상환, 고정금리와 변동금리 선택을 훨씬 현실적으로 판단할 수 있다.</p>
+
+
+
+<h2 id="자주-묻는-질문" class="heading ">자주 묻는 질문<a href="#%ec%9e%90%ec%a3%bc-%eb%ac%bb%eb%8a%94-%ec%a7%88%eb%ac%b8" aria-labelledby="자주-묻는-질문">
+
+
+
+
+
+
+                
+                        
+                        
+                        <svg class="svg-inline--fa fas fa-link anchor" fill="currentColor" aria-hidden="true" role="img" viewBox="0 0 576 512" overflow="visible"><use href="#fas-link"></use></svg>&nbsp;
+    </a>
+</h2>
+
+
+
+<h3 id="기준금리가-오르면-내-예금금리도-바로-오를까" class="heading ">기준금리가 오르면 내 예금금리도 바로 오를까?<a href="#%ea%b8%b0%ec%a4%80%ea%b8%88%eb%a6%ac%ea%b0%80-%ec%98%a4%eb%a5%b4%eb%a9%b4-%eb%82%b4-%ec%98%88%ea%b8%88%ea%b8%88%eb%a6%ac%eb%8f%84-%eb%b0%94%eb%a1%9c-%ec%98%a4%eb%a5%bc%ea%b9%8c" aria-labelledby="기준금리가-오르면-내-예금금리도-바로-오를까">
+
+
+
+
+
+
+                
+                        
+                        
+                        <svg class="svg-inline--fa fas fa-link anchor" fill="currentColor" aria-hidden="true" role="img" viewBox="0 0 576 512" overflow="visible"><use href="#fas-link"></use></svg>&nbsp;
+    </a>
+</h3>
+<p>이미 가입한 정기예금은 보통 만기까지 약정금리가 유지된다. 기준금리 인상은 주로 새로 가입하는 예금 상품이나 만기 후 재예치 금리에 먼저 반영되는 경우가 많다.</p>
+
+
+
+<h3 id="기준금리가-내려가면-대출금리도-바로-내려갈까" class="heading ">기준금리가 내려가면 대출금리도 바로 내려갈까?<a href="#%ea%b8%b0%ec%a4%80%ea%b8%88%eb%a6%ac%ea%b0%80-%eb%82%b4%eb%a0%a4%ea%b0%80%eb%a9%b4-%eb%8c%80%ec%b6%9c%ea%b8%88%eb%a6%ac%eb%8f%84-%eb%b0%94%eb%a1%9c-%eb%82%b4%eb%a0%a4%ea%b0%88%ea%b9%8c" aria-labelledby="기준금리가-내려가면-대출금리도-바로-내려갈까">
+
+
+
+
+
+
+                
+                        
+                        
+                        <svg class="svg-inline--fa fas fa-link anchor" fill="currentColor" aria-hidden="true" role="img" viewBox="0 0 576 512" overflow="visible"><use href="#fas-link"></use></svg>&nbsp;
+    </a>
+</h3>
+<p>바로 내려가지 않을 수 있다. 대출금리는 코픽스, 금융채 금리, 가산금리, 우대금리, 변동주기 영향을 받는다. 특히 변동금리 대출은 다음 금리 변경일에 반영되는 구조가 많다.</p>
+
+
+
+<h3 id="예금금리보다-대출금리가-더-높은-이유는-무엇일까" class="heading ">예금금리보다 대출금리가 더 높은 이유는 무엇일까?<a href="#%ec%98%88%ea%b8%88%ea%b8%88%eb%a6%ac%eb%b3%b4%eb%8b%a4-%eb%8c%80%ec%b6%9c%ea%b8%88%eb%a6%ac%ea%b0%80-%eb%8d%94-%eb%86%92%ec%9d%80-%ec%9d%b4%ec%9c%a0%eb%8a%94-%eb%ac%b4%ec%97%87%ec%9d%bc%ea%b9%8c" aria-labelledby="예금금리보다-대출금리가-더-높은-이유는-무엇일까">
+
+
+
+
+
+
+                
+                        
+                        
+                        <svg class="svg-inline--fa fas fa-link anchor" fill="currentColor" aria-hidden="true" role="img" viewBox="0 0 576 512" overflow="visible"><use href="#fas-link"></use></svg>&nbsp;
+    </a>
+</h3>
+<p>은행은 예금으로 돈을 조달하고 대출로 돈을 운용한다. 대출금리에는 은행의 조달비용뿐 아니라 운영비, 신용위험, 가산금리 등이 반영된다. 그래서 일반적으로 대출금리는 예금금리보다 높게 형성된다.</p>
+
+
+                    
+                    
+
+
+<div class="row row-cols-2 mt-5 mb-3">
+    <div class="col"></div>
+    <div class="col text-end"></div>
+</div>
+
+                </div>
+                <div class="col col-md-3 col-lg-2 d-none d-md-block">
+                    
+    <div class="toc toc-sidebar mb-5 my-md-0 mb-lg-5 pb-3 text-body-secondary sticky-top">
+        
+
+        
+            
+            
+
+
+
+
+
+
+
+
+
+            <strong class="d-block mb-2">On this page</strong>
+            <nav class="toc">
+                
+                
+                    
+                
+
+                
+                    
+                    <a  class="toc-item toc-level-1" href="/posts/base-rate-deposit-loan-interest/#기준금리란-무엇인가">기준금리란 무엇인가</a>
+                
+                    
+                    <a  class="toc-item toc-level-1" href="/posts/base-rate-deposit-loan-interest/#예금금리와-대출금리는-무엇이-다를까">예금금리와 대출금리는 무엇이 다를까</a>
+                
+                    
+                    <a  class="toc-item toc-level-1" href="/posts/base-rate-deposit-loan-interest/#기준금리가-오르면-왜-예금금리도-오를까">기준금리가 오르면 왜 예금금리도 오를까</a>
+                
+                    
+                    <a  class="toc-item toc-level-1" href="/posts/base-rate-deposit-loan-interest/#기준금리가-오르면-왜-대출금리도-오를까">기준금리가 오르면 왜 대출금리도 오를까</a>
+                
+                    
+                    <a  class="toc-item toc-level-1" href="/posts/base-rate-deposit-loan-interest/#예금금리와-대출금리가-같은-속도로-움직이지-않는-이유">예금금리와 대출금리가 같은 속도로 움직이지 않는 이유</a>
+                
+                    
+                    <a  class="toc-item toc-level-1" href="/posts/base-rate-deposit-loan-interest/#금리-변화를-볼-때-개인이-확인할-것">금리 변화를 볼 때 개인이 확인할 것</a>
+                
+                    
+                    <a  class="toc-item toc-level-1" href="/posts/base-rate-deposit-loan-interest/#정리">정리</a>
+                
+                    
+                    <a  class="toc-item toc-level-1" href="/posts/base-rate-deposit-loan-interest/#자주-묻는-질문">자주 묻는 질문</a>
+                
+                    
+                    <a  class="toc-item toc-level-2" href="/posts/base-rate-deposit-loan-interest/#기준금리가-오르면-내-예금금리도-바로-오를까">기준금리가 오르면 내 예금금리도 바로 오를까?</a>
+                
+                    
+                        
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+<a aria-label="Show 2 more"
+        href="#toc-collapse-items" id="btnTOCShowMore" class="btn btn-link link-primary position-relative toc-item" data-bs-toggle="collapse" aria-expanded="false" aria-controls="toc-collapse-items"role="button"
+        >
+        <span class="d-flex justify-content-start">
+            <span class="my-auto">Show 2 more</span>
+        </span></a>
+
+                        <div class="collapse" id="toc-collapse-items">
+                        
+                    <a  class="toc-item toc-level-2" href="/posts/base-rate-deposit-loan-interest/#기준금리가-내려가면-대출금리도-바로-내려갈까">기준금리가 내려가면 대출금리도 바로 내려갈까?</a>
+                
+                    
+                    <a  class="toc-item toc-level-2" href="/posts/base-rate-deposit-loan-interest/#예금금리보다-대출금리가-더-높은-이유는-무엇일까">예금금리보다 대출금리가 더 높은 이유는 무엇일까?</a>
+                
+
+                
+                    &nbsp;
+                    
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+<a aria-label="Show less"
+        href="#toc-collapse-items" id="btnTOCShowLess" class="btn btn-link link-primary position-relative toc-item" data-bs-toggle="collapse" aria-expanded="false" aria-controls="toc-collapse-items"role="button"
+        >
+        <span class="d-flex justify-content-start">
+            <span class="my-auto">Show less</span>
+        </span></a>
+
+                </div>
+            </nav>
+        
+    
+
+
+
+        </div>
+
+
+                </div>
+            </div>
+        </div>
+    
+</main>
+
+<footer class="container-fluid footer text-center p-3">
+    <div class="container-xxl text-center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8543127460401091"
+     crossorigin="anonymous"></script>
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-8543127460401091"
+     data-ad-slot="3689386360"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+        <small>
+            Copyright © 2026 Show Me the Money::devkuma All rights reserved.
+             |
+            
+                
+                Powered by 
+    <a href="https://gethinode.com" class="link-bg-footer"  target="_blank" rel="noopener noreferrer nofollow">Hinode</a>
+.
+            
+        </small>
+    </div>
+</footer>
+<div id="toast-container" class="toast-container position-fixed bottom-0 end-0 p-3">
+
+
+
+
+
+
+
+
+<div id="toast-copied-code-message" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+    <div class="toast-header">
+        <strong class="me-auto">Show Me the Money::devkuma</strong>
+        <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+    </div>
+    <div class="toast-body">Code copied to clipboard</div>
+</div>
+</div>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" display="none">
+        <symbol id="fas-ellipsis" overflow="visible" viewBox="0 0 448 512"><path fill="currentColor" d="M0 256a56 56 0 1 1 112 0 56 56 0 1 1 -112 0zm168 0a56 56 0 1 1 112 0 56 56 0 1 1 -112 0zm224-56a56 56 0 1 1 0 112 56 56 0 1 1 0-112z"/></symbol>
+<symbol id="fas-sun" overflow="visible" viewBox="0 0 576 512"><path fill="currentColor" d="M288-32c8.4 0 16.3 4.4 20.6 11.7L364.1 72.3 468.9 46c8.2-2 16.9 .4 22.8 6.3S500 67 498 75.1l-26.3 104.7 92.7 55.5c7.2 4.3 11.7 12.2 11.7 20.6s-4.4 16.3-11.7 20.6L471.7 332.1 498 436.8c2 8.2-.4 16.9-6.3 22.8S477 468 468.9 466l-104.7-26.3-55.5 92.7c-4.3 7.2-12.2 11.7-20.6 11.7s-16.3-4.4-20.6-11.7L211.9 439.7 107.2 466c-8.2 2-16.8-.4-22.8-6.3S76 445 78 436.8l26.2-104.7-92.6-55.5C4.4 272.2 0 264.4 0 256s4.4-16.3 11.7-20.6L104.3 179.9 78 75.1c-2-8.2 .3-16.8 6.3-22.8S99 44 107.2 46l104.7 26.2 55.5-92.6 1.8-2.6c4.5-5.7 11.4-9.1 18.8-9.1zm0 144a144 144 0 1 0 0 288 144 144 0 1 0 0-288zm0 240a96 96 0 1 1 0-192 96 96 0 1 1 0 192z"/></symbol>
+<symbol id="fas-moon" overflow="visible" viewBox="0 0 512 512"><path fill="currentColor" d="M256 0C114.6 0 0 114.6 0 256S114.6 512 256 512c68.8 0 131.3-27.2 177.3-71.4 7.3-7 9.4-17.9 5.3-27.1s-13.7-14.9-23.8-14.1c-4.9 .4-9.8 .6-14.8 .6-101.6 0-184-82.4-184-184 0-72.1 41.5-134.6 102.1-164.8 9.1-4.5 14.3-14.3 13.1-24.4S322.6 8.5 312.7 6.3C294.4 2.2 275.4 0 256 0z"/></symbol>
+<symbol id="fas-angle-left" overflow="visible" viewBox="0 0 256 512"><path fill="currentColor" d="M9.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L77.3 256 214.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z"/></symbol>
+<symbol id="fas-sort" overflow="visible" viewBox="0 0 384 512"><path fill="currentColor" d="M2.4 204.2c5 12 16.6 19.8 29.6 19.8l320 0c12.9 0 24.6-7.8 29.6-19.8s2.2-25.7-6.9-34.9l-160-160c-12.5-12.5-32.8-12.5-45.3 0l-160 160c-9.2 9.2-11.9 22.9-6.9 34.9zm0 103.5c-5 12-2.2 25.7 6.9 34.9l160 160c12.5 12.5 32.8 12.5 45.3 0l160-160c9.2-9.2 11.9-22.9 6.9-34.9S364.9 288 352 288L32 288c-12.9 0-24.6 7.8-29.6 19.8z"/></symbol>
+<symbol id="fas-link" overflow="visible" viewBox="0 0 576 512"><path fill="currentColor" d="M419.5 96c-16.6 0-32.7 4.5-46.8 12.7-15.8-16-34.2-29.4-54.5-39.5 28.2-24 64.1-37.2 101.3-37.2 86.4 0 156.5 70 156.5 156.5 0 41.5-16.5 81.3-45.8 110.6l-71.1 71.1c-29.3 29.3-69.1 45.8-110.6 45.8-86.4 0-156.5-70-156.5-156.5 0-1.5 0-3 .1-4.5 .5-17.7 15.2-31.6 32.9-31.1s31.6 15.2 31.1 32.9c0 .9 0 1.8 0 2.6 0 51.1 41.4 92.5 92.5 92.5 24.5 0 48-9.7 65.4-27.1l71.1-71.1c17.3-17.3 27.1-40.9 27.1-65.4 0-51.1-41.4-92.5-92.5-92.5zM275.2 173.3c-1.9-.8-3.8-1.9-5.5-3.1-12.6-6.5-27-10.2-42.1-10.2-24.5 0-48 9.7-65.4 27.1L91.1 258.2c-17.3 17.3-27.1 40.9-27.1 65.4 0 51.1 41.4 92.5 92.5 92.5 16.5 0 32.6-4.4 46.7-12.6 15.8 16 34.2 29.4 54.6 39.5-28.2 23.9-64 37.2-101.3 37.2-86.4 0-156.5-70-156.5-156.5 0-41.5 16.5-81.3 45.8-110.6l71.1-71.1c29.3-29.3 69.1-45.8 110.6-45.8 86.6 0 156.5 70.6 156.5 156.9 0 1.3 0 2.6 0 3.9-.4 17.7-15.1 31.6-32.8 31.2s-31.6-15.1-31.2-32.8c0-.8 0-1.5 0-2.3 0-33.7-18-63.3-44.8-79.6z"/></symbol>
+    </svg>
+
+  
+    
+
+  
+
+
+<script src="/js/core.bundle-analytics.ko.min.bef138a0b0039c16630a4767e923e751563c440bb5d0c7c226422e8df10640e9.js"
+         data-category="analytics" integrity="sha256-vvE4oLADnBZjCkdn6SPnUVY8RAu10MfCJkIujfEGQOk=" crossorigin="anonymous" async></script>
+
+<script src="/js/core.bundle.ko.min.81adbf62d8822e5b6f27da7fd4d73e854e61eb258f461ada35986a353112f3d0.js"
+         integrity="sha256-ga2/YtiCLltvJ9p/1Nc&#43;hU5h6yWPRhraNZhqNTES89A=" crossorigin="anonymous" async></script></body>
+</html>

@@ -1,0 +1,1578 @@
+
+
+
+<!doctype html>
+<html lang="ko" class="no-js">
+    <head>
+
+<script src="/js/critical.bundle.min.a8c0814b35e0a7b1a8e5265b551bde6d5e4bb321db28f493d51366366c118c70.js"
+         integrity="sha256-qMCBSzXgp7Go5SZbVRvebV5LsyHbKPST1RNmNmwRjHA=" crossorigin="anonymous"></script><meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="generator" content="Hugo 0.161.1">
+    <meta name="theme" content="Hinode 1.23.7">
+    
+
+
+
+
+
+    
+    
+<link rel="stylesheet" href="/css/main.min.61f5e816e4941e747285305e469159a3667ccbbe555246fa1e88b99feb18e4c2.css" integrity="sha256-YfXoFuSUHnRyhTBeRpFZo2Z8y75VUkb6Hoi5n+sY5MI=" crossorigin="anonymous">
+    
+        
+    
+    
+        
+        
+             
+            <link rel="preload" href="/fonts/inter-v12-latin-regular.woff2" as="font" type="font/woff2" crossorigin>
+        
+
+
+
+    
+    
+    
+
+
+
+
+
+
+    
+  <meta name="robots" content="index, follow">
+    <meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta name="bingbot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <title>예금과 적금 차이, 이자 계산까지 쉽게 이해하기 - Show Me the Money::devkuma </title>
+    <meta name="description" content="예금과 적금은 돈을 맡기는 방식부터 이자 계산 구조까지 다르다. 목돈이 있을 때와 매달 저축할 때 어떤 상품이 유리한지 쉽게 설명한다.">
+
+<meta property="og:locale" content="en_US">
+<meta property="og:type" content="article">
+<meta property="og:title" content="예금과 적금 차이, 이자 계산까지 쉽게 이해하기">
+<meta property="og:description" content="예금과 적금은 돈을 맡기는 방식부터 이자 계산 구조까지 다르다. 목돈이 있을 때와 매달 저축할 때 어떤 상품이 유리한지 쉽게 설명한다.">
+
+<meta property="og:url" content="https://money.devkuma.com/posts/deposit-vs-savings/">
+<meta property="og:site_name" content="Show Me the Money::devkuma">
+<meta property="article:published_time" content="2026-05-20T08:21:02+09:00">
+    <meta property="article:modified_time" content="2026-05-20T08:21:02+09:00">
+    <meta property="og:image" content="https://money.devkuma.com/posts/finance/bank-money-1280x640.png">
+<meta property="og:image:alt" content="예금과 적금 차이, 이자 계산까지 쉽게 이해하기">
+
+
+
+<meta name="twitter:card" content="summary_large_image">
+
+
+<meta name="twitter:title" content="예금과 적금 차이, 이자 계산까지 쉽게 이해하기">
+<meta name="twitter:description" content="예금과 적금은 돈을 맡기는 방식부터 이자 계산 구조까지 다르다. 목돈이 있을 때와 매달 저축할 때 어떤 상품이 유리한지 쉽게 설명한다.">
+<meta name="twitter:image" content="https://money.devkuma.com/posts/finance/bank-money-1280x640.png">
+<meta name="twitter:image:alt" content="예금과 적금 차이, 이자 계산까지 쉽게 이해하기">
+
+
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+        "@id": "https://money.devkuma.com/#/schema/organization/1",
+      "name": "Hinode",
+      "url": "https://money.devkuma.com/",
+      "sameAs": [null,"https://github.com/gethinode/hinode"],
+      "logo": {
+          "@type": "ImageObject",
+          "@id": "https://money.devkuma.com/#/schema/image/1",
+          "url": "https://money.devkuma.com/favicons/512x512.png",
+          "width": 512 ,
+          "height": 512 ,
+          "caption": "Hinode"
+        },
+        "image": {
+          "@id": "https://money.devkuma.com/#/schema/image/1"
+        }
+      },
+    {
+      "@type": "WebSite",
+      "@id": "https://money.devkuma.com/#/schema/website/1",
+      "url": "https://money.devkuma.com/",
+      "name": "Show Me the Money::devkuma",
+      "description": "Hinode is a clean documentation and blog theme for your Hugo site based on Bootstrap 5.",
+      "publisher": {
+          "@id": "https://money.devkuma.com/#/schema/organization/1"
+        }
+      },
+    {
+      "@type": "WebPage",
+      "@id": "https://money.devkuma.com/posts/deposit-vs-savings/",
+      "url": "https://money.devkuma.com/posts/deposit-vs-savings/",
+      "name": "예금과 적금 차이, 이자 계산까지 쉽게 이해하기",
+      "description": "예금과 적금은 돈을 맡기는 방식부터 이자 계산 구조까지 다르다. 목돈이 있을 때와 매달 저축할 때 어떤 상품이 유리한지 쉽게 설명한다.",
+      "isPartOf": {
+        "@id": "https://money.devkuma.com/#/schema/website/1"
+      },
+      "about": {
+          "@id": "https://money.devkuma.com/#/schema/organization/1"
+        },
+      "datePublished": "2026-05-20T08:21:02CET","dateModified": "2026-05-20T08:21:02CET","breadcrumb": {
+        "@id": "https://money.devkuma.com/posts/deposit-vs-savings/#/schema/breadcrumb/1"
+      },
+      "primaryImageOfPage": {
+        "@id": "https://money.devkuma.com/posts/deposit-vs-savings/#/schema/image/2"
+      },
+      "inLanguage": "en-US",
+      "potentialAction": [{
+        "@type": "ReadAction", "target": ["https://money.devkuma.com/posts/deposit-vs-savings/"]
+      }]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://money.devkuma.com/posts/deposit-vs-savings/#/schema/breadcrumb/1",
+      "name": "Breadcrumbs",
+      "itemListElement": [{
+        "@type": "ListItem",
+        "position":  1 ,
+        "item": {
+          "@type": "WebPage",
+          "@id": "https://money.devkuma.com/",
+          "url": "https://money.devkuma.com/",
+          "name": "Home"
+          }
+        },{
+        "@type": "ListItem",
+        "position":  2 ,
+        "item": {
+          "@type": "WebPage",
+          "@id": "https://money.devkuma.com/posts/",
+          "url": "https://money.devkuma.com/posts/",
+          "name": "Posts"
+          }
+        },{
+        "@type": "ListItem",
+        "position":  3 ,
+        "item": {
+          "@id": "https://money.devkuma.com/posts/deposit-vs-savings/"
+          }
+        }]
+    },
+
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "ImageObject",
+          "@id": "https://money.devkuma.com/posts/deposit-vs-savings/#/schema/image/2",
+          "url": "https://money.devkuma.com/posts/finance/bank-money-1280x640.png",
+          "contentUrl": "https://money.devkuma.com/posts/finance/bank-money-1280x640.png",
+          "caption": "예금과 적금 차이, 이자 계산까지 쉽게 이해하기"
+        }
+      ]
+    }
+
+  ]
+}
+</script>
+
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicons/favicon-96x96_hu_bcafd75a361bcb2.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicons/favicon-96x96_hu_ef780cd502e896ea.png">
+        <link rel="icon" type="image/png" sizes="48x48" href="/favicons/favicon-96x96_hu_8f60ad9056f52802.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="/favicons/favicon-96x96_hu_a6aa36da47e45ca3.png">
+    
+
+</head><body class="navbar-fixed">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        
+        
+        
+    
+
+
+
+
+<div class="container-fluid fixed-top p-0">
+
+
+
+
+
+<nav class="navbar px-4 py-4 navbar-fs-6 navbar-md-fs bg-body navbar-fixed-top navbar-expand-md"
+        
+        
+        >
+        <div class="container-xxl p-0">
+            <div class="d-flex navbar-container">
+                
+                <div class="d-flex align-items-center">
+                            <button class="navbar-toggler collapsed p-0 mx-auto invisible fw-30" type="button">
+
+
+
+
+
+
+                
+                        
+                        
+                        <svg class="svg-inline--fa fas fa-ellipsis fa-fw" fill="currentColor" aria-hidden="true" role="img" viewBox="0 0 448 512" overflow="visible"><use href="#fas-ellipsis"></use></svg></button></div>
+                
+
+                <div class="w-100 d-flex align-items-center w-md-auto">
+                    <a class="navbar-brand mx-auto" href="/" aria-label="Home">
+    
+    
+
+
+<img class="img-fluid m-auto"
+            src="/img/logo_icon-2800x2800.png"
+             srcset="/img/logo_icon-576x576.webp 576w, /img/logo_icon-768x768.webp 768w, /img/logo_icon-992x992.webp 992w, /img/logo_icon-1200x1200.webp 1200w, /img/logo_icon-1400x1400.webp 1400w, /img/logo_icon-2800x2800.webp 2800w" sizes="100vw" height="30" width="30" alt="Show Me the Money::devkuma"></a>
+                </div>
+                <div class="d-flex align-items-center">
+                    <button class="navbar-toggler main-nav-toggler collapsed p-0" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbar-0-collapse"
+                        aria-controls="navbar-0" aria-expanded="false" aria-label="Toggle main navigation">
+                        <span class="toggler-icon top-bar emphasis"></span>
+                        <span class="toggler-icon middle-bar emphasis"></span>
+                        <span class="toggler-icon bottom-bar emphasis"></span>
+                    </button>
+                </div>
+            </div>
+    
+            <div class="navbar-collapse collapse" id="navbar-0-collapse">
+                
+                    <div class="d-flex flex-fill ms-md-3 mt-4 mt-md-0 me-md-3">
+    <form class="search flex-fill position-relative me-auto">
+        <input class="search-input form-control is-search" type="search" placeholder="" aria-label="" autocomplete="off" name="search-input">
+        <div class="search-suggestions shadow bg-body rounded d-none" data-no-results=""></div>
+    </form>
+</div>
+
+                <ul class="navbar-nav navbar-nav-scroll ms-auto">
+                    
+        
+            <li class="nav-item ">
+
+
+
+
+
+
+
+
+    
+
+
+    
+    
+
+    
+        <a
+            class="nav-link"
+            
+            data-nav="main" data-nav-main="home"
+             href="/"
+            
+            
+            ><span class=" d-md-none ">Home</span>
+            
+            <span class=" d-none d-md-block">Home</span>
+            
+        </a>
+    
+</li>
+        
+            <li class="nav-item ">
+
+
+
+
+
+
+
+
+    
+
+
+    
+    
+
+    
+        <a
+            class="nav-link"
+            
+            data-nav="main" data-nav-main="%EB%89%B4%EC%8A%A4"
+             href="/news/"
+            
+            
+            ><span class=" d-md-none ">뉴스</span>
+            
+            <span class=" d-none d-md-block">뉴스</span>
+            
+        </a>
+    
+</li>
+        
+            <li class="nav-item ">
+
+
+
+
+
+
+
+
+    
+
+
+    
+    
+
+    
+        <a
+            class="nav-link"
+            
+            data-nav="main" data-nav-main="%EA%B2%BD%EC%A0%9C"
+             href="/posts/economy/"
+            
+            
+            ><span class=" d-md-none ">경제</span>
+            
+            <span class=" d-none d-md-block">경제</span>
+            
+        </a>
+    
+</li>
+        
+            <li class="nav-item ">
+
+
+
+
+
+
+
+
+    
+
+
+    
+    
+
+    
+        <a
+            class="nav-link"
+            
+            data-nav="main" data-nav-main="%EA%B8%88%EC%9C%B5"
+             href="/posts/finance/"
+            
+            
+            ><span class=" d-md-none ">금융</span>
+            
+            <span class=" d-none d-md-block">금융</span>
+            
+        </a>
+    
+</li>
+        
+            <li class="nav-item ">
+
+
+
+
+
+
+
+
+    
+
+
+    
+    
+
+    
+        <a
+            class="nav-link"
+            
+            data-nav="main" data-nav-main="%EC%A3%BC%EC%8B%9D"
+             href="/posts/stock/"
+            
+            
+            ><span class=" d-md-none ">주식</span>
+            
+            <span class=" d-none d-md-block">주식</span>
+            
+        </a>
+    
+</li>
+        
+            <li class="nav-item ">
+
+
+
+
+
+
+
+
+    
+
+
+    
+    
+
+    
+        <a
+            class="nav-link"
+            
+            data-nav="main" data-nav-main="%EC%B1%84%EA%B6%8C"
+             href="/posts/bond/"
+            
+            
+            ><span class=" d-md-none ">채권</span>
+            
+            <span class=" d-none d-md-block">채권</span>
+            
+        </a>
+    
+</li>
+        
+            <li class="nav-item ">
+
+
+
+
+
+
+
+
+    
+
+
+    
+    
+
+    
+        <a
+            class="nav-link"
+            
+            data-nav="main" data-nav-main="%EC%BD%94%EC%9D%B8"
+             href="/posts/coin/"
+            
+            
+            ><span class=" d-md-none ">코인</span>
+            
+            <span class=" d-none d-md-block">코인</span>
+            
+        </a>
+    
+</li>
+        
+            <li class="nav-item ">
+
+
+
+
+
+
+
+
+    
+
+
+    
+    
+
+    
+        <a
+            class="nav-link"
+            
+            data-nav="main" data-nav-main="%EB%8C%80%EC%B6%9C"
+             href="/posts/loan/"
+            
+            
+            ><span class=" d-md-none ">대출</span>
+            
+            <span class=" d-none d-md-block">대출</span>
+            
+        </a>
+    
+</li>
+        
+            <li class="nav-item ">
+
+
+
+
+
+
+
+
+    
+
+
+    
+    
+
+    
+        <a
+            class="nav-link"
+            
+            data-nav="main" data-nav-main="%EB%B6%80%EB%8F%99%EC%82%B0"
+             href="/posts/real-estate/"
+            
+            
+            ><span class=" d-md-none ">부동산</span>
+            
+            <span class=" d-none d-md-block">부동산</span>
+            
+        </a>
+    
+</li>
+        
+            <li class="nav-item ">
+
+
+
+
+
+
+
+
+    
+
+
+    
+    
+
+    
+        <a
+            class="nav-link"
+            
+            data-nav="main" data-nav-main="%EB%B3%B4%ED%97%98"
+             href="/posts/insurance/"
+            
+            
+            ><span class=" d-md-none ">보험</span>
+            
+            <span class=" d-none d-md-block">보험</span>
+            
+        </a>
+    
+</li>
+        
+            <li class="nav-item ">
+
+
+
+
+
+
+
+
+    
+
+
+    
+    
+
+    
+        <a
+            class="nav-link"
+            
+            data-nav="main" data-nav-main="%EC%84%B8%EA%B8%88"
+             href="/posts/tax/"
+            
+            
+            ><span class=" d-md-none ">세금</span>
+            
+            <span class=" d-none d-md-block">세금</span>
+            
+        </a>
+    
+</li>
+        
+            <li class="nav-item ">
+
+
+
+
+
+
+
+
+    
+
+
+    
+    
+
+    
+        <a
+            class="nav-link"
+            
+            data-nav="main" data-nav-main="about-me"
+             href="/about/"
+            
+            
+            ><span class=" d-md-none ">About Me</span>
+            
+            <span class=" d-none d-md-block">About Me</span>
+            
+        </a>
+    
+</li>
+        
+            <li class="nav-item ">
+
+
+
+
+
+
+
+
+    
+
+
+    
+    
+
+    
+        <a
+            class="nav-link"
+            
+            data-nav="main" data-nav-main="tags"
+             href="/tags/"
+            
+            
+            ><span class=" d-md-none ">Tags</span>
+            
+            <span class=" d-none d-md-block">Tags</span>
+            
+        </a>
+    
+</li>
+    
+                    
+                    
+                    
+                                    
+                    <li class="nav-link navbar-fs-6 navbar-md-fs d-flex mode-switch align-items-center" id="navbar-mode">
+    <input type="checkbox" class="checkbox navbar-mode-selector" id="navbar-mode-checkbox" aria-label="Toggle theme" />
+    <label class="label" for="navbar-mode-checkbox">
+        
+
+
+
+
+
+
+                
+                        
+                        
+                        <svg class="svg-inline--fa fas fa-sun fa-fw" fill="currentColor" aria-hidden="true" role="img" viewBox="0 0 576 512" overflow="visible"><use href="#fas-sun"></use></svg>
+
+
+
+
+
+
+                
+                        
+                        
+                        <svg class="svg-inline--fa fas fa-moon fa-fw" fill="currentColor" aria-hidden="true" role="img" viewBox="0 0 512 512" overflow="visible"><use href="#fas-moon"></use></svg>
+            <div class="ball"></div>
+        
+    </label>
+</li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</div>
+<main id="container" class="main">
+                
+
+    
+    
+    
+    
+    
+        <div class="container-xxl flex-fill py-4 px-4 px-xxl-0">
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3">
+                <div class="col col-lg-2 d-none d-lg-block sidebar-overflow sticky-top p-0">
+                    
+                </div>
+                <div class="col-12 col-md-9 col-lg-8 mb-5">
+                    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+    
+
+        
+    
+
+        
+    
+
+
+
+
+    <nav aria-label="breadcrumb" class="d-sm-none">
+        <ol class="breadcrumb">
+                <li class="breadcrumb-item">
+                    <a href="/posts/finance/">
+                        
+
+
+
+
+
+
+                
+                        
+                        
+                        <svg class="svg-inline--fa fas fa-angle-left " fill="currentColor" aria-hidden="true" role="img" viewBox="0 0 256 512" overflow="visible"><use href="#fas-angle-left"></use></svg>&nbsp;&nbsp;금융
+                    </a>
+                </li></ol>
+    </nav>
+
+    <nav aria-label="breadcrumb" class="d-none d-sm-block">
+        <ol class="breadcrumb">
+                
+                <li class="breadcrumb-item"><a href="/">Home</a></li>
+                
+                <li class="breadcrumb-item"><a href="/posts/">금융의 모든 지식!</a></li>
+                
+                <li class="breadcrumb-item"><a href="/posts/finance/">금융</a></li><li class="breadcrumb-item active" aria-current="page">
+                
+                
+                예금과 적금 차이, 이자 계산까지 쉽게 이해하기
+            </li>
+        </ol>
+    </nav>
+
+<h1 id="예금과-적금-차이-이자-계산까지-쉽게-이해하기" class="display-4 pt-1">예금과 적금 차이, 이자 계산까지 쉽게 이해하기</h1>
+
+
+    <small class="text-body-secondary text-uppercase">
+            
+                Posted on 2026년 5월 20일
+            &bull;
+        
+            4&nbsp;min read
+            &bull;
+        743&nbsp;words
+    </small>
+
+<div class="mt-3">
+        <div class="d-none-dark">
+            <div class="hstack gap-1">
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+<a aria-label="예금"
+        href="/tags/%EC%98%88%EA%B8%88/" class="btn btn-light btn-sm position-relative "
+        role="button"
+        >
+        <span class="d-flex justify-content-start">
+            <span class="my-auto">예금</span>
+        </span></a>&nbsp;
+
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+<a aria-label="적금"
+        href="/tags/%EC%A0%81%EA%B8%88/" class="btn btn-light btn-sm position-relative "
+        role="button"
+        >
+        <span class="d-flex justify-content-start">
+            <span class="my-auto">적금</span>
+        </span></a>&nbsp;
+
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+<a aria-label="정기예금"
+        href="/tags/%EC%A0%95%EA%B8%B0%EC%98%88%EA%B8%88/" class="btn btn-light btn-sm position-relative "
+        role="button"
+        >
+        <span class="d-flex justify-content-start">
+            <span class="my-auto">정기예금</span>
+        </span></a>&nbsp;
+
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+<a aria-label="정기적금"
+        href="/tags/%EC%A0%95%EA%B8%B0%EC%A0%81%EA%B8%88/" class="btn btn-light btn-sm position-relative "
+        role="button"
+        >
+        <span class="d-flex justify-content-start">
+            <span class="my-auto">정기적금</span>
+        </span></a>&nbsp;
+
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+<a aria-label="저축"
+        href="/tags/%EC%A0%80%EC%B6%95/" class="btn btn-light btn-sm position-relative "
+        role="button"
+        >
+        <span class="d-flex justify-content-start">
+            <span class="my-auto">저축</span>
+        </span></a>&nbsp;
+
+                </div>
+        </div>
+        
+        <div class="d-none-light">
+            <div class="hstack gap-1">
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+<a aria-label="예금"
+        href="/tags/%EC%98%88%EA%B8%88/" class="btn btn-outline-primary btn-sm position-relative "
+        role="button"
+        >
+        <span class="d-flex justify-content-start">
+            <span class="my-auto">예금</span>
+        </span></a>&nbsp;
+
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+<a aria-label="적금"
+        href="/tags/%EC%A0%81%EA%B8%88/" class="btn btn-outline-primary btn-sm position-relative "
+        role="button"
+        >
+        <span class="d-flex justify-content-start">
+            <span class="my-auto">적금</span>
+        </span></a>&nbsp;
+
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+<a aria-label="정기예금"
+        href="/tags/%EC%A0%95%EA%B8%B0%EC%98%88%EA%B8%88/" class="btn btn-outline-primary btn-sm position-relative "
+        role="button"
+        >
+        <span class="d-flex justify-content-start">
+            <span class="my-auto">정기예금</span>
+        </span></a>&nbsp;
+
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+<a aria-label="정기적금"
+        href="/tags/%EC%A0%95%EA%B8%B0%EC%A0%81%EA%B8%88/" class="btn btn-outline-primary btn-sm position-relative "
+        role="button"
+        >
+        <span class="d-flex justify-content-start">
+            <span class="my-auto">정기적금</span>
+        </span></a>&nbsp;
+
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+<a aria-label="저축"
+        href="/tags/%EC%A0%80%EC%B6%95/" class="btn btn-outline-primary btn-sm position-relative "
+        role="button"
+        >
+        <span class="d-flex justify-content-start">
+            <span class="my-auto">저축</span>
+        </span></a>&nbsp;
+
+                </div>
+        </div>
+    </div>
+
+    <div class="lead text-muted py-4">예금과 적금은 돈을 맡기는 방식부터 이자 계산 구조까지 다르다. 목돈이 있을 때와 매달 저축할 때 어떤 상품이 유리한지 쉽게 설명한다.</div>
+
+
+<div class="d-md-none pb-5">
+
+
+
+
+
+
+
+
+
+    
+        <div class="d-grid gap-2 mx-auto">
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+<a aria-label="On this page"
+        href="#toc-collapse" class="btn btn-outline-secondary position-relative toc-button"
+         data-bs-toggle="collapse" aria-expanded="false" aria-controls="toc-collapse"role="button"
+        >
+        <span class="d-flex justify-content-between">
+            <span class="my-auto">On this page</span>
+                <span class="align-self-center ps-1">
+                    
+
+
+
+
+
+
+                
+                        
+                        
+                        <svg class="svg-inline--fa fas fa-sort " fill="currentColor" aria-hidden="true" role="img" viewBox="0 0 384 512" overflow="visible"><use href="#fas-sort"></use></svg>
+                </span>
+            
+        </span></a>
+</div>
+
+        <div class="collapse border bg-body-tertiary rounded p-1 navbar-nav-scroll" id="toc-collapse">
+            <small>
+                <div class="toc toc-panel text-body p-2">
+                        <a class="toc-item toc-level-1" href="/posts/deposit-vs-savings/#예금이란">예금이란?</a>
+                        <a class="toc-item toc-level-2" href="/posts/deposit-vs-savings/#보통예금">보통예금</a>
+                        <a class="toc-item toc-level-2" href="/posts/deposit-vs-savings/#정기예금">정기예금</a>
+                        <a class="toc-item toc-level-1" href="/posts/deposit-vs-savings/#적금이란">적금이란?</a>
+                        <a class="toc-item toc-level-2" href="/posts/deposit-vs-savings/#정기적금">정기적금</a>
+                        <a class="toc-item toc-level-2" href="/posts/deposit-vs-savings/#자유적금">자유적금</a>
+                        <a class="toc-item toc-level-1" href="/posts/deposit-vs-savings/#예금과-적금은-이자-계산이-다르다">예금과 적금은 이자 계산이 다르다</a>
+                        <a class="toc-item toc-level-1" href="/posts/deposit-vs-savings/#어떤-상품을-선택하면-좋을까">어떤 상품을 선택하면 좋을까?</a>
+                        <a class="toc-item toc-level-1" href="/posts/deposit-vs-savings/#정리">정리</a>
+                        <a class="toc-item toc-level-1" href="/posts/deposit-vs-savings/#자주-묻는-질문">자주 묻는 질문</a>
+                        <a class="toc-item toc-level-2" href="/posts/deposit-vs-savings/#예금과-적금-중-이자가-더-많은-것은-무엇인가">예금과 적금 중 이자가 더 많은 것은 무엇인가?</a>
+                        <a class="toc-item toc-level-2" href="/posts/deposit-vs-savings/#적금-금리가-예금-금리보다-높으면-적금이-더-유리한가">적금 금리가 예금 금리보다 높으면 적금이 더 유리한가?</a>
+                        <a class="toc-item toc-level-2" href="/posts/deposit-vs-savings/#목돈이-없으면-예금은-가입할-수-없나">목돈이 없으면 예금은 가입할 수 없나?</a>
+                </div>
+            </small>
+        </div>
+</div>
+
+                    
+
+
+
+<div class="img-wrap mb-5"><img class="img-fluid rounded"
+            src="/posts/finance/bank-money-2800x1200.png"
+             fetchpriority="high" srcset="/posts/finance/bank-money-576x247.webp 576w, /posts/finance/bank-money-768x329.webp 768w, /posts/finance/bank-money-992x425.webp 992w, /posts/finance/bank-money-1200x514.webp 1200w, /posts/finance/bank-money-1400x600.webp 1400w, /posts/finance/bank-money-2800x1200.webp 2800w" sizes="100vw" height="1200" width="2800" alt="예금과 적금 차이, 이자 계산까지 쉽게 이해하기"></div><p>예금과 적금은 둘 다 은행에 돈을 맡기고 이자를 받는 저축 상품이다. 그런데 막상 가입하려고 보면 &ldquo;예금이랑 적금이 뭐가 다르지?&rdquo;, &ldquo;금리가 같으면 이자도 같은 것 아닌가?&rdquo; 같은 생각이 들 수 있다.</p>
+<p>핵심은 간단하다. 예금은 목돈을 한 번에 맡기는 방식이고, 적금은 돈을 여러 번 나누어 넣는 방식이다. 금액과 금리가 같다면 보통 정기예금이 정기적금보다 이자가 더 많다. 예금은 처음부터 전체 금액에 이자가 붙지만, 적금은 매달 넣은 돈마다 이자가 붙는 기간이 다르기 때문이다.</p>
+<hr>
+
+
+
+<h2 id="예금이란" class="heading ">예금이란?<a href="#%ec%98%88%ea%b8%88%ec%9d%b4%eb%9e%80" aria-labelledby="예금이란">
+
+
+
+
+
+
+                
+                        
+                        
+                        <svg class="svg-inline--fa fas fa-link anchor" fill="currentColor" aria-hidden="true" role="img" viewBox="0 0 576 512" overflow="visible"><use href="#fas-link"></use></svg>&nbsp;
+    </a>
+</h2>
+<p>예금은 은행에 돈을 맡기는 상품을 말한다. 넓게 보면 입출금통장도 예금이고, 일정 기간 돈을 묶어두는 정기예금도 예금이다.</p>
+
+
+
+<h3 id="보통예금" class="heading ">보통예금<a href="#%eb%b3%b4%ed%86%b5%ec%98%88%ea%b8%88" aria-labelledby="보통예금">
+
+
+
+
+
+
+                
+                        
+                        
+                        <svg class="svg-inline--fa fas fa-link anchor" fill="currentColor" aria-hidden="true" role="img" viewBox="0 0 576 512" overflow="visible"><use href="#fas-link"></use></svg>&nbsp;
+    </a>
+</h3>
+<p>보통예금은 자유롭게 돈을 넣고 뺄 수 있는 예금이다. 월급통장, 생활비 통장, 체크카드와 연결된 입출금통장이 여기에 가깝다.</p>
+<p>장점은 편리함이다. 필요할 때 바로 출금할 수 있고, 자동이체나 카드 결제에도 쓸 수 있다. 대신 금리는 낮은 편이다. 은행 입장에서는 고객이 언제 돈을 뺄지 모르기 때문에 높은 이자를 주기 어렵다.</p>
+
+
+
+<h3 id="정기예금" class="heading ">정기예금<a href="#%ec%a0%95%ea%b8%b0%ec%98%88%ea%b8%88" aria-labelledby="정기예금">
+
+
+
+
+
+
+                
+                        
+                        
+                        <svg class="svg-inline--fa fas fa-link anchor" fill="currentColor" aria-hidden="true" role="img" viewBox="0 0 576 512" overflow="visible"><use href="#fas-link"></use></svg>&nbsp;
+    </a>
+</h3>
+<p>정기예금은 일정 금액을 정해진 기간 동안 맡겨두는 상품이다. 예를 들어 1,200만 원을 1년 정기예금에 넣으면, 만기 때 원금 1,200만 원과 약정 이자를 함께 받는다.</p>
+<p>정기예금은 목돈이 이미 있을 때 쓰기 좋다. 다만 만기 전에 해지하면 약속한 금리를 다 받지 못하는 경우가 많으니, 당장 쓸 가능성이 있는 돈까지 전부 넣는 것은 조심해야 한다.</p>
+<hr>
+
+
+
+<h2 id="적금이란" class="heading ">적금이란?<a href="#%ec%a0%81%ea%b8%88%ec%9d%b4%eb%9e%80" aria-labelledby="적금이란">
+
+
+
+
+
+
+                
+                        
+                        
+                        <svg class="svg-inline--fa fas fa-link anchor" fill="currentColor" aria-hidden="true" role="img" viewBox="0 0 576 512" overflow="visible"><use href="#fas-link"></use></svg>&nbsp;
+    </a>
+</h2>
+<p>적금은 돈을 한 번에 넣는 것이 아니라 일정 기간 동안 나누어 저축하는 상품이다. 매달 월급에서 일부를 떼어 저축하는 방식이 대표적이다.</p>
+
+
+
+<h3 id="정기적금" class="heading ">정기적금<a href="#%ec%a0%95%ea%b8%b0%ec%a0%81%ea%b8%88" aria-labelledby="정기적금">
+
+
+
+
+
+
+                
+                        
+                        
+                        <svg class="svg-inline--fa fas fa-link anchor" fill="currentColor" aria-hidden="true" role="img" viewBox="0 0 576 512" overflow="visible"><use href="#fas-link"></use></svg>&nbsp;
+    </a>
+</h3>
+<p>정기적금은 매달 정해진 금액을 넣는 방식이다. 예를 들어 매달 100만 원씩 12개월 동안 납입하면, 만기 때 원금 1,200만 원과 이자를 받는다.</p>
+<p>정기적금은 저축 습관을 만들기 좋다. 매달 같은 금액이 빠져나가므로 소비를 줄이고 돈을 모으는 구조를 만들 수 있다.</p>
+
+
+
+<h3 id="자유적금" class="heading ">자유적금<a href="#%ec%9e%90%ec%9c%a0%ec%a0%81%ea%b8%88" aria-labelledby="자유적금">
+
+
+
+
+
+
+                
+                        
+                        
+                        <svg class="svg-inline--fa fas fa-link anchor" fill="currentColor" aria-hidden="true" role="img" viewBox="0 0 576 512" overflow="visible"><use href="#fas-link"></use></svg>&nbsp;
+    </a>
+</h3>
+<p>자유적금은 납입 금액이 비교적 자유로운 적금이다. 어떤 달은 10만 원, 어떤 달은 50만 원처럼 여유 자금에 맞춰 넣을 수 있다.</p>
+<p>수입이 일정하지 않은 프리랜서나 자영업자에게는 자유적금이 더 편할 수 있다. 다만 상품마다 월 납입 한도, 우대금리 조건, 최소 납입 조건이 다르므로 가입 전에 확인해야 한다.</p>
+<hr>
+
+
+
+<h2 id="예금과-적금은-이자-계산이-다르다" class="heading ">예금과 적금은 이자 계산이 다르다<a href="#%ec%98%88%ea%b8%88%ea%b3%bc-%ec%a0%81%ea%b8%88%ec%9d%80-%ec%9d%b4%ec%9e%90-%ea%b3%84%ec%82%b0%ec%9d%b4-%eb%8b%a4%eb%a5%b4%eb%8b%a4" aria-labelledby="예금과-적금은-이자-계산이-다르다">
+
+
+
+
+
+
+                
+                        
+                        
+                        <svg class="svg-inline--fa fas fa-link anchor" fill="currentColor" aria-hidden="true" role="img" viewBox="0 0 576 512" overflow="visible"><use href="#fas-link"></use></svg>&nbsp;
+    </a>
+</h2>
+<p>예금과 적금의 차이는 이자 계산에서 크게 드러난다. 같은 1,200만 원을 모으더라도 처음부터 1,200만 원을 맡기는 것과 매달 100만 원씩 넣는 것은 이자가 붙는 기간이 다르다.</p>
+<p>예를 들어 연 10% 금리로 1년 동안 운용한다고 가정해보자. 세금은 계산하지 않은 단순 예시다.</p>
+<p>정기예금은 처음부터 1,200만 원 전액이 12개월 동안 예치된다. 그래서 세전 이자는 120만 원이 된다.</p>
+<div class="codeblock syntax-highlight mb-3"><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-text" data-lang="text"><span style="display:flex;"><span>1,200만 원 x 10% = 120만 원</span></span></code></pre></div></div><p>반면 정기적금은 매달 100만 원씩 들어간다. 첫 달에 넣은 100만 원은 12개월 동안 이자가 붙지만, 마지막 달에 넣은 100만 원은 1개월만 이자가 붙는다.</p>
+<div class="codeblock syntax-highlight mb-3"><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-text" data-lang="text"><span style="display:flex;"><span>1월 납입금: 12개월 이자 적용
+</span></span><span style="display:flex;"><span>2월 납입금: 11개월 이자 적용
+</span></span><span style="display:flex;"><span>3월 납입금: 10개월 이자 적용
+</span></span><span style="display:flex;"><span>...
+</span></span><span style="display:flex;"><span>12월 납입금: 1개월 이자 적용</span></span></code></pre></div></div><p>이 조건에서는 정기적금의 세전 이자가 약 65만 원 수준이 된다. 입력 예시처럼 단순화하면 약 64만 원 정도로 이해해도 된다. 그래서 금리가 같고 총 납입 원금도 같다면, 이미 목돈이 있는 사람에게는 정기예금이 더 유리한 경우가 많다.</p>
+<hr>
+
+
+
+<h2 id="어떤-상품을-선택하면-좋을까" class="heading ">어떤 상품을 선택하면 좋을까?<a href="#%ec%96%b4%eb%96%a4-%ec%83%81%ed%92%88%ec%9d%84-%ec%84%a0%ed%83%9d%ed%95%98%eb%a9%b4-%ec%a2%8b%ec%9d%84%ea%b9%8c" aria-labelledby="어떤-상품을-선택하면-좋을까">
+
+
+
+
+
+
+                
+                        
+                        
+                        <svg class="svg-inline--fa fas fa-link anchor" fill="currentColor" aria-hidden="true" role="img" viewBox="0 0 576 512" overflow="visible"><use href="#fas-link"></use></svg>&nbsp;
+    </a>
+</h2>
+<p>이미 목돈이 있다면 정기예금부터 검토하는 것이 자연스럽다. 당장 쓰지 않을 돈을 일정 기간 맡겨두고, 전체 금액에 대해 이자를 받을 수 있기 때문이다.</p>
+<p>반대로 아직 목돈이 없다면 적금이 더 현실적이다. 매달 월급에서 일정 금액을 떼어 모으면 소비를 통제하기 쉽고, 만기 때 목돈을 만들 수 있다.</p>
+<p>선택할 때는 금리만 보지 말고 아래 항목도 같이 봐야 한다.</p>
+<ul>
+<li>만기 전에 해지하면 이자가 얼마나 줄어드는지</li>
+<li>우대금리를 받으려면 어떤 조건이 필요한지</li>
+<li>월 납입 한도나 가입 금액 제한이 있는지</li>
+<li>예금자보호 한도 안에서 관리되는지</li>
+<li>중간에 돈이 필요할 가능성은 없는지</li>
+</ul>
+<p>특히 적금의 높은 금리만 보고 가입하면 실제 이자가 기대보다 적게 느껴질 수 있다. 적금 금리는 매달 납입하는 돈에 적용되는 기간이 다르다는 점을 기억해야 한다.</p>
+<hr>
+
+
+
+<h2 id="정리" class="heading ">정리<a href="#%ec%a0%95%eb%a6%ac" aria-labelledby="정리">
+
+
+
+
+
+
+                
+                        
+                        
+                        <svg class="svg-inline--fa fas fa-link anchor" fill="currentColor" aria-hidden="true" role="img" viewBox="0 0 576 512" overflow="visible"><use href="#fas-link"></use></svg>&nbsp;
+    </a>
+</h2>
+<p>예금은 목돈을 한 번에 맡기는 상품이고, 적금은 돈을 여러 번 나누어 넣는 상품이다. 목돈이 있다면 정기예금이 이자 면에서 유리한 경우가 많고, 매달 돈을 모아야 한다면 적금이 더 실용적이다.</p>
+<p>중요한 것은 &ldquo;예금이 무조건 좋다&rdquo; 또는 &ldquo;적금이 무조건 좋다&quot;가 아니다. 지금 내 손에 목돈이 있는지, 매달 얼마를 저축할 수 있는지, 중간에 돈을 써야 할 가능성이 있는지를 보고 선택하는 것이 좋다.</p>
+<p>처음 저축을 시작한다면 생활비 통장에는 필요한 돈만 남기고, 비상금은 바로 뺄 수 있는 통장에 두고, 당장 쓸 계획이 없는 돈은 예금이나 적금으로 나누어 관리하는 방식이 무난하다.</p>
+
+
+
+<h2 id="자주-묻는-질문" class="heading ">자주 묻는 질문<a href="#%ec%9e%90%ec%a3%bc-%eb%ac%bb%eb%8a%94-%ec%a7%88%eb%ac%b8" aria-labelledby="자주-묻는-질문">
+
+
+
+
+
+
+                
+                        
+                        
+                        <svg class="svg-inline--fa fas fa-link anchor" fill="currentColor" aria-hidden="true" role="img" viewBox="0 0 576 512" overflow="visible"><use href="#fas-link"></use></svg>&nbsp;
+    </a>
+</h2>
+
+
+
+<h3 id="예금과-적금-중-이자가-더-많은-것은-무엇인가" class="heading ">예금과 적금 중 이자가 더 많은 것은 무엇인가?<a href="#%ec%98%88%ea%b8%88%ea%b3%bc-%ec%a0%81%ea%b8%88-%ec%a4%91-%ec%9d%b4%ec%9e%90%ea%b0%80-%eb%8d%94-%eb%a7%8e%ec%9d%80-%ea%b2%83%ec%9d%80-%eb%ac%b4%ec%97%87%ec%9d%b8%ea%b0%80" aria-labelledby="예금과-적금-중-이자가-더-많은-것은-무엇인가">
+
+
+
+
+
+
+                
+                        
+                        
+                        <svg class="svg-inline--fa fas fa-link anchor" fill="currentColor" aria-hidden="true" role="img" viewBox="0 0 576 512" overflow="visible"><use href="#fas-link"></use></svg>&nbsp;
+    </a>
+</h3>
+<p>같은 금액, 같은 금리, 같은 기간이라면 보통 정기예금의 이자가 더 많다. 정기예금은 처음부터 전체 금액에 이자가 붙고, 정기적금은 매달 납입한 돈마다 이자가 붙는 기간이 다르기 때문이다.</p>
+
+
+
+<h3 id="적금-금리가-예금-금리보다-높으면-적금이-더-유리한가" class="heading ">적금 금리가 예금 금리보다 높으면 적금이 더 유리한가?<a href="#%ec%a0%81%ea%b8%88-%ea%b8%88%eb%a6%ac%ea%b0%80-%ec%98%88%ea%b8%88-%ea%b8%88%eb%a6%ac%eb%b3%b4%eb%8b%a4-%eb%86%92%ec%9c%bc%eb%a9%b4-%ec%a0%81%ea%b8%88%ec%9d%b4-%eb%8d%94-%ec%9c%a0%eb%a6%ac%ed%95%9c%ea%b0%80" aria-labelledby="적금-금리가-예금-금리보다-높으면-적금이-더-유리한가">
+
+
+
+
+
+
+                
+                        
+                        
+                        <svg class="svg-inline--fa fas fa-link anchor" fill="currentColor" aria-hidden="true" role="img" viewBox="0 0 576 512" overflow="visible"><use href="#fas-link"></use></svg>&nbsp;
+    </a>
+</h3>
+<p>항상 그렇지는 않다. 적금은 납입 시점마다 이자 적용 기간이 짧아지므로, 표시 금리가 높아도 실제 이자는 예금보다 적을 수 있다. 금리뿐 아니라 납입 방식과 총 이자를 함께 봐야 한다.</p>
+
+
+
+<h3 id="목돈이-없으면-예금은-가입할-수-없나" class="heading ">목돈이 없으면 예금은 가입할 수 없나?<a href="#%eb%aa%a9%eb%8f%88%ec%9d%b4-%ec%97%86%ec%9c%bc%eb%a9%b4-%ec%98%88%ea%b8%88%ec%9d%80-%ea%b0%80%ec%9e%85%ed%95%a0-%ec%88%98-%ec%97%86%eb%82%98" aria-labelledby="목돈이-없으면-예금은-가입할-수-없나">
+
+
+
+
+
+
+                
+                        
+                        
+                        <svg class="svg-inline--fa fas fa-link anchor" fill="currentColor" aria-hidden="true" role="img" viewBox="0 0 576 512" overflow="visible"><use href="#fas-link"></use></svg>&nbsp;
+    </a>
+</h3>
+<p>상품마다 최소 가입 금액이 다르다. 소액으로도 가입할 수 있는 정기예금이 있지만, 매달 돈을 모아 목돈을 만드는 목적이라면 적금이 더 잘 맞는 경우가 많다.</p>
+
+
+                    
+                    
+
+
+<div class="row row-cols-2 mt-5 mb-3">
+    <div class="col"></div>
+    <div class="col text-end"></div>
+</div>
+
+                </div>
+                <div class="col col-md-3 col-lg-2 d-none d-md-block">
+                    
+    <div class="toc toc-sidebar mb-5 my-md-0 mb-lg-5 pb-3 text-body-secondary sticky-top">
+        
+
+        
+            
+            
+
+
+
+
+
+
+
+
+
+            <strong class="d-block mb-2">On this page</strong>
+            <nav class="toc">
+                
+                
+                    
+                
+
+                
+                    
+                    <a  class="toc-item toc-level-1" href="/posts/deposit-vs-savings/#예금이란">예금이란?</a>
+                
+                    
+                    <a  class="toc-item toc-level-2" href="/posts/deposit-vs-savings/#보통예금">보통예금</a>
+                
+                    
+                    <a  class="toc-item toc-level-2" href="/posts/deposit-vs-savings/#정기예금">정기예금</a>
+                
+                    
+                    <a  class="toc-item toc-level-1" href="/posts/deposit-vs-savings/#적금이란">적금이란?</a>
+                
+                    
+                    <a  class="toc-item toc-level-2" href="/posts/deposit-vs-savings/#정기적금">정기적금</a>
+                
+                    
+                    <a  class="toc-item toc-level-2" href="/posts/deposit-vs-savings/#자유적금">자유적금</a>
+                
+                    
+                    <a  class="toc-item toc-level-1" href="/posts/deposit-vs-savings/#예금과-적금은-이자-계산이-다르다">예금과 적금은 이자 계산이 다르다</a>
+                
+                    
+                    <a  class="toc-item toc-level-1" href="/posts/deposit-vs-savings/#어떤-상품을-선택하면-좋을까">어떤 상품을 선택하면 좋을까?</a>
+                
+                    
+                    <a  class="toc-item toc-level-1" href="/posts/deposit-vs-savings/#정리">정리</a>
+                
+                    
+                        
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+<a aria-label="Show 4 more"
+        href="#toc-collapse-items" id="btnTOCShowMore" class="btn btn-link link-primary position-relative toc-item" data-bs-toggle="collapse" aria-expanded="false" aria-controls="toc-collapse-items"role="button"
+        >
+        <span class="d-flex justify-content-start">
+            <span class="my-auto">Show 4 more</span>
+        </span></a>
+
+                        <div class="collapse" id="toc-collapse-items">
+                        
+                    <a  class="toc-item toc-level-1" href="/posts/deposit-vs-savings/#자주-묻는-질문">자주 묻는 질문</a>
+                
+                    
+                    <a  class="toc-item toc-level-2" href="/posts/deposit-vs-savings/#예금과-적금-중-이자가-더-많은-것은-무엇인가">예금과 적금 중 이자가 더 많은 것은 무엇인가?</a>
+                
+                    
+                    <a  class="toc-item toc-level-2" href="/posts/deposit-vs-savings/#적금-금리가-예금-금리보다-높으면-적금이-더-유리한가">적금 금리가 예금 금리보다 높으면 적금이 더 유리한가?</a>
+                
+                    
+                    <a  class="toc-item toc-level-2" href="/posts/deposit-vs-savings/#목돈이-없으면-예금은-가입할-수-없나">목돈이 없으면 예금은 가입할 수 없나?</a>
+                
+
+                
+                    &nbsp;
+                    
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+<a aria-label="Show less"
+        href="#toc-collapse-items" id="btnTOCShowLess" class="btn btn-link link-primary position-relative toc-item" data-bs-toggle="collapse" aria-expanded="false" aria-controls="toc-collapse-items"role="button"
+        >
+        <span class="d-flex justify-content-start">
+            <span class="my-auto">Show less</span>
+        </span></a>
+
+                </div>
+            </nav>
+        
+    
+
+
+
+        </div>
+
+
+                </div>
+            </div>
+        </div>
+    
+</main>
+
+<footer class="container-fluid footer text-center p-3">
+    <div class="container-xxl text-center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8543127460401091"
+     crossorigin="anonymous"></script>
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-8543127460401091"
+     data-ad-slot="3689386360"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+        <small>
+            Copyright © 2026 Show Me the Money::devkuma All rights reserved.
+             |
+            
+                
+                Powered by 
+    <a href="https://gethinode.com" class="link-bg-footer"  target="_blank" rel="noopener noreferrer nofollow">Hinode</a>
+.
+            
+        </small>
+    </div>
+</footer>
+<div id="toast-container" class="toast-container position-fixed bottom-0 end-0 p-3">
+
+
+
+
+
+
+
+
+<div id="toast-copied-code-message" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+    <div class="toast-header">
+        <strong class="me-auto">Show Me the Money::devkuma</strong>
+        <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+    </div>
+    <div class="toast-body">Code copied to clipboard</div>
+</div>
+</div>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" display="none">
+        <symbol id="fas-ellipsis" overflow="visible" viewBox="0 0 448 512"><path fill="currentColor" d="M0 256a56 56 0 1 1 112 0 56 56 0 1 1 -112 0zm168 0a56 56 0 1 1 112 0 56 56 0 1 1 -112 0zm224-56a56 56 0 1 1 0 112 56 56 0 1 1 0-112z"/></symbol>
+<symbol id="fas-sun" overflow="visible" viewBox="0 0 576 512"><path fill="currentColor" d="M288-32c8.4 0 16.3 4.4 20.6 11.7L364.1 72.3 468.9 46c8.2-2 16.9 .4 22.8 6.3S500 67 498 75.1l-26.3 104.7 92.7 55.5c7.2 4.3 11.7 12.2 11.7 20.6s-4.4 16.3-11.7 20.6L471.7 332.1 498 436.8c2 8.2-.4 16.9-6.3 22.8S477 468 468.9 466l-104.7-26.3-55.5 92.7c-4.3 7.2-12.2 11.7-20.6 11.7s-16.3-4.4-20.6-11.7L211.9 439.7 107.2 466c-8.2 2-16.8-.4-22.8-6.3S76 445 78 436.8l26.2-104.7-92.6-55.5C4.4 272.2 0 264.4 0 256s4.4-16.3 11.7-20.6L104.3 179.9 78 75.1c-2-8.2 .3-16.8 6.3-22.8S99 44 107.2 46l104.7 26.2 55.5-92.6 1.8-2.6c4.5-5.7 11.4-9.1 18.8-9.1zm0 144a144 144 0 1 0 0 288 144 144 0 1 0 0-288zm0 240a96 96 0 1 1 0-192 96 96 0 1 1 0 192z"/></symbol>
+<symbol id="fas-moon" overflow="visible" viewBox="0 0 512 512"><path fill="currentColor" d="M256 0C114.6 0 0 114.6 0 256S114.6 512 256 512c68.8 0 131.3-27.2 177.3-71.4 7.3-7 9.4-17.9 5.3-27.1s-13.7-14.9-23.8-14.1c-4.9 .4-9.8 .6-14.8 .6-101.6 0-184-82.4-184-184 0-72.1 41.5-134.6 102.1-164.8 9.1-4.5 14.3-14.3 13.1-24.4S322.6 8.5 312.7 6.3C294.4 2.2 275.4 0 256 0z"/></symbol>
+<symbol id="fas-angle-left" overflow="visible" viewBox="0 0 256 512"><path fill="currentColor" d="M9.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L77.3 256 214.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z"/></symbol>
+<symbol id="fas-sort" overflow="visible" viewBox="0 0 384 512"><path fill="currentColor" d="M2.4 204.2c5 12 16.6 19.8 29.6 19.8l320 0c12.9 0 24.6-7.8 29.6-19.8s2.2-25.7-6.9-34.9l-160-160c-12.5-12.5-32.8-12.5-45.3 0l-160 160c-9.2 9.2-11.9 22.9-6.9 34.9zm0 103.5c-5 12-2.2 25.7 6.9 34.9l160 160c12.5 12.5 32.8 12.5 45.3 0l160-160c9.2-9.2 11.9-22.9 6.9-34.9S364.9 288 352 288L32 288c-12.9 0-24.6 7.8-29.6 19.8z"/></symbol>
+<symbol id="fas-link" overflow="visible" viewBox="0 0 576 512"><path fill="currentColor" d="M419.5 96c-16.6 0-32.7 4.5-46.8 12.7-15.8-16-34.2-29.4-54.5-39.5 28.2-24 64.1-37.2 101.3-37.2 86.4 0 156.5 70 156.5 156.5 0 41.5-16.5 81.3-45.8 110.6l-71.1 71.1c-29.3 29.3-69.1 45.8-110.6 45.8-86.4 0-156.5-70-156.5-156.5 0-1.5 0-3 .1-4.5 .5-17.7 15.2-31.6 32.9-31.1s31.6 15.2 31.1 32.9c0 .9 0 1.8 0 2.6 0 51.1 41.4 92.5 92.5 92.5 24.5 0 48-9.7 65.4-27.1l71.1-71.1c17.3-17.3 27.1-40.9 27.1-65.4 0-51.1-41.4-92.5-92.5-92.5zM275.2 173.3c-1.9-.8-3.8-1.9-5.5-3.1-12.6-6.5-27-10.2-42.1-10.2-24.5 0-48 9.7-65.4 27.1L91.1 258.2c-17.3 17.3-27.1 40.9-27.1 65.4 0 51.1 41.4 92.5 92.5 92.5 16.5 0 32.6-4.4 46.7-12.6 15.8 16 34.2 29.4 54.6 39.5-28.2 23.9-64 37.2-101.3 37.2-86.4 0-156.5-70-156.5-156.5 0-41.5 16.5-81.3 45.8-110.6l71.1-71.1c29.3-29.3 69.1-45.8 110.6-45.8 86.6 0 156.5 70.6 156.5 156.9 0 1.3 0 2.6 0 3.9-.4 17.7-15.1 31.6-32.8 31.2s-31.6-15.1-31.2-32.8c0-.8 0-1.5 0-2.3 0-33.7-18-63.3-44.8-79.6z"/></symbol>
+    </svg>
+
+  
+    
+
+  
+
+
+<script src="/js/core.bundle-analytics.ko.min.bef138a0b0039c16630a4767e923e751563c440bb5d0c7c226422e8df10640e9.js"
+         data-category="analytics" integrity="sha256-vvE4oLADnBZjCkdn6SPnUVY8RAu10MfCJkIujfEGQOk=" crossorigin="anonymous" async></script>
+
+<script src="/js/core.bundle.ko.min.81adbf62d8822e5b6f27da7fd4d73e854e61eb258f461ada35986a353112f3d0.js"
+         integrity="sha256-ga2/YtiCLltvJ9p/1Nc&#43;hU5h6yWPRhraNZhqNTES89A=" crossorigin="anonymous" async></script></body>
+</html>

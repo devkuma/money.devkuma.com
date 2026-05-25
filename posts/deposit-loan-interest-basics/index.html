@@ -1,0 +1,1681 @@
+
+
+
+<!doctype html>
+<html lang="ko" class="no-js">
+    <head>
+
+<script src="/js/critical.bundle.min.a8c0814b35e0a7b1a8e5265b551bde6d5e4bb321db28f493d51366366c118c70.js"
+         integrity="sha256-qMCBSzXgp7Go5SZbVRvebV5LsyHbKPST1RNmNmwRjHA=" crossorigin="anonymous"></script><meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="generator" content="Hugo 0.161.1">
+    <meta name="theme" content="Hinode 1.23.7">
+    
+
+
+
+
+
+    
+    
+<link rel="stylesheet" href="/css/main.min.61f5e816e4941e747285305e469159a3667ccbbe555246fa1e88b99feb18e4c2.css" integrity="sha256-YfXoFuSUHnRyhTBeRpFZo2Z8y75VUkb6Hoi5n+sY5MI=" crossorigin="anonymous">
+    
+        
+    
+    
+        
+        
+             
+            <link rel="preload" href="/fonts/inter-v12-latin-regular.woff2" as="font" type="font/woff2" crossorigin>
+        
+
+
+
+    
+    
+    
+
+
+
+
+
+
+    
+  <meta name="robots" content="index, follow">
+    <meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta name="bingbot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <title>돈을 맡기면 왜 이자를 줄까? 예금금리와 대출금리의 원리 - Show Me the Money::devkuma </title>
+    <meta name="description" content="은행에 돈을 맡기면 왜 이자를 주는지, 예금금리와 대출금리는 어떻게 다른지, 은행이 돈을 버는 예대마진 구조까지 초보자 눈높이로 정리했다.">
+
+<meta property="og:locale" content="en_US">
+<meta property="og:type" content="article">
+<meta property="og:title" content="돈을 맡기면 왜 이자를 줄까? 예금금리와 대출금리의 원리">
+<meta property="og:description" content="은행에 돈을 맡기면 왜 이자를 주는지, 예금금리와 대출금리는 어떻게 다른지, 은행이 돈을 버는 예대마진 구조까지 초보자 눈높이로 정리했다.">
+
+<meta property="og:url" content="https://money.devkuma.com/posts/deposit-loan-interest-basics/">
+<meta property="og:site_name" content="Show Me the Money::devkuma">
+<meta property="article:published_time" content="2026-05-11T22:28:30+09:00">
+    <meta property="article:modified_time" content="2026-05-11T22:28:30+09:00">
+    <meta property="og:image" content="https://money.devkuma.com/posts/finance/bank-money-1280x640.png">
+<meta property="og:image:alt" content="돈을 맡기면 왜 이자를 줄까? 예금금리와 대출금리의 원리">
+
+
+
+<meta name="twitter:card" content="summary_large_image">
+
+
+<meta name="twitter:title" content="돈을 맡기면 왜 이자를 줄까? 예금금리와 대출금리의 원리">
+<meta name="twitter:description" content="은행에 돈을 맡기면 왜 이자를 주는지, 예금금리와 대출금리는 어떻게 다른지, 은행이 돈을 버는 예대마진 구조까지 초보자 눈높이로 정리했다.">
+<meta name="twitter:image" content="https://money.devkuma.com/posts/finance/bank-money-1280x640.png">
+<meta name="twitter:image:alt" content="돈을 맡기면 왜 이자를 줄까? 예금금리와 대출금리의 원리">
+
+
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+        "@id": "https://money.devkuma.com/#/schema/organization/1",
+      "name": "Hinode",
+      "url": "https://money.devkuma.com/",
+      "sameAs": [null,"https://github.com/gethinode/hinode"],
+      "logo": {
+          "@type": "ImageObject",
+          "@id": "https://money.devkuma.com/#/schema/image/1",
+          "url": "https://money.devkuma.com/favicons/512x512.png",
+          "width": 512 ,
+          "height": 512 ,
+          "caption": "Hinode"
+        },
+        "image": {
+          "@id": "https://money.devkuma.com/#/schema/image/1"
+        }
+      },
+    {
+      "@type": "WebSite",
+      "@id": "https://money.devkuma.com/#/schema/website/1",
+      "url": "https://money.devkuma.com/",
+      "name": "Show Me the Money::devkuma",
+      "description": "Hinode is a clean documentation and blog theme for your Hugo site based on Bootstrap 5.",
+      "publisher": {
+          "@id": "https://money.devkuma.com/#/schema/organization/1"
+        }
+      },
+    {
+      "@type": "WebPage",
+      "@id": "https://money.devkuma.com/posts/deposit-loan-interest-basics/",
+      "url": "https://money.devkuma.com/posts/deposit-loan-interest-basics/",
+      "name": "돈을 맡기면 왜 이자를 줄까? 예금금리와 대출금리의 원리",
+      "description": "은행에 돈을 맡기면 왜 이자를 주는지, 예금금리와 대출금리는 어떻게 다른지, 은행이 돈을 버는 예대마진 구조까지 초보자 눈높이로 정리했다.",
+      "isPartOf": {
+        "@id": "https://money.devkuma.com/#/schema/website/1"
+      },
+      "about": {
+          "@id": "https://money.devkuma.com/#/schema/organization/1"
+        },
+      "datePublished": "2026-05-11T22:28:30CET","dateModified": "2026-05-11T22:28:30CET","breadcrumb": {
+        "@id": "https://money.devkuma.com/posts/deposit-loan-interest-basics/#/schema/breadcrumb/1"
+      },
+      "primaryImageOfPage": {
+        "@id": "https://money.devkuma.com/posts/deposit-loan-interest-basics/#/schema/image/2"
+      },
+      "inLanguage": "en-US",
+      "potentialAction": [{
+        "@type": "ReadAction", "target": ["https://money.devkuma.com/posts/deposit-loan-interest-basics/"]
+      }]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://money.devkuma.com/posts/deposit-loan-interest-basics/#/schema/breadcrumb/1",
+      "name": "Breadcrumbs",
+      "itemListElement": [{
+        "@type": "ListItem",
+        "position":  1 ,
+        "item": {
+          "@type": "WebPage",
+          "@id": "https://money.devkuma.com/",
+          "url": "https://money.devkuma.com/",
+          "name": "Home"
+          }
+        },{
+        "@type": "ListItem",
+        "position":  2 ,
+        "item": {
+          "@type": "WebPage",
+          "@id": "https://money.devkuma.com/posts/",
+          "url": "https://money.devkuma.com/posts/",
+          "name": "Posts"
+          }
+        },{
+        "@type": "ListItem",
+        "position":  3 ,
+        "item": {
+          "@id": "https://money.devkuma.com/posts/deposit-loan-interest-basics/"
+          }
+        }]
+    },
+
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "ImageObject",
+          "@id": "https://money.devkuma.com/posts/deposit-loan-interest-basics/#/schema/image/2",
+          "url": "https://money.devkuma.com/posts/finance/bank-money-1280x640.png",
+          "contentUrl": "https://money.devkuma.com/posts/finance/bank-money-1280x640.png",
+          "caption": "돈을 맡기면 왜 이자를 줄까? 예금금리와 대출금리의 원리"
+        }
+      ]
+    }
+
+  ]
+}
+</script>
+
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicons/favicon-96x96_hu_bcafd75a361bcb2.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicons/favicon-96x96_hu_ef780cd502e896ea.png">
+        <link rel="icon" type="image/png" sizes="48x48" href="/favicons/favicon-96x96_hu_8f60ad9056f52802.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="/favicons/favicon-96x96_hu_a6aa36da47e45ca3.png">
+    
+
+</head><body class="navbar-fixed">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        
+        
+        
+    
+
+
+
+
+<div class="container-fluid fixed-top p-0">
+
+
+
+
+
+<nav class="navbar px-4 py-4 navbar-fs-6 navbar-md-fs bg-body navbar-fixed-top navbar-expand-md"
+        
+        
+        >
+        <div class="container-xxl p-0">
+            <div class="d-flex navbar-container">
+                
+                <div class="d-flex align-items-center">
+                            <button class="navbar-toggler collapsed p-0 mx-auto invisible fw-30" type="button">
+
+
+
+
+
+
+                
+                        
+                        
+                        <svg class="svg-inline--fa fas fa-ellipsis fa-fw" fill="currentColor" aria-hidden="true" role="img" viewBox="0 0 448 512" overflow="visible"><use href="#fas-ellipsis"></use></svg></button></div>
+                
+
+                <div class="w-100 d-flex align-items-center w-md-auto">
+                    <a class="navbar-brand mx-auto" href="/" aria-label="Home">
+    
+    
+
+
+<img class="img-fluid m-auto"
+            src="/img/logo_icon-2800x2800.png"
+             srcset="/img/logo_icon-576x576.webp 576w, /img/logo_icon-768x768.webp 768w, /img/logo_icon-992x992.webp 992w, /img/logo_icon-1200x1200.webp 1200w, /img/logo_icon-1400x1400.webp 1400w, /img/logo_icon-2800x2800.webp 2800w" sizes="100vw" height="30" width="30" alt="Show Me the Money::devkuma"></a>
+                </div>
+                <div class="d-flex align-items-center">
+                    <button class="navbar-toggler main-nav-toggler collapsed p-0" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbar-0-collapse"
+                        aria-controls="navbar-0" aria-expanded="false" aria-label="Toggle main navigation">
+                        <span class="toggler-icon top-bar emphasis"></span>
+                        <span class="toggler-icon middle-bar emphasis"></span>
+                        <span class="toggler-icon bottom-bar emphasis"></span>
+                    </button>
+                </div>
+            </div>
+    
+            <div class="navbar-collapse collapse" id="navbar-0-collapse">
+                
+                    <div class="d-flex flex-fill ms-md-3 mt-4 mt-md-0 me-md-3">
+    <form class="search flex-fill position-relative me-auto">
+        <input class="search-input form-control is-search" type="search" placeholder="" aria-label="" autocomplete="off" name="search-input">
+        <div class="search-suggestions shadow bg-body rounded d-none" data-no-results=""></div>
+    </form>
+</div>
+
+                <ul class="navbar-nav navbar-nav-scroll ms-auto">
+                    
+        
+            <li class="nav-item ">
+
+
+
+
+
+
+
+
+    
+
+
+    
+    
+
+    
+        <a
+            class="nav-link"
+            
+            data-nav="main" data-nav-main="home"
+             href="/"
+            
+            
+            ><span class=" d-md-none ">Home</span>
+            
+            <span class=" d-none d-md-block">Home</span>
+            
+        </a>
+    
+</li>
+        
+            <li class="nav-item ">
+
+
+
+
+
+
+
+
+    
+
+
+    
+    
+
+    
+        <a
+            class="nav-link"
+            
+            data-nav="main" data-nav-main="%EB%89%B4%EC%8A%A4"
+             href="/news/"
+            
+            
+            ><span class=" d-md-none ">뉴스</span>
+            
+            <span class=" d-none d-md-block">뉴스</span>
+            
+        </a>
+    
+</li>
+        
+            <li class="nav-item ">
+
+
+
+
+
+
+
+
+    
+
+
+    
+    
+
+    
+        <a
+            class="nav-link"
+            
+            data-nav="main" data-nav-main="%EA%B2%BD%EC%A0%9C"
+             href="/posts/economy/"
+            
+            
+            ><span class=" d-md-none ">경제</span>
+            
+            <span class=" d-none d-md-block">경제</span>
+            
+        </a>
+    
+</li>
+        
+            <li class="nav-item ">
+
+
+
+
+
+
+
+
+    
+
+
+    
+    
+
+    
+        <a
+            class="nav-link"
+            
+            data-nav="main" data-nav-main="%EA%B8%88%EC%9C%B5"
+             href="/posts/finance/"
+            
+            
+            ><span class=" d-md-none ">금융</span>
+            
+            <span class=" d-none d-md-block">금융</span>
+            
+        </a>
+    
+</li>
+        
+            <li class="nav-item ">
+
+
+
+
+
+
+
+
+    
+
+
+    
+    
+
+    
+        <a
+            class="nav-link"
+            
+            data-nav="main" data-nav-main="%EC%A3%BC%EC%8B%9D"
+             href="/posts/stock/"
+            
+            
+            ><span class=" d-md-none ">주식</span>
+            
+            <span class=" d-none d-md-block">주식</span>
+            
+        </a>
+    
+</li>
+        
+            <li class="nav-item ">
+
+
+
+
+
+
+
+
+    
+
+
+    
+    
+
+    
+        <a
+            class="nav-link"
+            
+            data-nav="main" data-nav-main="%EC%B1%84%EA%B6%8C"
+             href="/posts/bond/"
+            
+            
+            ><span class=" d-md-none ">채권</span>
+            
+            <span class=" d-none d-md-block">채권</span>
+            
+        </a>
+    
+</li>
+        
+            <li class="nav-item ">
+
+
+
+
+
+
+
+
+    
+
+
+    
+    
+
+    
+        <a
+            class="nav-link"
+            
+            data-nav="main" data-nav-main="%EC%BD%94%EC%9D%B8"
+             href="/posts/coin/"
+            
+            
+            ><span class=" d-md-none ">코인</span>
+            
+            <span class=" d-none d-md-block">코인</span>
+            
+        </a>
+    
+</li>
+        
+            <li class="nav-item ">
+
+
+
+
+
+
+
+
+    
+
+
+    
+    
+
+    
+        <a
+            class="nav-link"
+            
+            data-nav="main" data-nav-main="%EB%8C%80%EC%B6%9C"
+             href="/posts/loan/"
+            
+            
+            ><span class=" d-md-none ">대출</span>
+            
+            <span class=" d-none d-md-block">대출</span>
+            
+        </a>
+    
+</li>
+        
+            <li class="nav-item ">
+
+
+
+
+
+
+
+
+    
+
+
+    
+    
+
+    
+        <a
+            class="nav-link"
+            
+            data-nav="main" data-nav-main="%EB%B6%80%EB%8F%99%EC%82%B0"
+             href="/posts/real-estate/"
+            
+            
+            ><span class=" d-md-none ">부동산</span>
+            
+            <span class=" d-none d-md-block">부동산</span>
+            
+        </a>
+    
+</li>
+        
+            <li class="nav-item ">
+
+
+
+
+
+
+
+
+    
+
+
+    
+    
+
+    
+        <a
+            class="nav-link"
+            
+            data-nav="main" data-nav-main="%EB%B3%B4%ED%97%98"
+             href="/posts/insurance/"
+            
+            
+            ><span class=" d-md-none ">보험</span>
+            
+            <span class=" d-none d-md-block">보험</span>
+            
+        </a>
+    
+</li>
+        
+            <li class="nav-item ">
+
+
+
+
+
+
+
+
+    
+
+
+    
+    
+
+    
+        <a
+            class="nav-link"
+            
+            data-nav="main" data-nav-main="%EC%84%B8%EA%B8%88"
+             href="/posts/tax/"
+            
+            
+            ><span class=" d-md-none ">세금</span>
+            
+            <span class=" d-none d-md-block">세금</span>
+            
+        </a>
+    
+</li>
+        
+            <li class="nav-item ">
+
+
+
+
+
+
+
+
+    
+
+
+    
+    
+
+    
+        <a
+            class="nav-link"
+            
+            data-nav="main" data-nav-main="about-me"
+             href="/about/"
+            
+            
+            ><span class=" d-md-none ">About Me</span>
+            
+            <span class=" d-none d-md-block">About Me</span>
+            
+        </a>
+    
+</li>
+        
+            <li class="nav-item ">
+
+
+
+
+
+
+
+
+    
+
+
+    
+    
+
+    
+        <a
+            class="nav-link"
+            
+            data-nav="main" data-nav-main="tags"
+             href="/tags/"
+            
+            
+            ><span class=" d-md-none ">Tags</span>
+            
+            <span class=" d-none d-md-block">Tags</span>
+            
+        </a>
+    
+</li>
+    
+                    
+                    
+                    
+                                    
+                    <li class="nav-link navbar-fs-6 navbar-md-fs d-flex mode-switch align-items-center" id="navbar-mode">
+    <input type="checkbox" class="checkbox navbar-mode-selector" id="navbar-mode-checkbox" aria-label="Toggle theme" />
+    <label class="label" for="navbar-mode-checkbox">
+        
+
+
+
+
+
+
+                
+                        
+                        
+                        <svg class="svg-inline--fa fas fa-sun fa-fw" fill="currentColor" aria-hidden="true" role="img" viewBox="0 0 576 512" overflow="visible"><use href="#fas-sun"></use></svg>
+
+
+
+
+
+
+                
+                        
+                        
+                        <svg class="svg-inline--fa fas fa-moon fa-fw" fill="currentColor" aria-hidden="true" role="img" viewBox="0 0 512 512" overflow="visible"><use href="#fas-moon"></use></svg>
+            <div class="ball"></div>
+        
+    </label>
+</li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</div>
+<main id="container" class="main">
+                
+
+    
+    
+    
+    
+    
+        <div class="container-xxl flex-fill py-4 px-4 px-xxl-0">
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3">
+                <div class="col col-lg-2 d-none d-lg-block sidebar-overflow sticky-top p-0">
+                    
+                </div>
+                <div class="col-12 col-md-9 col-lg-8 mb-5">
+                    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+    
+
+        
+    
+
+        
+    
+
+
+
+
+    <nav aria-label="breadcrumb" class="d-sm-none">
+        <ol class="breadcrumb">
+                <li class="breadcrumb-item">
+                    <a href="/posts/finance/">
+                        
+
+
+
+
+
+
+                
+                        
+                        
+                        <svg class="svg-inline--fa fas fa-angle-left " fill="currentColor" aria-hidden="true" role="img" viewBox="0 0 256 512" overflow="visible"><use href="#fas-angle-left"></use></svg>&nbsp;&nbsp;금융
+                    </a>
+                </li></ol>
+    </nav>
+
+    <nav aria-label="breadcrumb" class="d-none d-sm-block">
+        <ol class="breadcrumb">
+                
+                <li class="breadcrumb-item"><a href="/">Home</a></li>
+                
+                <li class="breadcrumb-item"><a href="/posts/">금융의 모든 지식!</a></li>
+                
+                <li class="breadcrumb-item"><a href="/posts/finance/">금융</a></li><li class="breadcrumb-item active" aria-current="page">
+                
+                
+                돈을 맡기면 왜 이자를 줄까? 예금금리와 대출금리의 원리
+            </li>
+        </ol>
+    </nav>
+
+<h1 id="돈을-맡기면-왜-이자를-줄까-예금금리와-대출금리의-원리" class="display-4 pt-1">돈을 맡기면 왜 이자를 줄까? 예금금리와 대출금리의 원리</h1>
+
+
+    <small class="text-body-secondary text-uppercase">
+            
+                Posted on 2026년 5월 11일
+            &bull;
+        
+            5&nbsp;min read
+            &bull;
+        898&nbsp;words
+    </small>
+
+<div class="mt-3">
+        <div class="d-none-dark">
+            <div class="hstack gap-1">
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+<a aria-label="이자"
+        href="/tags/%EC%9D%B4%EC%9E%90/" class="btn btn-light btn-sm position-relative "
+        role="button"
+        >
+        <span class="d-flex justify-content-start">
+            <span class="my-auto">이자</span>
+        </span></a>&nbsp;
+
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+<a aria-label="금리"
+        href="/tags/%EA%B8%88%EB%A6%AC/" class="btn btn-light btn-sm position-relative "
+        role="button"
+        >
+        <span class="d-flex justify-content-start">
+            <span class="my-auto">금리</span>
+        </span></a>&nbsp;
+
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+<a aria-label="예금금리"
+        href="/tags/%EC%98%88%EA%B8%88%EA%B8%88%EB%A6%AC/" class="btn btn-light btn-sm position-relative "
+        role="button"
+        >
+        <span class="d-flex justify-content-start">
+            <span class="my-auto">예금금리</span>
+        </span></a>&nbsp;
+
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+<a aria-label="대출금리"
+        href="/tags/%EB%8C%80%EC%B6%9C%EA%B8%88%EB%A6%AC/" class="btn btn-light btn-sm position-relative "
+        role="button"
+        >
+        <span class="d-flex justify-content-start">
+            <span class="my-auto">대출금리</span>
+        </span></a>&nbsp;
+
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+<a aria-label="예대마진"
+        href="/tags/%EC%98%88%EB%8C%80%EB%A7%88%EC%A7%84/" class="btn btn-light btn-sm position-relative "
+        role="button"
+        >
+        <span class="d-flex justify-content-start">
+            <span class="my-auto">예대마진</span>
+        </span></a>&nbsp;
+
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+<a aria-label="금융기초"
+        href="/tags/%EA%B8%88%EC%9C%B5%EA%B8%B0%EC%B4%88/" class="btn btn-light btn-sm position-relative "
+        role="button"
+        >
+        <span class="d-flex justify-content-start">
+            <span class="my-auto">금융기초</span>
+        </span></a>&nbsp;
+
+                </div>
+        </div>
+        
+        <div class="d-none-light">
+            <div class="hstack gap-1">
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+<a aria-label="이자"
+        href="/tags/%EC%9D%B4%EC%9E%90/" class="btn btn-outline-primary btn-sm position-relative "
+        role="button"
+        >
+        <span class="d-flex justify-content-start">
+            <span class="my-auto">이자</span>
+        </span></a>&nbsp;
+
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+<a aria-label="금리"
+        href="/tags/%EA%B8%88%EB%A6%AC/" class="btn btn-outline-primary btn-sm position-relative "
+        role="button"
+        >
+        <span class="d-flex justify-content-start">
+            <span class="my-auto">금리</span>
+        </span></a>&nbsp;
+
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+<a aria-label="예금금리"
+        href="/tags/%EC%98%88%EA%B8%88%EA%B8%88%EB%A6%AC/" class="btn btn-outline-primary btn-sm position-relative "
+        role="button"
+        >
+        <span class="d-flex justify-content-start">
+            <span class="my-auto">예금금리</span>
+        </span></a>&nbsp;
+
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+<a aria-label="대출금리"
+        href="/tags/%EB%8C%80%EC%B6%9C%EA%B8%88%EB%A6%AC/" class="btn btn-outline-primary btn-sm position-relative "
+        role="button"
+        >
+        <span class="d-flex justify-content-start">
+            <span class="my-auto">대출금리</span>
+        </span></a>&nbsp;
+
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+<a aria-label="예대마진"
+        href="/tags/%EC%98%88%EB%8C%80%EB%A7%88%EC%A7%84/" class="btn btn-outline-primary btn-sm position-relative "
+        role="button"
+        >
+        <span class="d-flex justify-content-start">
+            <span class="my-auto">예대마진</span>
+        </span></a>&nbsp;
+
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+<a aria-label="금융기초"
+        href="/tags/%EA%B8%88%EC%9C%B5%EA%B8%B0%EC%B4%88/" class="btn btn-outline-primary btn-sm position-relative "
+        role="button"
+        >
+        <span class="d-flex justify-content-start">
+            <span class="my-auto">금융기초</span>
+        </span></a>&nbsp;
+
+                </div>
+        </div>
+    </div>
+
+    <div class="lead text-muted py-4">은행에 돈을 맡기면 왜 이자를 주는지, 예금금리와 대출금리는 어떻게 다른지, 은행이 돈을 버는 예대마진 구조까지 초보자 눈높이로 정리했다.</div>
+
+
+<div class="d-md-none pb-5">
+
+
+
+
+
+
+
+
+
+    
+        <div class="d-grid gap-2 mx-auto">
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+<a aria-label="On this page"
+        href="#toc-collapse" class="btn btn-outline-secondary position-relative toc-button"
+         data-bs-toggle="collapse" aria-expanded="false" aria-controls="toc-collapse"role="button"
+        >
+        <span class="d-flex justify-content-between">
+            <span class="my-auto">On this page</span>
+                <span class="align-self-center ps-1">
+                    
+
+
+
+
+
+
+                
+                        
+                        
+                        <svg class="svg-inline--fa fas fa-sort " fill="currentColor" aria-hidden="true" role="img" viewBox="0 0 384 512" overflow="visible"><use href="#fas-sort"></use></svg>
+                </span>
+            
+        </span></a>
+</div>
+
+        <div class="collapse border bg-body-tertiary rounded p-1 navbar-nav-scroll" id="toc-collapse">
+            <small>
+                <div class="toc toc-panel text-body p-2">
+                        <a class="toc-item toc-level-1" href="/posts/deposit-loan-interest-basics/#이자와-금리는-무엇이-다를까">이자와 금리는 무엇이 다를까</a>
+                        <a class="toc-item toc-level-1" href="/posts/deposit-loan-interest-basics/#은행은-왜-예금자에게-이자를-줄까">은행은 왜 예금자에게 이자를 줄까</a>
+                        <a class="toc-item toc-level-1" href="/posts/deposit-loan-interest-basics/#대출금리는-왜-예금금리보다-높을까">대출금리는 왜 예금금리보다 높을까</a>
+                        <a class="toc-item toc-level-1" href="/posts/deposit-loan-interest-basics/#예대마진을-알면-은행-수익-구조가-보인다">예대마진을 알면 은행 수익 구조가 보인다</a>
+                        <a class="toc-item toc-level-1" href="/posts/deposit-loan-interest-basics/#내-돈에-적용할-때-확인할-점">내 돈에 적용할 때 확인할 점</a>
+                        <a class="toc-item toc-level-1" href="/posts/deposit-loan-interest-basics/#정리">정리</a>
+                        <a class="toc-item toc-level-1" href="/posts/deposit-loan-interest-basics/#자주-묻는-질문">자주 묻는 질문</a>
+                        <a class="toc-item toc-level-2" href="/posts/deposit-loan-interest-basics/#q1-예금금리가-연-3면-100만-원을-맡겼을-때-정확히-3만-원을-받나">Q1. 예금금리가 연 3%면 100만 원을 맡겼을 때 정확히 3만 원을 받나?</a>
+                        <a class="toc-item toc-level-2" href="/posts/deposit-loan-interest-basics/#q2-대출금리는-왜-사람마다-다를까">Q2. 대출금리는 왜 사람마다 다를까?</a>
+                        <a class="toc-item toc-level-2" href="/posts/deposit-loan-interest-basics/#q3-예금금리보다-대출금리가-항상-높나">Q3. 예금금리보다 대출금리가 항상 높나?</a>
+                </div>
+            </small>
+        </div>
+</div>
+
+                    
+
+
+
+<div class="img-wrap mb-5"><img class="img-fluid rounded"
+            src="/posts/finance/bank-money-2800x1200.png"
+             fetchpriority="high" srcset="/posts/finance/bank-money-576x247.webp 576w, /posts/finance/bank-money-768x329.webp 768w, /posts/finance/bank-money-992x425.webp 992w, /posts/finance/bank-money-1200x514.webp 1200w, /posts/finance/bank-money-1400x600.webp 1400w, /posts/finance/bank-money-2800x1200.webp 2800w" sizes="100vw" height="1200" width="2800" alt="돈을 맡기면 왜 이자를 줄까? 예금금리와 대출금리의 원리"></div><p>은행에 돈을 맡기면 시간이 지난 뒤 이자가 붙는다. 처음 금융을 배울 때는 이 부분이 조금 이상하게 느껴질 수 있다. 은행이 내 돈을 보관해주는데 왜 오히려 나에게 돈을 더 줄까.</p>
+<p>반대로 대출을 받으면 은행에 이자를 내야 한다. 같은 이자인데 예금할 때는 받고, 대출할 때는 낸다. 결국 이자를 이해하려면 은행이 돈을 어떻게 모으고, 그 돈을 어떻게 굴리는지 알아야 한다.</p>
+<p>이 글에서는 이자와 금리의 기본 개념부터 예금금리, 대출금리, 예대마진까지 초보자도 이해하기 쉽게 정리하였다.</p>
+<hr>
+
+
+
+<h2 id="이자와-금리는-무엇이-다를까" class="heading ">이자와 금리는 무엇이 다를까<a href="#%ec%9d%b4%ec%9e%90%ec%99%80-%ea%b8%88%eb%a6%ac%eb%8a%94-%eb%ac%b4%ec%97%87%ec%9d%b4-%eb%8b%a4%eb%a5%bc%ea%b9%8c" aria-labelledby="이자와-금리는-무엇이-다를까">
+
+
+
+
+
+
+                
+                        
+                        
+                        <svg class="svg-inline--fa fas fa-link anchor" fill="currentColor" aria-hidden="true" role="img" viewBox="0 0 576 512" overflow="visible"><use href="#fas-link"></use></svg>&nbsp;
+    </a>
+</h2>
+<p>이자는 돈을 빌려준 대가로 받거나, 돈을 빌려 쓴 대가로 내는 돈이다. 친구에게 10,000원을 빌려줬는데 나중에 11,000원을 돌려받았다면, 추가로 받은 1,000원이 이자다.</p>
+<p>은행 예금도 구조는 비슷하다. 내가 은행에 돈을 맡기면 은행은 그 돈을 일정 기간 사용할 수 있다. 은행은 그 대가로 예금자에게 이자를 준다.</p>
+<p>금리는 이자가 붙는 비율이다. 예를 들어 예금금리가 연 3%라면, 1년 동안 돈을 맡겼을 때 원금의 3%만큼 이자가 붙는다는 뜻이다.</p>
+<div class="codeblock syntax-highlight mb-3"><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-text" data-lang="text"><span style="display:flex;"><span>이자 = 원금 x 금리 x 기간</span></span></code></pre></div></div><p>예를 들어 100만 원을 연 3% 정기예금에 1년 동안 맡기면 세전 이자는 3만 원이다.</p>
+
+
+
+
+
+
+    
+
+
+
+
+
+
+<table class="table">
+  <thead>
+    
+      
+      <tr>
+          <th >항목</th>
+          <th class="text-end">예시</th>
+      </tr>
+    
+  </thead>
+  <tbody>
+    
+      
+        <tr>
+            <td >원금</td>
+            <td class="text-end">100만 원</td>
+        </tr>
+      
+    
+      
+        <tr>
+            <td >예금금리</td>
+            <td class="text-end">연 3%</td>
+        </tr>
+      
+    
+      
+        <tr>
+            <td >기간</td>
+            <td class="text-end">1년</td>
+        </tr>
+      
+    
+      
+        <tr>
+            <td >세전 이자</td>
+            <td class="text-end">3만 원</td>
+        </tr>
+      
+  </tbody>
+</table><p>실제로 통장에 들어오는 이자는 세금이 빠진 뒤 금액이다. 그래서 예금 상품을 볼 때는 세전 이자와 세후 이자를 구분해서 봐야 한다.</p>
+<hr>
+
+
+
+<h2 id="은행은-왜-예금자에게-이자를-줄까" class="heading ">은행은 왜 예금자에게 이자를 줄까<a href="#%ec%9d%80%ed%96%89%ec%9d%80-%ec%99%9c-%ec%98%88%ea%b8%88%ec%9e%90%ec%97%90%ea%b2%8c-%ec%9d%b4%ec%9e%90%eb%a5%bc-%ec%a4%84%ea%b9%8c" aria-labelledby="은행은-왜-예금자에게-이자를-줄까">
+
+
+
+
+
+
+                
+                        
+                        
+                        <svg class="svg-inline--fa fas fa-link anchor" fill="currentColor" aria-hidden="true" role="img" viewBox="0 0 576 512" overflow="visible"><use href="#fas-link"></use></svg>&nbsp;
+    </a>
+</h2>
+<p>은행은 돈을 단순히 보관만 하는 곳이 아니다. 은행은 예금을 통해 돈을 모으고, 그 돈을 필요한 사람이나 기업에 대출해준다.</p>
+<p>예금자 입장에서는 은행에 돈을 맡기는 것이고, 은행 입장에서는 고객에게서 돈을 빌리는 것과 비슷하다. 그래서 은행은 돈을 맡겨준 사람에게 예금이자를 지급한다.</p>
+<p>은행이 예금자에게 이자를 주는 이유는 간단하다. 고객이 돈을 맡겨야 은행도 대출을 해줄 자금을 마련할 수 있기 때문이다. 아무런 이자를 주지 않는다면 사람들은 굳이 돈을 오래 맡기려 하지 않을 수 있다.</p>
+<p>예금금리는 은행이 돈을 모으기 위해 지불하는 비용이라고 보면 된다. 금리가 높을수록 예금자는 더 많은 이자를 받을 수 있지만, 은행 입장에서는 돈을 조달하는 비용이 커진다.</p>
+<p>예를 들어 A은행은 정기예금 금리를 연 2%로 주고, B은행은 연 4%로 준다고 해보자. 조건이 비슷하다면 많은 사람은 B은행을 선택할 가능성이 크다. 그래서 은행들은 필요한 자금을 모으기 위해 예금금리를 조정한다.</p>
+
+
+<img class="img-fluid "
+            src="/posts/finance/bank-money-2800x1431.png"
+             srcset="/posts/finance/bank-money-576x294.webp 576w, /posts/finance/bank-money-768x393.webp 768w, /posts/finance/bank-money-992x507.webp 992w, /posts/finance/bank-money-1200x613.webp 1200w, /posts/finance/bank-money-1400x716.webp 1400w, /posts/finance/bank-money-2800x1431.webp 2800w" sizes="100vw" height="1431" width="2800" alt="은행과 돈 이미지">
+<hr>
+
+
+
+<h2 id="대출금리는-왜-예금금리보다-높을까" class="heading ">대출금리는 왜 예금금리보다 높을까<a href="#%eb%8c%80%ec%b6%9c%ea%b8%88%eb%a6%ac%eb%8a%94-%ec%99%9c-%ec%98%88%ea%b8%88%ea%b8%88%eb%a6%ac%eb%b3%b4%eb%8b%a4-%eb%86%92%ec%9d%84%ea%b9%8c" aria-labelledby="대출금리는-왜-예금금리보다-높을까">
+
+
+
+
+
+
+                
+                        
+                        
+                        <svg class="svg-inline--fa fas fa-link anchor" fill="currentColor" aria-hidden="true" role="img" viewBox="0 0 576 512" overflow="visible"><use href="#fas-link"></use></svg>&nbsp;
+    </a>
+</h2>
+<p>대출금리는 은행에서 돈을 빌릴 때 내는 이자율이다. 은행은 예금자에게는 이자를 주고, 대출자에게는 이자를 받는다.</p>
+<p>예를 들어 은행이 예금자에게 연 3% 이자를 주고 돈을 모은 뒤, 대출자에게 연 5%로 돈을 빌려준다고 해보자. 은행은 받은 대출이자와 지급한 예금이자의 차이에서 수익을 낼 수 있다.</p>
+
+
+
+
+
+
+    
+
+
+
+
+
+
+<table class="table">
+  <thead>
+    
+      
+      <tr>
+          <th >구분</th>
+          <th >은행 입장</th>
+          <th >고객 입장</th>
+      </tr>
+    
+  </thead>
+  <tbody>
+    
+      
+        <tr>
+            <td >예금금리</td>
+            <td >비용</td>
+            <td >이자 수익</td>
+        </tr>
+      
+    
+      
+        <tr>
+            <td >대출금리</td>
+            <td >수익</td>
+            <td >이자 비용</td>
+        </tr>
+      
+  </tbody>
+</table><p>대출금리가 예금금리보다 높은 이유는 은행도 위험과 비용을 부담하기 때문이다. 대출을 받은 사람이 돈을 제때 갚지 못할 수도 있고, 은행은 지점 운영비, 인건비, 시스템 비용, 자본 규제 같은 여러 비용도 감당해야 한다.</p>
+<p>그래서 대출금리에는 단순한 조달비용만 들어가지 않는다. 고객의 신용도, 담보 여부, 대출 기간, 은행의 가산금리, 우대금리 조건까지 함께 반영된다.</p>
+<div class="codeblock syntax-highlight mb-3"><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-text" data-lang="text"><span style="display:flex;"><span>대출금리 = 기준이 되는 금리 + 가산금리 - 우대금리</span></span></code></pre></div></div><p>신용점수가 높고 안정적인 소득이 있으며 담보가 충분하면 대출금리가 낮아질 수 있다. 반대로 연체 위험이 크거나 담보가 부족하면 은행은 더 높은 금리를 요구할 수 있다.</p>
+<hr>
+
+
+
+<h2 id="예대마진을-알면-은행-수익-구조가-보인다" class="heading ">예대마진을 알면 은행 수익 구조가 보인다<a href="#%ec%98%88%eb%8c%80%eb%a7%88%ec%a7%84%ec%9d%84-%ec%95%8c%eb%a9%b4-%ec%9d%80%ed%96%89-%ec%88%98%ec%9d%b5-%ea%b5%ac%ec%a1%b0%ea%b0%80-%eb%b3%b4%ec%9d%b8%eb%8b%a4" aria-labelledby="예대마진을-알면-은행-수익-구조가-보인다">
+
+
+
+
+
+
+                
+                        
+                        
+                        <svg class="svg-inline--fa fas fa-link anchor" fill="currentColor" aria-hidden="true" role="img" viewBox="0 0 576 512" overflow="visible"><use href="#fas-link"></use></svg>&nbsp;
+    </a>
+</h2>
+<p>은행이 예금자에게 주는 이자보다 대출자에게 받는 이자가 더 클 때, 그 차이를 예대마진이라고 한다. 예금과 대출 사이에서 생기는 금리 차이라고 보면 된다.</p>
+<p>예를 들어 은행이 예금금리 연 3%로 돈을 모아 대출금리 연 5%로 빌려준다면, 단순하게는 2%포인트 차이가 생긴다. 이 차이가 은행의 중요한 수익원이 된다.</p>
+<p>다만 예대마진이 전부 은행의 순이익이 되는 것은 아니다. 은행은 대출 부실에 대비해 충당금을 쌓아야 하고, 지점과 전산 시스템을 운영해야 하며, 각종 규제 비용도 부담한다.</p>
+<p>그래도 예대마진은 은행업을 이해할 때 가장 기본이 되는 개념이다. 은행은 돈이 남는 사람에게서 예금을 모으고, 돈이 필요한 사람에게 대출해주며, 그 과정에서 금리 차이를 통해 수익을 만든다.</p>
+<p>이 구조를 알면 뉴스에서 &ldquo;예금금리는 내려가는데 대출금리는 높다&quot;거나 &ldquo;은행의 이자이익이 늘었다&quot;는 말을 들었을 때 훨씬 이해하기 쉽다.</p>
+<hr>
+
+
+
+<h2 id="내-돈에-적용할-때-확인할-점" class="heading ">내 돈에 적용할 때 확인할 점<a href="#%eb%82%b4-%eb%8f%88%ec%97%90-%ec%a0%81%ec%9a%a9%ed%95%a0-%eb%95%8c-%ed%99%95%ec%9d%b8%ed%95%a0-%ec%a0%90" aria-labelledby="내-돈에-적용할-때-확인할-점">
+
+
+
+
+
+
+                
+                        
+                        
+                        <svg class="svg-inline--fa fas fa-link anchor" fill="currentColor" aria-hidden="true" role="img" viewBox="0 0 576 512" overflow="visible"><use href="#fas-link"></use></svg>&nbsp;
+    </a>
+</h2>
+<p>이자와 금리를 알면 예금과 대출을 볼 때 기준이 생긴다. 단순히 &ldquo;금리가 높다&rdquo;, &ldquo;금리가 낮다&quot;만 볼 것이 아니라 내 상황에서 실제로 받거나 내는 돈이 얼마인지 계산해야 한다.</p>
+<p>예금을 볼 때는 다음 항목을 확인하는 것이 좋다.</p>
+<ul>
+<li>세전금리와 세후금리를 구분한다.</li>
+<li>정기예금인지 적금인지 확인한다.</li>
+<li>단리인지 복리인지 확인한다.</li>
+<li>중도해지하면 약정금리를 받을 수 있는지 확인한다.</li>
+<li>예금자보호 대상인지 확인한다.</li>
+</ul>
+<p>대출을 볼 때는 다음 항목을 함께 봐야 한다.</p>
+<ul>
+<li>고정금리인지 변동금리인지 확인한다.</li>
+<li>기준금리, 가산금리, 우대금리 조건을 나눠서 본다.</li>
+<li>매달 갚을 원리금과 총이자를 계산한다.</li>
+<li>중도상환수수료가 있는지 확인한다.</li>
+<li>금리가 오를 때 월 상환액이 얼마나 늘어나는지 본다.</li>
+</ul>
+<p>예금은 금리가 높을수록 좋지만, 대출은 금리가 낮을수록 부담이 줄어든다. 같은 이자라도 내가 돈을 맡기는 입장인지, 돈을 빌리는 입장인지에 따라 완전히 다르게 작동한다.</p>
+<hr>
+
+
+
+<h2 id="정리" class="heading ">정리<a href="#%ec%a0%95%eb%a6%ac" aria-labelledby="정리">
+
+
+
+
+
+
+                
+                        
+                        
+                        <svg class="svg-inline--fa fas fa-link anchor" fill="currentColor" aria-hidden="true" role="img" viewBox="0 0 576 512" overflow="visible"><use href="#fas-link"></use></svg>&nbsp;
+    </a>
+</h2>
+<p>이자는 돈을 빌려준 대가로 받거나, 돈을 빌려 쓴 대가로 내는 돈이다. 금리는 이자가 붙는 비율이다. 은행에 돈을 맡기면 예금자는 이자를 받고, 은행에서 돈을 빌리면 대출자는 이자를 낸다.</p>
+<p>핵심만 다시 정리하면 이렇다.</p>
+<ul>
+<li>예금금리는 은행이 예금자에게 지급하는 이자율이다.</li>
+<li>대출금리는 은행이 대출자에게 받는 이자율이다.</li>
+<li>은행은 예금을 통해 돈을 모으고, 그 돈을 대출로 운용한다.</li>
+<li>대출금리가 예금금리보다 높은 차이를 예대마진이라고 한다.</li>
+<li>실제 이자는 원금, 금리, 기간, 세금, 상품 조건에 따라 달라진다.</li>
+</ul>
+<p>처음에는 이자와 금리가 비슷한 말처럼 보이지만, 한 번 구조를 이해하면 금융상품을 보는 눈이 달라진다. 예금을 가입하기 전에는 내가 받을 세후 이자를 계산하고, 대출을 받기 전에는 내가 낼 총이자를 먼저 확인하는 습관이 필요하다.</p>
+
+
+
+<h2 id="자주-묻는-질문" class="heading ">자주 묻는 질문<a href="#%ec%9e%90%ec%a3%bc-%eb%ac%bb%eb%8a%94-%ec%a7%88%eb%ac%b8" aria-labelledby="자주-묻는-질문">
+
+
+
+
+
+
+                
+                        
+                        
+                        <svg class="svg-inline--fa fas fa-link anchor" fill="currentColor" aria-hidden="true" role="img" viewBox="0 0 576 512" overflow="visible"><use href="#fas-link"></use></svg>&nbsp;
+    </a>
+</h2>
+
+
+
+<h3 id="q1-예금금리가-연-3면-100만-원을-맡겼을-때-정확히-3만-원을-받나" class="heading ">Q1. 예금금리가 연 3%면 100만 원을 맡겼을 때 정확히 3만 원을 받나?<a href="#q1-%ec%98%88%ea%b8%88%ea%b8%88%eb%a6%ac%ea%b0%80-%ec%97%b0-3%eb%a9%b4-100%eb%a7%8c-%ec%9b%90%ec%9d%84-%eb%a7%a1%ea%b2%bc%ec%9d%84-%eb%95%8c-%ec%a0%95%ed%99%95%ed%9e%88-3%eb%a7%8c-%ec%9b%90%ec%9d%84-%eb%b0%9b%eb%82%98" aria-labelledby="q1-예금금리가-연-3면-100만-원을-맡겼을-때-정확히-3만-원을-받나">
+
+
+
+
+
+
+                
+                        
+                        
+                        <svg class="svg-inline--fa fas fa-link anchor" fill="currentColor" aria-hidden="true" role="img" viewBox="0 0 576 512" overflow="visible"><use href="#fas-link"></use></svg>&nbsp;
+    </a>
+</h3>
+<p>세전 기준으로는 1년 동안 맡겼을 때 3만 원이다. 하지만 실제로 받는 금액은 이자소득세가 빠진 세후 이자다. 또 가입 기간이 1년보다 짧으면 기간에 맞춰 이자가 줄어든다.</p>
+
+
+
+<h3 id="q2-대출금리는-왜-사람마다-다를까" class="heading ">Q2. 대출금리는 왜 사람마다 다를까?<a href="#q2-%eb%8c%80%ec%b6%9c%ea%b8%88%eb%a6%ac%eb%8a%94-%ec%99%9c-%ec%82%ac%eb%9e%8c%eb%a7%88%eb%8b%a4-%eb%8b%a4%eb%a5%bc%ea%b9%8c" aria-labelledby="q2-대출금리는-왜-사람마다-다를까">
+
+
+
+
+
+
+                
+                        
+                        
+                        <svg class="svg-inline--fa fas fa-link anchor" fill="currentColor" aria-hidden="true" role="img" viewBox="0 0 576 512" overflow="visible"><use href="#fas-link"></use></svg>&nbsp;
+    </a>
+</h3>
+<p>대출금리는 기준이 되는 금리에 가산금리와 우대금리가 반영되어 정해진다. 신용도, 소득, 담보, 거래 실적, 대출 종류가 다르기 때문에 같은 은행에서도 사람마다 적용 금리가 달라질 수 있다.</p>
+
+
+
+<h3 id="q3-예금금리보다-대출금리가-항상-높나" class="heading ">Q3. 예금금리보다 대출금리가 항상 높나?<a href="#q3-%ec%98%88%ea%b8%88%ea%b8%88%eb%a6%ac%eb%b3%b4%eb%8b%a4-%eb%8c%80%ec%b6%9c%ea%b8%88%eb%a6%ac%ea%b0%80-%ed%95%ad%ec%83%81-%eb%86%92%eb%82%98" aria-labelledby="q3-예금금리보다-대출금리가-항상-높나">
+
+
+
+
+
+
+                
+                        
+                        
+                        <svg class="svg-inline--fa fas fa-link anchor" fill="currentColor" aria-hidden="true" role="img" viewBox="0 0 576 512" overflow="visible"><use href="#fas-link"></use></svg>&nbsp;
+    </a>
+</h3>
+<p>일반적으로는 대출금리가 예금금리보다 높다. 은행은 예금으로 조달한 돈을 대출로 운용하면서 위험과 운영비를 감당해야 하기 때문이다. 다만 상품 종류, 우대 조건, 시장 상황에 따라 개별 금리는 다르게 보일 수 있다.</p>
+
+
+                    
+                    
+
+
+<div class="row row-cols-2 mt-5 mb-3">
+    <div class="col"></div>
+    <div class="col text-end"></div>
+</div>
+
+                </div>
+                <div class="col col-md-3 col-lg-2 d-none d-md-block">
+                    
+    <div class="toc toc-sidebar mb-5 my-md-0 mb-lg-5 pb-3 text-body-secondary sticky-top">
+        
+
+        
+            
+            
+
+
+
+
+
+
+
+
+
+            <strong class="d-block mb-2">On this page</strong>
+            <nav class="toc">
+                
+                
+                    
+                
+
+                
+                    
+                    <a  class="toc-item toc-level-1" href="/posts/deposit-loan-interest-basics/#이자와-금리는-무엇이-다를까">이자와 금리는 무엇이 다를까</a>
+                
+                    
+                    <a  class="toc-item toc-level-1" href="/posts/deposit-loan-interest-basics/#은행은-왜-예금자에게-이자를-줄까">은행은 왜 예금자에게 이자를 줄까</a>
+                
+                    
+                    <a  class="toc-item toc-level-1" href="/posts/deposit-loan-interest-basics/#대출금리는-왜-예금금리보다-높을까">대출금리는 왜 예금금리보다 높을까</a>
+                
+                    
+                    <a  class="toc-item toc-level-1" href="/posts/deposit-loan-interest-basics/#예대마진을-알면-은행-수익-구조가-보인다">예대마진을 알면 은행 수익 구조가 보인다</a>
+                
+                    
+                    <a  class="toc-item toc-level-1" href="/posts/deposit-loan-interest-basics/#내-돈에-적용할-때-확인할-점">내 돈에 적용할 때 확인할 점</a>
+                
+                    
+                    <a  class="toc-item toc-level-1" href="/posts/deposit-loan-interest-basics/#정리">정리</a>
+                
+                    
+                    <a  class="toc-item toc-level-1" href="/posts/deposit-loan-interest-basics/#자주-묻는-질문">자주 묻는 질문</a>
+                
+                    
+                    <a  class="toc-item toc-level-2" href="/posts/deposit-loan-interest-basics/#q1-예금금리가-연-3면-100만-원을-맡겼을-때-정확히-3만-원을-받나">Q1. 예금금리가 연 3%면 100만 원을 맡겼을 때 정확히 3만 원을 받나?</a>
+                
+                    
+                    <a  class="toc-item toc-level-2" href="/posts/deposit-loan-interest-basics/#q2-대출금리는-왜-사람마다-다를까">Q2. 대출금리는 왜 사람마다 다를까?</a>
+                
+                    
+                        
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+<a aria-label="Show 1 more"
+        href="#toc-collapse-items" id="btnTOCShowMore" class="btn btn-link link-primary position-relative toc-item" data-bs-toggle="collapse" aria-expanded="false" aria-controls="toc-collapse-items"role="button"
+        >
+        <span class="d-flex justify-content-start">
+            <span class="my-auto">Show 1 more</span>
+        </span></a>
+
+                        <div class="collapse" id="toc-collapse-items">
+                        
+                    <a  class="toc-item toc-level-2" href="/posts/deposit-loan-interest-basics/#q3-예금금리보다-대출금리가-항상-높나">Q3. 예금금리보다 대출금리가 항상 높나?</a>
+                
+
+                
+                    &nbsp;
+                    
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+<a aria-label="Show less"
+        href="#toc-collapse-items" id="btnTOCShowLess" class="btn btn-link link-primary position-relative toc-item" data-bs-toggle="collapse" aria-expanded="false" aria-controls="toc-collapse-items"role="button"
+        >
+        <span class="d-flex justify-content-start">
+            <span class="my-auto">Show less</span>
+        </span></a>
+
+                </div>
+            </nav>
+        
+    
+
+
+
+        </div>
+
+
+                </div>
+            </div>
+        </div>
+    
+</main>
+
+<footer class="container-fluid footer text-center p-3">
+    <div class="container-xxl text-center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8543127460401091"
+     crossorigin="anonymous"></script>
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-8543127460401091"
+     data-ad-slot="3689386360"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+        <small>
+            Copyright © 2026 Show Me the Money::devkuma All rights reserved.
+             |
+            
+                
+                Powered by 
+    <a href="https://gethinode.com" class="link-bg-footer"  target="_blank" rel="noopener noreferrer nofollow">Hinode</a>
+.
+            
+        </small>
+    </div>
+</footer>
+<div id="toast-container" class="toast-container position-fixed bottom-0 end-0 p-3">
+
+
+
+
+
+
+
+
+<div id="toast-copied-code-message" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+    <div class="toast-header">
+        <strong class="me-auto">Show Me the Money::devkuma</strong>
+        <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+    </div>
+    <div class="toast-body">Code copied to clipboard</div>
+</div>
+</div>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" display="none">
+        <symbol id="fas-ellipsis" overflow="visible" viewBox="0 0 448 512"><path fill="currentColor" d="M0 256a56 56 0 1 1 112 0 56 56 0 1 1 -112 0zm168 0a56 56 0 1 1 112 0 56 56 0 1 1 -112 0zm224-56a56 56 0 1 1 0 112 56 56 0 1 1 0-112z"/></symbol>
+<symbol id="fas-sun" overflow="visible" viewBox="0 0 576 512"><path fill="currentColor" d="M288-32c8.4 0 16.3 4.4 20.6 11.7L364.1 72.3 468.9 46c8.2-2 16.9 .4 22.8 6.3S500 67 498 75.1l-26.3 104.7 92.7 55.5c7.2 4.3 11.7 12.2 11.7 20.6s-4.4 16.3-11.7 20.6L471.7 332.1 498 436.8c2 8.2-.4 16.9-6.3 22.8S477 468 468.9 466l-104.7-26.3-55.5 92.7c-4.3 7.2-12.2 11.7-20.6 11.7s-16.3-4.4-20.6-11.7L211.9 439.7 107.2 466c-8.2 2-16.8-.4-22.8-6.3S76 445 78 436.8l26.2-104.7-92.6-55.5C4.4 272.2 0 264.4 0 256s4.4-16.3 11.7-20.6L104.3 179.9 78 75.1c-2-8.2 .3-16.8 6.3-22.8S99 44 107.2 46l104.7 26.2 55.5-92.6 1.8-2.6c4.5-5.7 11.4-9.1 18.8-9.1zm0 144a144 144 0 1 0 0 288 144 144 0 1 0 0-288zm0 240a96 96 0 1 1 0-192 96 96 0 1 1 0 192z"/></symbol>
+<symbol id="fas-moon" overflow="visible" viewBox="0 0 512 512"><path fill="currentColor" d="M256 0C114.6 0 0 114.6 0 256S114.6 512 256 512c68.8 0 131.3-27.2 177.3-71.4 7.3-7 9.4-17.9 5.3-27.1s-13.7-14.9-23.8-14.1c-4.9 .4-9.8 .6-14.8 .6-101.6 0-184-82.4-184-184 0-72.1 41.5-134.6 102.1-164.8 9.1-4.5 14.3-14.3 13.1-24.4S322.6 8.5 312.7 6.3C294.4 2.2 275.4 0 256 0z"/></symbol>
+<symbol id="fas-angle-left" overflow="visible" viewBox="0 0 256 512"><path fill="currentColor" d="M9.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L77.3 256 214.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z"/></symbol>
+<symbol id="fas-sort" overflow="visible" viewBox="0 0 384 512"><path fill="currentColor" d="M2.4 204.2c5 12 16.6 19.8 29.6 19.8l320 0c12.9 0 24.6-7.8 29.6-19.8s2.2-25.7-6.9-34.9l-160-160c-12.5-12.5-32.8-12.5-45.3 0l-160 160c-9.2 9.2-11.9 22.9-6.9 34.9zm0 103.5c-5 12-2.2 25.7 6.9 34.9l160 160c12.5 12.5 32.8 12.5 45.3 0l160-160c9.2-9.2 11.9-22.9 6.9-34.9S364.9 288 352 288L32 288c-12.9 0-24.6 7.8-29.6 19.8z"/></symbol>
+<symbol id="fas-link" overflow="visible" viewBox="0 0 576 512"><path fill="currentColor" d="M419.5 96c-16.6 0-32.7 4.5-46.8 12.7-15.8-16-34.2-29.4-54.5-39.5 28.2-24 64.1-37.2 101.3-37.2 86.4 0 156.5 70 156.5 156.5 0 41.5-16.5 81.3-45.8 110.6l-71.1 71.1c-29.3 29.3-69.1 45.8-110.6 45.8-86.4 0-156.5-70-156.5-156.5 0-1.5 0-3 .1-4.5 .5-17.7 15.2-31.6 32.9-31.1s31.6 15.2 31.1 32.9c0 .9 0 1.8 0 2.6 0 51.1 41.4 92.5 92.5 92.5 24.5 0 48-9.7 65.4-27.1l71.1-71.1c17.3-17.3 27.1-40.9 27.1-65.4 0-51.1-41.4-92.5-92.5-92.5zM275.2 173.3c-1.9-.8-3.8-1.9-5.5-3.1-12.6-6.5-27-10.2-42.1-10.2-24.5 0-48 9.7-65.4 27.1L91.1 258.2c-17.3 17.3-27.1 40.9-27.1 65.4 0 51.1 41.4 92.5 92.5 92.5 16.5 0 32.6-4.4 46.7-12.6 15.8 16 34.2 29.4 54.6 39.5-28.2 23.9-64 37.2-101.3 37.2-86.4 0-156.5-70-156.5-156.5 0-41.5 16.5-81.3 45.8-110.6l71.1-71.1c29.3-29.3 69.1-45.8 110.6-45.8 86.6 0 156.5 70.6 156.5 156.9 0 1.3 0 2.6 0 3.9-.4 17.7-15.1 31.6-32.8 31.2s-31.6-15.1-31.2-32.8c0-.8 0-1.5 0-2.3 0-33.7-18-63.3-44.8-79.6z"/></symbol>
+    </svg>
+
+  
+    
+
+  
+
+
+<script src="/js/core.bundle-analytics.ko.min.bef138a0b0039c16630a4767e923e751563c440bb5d0c7c226422e8df10640e9.js"
+         data-category="analytics" integrity="sha256-vvE4oLADnBZjCkdn6SPnUVY8RAu10MfCJkIujfEGQOk=" crossorigin="anonymous" async></script>
+
+<script src="/js/core.bundle.ko.min.81adbf62d8822e5b6f27da7fd4d73e854e61eb258f461ada35986a353112f3d0.js"
+         integrity="sha256-ga2/YtiCLltvJ9p/1Nc&#43;hU5h6yWPRhraNZhqNTES89A=" crossorigin="anonymous" async></script></body>
+</html>
