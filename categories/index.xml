@@ -6,8 +6,15 @@
     <description>Recent content in Categories on Show Me the Money::devkuma</description>
     <generator>Hugo</generator>
     <language>ko-KR</language>
-    <lastBuildDate>Mon, 25 May 2026 22:45:40 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 26 May 2026 00:00:00 +0900</lastBuildDate>
     <atom:link href="https://money.devkuma.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>금융</title>
+      <link>https://money.devkuma.com/categories/%EA%B8%88%EC%9C%B5/</link>
+      <pubDate>Tue, 26 May 2026 00:00:00 +0900</pubDate>
+      <guid>https://money.devkuma.com/categories/%EA%B8%88%EC%9C%B5/</guid>
+      <description></description>
+    </item>
     <item>
       <title>주식</title>
       <link>https://money.devkuma.com/categories/%EC%A3%BC%EC%8B%9D/</link>
@@ -55,13 +62,6 @@
       <link>https://money.devkuma.com/categories/%EC%84%B8%EA%B8%88/</link>
       <pubDate>Sun, 17 May 2026 22:46:15 +0900</pubDate>
       <guid>https://money.devkuma.com/categories/%EC%84%B8%EA%B8%88/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>금융</title>
-      <link>https://money.devkuma.com/categories/%EA%B8%88%EC%9C%B5/</link>
-      <pubDate>Tue, 12 May 2026 22:34:52 +0900</pubDate>
-      <guid>https://money.devkuma.com/categories/%EA%B8%88%EC%9C%B5/</guid>
       <description></description>
     </item>
     <item>
