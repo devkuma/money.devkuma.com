@@ -6,7 +6,7 @@
     <description>Recent content in 주식초보 on Show Me the Money::devkuma</description>
     <generator>Hugo</generator>
     <language>ko-KR</language>
-    <lastBuildDate>Mon, 25 May 2026 11:43:09 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 26 May 2026 22:35:38 +0900</lastBuildDate>
     <atom:link href="https://money.devkuma.com/tags/%EC%A3%BC%EC%8B%9D%EC%B4%88%EB%B3%B4/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>실패하지 않는 주식투자 입문 가이드, 초보자가 먼저 알아야 할 기본 원칙</title>
@@ -14,6 +14,20 @@
       <pubDate>Wed, 06 May 2026 23:04:47 +0900</pubDate>
       <guid>https://money.devkuma.com/posts/stock-investing-beginner-guide/</guid>
       <description>&lt;p&gt;주식투자를 시작하려고 하면 마음이 복잡해진다. 주변에서는 누가 어떤 종목으로 돈을 벌었다고 하고, 뉴스에서는 AI, 반도체, 2차전지, 바이오 같은 이야기가 계속 나온다. 증권 앱을 열면 당장이라도 매수 버튼을 눌러야 할 것 같지만, 막상 내 돈을 넣으려면 겁이 난다.&lt;/p&gt;&#xA;&lt;p&gt;나도 금융 문맹을 벗어나야겠다고 생각하면서 가장 먼저 부딪힌 벽이 주식이었다. 예금과 적금은 원금과 이자가 비교적 분명한데, 주식은 하루에도 가격이 오르내린다. 공부하지 않고 들어가면 투자가 아니라 감정 게임이 되기 쉽다.&lt;/p&gt;&#xA;&lt;p&gt;주식투자 입문에서 가장 중요한 목표는 대박을 잡는 것이 아니다. 오래 살아남는 것이다. 처음부터 큰돈을 벌려고 하면 조급해지고, 조급하면 위험한 선택을 하기 쉽다. 이 글에서는 초보자가 주식투자를 시작하기 전에 꼭 알아야 할 기본 원칙을 정리하였다.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>분산투자 왜 해야 할까? 포트폴리오 뜻과 투자 자산 나누는 방법</title>
+      <link>https://money.devkuma.com/posts/diversified-investing-portfolio/</link>
+      <pubDate>Wed, 13 May 2026 22:22:10 +0900</pubDate>
+      <guid>https://money.devkuma.com/posts/diversified-investing-portfolio/</guid>
+      <description>&lt;p&gt;투자를 시작하면 가장 자주 듣는 말이 있다. &amp;ldquo;계란을 한 바구니에 담지 말라&amp;quot;는 말이다. 말은 쉬운데 막상 내 계좌를 보면 한두 종목, 한 가지 자산, 한 번의 매수 타이밍에 돈이 몰려 있는 경우가 많다.&lt;/p&gt;&#xA;&lt;p&gt;집중투자는 맞았을 때 수익이 크게 보인다. 하지만 틀렸을 때 회복이 어렵다. 한 종목이 급락하거나, 특정 업종 전체가 흔들리거나, 내가 산 직후 시장이 조정을 받으면 계좌 전체가 같이 무너질 수 있다. 분산투자는 이런 위험을 줄이기 위한 가장 기본적인 투자 원칙이다.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>캔들차트 보는 법, 주식 초보를 위한 캔들 종류와 패턴 기초 정리</title>
+      <link>https://money.devkuma.com/posts/stock-candlestick-chart/</link>
+      <pubDate>Tue, 26 May 2026 22:35:38 +0900</pubDate>
+      <guid>https://money.devkuma.com/posts/stock-candlestick-chart/</guid>
+      <description>&lt;p&gt;주식 앱을 열면 가장 먼저 보이는 것이 차트다. 그런데 초보자에게 차트는 꽤 낯설다. 빨간색과 파란색 막대가 계속 이어져 있고, 위아래로 선이 달려 있는데 이것이 무엇을 의미하는지 모르면 주가가 올랐는지 내렸는지도 헷갈릴 수 있다.&lt;/p&gt;&#xA;&lt;p&gt;이 막대를 캔들이라고 부른다. 촛불처럼 생겼다고 해서 캔들차트라는 이름이 붙었다. 캔들 하나에는 일정 기간 동안의 시가, 종가, 고가, 저가가 담긴다. 그래서 캔들차트를 볼 줄 알면 그날 주가가 얼마나 올랐는지, 장중에 얼마나 흔들렸는지, 매수세와 매도세 중 어느 쪽이 강했는지 대략 파악할 수 있다.&lt;/p&gt;</description>
     </item>
     <item>
       <title>해외 주식 사는 법, 계좌 개설부터 환전·거래시간·세금까지 한 번에 정리</title>
@@ -77,13 +91,6 @@
       <pubDate>Thu, 14 May 2026 21:53:49 +0900</pubDate>
       <guid>https://money.devkuma.com/posts/call-option-put-option/</guid>
       <description>&lt;p&gt;주식 공부를 하다 보면 콜옵션, 풋옵션이라는 말을 한 번쯤 듣게 된다. 뉴스에서는 경영권 분쟁, 임원 보상, 파생상품 투자, 커버드콜 ETF 같은 이야기와 함께 자주 나온다. 2024년에는 민희진 전 어도어 대표의 풋옵션 이슈가 알려지면서 &amp;ldquo;풋옵션이 대체 뭐길래 1,000억 원대라는 말이 나오지?&amp;ldquo;라고 궁금해한 사람도 많았다.&lt;/p&gt;&#xA;&lt;p&gt;옵션은 말 그대로 &amp;ldquo;권리&amp;quot;다. 미래의 특정 시점에 어떤 자산을 미리 정한 가격으로 사거나 팔 수 있는 권리를 말한다. 주식뿐 아니라 채권, 금, 원유, 지수 같은 여러 자산이 옵션의 대상이 될 수 있다.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>분산투자 왜 해야 할까? 포트폴리오 뜻과 투자 자산 나누는 방법</title>
-      <link>https://money.devkuma.com/posts/diversified-investing-portfolio/</link>
-      <pubDate>Wed, 13 May 2026 22:22:10 +0900</pubDate>
-      <guid>https://money.devkuma.com/posts/diversified-investing-portfolio/</guid>
-      <description>&lt;p&gt;투자를 시작하면 가장 자주 듣는 말이 있다. &amp;ldquo;계란을 한 바구니에 담지 말라&amp;quot;는 말이다. 말은 쉬운데 막상 내 계좌를 보면 한두 종목, 한 가지 자산, 한 번의 매수 타이밍에 돈이 몰려 있는 경우가 많다.&lt;/p&gt;&#xA;&lt;p&gt;집중투자는 맞았을 때 수익이 크게 보인다. 하지만 틀렸을 때 회복이 어렵다. 한 종목이 급락하거나, 특정 업종 전체가 흔들리거나, 내가 산 직후 시장이 조정을 받으면 계좌 전체가 같이 무너질 수 있다. 분산투자는 이런 위험을 줄이기 위한 가장 기본적인 투자 원칙이다.&lt;/p&gt;</description>
     </item>
     <item>
       <title>배당주 투자 방법: 고배당주, 배당기준일, 배당소득세까지 초보자 가이드</title>
