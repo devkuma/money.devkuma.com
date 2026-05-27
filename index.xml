@@ -6,7 +6,7 @@
     <description>Recent content in 부자 너구리! on Show Me the Money::devkuma</description>
     <generator>Hugo</generator>
     <language>ko-KR</language>
-    <lastBuildDate>Tue, 26 May 2026 22:35:38 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 27 May 2026 09:55:48 +0900</lastBuildDate>
     <atom:link href="https://money.devkuma.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>IRP 계좌 개설부터 퇴직금 수령, 세액공제 혜택까지 쉽게 정리</title>
@@ -189,6 +189,13 @@
       <pubDate>Sun, 17 May 2026 22:46:15 +0900</pubDate>
       <guid>https://money.devkuma.com/posts/etf-tax-guide/</guid>
       <description>&lt;p&gt;ETF는 주식처럼 사고팔 수 있어서 세금도 주식과 똑같다고 생각하기 쉽다. 그런데 실제로는 그렇지 않다. 국내 증시에 상장된 ETF인지, 해외 거래소에 직접 상장된 ETF인지, 또 ETF가 국내 주식에 투자하는지 해외 주식에 투자하는지에 따라 세금이 달라진다.&lt;/p&gt;&#xA;&lt;p&gt;특히 초보자가 가장 많이 헷갈리는 부분은 &amp;ldquo;국내 상장 해외 ETF&amp;quot;다. 예를 들어 TIGER 미국S&amp;amp;P500, KODEX 미국나스닥100처럼 한국거래소에서 원화로 사고파는 ETF는 미국 주식에 투자하더라도 세금은 해외 상장 ETF와 다르게 처리된다.&lt;/p&gt;&#xA;&lt;p&gt;이 글에서는 ETF 투자자가 꼭 알아야 할 세금을 매매차익과 분배금으로 나누어 정리하였다. 세금은 투자 수익률의 마지막 숫자를 바꾸기 때문에, 상품을 고르기 전에 한 번은 확인해두는 것이 좋다.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>RIA 계좌란? 해외주식 양도소득세 줄이는 국내시장복귀계좌 쉽게 정리</title>
+      <link>https://money.devkuma.com/posts/ria-account/</link>
+      <pubDate>Wed, 27 May 2026 09:55:48 +0900</pubDate>
+      <guid>https://money.devkuma.com/posts/ria-account/</guid>
+      <description>&lt;p&gt;해외주식에서 수익이 났는데 막상 팔려고 하면 세금이 먼저 떠오른다. 특히 미국 주식이나 해외 ETF를 오래 들고 있다가 평가이익이 커진 사람이라면 &amp;ldquo;팔면 양도소득세가 얼마나 나올까?&amp;ldquo;라는 고민을 하게 된다.&lt;/p&gt;&#xA;&lt;p&gt;RIA 계좌는 이런 상황에서 한 번쯤 확인해볼 만한 제도다. 정확한 이름은 국내시장복귀계좌이고, 해외주식을 팔아 생긴 자금을 국내 주식시장으로 옮기면 해외주식 양도소득세 부담을 줄여주는 한시적 계좌다.&lt;/p&gt;&#xA;&lt;p&gt;다만 이름만 보면 절세 만능 계좌처럼 보이지만 실제로는 조건이 꽤 분명하다. 대상 주식, 매도 시점, 5천만 원 한도, 1년 유지 조건, 다른 계좌에서 해외주식을 새로 사는 경우까지 같이 봐야 한다. 이 글에서는 RIA 계좌가 무엇인지 초보자도 이해할 수 있게 정리하였다.&lt;/p&gt;</description>
     </item>
     <item>
       <title>캔들차트 보는 법, 주식 초보를 위한 캔들 종류와 패턴 기초 정리</title>
