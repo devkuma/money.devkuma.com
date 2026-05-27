@@ -1,0 +1,1877 @@
+
+
+
+<!doctype html>
+<html lang="ko" class="no-js">
+    <head>
+
+<script src="/js/critical.bundle.min.a8c0814b35e0a7b1a8e5265b551bde6d5e4bb321db28f493d51366366c118c70.js"
+         integrity="sha256-qMCBSzXgp7Go5SZbVRvebV5LsyHbKPST1RNmNmwRjHA=" crossorigin="anonymous"></script><meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="generator" content="Hugo 0.161.1">
+    <meta name="theme" content="Hinode 1.23.7">
+    
+
+
+
+
+
+    
+    
+<link rel="stylesheet" href="/css/main.min.61f5e816e4941e747285305e469159a3667ccbbe555246fa1e88b99feb18e4c2.css" integrity="sha256-YfXoFuSUHnRyhTBeRpFZo2Z8y75VUkb6Hoi5n+sY5MI=" crossorigin="anonymous">
+    
+        
+    
+    
+        
+        
+             
+            <link rel="preload" href="/fonts/inter-v12-latin-regular.woff2" as="font" type="font/woff2" crossorigin>
+        
+
+
+
+    
+    
+    
+
+
+
+
+
+
+    
+  <meta name="robots" content="index, follow">
+    <meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta name="bingbot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <title>대출금리 구조 쉽게 이해하기: 기준금리, 가산금리, 우대금리 차이 - Show Me the Money::devkuma </title>
+    <meta name="description" content="대출금리가 어떻게 정해지는지 기준금리, 가산금리, 우대금리로 나누어 초보자도 이해하기 쉽게 정리했다.">
+
+<meta property="og:locale" content="en_US">
+<meta property="og:type" content="article">
+<meta property="og:title" content="대출금리 구조 쉽게 이해하기: 기준금리, 가산금리, 우대금리 차이">
+<meta property="og:description" content="대출금리가 어떻게 정해지는지 기준금리, 가산금리, 우대금리로 나누어 초보자도 이해하기 쉽게 정리했다.">
+
+<meta property="og:url" content="https://money.devkuma.com/posts/loan-interest-rate-structure/">
+<meta property="og:site_name" content="Show Me the Money::devkuma">
+<meta property="article:published_time" content="2026-05-27T22:50:50+09:00">
+    <meta property="article:modified_time" content="2026-05-27T22:50:50+09:00">
+    <meta property="og:image" content="https://money.devkuma.com/posts/finance/bank-money-1280x640.png">
+<meta property="og:image:alt" content="대출금리 구조 쉽게 이해하기: 기준금리, 가산금리, 우대금리 차이">
+
+
+
+<meta name="twitter:card" content="summary_large_image">
+
+
+<meta name="twitter:title" content="대출금리 구조 쉽게 이해하기: 기준금리, 가산금리, 우대금리 차이">
+<meta name="twitter:description" content="대출금리가 어떻게 정해지는지 기준금리, 가산금리, 우대금리로 나누어 초보자도 이해하기 쉽게 정리했다.">
+<meta name="twitter:image" content="https://money.devkuma.com/posts/finance/bank-money-1280x640.png">
+<meta name="twitter:image:alt" content="대출금리 구조 쉽게 이해하기: 기준금리, 가산금리, 우대금리 차이">
+
+
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+        "@id": "https://money.devkuma.com/#/schema/organization/1",
+      "name": "Hinode",
+      "url": "https://money.devkuma.com/",
+      "sameAs": [null,"https://github.com/gethinode/hinode"],
+      "logo": {
+          "@type": "ImageObject",
+          "@id": "https://money.devkuma.com/#/schema/image/1",
+          "url": "https://money.devkuma.com/favicons/512x512.png",
+          "width": 512 ,
+          "height": 512 ,
+          "caption": "Hinode"
+        },
+        "image": {
+          "@id": "https://money.devkuma.com/#/schema/image/1"
+        }
+      },
+    {
+      "@type": "WebSite",
+      "@id": "https://money.devkuma.com/#/schema/website/1",
+      "url": "https://money.devkuma.com/",
+      "name": "Show Me the Money::devkuma",
+      "description": "Hinode is a clean documentation and blog theme for your Hugo site based on Bootstrap 5.",
+      "publisher": {
+          "@id": "https://money.devkuma.com/#/schema/organization/1"
+        }
+      },
+    {
+      "@type": "WebPage",
+      "@id": "https://money.devkuma.com/posts/loan-interest-rate-structure/",
+      "url": "https://money.devkuma.com/posts/loan-interest-rate-structure/",
+      "name": "대출금리 구조 쉽게 이해하기: 기준금리, 가산금리, 우대금리 차이",
+      "description": "대출금리가 어떻게 정해지는지 기준금리, 가산금리, 우대금리로 나누어 초보자도 이해하기 쉽게 정리했다.",
+      "isPartOf": {
+        "@id": "https://money.devkuma.com/#/schema/website/1"
+      },
+      "about": {
+          "@id": "https://money.devkuma.com/#/schema/organization/1"
+        },
+      "datePublished": "2026-05-27T22:50:50CET","dateModified": "2026-05-27T22:50:50CET","breadcrumb": {
+        "@id": "https://money.devkuma.com/posts/loan-interest-rate-structure/#/schema/breadcrumb/1"
+      },
+      "primaryImageOfPage": {
+        "@id": "https://money.devkuma.com/posts/loan-interest-rate-structure/#/schema/image/2"
+      },
+      "inLanguage": "en-US",
+      "potentialAction": [{
+        "@type": "ReadAction", "target": ["https://money.devkuma.com/posts/loan-interest-rate-structure/"]
+      }]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://money.devkuma.com/posts/loan-interest-rate-structure/#/schema/breadcrumb/1",
+      "name": "Breadcrumbs",
+      "itemListElement": [{
+        "@type": "ListItem",
+        "position":  1 ,
+        "item": {
+          "@type": "WebPage",
+          "@id": "https://money.devkuma.com/",
+          "url": "https://money.devkuma.com/",
+          "name": "Home"
+          }
+        },{
+        "@type": "ListItem",
+        "position":  2 ,
+        "item": {
+          "@type": "WebPage",
+          "@id": "https://money.devkuma.com/posts/",
+          "url": "https://money.devkuma.com/posts/",
+          "name": "Posts"
+          }
+        },{
+        "@type": "ListItem",
+        "position":  3 ,
+        "item": {
+          "@id": "https://money.devkuma.com/posts/loan-interest-rate-structure/"
+          }
+        }]
+    },
+
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "ImageObject",
+          "@id": "https://money.devkuma.com/posts/loan-interest-rate-structure/#/schema/image/2",
+          "url": "https://money.devkuma.com/posts/finance/bank-money-1280x640.png",
+          "contentUrl": "https://money.devkuma.com/posts/finance/bank-money-1280x640.png",
+          "caption": "대출금리 구조 쉽게 이해하기: 기준금리, 가산금리, 우대금리 차이"
+        }
+      ]
+    }
+
+  ]
+}
+</script>
+
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicons/favicon-96x96_hu_bcafd75a361bcb2.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicons/favicon-96x96_hu_ef780cd502e896ea.png">
+        <link rel="icon" type="image/png" sizes="48x48" href="/favicons/favicon-96x96_hu_8f60ad9056f52802.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="/favicons/favicon-96x96_hu_a6aa36da47e45ca3.png">
+    
+
+</head><body class="navbar-fixed">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        
+        
+        
+    
+
+
+
+
+<div class="container-fluid fixed-top p-0">
+
+
+
+
+
+<nav class="navbar px-4 py-4 navbar-fs-6 navbar-md-fs bg-body navbar-fixed-top navbar-expand-md"
+        
+        
+        >
+        <div class="container-xxl p-0">
+            <div class="d-flex navbar-container">
+                
+                <div class="d-flex align-items-center">
+                            <button class="navbar-toggler collapsed p-0 mx-auto invisible fw-30" type="button">
+
+
+
+
+
+
+                
+                        
+                        
+                        <svg class="svg-inline--fa fas fa-ellipsis fa-fw" fill="currentColor" aria-hidden="true" role="img" viewBox="0 0 448 512" overflow="visible"><use href="#fas-ellipsis"></use></svg></button></div>
+                
+
+                <div class="w-100 d-flex align-items-center w-md-auto">
+                    <a class="navbar-brand mx-auto" href="/" aria-label="Home">
+    
+    
+
+
+<img class="img-fluid m-auto"
+            src="/img/logo_icon-2800x2800.png"
+             srcset="/img/logo_icon-576x576.webp 576w, /img/logo_icon-768x768.webp 768w, /img/logo_icon-992x992.webp 992w, /img/logo_icon-1200x1200.webp 1200w, /img/logo_icon-1400x1400.webp 1400w, /img/logo_icon-2800x2800.webp 2800w" sizes="100vw" height="30" width="30" alt="Show Me the Money::devkuma"></a>
+                </div>
+                <div class="d-flex align-items-center">
+                    <button class="navbar-toggler main-nav-toggler collapsed p-0" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbar-0-collapse"
+                        aria-controls="navbar-0" aria-expanded="false" aria-label="Toggle main navigation">
+                        <span class="toggler-icon top-bar emphasis"></span>
+                        <span class="toggler-icon middle-bar emphasis"></span>
+                        <span class="toggler-icon bottom-bar emphasis"></span>
+                    </button>
+                </div>
+            </div>
+    
+            <div class="navbar-collapse collapse" id="navbar-0-collapse">
+                
+                    <div class="d-flex flex-fill ms-md-3 mt-4 mt-md-0 me-md-3">
+    <form class="search flex-fill position-relative me-auto">
+        <input class="search-input form-control is-search" type="search" placeholder="" aria-label="" autocomplete="off" name="search-input">
+        <div class="search-suggestions shadow bg-body rounded d-none" data-no-results=""></div>
+    </form>
+</div>
+
+                <ul class="navbar-nav navbar-nav-scroll ms-auto">
+                    
+        
+            <li class="nav-item ">
+
+
+
+
+
+
+
+
+    
+
+
+    
+    
+
+    
+        <a
+            class="nav-link"
+            
+            data-nav="main" data-nav-main="home"
+             href="/"
+            
+            
+            ><span class=" d-md-none ">Home</span>
+            
+            <span class=" d-none d-md-block">Home</span>
+            
+        </a>
+    
+</li>
+        
+            <li class="nav-item ">
+
+
+
+
+
+
+
+
+    
+
+
+    
+    
+
+    
+        <a
+            class="nav-link"
+            
+            data-nav="main" data-nav-main="%EB%89%B4%EC%8A%A4"
+             href="/news/"
+            
+            
+            ><span class=" d-md-none ">뉴스</span>
+            
+            <span class=" d-none d-md-block">뉴스</span>
+            
+        </a>
+    
+</li>
+        
+            <li class="nav-item ">
+
+
+
+
+
+
+
+
+    
+
+
+    
+    
+
+    
+        <a
+            class="nav-link"
+            
+            data-nav="main" data-nav-main="%EA%B2%BD%EC%A0%9C"
+             href="/posts/economy/"
+            
+            
+            ><span class=" d-md-none ">경제</span>
+            
+            <span class=" d-none d-md-block">경제</span>
+            
+        </a>
+    
+</li>
+        
+            <li class="nav-item ">
+
+
+
+
+
+
+
+
+    
+
+
+    
+    
+
+    
+        <a
+            class="nav-link"
+            
+            data-nav="main" data-nav-main="%EA%B8%88%EC%9C%B5"
+             href="/posts/finance/"
+            
+            
+            ><span class=" d-md-none ">금융</span>
+            
+            <span class=" d-none d-md-block">금융</span>
+            
+        </a>
+    
+</li>
+        
+            <li class="nav-item ">
+
+
+
+
+
+
+
+
+    
+
+
+    
+    
+
+    
+        <a
+            class="nav-link"
+            
+            data-nav="main" data-nav-main="%EC%A3%BC%EC%8B%9D"
+             href="/posts/stock/"
+            
+            
+            ><span class=" d-md-none ">주식</span>
+            
+            <span class=" d-none d-md-block">주식</span>
+            
+        </a>
+    
+</li>
+        
+            <li class="nav-item ">
+
+
+
+
+
+
+
+
+    
+
+
+    
+    
+
+    
+        <a
+            class="nav-link"
+            
+            data-nav="main" data-nav-main="%EC%B1%84%EA%B6%8C"
+             href="/posts/bond/"
+            
+            
+            ><span class=" d-md-none ">채권</span>
+            
+            <span class=" d-none d-md-block">채권</span>
+            
+        </a>
+    
+</li>
+        
+            <li class="nav-item ">
+
+
+
+
+
+
+
+
+    
+
+
+    
+    
+
+    
+        <a
+            class="nav-link"
+            
+            data-nav="main" data-nav-main="%EC%BD%94%EC%9D%B8"
+             href="/posts/coin/"
+            
+            
+            ><span class=" d-md-none ">코인</span>
+            
+            <span class=" d-none d-md-block">코인</span>
+            
+        </a>
+    
+</li>
+        
+            <li class="nav-item ">
+
+
+
+
+
+
+
+
+    
+
+
+    
+    
+
+    
+        <a
+            class="nav-link"
+            
+            data-nav="main" data-nav-main="%EB%8C%80%EC%B6%9C"
+             href="/posts/loan/"
+            
+            
+            ><span class=" d-md-none ">대출</span>
+            
+            <span class=" d-none d-md-block">대출</span>
+            
+        </a>
+    
+</li>
+        
+            <li class="nav-item ">
+
+
+
+
+
+
+
+
+    
+
+
+    
+    
+
+    
+        <a
+            class="nav-link"
+            
+            data-nav="main" data-nav-main="%EB%B6%80%EB%8F%99%EC%82%B0"
+             href="/posts/real-estate/"
+            
+            
+            ><span class=" d-md-none ">부동산</span>
+            
+            <span class=" d-none d-md-block">부동산</span>
+            
+        </a>
+    
+</li>
+        
+            <li class="nav-item ">
+
+
+
+
+
+
+
+
+    
+
+
+    
+    
+
+    
+        <a
+            class="nav-link"
+            
+            data-nav="main" data-nav-main="%EB%B3%B4%ED%97%98"
+             href="/posts/insurance/"
+            
+            
+            ><span class=" d-md-none ">보험</span>
+            
+            <span class=" d-none d-md-block">보험</span>
+            
+        </a>
+    
+</li>
+        
+            <li class="nav-item ">
+
+
+
+
+
+
+
+
+    
+
+
+    
+    
+
+    
+        <a
+            class="nav-link"
+            
+            data-nav="main" data-nav-main="%EC%84%B8%EA%B8%88"
+             href="/posts/tax/"
+            
+            
+            ><span class=" d-md-none ">세금</span>
+            
+            <span class=" d-none d-md-block">세금</span>
+            
+        </a>
+    
+</li>
+        
+            <li class="nav-item ">
+
+
+
+
+
+
+
+
+    
+
+
+    
+    
+
+    
+        <a
+            class="nav-link"
+            
+            data-nav="main" data-nav-main="about-me"
+             href="/about/"
+            
+            
+            ><span class=" d-md-none ">About Me</span>
+            
+            <span class=" d-none d-md-block">About Me</span>
+            
+        </a>
+    
+</li>
+        
+            <li class="nav-item ">
+
+
+
+
+
+
+
+
+    
+
+
+    
+    
+
+    
+        <a
+            class="nav-link"
+            
+            data-nav="main" data-nav-main="tags"
+             href="/tags/"
+            
+            
+            ><span class=" d-md-none ">Tags</span>
+            
+            <span class=" d-none d-md-block">Tags</span>
+            
+        </a>
+    
+</li>
+    
+                    
+                    
+                    
+                                    
+                    <li class="nav-link navbar-fs-6 navbar-md-fs d-flex mode-switch align-items-center" id="navbar-mode">
+    <input type="checkbox" class="checkbox navbar-mode-selector" id="navbar-mode-checkbox" aria-label="Toggle theme" />
+    <label class="label" for="navbar-mode-checkbox">
+        
+
+
+
+
+
+
+                
+                        
+                        
+                        <svg class="svg-inline--fa fas fa-sun fa-fw" fill="currentColor" aria-hidden="true" role="img" viewBox="0 0 576 512" overflow="visible"><use href="#fas-sun"></use></svg>
+
+
+
+
+
+
+                
+                        
+                        
+                        <svg class="svg-inline--fa fas fa-moon fa-fw" fill="currentColor" aria-hidden="true" role="img" viewBox="0 0 512 512" overflow="visible"><use href="#fas-moon"></use></svg>
+            <div class="ball"></div>
+        
+    </label>
+</li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</div>
+<main id="container" class="main">
+                
+
+    
+    
+    
+    
+    
+        <div class="container-xxl flex-fill py-4 px-4 px-xxl-0">
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3">
+                <div class="col col-lg-2 d-none d-lg-block sidebar-overflow sticky-top p-0">
+                    
+                </div>
+                <div class="col-12 col-md-9 col-lg-8 mb-5">
+                    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+    
+
+        
+    
+
+        
+    
+
+
+
+
+    <nav aria-label="breadcrumb" class="d-sm-none">
+        <ol class="breadcrumb">
+                <li class="breadcrumb-item">
+                    <a href="/posts/finance/">
+                        
+
+
+
+
+
+
+                
+                        
+                        
+                        <svg class="svg-inline--fa fas fa-angle-left " fill="currentColor" aria-hidden="true" role="img" viewBox="0 0 256 512" overflow="visible"><use href="#fas-angle-left"></use></svg>&nbsp;&nbsp;금융
+                    </a>
+                </li></ol>
+    </nav>
+
+    <nav aria-label="breadcrumb" class="d-none d-sm-block">
+        <ol class="breadcrumb">
+                
+                <li class="breadcrumb-item"><a href="/">Home</a></li>
+                
+                <li class="breadcrumb-item"><a href="/posts/">금융의 모든 지식!</a></li>
+                
+                <li class="breadcrumb-item"><a href="/posts/finance/">금융</a></li><li class="breadcrumb-item active" aria-current="page">
+                
+                
+                대출금리구조
+            </li>
+        </ol>
+    </nav>
+
+<h1 id="대출금리-구조-쉽게-이해하기-기준금리-가산금리-우대금리-차이" class="display-4 pt-1">대출금리 구조 쉽게 이해하기: 기준금리, 가산금리, 우대금리 차이</h1>
+
+
+    <small class="text-body-secondary text-uppercase">
+            
+                Posted on 2026년 5월 27일
+            &bull;
+        
+            6&nbsp;min read
+            &bull;
+        1,120&nbsp;words
+    </small>
+
+<div class="mt-3">
+        <div class="d-none-dark">
+            <div class="hstack gap-1">
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+<a aria-label="대출금리"
+        href="/tags/%EB%8C%80%EC%B6%9C%EA%B8%88%EB%A6%AC/" class="btn btn-light btn-sm position-relative "
+        role="button"
+        >
+        <span class="d-flex justify-content-start">
+            <span class="my-auto">대출금리</span>
+        </span></a>&nbsp;
+
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+<a aria-label="기준금리"
+        href="/tags/%EA%B8%B0%EC%A4%80%EA%B8%88%EB%A6%AC/" class="btn btn-light btn-sm position-relative "
+        role="button"
+        >
+        <span class="d-flex justify-content-start">
+            <span class="my-auto">기준금리</span>
+        </span></a>&nbsp;
+
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+<a aria-label="가산금리"
+        href="/tags/%EA%B0%80%EC%82%B0%EA%B8%88%EB%A6%AC/" class="btn btn-light btn-sm position-relative "
+        role="button"
+        >
+        <span class="d-flex justify-content-start">
+            <span class="my-auto">가산금리</span>
+        </span></a>&nbsp;
+
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+<a aria-label="우대금리"
+        href="/tags/%EC%9A%B0%EB%8C%80%EA%B8%88%EB%A6%AC/" class="btn btn-light btn-sm position-relative "
+        role="button"
+        >
+        <span class="d-flex justify-content-start">
+            <span class="my-auto">우대금리</span>
+        </span></a>&nbsp;
+
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+<a aria-label="코픽스"
+        href="/tags/%EC%BD%94%ED%94%BD%EC%8A%A4/" class="btn btn-light btn-sm position-relative "
+        role="button"
+        >
+        <span class="d-flex justify-content-start">
+            <span class="my-auto">코픽스</span>
+        </span></a>&nbsp;
+
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+<a aria-label="금융채"
+        href="/tags/%EA%B8%88%EC%9C%B5%EC%B1%84/" class="btn btn-light btn-sm position-relative "
+        role="button"
+        >
+        <span class="d-flex justify-content-start">
+            <span class="my-auto">금융채</span>
+        </span></a>&nbsp;
+
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+<a aria-label="대출"
+        href="/tags/%EB%8C%80%EC%B6%9C/" class="btn btn-light btn-sm position-relative "
+        role="button"
+        >
+        <span class="d-flex justify-content-start">
+            <span class="my-auto">대출</span>
+        </span></a>&nbsp;
+
+                </div>
+        </div>
+        
+        <div class="d-none-light">
+            <div class="hstack gap-1">
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+<a aria-label="대출금리"
+        href="/tags/%EB%8C%80%EC%B6%9C%EA%B8%88%EB%A6%AC/" class="btn btn-outline-primary btn-sm position-relative "
+        role="button"
+        >
+        <span class="d-flex justify-content-start">
+            <span class="my-auto">대출금리</span>
+        </span></a>&nbsp;
+
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+<a aria-label="기준금리"
+        href="/tags/%EA%B8%B0%EC%A4%80%EA%B8%88%EB%A6%AC/" class="btn btn-outline-primary btn-sm position-relative "
+        role="button"
+        >
+        <span class="d-flex justify-content-start">
+            <span class="my-auto">기준금리</span>
+        </span></a>&nbsp;
+
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+<a aria-label="가산금리"
+        href="/tags/%EA%B0%80%EC%82%B0%EA%B8%88%EB%A6%AC/" class="btn btn-outline-primary btn-sm position-relative "
+        role="button"
+        >
+        <span class="d-flex justify-content-start">
+            <span class="my-auto">가산금리</span>
+        </span></a>&nbsp;
+
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+<a aria-label="우대금리"
+        href="/tags/%EC%9A%B0%EB%8C%80%EA%B8%88%EB%A6%AC/" class="btn btn-outline-primary btn-sm position-relative "
+        role="button"
+        >
+        <span class="d-flex justify-content-start">
+            <span class="my-auto">우대금리</span>
+        </span></a>&nbsp;
+
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+<a aria-label="코픽스"
+        href="/tags/%EC%BD%94%ED%94%BD%EC%8A%A4/" class="btn btn-outline-primary btn-sm position-relative "
+        role="button"
+        >
+        <span class="d-flex justify-content-start">
+            <span class="my-auto">코픽스</span>
+        </span></a>&nbsp;
+
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+<a aria-label="금융채"
+        href="/tags/%EA%B8%88%EC%9C%B5%EC%B1%84/" class="btn btn-outline-primary btn-sm position-relative "
+        role="button"
+        >
+        <span class="d-flex justify-content-start">
+            <span class="my-auto">금융채</span>
+        </span></a>&nbsp;
+
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+<a aria-label="대출"
+        href="/tags/%EB%8C%80%EC%B6%9C/" class="btn btn-outline-primary btn-sm position-relative "
+        role="button"
+        >
+        <span class="d-flex justify-content-start">
+            <span class="my-auto">대출</span>
+        </span></a>&nbsp;
+
+                </div>
+        </div>
+    </div>
+
+    <div class="lead text-muted py-4">대출금리가 어떻게 정해지는지 기준금리, 가산금리, 우대금리로 나누어 초보자도 이해하기 쉽게 정리했다.</div>
+
+
+<div class="d-md-none pb-5">
+
+
+
+
+
+
+
+
+
+    
+        <div class="d-grid gap-2 mx-auto">
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+<a aria-label="On this page"
+        href="#toc-collapse" class="btn btn-outline-secondary position-relative toc-button"
+         data-bs-toggle="collapse" aria-expanded="false" aria-controls="toc-collapse"role="button"
+        >
+        <span class="d-flex justify-content-between">
+            <span class="my-auto">On this page</span>
+                <span class="align-self-center ps-1">
+                    
+
+
+
+
+
+
+                
+                        
+                        
+                        <svg class="svg-inline--fa fas fa-sort " fill="currentColor" aria-hidden="true" role="img" viewBox="0 0 384 512" overflow="visible"><use href="#fas-sort"></use></svg>
+                </span>
+            
+        </span></a>
+</div>
+
+        <div class="collapse border bg-body-tertiary rounded p-1 navbar-nav-scroll" id="toc-collapse">
+            <small>
+                <div class="toc toc-panel text-body p-2">
+                        <a class="toc-item toc-level-1" href="/posts/loan-interest-rate-structure/#대출금리는-세-가지로-나눠서-봐야-한다">대출금리는 세 가지로 나눠서 봐야 한다</a>
+                        <a class="toc-item toc-level-1" href="/posts/loan-interest-rate-structure/#기준금리는-대출금리의-출발점이다">기준금리는 대출금리의 출발점이다</a>
+                        <a class="toc-item toc-level-2" href="/posts/loan-interest-rate-structure/#코픽스는-은행의-조달비용을-반영한다">코픽스는 은행의 조달비용을 반영한다</a>
+                        <a class="toc-item toc-level-2" href="/posts/loan-interest-rate-structure/#금융채-금리는-은행채-시장과-연결된다">금융채 금리는 은행채 시장과 연결된다</a>
+                        <a class="toc-item toc-level-1" href="/posts/loan-interest-rate-structure/#가산금리는-은행이-붙이는-추가-금리다">가산금리는 은행이 붙이는 추가 금리다</a>
+                        <a class="toc-item toc-level-1" href="/posts/loan-interest-rate-structure/#우대금리는-조건을-맞추면-깎아주는-금리다">우대금리는 조건을 맞추면 깎아주는 금리다</a>
+                        <a class="toc-item toc-level-1" href="/posts/loan-interest-rate-structure/#대출금리-비교할-때는-최종-금리만-보면-부족하다">대출금리 비교할 때는 최종 금리만 보면 부족하다</a>
+                        <a class="toc-item toc-level-1" href="/posts/loan-interest-rate-structure/#정리">정리</a>
+                        <a class="toc-item toc-level-1" href="/posts/loan-interest-rate-structure/#자주-묻는-질문">자주 묻는 질문</a>
+                        <a class="toc-item toc-level-2" href="/posts/loan-interest-rate-structure/#q1-대출-기준금리와-한국은행-기준금리는-같은-말인가">Q1. 대출 기준금리와 한국은행 기준금리는 같은 말인가?</a>
+                        <a class="toc-item toc-level-2" href="/posts/loan-interest-rate-structure/#q2-기준금리가-내려가면-내-대출금리도-바로-내려가나">Q2. 기준금리가 내려가면 내 대출금리도 바로 내려가나?</a>
+                        <a class="toc-item toc-level-2" href="/posts/loan-interest-rate-structure/#q3-우대금리는-무조건-많이-받을수록-좋은가">Q3. 우대금리는 무조건 많이 받을수록 좋은가?</a>
+                        <a class="toc-item toc-level-2" href="/posts/loan-interest-rate-structure/#q4-대출-갈아타기할-때-무엇을-가장-먼저-봐야-하나">Q4. 대출 갈아타기할 때 무엇을 가장 먼저 봐야 하나?</a>
+                </div>
+            </small>
+        </div>
+</div>
+
+                    
+
+
+
+<div class="img-wrap mb-5"><img class="img-fluid rounded"
+            src="/posts/finance/bank-money-2800x1200.png"
+             fetchpriority="high" srcset="/posts/finance/bank-money-576x247.webp 576w, /posts/finance/bank-money-768x329.webp 768w, /posts/finance/bank-money-992x425.webp 992w, /posts/finance/bank-money-1200x514.webp 1200w, /posts/finance/bank-money-1400x600.webp 1400w, /posts/finance/bank-money-2800x1200.webp 2800w" sizes="100vw" height="1200" width="2800" alt="대출금리 구조 쉽게 이해하기: 기준금리, 가산금리, 우대금리 차이"></div><p>대출 상담을 받으면 금리 숫자 하나만 보이기 쉽다. &ldquo;연 4.8%&ldquo;처럼 최종 금리만 들으면 비싸다, 싸다 정도는 느낄 수 있지만 왜 그 금리가 나왔는지는 잘 보이지 않는다.</p>
+<p>그런데 대출금리는 생각보다 단순한 구조로 만들어진다. 은행이 돈을 조달하는 비용, 고객의 위험도, 은행이 깎아주는 우대 조건이 합쳐져 최종 금리가 된다.</p>
+<p>이 글에서는 대출금리를 기준금리, 가산금리, 우대금리로 나누어 설명하였다. 대출을 새로 받을 때뿐 아니라 기존 대출을 연장하거나 갈아탈 때도 꼭 알아두면 좋다.</p>
+<hr>
+
+
+
+<h2 id="대출금리는-세-가지로-나눠서-봐야-한다" class="heading ">대출금리는 세 가지로 나눠서 봐야 한다<a href="#%eb%8c%80%ec%b6%9c%ea%b8%88%eb%a6%ac%eb%8a%94-%ec%84%b8-%ea%b0%80%ec%a7%80%eb%a1%9c-%eb%82%98%eb%88%a0%ec%84%9c-%eb%b4%90%ec%95%bc-%ed%95%9c%eb%8b%a4" aria-labelledby="대출금리는-세-가지로-나눠서-봐야-한다">
+
+
+
+
+
+
+                
+                        
+                        
+                        <svg class="svg-inline--fa fas fa-link anchor" fill="currentColor" aria-hidden="true" role="img" viewBox="0 0 576 512" overflow="visible"><use href="#fas-link"></use></svg>&nbsp;
+    </a>
+</h2>
+<p>대출금리는 보통 다음 구조로 이해하면 쉽다.</p>
+<div class="codeblock syntax-highlight mb-3"><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-text" data-lang="text"><span style="display:flex;"><span>대출금리 = 기준금리 + 가산금리 - 우대금리</span></span></code></pre></div></div><p>은행 앱이나 대출 약정서에서 보는 최종 금리는 이 세 가지가 합쳐진 결과다. 예를 들어 기준금리가 3.2%, 가산금리가 2.0%, 우대금리가 0.7%라면 실제 적용 금리는 연 4.5%가 된다.</p>
+
+
+
+
+
+
+    
+
+
+
+
+
+
+<table class="table">
+  <thead>
+    
+      
+      <tr>
+          <th >구분</th>
+          <th class="text-end">예시</th>
+          <th >의미</th>
+      </tr>
+    
+  </thead>
+  <tbody>
+    
+      
+        <tr>
+            <td >기준금리</td>
+            <td class="text-end">3.2%</td>
+            <td >은행이 돈을 조달하는 기본 비용</td>
+        </tr>
+      
+    
+      
+        <tr>
+            <td >가산금리</td>
+            <td class="text-end">2.0%</td>
+            <td >고객 신용도, 비용, 위험, 은행 마진</td>
+        </tr>
+      
+    
+      
+        <tr>
+            <td >우대금리</td>
+            <td class="text-end">-0.7%</td>
+            <td >조건을 충족하면 깎아주는 금리</td>
+        </tr>
+      
+    
+      
+        <tr>
+            <td >최종 대출금리</td>
+            <td class="text-end">4.5%</td>
+            <td >실제로 내가 부담하는 금리</td>
+        </tr>
+      
+  </tbody>
+</table><p>여기서 중요한 점은 &ldquo;기준금리&quot;라는 말이 항상 한국은행 기준금리만 뜻하지는 않는다는 것이다. 대출 상품에서 말하는 기준금리는 보통 코픽스, 금융채 금리, CD금리처럼 은행의 자금 조달 비용과 연결된 지표를 말한다.</p>
+<p>그래서 한국은행 기준금리가 내려갔다는 뉴스가 나와도 내 대출금리가 바로 똑같이 내려가지 않을 수 있다. 내 대출이 어떤 기준금리를 쓰는지, 금리 변동주기가 언제인지, 가산금리와 우대금리 조건이 어떻게 되어 있는지 함께 봐야 한다.</p>
+
+
+<img class="img-fluid "
+            src="/posts/finance/bank-money-2800x1431.png"
+             srcset="/posts/finance/bank-money-576x294.webp 576w, /posts/finance/bank-money-768x393.webp 768w, /posts/finance/bank-money-992x507.webp 992w, /posts/finance/bank-money-1200x613.webp 1200w, /posts/finance/bank-money-1400x716.webp 1400w, /posts/finance/bank-money-2800x1431.webp 2800w" sizes="100vw" height="1431" width="2800" alt="은행과 돈 이미지">
+<hr>
+
+
+
+<h2 id="기준금리는-대출금리의-출발점이다" class="heading ">기준금리는 대출금리의 출발점이다<a href="#%ea%b8%b0%ec%a4%80%ea%b8%88%eb%a6%ac%eb%8a%94-%eb%8c%80%ec%b6%9c%ea%b8%88%eb%a6%ac%ec%9d%98-%ec%b6%9c%eb%b0%9c%ec%a0%90%ec%9d%b4%eb%8b%a4" aria-labelledby="기준금리는-대출금리의-출발점이다">
+
+
+
+
+
+
+                
+                        
+                        
+                        <svg class="svg-inline--fa fas fa-link anchor" fill="currentColor" aria-hidden="true" role="img" viewBox="0 0 576 512" overflow="visible"><use href="#fas-link"></use></svg>&nbsp;
+    </a>
+</h2>
+<p>대출에서 기준금리는 은행이 돈을 마련하는 데 드는 원가에 가깝다. 은행도 고객에게 빌려줄 돈을 그냥 만들어내는 것이 아니라 예금, 적금, 은행채 발행, 금융시장 조달 등을 통해 마련한다.</p>
+<p>대표적으로 많이 나오는 기준금리는 코픽스와 금융채 금리다.</p>
+
+
+
+<h3 id="코픽스는-은행의-조달비용을-반영한다" class="heading ">코픽스는 은행의 조달비용을 반영한다<a href="#%ec%bd%94%ed%94%bd%ec%8a%a4%eb%8a%94-%ec%9d%80%ed%96%89%ec%9d%98-%ec%a1%b0%eb%8b%ac%eb%b9%84%ec%9a%a9%ec%9d%84-%eb%b0%98%ec%98%81%ed%95%9c%eb%8b%a4" aria-labelledby="코픽스는-은행의-조달비용을-반영한다">
+
+
+
+
+
+
+                
+                        
+                        
+                        <svg class="svg-inline--fa fas fa-link anchor" fill="currentColor" aria-hidden="true" role="img" viewBox="0 0 576 512" overflow="visible"><use href="#fas-link"></use></svg>&nbsp;
+    </a>
+</h3>
+<p>코픽스는 은행들이 예금, 적금, 금융채 같은 방식으로 돈을 조달할 때 들어간 비용을 반영한 지표다. 주택담보대출 변동금리에서 자주 볼 수 있다.</p>
+<p>코픽스에는 신규취급액 기준과 잔액 기준이 있다. 신규취급액 기준 코픽스는 최근에 새로 조달한 돈의 비용을 더 빠르게 반영한다. 잔액 기준 코픽스는 기존 조달분까지 포함하기 때문에 상대적으로 천천히 움직이는 편이다.</p>
+<p>금리가 내려가는 시기에는 신규취급액 기준 코픽스가 더 빨리 낮아질 수 있고, 금리가 오르는 시기에는 반대로 더 빠르게 올라갈 수 있다. 그래서 코픽스 종류에 따라 체감 금리 변화 속도가 다를 수 있다.</p>
+
+
+
+<h3 id="금융채-금리는-은행채-시장과-연결된다" class="heading ">금융채 금리는 은행채 시장과 연결된다<a href="#%ea%b8%88%ec%9c%b5%ec%b1%84-%ea%b8%88%eb%a6%ac%eb%8a%94-%ec%9d%80%ed%96%89%ec%b1%84-%ec%8b%9c%ec%9e%a5%ea%b3%bc-%ec%97%b0%ea%b2%b0%eb%90%9c%eb%8b%a4" aria-labelledby="금융채-금리는-은행채-시장과-연결된다">
+
+
+
+
+
+
+                
+                        
+                        
+                        <svg class="svg-inline--fa fas fa-link anchor" fill="currentColor" aria-hidden="true" role="img" viewBox="0 0 576 512" overflow="visible"><use href="#fas-link"></use></svg>&nbsp;
+    </a>
+</h3>
+<p>금융채는 은행이나 금융회사가 자금을 조달하기 위해 발행하는 채권이다. 은행이 금융채를 발행하면 투자자에게 이자를 주고 돈을 빌리는 구조가 된다.</p>
+<p>신용대출이나 일부 주택담보대출에서는 금융채 6개월물, 금융채 1년물, 금융채 5년물 같은 표현을 볼 수 있다. 이 금리가 오르면 은행의 조달비용이 올라가고, 대출 기준금리도 높아질 수 있다.</p>
+<p>즉 대출에서 기준금리는 &ldquo;은행이 돈을 사오는 가격&quot;에 가깝다. 시장금리가 움직이면 기준금리도 영향을 받고, 기준금리가 움직이면 내 대출금리도 변동주기에 맞춰 달라질 수 있다.</p>
+<hr>
+
+
+
+<h2 id="가산금리는-은행이-붙이는-추가-금리다" class="heading ">가산금리는 은행이 붙이는 추가 금리다<a href="#%ea%b0%80%ec%82%b0%ea%b8%88%eb%a6%ac%eb%8a%94-%ec%9d%80%ed%96%89%ec%9d%b4-%eb%b6%99%ec%9d%b4%eb%8a%94-%ec%b6%94%ea%b0%80-%ea%b8%88%eb%a6%ac%eb%8b%a4" aria-labelledby="가산금리는-은행이-붙이는-추가-금리다">
+
+
+
+
+
+
+                
+                        
+                        
+                        <svg class="svg-inline--fa fas fa-link anchor" fill="currentColor" aria-hidden="true" role="img" viewBox="0 0 576 512" overflow="visible"><use href="#fas-link"></use></svg>&nbsp;
+    </a>
+</h2>
+<p>가산금리는 기준금리에 더해지는 금리다. 많은 사람이 대출금리를 볼 때 기준금리만 신경 쓰지만, 실제로는 가산금리가 최종 금리에 큰 영향을 준다.</p>
+<p>가산금리에는 여러 요소가 들어간다.</p>
+<ul>
+<li>고객의 신용점수와 연체 가능성</li>
+<li>소득 안정성</li>
+<li>담보가 있는지 여부</li>
+<li>대출 기간과 상환 방식</li>
+<li>은행의 업무 원가와 전산 비용</li>
+<li>은행이 감당해야 하는 위험 비용</li>
+<li>은행의 목표 이익률</li>
+</ul>
+<p>예를 들어 같은 5,000만 원을 빌리더라도 신용점수가 높고 소득이 안정적인 사람과, 소득 변동이 크고 기존 대출이 많은 사람의 금리는 달라질 수 있다. 은행 입장에서는 돈을 돌려받지 못할 가능성이 다르기 때문이다.</p>
+<p>담보대출과 신용대출의 금리가 다른 이유도 여기에 있다. 주택담보대출은 집이라는 담보가 있기 때문에 은행의 위험이 상대적으로 낮다. 반면 신용대출은 담보 없이 개인의 신용과 소득을 보고 빌려주는 대출이라 위험 프리미엄이 더 붙을 수 있다.</p>
+<p>가산금리는 은행마다 다르게 책정된다. 같은 기준금리를 쓰더라도 A은행과 B은행의 최종 금리가 다른 이유가 여기에 있다. 그래서 대출을 받을 때는 &ldquo;기준금리가 어디가 낮은가&quot;만 볼 것이 아니라 &ldquo;가산금리를 얼마나 붙였는가&quot;도 비교해야 한다.</p>
+<hr>
+
+
+
+<h2 id="우대금리는-조건을-맞추면-깎아주는-금리다" class="heading ">우대금리는 조건을 맞추면 깎아주는 금리다<a href="#%ec%9a%b0%eb%8c%80%ea%b8%88%eb%a6%ac%eb%8a%94-%ec%a1%b0%ea%b1%b4%ec%9d%84-%eb%a7%9e%ec%b6%94%eb%a9%b4-%ea%b9%8e%ec%95%84%ec%a3%bc%eb%8a%94-%ea%b8%88%eb%a6%ac%eb%8b%a4" aria-labelledby="우대금리는-조건을-맞추면-깎아주는-금리다">
+
+
+
+
+
+
+                
+                        
+                        
+                        <svg class="svg-inline--fa fas fa-link anchor" fill="currentColor" aria-hidden="true" role="img" viewBox="0 0 576 512" overflow="visible"><use href="#fas-link"></use></svg>&nbsp;
+    </a>
+</h2>
+<p>우대금리는 대출금리에서 빼주는 금리다. 은행은 고객이 특정 조건을 충족하면 일정한 금리를 낮춰준다. 흔히 급여 이체, 카드 사용, 자동이체, 적금 가입, 앱 이용, 비대면 신청 같은 조건이 붙는다.</p>
+<p>예를 들어 이런 식이다.</p>
+
+
+
+
+
+
+    
+
+
+
+
+
+
+<table class="table">
+  <thead>
+    
+      
+      <tr>
+          <th >우대 조건</th>
+          <th class="text-end">우대금리 예시</th>
+      </tr>
+    
+  </thead>
+  <tbody>
+    
+      
+        <tr>
+            <td >급여 이체</td>
+            <td class="text-end">0.2%p</td>
+        </tr>
+      
+    
+      
+        <tr>
+            <td >신용카드 사용</td>
+            <td class="text-end">0.2%p</td>
+        </tr>
+      
+    
+      
+        <tr>
+            <td >자동이체 등록</td>
+            <td class="text-end">0.1%p</td>
+        </tr>
+      
+    
+      
+        <tr>
+            <td >적금 또는 청약 가입</td>
+            <td class="text-end">0.1%p</td>
+        </tr>
+      
+    
+      
+        <tr>
+            <td >비대면 신청</td>
+            <td class="text-end">0.1%p</td>
+        </tr>
+      
+  </tbody>
+</table><p>이 조건을 모두 채우면 총 0.7%p를 깎아준다고 해보자. 기준금리 3.2%, 가산금리 2.0%인 대출이라면 우대 전 금리는 5.2%지만, 우대금리 0.7%p를 적용하면 최종 금리는 4.5%가 된다.</p>
+<p>다만 우대금리는 공짜 할인이 아니다. 조건을 계속 유지해야 하는 경우가 많다. 처음에는 급여 이체와 카드 실적을 맞춰 우대금리를 받았지만, 나중에 조건을 놓치면 다음 금리 산정 시점에 우대금리가 줄어들 수 있다.</p>
+<p>특히 신용대출처럼 만기가 짧고 연장을 자주 하는 상품은 연장 시점마다 조건을 다시 확인해야 한다. 대출을 처음 받을 때는 우대금리가 적용되어 낮아 보였는데, 연장할 때 일부 우대가 빠지면 금리가 생각보다 올라갈 수 있다.</p>
+<hr>
+
+
+
+<h2 id="대출금리-비교할-때는-최종-금리만-보면-부족하다" class="heading ">대출금리 비교할 때는 최종 금리만 보면 부족하다<a href="#%eb%8c%80%ec%b6%9c%ea%b8%88%eb%a6%ac-%eb%b9%84%ea%b5%90%ed%95%a0-%eb%95%8c%eb%8a%94-%ec%b5%9c%ec%a2%85-%ea%b8%88%eb%a6%ac%eb%a7%8c-%eb%b3%b4%eb%a9%b4-%eb%b6%80%ec%a1%b1%ed%95%98%eb%8b%a4" aria-labelledby="대출금리-비교할-때는-최종-금리만-보면-부족하다">
+
+
+
+
+
+
+                
+                        
+                        
+                        <svg class="svg-inline--fa fas fa-link anchor" fill="currentColor" aria-hidden="true" role="img" viewBox="0 0 576 512" overflow="visible"><use href="#fas-link"></use></svg>&nbsp;
+    </a>
+</h2>
+<p>대출을 비교할 때 가장 먼저 보이는 것은 최종 금리다. 하지만 실제로는 그 금리가 어떻게 만들어졌는지 나눠서 봐야 한다.</p>
+<p>예를 들어 두 은행의 최종 금리가 모두 4.5%라고 해보자.</p>
+
+
+
+
+
+
+    
+
+
+
+
+
+
+<table class="table">
+  <thead>
+    
+      
+      <tr>
+          <th >구분</th>
+          <th class="text-end">A은행</th>
+          <th class="text-end">B은행</th>
+      </tr>
+    
+  </thead>
+  <tbody>
+    
+      
+        <tr>
+            <td >기준금리</td>
+            <td class="text-end">3.0%</td>
+            <td class="text-end">3.4%</td>
+        </tr>
+      
+    
+      
+        <tr>
+            <td >가산금리</td>
+            <td class="text-end">2.0%</td>
+            <td class="text-end">1.6%</td>
+        </tr>
+      
+    
+      
+        <tr>
+            <td >우대금리</td>
+            <td class="text-end">-0.5%</td>
+            <td class="text-end">-0.5%</td>
+        </tr>
+      
+    
+      
+        <tr>
+            <td >최종 금리</td>
+            <td class="text-end">4.5%</td>
+            <td class="text-end">4.5%</td>
+        </tr>
+      
+  </tbody>
+</table><p>겉으로 보기에는 둘 다 같은 금리다. 하지만 A은행은 기준금리가 낮고 가산금리가 높다. B은행은 기준금리가 높고 가산금리가 낮다. 앞으로 시장금리가 내려가거나 올라갈 때, 어떤 기준금리를 쓰는지에 따라 금리 변동 폭이 달라질 수 있다.</p>
+<p>또 우대금리 조건도 중요하다. 어떤 은행은 최저금리가 낮아 보이지만 카드 사용, 급여 이체, 자동이체, 상품 가입 조건을 모두 채워야 하는 경우가 있다. 반대로 금리는 조금 높아 보여도 우대 조건이 단순해서 실제 유지가 쉬운 상품도 있다.</p>
+<p>대출 비교할 때는 다음 항목을 함께 확인하는 것이 좋다.</p>
+<ul>
+<li>기준금리가 코픽스인지, 금융채인지, 다른 지표인지 확인한다.</li>
+<li>변동금리라면 금리 변경 주기가 3개월인지, 6개월인지, 1년인지 본다.</li>
+<li>가산금리가 얼마인지 확인한다.</li>
+<li>우대금리 조건이 현실적으로 유지 가능한지 본다.</li>
+<li>우대금리가 빠졌을 때 최종 금리가 얼마나 오르는지 계산한다.</li>
+<li>중도상환수수료와 상환 방식까지 함께 비교한다.</li>
+</ul>
+<p>최저금리 문구만 보고 선택하면 실제 내가 받을 금리와 다를 수 있다. 대출은 &ldquo;광고에 나온 금리&quot;보다 &ldquo;내 조건으로 확정되는 금리&quot;가 중요하다.</p>
+<hr>
+
+
+
+<h2 id="정리" class="heading ">정리<a href="#%ec%a0%95%eb%a6%ac" aria-labelledby="정리">
+
+
+
+
+
+
+                
+                        
+                        
+                        <svg class="svg-inline--fa fas fa-link anchor" fill="currentColor" aria-hidden="true" role="img" viewBox="0 0 576 512" overflow="visible"><use href="#fas-link"></use></svg>&nbsp;
+    </a>
+</h2>
+<p>대출금리는 하나의 숫자로 보이지만, 안에는 기준금리, 가산금리, 우대금리가 들어 있다. 기준금리는 은행이 돈을 조달하는 비용과 연결되고, 가산금리는 고객 위험과 은행 비용이 반영되며, 우대금리는 조건을 맞췄을 때 깎아주는 금리다.</p>
+<p>핵심만 다시 정리하면 이렇다.</p>
+<ul>
+<li>대출금리는 보통 기준금리 + 가산금리 - 우대금리 구조로 정해진다.</li>
+<li>대출에서 말하는 기준금리는 한국은행 기준금리와 다를 수 있다.</li>
+<li>코픽스와 금융채 금리는 대출 기준금리로 자주 쓰인다.</li>
+<li>가산금리는 고객 신용도, 담보, 은행 비용, 위험 프리미엄이 반영되는 부분이다.</li>
+<li>우대금리는 조건을 유지하지 못하면 줄어들 수 있다.</li>
+<li>대출 비교는 최종 금리뿐 아니라 기준금리 종류, 가산금리, 우대 조건까지 함께 봐야 한다.</li>
+</ul>
+<p>대출을 받을 때는 금리 숫자 하나만 보고 판단하지 않는 것이 좋다. 상담을 받을 때 &ldquo;기준금리는 무엇인지&rdquo;, &ldquo;가산금리는 얼마인지&rdquo;, &ldquo;우대금리는 어떤 조건인지&quot;를 나눠서 물어보면 훨씬 정확하게 비교할 수 있다.</p>
+
+
+
+<h2 id="자주-묻는-질문" class="heading ">자주 묻는 질문<a href="#%ec%9e%90%ec%a3%bc-%eb%ac%bb%eb%8a%94-%ec%a7%88%eb%ac%b8" aria-labelledby="자주-묻는-질문">
+
+
+
+
+
+
+                
+                        
+                        
+                        <svg class="svg-inline--fa fas fa-link anchor" fill="currentColor" aria-hidden="true" role="img" viewBox="0 0 576 512" overflow="visible"><use href="#fas-link"></use></svg>&nbsp;
+    </a>
+</h2>
+
+
+
+<h3 id="q1-대출-기준금리와-한국은행-기준금리는-같은-말인가" class="heading ">Q1. 대출 기준금리와 한국은행 기준금리는 같은 말인가?<a href="#q1-%eb%8c%80%ec%b6%9c-%ea%b8%b0%ec%a4%80%ea%b8%88%eb%a6%ac%ec%99%80-%ed%95%9c%ea%b5%ad%ec%9d%80%ed%96%89-%ea%b8%b0%ec%a4%80%ea%b8%88%eb%a6%ac%eb%8a%94-%ea%b0%99%ec%9d%80-%eb%a7%90%ec%9d%b8%ea%b0%80" aria-labelledby="q1-대출-기준금리와-한국은행-기준금리는-같은-말인가">
+
+
+
+
+
+
+                
+                        
+                        
+                        <svg class="svg-inline--fa fas fa-link anchor" fill="currentColor" aria-hidden="true" role="img" viewBox="0 0 576 512" overflow="visible"><use href="#fas-link"></use></svg>&nbsp;
+    </a>
+</h3>
+<p>같은 말이 아니다. 한국은행 기준금리는 통화정책의 기준이 되는 금리이고, 대출 기준금리는 은행이 대출금리를 정할 때 사용하는 코픽스, 금융채 금리 같은 지표를 말하는 경우가 많다.</p>
+
+
+
+<h3 id="q2-기준금리가-내려가면-내-대출금리도-바로-내려가나" class="heading ">Q2. 기준금리가 내려가면 내 대출금리도 바로 내려가나?<a href="#q2-%ea%b8%b0%ec%a4%80%ea%b8%88%eb%a6%ac%ea%b0%80-%eb%82%b4%eb%a0%a4%ea%b0%80%eb%a9%b4-%eb%82%b4-%eb%8c%80%ec%b6%9c%ea%b8%88%eb%a6%ac%eb%8f%84-%eb%b0%94%eb%a1%9c-%eb%82%b4%eb%a0%a4%ea%b0%80%eb%82%98" aria-labelledby="q2-기준금리가-내려가면-내-대출금리도-바로-내려가나">
+
+
+
+
+
+
+                
+                        
+                        
+                        <svg class="svg-inline--fa fas fa-link anchor" fill="currentColor" aria-hidden="true" role="img" viewBox="0 0 576 512" overflow="visible"><use href="#fas-link"></use></svg>&nbsp;
+    </a>
+</h3>
+<p>바로 내려가지 않을 수 있다. 변동금리 대출은 정해진 변동주기에 따라 반영되고, 기준금리 종류도 상품마다 다르다. 여기에 가산금리와 우대금리 조건까지 함께 작동한다.</p>
+
+
+
+<h3 id="q3-우대금리는-무조건-많이-받을수록-좋은가" class="heading ">Q3. 우대금리는 무조건 많이 받을수록 좋은가?<a href="#q3-%ec%9a%b0%eb%8c%80%ea%b8%88%eb%a6%ac%eb%8a%94-%eb%ac%b4%ec%a1%b0%ea%b1%b4-%eb%a7%8e%ec%9d%b4-%eb%b0%9b%ec%9d%84%ec%88%98%eb%a1%9d-%ec%a2%8b%ec%9d%80%ea%b0%80" aria-labelledby="q3-우대금리는-무조건-많이-받을수록-좋은가">
+
+
+
+
+
+
+                
+                        
+                        
+                        <svg class="svg-inline--fa fas fa-link anchor" fill="currentColor" aria-hidden="true" role="img" viewBox="0 0 576 512" overflow="visible"><use href="#fas-link"></use></svg>&nbsp;
+    </a>
+</h3>
+<p>대체로 금리를 낮출 수 있어 좋지만, 조건 유지가 가능한지 봐야 한다. 카드 실적이나 급여 이체 조건을 맞추기 어렵다면 나중에 우대금리가 빠져 실제 금리가 올라갈 수 있다.</p>
+
+
+
+<h3 id="q4-대출-갈아타기할-때-무엇을-가장-먼저-봐야-하나" class="heading ">Q4. 대출 갈아타기할 때 무엇을 가장 먼저 봐야 하나?<a href="#q4-%eb%8c%80%ec%b6%9c-%ea%b0%88%ec%95%84%ed%83%80%ea%b8%b0%ed%95%a0-%eb%95%8c-%eb%ac%b4%ec%97%87%ec%9d%84-%ea%b0%80%ec%9e%a5-%eb%a8%bc%ec%a0%80-%eb%b4%90%ec%95%bc-%ed%95%98%eb%82%98" aria-labelledby="q4-대출-갈아타기할-때-무엇을-가장-먼저-봐야-하나">
+
+
+
+
+
+
+                
+                        
+                        
+                        <svg class="svg-inline--fa fas fa-link anchor" fill="currentColor" aria-hidden="true" role="img" viewBox="0 0 576 512" overflow="visible"><use href="#fas-link"></use></svg>&nbsp;
+    </a>
+</h3>
+<p>현재 대출의 최종 금리, 남은 기간, 중도상환수수료, 새 대출의 기준금리 종류와 우대 조건을 함께 봐야 한다. 단순히 새 대출 금리가 낮아 보여도 수수료와 조건을 합치면 이득이 작을 수 있다.</p>
+
+
+                    
+                    
+
+
+<div class="row row-cols-2 mt-5 mb-3">
+    <div class="col"></div>
+    <div class="col text-end"></div>
+</div>
+
+                </div>
+                <div class="col col-md-3 col-lg-2 d-none d-md-block">
+                    
+    <div class="toc toc-sidebar mb-5 my-md-0 mb-lg-5 pb-3 text-body-secondary sticky-top">
+        
+
+        
+            
+            
+
+
+
+
+
+
+
+
+
+            <strong class="d-block mb-2">On this page</strong>
+            <nav class="toc">
+                
+                
+                    
+                
+
+                
+                    
+                    <a  class="toc-item toc-level-1" href="/posts/loan-interest-rate-structure/#대출금리는-세-가지로-나눠서-봐야-한다">대출금리는 세 가지로 나눠서 봐야 한다</a>
+                
+                    
+                    <a  class="toc-item toc-level-1" href="/posts/loan-interest-rate-structure/#기준금리는-대출금리의-출발점이다">기준금리는 대출금리의 출발점이다</a>
+                
+                    
+                    <a  class="toc-item toc-level-2" href="/posts/loan-interest-rate-structure/#코픽스는-은행의-조달비용을-반영한다">코픽스는 은행의 조달비용을 반영한다</a>
+                
+                    
+                    <a  class="toc-item toc-level-2" href="/posts/loan-interest-rate-structure/#금융채-금리는-은행채-시장과-연결된다">금융채 금리는 은행채 시장과 연결된다</a>
+                
+                    
+                    <a  class="toc-item toc-level-1" href="/posts/loan-interest-rate-structure/#가산금리는-은행이-붙이는-추가-금리다">가산금리는 은행이 붙이는 추가 금리다</a>
+                
+                    
+                    <a  class="toc-item toc-level-1" href="/posts/loan-interest-rate-structure/#우대금리는-조건을-맞추면-깎아주는-금리다">우대금리는 조건을 맞추면 깎아주는 금리다</a>
+                
+                    
+                    <a  class="toc-item toc-level-1" href="/posts/loan-interest-rate-structure/#대출금리-비교할-때는-최종-금리만-보면-부족하다">대출금리 비교할 때는 최종 금리만 보면 부족하다</a>
+                
+                    
+                    <a  class="toc-item toc-level-1" href="/posts/loan-interest-rate-structure/#정리">정리</a>
+                
+                    
+                    <a  class="toc-item toc-level-1" href="/posts/loan-interest-rate-structure/#자주-묻는-질문">자주 묻는 질문</a>
+                
+                    
+                        
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+<a aria-label="Show 4 more"
+        href="#toc-collapse-items" id="btnTOCShowMore" class="btn btn-link link-primary position-relative toc-item" data-bs-toggle="collapse" aria-expanded="false" aria-controls="toc-collapse-items"role="button"
+        >
+        <span class="d-flex justify-content-start">
+            <span class="my-auto">Show 4 more</span>
+        </span></a>
+
+                        <div class="collapse" id="toc-collapse-items">
+                        
+                    <a  class="toc-item toc-level-2" href="/posts/loan-interest-rate-structure/#q1-대출-기준금리와-한국은행-기준금리는-같은-말인가">Q1. 대출 기준금리와 한국은행 기준금리는 같은 말인가?</a>
+                
+                    
+                    <a  class="toc-item toc-level-2" href="/posts/loan-interest-rate-structure/#q2-기준금리가-내려가면-내-대출금리도-바로-내려가나">Q2. 기준금리가 내려가면 내 대출금리도 바로 내려가나?</a>
+                
+                    
+                    <a  class="toc-item toc-level-2" href="/posts/loan-interest-rate-structure/#q3-우대금리는-무조건-많이-받을수록-좋은가">Q3. 우대금리는 무조건 많이 받을수록 좋은가?</a>
+                
+                    
+                    <a  class="toc-item toc-level-2" href="/posts/loan-interest-rate-structure/#q4-대출-갈아타기할-때-무엇을-가장-먼저-봐야-하나">Q4. 대출 갈아타기할 때 무엇을 가장 먼저 봐야 하나?</a>
+                
+
+                
+                    &nbsp;
+                    
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+<a aria-label="Show less"
+        href="#toc-collapse-items" id="btnTOCShowLess" class="btn btn-link link-primary position-relative toc-item" data-bs-toggle="collapse" aria-expanded="false" aria-controls="toc-collapse-items"role="button"
+        >
+        <span class="d-flex justify-content-start">
+            <span class="my-auto">Show less</span>
+        </span></a>
+
+                </div>
+            </nav>
+        
+    
+
+
+
+        </div>
+
+
+                </div>
+            </div>
+        </div>
+    
+</main>
+
+<footer class="container-fluid footer text-center p-3">
+    <div class="container-xxl text-center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8543127460401091"
+     crossorigin="anonymous"></script>
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-8543127460401091"
+     data-ad-slot="3689386360"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+        <small>
+            Copyright © 2026 Show Me the Money::devkuma All rights reserved.
+             |
+            
+                
+                Powered by 
+    <a href="https://gethinode.com" class="link-bg-footer"  target="_blank" rel="noopener noreferrer nofollow">Hinode</a>
+.
+            
+        </small>
+    </div>
+</footer>
+<div id="toast-container" class="toast-container position-fixed bottom-0 end-0 p-3">
+
+
+
+
+
+
+
+
+<div id="toast-copied-code-message" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+    <div class="toast-header">
+        <strong class="me-auto">Show Me the Money::devkuma</strong>
+        <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+    </div>
+    <div class="toast-body">Code copied to clipboard</div>
+</div>
+</div>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" display="none">
+        <symbol id="fas-ellipsis" overflow="visible" viewBox="0 0 448 512"><path fill="currentColor" d="M0 256a56 56 0 1 1 112 0 56 56 0 1 1 -112 0zm168 0a56 56 0 1 1 112 0 56 56 0 1 1 -112 0zm224-56a56 56 0 1 1 0 112 56 56 0 1 1 0-112z"/></symbol>
+<symbol id="fas-sun" overflow="visible" viewBox="0 0 576 512"><path fill="currentColor" d="M288-32c8.4 0 16.3 4.4 20.6 11.7L364.1 72.3 468.9 46c8.2-2 16.9 .4 22.8 6.3S500 67 498 75.1l-26.3 104.7 92.7 55.5c7.2 4.3 11.7 12.2 11.7 20.6s-4.4 16.3-11.7 20.6L471.7 332.1 498 436.8c2 8.2-.4 16.9-6.3 22.8S477 468 468.9 466l-104.7-26.3-55.5 92.7c-4.3 7.2-12.2 11.7-20.6 11.7s-16.3-4.4-20.6-11.7L211.9 439.7 107.2 466c-8.2 2-16.8-.4-22.8-6.3S76 445 78 436.8l26.2-104.7-92.6-55.5C4.4 272.2 0 264.4 0 256s4.4-16.3 11.7-20.6L104.3 179.9 78 75.1c-2-8.2 .3-16.8 6.3-22.8S99 44 107.2 46l104.7 26.2 55.5-92.6 1.8-2.6c4.5-5.7 11.4-9.1 18.8-9.1zm0 144a144 144 0 1 0 0 288 144 144 0 1 0 0-288zm0 240a96 96 0 1 1 0-192 96 96 0 1 1 0 192z"/></symbol>
+<symbol id="fas-moon" overflow="visible" viewBox="0 0 512 512"><path fill="currentColor" d="M256 0C114.6 0 0 114.6 0 256S114.6 512 256 512c68.8 0 131.3-27.2 177.3-71.4 7.3-7 9.4-17.9 5.3-27.1s-13.7-14.9-23.8-14.1c-4.9 .4-9.8 .6-14.8 .6-101.6 0-184-82.4-184-184 0-72.1 41.5-134.6 102.1-164.8 9.1-4.5 14.3-14.3 13.1-24.4S322.6 8.5 312.7 6.3C294.4 2.2 275.4 0 256 0z"/></symbol>
+<symbol id="fas-angle-left" overflow="visible" viewBox="0 0 256 512"><path fill="currentColor" d="M9.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L77.3 256 214.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z"/></symbol>
+<symbol id="fas-sort" overflow="visible" viewBox="0 0 384 512"><path fill="currentColor" d="M2.4 204.2c5 12 16.6 19.8 29.6 19.8l320 0c12.9 0 24.6-7.8 29.6-19.8s2.2-25.7-6.9-34.9l-160-160c-12.5-12.5-32.8-12.5-45.3 0l-160 160c-9.2 9.2-11.9 22.9-6.9 34.9zm0 103.5c-5 12-2.2 25.7 6.9 34.9l160 160c12.5 12.5 32.8 12.5 45.3 0l160-160c9.2-9.2 11.9-22.9 6.9-34.9S364.9 288 352 288L32 288c-12.9 0-24.6 7.8-29.6 19.8z"/></symbol>
+<symbol id="fas-link" overflow="visible" viewBox="0 0 576 512"><path fill="currentColor" d="M419.5 96c-16.6 0-32.7 4.5-46.8 12.7-15.8-16-34.2-29.4-54.5-39.5 28.2-24 64.1-37.2 101.3-37.2 86.4 0 156.5 70 156.5 156.5 0 41.5-16.5 81.3-45.8 110.6l-71.1 71.1c-29.3 29.3-69.1 45.8-110.6 45.8-86.4 0-156.5-70-156.5-156.5 0-1.5 0-3 .1-4.5 .5-17.7 15.2-31.6 32.9-31.1s31.6 15.2 31.1 32.9c0 .9 0 1.8 0 2.6 0 51.1 41.4 92.5 92.5 92.5 24.5 0 48-9.7 65.4-27.1l71.1-71.1c17.3-17.3 27.1-40.9 27.1-65.4 0-51.1-41.4-92.5-92.5-92.5zM275.2 173.3c-1.9-.8-3.8-1.9-5.5-3.1-12.6-6.5-27-10.2-42.1-10.2-24.5 0-48 9.7-65.4 27.1L91.1 258.2c-17.3 17.3-27.1 40.9-27.1 65.4 0 51.1 41.4 92.5 92.5 92.5 16.5 0 32.6-4.4 46.7-12.6 15.8 16 34.2 29.4 54.6 39.5-28.2 23.9-64 37.2-101.3 37.2-86.4 0-156.5-70-156.5-156.5 0-41.5 16.5-81.3 45.8-110.6l71.1-71.1c29.3-29.3 69.1-45.8 110.6-45.8 86.6 0 156.5 70.6 156.5 156.9 0 1.3 0 2.6 0 3.9-.4 17.7-15.1 31.6-32.8 31.2s-31.6-15.1-31.2-32.8c0-.8 0-1.5 0-2.3 0-33.7-18-63.3-44.8-79.6z"/></symbol>
+    </svg>
+
+  
+    
+
+  
+
+
+<script src="/js/core.bundle-analytics.ko.min.bef138a0b0039c16630a4767e923e751563c440bb5d0c7c226422e8df10640e9.js"
+         data-category="analytics" integrity="sha256-vvE4oLADnBZjCkdn6SPnUVY8RAu10MfCJkIujfEGQOk=" crossorigin="anonymous" async></script>
+
+<script src="/js/core.bundle.ko.min.d09b9e7b51e7c5e06511ea60fb8f87e73b1cf526a7da7abb43f0c00f8cad6064.js"
+         integrity="sha256-0Juee1HnxeBlEepg&#43;4&#43;H5zsc9San2nq7Q/DAD4ytYGQ=" crossorigin="anonymous" async></script></body>
+</html>
