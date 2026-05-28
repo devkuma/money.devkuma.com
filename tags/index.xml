@@ -6,13 +6,62 @@
     <description>Recent content in Tags on Show Me the Money::devkuma</description>
     <generator>Hugo</generator>
     <language>ko-KR</language>
-    <lastBuildDate>Fri, 29 May 2026 07:52:28 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 29 May 2026 08:09:12 +0900</lastBuildDate>
     <atom:link href="https://money.devkuma.com/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>CPI</title>
       <link>https://money.devkuma.com/tags/cpi/</link>
-      <pubDate>Fri, 29 May 2026 07:52:28 +0900</pubDate>
+      <pubDate>Fri, 29 May 2026 08:09:12 +0900</pubDate>
       <guid>https://money.devkuma.com/tags/cpi/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>PCE</title>
+      <link>https://money.devkuma.com/tags/pce/</link>
+      <pubDate>Fri, 29 May 2026 08:09:12 +0900</pubDate>
+      <guid>https://money.devkuma.com/tags/pce/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>개인소비지출</title>
+      <link>https://money.devkuma.com/tags/%EA%B0%9C%EC%9D%B8%EC%86%8C%EB%B9%84%EC%A7%80%EC%B6%9C/</link>
+      <pubDate>Fri, 29 May 2026 08:09:12 +0900</pubDate>
+      <guid>https://money.devkuma.com/tags/%EA%B0%9C%EC%9D%B8%EC%86%8C%EB%B9%84%EC%A7%80%EC%B6%9C/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>기준금리</title>
+      <link>https://money.devkuma.com/tags/%EA%B8%B0%EC%A4%80%EA%B8%88%EB%A6%AC/</link>
+      <pubDate>Fri, 29 May 2026 08:09:12 +0900</pubDate>
+      <guid>https://money.devkuma.com/tags/%EA%B8%B0%EC%A4%80%EA%B8%88%EB%A6%AC/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>물가지표</title>
+      <link>https://money.devkuma.com/tags/%EB%AC%BC%EA%B0%80%EC%A7%80%ED%91%9C/</link>
+      <pubDate>Fri, 29 May 2026 08:09:12 +0900</pubDate>
+      <guid>https://money.devkuma.com/tags/%EB%AC%BC%EA%B0%80%EC%A7%80%ED%91%9C/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>소비자물가지수</title>
+      <link>https://money.devkuma.com/tags/%EC%86%8C%EB%B9%84%EC%9E%90%EB%AC%BC%EA%B0%80%EC%A7%80%EC%88%98/</link>
+      <pubDate>Fri, 29 May 2026 08:09:12 +0900</pubDate>
+      <guid>https://money.devkuma.com/tags/%EC%86%8C%EB%B9%84%EC%9E%90%EB%AC%BC%EA%B0%80%EC%A7%80%EC%88%98/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>연준</title>
+      <link>https://money.devkuma.com/tags/%EC%97%B0%EC%A4%80/</link>
+      <pubDate>Fri, 29 May 2026 08:09:12 +0900</pubDate>
+      <guid>https://money.devkuma.com/tags/%EC%97%B0%EC%A4%80/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>인플레이션</title>
+      <link>https://money.devkuma.com/tags/%EC%9D%B8%ED%94%8C%EB%A0%88%EC%9D%B4%EC%85%98/</link>
+      <pubDate>Fri, 29 May 2026 08:09:12 +0900</pubDate>
+      <guid>https://money.devkuma.com/tags/%EC%9D%B8%ED%94%8C%EB%A0%88%EC%9D%B4%EC%85%98/</guid>
       <description></description>
     </item>
     <item>
@@ -37,24 +86,10 @@
       <description></description>
     </item>
     <item>
-      <title>소비자물가지수</title>
-      <link>https://money.devkuma.com/tags/%EC%86%8C%EB%B9%84%EC%9E%90%EB%AC%BC%EA%B0%80%EC%A7%80%EC%88%98/</link>
-      <pubDate>Fri, 29 May 2026 07:52:28 +0900</pubDate>
-      <guid>https://money.devkuma.com/tags/%EC%86%8C%EB%B9%84%EC%9E%90%EB%AC%BC%EA%B0%80%EC%A7%80%EC%88%98/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>스태그플레이션</title>
       <link>https://money.devkuma.com/tags/%EC%8A%A4%ED%83%9C%EA%B7%B8%ED%94%8C%EB%A0%88%EC%9D%B4%EC%85%98/</link>
       <pubDate>Fri, 29 May 2026 07:52:28 +0900</pubDate>
       <guid>https://money.devkuma.com/tags/%EC%8A%A4%ED%83%9C%EA%B7%B8%ED%94%8C%EB%A0%88%EC%9D%B4%EC%85%98/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>인플레이션</title>
-      <link>https://money.devkuma.com/tags/%EC%9D%B8%ED%94%8C%EB%A0%88%EC%9D%B4%EC%85%98/</link>
-      <pubDate>Fri, 29 May 2026 07:52:28 +0900</pubDate>
-      <guid>https://money.devkuma.com/tags/%EC%9D%B8%ED%94%8C%EB%A0%88%EC%9D%B4%EC%85%98/</guid>
       <description></description>
     </item>
     <item>
@@ -230,13 +265,6 @@
       <link>https://money.devkuma.com/tags/%EA%B8%88%EC%9C%B5%EC%B1%84/</link>
       <pubDate>Wed, 27 May 2026 22:50:50 +0900</pubDate>
       <guid>https://money.devkuma.com/tags/%EA%B8%88%EC%9C%B5%EC%B1%84/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>기준금리</title>
-      <link>https://money.devkuma.com/tags/%EA%B8%B0%EC%A4%80%EA%B8%88%EB%A6%AC/</link>
-      <pubDate>Wed, 27 May 2026 22:50:50 +0900</pubDate>
-      <guid>https://money.devkuma.com/tags/%EA%B8%B0%EC%A4%80%EA%B8%88%EB%A6%AC/</guid>
       <description></description>
     </item>
     <item>
