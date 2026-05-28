@@ -6,7 +6,7 @@
     <description>Recent content in 주식투자 on Show Me the Money::devkuma</description>
     <generator>Hugo</generator>
     <language>ko-KR</language>
-    <lastBuildDate>Tue, 26 May 2026 22:21:34 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 29 May 2026 08:20:02 +0900</lastBuildDate>
     <atom:link href="https://money.devkuma.com/tags/%EC%A3%BC%EC%8B%9D%ED%88%AC%EC%9E%90/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>ETF 뜻과 장단점, 주식·펀드와의 차이 쉽게 정리</title>
@@ -42,6 +42,13 @@
       <pubDate>Sun, 24 May 2026 12:20:54 +0900</pubDate>
       <guid>https://money.devkuma.com/posts/etf-types-inverse-leveraged-guide/</guid>
       <description>&lt;p&gt;주식시장이 크게 오르거나 빠질 때마다 인버스 ETF와 레버리지 ETF가 검색어에 자주 오른다. 시장이 내려갈 것 같으면 인버스, 시장이 강하게 오를 것 같으면 레버리지에 관심이 생긴다. 이름만 보면 방향만 맞히면 쉽게 수익을 낼 수 있을 것 같지만, 실제 구조는 생각보다 까다롭다.&lt;/p&gt;&#xA;&lt;p&gt;인버스와 레버리지는 모두 기초지수의 &amp;ldquo;하루 수익률&amp;quot;을 기준으로 움직이도록 설계된 파생형 ETF다. 여기서 중요한 말은 하루 수익률이다. 한 달이나 1년 동안 지수가 10% 올랐다고 해서 레버리지 ETF가 정확히 20% 오르는 구조가 아니다. 매일 수익률을 다시 계산하기 때문에 시장이 오르락내리락하면 예상과 다른 결과가 나올 수 있다.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>시가총액 뜻과 계산법, 주식 초보가 기업 규모를 볼 때 꼭 알아야 할 기준</title>
+      <link>https://money.devkuma.com/posts/market-capitalization-meaning/</link>
+      <pubDate>Fri, 29 May 2026 08:20:02 +0900</pubDate>
+      <guid>https://money.devkuma.com/posts/market-capitalization-meaning/</guid>
+      <description>&lt;p&gt;주식 앱을 열면 종목 이름 옆에 주가가 먼저 보인다. 그래서 처음에는 &amp;ldquo;주가가 높은 회사가 더 큰 회사 아닌가?&amp;ldquo;라고 생각하기 쉽다. 하지만 주가만 보고 기업 규모를 판단하면 크게 착각할 수 있다.&lt;/p&gt;&#xA;&lt;p&gt;기업의 시장 가치를 볼 때 더 중요한 숫자는 시가총액이다. 시가총액은 시장이 그 회사를 전체적으로 얼마짜리 기업으로 평가하고 있는지 보여준다. 주가가 높아도 발행주식수가 적으면 시가총액은 작을 수 있고, 주가가 낮아도 발행주식수가 많으면 시가총액은 클 수 있다.&lt;/p&gt;&#xA;&lt;p&gt;이 글에서는 시가총액의 뜻과 계산법, 주가와의 차이, 대형주·중형주·소형주를 보는 방법, 투자할 때 어떻게 활용하면 좋은지까지 쉽게 정리한다.&lt;/p&gt;</description>
     </item>
     <item>
       <title>해외 주식 사는 법, 계좌 개설부터 환전·거래시간·세금까지 한 번에 정리</title>
