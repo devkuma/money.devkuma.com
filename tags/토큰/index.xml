@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>토큰 on Show Me the Money::devkuma</title>
+    <link>https://money.devkuma.com/tags/%ED%86%A0%ED%81%B0/</link>
+    <description>Recent content in 토큰 on Show Me the Money::devkuma</description>
+    <generator>Hugo</generator>
+    <language>ko-KR</language>
+    <lastBuildDate>Sun, 31 May 2026 08:13:40 +0900</lastBuildDate>
+    <atom:link href="https://money.devkuma.com/tags/%ED%86%A0%ED%81%B0/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>코인 종류와 특징 총정리, 비트코인·알트코인·스테이블코인 쉽게 구분하기</title>
+      <link>https://money.devkuma.com/posts/types-of-cryptocurrency/</link>
+      <pubDate>Sun, 31 May 2026 08:13:40 +0900</pubDate>
+      <guid>https://money.devkuma.com/posts/types-of-cryptocurrency/</guid>
+      <description>&lt;p&gt;코인에 관심을 갖기 시작하면 이름부터 어렵다. 비트코인, 이더리움, 솔라나, 리플, 테더처럼 익숙한 이름도 있지만, 메인넷 코인, 토큰, 스테이블코인, DeFi, NFT 같은 용어까지 나오면 무엇이 어떻게 다른지 헷갈린다.&lt;/p&gt;&#xA;&lt;p&gt;코인을 단순히 가격이 오르고 내리는 투자 상품으로만 보면 구분이 더 어렵다. 코인은 저마다 만들어진 목적이 다르다. 독립적인 블록체인을 운영하는 코인이 있고, 다른 블록체인 위에서 작동하는 토큰이 있다. 가격을 일정하게 유지하려는 코인도 있고, 송금이나 게임처럼 특정 기능을 위해 만들어진 코인도 있다.&lt;/p&gt;&#xA;&lt;p&gt;종류를 이해하면 코인을 무조건 외울 필요가 없다. 어떤 구조로 작동하는지, 어디에 쓰이는지, 어떤 위험이 있는지를 판단하기 쉬워진다. 이 글에서는 비트코인과 알트코인의 차이부터 메인넷, 토큰, 스테이블코인, 기능형 코인, CBDC까지 차례대로 정리하였다.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
