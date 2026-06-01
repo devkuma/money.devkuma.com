@@ -6,8 +6,64 @@
     <description>Recent content in Tags on Show Me the Money::devkuma</description>
     <generator>Hugo</generator>
     <language>ko-KR</language>
-    <lastBuildDate>Mon, 01 Jun 2026 13:17:11 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 01 Jun 2026 21:17:43 +0900</lastBuildDate>
     <atom:link href="https://money.devkuma.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ISIN</title>
+      <link>https://money.devkuma.com/tags/isin/</link>
+      <pubDate>Mon, 01 Jun 2026 21:17:43 +0900</pubDate>
+      <guid>https://money.devkuma.com/tags/isin/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>단축코드</title>
+      <link>https://money.devkuma.com/tags/%EB%8B%A8%EC%B6%95%EC%BD%94%EB%93%9C/</link>
+      <pubDate>Mon, 01 Jun 2026 21:17:43 +0900</pubDate>
+      <guid>https://money.devkuma.com/tags/%EB%8B%A8%EC%B6%95%EC%BD%94%EB%93%9C/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>삼성전자</title>
+      <link>https://money.devkuma.com/tags/%EC%82%BC%EC%84%B1%EC%A0%84%EC%9E%90/</link>
+      <pubDate>Mon, 01 Jun 2026 21:17:43 +0900</pubDate>
+      <guid>https://money.devkuma.com/tags/%EC%82%BC%EC%84%B1%EC%A0%84%EC%9E%90/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>우선주</title>
+      <link>https://money.devkuma.com/tags/%EC%9A%B0%EC%84%A0%EC%A3%BC/</link>
+      <pubDate>Mon, 01 Jun 2026 21:17:43 +0900</pubDate>
+      <guid>https://money.devkuma.com/tags/%EC%9A%B0%EC%84%A0%EC%A3%BC/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>종목코드</title>
+      <link>https://money.devkuma.com/tags/%EC%A2%85%EB%AA%A9%EC%BD%94%EB%93%9C/</link>
+      <pubDate>Mon, 01 Jun 2026 21:17:43 +0900</pubDate>
+      <guid>https://money.devkuma.com/tags/%EC%A2%85%EB%AA%A9%EC%BD%94%EB%93%9C/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>주식종목코드</title>
+      <link>https://money.devkuma.com/tags/%EC%A3%BC%EC%8B%9D%EC%A2%85%EB%AA%A9%EC%BD%94%EB%93%9C/</link>
+      <pubDate>Mon, 01 Jun 2026 21:17:43 +0900</pubDate>
+      <guid>https://money.devkuma.com/tags/%EC%A3%BC%EC%8B%9D%EC%A2%85%EB%AA%A9%EC%BD%94%EB%93%9C/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>주식초보</title>
+      <link>https://money.devkuma.com/tags/%EC%A3%BC%EC%8B%9D%EC%B4%88%EB%B3%B4/</link>
+      <pubDate>Mon, 01 Jun 2026 21:17:43 +0900</pubDate>
+      <guid>https://money.devkuma.com/tags/%EC%A3%BC%EC%8B%9D%EC%B4%88%EB%B3%B4/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>증권표준코드</title>
+      <link>https://money.devkuma.com/tags/%EC%A6%9D%EA%B6%8C%ED%91%9C%EC%A4%80%EC%BD%94%EB%93%9C/</link>
+      <pubDate>Mon, 01 Jun 2026 21:17:43 +0900</pubDate>
+      <guid>https://money.devkuma.com/tags/%EC%A6%9D%EA%B6%8C%ED%91%9C%EC%A4%80%EC%BD%94%EB%93%9C/</guid>
+      <description></description>
+    </item>
     <item>
       <title>단타매매</title>
       <link>https://money.devkuma.com/tags/%EB%8B%A8%ED%83%80%EB%A7%A4%EB%A7%A4/</link>
@@ -41,13 +97,6 @@
       <link>https://money.devkuma.com/tags/%EC%A3%BC%EC%8B%9D%EC%88%98%EC%88%98%EB%A3%8C/</link>
       <pubDate>Mon, 01 Jun 2026 13:17:11 +0900</pubDate>
       <guid>https://money.devkuma.com/tags/%EC%A3%BC%EC%8B%9D%EC%88%98%EC%88%98%EB%A3%8C/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>주식초보</title>
-      <link>https://money.devkuma.com/tags/%EC%A3%BC%EC%8B%9D%EC%B4%88%EB%B3%B4/</link>
-      <pubDate>Mon, 01 Jun 2026 13:17:11 +0900</pubDate>
-      <guid>https://money.devkuma.com/tags/%EC%A3%BC%EC%8B%9D%EC%B4%88%EB%B3%B4/</guid>
       <description></description>
     </item>
     <item>
@@ -485,13 +534,6 @@
       <description></description>
     </item>
     <item>
-      <title>우선주</title>
-      <link>https://money.devkuma.com/tags/%EC%9A%B0%EC%84%A0%EC%A3%BC/</link>
-      <pubDate>Sun, 31 May 2026 23:50:40 +0900</pubDate>
-      <guid>https://money.devkuma.com/tags/%EC%9A%B0%EC%84%A0%EC%A3%BC/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>노조</title>
       <link>https://money.devkuma.com/tags/%EB%85%B8%EC%A1%B0/</link>
       <pubDate>Sun, 31 May 2026 23:44:03 +0900</pubDate>
@@ -510,13 +552,6 @@
       <link>https://money.devkuma.com/tags/%EB%B0%98%EB%8F%84%EC%B2%B4/</link>
       <pubDate>Sun, 31 May 2026 23:44:03 +0900</pubDate>
       <guid>https://money.devkuma.com/tags/%EB%B0%98%EB%8F%84%EC%B2%B4/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>삼성전자</title>
-      <link>https://money.devkuma.com/tags/%EC%82%BC%EC%84%B1%EC%A0%84%EC%9E%90/</link>
-      <pubDate>Sun, 31 May 2026 23:44:03 +0900</pubDate>
-      <guid>https://money.devkuma.com/tags/%EC%82%BC%EC%84%B1%EC%A0%84%EC%9E%90/</guid>
       <description></description>
     </item>
     <item>

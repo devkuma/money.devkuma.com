@@ -6,7 +6,7 @@
     <description>Recent content in 주식초보 on Show Me the Money::devkuma</description>
     <generator>Hugo</generator>
     <language>ko-KR</language>
-    <lastBuildDate>Mon, 01 Jun 2026 13:17:11 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 01 Jun 2026 21:17:43 +0900</lastBuildDate>
     <atom:link href="https://money.devkuma.com/tags/%EC%A3%BC%EC%8B%9D%EC%B4%88%EB%B3%B4/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>실패하지 않는 주식투자 입문 가이드, 초보자가 먼저 알아야 할 기본 원칙</title>
@@ -49,6 +49,13 @@
       <pubDate>Thu, 14 May 2026 21:53:49 +0900</pubDate>
       <guid>https://money.devkuma.com/posts/call-option-put-option/</guid>
       <description>&lt;p&gt;주식 공부를 하다 보면 콜옵션, 풋옵션이라는 말을 한 번쯤 듣게 된다. 뉴스에서는 경영권 분쟁, 임원 보상, 파생상품 투자, 커버드콜 ETF 같은 이야기와 함께 자주 나온다. 2024년에는 민희진 전 어도어 대표의 풋옵션 이슈가 알려지면서 &amp;ldquo;풋옵션이 대체 뭐길래 1,000억 원대라는 말이 나오지?&amp;ldquo;라고 궁금해한 사람도 많았다.&lt;/p&gt;&#xA;&lt;p&gt;옵션은 말 그대로 &amp;ldquo;권리&amp;quot;다. 미래의 특정 시점에 어떤 자산을 미리 정한 가격으로 사거나 팔 수 있는 권리를 말한다. 주식뿐 아니라 채권, 금, 원유, 지수 같은 여러 자산이 옵션의 대상이 될 수 있다.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>주식 종목코드 6자리 의미와 체계, 삼성전자 005930으로 쉽게 이해하기</title>
+      <link>https://money.devkuma.com/posts/stock-ticker-code/</link>
+      <pubDate>Mon, 01 Jun 2026 21:17:43 +0900</pubDate>
+      <guid>https://money.devkuma.com/posts/stock-ticker-code/</guid>
+      <description>&lt;p&gt;주식 앱에서 삼성전자를 검색하면 종목명 옆에 &lt;code&gt;005930&lt;/code&gt;이라는 숫자가 표시된다. SK하이닉스는 &lt;code&gt;000660&lt;/code&gt;, LG에너지솔루션은 &lt;code&gt;373220&lt;/code&gt;이다. 처음에는 단순한 번호처럼 보이지만, 주식 주문과 시세 조회에서 종목을 정확하게 구분하는 중요한 코드다.&lt;/p&gt;&#xA;&lt;p&gt;기업 이름은 비슷할 수 있고 회사명이 바뀌기도 한다. 반면 종목코드는 각 상품을 구분하기 위해 부여된다. 특히 같은 회사가 보통주와 우선주를 함께 발행하면 종목명만 대충 보고 주문해서는 안 된다.&lt;/p&gt;&#xA;&lt;p&gt;이 글에서는 국내 주식 앱에서 자주 보는 종목코드 6자리의 의미, 정식 증권표준코드와의 차이, 삼성전자와 삼성전자우 코드가 다른 이유를 쉽게 정리했다.&lt;/p&gt;</description>
     </item>
     <item>
       <title>주식 단타로 돈 벌기 힘든 이유, 초보자가 손실을 키우는 5가지 원인</title>

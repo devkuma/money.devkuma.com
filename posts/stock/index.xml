@@ -6,7 +6,7 @@
     <description>Recent content in 주식 on Show Me the Money::devkuma</description>
     <generator>Hugo</generator>
     <language>ko-KR</language>
-    <lastBuildDate>Mon, 01 Jun 2026 13:17:11 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 01 Jun 2026 21:17:43 +0900</lastBuildDate>
     <atom:link href="https://money.devkuma.com/posts/stock/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>분산투자 왜 해야 할까? 포트폴리오 뜻과 투자 자산 나누는 방법</title>
@@ -14,6 +14,13 @@
       <pubDate>Wed, 13 May 2026 22:22:10 +0900</pubDate>
       <guid>https://money.devkuma.com/posts/diversified-investing-portfolio/</guid>
       <description>&lt;p&gt;투자를 시작하면 가장 자주 듣는 말이 있다. &amp;ldquo;계란을 한 바구니에 담지 말라&amp;quot;는 말이다. 말은 쉬운데 막상 내 계좌를 보면 한두 종목, 한 가지 자산, 한 번의 매수 타이밍에 돈이 몰려 있는 경우가 많다.&lt;/p&gt;&#xA;&lt;p&gt;집중투자는 맞았을 때 수익이 크게 보인다. 하지만 틀렸을 때 회복이 어렵다. 한 종목이 급락하거나, 특정 업종 전체가 흔들리거나, 내가 산 직후 시장이 조정을 받으면 계좌 전체가 같이 무너질 수 있다. 분산투자는 이런 위험을 줄이기 위한 가장 기본적인 투자 원칙이다.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>주식 종목코드 6자리 의미와 체계, 삼성전자 005930으로 쉽게 이해하기</title>
+      <link>https://money.devkuma.com/posts/stock-ticker-code/</link>
+      <pubDate>Mon, 01 Jun 2026 21:17:43 +0900</pubDate>
+      <guid>https://money.devkuma.com/posts/stock-ticker-code/</guid>
+      <description>&lt;p&gt;주식 앱에서 삼성전자를 검색하면 종목명 옆에 &lt;code&gt;005930&lt;/code&gt;이라는 숫자가 표시된다. SK하이닉스는 &lt;code&gt;000660&lt;/code&gt;, LG에너지솔루션은 &lt;code&gt;373220&lt;/code&gt;이다. 처음에는 단순한 번호처럼 보이지만, 주식 주문과 시세 조회에서 종목을 정확하게 구분하는 중요한 코드다.&lt;/p&gt;&#xA;&lt;p&gt;기업 이름은 비슷할 수 있고 회사명이 바뀌기도 한다. 반면 종목코드는 각 상품을 구분하기 위해 부여된다. 특히 같은 회사가 보통주와 우선주를 함께 발행하면 종목명만 대충 보고 주문해서는 안 된다.&lt;/p&gt;&#xA;&lt;p&gt;이 글에서는 국내 주식 앱에서 자주 보는 종목코드 6자리의 의미, 정식 증권표준코드와의 차이, 삼성전자와 삼성전자우 코드가 다른 이유를 쉽게 정리했다.&lt;/p&gt;</description>
     </item>
     <item>
       <title>주식 단타로 돈 벌기 힘든 이유, 초보자가 손실을 키우는 5가지 원인</title>
