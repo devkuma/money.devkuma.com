@@ -6,7 +6,7 @@
     <description>Recent content in 주식 on Show Me the Money::devkuma</description>
     <generator>Hugo</generator>
     <language>ko-KR</language>
-    <lastBuildDate>Mon, 01 Jun 2026 08:22:01 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 01 Jun 2026 13:17:11 +0900</lastBuildDate>
     <atom:link href="https://money.devkuma.com/categories/%EC%A3%BC%EC%8B%9D/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>ETF 뜻과 장단점, 주식·펀드와의 차이 쉽게 정리</title>
@@ -133,6 +133,20 @@
       <pubDate>Sun, 17 May 2026 22:46:15 +0900</pubDate>
       <guid>https://money.devkuma.com/posts/etf-tax-guide/</guid>
       <description>&lt;p&gt;ETF는 주식처럼 사고팔 수 있어서 세금도 주식과 똑같다고 생각하기 쉽다. 그런데 실제로는 그렇지 않다. 국내 증시에 상장된 ETF인지, 해외 거래소에 직접 상장된 ETF인지, 또 ETF가 국내 주식에 투자하는지 해외 주식에 투자하는지에 따라 세금이 달라진다.&lt;/p&gt;&#xA;&lt;p&gt;특히 초보자가 가장 많이 헷갈리는 부분은 &amp;ldquo;국내 상장 해외 ETF&amp;quot;다. 예를 들어 TIGER 미국S&amp;amp;P500, KODEX 미국나스닥100처럼 한국거래소에서 원화로 사고파는 ETF는 미국 주식에 투자하더라도 세금은 해외 상장 ETF와 다르게 처리된다.&lt;/p&gt;&#xA;&lt;p&gt;이 글에서는 ETF 투자자가 꼭 알아야 할 세금을 매매차익과 분배금으로 나누어 정리하였다. 세금은 투자 수익률의 마지막 숫자를 바꾸기 때문에, 상품을 고르기 전에 한 번은 확인해두는 것이 좋다.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>주식 단타로 돈 벌기 힘든 이유, 초보자가 손실을 키우는 5가지 원인</title>
+      <link>https://money.devkuma.com/posts/why-stock-day-trading-is-hard/</link>
+      <pubDate>Mon, 01 Jun 2026 13:17:11 +0900</pubDate>
+      <guid>https://money.devkuma.com/posts/why-stock-day-trading-is-hard/</guid>
+      <description>&lt;p&gt;주식 단타는 처음 접하면 단순해 보인다. 아침에 사고 조금 오르면 팔면 된다. 하루에 1%씩만 벌어도 한 달이면 꽤 큰 수익이 될 것처럼 느껴진다. 주식 앱을 열면 실시간으로 급등하는 종목이 계속 보이기 때문에 기회가 많다는 생각도 든다.&lt;/p&gt;&#xA;&lt;p&gt;하지만 실제로 단타 수익을 꾸준히 쌓는 것은 어렵다. 한두 번 수익을 내는 것과 오랜 기간 계좌를 지키며 수익을 남기는 것은 전혀 다른 문제다. 짧은 시간 안에 판단해야 하고, 매매할 때마다 비용이 발생하며, 손실이 나면 감정적으로 대응하기 쉽다.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>주식 차트 보는 법, 지지선 저항선 긋기와 매매 활용 방법</title>
+      <link>https://money.devkuma.com/posts/stock-support-resistance/</link>
+      <pubDate>Mon, 01 Jun 2026 13:10:34 +0900</pubDate>
+      <guid>https://money.devkuma.com/posts/stock-support-resistance/</guid>
+      <description>&lt;p&gt;주식 차트를 처음 보면 가격이 오르고 내린 흔적만 복잡하게 보인다. 그런데 조금 익숙해지면 유독 여러 번 멈추는 가격대가 눈에 들어온다. 떨어지다가 반등하는 구간도 있고, 오르다가 다시 밀리는 구간도 있다.&lt;/p&gt;&#xA;&lt;p&gt;이때 자주 사용하는 개념이 지지선과 저항선이다. 지지선은 주가가 더 떨어지지 않도록 받쳐주는 가격대이고, 저항선은 주가가 더 오르지 못하도록 막는 가격대다. 차트에 선을 긋는 목적은 미래 가격을 정확히 맞히는 것이 아니다. 내가 관심을 가질 구간과 조심할 구간을 미리 정하기 위해서다.&lt;/p&gt;&#xA;&lt;p&gt;지지선과 저항선은 주식 초보도 비교적 쉽게 활용할 수 있다. 다만 아무 곳에나 선을 많이 그으면 오히려 판단이 어려워진다. 이 글에서는 지지선과 저항선의 의미, 생기는 이유, 긋는 순서, 거래량과 함께 보는 방법, 초보자가 피해야 할 실수까지 정리하였다.&lt;/p&gt;</description>
     </item>
     <item>
       <title>주식 증거금 뜻과 미수 거래 위험, 반대매매 전에 꼭 알아야 할 내용</title>

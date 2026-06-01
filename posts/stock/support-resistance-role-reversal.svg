@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="620" viewBox="0 0 1200 620" role="img" aria-labelledby="title desc">
+  <title id="title">저항 구간 돌파 뒤 지지 구간으로 바뀌는 흐름</title>
+  <desc id="desc">기존 저항 구간을 거래량과 함께 돌파한 뒤 되돌림 과정에서 지지받는 모습을 나타낸 예시 차트</desc>
+  <rect width="1200" height="620" fill="#ffffff"/>
+  <g stroke="#e5e7eb" stroke-width="1">
+    <line x1="100" y1="100" x2="1120" y2="100"/>
+    <line x1="100" y1="200" x2="1120" y2="200"/>
+    <line x1="100" y1="300" x2="1120" y2="300"/>
+    <line x1="100" y1="400" x2="1120" y2="400"/>
+    <line x1="100" y1="500" x2="1120" y2="500"/>
+  </g>
+  <rect x="100" y="322" width="1020" height="62" rx="12" fill="#fef3c7"/>
+  <text x="120" y="360" fill="#92400e" font-family="Arial, sans-serif" font-size="27" font-weight="700">기존 저항 구간 → 돌파 후 지지 구간으로 역할 전환</text>
+  <polyline points="120,478 215,410 300,350 385,420 470,342 555,410 635,350 705,235 790,150 870,255 950,342 1030,270 1110,165"
+    fill="none" stroke="#111827" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="680" y1="430" x2="680" y2="220" stroke="#dc2626" stroke-width="5" stroke-dasharray="12 10"/>
+  <path d="M665 245 L680 218 L695 245" fill="none" stroke="#dc2626" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="705" y="215" fill="#dc2626" font-family="Arial, sans-serif" font-size="26" font-weight="700">돌파</text>
+  <circle cx="950" cy="342" r="15" fill="#2563eb"/>
+  <text x="875" y="435" fill="#1d4ed8" font-family="Arial, sans-serif" font-size="26" font-weight="700">되돌림 뒤 지지 확인</text>
+  <text x="100" y="565" fill="#4b5563" font-family="Arial, sans-serif" font-size="24">돌파 여부는 종가, 거래량, 이후 되돌림 흐름을 함께 확인한다.</text>
+</svg>
