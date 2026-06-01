@@ -6,8 +6,22 @@
     <description>Recent content in 스테이블코인 on Show Me the Money::devkuma</description>
     <generator>Hugo</generator>
     <language>ko-KR</language>
-    <lastBuildDate>Mon, 01 Jun 2026 00:07:45 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 01 Jun 2026 21:45:43 +0900</lastBuildDate>
     <atom:link href="https://money.devkuma.com/tags/%EC%8A%A4%ED%85%8C%EC%9D%B4%EB%B8%94%EC%BD%94%EC%9D%B8/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>디지털 화폐 전쟁, 미국·중국·EU는 스테이블코인과 CBDC에 어떻게 대응할까</title>
+      <link>https://money.devkuma.com/posts/global-digital-currency-competition/</link>
+      <pubDate>Mon, 01 Jun 2026 21:45:43 +0900</pubDate>
+      <guid>https://money.devkuma.com/posts/global-digital-currency-competition/</guid>
+      <description>&lt;p&gt;스테이블코인은 단순한 코인 투자 상품처럼 보이기 쉽다. 하지만 달러에 연동된 디지털 화폐가 전 세계에서 결제와 송금에 널리 쓰이기 시작하면 이야기가 달라진다. 어느 나라의 화폐가 디지털 경제의 기준이 되는지, 누가 코인을 발행하고 감독하는지, 거래 기록을 누가 관리하는지가 중요해진다.&lt;/p&gt;&#xA;&lt;p&gt;그래서 디지털 화폐 경쟁은 기술만의 문제가 아니다. 달러 패권, 금융 규제, 소비자 보호, 개인정보, 국가 간 결제망이 함께 얽혀 있다. 미국은 민간 달러 스테이블코인을 제도 안으로 끌어들이고 있다. 중국은 중앙은행 디지털화폐(CBDC)인 디지털 위안화에 힘을 싣고 있다. EU와 홍콩도 각자의 규제 틀을 만들었다.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>스테이블코인이 상용화되면 달라지는 것, 송금·결제·RWA 투자 변화 정리</title>
+      <link>https://money.devkuma.com/posts/stablecoin-commercialization/</link>
+      <pubDate>Mon, 01 Jun 2026 21:41:25 +0900</pubDate>
+      <guid>https://money.devkuma.com/posts/stablecoin-commercialization/</guid>
+      <description>&lt;p&gt;스테이블코인은 코인 시장 안에서만 사용하는 디지털 달러처럼 보일 때가 많다. 비트코인이나 알트코인을 사고팔기 전 잠시 보유하는 대기자금으로 익숙하기 때문이다. 하지만 상용화 범위가 넓어지면 변화는 코인 거래소 밖에서 더 크게 나타날 수 있다.&lt;/p&gt;&#xA;&lt;p&gt;해외 송금은 더 간단해질 수 있고, 온라인 결제 대금은 더 빠르게 정산될 수 있다. 계약 조건을 충족하면 돈이 자동으로 지급되는 구조도 만들 수 있다. 부동산, 채권, 미술품 같은 실물자산을 잘게 나눈 토큰을 거래할 때 스테이블코인이 결제 수단 역할을 할 가능성도 있다.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>스테이블코인이란? 종류, 페깅 원리, 활용 방법과 디페깅 리스크 총정리</title>
       <link>https://money.devkuma.com/posts/what-is-stablecoin/</link>

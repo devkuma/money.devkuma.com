@@ -6,7 +6,7 @@
     <description>Recent content in 부자 너구리! on Show Me the Money::devkuma</description>
     <generator>Hugo</generator>
     <language>ko-KR</language>
-    <lastBuildDate>Mon, 01 Jun 2026 21:17:43 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 01 Jun 2026 21:55:20 +0900</lastBuildDate>
     <atom:link href="https://money.devkuma.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>IRP 계좌 개설부터 퇴직금 수령, 세액공제 혜택까지 쉽게 정리</title>
@@ -224,6 +224,41 @@
       <pubDate>Sun, 17 May 2026 22:46:15 +0900</pubDate>
       <guid>https://money.devkuma.com/posts/etf-tax-guide/</guid>
       <description>&lt;p&gt;ETF는 주식처럼 사고팔 수 있어서 세금도 주식과 똑같다고 생각하기 쉽다. 그런데 실제로는 그렇지 않다. 국내 증시에 상장된 ETF인지, 해외 거래소에 직접 상장된 ETF인지, 또 ETF가 국내 주식에 투자하는지 해외 주식에 투자하는지에 따라 세금이 달라진다.&lt;/p&gt;&#xA;&lt;p&gt;특히 초보자가 가장 많이 헷갈리는 부분은 &amp;ldquo;국내 상장 해외 ETF&amp;quot;다. 예를 들어 TIGER 미국S&amp;amp;P500, KODEX 미국나스닥100처럼 한국거래소에서 원화로 사고파는 ETF는 미국 주식에 투자하더라도 세금은 해외 상장 ETF와 다르게 처리된다.&lt;/p&gt;&#xA;&lt;p&gt;이 글에서는 ETF 투자자가 꼭 알아야 할 세금을 매매차익과 분배금으로 나누어 정리하였다. 세금은 투자 수익률의 마지막 숫자를 바꾸기 때문에, 상품을 고르기 전에 한 번은 확인해두는 것이 좋다.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>주식 거래량 보는 법, 거래대금과 차이부터 주가 흐름 해석까지</title>
+      <link>https://money.devkuma.com/posts/stock-trading-volume/</link>
+      <pubDate>Mon, 01 Jun 2026 21:55:20 +0900</pubDate>
+      <guid>https://money.devkuma.com/posts/stock-trading-volume/</guid>
+      <description>&lt;p&gt;주식 차트를 보면 가격 아래에 길이가 다른 막대가 표시된다. 어떤 날은 막대가 짧고, 어떤 날은 갑자기 몇 배나 길어진다. 이 막대가 거래량이다.&lt;/p&gt;&#xA;&lt;p&gt;주가만 보면 &amp;ldquo;얼마나 올랐는지&amp;quot;를 알 수 있다. 거래량까지 함께 보면 &amp;ldquo;얼마나 많은 사람이 참여한 움직임인지&amp;quot;를 짐작할 수 있다. 같은 5% 상승이라도 적은 거래량으로 오른 경우와 평소보다 몇 배 많은 거래량으로 오른 경우는 의미가 다를 수 있다.&lt;/p&gt;&#xA;&lt;p&gt;하지만 거래량이 늘었다고 무조건 좋은 신호인 것은 아니다. 주가가 급락할 때도 거래량은 크게 증가할 수 있다. 이 글에서는 주식 거래량의 뜻, 거래대금과의 차이, 차트에서 거래량을 읽는 방법, 초보자가 조심해야 할 해석을 쉽게 정리했다.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>한국형 원화 스테이블코인은 어디까지 왔을까, 프로젝트 한강과 예금 토큰 정리</title>
+      <link>https://money.devkuma.com/posts/korean-won-stablecoin/</link>
+      <pubDate>Mon, 01 Jun 2026 21:48:57 +0900</pubDate>
+      <guid>https://money.devkuma.com/posts/korean-won-stablecoin/</guid>
+      <description>&lt;p&gt;달러에 연동된 스테이블코인은 이미 디지털자산 시장에서 널리 쓰인다. USDT와 USDC 같은 코인을 이용하면 거래소와 지갑 사이에서 달러 가치를 비교적 빠르게 옮길 수 있다. 해외 송금과 온라인 결제, 실물자산 토큰화 시장에서도 활용 가능성이 커지고 있다.&lt;/p&gt;&#xA;&lt;p&gt;그렇다면 한국에서는 원화에 연동된 스테이블코인이 나올 수 있을까. 원화 스테이블코인이 도입되면 국내 결제와 송금은 어떻게 달라질까. 은행만 발행할 수 있는지, 빅테크나 가상자산 사업자도 참여할 수 있는지도 중요한 쟁점이다.&lt;/p&gt;&#xA;&lt;p&gt;현재 한국에서는 법제화 논의와 기술 테스트가 함께 진행되고 있다. 하지만 모든 내용이 확정된 것은 아니다. 이 글에서는 원화 스테이블코인의 뜻, 한국은행의 &lt;code&gt;프로젝트 한강&lt;/code&gt;, 예금 토큰과 일반 스테이블코인의 차이, 앞으로 확인할 내용을 쉽게 정리했다.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>디지털 화폐 전쟁, 미국·중국·EU는 스테이블코인과 CBDC에 어떻게 대응할까</title>
+      <link>https://money.devkuma.com/posts/global-digital-currency-competition/</link>
+      <pubDate>Mon, 01 Jun 2026 21:45:43 +0900</pubDate>
+      <guid>https://money.devkuma.com/posts/global-digital-currency-competition/</guid>
+      <description>&lt;p&gt;스테이블코인은 단순한 코인 투자 상품처럼 보이기 쉽다. 하지만 달러에 연동된 디지털 화폐가 전 세계에서 결제와 송금에 널리 쓰이기 시작하면 이야기가 달라진다. 어느 나라의 화폐가 디지털 경제의 기준이 되는지, 누가 코인을 발행하고 감독하는지, 거래 기록을 누가 관리하는지가 중요해진다.&lt;/p&gt;&#xA;&lt;p&gt;그래서 디지털 화폐 경쟁은 기술만의 문제가 아니다. 달러 패권, 금융 규제, 소비자 보호, 개인정보, 국가 간 결제망이 함께 얽혀 있다. 미국은 민간 달러 스테이블코인을 제도 안으로 끌어들이고 있다. 중국은 중앙은행 디지털화폐(CBDC)인 디지털 위안화에 힘을 싣고 있다. EU와 홍콩도 각자의 규제 틀을 만들었다.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>스테이블코인이 상용화되면 달라지는 것, 송금·결제·RWA 투자 변화 정리</title>
+      <link>https://money.devkuma.com/posts/stablecoin-commercialization/</link>
+      <pubDate>Mon, 01 Jun 2026 21:41:25 +0900</pubDate>
+      <guid>https://money.devkuma.com/posts/stablecoin-commercialization/</guid>
+      <description>&lt;p&gt;스테이블코인은 코인 시장 안에서만 사용하는 디지털 달러처럼 보일 때가 많다. 비트코인이나 알트코인을 사고팔기 전 잠시 보유하는 대기자금으로 익숙하기 때문이다. 하지만 상용화 범위가 넓어지면 변화는 코인 거래소 밖에서 더 크게 나타날 수 있다.&lt;/p&gt;&#xA;&lt;p&gt;해외 송금은 더 간단해질 수 있고, 온라인 결제 대금은 더 빠르게 정산될 수 있다. 계약 조건을 충족하면 돈이 자동으로 지급되는 구조도 만들 수 있다. 부동산, 채권, 미술품 같은 실물자산을 잘게 나눈 토큰을 거래할 때 스테이블코인이 결제 수단 역할을 할 가능성도 있다.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>인덱스 펀드 뜻과 장단점, 액티브 펀드 차이 쉽게 비교하기</title>
+      <link>https://money.devkuma.com/posts/index-fund-vs-active-fund/</link>
+      <pubDate>Mon, 01 Jun 2026 21:33:19 +0900</pubDate>
+      <guid>https://money.devkuma.com/posts/index-fund-vs-active-fund/</guid>
+      <description>&lt;p&gt;투자를 시작하면 &amp;ldquo;시장 평균만 따라가도 충분하다&amp;quot;는 말을 자주 듣는다. 반대로 좋은 종목을 골라 시장보다 높은 수익을 내야 한다는 주장도 있다. 어떤 방식이 맞는지 고민하다 보면 인덱스 펀드와 액티브 펀드라는 용어를 만나게 된다.&lt;/p&gt;&#xA;&lt;p&gt;두 상품은 모두 여러 투자자의 돈을 모아 운용하는 펀드다. 하지만 목표와 운용 방법이 다르다. 인덱스 펀드는 특정 지수를 따라가는 데 집중하고, 액티브 펀드는 펀드매니저의 판단으로 시장 평균보다 높은 성과를 내는 것을 목표로 한다.&lt;/p&gt;&#xA;&lt;p&gt;이 글에서는 인덱스 펀드의 뜻과 장단점, 액티브 펀드와의 차이, ETF와 혼동하기 쉬운 부분, 가입 전에 확인할 내용을 쉽게 정리했다.&lt;/p&gt;</description>
     </item>
     <item>
       <title>주식 종목코드 6자리 의미와 체계, 삼성전자 005930으로 쉽게 이해하기</title>

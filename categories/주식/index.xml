@@ -6,7 +6,7 @@
     <description>Recent content in 주식 on Show Me the Money::devkuma</description>
     <generator>Hugo</generator>
     <language>ko-KR</language>
-    <lastBuildDate>Mon, 01 Jun 2026 21:17:43 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 01 Jun 2026 21:55:20 +0900</lastBuildDate>
     <atom:link href="https://money.devkuma.com/categories/%EC%A3%BC%EC%8B%9D/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>ETF 뜻과 장단점, 주식·펀드와의 차이 쉽게 정리</title>
@@ -133,6 +133,20 @@
       <pubDate>Sun, 17 May 2026 22:46:15 +0900</pubDate>
       <guid>https://money.devkuma.com/posts/etf-tax-guide/</guid>
       <description>&lt;p&gt;ETF는 주식처럼 사고팔 수 있어서 세금도 주식과 똑같다고 생각하기 쉽다. 그런데 실제로는 그렇지 않다. 국내 증시에 상장된 ETF인지, 해외 거래소에 직접 상장된 ETF인지, 또 ETF가 국내 주식에 투자하는지 해외 주식에 투자하는지에 따라 세금이 달라진다.&lt;/p&gt;&#xA;&lt;p&gt;특히 초보자가 가장 많이 헷갈리는 부분은 &amp;ldquo;국내 상장 해외 ETF&amp;quot;다. 예를 들어 TIGER 미국S&amp;amp;P500, KODEX 미국나스닥100처럼 한국거래소에서 원화로 사고파는 ETF는 미국 주식에 투자하더라도 세금은 해외 상장 ETF와 다르게 처리된다.&lt;/p&gt;&#xA;&lt;p&gt;이 글에서는 ETF 투자자가 꼭 알아야 할 세금을 매매차익과 분배금으로 나누어 정리하였다. 세금은 투자 수익률의 마지막 숫자를 바꾸기 때문에, 상품을 고르기 전에 한 번은 확인해두는 것이 좋다.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>주식 거래량 보는 법, 거래대금과 차이부터 주가 흐름 해석까지</title>
+      <link>https://money.devkuma.com/posts/stock-trading-volume/</link>
+      <pubDate>Mon, 01 Jun 2026 21:55:20 +0900</pubDate>
+      <guid>https://money.devkuma.com/posts/stock-trading-volume/</guid>
+      <description>&lt;p&gt;주식 차트를 보면 가격 아래에 길이가 다른 막대가 표시된다. 어떤 날은 막대가 짧고, 어떤 날은 갑자기 몇 배나 길어진다. 이 막대가 거래량이다.&lt;/p&gt;&#xA;&lt;p&gt;주가만 보면 &amp;ldquo;얼마나 올랐는지&amp;quot;를 알 수 있다. 거래량까지 함께 보면 &amp;ldquo;얼마나 많은 사람이 참여한 움직임인지&amp;quot;를 짐작할 수 있다. 같은 5% 상승이라도 적은 거래량으로 오른 경우와 평소보다 몇 배 많은 거래량으로 오른 경우는 의미가 다를 수 있다.&lt;/p&gt;&#xA;&lt;p&gt;하지만 거래량이 늘었다고 무조건 좋은 신호인 것은 아니다. 주가가 급락할 때도 거래량은 크게 증가할 수 있다. 이 글에서는 주식 거래량의 뜻, 거래대금과의 차이, 차트에서 거래량을 읽는 방법, 초보자가 조심해야 할 해석을 쉽게 정리했다.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>인덱스 펀드 뜻과 장단점, 액티브 펀드 차이 쉽게 비교하기</title>
+      <link>https://money.devkuma.com/posts/index-fund-vs-active-fund/</link>
+      <pubDate>Mon, 01 Jun 2026 21:33:19 +0900</pubDate>
+      <guid>https://money.devkuma.com/posts/index-fund-vs-active-fund/</guid>
+      <description>&lt;p&gt;투자를 시작하면 &amp;ldquo;시장 평균만 따라가도 충분하다&amp;quot;는 말을 자주 듣는다. 반대로 좋은 종목을 골라 시장보다 높은 수익을 내야 한다는 주장도 있다. 어떤 방식이 맞는지 고민하다 보면 인덱스 펀드와 액티브 펀드라는 용어를 만나게 된다.&lt;/p&gt;&#xA;&lt;p&gt;두 상품은 모두 여러 투자자의 돈을 모아 운용하는 펀드다. 하지만 목표와 운용 방법이 다르다. 인덱스 펀드는 특정 지수를 따라가는 데 집중하고, 액티브 펀드는 펀드매니저의 판단으로 시장 평균보다 높은 성과를 내는 것을 목표로 한다.&lt;/p&gt;&#xA;&lt;p&gt;이 글에서는 인덱스 펀드의 뜻과 장단점, 액티브 펀드와의 차이, ETF와 혼동하기 쉬운 부분, 가입 전에 확인할 내용을 쉽게 정리했다.&lt;/p&gt;</description>
     </item>
     <item>
       <title>주식 종목코드 6자리 의미와 체계, 삼성전자 005930으로 쉽게 이해하기</title>
