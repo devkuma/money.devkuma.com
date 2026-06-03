@@ -1,26 +1,31 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>금융소득종합과세 on Show Me the Money::devkuma</title>
-    <link>https://money.devkuma.com/tags/%EA%B8%88%EC%9C%B5%EC%86%8C%EB%93%9D%EC%A2%85%ED%95%A9%EA%B3%BC%EC%84%B8/</link>
-    <description>Recent content in 금융소득종합과세 on Show Me the Money::devkuma</description>
-    <generator>Hugo</generator>
-    <language>ko-KR</language>
-    <lastBuildDate>Sun, 17 May 2026 22:46:15 +0900</lastBuildDate>
-    <atom:link href="https://money.devkuma.com/tags/%EA%B8%88%EC%9C%B5%EC%86%8C%EB%93%9D%EC%A2%85%ED%95%A9%EA%B3%BC%EC%84%B8/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>ETF 세금 총정리, 국내 ETF와 해외상장 ETF 매매차익·분배금 과세 비교</title>
-      <link>https://money.devkuma.com/posts/etf-tax-guide/</link>
-      <pubDate>Sun, 17 May 2026 22:46:15 +0900</pubDate>
-      <guid>https://money.devkuma.com/posts/etf-tax-guide/</guid>
-      <description>&lt;p&gt;ETF는 주식처럼 사고팔 수 있어서 세금도 주식과 똑같다고 생각하기 쉽다. 그런데 실제로는 그렇지 않다. 국내 증시에 상장된 ETF인지, 해외 거래소에 직접 상장된 ETF인지, 또 ETF가 국내 주식에 투자하는지 해외 주식에 투자하는지에 따라 세금이 달라진다.&lt;/p&gt;&#xA;&lt;p&gt;특히 초보자가 가장 많이 헷갈리는 부분은 &amp;ldquo;국내 상장 해외 ETF&amp;quot;다. 예를 들어 TIGER 미국S&amp;amp;P500, KODEX 미국나스닥100처럼 한국거래소에서 원화로 사고파는 ETF는 미국 주식에 투자하더라도 세금은 해외 상장 ETF와 다르게 처리된다.&lt;/p&gt;&#xA;&lt;p&gt;이 글에서는 ETF 투자자가 꼭 알아야 할 세금을 매매차익과 분배금으로 나누어 정리하였다. 세금은 투자 수익률의 마지막 숫자를 바꾸기 때문에, 상품을 고르기 전에 한 번은 확인해두는 것이 좋다.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>국내 주식 세금 총정리, 양도소득세 배당소득세 증권거래세 쉽게 이해하기</title>
-      <link>https://money.devkuma.com/posts/korea-stock-tax-guide/</link>
-      <pubDate>Fri, 08 May 2026 08:25:24 +0900</pubDate>
-      <guid>https://money.devkuma.com/posts/korea-stock-tax-guide/</guid>
-      <description>&lt;p&gt;국내 주식을 처음 시작하면 수익률과 종목만 보게 된다. 그런데 실제로 계좌를 오래 굴리다 보면 세금도 수익률에 영향을 준다. 주식을 팔 때 빠져나가는 세금이 있고, 배당금을 받을 때 원천징수되는 세금이 있으며, 특정 조건에 해당하면 직접 신고해야 하는 세금도 있다.&lt;/p&gt;&#xA;&lt;p&gt;국내 주식 세금은 크게 세 가지로 나누면 이해하기 쉽다. 주식을 팔아 이익이 났을 때 보는 &lt;strong&gt;양도소득세&lt;/strong&gt;, 배당금을 받을 때 붙는 &lt;strong&gt;배당소득세&lt;/strong&gt;, 주식을 매도할 때 거래금액에 붙는 &lt;strong&gt;증권거래세&lt;/strong&gt; 다.&lt;/p&gt;&#xA;&lt;p&gt;대부분의 일반 개인 투자자는 국내 상장주식을 장내에서 사고팔 때 양도소득세를 크게 신경 쓰지 않는 경우가 많다. 하지만 배당소득세와 증권거래세는 소액 투자자에게도 바로 적용된다. 이 글에서는 국내 주식 투자자가 꼭 알아야 할 세금 구조를 초보자 기준으로 정리하였다.&lt;/p&gt;</description>
-    </item>
-  </channel>
+	<channel>
+		<title>금융소득종합과세 on Show Me the Money::devkuma</title>
+		<link>https://money.devkuma.com/tags/%EA%B8%88%EC%9C%B5%EC%86%8C%EB%93%9D%EC%A2%85%ED%95%A9%EA%B3%BC%EC%84%B8/</link>
+		<description>Recent content in 금융소득종합과세 on Show Me the Money::devkuma</description>
+		<generator>Hugo</generator>
+		<language>ko-KR</language>
+		
+		
+		
+		
+			<lastBuildDate>Sun, 17 May 2026 22:46:15 +0900</lastBuildDate>
+		
+			<atom:link href="https://money.devkuma.com/tags/%EA%B8%88%EC%9C%B5%EC%86%8C%EB%93%9D%EC%A2%85%ED%95%A9%EA%B3%BC%EC%84%B8/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>ETF 세금 총정리, 국내 ETF와 해외상장 ETF 매매차익·분배금 과세 비교</title>
+				<link>https://money.devkuma.com/posts/etf-tax-guide/</link>
+				<pubDate>Sun, 17 May 2026 22:46:15 +0900</pubDate>
+				<guid>https://money.devkuma.com/posts/etf-tax-guide/</guid>
+				<description>&lt;p&gt;ETF는 주식처럼 사고팔 수 있어서 세금도 주식과 똑같다고 생각하기 쉽다. 그런데 실제로는 그렇지 않다. 국내 증시에 상장된 ETF인지, 해외 거래소에 직접 상장된 ETF인지, 또 ETF가 국내 주식에 투자하는지 해외 주식에 투자하는지에 따라 세금이 달라진다.&lt;/p&gt;&#xA;&lt;p&gt;특히 초보자가 가장 많이 헷갈리는 부분은 &amp;ldquo;국내 상장 해외 ETF&amp;quot;다. 예를 들어 TIGER 미국S&amp;amp;P500, KODEX 미국나스닥100처럼 한국거래소에서 원화로 사고파는 ETF는 미국 주식에 투자하더라도 세금은 해외 상장 ETF와 다르게 처리된다.&lt;/p&gt;&#xA;&lt;p&gt;이 글에서는 ETF 투자자가 꼭 알아야 할 세금을 매매차익과 분배금으로 나누어 정리하였다. 세금은 투자 수익률의 마지막 숫자를 바꾸기 때문에, 상품을 고르기 전에 한 번은 확인해두는 것이 좋다.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>국내 주식 세금 총정리, 양도소득세 배당소득세 증권거래세 쉽게 이해하기</title>
+				<link>https://money.devkuma.com/posts/korea-stock-tax-guide/</link>
+				<pubDate>Fri, 08 May 2026 08:25:24 +0900</pubDate>
+				<guid>https://money.devkuma.com/posts/korea-stock-tax-guide/</guid>
+				<description>&lt;p&gt;국내 주식을 처음 시작하면 수익률과 종목만 보게 된다. 그런데 실제로 계좌를 오래 굴리다 보면 세금도 수익률에 영향을 준다. 주식을 팔 때 빠져나가는 세금이 있고, 배당금을 받을 때 원천징수되는 세금이 있으며, 특정 조건에 해당하면 직접 신고해야 하는 세금도 있다.&lt;/p&gt;&#xA;&lt;p&gt;국내 주식 세금은 크게 세 가지로 나누면 이해하기 쉽다. 주식을 팔아 이익이 났을 때 보는 &lt;strong&gt;양도소득세&lt;/strong&gt;, 배당금을 받을 때 붙는 &lt;strong&gt;배당소득세&lt;/strong&gt;, 주식을 매도할 때 거래금액에 붙는 &lt;strong&gt;증권거래세&lt;/strong&gt; 다.&lt;/p&gt;&#xA;&lt;p&gt;대부분의 일반 개인 투자자는 국내 상장주식을 장내에서 사고팔 때 양도소득세를 크게 신경 쓰지 않는 경우가 많다. 하지만 배당소득세와 증권거래세는 소액 투자자에게도 바로 적용된다. 이 글에서는 국내 주식 투자자가 꼭 알아야 할 세금 구조를 초보자 기준으로 정리하였다.&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

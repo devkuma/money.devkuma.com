@@ -1,19 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>비트코인도미넌스 on Show Me the Money::devkuma</title>
-    <link>https://money.devkuma.com/tags/%EB%B9%84%ED%8A%B8%EC%BD%94%EC%9D%B8%EB%8F%84%EB%AF%B8%EB%84%8C%EC%8A%A4/</link>
-    <description>Recent content in 비트코인도미넌스 on Show Me the Money::devkuma</description>
-    <generator>Hugo</generator>
-    <language>ko-KR</language>
-    <lastBuildDate>Mon, 01 Jun 2026 00:04:49 +0900</lastBuildDate>
-    <atom:link href="https://money.devkuma.com/tags/%EB%B9%84%ED%8A%B8%EC%BD%94%EC%9D%B8%EB%8F%84%EB%AF%B8%EB%84%8C%EC%8A%A4/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>알트코인이란? 종류, 알트코인 시즌 인덱스, 비트코인과의 차이 쉽게 이해하기</title>
-      <link>https://money.devkuma.com/posts/what-is-altcoin/</link>
-      <pubDate>Mon, 01 Jun 2026 00:04:49 +0900</pubDate>
-      <guid>https://money.devkuma.com/posts/what-is-altcoin/</guid>
-      <description>&lt;p&gt;코인 시장을 보다 보면 &amp;ldquo;비트코인이 오른 뒤 알트코인 장세가 온다&amp;rdquo;, &amp;ldquo;알트코인 시즌이 시작됐다&amp;quot;는 말을 자주 접한다. 이더리움, 솔라나, 리플처럼 이름이 익숙한 코인부터 처음 보는 코인까지 모두 함께 언급된다.&lt;/p&gt;&#xA;&lt;p&gt;알트코인은 하나의 코인 이름이 아니다. 비트코인을 제외한 다양한 암호화폐를 넓게 묶어 부르는 말이다. 목적과 구조가 서로 다르기 때문에 &amp;ldquo;알트코인이 오른다&amp;quot;는 말만 듣고 투자하면 위험하다.&lt;/p&gt;&#xA;&lt;p&gt;이 글에서는 알트코인의 뜻, 비트코인과의 차이, 주요 종류, 알트코인 시즌 인덱스와 비트코인 도미넌스를 보는 방법, 투자 전에 확인할 내용을 쉽게 정리하였다.&lt;/p&gt;</description>
-    </item>
-  </channel>
+	<channel>
+		<title>비트코인도미넌스 on Show Me the Money::devkuma</title>
+		<link>https://money.devkuma.com/tags/%EB%B9%84%ED%8A%B8%EC%BD%94%EC%9D%B8%EB%8F%84%EB%AF%B8%EB%84%8C%EC%8A%A4/</link>
+		<description>Recent content in 비트코인도미넌스 on Show Me the Money::devkuma</description>
+		<generator>Hugo</generator>
+		<language>ko-KR</language>
+		
+		
+		
+		
+			<lastBuildDate>Mon, 01 Jun 2026 00:04:49 +0900</lastBuildDate>
+		
+			<atom:link href="https://money.devkuma.com/tags/%EB%B9%84%ED%8A%B8%EC%BD%94%EC%9D%B8%EB%8F%84%EB%AF%B8%EB%84%8C%EC%8A%A4/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>알트코인이란? 종류, 알트코인 시즌 인덱스, 비트코인과의 차이 쉽게 이해하기</title>
+				<link>https://money.devkuma.com/posts/what-is-altcoin/</link>
+				<pubDate>Mon, 01 Jun 2026 00:04:49 +0900</pubDate>
+				<guid>https://money.devkuma.com/posts/what-is-altcoin/</guid>
+				<description>&lt;p&gt;코인 시장을 보다 보면 &amp;ldquo;비트코인이 오른 뒤 알트코인 장세가 온다&amp;rdquo;, &amp;ldquo;알트코인 시즌이 시작됐다&amp;quot;는 말을 자주 접한다. 이더리움, 솔라나, 리플처럼 이름이 익숙한 코인부터 처음 보는 코인까지 모두 함께 언급된다.&lt;/p&gt;&#xA;&lt;p&gt;알트코인은 하나의 코인 이름이 아니다. 비트코인을 제외한 다양한 암호화폐를 넓게 묶어 부르는 말이다. 목적과 구조가 서로 다르기 때문에 &amp;ldquo;알트코인이 오른다&amp;quot;는 말만 듣고 투자하면 위험하다.&lt;/p&gt;&#xA;&lt;p&gt;이 글에서는 알트코인의 뜻, 비트코인과의 차이, 주요 종류, 알트코인 시즌 인덱스와 비트코인 도미넌스를 보는 방법, 투자 전에 확인할 내용을 쉽게 정리하였다.&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

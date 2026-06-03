@@ -1,19 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>금융이벤트 on Show Me the Money::devkuma</title>
-    <link>https://money.devkuma.com/tags/%EA%B8%88%EC%9C%B5%EC%9D%B4%EB%B2%A4%ED%8A%B8/</link>
-    <description>Recent content in 금융이벤트 on Show Me the Money::devkuma</description>
-    <generator>Hugo</generator>
-    <language>ko-KR</language>
-    <lastBuildDate>Sun, 10 May 2026 09:14:09 +0900</lastBuildDate>
-    <atom:link href="https://money.devkuma.com/tags/%EA%B8%88%EC%9C%B5%EC%9D%B4%EB%B2%A4%ED%8A%B8/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>삼성증권 중개형 ISA 개설 이벤트 혜택 정리: 신규·이전 고객은 어디까지 받을 수 있을까</title>
-      <link>https://money.devkuma.com/posts/samsung-securities-isa-event/</link>
-      <pubDate>Sun, 10 May 2026 09:14:09 +0900</pubDate>
-      <guid>https://money.devkuma.com/posts/samsung-securities-isa-event/</guid>
-      <description>&lt;p&gt;요즘 ISA 계좌 하나쯤은 다들 고민한다. 절세에 좋다는 건 알겠는데, 막상 만들려고 하면 증권사도 많고 이벤트도 자주 바뀌어서 언제 개설해야 할지 애매하다.&lt;/p&gt;&#xA;&lt;p&gt;나도 ISA 만기가 다가오면서 증권사 이벤트를 찾아보다가 삼성증권 중개형 ISA 이벤트를 보게 되었다. 조건을 보니 신규 개설자, 기존 고객, 타사 ISA 이전을 고민하는 사람에게 각각 볼 만한 포인트가 있었다.&lt;/p&gt;&#xA;&lt;p&gt;다만 먼저 분명히 해둘 점이 있다. 이 글은 삼성증권 ISA 계좌 개설 추천이나 투자 권유가 아니다. 계좌 개설 여부, 이벤트 참여 여부, 투자 여부는 모두 본인이 직접 판단해야 한다. 그리고 모든 증권사 이벤트를 비교한 것이 아니므로 다른 증권사에 더 좋은 조건이 있을 가능성도 있다.&lt;/p&gt;</description>
-    </item>
-  </channel>
+	<channel>
+		<title>금융이벤트 on Show Me the Money::devkuma</title>
+		<link>https://money.devkuma.com/tags/%EA%B8%88%EC%9C%B5%EC%9D%B4%EB%B2%A4%ED%8A%B8/</link>
+		<description>Recent content in 금융이벤트 on Show Me the Money::devkuma</description>
+		<generator>Hugo</generator>
+		<language>ko-KR</language>
+		
+		
+		
+		
+			<lastBuildDate>Sun, 10 May 2026 09:14:09 +0900</lastBuildDate>
+		
+			<atom:link href="https://money.devkuma.com/tags/%EA%B8%88%EC%9C%B5%EC%9D%B4%EB%B2%A4%ED%8A%B8/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>삼성증권 중개형 ISA 개설 이벤트 혜택 정리: 신규·이전 고객은 어디까지 받을 수 있을까</title>
+				<link>https://money.devkuma.com/posts/samsung-securities-isa-event/</link>
+				<pubDate>Sun, 10 May 2026 09:14:09 +0900</pubDate>
+				<guid>https://money.devkuma.com/posts/samsung-securities-isa-event/</guid>
+				<description>&lt;p&gt;요즘 ISA 계좌 하나쯤은 다들 고민한다. 절세에 좋다는 건 알겠는데, 막상 만들려고 하면 증권사도 많고 이벤트도 자주 바뀌어서 언제 개설해야 할지 애매하다.&lt;/p&gt;&#xA;&lt;p&gt;나도 ISA 만기가 다가오면서 증권사 이벤트를 찾아보다가 삼성증권 중개형 ISA 이벤트를 보게 되었다. 조건을 보니 신규 개설자, 기존 고객, 타사 ISA 이전을 고민하는 사람에게 각각 볼 만한 포인트가 있었다.&lt;/p&gt;&#xA;&lt;p&gt;다만 먼저 분명히 해둘 점이 있다. 이 글은 삼성증권 ISA 계좌 개설 추천이나 투자 권유가 아니다. 계좌 개설 여부, 이벤트 참여 여부, 투자 여부는 모두 본인이 직접 판단해야 한다. 그리고 모든 증권사 이벤트를 비교한 것이 아니므로 다른 증권사에 더 좋은 조건이 있을 가능성도 있다.&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

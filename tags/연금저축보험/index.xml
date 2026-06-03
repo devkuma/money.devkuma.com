@@ -1,19 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>연금저축보험 on Show Me the Money::devkuma</title>
-    <link>https://money.devkuma.com/tags/%EC%97%B0%EA%B8%88%EC%A0%80%EC%B6%95%EB%B3%B4%ED%97%98/</link>
-    <description>Recent content in 연금저축보험 on Show Me the Money::devkuma</description>
-    <generator>Hugo</generator>
-    <language>ko-KR</language>
-    <lastBuildDate>Thu, 28 May 2026 08:10:46 +0900</lastBuildDate>
-    <atom:link href="https://money.devkuma.com/tags/%EC%97%B0%EA%B8%88%EC%A0%80%EC%B6%95%EB%B3%B4%ED%97%98/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>연금저축이란? 세액공제, 종류, 장단점까지 초보자용으로 쉽게 정리</title>
-      <link>https://money.devkuma.com/posts/pension-savings/</link>
-      <pubDate>Thu, 28 May 2026 08:10:46 +0900</pubDate>
-      <guid>https://money.devkuma.com/posts/pension-savings/</guid>
-      <description>&lt;p&gt;연금저축은 이름만 보면 단순한 저축상품처럼 느껴진다. 하지만 실제로는 노후자금을 준비하면서 세액공제까지 받을 수 있는 개인연금 계좌에 가깝다. 직장인이라면 연말정산에서 자주 듣고, 자영업자라면 종합소득세를 줄이는 방법으로 자주 접하게 된다.&lt;/p&gt;&#xA;&lt;p&gt;문제는 처음 볼 때 용어가 꽤 헷갈린다는 점이다. 연금저축펀드, 연금저축보험, IRP, 세액공제, 과세이연 같은 단어가 한꺼번에 나온다. 그래서 &amp;ldquo;좋다는데 뭘 가입해야 하지?&amp;rdquo;, &amp;ldquo;중간에 돈이 필요하면 어떻게 하지?&amp;rdquo;, &amp;ldquo;얼마를 넣어야 하지?&amp;rdquo; 같은 질문이 자연스럽게 생긴다.&lt;/p&gt;&#xA;&lt;p&gt;이 글에서는 연금저축이 무엇인지, 어떤 혜택이 있는지, 가입 전에 무엇을 조심해야 하는지 초보자 눈높이에서 정리하였다.&lt;/p&gt;</description>
-    </item>
-  </channel>
+	<channel>
+		<title>연금저축보험 on Show Me the Money::devkuma</title>
+		<link>https://money.devkuma.com/tags/%EC%97%B0%EA%B8%88%EC%A0%80%EC%B6%95%EB%B3%B4%ED%97%98/</link>
+		<description>Recent content in 연금저축보험 on Show Me the Money::devkuma</description>
+		<generator>Hugo</generator>
+		<language>ko-KR</language>
+		
+		
+		
+		
+			<lastBuildDate>Thu, 28 May 2026 08:10:46 +0900</lastBuildDate>
+		
+			<atom:link href="https://money.devkuma.com/tags/%EC%97%B0%EA%B8%88%EC%A0%80%EC%B6%95%EB%B3%B4%ED%97%98/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>연금저축이란? 세액공제, 종류, 장단점까지 초보자용으로 쉽게 정리</title>
+				<link>https://money.devkuma.com/posts/pension-savings/</link>
+				<pubDate>Thu, 28 May 2026 08:10:46 +0900</pubDate>
+				<guid>https://money.devkuma.com/posts/pension-savings/</guid>
+				<description>&lt;p&gt;연금저축은 이름만 보면 단순한 저축상품처럼 느껴진다. 하지만 실제로는 노후자금을 준비하면서 세액공제까지 받을 수 있는 개인연금 계좌에 가깝다. 직장인이라면 연말정산에서 자주 듣고, 자영업자라면 종합소득세를 줄이는 방법으로 자주 접하게 된다.&lt;/p&gt;&#xA;&lt;p&gt;문제는 처음 볼 때 용어가 꽤 헷갈린다는 점이다. 연금저축펀드, 연금저축보험, IRP, 세액공제, 과세이연 같은 단어가 한꺼번에 나온다. 그래서 &amp;ldquo;좋다는데 뭘 가입해야 하지?&amp;rdquo;, &amp;ldquo;중간에 돈이 필요하면 어떻게 하지?&amp;rdquo;, &amp;ldquo;얼마를 넣어야 하지?&amp;rdquo; 같은 질문이 자연스럽게 생긴다.&lt;/p&gt;&#xA;&lt;p&gt;이 글에서는 연금저축이 무엇인지, 어떤 혜택이 있는지, 가입 전에 무엇을 조심해야 하는지 초보자 눈높이에서 정리하였다.&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

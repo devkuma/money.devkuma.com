@@ -1,54 +1,59 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>해외주식 on Show Me the Money::devkuma</title>
-    <link>https://money.devkuma.com/tags/%ED%95%B4%EC%99%B8%EC%A3%BC%EC%8B%9D/</link>
-    <description>Recent content in 해외주식 on Show Me the Money::devkuma</description>
-    <generator>Hugo</generator>
-    <language>ko-KR</language>
-    <lastBuildDate>Fri, 29 May 2026 22:53:29 +0900</lastBuildDate>
-    <atom:link href="https://money.devkuma.com/tags/%ED%95%B4%EC%99%B8%EC%A3%BC%EC%8B%9D/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>나스닥이란 무엇인가? 나스닥 거래소와 나스닥 종합지수 쉽게 정리</title>
-      <link>https://money.devkuma.com/posts/what-is-nasdaq/</link>
-      <pubDate>Fri, 29 May 2026 22:53:29 +0900</pubDate>
-      <guid>https://money.devkuma.com/posts/what-is-nasdaq/</guid>
-      <description>&lt;p&gt;미국 주식 뉴스를 보면 &amp;ldquo;나스닥이 급등했다&amp;rdquo;, &amp;ldquo;나스닥이 조정받았다&amp;quot;는 표현이 자주 나온다. 엔비디아, 애플, 마이크로소프트, 테슬라 같은 기업이 움직일 때도 나스닥 이야기가 함께 나온다.&lt;/p&gt;&#xA;&lt;p&gt;그런데 처음에는 조금 헷갈린다. 나스닥이 거래소인지, 주가지수인지, 기술주 묶음인지 구분이 잘 안 된다. 실제로 나스닥이라는 말은 상황에 따라 두 가지 의미로 쓰인다. 하나는 미국의 전자 증권거래소이고, 다른 하나는 그 거래소에 상장된 종목 흐름을 보여주는 나스닥 종합지수다.&lt;/p&gt;&#xA;&lt;p&gt;이 글에서는 나스닥의 뜻, 나스닥 거래소와 나스닥 종합지수의 차이, 다우·S&amp;amp;P500과 무엇이 다른지, 투자자가 나스닥을 어떻게 보면 좋은지 초보자 눈높이에서 정리했다.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>RIA 계좌란? 해외주식 양도소득세 줄이는 국내시장복귀계좌 쉽게 정리</title>
-      <link>https://money.devkuma.com/posts/ria-account/</link>
-      <pubDate>Wed, 27 May 2026 09:55:48 +0900</pubDate>
-      <guid>https://money.devkuma.com/posts/ria-account/</guid>
-      <description>&lt;p&gt;해외주식에서 수익이 났는데 막상 팔려고 하면 세금이 먼저 떠오른다. 특히 미국 주식이나 해외 ETF를 오래 들고 있다가 평가이익이 커진 사람이라면 &amp;ldquo;팔면 양도소득세가 얼마나 나올까?&amp;ldquo;라는 고민을 하게 된다.&lt;/p&gt;&#xA;&lt;p&gt;RIA 계좌는 이런 상황에서 한 번쯤 확인해볼 만한 제도다. 정확한 이름은 국내시장복귀계좌이고, 해외주식을 팔아 생긴 자금을 국내 주식시장으로 옮기면 해외주식 양도소득세 부담을 줄여주는 한시적 계좌다.&lt;/p&gt;&#xA;&lt;p&gt;다만 이름만 보면 절세 만능 계좌처럼 보이지만 실제로는 조건이 꽤 분명하다. 대상 주식, 매도 시점, 5천만 원 한도, 1년 유지 조건, 다른 계좌에서 해외주식을 새로 사는 경우까지 같이 봐야 한다. 이 글에서는 RIA 계좌가 무엇인지 초보자도 이해할 수 있게 정리하였다.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>다우존스 산업평균지수 뜻과 투자 방법, S&amp;P500·나스닥과 차이 쉽게 정리</title>
-      <link>https://money.devkuma.com/posts/dow-jones-industrial-average/</link>
-      <pubDate>Mon, 25 May 2026 15:53:28 +0900</pubDate>
-      <guid>https://money.devkuma.com/posts/dow-jones-industrial-average/</guid>
-      <description>&lt;p&gt;미국 주식 뉴스를 보면 &amp;ldquo;다우지수가 올랐다&amp;rdquo;, &amp;ldquo;나스닥은 빠졌지만 다우는 버텼다&amp;rdquo; 같은 표현이 자주 나온다. 처음에는 다우지수, S&amp;amp;P500, 나스닥이 모두 비슷한 말처럼 느껴진다. 전부 미국 주식시장 분위기를 보여주는 지수이기 때문이다.&lt;/p&gt;&#xA;&lt;p&gt;하지만 세 지수는 보는 대상과 계산 방식이 다르다. 특히 다우존스 산업평균지수는 미국 대표 기업 30개만 담고, 시가총액이 아니라 주가를 기준으로 움직이는 독특한 지수다. 그래서 미국 경제의 상징처럼 쓰이지만, 미국 주식시장 전체를 가장 넓게 보여주는 지수라고 보기는 어렵다.&lt;/p&gt;&#xA;&lt;p&gt;이 글에서는 다우존스 산업평균지수가 무엇인지, 왜 30개 기업만 보는지, S&amp;amp;P500·나스닥과 무엇이 다른지, 그리고 개인 투자자가 DIA ETF로 어떻게 접근할 수 있는지 정리하였다.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>해외 주식 사는 법, 계좌 개설부터 환전·거래시간·세금까지 한 번에 정리</title>
-      <link>https://money.devkuma.com/posts/stock-foreign-investing-guide/</link>
-      <pubDate>Mon, 25 May 2026 11:43:09 +0900</pubDate>
-      <guid>https://money.devkuma.com/posts/stock-foreign-investing-guide/</guid>
-      <description>&lt;p&gt;해외 주식은 이제 특별한 사람만 하는 투자가 아니다. 국내 증권사 앱에서 미국 주식, 일본 주식, 중국 주식까지 비교적 쉽게 살 수 있고, 엔비디아, 테슬라, 애플, 마이크로소프트처럼 매일 뉴스에 나오는 기업도 많다.&lt;/p&gt;&#xA;&lt;p&gt;한국예탁결제원 자료 기준으로 2024년 6월 말 해외 주식 보관 금액은 176조 원 수준까지 커졌다. 여기서 보관 금액은 국내 투자자들이 보유한 해외 주식의 평가금액을 뜻한다. 그만큼 많은 사람이 해외 주식에 관심을 갖고 있다는 말이다.&lt;/p&gt;&#xA;&lt;p&gt;다만 해외 주식은 국내 주식보다 한 단계 더 챙길 것이 많다. 계좌 개설, 해외 주식 거래 신청, 환전, 거래 시간, 환율, 세금이 모두 얽혀 있다. 이 글에서는 해외 주식을 처음 사려는 사람이 실제로 어떤 순서로 준비하면 되는지 정리하였다.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>주식 소수점 거래 방법과 장단점, 주식 모으기로 소액 투자 시작하기</title>
-      <link>https://money.devkuma.com/posts/fractional-stock-trading/</link>
-      <pubDate>Thu, 14 May 2026 22:12:16 +0900</pubDate>
-      <guid>https://money.devkuma.com/posts/fractional-stock-trading/</guid>
-      <description>&lt;p&gt;비싼 주식을 사고 싶은데 한 주 가격이 부담스러울 때가 있다. SK하이닉스, 현대자동차, 삼성바이오로직스처럼 한 주 가격이 몇십만 원을 넘는 종목은 초보자가 선뜻 매수하기 어렵다. 관심은 있지만 &amp;ldquo;일단 한 주부터 사보자&amp;quot;는 말 자체가 부담이 되는 경우가 많다.&lt;/p&gt;&#xA;&lt;p&gt;이럴 때 활용할 수 있는 방식이 소수점 거래다. 주식을 반드시 1주 단위로 사는 것이 아니라 1만 원, 5만 원처럼 금액을 정해 일부만 살 수 있는 거래 방식이다. 해외 주식에서 먼저 익숙해진 방식이지만, 요즘은 국내 주식도 소수점 거래를 지원하는 증권사가 늘었다.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>해외주식 양도소득세 신고 방법, 250만 원 공제와 세율 22% 쉽게 정리</title>
-      <link>https://money.devkuma.com/posts/foreign-stock-capital-gains-tax/</link>
-      <pubDate>Fri, 08 May 2026 08:29:40 +0900</pubDate>
-      <guid>https://money.devkuma.com/posts/foreign-stock-capital-gains-tax/</guid>
-      <description>&lt;p&gt;해외주식을 하다 보면 매수와 매도 타이밍에는 민감해도 세금은 뒤로 미루기 쉽다. 특히 테슬라, 엔비디아, 애플, 마이크로소프트처럼 익숙한 미국 주식으로 수익이 났다면 &amp;ldquo;증권사 계좌에 돈이 들어왔으니 끝난 것 아닌가&amp;quot;라고 생각할 수 있다.&lt;/p&gt;&#xA;&lt;p&gt;하지만 해외주식은 국내 상장주식과 세금 구조가 다르다. 일반 개인 투자자라도 해외주식을 팔아 연간 양도차익이 일정 금액을 넘으면 직접 양도소득세를 신고하고 납부해야 한다. 배당소득세처럼 증권사가 알아서 원천징수하고 끝나는 방식이 아니다.&lt;/p&gt;&#xA;&lt;p&gt;이 글에서는 해외주식 양도소득세가 언제 발생하는지, 국내주식과 무엇이 다른지, 250만 원 기본공제와 22% 세율은 어떻게 적용되는지, 5월 신고 때 무엇을 확인해야 하는지 초보자 기준으로 정리하였다.&lt;/p&gt;</description>
-    </item>
-  </channel>
+	<channel>
+		<title>해외주식 on Show Me the Money::devkuma</title>
+		<link>https://money.devkuma.com/tags/%ED%95%B4%EC%99%B8%EC%A3%BC%EC%8B%9D/</link>
+		<description>Recent content in 해외주식 on Show Me the Money::devkuma</description>
+		<generator>Hugo</generator>
+		<language>ko-KR</language>
+		
+		
+		
+		
+			<lastBuildDate>Fri, 29 May 2026 22:53:29 +0900</lastBuildDate>
+		
+			<atom:link href="https://money.devkuma.com/tags/%ED%95%B4%EC%99%B8%EC%A3%BC%EC%8B%9D/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>나스닥이란 무엇인가? 나스닥 거래소와 나스닥 종합지수 쉽게 정리</title>
+				<link>https://money.devkuma.com/posts/what-is-nasdaq/</link>
+				<pubDate>Fri, 29 May 2026 22:53:29 +0900</pubDate>
+				<guid>https://money.devkuma.com/posts/what-is-nasdaq/</guid>
+				<description>&lt;p&gt;미국 주식 뉴스를 보면 &amp;ldquo;나스닥이 급등했다&amp;rdquo;, &amp;ldquo;나스닥이 조정받았다&amp;quot;는 표현이 자주 나온다. 엔비디아, 애플, 마이크로소프트, 테슬라 같은 기업이 움직일 때도 나스닥 이야기가 함께 나온다.&lt;/p&gt;&#xA;&lt;p&gt;그런데 처음에는 조금 헷갈린다. 나스닥이 거래소인지, 주가지수인지, 기술주 묶음인지 구분이 잘 안 된다. 실제로 나스닥이라는 말은 상황에 따라 두 가지 의미로 쓰인다. 하나는 미국의 전자 증권거래소이고, 다른 하나는 그 거래소에 상장된 종목 흐름을 보여주는 나스닥 종합지수다.&lt;/p&gt;&#xA;&lt;p&gt;이 글에서는 나스닥의 뜻, 나스닥 거래소와 나스닥 종합지수의 차이, 다우·S&amp;amp;P500과 무엇이 다른지, 투자자가 나스닥을 어떻게 보면 좋은지 초보자 눈높이에서 정리했다.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>RIA 계좌란? 해외주식 양도소득세 줄이는 국내시장복귀계좌 쉽게 정리</title>
+				<link>https://money.devkuma.com/posts/ria-account/</link>
+				<pubDate>Wed, 27 May 2026 09:55:48 +0900</pubDate>
+				<guid>https://money.devkuma.com/posts/ria-account/</guid>
+				<description>&lt;p&gt;해외주식에서 수익이 났는데 막상 팔려고 하면 세금이 먼저 떠오른다. 특히 미국 주식이나 해외 ETF를 오래 들고 있다가 평가이익이 커진 사람이라면 &amp;ldquo;팔면 양도소득세가 얼마나 나올까?&amp;ldquo;라는 고민을 하게 된다.&lt;/p&gt;&#xA;&lt;p&gt;RIA 계좌는 이런 상황에서 한 번쯤 확인해볼 만한 제도다. 정확한 이름은 국내시장복귀계좌이고, 해외주식을 팔아 생긴 자금을 국내 주식시장으로 옮기면 해외주식 양도소득세 부담을 줄여주는 한시적 계좌다.&lt;/p&gt;&#xA;&lt;p&gt;다만 이름만 보면 절세 만능 계좌처럼 보이지만 실제로는 조건이 꽤 분명하다. 대상 주식, 매도 시점, 5천만 원 한도, 1년 유지 조건, 다른 계좌에서 해외주식을 새로 사는 경우까지 같이 봐야 한다. 이 글에서는 RIA 계좌가 무엇인지 초보자도 이해할 수 있게 정리하였다.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>다우존스 산업평균지수 뜻과 투자 방법, S&amp;P500·나스닥과 차이 쉽게 정리</title>
+				<link>https://money.devkuma.com/posts/dow-jones-industrial-average/</link>
+				<pubDate>Mon, 25 May 2026 15:53:28 +0900</pubDate>
+				<guid>https://money.devkuma.com/posts/dow-jones-industrial-average/</guid>
+				<description>&lt;p&gt;미국 주식 뉴스를 보면 &amp;ldquo;다우지수가 올랐다&amp;rdquo;, &amp;ldquo;나스닥은 빠졌지만 다우는 버텼다&amp;rdquo; 같은 표현이 자주 나온다. 처음에는 다우지수, S&amp;amp;P500, 나스닥이 모두 비슷한 말처럼 느껴진다. 전부 미국 주식시장 분위기를 보여주는 지수이기 때문이다.&lt;/p&gt;&#xA;&lt;p&gt;하지만 세 지수는 보는 대상과 계산 방식이 다르다. 특히 다우존스 산업평균지수는 미국 대표 기업 30개만 담고, 시가총액이 아니라 주가를 기준으로 움직이는 독특한 지수다. 그래서 미국 경제의 상징처럼 쓰이지만, 미국 주식시장 전체를 가장 넓게 보여주는 지수라고 보기는 어렵다.&lt;/p&gt;&#xA;&lt;p&gt;이 글에서는 다우존스 산업평균지수가 무엇인지, 왜 30개 기업만 보는지, S&amp;amp;P500·나스닥과 무엇이 다른지, 그리고 개인 투자자가 DIA ETF로 어떻게 접근할 수 있는지 정리하였다.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>해외 주식 사는 법, 계좌 개설부터 환전·거래시간·세금까지 한 번에 정리</title>
+				<link>https://money.devkuma.com/posts/stock-foreign-investing-guide/</link>
+				<pubDate>Mon, 25 May 2026 11:43:09 +0900</pubDate>
+				<guid>https://money.devkuma.com/posts/stock-foreign-investing-guide/</guid>
+				<description>&lt;p&gt;해외 주식은 이제 특별한 사람만 하는 투자가 아니다. 국내 증권사 앱에서 미국 주식, 일본 주식, 중국 주식까지 비교적 쉽게 살 수 있고, 엔비디아, 테슬라, 애플, 마이크로소프트처럼 매일 뉴스에 나오는 기업도 많다.&lt;/p&gt;&#xA;&lt;p&gt;한국예탁결제원 자료 기준으로 2024년 6월 말 해외 주식 보관 금액은 176조 원 수준까지 커졌다. 여기서 보관 금액은 국내 투자자들이 보유한 해외 주식의 평가금액을 뜻한다. 그만큼 많은 사람이 해외 주식에 관심을 갖고 있다는 말이다.&lt;/p&gt;&#xA;&lt;p&gt;다만 해외 주식은 국내 주식보다 한 단계 더 챙길 것이 많다. 계좌 개설, 해외 주식 거래 신청, 환전, 거래 시간, 환율, 세금이 모두 얽혀 있다. 이 글에서는 해외 주식을 처음 사려는 사람이 실제로 어떤 순서로 준비하면 되는지 정리하였다.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>주식 소수점 거래 방법과 장단점, 주식 모으기로 소액 투자 시작하기</title>
+				<link>https://money.devkuma.com/posts/fractional-stock-trading/</link>
+				<pubDate>Thu, 14 May 2026 22:12:16 +0900</pubDate>
+				<guid>https://money.devkuma.com/posts/fractional-stock-trading/</guid>
+				<description>&lt;p&gt;비싼 주식을 사고 싶은데 한 주 가격이 부담스러울 때가 있다. SK하이닉스, 현대자동차, 삼성바이오로직스처럼 한 주 가격이 몇십만 원을 넘는 종목은 초보자가 선뜻 매수하기 어렵다. 관심은 있지만 &amp;ldquo;일단 한 주부터 사보자&amp;quot;는 말 자체가 부담이 되는 경우가 많다.&lt;/p&gt;&#xA;&lt;p&gt;이럴 때 활용할 수 있는 방식이 소수점 거래다. 주식을 반드시 1주 단위로 사는 것이 아니라 1만 원, 5만 원처럼 금액을 정해 일부만 살 수 있는 거래 방식이다. 해외 주식에서 먼저 익숙해진 방식이지만, 요즘은 국내 주식도 소수점 거래를 지원하는 증권사가 늘었다.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>해외주식 양도소득세 신고 방법, 250만 원 공제와 세율 22% 쉽게 정리</title>
+				<link>https://money.devkuma.com/posts/foreign-stock-capital-gains-tax/</link>
+				<pubDate>Fri, 08 May 2026 08:29:40 +0900</pubDate>
+				<guid>https://money.devkuma.com/posts/foreign-stock-capital-gains-tax/</guid>
+				<description>&lt;p&gt;해외주식을 하다 보면 매수와 매도 타이밍에는 민감해도 세금은 뒤로 미루기 쉽다. 특히 테슬라, 엔비디아, 애플, 마이크로소프트처럼 익숙한 미국 주식으로 수익이 났다면 &amp;ldquo;증권사 계좌에 돈이 들어왔으니 끝난 것 아닌가&amp;quot;라고 생각할 수 있다.&lt;/p&gt;&#xA;&lt;p&gt;하지만 해외주식은 국내 상장주식과 세금 구조가 다르다. 일반 개인 투자자라도 해외주식을 팔아 연간 양도차익이 일정 금액을 넘으면 직접 양도소득세를 신고하고 납부해야 한다. 배당소득세처럼 증권사가 알아서 원천징수하고 끝나는 방식이 아니다.&lt;/p&gt;&#xA;&lt;p&gt;이 글에서는 해외주식 양도소득세가 언제 발생하는지, 국내주식과 무엇이 다른지, 250만 원 기본공제와 22% 세율은 어떻게 적용되는지, 5월 신고 때 무엇을 확인해야 하는지 초보자 기준으로 정리하였다.&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

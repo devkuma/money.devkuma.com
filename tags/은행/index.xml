@@ -1,40 +1,45 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>은행 on Show Me the Money::devkuma</title>
-    <link>https://money.devkuma.com/tags/%EC%9D%80%ED%96%89/</link>
-    <description>Recent content in 은행 on Show Me the Money::devkuma</description>
-    <generator>Hugo</generator>
-    <language>ko-KR</language>
-    <lastBuildDate>Tue, 19 May 2026 07:29:59 +0900</lastBuildDate>
-    <atom:link href="https://money.devkuma.com/tags/%EC%9D%80%ED%96%89/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>은행 사이트 주소 모음, 국내 은행 공식 홈페이지 한눈에 정리</title>
-      <link>https://money.devkuma.com/posts/bank-site-list/</link>
-      <pubDate>Tue, 19 May 2026 07:29:59 +0900</pubDate>
-      <guid>https://money.devkuma.com/posts/bank-site-list/</guid>
-      <description>&lt;p&gt;은행 홈페이지 주소는 평소에는 별것 아닌 것처럼 보이지만, 막상 계좌 조회나 이체, 대출 상담, 예·적금 가입을 하려 할 때 정확히 알아두면 꽤 중요하다. 특히 문자나 검색 광고를 통해 비슷하게 생긴 사이트에 잘못 들어가면 개인정보나 금융 정보가 노출될 수 있다.&lt;/p&gt;&#xA;&lt;p&gt;인터넷뱅킹과 모바일뱅킹을 자주 쓴다면 은행 이름을 매번 검색하기보다 공식 홈페이지 주소를 즐겨찾기에 등록해두는 편이 안전하다. 은행 앱도 공식 앱마켓에서 직접 검색해 설치하는 것이 좋고, 문자나 이메일에 들어 있는 링크를 눌러 접속하는 습관은 피하는 것이 좋다.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>1금융권과 2금융권 차이, 은행과 저축은행을 고르기 전에 알아야 할 것</title>
-      <link>https://money.devkuma.com/posts/first-second-financial-sector-difference/</link>
-      <pubDate>Thu, 07 May 2026 22:39:13 +0900</pubDate>
-      <guid>https://money.devkuma.com/posts/first-second-financial-sector-difference/</guid>
-      <description>&lt;p&gt;은행 앱에서 예금을 찾다 보면 제1금융권, 제2금융권이라는 말을 자주 보게 된다. 대출을 알아볼 때도 마찬가지다. 어떤 곳은 금리가 낮지만 심사가 까다롭고, 어떤 곳은 금리가 높지만 승인 가능성이 상대적으로 높다고 말한다. 그러다 보면 자연스럽게 이런 생각이 든다. 도대체 1금융권과 2금융권은 무엇이 다를까.&lt;/p&gt;&#xA;&lt;p&gt;결론부터 말하면 제1금융권은 우리가 보통 &amp;ldquo;은행&amp;quot;이라고 부르는 기관이고, 제2금융권은 은행은 아니지만 금융 서비스를 제공하는 제도권 금융기관이다. 둘 다 돈을 맡기고 빌리는 금융 업무를 하지만, 적용받는 법, 취급하는 상품, 금리 수준, 심사 기준, 안정성에서 차이가 있다.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>대출 받을 때 알아야 하는 LTV, DTI, DSR</title>
-      <link>https://money.devkuma.com/posts/loan-ltv-dti-dsr/</link>
-      <pubDate>Sun, 08 Feb 2026 11:49:00 +0900</pubDate>
-      <guid>https://money.devkuma.com/posts/loan-ltv-dti-dsr/</guid>
-      <description>&lt;p&gt;LTV, DTI, DSR은 금융기관이 주택담보대출 심사 시 차주(借主, 돈을 빌리는 사람)의 상환 능력과 담보 가치를 평가하기 위해 사용하는 대표적인 규제 지표이다.&#xA;즉, 은행이 &amp;ldquo;이 사람이 얼마나 대출을 감당할 수 있는지&amp;rdquo; 판단하는 핵심 지표라고 할 수 있다.&lt;/p&gt;&#xA;&lt;p&gt;각 개념에 다음과 같이 설명할 수 있다.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&#xA;&#xA;&#xA;&lt;h2 id=&#34;ltv-loan-to-value-ratio-담보-기준&#34; class=&#34;heading &#34;&gt;LTV (Loan To Value ratio) - 담보 기준&lt;a href=&#34;#ltv-loan-to-value-ratio-%eb%8b%b4%eb%b3%b4-%ea%b8%b0%ec%a4%80&#34; aria-labelledby=&#34;ltv-loan-to-value-ratio-담보-기준&#34;&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;                &#xA;                        &#xA;                        &#xA;                        &lt;svg class=&#34;svg-inline--fa fas fa-link anchor&#34; fill=&#34;currentColor&#34; aria-hidden=&#34;true&#34; role=&#34;img&#34; viewBox=&#34;0 0 576 512&#34; overflow=&#34;visible&#34;&gt;&lt;use href=&#34;#fas-link&#34;&gt;&lt;/use&gt;&lt;/svg&gt;&amp;nbsp;&#xA;    &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;LTV는 &lt;strong&gt;주택의 담보가치 대비 대출 가능 금액의 비율&lt;/strong&gt;을 의미한다. 이는 금융기관이 담보로 제공된 부동산의 가치에 근거하여 대출 한도를 산정할 때 활용되는 지표이다.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>은행과 저축은행의 차이</title>
-      <link>https://money.devkuma.com/posts/bank-vs-savings-bank/</link>
-      <pubDate>Sat, 06 Apr 2024 23:46:00 +0900</pubDate>
-      <guid>https://money.devkuma.com/posts/bank-vs-savings-bank/</guid>
-      <description>&lt;p&gt;은행은 제1금융권이라고 하고, 이를 제외한 대부분의 금융기관을 제2금융권이라고 한다.&lt;br&gt;&#xA;예를 들면, 증권사, 종합금융회사, 보험회사, 카드사, 캐피탈 등이 해당된다.&lt;/p&gt;&#xA;&lt;p&gt;그리고 &amp;lsquo;저축은행&amp;rsquo;도 제2금융권에 속한다. 사실 저축은행은 &amp;lsquo;은행&amp;rsquo;이 아니기 때문이다.&lt;br&gt;&#xA;저축은행은 원래 &amp;lsquo;신용금고&amp;rsquo;라는 이름의 사금융 기관이다.&lt;/p&gt;&#xA;&lt;p&gt;예전에 비자금과 금융사기의 도구로 사용되며 &amp;lsquo;신용금고&amp;rsquo;라는 단어 자체의 이미지가 나빠지자 사람들은 신용금고 이용을 꺼려해지게 되면서&lt;/p&gt;&#xA;&lt;p&gt;관련 업계가 완전히 사장될 것을 우려해 국회는 은행법을 개정하며 &amp;lsquo;은행&amp;rsquo;이라는 이름의 사용을 허가하였고, 현재의 ‘저축은행’이 되었다&#xA;여기서 주의 할 점은 &amp;lsquo;저축은행&amp;rsquo;을 표기할 때도 &amp;lsquo;저축 은행&amp;rsquo; 이렇게 띄어쓰면 안된다.&lt;/p&gt;</description>
-    </item>
-  </channel>
+	<channel>
+		<title>은행 on Show Me the Money::devkuma</title>
+		<link>https://money.devkuma.com/tags/%EC%9D%80%ED%96%89/</link>
+		<description>Recent content in 은행 on Show Me the Money::devkuma</description>
+		<generator>Hugo</generator>
+		<language>ko-KR</language>
+		
+		
+		
+		
+			<lastBuildDate>Tue, 19 May 2026 07:29:59 +0900</lastBuildDate>
+		
+			<atom:link href="https://money.devkuma.com/tags/%EC%9D%80%ED%96%89/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>은행 사이트 주소 모음, 국내 은행 공식 홈페이지 한눈에 정리</title>
+				<link>https://money.devkuma.com/posts/bank-site-list/</link>
+				<pubDate>Tue, 19 May 2026 07:29:59 +0900</pubDate>
+				<guid>https://money.devkuma.com/posts/bank-site-list/</guid>
+				<description>&lt;p&gt;은행 홈페이지 주소는 평소에는 별것 아닌 것처럼 보이지만, 막상 계좌 조회나 이체, 대출 상담, 예·적금 가입을 하려 할 때 정확히 알아두면 꽤 중요하다. 특히 문자나 검색 광고를 통해 비슷하게 생긴 사이트에 잘못 들어가면 개인정보나 금융 정보가 노출될 수 있다.&lt;/p&gt;&#xA;&lt;p&gt;인터넷뱅킹과 모바일뱅킹을 자주 쓴다면 은행 이름을 매번 검색하기보다 공식 홈페이지 주소를 즐겨찾기에 등록해두는 편이 안전하다. 은행 앱도 공식 앱마켓에서 직접 검색해 설치하는 것이 좋고, 문자나 이메일에 들어 있는 링크를 눌러 접속하는 습관은 피하는 것이 좋다.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>1금융권과 2금융권 차이, 은행과 저축은행을 고르기 전에 알아야 할 것</title>
+				<link>https://money.devkuma.com/posts/first-second-financial-sector-difference/</link>
+				<pubDate>Thu, 07 May 2026 22:39:13 +0900</pubDate>
+				<guid>https://money.devkuma.com/posts/first-second-financial-sector-difference/</guid>
+				<description>&lt;p&gt;은행 앱에서 예금을 찾다 보면 제1금융권, 제2금융권이라는 말을 자주 보게 된다. 대출을 알아볼 때도 마찬가지다. 어떤 곳은 금리가 낮지만 심사가 까다롭고, 어떤 곳은 금리가 높지만 승인 가능성이 상대적으로 높다고 말한다. 그러다 보면 자연스럽게 이런 생각이 든다. 도대체 1금융권과 2금융권은 무엇이 다를까.&lt;/p&gt;&#xA;&lt;p&gt;결론부터 말하면 제1금융권은 우리가 보통 &amp;ldquo;은행&amp;quot;이라고 부르는 기관이고, 제2금융권은 은행은 아니지만 금융 서비스를 제공하는 제도권 금융기관이다. 둘 다 돈을 맡기고 빌리는 금융 업무를 하지만, 적용받는 법, 취급하는 상품, 금리 수준, 심사 기준, 안정성에서 차이가 있다.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>대출 받을 때 알아야 하는 LTV, DTI, DSR</title>
+				<link>https://money.devkuma.com/posts/loan-ltv-dti-dsr/</link>
+				<pubDate>Sun, 08 Feb 2026 11:49:00 +0900</pubDate>
+				<guid>https://money.devkuma.com/posts/loan-ltv-dti-dsr/</guid>
+				<description>&lt;p&gt;LTV, DTI, DSR은 금융기관이 주택담보대출 심사 시 차주(借主, 돈을 빌리는 사람)의 상환 능력과 담보 가치를 평가하기 위해 사용하는 대표적인 규제 지표이다.&#xA;즉, 은행이 &amp;ldquo;이 사람이 얼마나 대출을 감당할 수 있는지&amp;rdquo; 판단하는 핵심 지표라고 할 수 있다.&lt;/p&gt;&#xA;&lt;p&gt;각 개념에 다음과 같이 설명할 수 있다.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;h2 id=&#34;ltv-loan-to-value-ratio-담보-기준&#34; class=&#34;heading&#34;&gt;LTV (Loan To Value ratio) - 담보 기준&lt;a href=&#34;#ltv-loan-to-value-ratio-%eb%8b%b4%eb%b3%b4-%ea%b8%b0%ec%a4%80&#34; aria-labelledby=&#34;ltv-loan-to-value-ratio-담보-기준&#34;&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;                &#xA;                        &#xA;                        &#xA;                        &lt;svg class=&#34;svg-inline--fa fas fa-link anchor&#34; fill=&#34;currentColor&#34; aria-hidden=&#34;true&#34; role=&#34;img&#34; viewBox=&#34;0 0 576 512&#34; overflow=&#34;visible&#34;&gt;&lt;use href=&#34;#fas-link&#34;&gt;&lt;/use&gt;&lt;/svg&gt;&amp;nbsp;&#xA;    &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&#xA;&lt;p&gt;LTV는 &lt;strong&gt;주택의 담보가치 대비 대출 가능 금액의 비율&lt;/strong&gt;을 의미한다. 이는 금융기관이 담보로 제공된 부동산의 가치에 근거하여 대출 한도를 산정할 때 활용되는 지표이다.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>은행과 저축은행의 차이</title>
+				<link>https://money.devkuma.com/posts/bank-vs-savings-bank/</link>
+				<pubDate>Sat, 06 Apr 2024 23:46:00 +0900</pubDate>
+				<guid>https://money.devkuma.com/posts/bank-vs-savings-bank/</guid>
+				<description>&lt;p&gt;은행은 제1금융권이라고 하고, 이를 제외한 대부분의 금융기관을 제2금융권이라고 한다.&lt;br&gt;&#xA;예를 들면, 증권사, 종합금융회사, 보험회사, 카드사, 캐피탈 등이 해당된다.&lt;/p&gt;&#xA;&lt;p&gt;그리고 &amp;lsquo;저축은행&amp;rsquo;도 제2금융권에 속한다. 사실 저축은행은 &amp;lsquo;은행&amp;rsquo;이 아니기 때문이다.&lt;br&gt;&#xA;저축은행은 원래 &amp;lsquo;신용금고&amp;rsquo;라는 이름의 사금융 기관이다.&lt;/p&gt;&#xA;&lt;p&gt;예전에 비자금과 금융사기의 도구로 사용되며 &amp;lsquo;신용금고&amp;rsquo;라는 단어 자체의 이미지가 나빠지자 사람들은 신용금고 이용을 꺼려해지게 되면서&lt;/p&gt;&#xA;&lt;p&gt;관련 업계가 완전히 사장될 것을 우려해 국회는 은행법을 개정하며 &amp;lsquo;은행&amp;rsquo;이라는 이름의 사용을 허가하였고, 현재의 ‘저축은행’이 되었다&#xA;여기서 주의 할 점은 &amp;lsquo;저축은행&amp;rsquo;을 표기할 때도 &amp;lsquo;저축 은행&amp;rsquo; 이렇게 띄어쓰면 안된다.&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

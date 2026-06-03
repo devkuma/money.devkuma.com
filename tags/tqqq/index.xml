@@ -1,19 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>TQQQ on Show Me the Money::devkuma</title>
-    <link>https://money.devkuma.com/tags/tqqq/</link>
-    <description>Recent content in TQQQ on Show Me the Money::devkuma</description>
-    <generator>Hugo</generator>
-    <language>ko-KR</language>
-    <lastBuildDate>Sat, 23 May 2026 00:47:33 +0900</lastBuildDate>
-    <atom:link href="https://money.devkuma.com/tags/tqqq/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>TQQQ QLD QQQ 뜻, 나스닥 100 추종 ETF 차이와 투자 전 주의점</title>
-      <link>https://money.devkuma.com/posts/tqqq-qld-qqq-nasdaq-etf/</link>
-      <pubDate>Sat, 23 May 2026 00:47:33 +0900</pubDate>
-      <guid>https://money.devkuma.com/posts/tqqq-qld-qqq-nasdaq-etf/</guid>
-      <description>&lt;p&gt;미국 기술주 투자를 이야기할 때 나스닥 100을 빼놓기 어렵다. 애플, 마이크로소프트, 엔비디아, 아마존, 테슬라처럼 전 세계 투자자가 관심을 갖는 기업들이 많이 들어 있기 때문이다. 그래서 미국 주식에 직접 투자하지 않더라도 &amp;ldquo;나스닥 ETF 하나쯤은 사야 하나?&amp;ldquo;라는 고민을 하게 된다.&lt;/p&gt;&#xA;&lt;p&gt;그때 가장 자주 보이는 티커가 QQQ, QLD, TQQQ다. 이름은 비슷하지만 위험도는 크게 다르다. QQQ는 나스닥 100을 그대로 따라가는 대표 ETF이고, QLD는 하루 수익률의 2배, TQQQ는 하루 수익률의 3배를 목표로 하는 레버리지 ETF다.&lt;/p&gt;</description>
-    </item>
-  </channel>
+	<channel>
+		<title>TQQQ on Show Me the Money::devkuma</title>
+		<link>https://money.devkuma.com/tags/tqqq/</link>
+		<description>Recent content in TQQQ on Show Me the Money::devkuma</description>
+		<generator>Hugo</generator>
+		<language>ko-KR</language>
+		
+		
+		
+		
+			<lastBuildDate>Sat, 23 May 2026 00:47:33 +0900</lastBuildDate>
+		
+			<atom:link href="https://money.devkuma.com/tags/tqqq/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>TQQQ QLD QQQ 뜻, 나스닥 100 추종 ETF 차이와 투자 전 주의점</title>
+				<link>https://money.devkuma.com/posts/tqqq-qld-qqq-nasdaq-etf/</link>
+				<pubDate>Sat, 23 May 2026 00:47:33 +0900</pubDate>
+				<guid>https://money.devkuma.com/posts/tqqq-qld-qqq-nasdaq-etf/</guid>
+				<description>&lt;p&gt;미국 기술주 투자를 이야기할 때 나스닥 100을 빼놓기 어렵다. 애플, 마이크로소프트, 엔비디아, 아마존, 테슬라처럼 전 세계 투자자가 관심을 갖는 기업들이 많이 들어 있기 때문이다. 그래서 미국 주식에 직접 투자하지 않더라도 &amp;ldquo;나스닥 ETF 하나쯤은 사야 하나?&amp;ldquo;라는 고민을 하게 된다.&lt;/p&gt;&#xA;&lt;p&gt;그때 가장 자주 보이는 티커가 QQQ, QLD, TQQQ다. 이름은 비슷하지만 위험도는 크게 다르다. QQQ는 나스닥 100을 그대로 따라가는 대표 ETF이고, QLD는 하루 수익률의 2배, TQQQ는 하루 수익률의 3배를 목표로 하는 레버리지 ETF다.&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

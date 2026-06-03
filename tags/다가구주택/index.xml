@@ -1,19 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>다가구주택 on Show Me the Money::devkuma</title>
-    <link>https://money.devkuma.com/tags/%EB%8B%A4%EA%B0%80%EA%B5%AC%EC%A3%BC%ED%83%9D/</link>
-    <description>Recent content in 다가구주택 on Show Me the Money::devkuma</description>
-    <generator>Hugo</generator>
-    <language>ko-KR</language>
-    <lastBuildDate>Sun, 17 May 2026 16:28:19 +0900</lastBuildDate>
-    <atom:link href="https://money.devkuma.com/tags/%EB%8B%A4%EA%B0%80%EA%B5%AC%EC%A3%BC%ED%83%9D/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>다가구주택 용도변경 주의점, 다세대주택으로 보이면 양도세가 커질 수 있다</title>
-      <link>https://money.devkuma.com/posts/multifamily-house-use-change-tax-risk/</link>
-      <pubDate>Sun, 17 May 2026 16:28:19 +0900</pubDate>
-      <guid>https://money.devkuma.com/posts/multifamily-house-use-change-tax-risk/</guid>
-      <description>&lt;p&gt;다가구주택을 가진 사람이라면 &amp;ldquo;건물 한 채니까 1주택이겠지&amp;quot;라고 생각하기 쉽다. 특히 건축물대장에 다가구주택이라고 적혀 있고, 등기부도 건물 전체가 하나로 되어 있으면 더 그렇다. 그런데 실제 사용 현황이 달라지면 세금 판단은 예상과 다르게 흘러갈 수 있다.&lt;/p&gt;&#xA;&lt;p&gt;대표적인 사례가 1층 상가를 주택으로 바꾸는 경우다. 공실이 오래되거나 상권이 약해져 월세가 잘 나오지 않으면, 상가를 원룸처럼 고쳐 임대하고 싶은 마음이 생긴다. 당장 월세 몇십만 원이 더 들어오는 것처럼 보이지만, 나중에 건물을 팔 때 양도소득세가 크게 늘어날 수 있다.&lt;/p&gt;</description>
-    </item>
-  </channel>
+	<channel>
+		<title>다가구주택 on Show Me the Money::devkuma</title>
+		<link>https://money.devkuma.com/tags/%EB%8B%A4%EA%B0%80%EA%B5%AC%EC%A3%BC%ED%83%9D/</link>
+		<description>Recent content in 다가구주택 on Show Me the Money::devkuma</description>
+		<generator>Hugo</generator>
+		<language>ko-KR</language>
+		
+		
+		
+		
+			<lastBuildDate>Sun, 17 May 2026 16:28:19 +0900</lastBuildDate>
+		
+			<atom:link href="https://money.devkuma.com/tags/%EB%8B%A4%EA%B0%80%EA%B5%AC%EC%A3%BC%ED%83%9D/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>다가구주택 용도변경 주의점, 다세대주택으로 보이면 양도세가 커질 수 있다</title>
+				<link>https://money.devkuma.com/posts/multifamily-house-use-change-tax-risk/</link>
+				<pubDate>Sun, 17 May 2026 16:28:19 +0900</pubDate>
+				<guid>https://money.devkuma.com/posts/multifamily-house-use-change-tax-risk/</guid>
+				<description>&lt;p&gt;다가구주택을 가진 사람이라면 &amp;ldquo;건물 한 채니까 1주택이겠지&amp;quot;라고 생각하기 쉽다. 특히 건축물대장에 다가구주택이라고 적혀 있고, 등기부도 건물 전체가 하나로 되어 있으면 더 그렇다. 그런데 실제 사용 현황이 달라지면 세금 판단은 예상과 다르게 흘러갈 수 있다.&lt;/p&gt;&#xA;&lt;p&gt;대표적인 사례가 1층 상가를 주택으로 바꾸는 경우다. 공실이 오래되거나 상권이 약해져 월세가 잘 나오지 않으면, 상가를 원룸처럼 고쳐 임대하고 싶은 마음이 생긴다. 당장 월세 몇십만 원이 더 들어오는 것처럼 보이지만, 나중에 건물을 팔 때 양도소득세가 크게 늘어날 수 있다.&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

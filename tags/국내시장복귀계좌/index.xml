@@ -1,19 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>국내시장복귀계좌 on Show Me the Money::devkuma</title>
-    <link>https://money.devkuma.com/tags/%EA%B5%AD%EB%82%B4%EC%8B%9C%EC%9E%A5%EB%B3%B5%EA%B7%80%EA%B3%84%EC%A2%8C/</link>
-    <description>Recent content in 국내시장복귀계좌 on Show Me the Money::devkuma</description>
-    <generator>Hugo</generator>
-    <language>ko-KR</language>
-    <lastBuildDate>Wed, 27 May 2026 09:55:48 +0900</lastBuildDate>
-    <atom:link href="https://money.devkuma.com/tags/%EA%B5%AD%EB%82%B4%EC%8B%9C%EC%9E%A5%EB%B3%B5%EA%B7%80%EA%B3%84%EC%A2%8C/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>RIA 계좌란? 해외주식 양도소득세 줄이는 국내시장복귀계좌 쉽게 정리</title>
-      <link>https://money.devkuma.com/posts/ria-account/</link>
-      <pubDate>Wed, 27 May 2026 09:55:48 +0900</pubDate>
-      <guid>https://money.devkuma.com/posts/ria-account/</guid>
-      <description>&lt;p&gt;해외주식에서 수익이 났는데 막상 팔려고 하면 세금이 먼저 떠오른다. 특히 미국 주식이나 해외 ETF를 오래 들고 있다가 평가이익이 커진 사람이라면 &amp;ldquo;팔면 양도소득세가 얼마나 나올까?&amp;ldquo;라는 고민을 하게 된다.&lt;/p&gt;&#xA;&lt;p&gt;RIA 계좌는 이런 상황에서 한 번쯤 확인해볼 만한 제도다. 정확한 이름은 국내시장복귀계좌이고, 해외주식을 팔아 생긴 자금을 국내 주식시장으로 옮기면 해외주식 양도소득세 부담을 줄여주는 한시적 계좌다.&lt;/p&gt;&#xA;&lt;p&gt;다만 이름만 보면 절세 만능 계좌처럼 보이지만 실제로는 조건이 꽤 분명하다. 대상 주식, 매도 시점, 5천만 원 한도, 1년 유지 조건, 다른 계좌에서 해외주식을 새로 사는 경우까지 같이 봐야 한다. 이 글에서는 RIA 계좌가 무엇인지 초보자도 이해할 수 있게 정리하였다.&lt;/p&gt;</description>
-    </item>
-  </channel>
+	<channel>
+		<title>국내시장복귀계좌 on Show Me the Money::devkuma</title>
+		<link>https://money.devkuma.com/tags/%EA%B5%AD%EB%82%B4%EC%8B%9C%EC%9E%A5%EB%B3%B5%EA%B7%80%EA%B3%84%EC%A2%8C/</link>
+		<description>Recent content in 국내시장복귀계좌 on Show Me the Money::devkuma</description>
+		<generator>Hugo</generator>
+		<language>ko-KR</language>
+		
+		
+		
+		
+			<lastBuildDate>Wed, 27 May 2026 09:55:48 +0900</lastBuildDate>
+		
+			<atom:link href="https://money.devkuma.com/tags/%EA%B5%AD%EB%82%B4%EC%8B%9C%EC%9E%A5%EB%B3%B5%EA%B7%80%EA%B3%84%EC%A2%8C/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>RIA 계좌란? 해외주식 양도소득세 줄이는 국내시장복귀계좌 쉽게 정리</title>
+				<link>https://money.devkuma.com/posts/ria-account/</link>
+				<pubDate>Wed, 27 May 2026 09:55:48 +0900</pubDate>
+				<guid>https://money.devkuma.com/posts/ria-account/</guid>
+				<description>&lt;p&gt;해외주식에서 수익이 났는데 막상 팔려고 하면 세금이 먼저 떠오른다. 특히 미국 주식이나 해외 ETF를 오래 들고 있다가 평가이익이 커진 사람이라면 &amp;ldquo;팔면 양도소득세가 얼마나 나올까?&amp;ldquo;라는 고민을 하게 된다.&lt;/p&gt;&#xA;&lt;p&gt;RIA 계좌는 이런 상황에서 한 번쯤 확인해볼 만한 제도다. 정확한 이름은 국내시장복귀계좌이고, 해외주식을 팔아 생긴 자금을 국내 주식시장으로 옮기면 해외주식 양도소득세 부담을 줄여주는 한시적 계좌다.&lt;/p&gt;&#xA;&lt;p&gt;다만 이름만 보면 절세 만능 계좌처럼 보이지만 실제로는 조건이 꽤 분명하다. 대상 주식, 매도 시점, 5천만 원 한도, 1년 유지 조건, 다른 계좌에서 해외주식을 새로 사는 경우까지 같이 봐야 한다. 이 글에서는 RIA 계좌가 무엇인지 초보자도 이해할 수 있게 정리하였다.&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

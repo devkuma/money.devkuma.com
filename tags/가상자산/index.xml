@@ -1,54 +1,59 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>가상자산 on Show Me the Money::devkuma</title>
-    <link>https://money.devkuma.com/tags/%EA%B0%80%EC%83%81%EC%9E%90%EC%82%B0/</link>
-    <description>Recent content in 가상자산 on Show Me the Money::devkuma</description>
-    <generator>Hugo</generator>
-    <language>ko-KR</language>
-    <lastBuildDate>Mon, 01 Jun 2026 21:41:25 +0900</lastBuildDate>
-    <atom:link href="https://money.devkuma.com/tags/%EA%B0%80%EC%83%81%EC%9E%90%EC%82%B0/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>스테이블코인이 상용화되면 달라지는 것, 송금·결제·RWA 투자 변화 정리</title>
-      <link>https://money.devkuma.com/posts/stablecoin-commercialization/</link>
-      <pubDate>Mon, 01 Jun 2026 21:41:25 +0900</pubDate>
-      <guid>https://money.devkuma.com/posts/stablecoin-commercialization/</guid>
-      <description>&lt;p&gt;스테이블코인은 코인 시장 안에서만 사용하는 디지털 달러처럼 보일 때가 많다. 비트코인이나 알트코인을 사고팔기 전 잠시 보유하는 대기자금으로 익숙하기 때문이다. 하지만 상용화 범위가 넓어지면 변화는 코인 거래소 밖에서 더 크게 나타날 수 있다.&lt;/p&gt;&#xA;&lt;p&gt;해외 송금은 더 간단해질 수 있고, 온라인 결제 대금은 더 빠르게 정산될 수 있다. 계약 조건을 충족하면 돈이 자동으로 지급되는 구조도 만들 수 있다. 부동산, 채권, 미술품 같은 실물자산을 잘게 나눈 토큰을 거래할 때 스테이블코인이 결제 수단 역할을 할 가능성도 있다.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>스테이블코인이란? 종류, 페깅 원리, 활용 방법과 디페깅 리스크 총정리</title>
-      <link>https://money.devkuma.com/posts/what-is-stablecoin/</link>
-      <pubDate>Mon, 01 Jun 2026 00:07:45 +0900</pubDate>
-      <guid>https://money.devkuma.com/posts/what-is-stablecoin/</guid>
-      <description>&lt;p&gt;코인 시장에서는 가격이 하루에도 크게 움직인다. 비트코인과 이더리움처럼 잘 알려진 코인도 짧은 시간에 가격이 오르내릴 수 있다. 이런 자산을 그대로 일상 결제나 송금에 사용하기는 어렵다.&lt;/p&gt;&#xA;&lt;p&gt;스테이블코인은 이 문제를 줄이기 위해 만들어졌다. 달러, 금, 다른 암호화폐 같은 특정 자산에 가치를 연결해 가격을 안정적으로 유지하도록 설계한 가상자산이다.&lt;/p&gt;&#xA;&lt;p&gt;이름에 &amp;ldquo;스테이블&amp;quot;이 들어가지만 무조건 안전한 것은 아니다. 무엇을 담보로 하는지, 1달러 가치를 어떤 방식으로 유지하는지, 발행사가 준비자산을 제대로 보유하고 있는지에 따라 위험이 달라진다.&lt;/p&gt;&#xA;&lt;p&gt;이 글에서는 스테이블코인의 뜻, 페깅과 디페깅의 의미, 종류별 작동 원리, 활용 방법, 이용 전에 확인해야 할 리스크를 쉽게 정리하였다.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>알트코인이란? 종류, 알트코인 시즌 인덱스, 비트코인과의 차이 쉽게 이해하기</title>
-      <link>https://money.devkuma.com/posts/what-is-altcoin/</link>
-      <pubDate>Mon, 01 Jun 2026 00:04:49 +0900</pubDate>
-      <guid>https://money.devkuma.com/posts/what-is-altcoin/</guid>
-      <description>&lt;p&gt;코인 시장을 보다 보면 &amp;ldquo;비트코인이 오른 뒤 알트코인 장세가 온다&amp;rdquo;, &amp;ldquo;알트코인 시즌이 시작됐다&amp;quot;는 말을 자주 접한다. 이더리움, 솔라나, 리플처럼 이름이 익숙한 코인부터 처음 보는 코인까지 모두 함께 언급된다.&lt;/p&gt;&#xA;&lt;p&gt;알트코인은 하나의 코인 이름이 아니다. 비트코인을 제외한 다양한 암호화폐를 넓게 묶어 부르는 말이다. 목적과 구조가 서로 다르기 때문에 &amp;ldquo;알트코인이 오른다&amp;quot;는 말만 듣고 투자하면 위험하다.&lt;/p&gt;&#xA;&lt;p&gt;이 글에서는 알트코인의 뜻, 비트코인과의 차이, 주요 종류, 알트코인 시즌 인덱스와 비트코인 도미넌스를 보는 방법, 투자 전에 확인할 내용을 쉽게 정리하였다.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>코인 종류와 특징 총정리, 비트코인·알트코인·스테이블코인 쉽게 구분하기</title>
-      <link>https://money.devkuma.com/posts/types-of-cryptocurrency/</link>
-      <pubDate>Sun, 31 May 2026 08:13:40 +0900</pubDate>
-      <guid>https://money.devkuma.com/posts/types-of-cryptocurrency/</guid>
-      <description>&lt;p&gt;코인에 관심을 갖기 시작하면 이름부터 어렵다. 비트코인, 이더리움, 솔라나, 리플, 테더처럼 익숙한 이름도 있지만, 메인넷 코인, 토큰, 스테이블코인, DeFi, NFT 같은 용어까지 나오면 무엇이 어떻게 다른지 헷갈린다.&lt;/p&gt;&#xA;&lt;p&gt;코인을 단순히 가격이 오르고 내리는 투자 상품으로만 보면 구분이 더 어렵다. 코인은 저마다 만들어진 목적이 다르다. 독립적인 블록체인을 운영하는 코인이 있고, 다른 블록체인 위에서 작동하는 토큰이 있다. 가격을 일정하게 유지하려는 코인도 있고, 송금이나 게임처럼 특정 기능을 위해 만들어진 코인도 있다.&lt;/p&gt;&#xA;&lt;p&gt;종류를 이해하면 코인을 무조건 외울 필요가 없다. 어떤 구조로 작동하는지, 어디에 쓰이는지, 어떤 위험이 있는지를 판단하기 쉬워진다. 이 글에서는 비트코인과 알트코인의 차이부터 메인넷, 토큰, 스테이블코인, 기능형 코인, CBDC까지 차례대로 정리하였다.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>스테이블코인은 왜 만들어졌을까? 비트코인과 다른 점 쉽게 이해하기</title>
-      <link>https://money.devkuma.com/posts/why-stablecoins-were-created/</link>
-      <pubDate>Thu, 21 May 2026 21:58:03 +0900</pubDate>
-      <guid>https://money.devkuma.com/posts/why-stablecoins-were-created/</guid>
-      <description>&lt;p&gt;스테이블코인이라는 말을 자주 듣지만, 처음 접하면 조금 헷갈린다. 코인인데 가격이 안정적이라니, 비트코인이나 이더리움처럼 오르내리는 자산과 무엇이 다른지 감이 잘 오지 않는다.&lt;/p&gt;&#xA;&lt;p&gt;스테이블코인은 비트코인 같은 암호화폐가 가진 큰 약점에서 출발했다. 바로 가격 변동성이다. 블록체인 위에서 빠르게 주고받을 수 있다는 장점은 있지만, 가격이 너무 크게 움직이면 일상 결제나 송금에 쓰기 어렵다. 오늘 1만 원어치였던 코인이 내일 8천 원이 되거나 1만 2천 원이 되면, 화폐처럼 쓰기 어렵기 때문이다.&lt;/p&gt;&#xA;&lt;p&gt;그래서 등장한 것이 스테이블코인이다. 달러 같은 법정화폐나 국채 같은 안전자산에 가치를 연결해, 코인의 이동성과 화폐의 안정성을 함께 가지려는 시도다. 이 글에서는 스테이블코인이 왜 만들어졌는지, 비트코인과 무엇이 다른지, 앞으로 어떤 역할을 할 수 있는지 정리하였다.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>스테이블코인 테마주 투자, 급등 전에 꼭 봐야 할 핵심 포인트</title>
-      <link>https://money.devkuma.com/posts/stablecoin-theme-stocks/</link>
-      <pubDate>Thu, 21 May 2026 21:53:36 +0900</pubDate>
-      <guid>https://money.devkuma.com/posts/stablecoin-theme-stocks/</guid>
-      <description>&lt;p&gt;스테이블코인 테마주가 다시 주식시장의 관심을 받고 있다. 미국에서 스테이블코인 규제 틀이 만들어졌고, 한국에서도 원화 스테이블코인 논의가 이어지면서 결제, 송금, 핀테크, 블록체인 관련 기업들이 수혜 후보로 거론되고 있다.&lt;/p&gt;&#xA;&lt;p&gt;테마주가 움직일 때는 이야기가 쉽고 강하다. &amp;ldquo;앞으로 결제가 바뀐다&amp;rdquo;, &amp;ldquo;은행과 카드사를 대체할 수 있다&amp;rdquo;, &amp;ldquo;원화 스테이블코인이 나오면 이 회사가 수혜를 본다&amp;rdquo; 같은 설명이 붙으면 주가가 짧은 기간에 크게 오르기도 한다.&lt;/p&gt;&#xA;&lt;p&gt;하지만 테마가 강할수록 더 조심해야 한다. 실제 매출이 아직 없는데 기대만으로 주가가 먼저 오를 수 있고, 법안이 늦어지거나 사업 모델이 예상과 다르면 급락도 빠르게 나온다. 이 글에서는 스테이블코인이 무엇인지, 왜 테마주가 주목받는지, 어떤 기업들이 거론되는지, 투자 전 무엇을 확인해야 하는지 정리하였다.&lt;/p&gt;</description>
-    </item>
-  </channel>
+	<channel>
+		<title>가상자산 on Show Me the Money::devkuma</title>
+		<link>https://money.devkuma.com/tags/%EA%B0%80%EC%83%81%EC%9E%90%EC%82%B0/</link>
+		<description>Recent content in 가상자산 on Show Me the Money::devkuma</description>
+		<generator>Hugo</generator>
+		<language>ko-KR</language>
+		
+		
+		
+		
+			<lastBuildDate>Mon, 01 Jun 2026 21:41:25 +0900</lastBuildDate>
+		
+			<atom:link href="https://money.devkuma.com/tags/%EA%B0%80%EC%83%81%EC%9E%90%EC%82%B0/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>스테이블코인이 상용화되면 달라지는 것, 송금·결제·RWA 투자 변화 정리</title>
+				<link>https://money.devkuma.com/posts/stablecoin-commercialization/</link>
+				<pubDate>Mon, 01 Jun 2026 21:41:25 +0900</pubDate>
+				<guid>https://money.devkuma.com/posts/stablecoin-commercialization/</guid>
+				<description>&lt;p&gt;스테이블코인은 코인 시장 안에서만 사용하는 디지털 달러처럼 보일 때가 많다. 비트코인이나 알트코인을 사고팔기 전 잠시 보유하는 대기자금으로 익숙하기 때문이다. 하지만 상용화 범위가 넓어지면 변화는 코인 거래소 밖에서 더 크게 나타날 수 있다.&lt;/p&gt;&#xA;&lt;p&gt;해외 송금은 더 간단해질 수 있고, 온라인 결제 대금은 더 빠르게 정산될 수 있다. 계약 조건을 충족하면 돈이 자동으로 지급되는 구조도 만들 수 있다. 부동산, 채권, 미술품 같은 실물자산을 잘게 나눈 토큰을 거래할 때 스테이블코인이 결제 수단 역할을 할 가능성도 있다.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>스테이블코인이란? 종류, 페깅 원리, 활용 방법과 디페깅 리스크 총정리</title>
+				<link>https://money.devkuma.com/posts/what-is-stablecoin/</link>
+				<pubDate>Mon, 01 Jun 2026 00:07:45 +0900</pubDate>
+				<guid>https://money.devkuma.com/posts/what-is-stablecoin/</guid>
+				<description>&lt;p&gt;코인 시장에서는 가격이 하루에도 크게 움직인다. 비트코인과 이더리움처럼 잘 알려진 코인도 짧은 시간에 가격이 오르내릴 수 있다. 이런 자산을 그대로 일상 결제나 송금에 사용하기는 어렵다.&lt;/p&gt;&#xA;&lt;p&gt;스테이블코인은 이 문제를 줄이기 위해 만들어졌다. 달러, 금, 다른 암호화폐 같은 특정 자산에 가치를 연결해 가격을 안정적으로 유지하도록 설계한 가상자산이다.&lt;/p&gt;&#xA;&lt;p&gt;이름에 &amp;ldquo;스테이블&amp;quot;이 들어가지만 무조건 안전한 것은 아니다. 무엇을 담보로 하는지, 1달러 가치를 어떤 방식으로 유지하는지, 발행사가 준비자산을 제대로 보유하고 있는지에 따라 위험이 달라진다.&lt;/p&gt;&#xA;&lt;p&gt;이 글에서는 스테이블코인의 뜻, 페깅과 디페깅의 의미, 종류별 작동 원리, 활용 방법, 이용 전에 확인해야 할 리스크를 쉽게 정리하였다.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>알트코인이란? 종류, 알트코인 시즌 인덱스, 비트코인과의 차이 쉽게 이해하기</title>
+				<link>https://money.devkuma.com/posts/what-is-altcoin/</link>
+				<pubDate>Mon, 01 Jun 2026 00:04:49 +0900</pubDate>
+				<guid>https://money.devkuma.com/posts/what-is-altcoin/</guid>
+				<description>&lt;p&gt;코인 시장을 보다 보면 &amp;ldquo;비트코인이 오른 뒤 알트코인 장세가 온다&amp;rdquo;, &amp;ldquo;알트코인 시즌이 시작됐다&amp;quot;는 말을 자주 접한다. 이더리움, 솔라나, 리플처럼 이름이 익숙한 코인부터 처음 보는 코인까지 모두 함께 언급된다.&lt;/p&gt;&#xA;&lt;p&gt;알트코인은 하나의 코인 이름이 아니다. 비트코인을 제외한 다양한 암호화폐를 넓게 묶어 부르는 말이다. 목적과 구조가 서로 다르기 때문에 &amp;ldquo;알트코인이 오른다&amp;quot;는 말만 듣고 투자하면 위험하다.&lt;/p&gt;&#xA;&lt;p&gt;이 글에서는 알트코인의 뜻, 비트코인과의 차이, 주요 종류, 알트코인 시즌 인덱스와 비트코인 도미넌스를 보는 방법, 투자 전에 확인할 내용을 쉽게 정리하였다.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>코인 종류와 특징 총정리, 비트코인·알트코인·스테이블코인 쉽게 구분하기</title>
+				<link>https://money.devkuma.com/posts/types-of-cryptocurrency/</link>
+				<pubDate>Sun, 31 May 2026 08:13:40 +0900</pubDate>
+				<guid>https://money.devkuma.com/posts/types-of-cryptocurrency/</guid>
+				<description>&lt;p&gt;코인에 관심을 갖기 시작하면 이름부터 어렵다. 비트코인, 이더리움, 솔라나, 리플, 테더처럼 익숙한 이름도 있지만, 메인넷 코인, 토큰, 스테이블코인, DeFi, NFT 같은 용어까지 나오면 무엇이 어떻게 다른지 헷갈린다.&lt;/p&gt;&#xA;&lt;p&gt;코인을 단순히 가격이 오르고 내리는 투자 상품으로만 보면 구분이 더 어렵다. 코인은 저마다 만들어진 목적이 다르다. 독립적인 블록체인을 운영하는 코인이 있고, 다른 블록체인 위에서 작동하는 토큰이 있다. 가격을 일정하게 유지하려는 코인도 있고, 송금이나 게임처럼 특정 기능을 위해 만들어진 코인도 있다.&lt;/p&gt;&#xA;&lt;p&gt;종류를 이해하면 코인을 무조건 외울 필요가 없다. 어떤 구조로 작동하는지, 어디에 쓰이는지, 어떤 위험이 있는지를 판단하기 쉬워진다. 이 글에서는 비트코인과 알트코인의 차이부터 메인넷, 토큰, 스테이블코인, 기능형 코인, CBDC까지 차례대로 정리하였다.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>스테이블코인은 왜 만들어졌을까? 비트코인과 다른 점 쉽게 이해하기</title>
+				<link>https://money.devkuma.com/posts/why-stablecoins-were-created/</link>
+				<pubDate>Thu, 21 May 2026 21:58:03 +0900</pubDate>
+				<guid>https://money.devkuma.com/posts/why-stablecoins-were-created/</guid>
+				<description>&lt;p&gt;스테이블코인이라는 말을 자주 듣지만, 처음 접하면 조금 헷갈린다. 코인인데 가격이 안정적이라니, 비트코인이나 이더리움처럼 오르내리는 자산과 무엇이 다른지 감이 잘 오지 않는다.&lt;/p&gt;&#xA;&lt;p&gt;스테이블코인은 비트코인 같은 암호화폐가 가진 큰 약점에서 출발했다. 바로 가격 변동성이다. 블록체인 위에서 빠르게 주고받을 수 있다는 장점은 있지만, 가격이 너무 크게 움직이면 일상 결제나 송금에 쓰기 어렵다. 오늘 1만 원어치였던 코인이 내일 8천 원이 되거나 1만 2천 원이 되면, 화폐처럼 쓰기 어렵기 때문이다.&lt;/p&gt;&#xA;&lt;p&gt;그래서 등장한 것이 스테이블코인이다. 달러 같은 법정화폐나 국채 같은 안전자산에 가치를 연결해, 코인의 이동성과 화폐의 안정성을 함께 가지려는 시도다. 이 글에서는 스테이블코인이 왜 만들어졌는지, 비트코인과 무엇이 다른지, 앞으로 어떤 역할을 할 수 있는지 정리하였다.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>스테이블코인 테마주 투자, 급등 전에 꼭 봐야 할 핵심 포인트</title>
+				<link>https://money.devkuma.com/posts/stablecoin-theme-stocks/</link>
+				<pubDate>Thu, 21 May 2026 21:53:36 +0900</pubDate>
+				<guid>https://money.devkuma.com/posts/stablecoin-theme-stocks/</guid>
+				<description>&lt;p&gt;스테이블코인 테마주가 다시 주식시장의 관심을 받고 있다. 미국에서 스테이블코인 규제 틀이 만들어졌고, 한국에서도 원화 스테이블코인 논의가 이어지면서 결제, 송금, 핀테크, 블록체인 관련 기업들이 수혜 후보로 거론되고 있다.&lt;/p&gt;&#xA;&lt;p&gt;테마주가 움직일 때는 이야기가 쉽고 강하다. &amp;ldquo;앞으로 결제가 바뀐다&amp;rdquo;, &amp;ldquo;은행과 카드사를 대체할 수 있다&amp;rdquo;, &amp;ldquo;원화 스테이블코인이 나오면 이 회사가 수혜를 본다&amp;rdquo; 같은 설명이 붙으면 주가가 짧은 기간에 크게 오르기도 한다.&lt;/p&gt;&#xA;&lt;p&gt;하지만 테마가 강할수록 더 조심해야 한다. 실제 매출이 아직 없는데 기대만으로 주가가 먼저 오를 수 있고, 법안이 늦어지거나 사업 모델이 예상과 다르면 급락도 빠르게 나온다. 이 글에서는 스테이블코인이 무엇인지, 왜 테마주가 주목받는지, 어떤 기업들이 거론되는지, 투자 전 무엇을 확인해야 하는지 정리하였다.&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

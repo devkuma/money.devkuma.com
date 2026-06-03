@@ -1,208 +1,213 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>금융 on Show Me the Money::devkuma</title>
-    <link>https://money.devkuma.com/posts/finance/</link>
-    <description>Recent content in 금융 on Show Me the Money::devkuma</description>
-    <generator>Hugo</generator>
-    <language>ko-KR</language>
-    <lastBuildDate>Fri, 29 May 2026 22:50:34 +0900</lastBuildDate>
-    <atom:link href="https://money.devkuma.com/posts/finance/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>왜 투자를 고려해야 할까? 저축만으로 부족한 이유와 초보 투자 시작법</title>
-      <link>https://money.devkuma.com/posts/why-consider-investing/</link>
-      <pubDate>Fri, 29 May 2026 22:50:34 +0900</pubDate>
-      <guid>https://money.devkuma.com/posts/why-consider-investing/</guid>
-      <description>&lt;p&gt;&amp;ldquo;투자는 돈 많은 사람이 하는 것 아닌가?&amp;ldquo;라고 생각하는 사람이 많다. 월급을 받고 생활비를 쓰고 적금을 넣기도 빠듯한데, 투자까지 생각하라는 말이 부담스럽게 들릴 수 있다. 주식시장 뉴스에서는 매일 오르내림이 반복되고, 주변에서는 누가 벌었다거나 잃었다는 이야기도 들린다.&lt;/p&gt;&#xA;&lt;p&gt;그래서 투자를 아예 멀리하는 사람도 있다. 하지만 투자를 고려한다는 말은 무조건 주식을 많이 사라는 뜻이 아니다. 내 돈의 가치가 시간이 지나면서 어떻게 변하는지 이해하고, 미래의 생활비와 노후 자금을 어떻게 준비할지 생각해보자는 뜻에 가깝다.&lt;/p&gt;&#xA;&lt;p&gt;이 글에서는 왜 투자를 고려해야 하는지, 저축만으로는 어떤 한계가 있는지, 초보자가 투자를 시작하기 전에 무엇을 먼저 준비해야 하는지 쉽게 정리했다.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>연금 종류 총정리: 국민연금, 퇴직연금, 개인연금, 주택연금까지 쉽게 이해하기</title>
-      <link>https://money.devkuma.com/posts/pension-types/</link>
-      <pubDate>Thu, 28 May 2026 09:00:00 +0900</pubDate>
-      <guid>https://money.devkuma.com/posts/pension-types/</guid>
-      <description>&lt;p&gt;연금은 막연하게 &amp;ldquo;나중에 받는 돈&amp;rdquo; 정도로 생각하기 쉽다. 월급에서 국민연금이 빠져나가고, 회사에서는 퇴직연금을 운용한다고 하고, 은행이나 증권사에서는 연금저축과 IRP를 권한다. 부모님 세대 이야기를 들으면 기초연금, 주택연금 같은 말도 자주 나온다.&lt;/p&gt;&#xA;&lt;p&gt;문제는 이름은 전부 연금인데 성격이 꽤 다르다는 점이다. 어떤 연금은 의무적으로 가입하고, 어떤 연금은 내가 선택해서 준비한다. 어떤 연금은 소득이 있어야 쌓이고, 어떤 연금은 집이나 농지를 담보로 매달 받는 구조다.&lt;/p&gt;&#xA;&lt;p&gt;이 글에서는 연금 종류를 한 번에 이해할 수 있도록 크게 공적연금, 직역연금, 퇴직연금, 개인연금, 자산담보형 연금으로 나눠 정리하였다. 처음 보는 사람도 &amp;ldquo;나는 어떤 연금을 기본으로 보고, 무엇을 추가로 준비해야 하는지&amp;rdquo; 감을 잡는 데 초점을 맞췄다.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>연금저축이란? 세액공제, 종류, 장단점까지 초보자용으로 쉽게 정리</title>
-      <link>https://money.devkuma.com/posts/pension-savings/</link>
-      <pubDate>Thu, 28 May 2026 08:10:46 +0900</pubDate>
-      <guid>https://money.devkuma.com/posts/pension-savings/</guid>
-      <description>&lt;p&gt;연금저축은 이름만 보면 단순한 저축상품처럼 느껴진다. 하지만 실제로는 노후자금을 준비하면서 세액공제까지 받을 수 있는 개인연금 계좌에 가깝다. 직장인이라면 연말정산에서 자주 듣고, 자영업자라면 종합소득세를 줄이는 방법으로 자주 접하게 된다.&lt;/p&gt;&#xA;&lt;p&gt;문제는 처음 볼 때 용어가 꽤 헷갈린다는 점이다. 연금저축펀드, 연금저축보험, IRP, 세액공제, 과세이연 같은 단어가 한꺼번에 나온다. 그래서 &amp;ldquo;좋다는데 뭘 가입해야 하지?&amp;rdquo;, &amp;ldquo;중간에 돈이 필요하면 어떻게 하지?&amp;rdquo;, &amp;ldquo;얼마를 넣어야 하지?&amp;rdquo; 같은 질문이 자연스럽게 생긴다.&lt;/p&gt;&#xA;&lt;p&gt;이 글에서는 연금저축이 무엇인지, 어떤 혜택이 있는지, 가입 전에 무엇을 조심해야 하는지 초보자 눈높이에서 정리하였다.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>대출금리 구조 쉽게 이해하기: 기준금리, 가산금리, 우대금리 차이</title>
-      <link>https://money.devkuma.com/posts/loan-interest-rate-structure/</link>
-      <pubDate>Wed, 27 May 2026 22:50:50 +0900</pubDate>
-      <guid>https://money.devkuma.com/posts/loan-interest-rate-structure/</guid>
-      <description>&lt;p&gt;대출 상담을 받으면 금리 숫자 하나만 보이기 쉽다. &amp;ldquo;연 4.8%&amp;ldquo;처럼 최종 금리만 들으면 비싸다, 싸다 정도는 느낄 수 있지만 왜 그 금리가 나왔는지는 잘 보이지 않는다.&lt;/p&gt;&#xA;&lt;p&gt;그런데 대출금리는 생각보다 단순한 구조로 만들어진다. 은행이 돈을 조달하는 비용, 고객의 위험도, 은행이 깎아주는 우대 조건이 합쳐져 최종 금리가 된다.&lt;/p&gt;&#xA;&lt;p&gt;이 글에서는 대출금리를 기준금리, 가산금리, 우대금리로 나누어 설명하였다. 대출을 새로 받을 때뿐 아니라 기존 대출을 연장하거나 갈아탈 때도 꼭 알아두면 좋다.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&#xA;&#xA;&#xA;&lt;h2 id=&#34;대출금리는-세-가지로-나눠서-봐야-한다&#34; class=&#34;heading &#34;&gt;대출금리는 세 가지로 나눠서 봐야 한다&lt;a href=&#34;#%eb%8c%80%ec%b6%9c%ea%b8%88%eb%a6%ac%eb%8a%94-%ec%84%b8-%ea%b0%80%ec%a7%80%eb%a1%9c-%eb%82%98%eb%88%a0%ec%84%9c-%eb%b4%90%ec%95%bc-%ed%95%9c%eb%8b%a4&#34; aria-labelledby=&#34;대출금리는-세-가지로-나눠서-봐야-한다&#34;&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;                &#xA;                        &#xA;                        &#xA;                        &lt;svg class=&#34;svg-inline--fa fas fa-link anchor&#34; fill=&#34;currentColor&#34; aria-hidden=&#34;true&#34; role=&#34;img&#34; viewBox=&#34;0 0 576 512&#34; overflow=&#34;visible&#34;&gt;&lt;use href=&#34;#fas-link&#34;&gt;&lt;/use&gt;&lt;/svg&gt;&amp;nbsp;&#xA;    &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;대출금리는 보통 다음 구조로 이해하면 쉽다.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>미국채 투자 방법, 직접 투자와 미국채 ETF 차이 쉽게 이해하기</title>
-      <link>https://money.devkuma.com/posts/us-treasury-investing/</link>
-      <pubDate>Thu, 21 May 2026 21:45:35 +0900</pubDate>
-      <guid>https://money.devkuma.com/posts/us-treasury-investing/</guid>
-      <description>&lt;p&gt;미국채에 관심을 갖는 사람은 보통 두 가지 상황에 놓여 있다. 주식시장이 너무 흔들려서 조금 안정적인 자산을 찾고 있거나, 달러 자산을 일부라도 가져가고 싶은 경우다. &amp;ldquo;미국 정부가 발행한 채권&amp;quot;이라는 말만 들으면 안전해 보이지만, 막상 투자하려고 하면 만기, 금리, 환율, ETF 같은 단어가 한꺼번에 나온다.&lt;/p&gt;&#xA;&lt;p&gt;미국채는 미국 정부가 돈을 빌리기 위해 발행하는 채권이다. 쉽게 말해 투자자가 미국 정부에 돈을 빌려주고, 정해진 기간 동안 이자를 받다가 만기 때 원금을 돌려받는 구조다. 그래서 미국채는 전 세계 금융시장에서 대표적인 안전자산으로 다뤄진다.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>예금과 적금 차이, 이자 계산까지 쉽게 이해하기</title>
-      <link>https://money.devkuma.com/posts/deposit-vs-savings/</link>
-      <pubDate>Wed, 20 May 2026 08:21:02 +0900</pubDate>
-      <guid>https://money.devkuma.com/posts/deposit-vs-savings/</guid>
-      <description>&lt;p&gt;예금과 적금은 둘 다 은행에 돈을 맡기고 이자를 받는 저축 상품이다. 그런데 막상 가입하려고 보면 &amp;ldquo;예금이랑 적금이 뭐가 다르지?&amp;rdquo;, &amp;ldquo;금리가 같으면 이자도 같은 것 아닌가?&amp;rdquo; 같은 생각이 들 수 있다.&lt;/p&gt;&#xA;&lt;p&gt;핵심은 간단하다. 예금은 목돈을 한 번에 맡기는 방식이고, 적금은 돈을 여러 번 나누어 넣는 방식이다. 금액과 금리가 같다면 보통 정기예금이 정기적금보다 이자가 더 많다. 예금은 처음부터 전체 금액에 이자가 붙지만, 적금은 매달 넣은 돈마다 이자가 붙는 기간이 다르기 때문이다.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&#xA;&#xA;&#xA;&lt;h2 id=&#34;예금이란&#34; class=&#34;heading &#34;&gt;예금이란?&lt;a href=&#34;#%ec%98%88%ea%b8%88%ec%9d%b4%eb%9e%80&#34; aria-labelledby=&#34;예금이란&#34;&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;                &#xA;                        &#xA;                        &#xA;                        &lt;svg class=&#34;svg-inline--fa fas fa-link anchor&#34; fill=&#34;currentColor&#34; aria-hidden=&#34;true&#34; role=&#34;img&#34; viewBox=&#34;0 0 576 512&#34; overflow=&#34;visible&#34;&gt;&lt;use href=&#34;#fas-link&#34;&gt;&lt;/use&gt;&lt;/svg&gt;&amp;nbsp;&#xA;    &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;예금은 은행에 돈을 맡기는 상품을 말한다. 넓게 보면 입출금통장도 예금이고, 일정 기간 돈을 묶어두는 정기예금도 예금이다.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>KCB NICE 신용점수 차이 나는 이유와 점수 올리는 방법</title>
-      <link>https://money.devkuma.com/posts/kcb-nice-credit-score-difference/</link>
-      <pubDate>Wed, 20 May 2026 08:08:23 +0900</pubDate>
-      <guid>https://money.devkuma.com/posts/kcb-nice-credit-score-difference/</guid>
-      <description>&lt;p&gt;신용점수를 조회했는데 KCB 점수와 NICE 점수가 서로 다르게 나오는 경우가 많다. 어떤 사람은 NICE가 더 높고, 어떤 사람은 KCB가 더 높다. 그래서 &amp;ldquo;내 신용점수가 정확히 몇 점이라는 거지?&amp;ldquo;라는 생각이 들 수 있다.&lt;/p&gt;&#xA;&lt;p&gt;결론부터 말하면 둘 다 내 신용점수다. 다만 점수를 계산하는 회사가 다르고, 각 회사가 중요하게 보는 기준도 조금씩 다르다. 은행이나 카드사가 대출 한도, 금리, 카드 발급 가능성을 볼 때도 두 점수 중 하나만 기계적으로 보는 것이 아니라 자체 심사 기준과 함께 참고한다.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>카드사 사이트 주소 모음, 국내 카드사 공식 홈페이지 한눈에 정리</title>
-      <link>https://money.devkuma.com/posts/card-company-site-list/</link>
-      <pubDate>Tue, 19 May 2026 07:33:38 +0900</pubDate>
-      <guid>https://money.devkuma.com/posts/card-company-site-list/</guid>
-      <description>&lt;p&gt;카드 이용내역을 확인하거나 결제일을 바꾸고 싶을 때, 포인트를 조회하거나 분실 신고를 해야 할 때 가장 먼저 필요한 것이 카드사 공식 홈페이지 주소다. 평소에는 앱으로 처리하는 일이 많지만, 카드 발급 신청, 명세서 확인, 한도 변경, 금융 서비스 조회는 홈페이지에서 보는 것이 더 편할 때도 있다.&lt;/p&gt;&#xA;&lt;p&gt;문제는 카드사 이름을 검색했을 때 광고 페이지, 이벤트 페이지, 비슷하게 생긴 피싱 사이트가 함께 보일 수 있다는 점이다. 특히 카드번호, CVC, 비밀번호 앞자리, 인증번호를 입력하는 화면이라면 공식 사이트인지 더 꼼꼼히 확인해야 한다.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>은행 사이트 주소 모음, 국내 은행 공식 홈페이지 한눈에 정리</title>
-      <link>https://money.devkuma.com/posts/bank-site-list/</link>
-      <pubDate>Tue, 19 May 2026 07:29:59 +0900</pubDate>
-      <guid>https://money.devkuma.com/posts/bank-site-list/</guid>
-      <description>&lt;p&gt;은행 홈페이지 주소는 평소에는 별것 아닌 것처럼 보이지만, 막상 계좌 조회나 이체, 대출 상담, 예·적금 가입을 하려 할 때 정확히 알아두면 꽤 중요하다. 특히 문자나 검색 광고를 통해 비슷하게 생긴 사이트에 잘못 들어가면 개인정보나 금융 정보가 노출될 수 있다.&lt;/p&gt;&#xA;&lt;p&gt;인터넷뱅킹과 모바일뱅킹을 자주 쓴다면 은행 이름을 매번 검색하기보다 공식 홈페이지 주소를 즐겨찾기에 등록해두는 편이 안전하다. 은행 앱도 공식 앱마켓에서 직접 검색해 설치하는 것이 좋고, 문자나 이메일에 들어 있는 링크를 눌러 접속하는 습관은 피하는 것이 좋다.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>직접투자와 간접투자 차이, 종류와 장단점 쉽게 정리</title>
-      <link>https://money.devkuma.com/posts/direct-vs-indirect-investing/</link>
-      <pubDate>Mon, 18 May 2026 23:26:03 +0900</pubDate>
-      <guid>https://money.devkuma.com/posts/direct-vs-indirect-investing/</guid>
-      <description>&lt;p&gt;투자를 시작하려고 하면 가장 먼저 부딪히는 고민이 있다. 내가 직접 종목을 고를 것인지, 아니면 펀드나 ETF처럼 누군가 운용하는 상품을 활용할 것인지다. 주변에서는 &amp;ldquo;좋은 주식을 직접 사야 돈을 번다&amp;quot;고 말하기도 하고, 또 다른 쪽에서는 &amp;ldquo;초보자는 분산투자 상품부터 해야 한다&amp;quot;고 말한다.&lt;/p&gt;&#xA;&lt;p&gt;둘 다 맞는 말일 수 있다. 직접투자는 내가 판단하고 내가 책임지는 방식이고, 간접투자는 전문가나 상품 구조를 활용해 투자하는 방식이다. 어느 쪽이 무조건 좋다고 말하기 어렵다. 투자자의 시간, 지식, 성향, 자금 규모, 목표 기간에 따라 더 맞는 방식이 달라진다.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>사모펀드 뜻과 특징, 장단점까지 한눈에 이해하기</title>
-      <link>https://money.devkuma.com/posts/private-fund/</link>
-      <pubDate>Mon, 18 May 2026 23:14:14 +0900</pubDate>
-      <guid>https://money.devkuma.com/posts/private-fund/</guid>
-      <description>&lt;p&gt;사모펀드는 경제 뉴스에서 자주 나오지만, 막상 설명하려고 하면 조금 애매한 투자 상품이다. &amp;ldquo;큰돈을 가진 사람들만 하는 투자&amp;rdquo;, &amp;ldquo;기업을 사고파는 펀드&amp;rdquo;, &amp;ldquo;수익률은 높지만 위험한 상품&amp;quot;처럼 여러 이미지가 섞여 있기 때문이다.&lt;/p&gt;&#xA;&lt;p&gt;사모펀드를 이해할 때 가장 먼저 잡아야 할 기준은 &amp;ldquo;누구에게 돈을 모으는가&amp;quot;다. 많은 사람에게 공개적으로 판매하는 펀드는 공모펀드이고, 제한된 소수 투자자에게 비공개로 자금을 모아 운용하는 펀드는 사모펀드다.&lt;/p&gt;&#xA;&lt;p&gt;다만 사모펀드는 구조가 복잡하고, 투자 대상도 주식이나 채권처럼 단순하지 않은 경우가 많다. 그래서 수익 가능성만 보고 접근하기보다, 돈이 얼마나 오래 묶이는지, 손실이 났을 때 감당할 수 있는지, 운용사가 무엇에 투자하는지를 먼저 봐야 한다.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>돈이란 무엇인가? 경제에서 돈이 움직이는 원리와 화폐의 기능</title>
-      <link>https://money.devkuma.com/posts/what-is-money/</link>
-      <pubDate>Sun, 17 May 2026 16:38:48 +0900</pubDate>
-      <guid>https://money.devkuma.com/posts/what-is-money/</guid>
-      <description>&lt;p&gt;돈은 매일 쓰지만 막상 &amp;ldquo;돈이 뭐야?&amp;ldquo;라고 물으면 대답이 생각보다 쉽지 않다. 지갑에 있는 현금도 돈이고, 은행 앱에 찍힌 예금 잔액도 돈이고, 카드로 결제할 수 있는 한도도 어떤 의미에서는 돈처럼 느껴진다.&lt;/p&gt;&#xA;&lt;p&gt;돈을 단순히 종이 지폐나 동전으로만 보면 경제를 이해하기 어렵다. 지금의 경제에서는 월급, 예금, 대출, 카드 결제, 주식 투자, 금리, 인플레이션이 모두 돈의 흐름과 연결되어 있다. 그래서 돈을 제대로 이해한다는 것은 &amp;ldquo;많이 버는 방법&amp;quot;을 알기 전에, 돈이 왜 가치가 있고 어떻게 움직이는지 이해하는 일에 가깝다.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>돈을 맡기면 왜 이자를 줄까? 예금금리와 대출금리의 원리</title>
-      <link>https://money.devkuma.com/posts/deposit-loan-interest-basics/</link>
-      <pubDate>Mon, 11 May 2026 22:28:30 +0900</pubDate>
-      <guid>https://money.devkuma.com/posts/deposit-loan-interest-basics/</guid>
-      <description>&lt;p&gt;은행에 돈을 맡기면 시간이 지난 뒤 이자가 붙는다. 처음 금융을 배울 때는 이 부분이 조금 이상하게 느껴질 수 있다. 은행이 내 돈을 보관해주는데 왜 오히려 나에게 돈을 더 줄까.&lt;/p&gt;&#xA;&lt;p&gt;반대로 대출을 받으면 은행에 이자를 내야 한다. 같은 이자인데 예금할 때는 받고, 대출할 때는 낸다. 결국 이자를 이해하려면 은행이 돈을 어떻게 모으고, 그 돈을 어떻게 굴리는지 알아야 한다.&lt;/p&gt;&#xA;&lt;p&gt;이 글에서는 이자와 금리의 기본 개념부터 예금금리, 대출금리, 예대마진까지 초보자도 이해하기 쉽게 정리하였다.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>뱅크런 뜻과 원인, 실제 사례로 쉽게 이해하는 은행 대규모 예금 인출 사태</title>
-      <link>https://money.devkuma.com/posts/bank-run/</link>
-      <pubDate>Mon, 11 May 2026 22:18:07 +0900</pubDate>
-      <guid>https://money.devkuma.com/posts/bank-run/</guid>
-      <description>&lt;p&gt;은행은 평소에는 가장 안전한 금융기관처럼 느껴진다. 월급이 들어오고, 카드값이 빠져나가고, 정기예금과 적금을 맡겨두는 곳이기 때문이다. 그런데 금융 뉴스에서 가끔 &amp;ldquo;뱅크런 우려&amp;rdquo;, &amp;ldquo;대규모 예금 인출&amp;rdquo;, &amp;ldquo;은행 유동성 위기&amp;rdquo; 같은 표현이 나오면 갑자기 불안해진다.&lt;/p&gt;&#xA;&lt;p&gt;뱅크런은 은행에 맡긴 돈을 사람들이 한꺼번에 찾으려는 현상이다. 단순히 예금이 조금 줄어드는 수준이 아니라, 예금자들의 불안이 빠르게 번지면서 은행의 지급 능력 자체를 흔드는 상황을 말한다.&lt;/p&gt;&#xA;&lt;p&gt;이 글에서는 뱅크런의 뜻, 왜 은행에 이런 일이 생기는지, 실제 사례와 디지털 시대의 특징, 그리고 개인이 어떤 기준으로 예금을 관리하면 좋은지 정리하였다.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>CMA 통장이란? 장단점과 종류, 원금손실 위험까지 쉽게 정리</title>
-      <link>https://money.devkuma.com/posts/cma-account-guide/</link>
-      <pubDate>Sun, 10 May 2026 18:25:11 +0900</pubDate>
-      <guid>https://money.devkuma.com/posts/cma-account-guide/</guid>
-      <description>&lt;p&gt;월급이 들어오면 며칠 뒤 카드값, 관리비, 통신비가 빠져나간다. 투자하려고 모아둔 돈도 당장 매수할 종목이 없으면 며칠 또는 몇 주 동안 현금으로 남아 있다. 이런 돈을 일반 입출금 통장에 그대로 두면 이자가 거의 붙지 않는다.&lt;/p&gt;&#xA;&lt;p&gt;이럴 때 많이 찾는 계좌가 &lt;strong&gt;CMA 통장&lt;/strong&gt; 이다. CMA는 자유롭게 입출금하면서도 일반 통장보다 높은 수익을 기대할 수 있어 &amp;ldquo;재테크 기본 통장&amp;quot;처럼 쓰인다. 다만 은행 예금과 완전히 같은 상품은 아니므로, 장점만 보고 큰돈을 넣기 전에 구조와 위험을 같이 이해해야 한다.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>계좌개설 20일 제한 뜻과 해제일 확인 방법</title>
-      <link>https://money.devkuma.com/posts/account-opening-20-business-day-rule/</link>
-      <pubDate>Sun, 10 May 2026 18:12:21 +0900</pubDate>
-      <guid>https://money.devkuma.com/posts/account-opening-20-business-day-rule/</guid>
-      <description>&lt;p&gt;예금 금리가 조금만 올라가도 &amp;ldquo;이번에는 저 은행 특판으로 갈아타야겠다&amp;quot;는 생각이 든다. 그런데 막상 새 통장을 만들려고 하면 &amp;ldquo;최근 입출금 계좌를 개설해 신규 계좌 개설이 어렵다&amp;quot;는 안내가 뜨는 경우가 있다. 이때 걸리는 것이 흔히 말하는 계좌개설 20일 제한이다.&lt;/p&gt;&#xA;&lt;p&gt;정확한 이름은 &amp;ldquo;단기간 다수계좌 개설 제한&amp;quot;이다. 한 금융회사에서 입출금 통장이나 증권 계좌를 새로 만든 뒤 일정 기간 안에 다른 금융회사에서 또 새 계좌를 만드는 것을 제한하는 방식이다. 대포통장, 보이스피싱, 명의도용 계좌를 줄이기 위한 목적이지만, 예금 특판이나 공모주 청약을 준비하는 사람에게는 꽤 답답한 규칙으로 느껴진다.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>삼성증권 중개형 ISA 개설 이벤트 혜택 정리: 신규·이전 고객은 어디까지 받을 수 있을까</title>
-      <link>https://money.devkuma.com/posts/samsung-securities-isa-event/</link>
-      <pubDate>Sun, 10 May 2026 09:14:09 +0900</pubDate>
-      <guid>https://money.devkuma.com/posts/samsung-securities-isa-event/</guid>
-      <description>&lt;p&gt;요즘 ISA 계좌 하나쯤은 다들 고민한다. 절세에 좋다는 건 알겠는데, 막상 만들려고 하면 증권사도 많고 이벤트도 자주 바뀌어서 언제 개설해야 할지 애매하다.&lt;/p&gt;&#xA;&lt;p&gt;나도 ISA 만기가 다가오면서 증권사 이벤트를 찾아보다가 삼성증권 중개형 ISA 이벤트를 보게 되었다. 조건을 보니 신규 개설자, 기존 고객, 타사 ISA 이전을 고민하는 사람에게 각각 볼 만한 포인트가 있었다.&lt;/p&gt;&#xA;&lt;p&gt;다만 먼저 분명히 해둘 점이 있다. 이 글은 삼성증권 ISA 계좌 개설 추천이나 투자 권유가 아니다. 계좌 개설 여부, 이벤트 참여 여부, 투자 여부는 모두 본인이 직접 판단해야 한다. 그리고 모든 증권사 이벤트를 비교한 것이 아니므로 다른 증권사에 더 좋은 조건이 있을 가능성도 있다.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>BIS 비율이란? 은행 건전성을 보는 자본 적정성 지표 쉽게 이해하기</title>
-      <link>https://money.devkuma.com/posts/bis-capital-ratio/</link>
-      <pubDate>Sun, 10 May 2026 00:48:42 +0900</pubDate>
-      <guid>https://money.devkuma.com/posts/bis-capital-ratio/</guid>
-      <description>&lt;p&gt;은행은 평소에는 안전해 보인다. 예금을 받고, 대출을 해주고, 이자를 받는 구조라 단순해 보이기도 한다. 하지만 은행의 자산 대부분은 대출과 투자자산이다. 경기 침체가 오거나 부동산 가격이 급락하거나 기업이 대출을 갚지 못하면 은행도 손실을 볼 수 있다.&lt;/p&gt;&#xA;&lt;p&gt;이때 중요한 질문이 생긴다. &amp;ldquo;은행이 손실을 감당할 만큼 충분한 자본을 갖고 있는가?&amp;rdquo; 이 질문에 답하기 위해 쓰는 대표적인 지표가 &lt;strong&gt;BIS 비율&lt;/strong&gt;이다.&lt;/p&gt;&#xA;&lt;p&gt;BIS 비율은 은행의 자기자본을 위험가중자산으로 나눈 비율이다. 쉽게 말하면 은행이 위험한 자산을 얼마나 갖고 있고, 그 위험을 버틸 자기자본은 얼마나 준비했는지 보는 지표다. 은행의 체력을 보는 숫자라고 이해하면 된다.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>캐리 트레이드란? 금리 차이로 수익을 노리는 외환 투자 전략 쉽게 이해하기</title>
-      <link>https://money.devkuma.com/posts/carry-trade/</link>
-      <pubDate>Sun, 10 May 2026 00:33:17 +0900</pubDate>
-      <guid>https://money.devkuma.com/posts/carry-trade/</guid>
-      <description>&lt;p&gt;환율 뉴스를 보다 보면 &amp;ldquo;엔 캐리 트레이드 청산&amp;rdquo;, &amp;ldquo;달러 강세와 캐리 트레이드&amp;rdquo;, &amp;ldquo;고금리 통화로 자금이 이동한다&amp;rdquo; 같은 표현이 나온다. 주식이나 예금보다 낯선 말이라 어렵게 느껴지지만, 핵심은 단순하다. 금리가 낮은 통화로 돈을 조달하고, 금리가 높은 통화에 투자해 차이를 노리는 전략이다.&lt;/p&gt;&#xA;&lt;p&gt;캐리 트레이드(Carry Trade)는 서로 다른 통화 간의 금리 차이를 활용해 수익을 얻으려는 외환 투자 전략이다. 예를 들어 어떤 통화는 연 1% 금리이고 다른 통화는 연 5% 금리라면, 낮은 금리 통화로 자금을 마련해 높은 금리 통화에 투자할 때 연 4%포인트의 금리 차이를 기대할 수 있다.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>1금융권과 2금융권 차이, 은행과 저축은행을 고르기 전에 알아야 할 것</title>
-      <link>https://money.devkuma.com/posts/first-second-financial-sector-difference/</link>
-      <pubDate>Thu, 07 May 2026 22:39:13 +0900</pubDate>
-      <guid>https://money.devkuma.com/posts/first-second-financial-sector-difference/</guid>
-      <description>&lt;p&gt;은행 앱에서 예금을 찾다 보면 제1금융권, 제2금융권이라는 말을 자주 보게 된다. 대출을 알아볼 때도 마찬가지다. 어떤 곳은 금리가 낮지만 심사가 까다롭고, 어떤 곳은 금리가 높지만 승인 가능성이 상대적으로 높다고 말한다. 그러다 보면 자연스럽게 이런 생각이 든다. 도대체 1금융권과 2금융권은 무엇이 다를까.&lt;/p&gt;&#xA;&lt;p&gt;결론부터 말하면 제1금융권은 우리가 보통 &amp;ldquo;은행&amp;quot;이라고 부르는 기관이고, 제2금융권은 은행은 아니지만 금융 서비스를 제공하는 제도권 금융기관이다. 둘 다 돈을 맡기고 빌리는 금융 업무를 하지만, 적용받는 법, 취급하는 상품, 금리 수준, 심사 기준, 안정성에서 차이가 있다.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>기준금리가 오르면 예금금리와 대출금리는 왜 같이 움직일까</title>
-      <link>https://money.devkuma.com/posts/base-rate-deposit-loan-interest/</link>
-      <pubDate>Wed, 06 May 2026 23:32:08 +0900</pubDate>
-      <guid>https://money.devkuma.com/posts/base-rate-deposit-loan-interest/</guid>
-      <description>&lt;p&gt;뉴스에서 &amp;ldquo;한국은행이 기준금리를 올렸다&amp;quot;는 말을 들으면 바로 궁금해진다. 그러면 내 예금 이자도 오를까. 대출 이자는 언제부터 늘어날까. 은행 앱에서 보는 금리는 왜 뉴스에 나온 기준금리와 숫자가 다를까.&lt;/p&gt;&#xA;&lt;p&gt;금리는 돈의 가격이다. 돈을 맡기는 사람에게는 이자가 수익이고, 돈을 빌리는 사람에게는 이자가 비용이다. 그래서 기준금리가 움직이면 예금금리와 대출금리도 영향을 받는다. 다만 버튼을 누르듯이 동시에 똑같이 움직이는 것은 아니다.&lt;/p&gt;&#xA;&lt;p&gt;이 글에서는 기준금리가 무엇인지, 예금금리와 대출금리는 무엇이 다른지, 기준금리가 오를 때 왜 예금과 대출 금리가 같이 움직일 수 있는지 쉽게 정리하였다.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>연금저축·IRP 세액공제 총정리: 한도, 환급액, ISA 전환까지 쉽게 설명</title>
-      <link>https://money.devkuma.com/posts/pension-savings-irp-tax-credit/</link>
-      <pubDate>Sun, 03 May 2026 11:14:33 +0900</pubDate>
-      <guid>https://money.devkuma.com/posts/pension-savings-irp-tax-credit/</guid>
-      <description>&lt;p&gt;연말정산을 할 때마다 &amp;ldquo;이번에는 돌려받을까, 더 낼까&amp;rdquo; 하는 생각이 먼저 든다. 연말정산은 1년 동안 미리 낸 세금과 실제로 부담해야 할 세금을 다시 맞추는 과정이다. 미리 낸 세금이 많으면 환급을 받고, 적게 냈으면 추가로 납부한다.&lt;/p&gt;&#xA;&lt;p&gt;그래서 많은 사람이 연말정산 전에 세액공제 항목을 찾는다. 그중에서도 연금저축과 IRP는 비교적 구조가 명확하다. 노후 자금을 준비하면서 지금 내야 할 세금을 줄일 수 있기 때문이다.&lt;/p&gt;&#xA;&lt;p&gt;다만 처음 보면 용어가 꽤 헷갈린다. 연금저축은 얼마까지 되는지, IRP는 꼭 필요한지, 얼마를 넣어야 최대 환급을 받을 수 있는지 감이 잘 안 온다. 이 글에서는 연금저축과 IRP 세액공제를 누구나 이해하기 쉽게 정리하였다.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>단리와 복리 차이 쉽게 비교: 이자 계산법과 그래프까지</title>
-      <link>https://money.devkuma.com/posts/simple-vs-compound-interest/</link>
-      <pubDate>Sat, 02 May 2026 23:34:59 +0900</pubDate>
-      <guid>https://money.devkuma.com/posts/simple-vs-compound-interest/</guid>
-      <description>&lt;p&gt;은행에 이자율을 알아보다 보면 단리, 복리라는 말이 꼭 나온다. 처음에는 그냥 &amp;ldquo;이자 붙는 방식이 다르겠지&amp;rdquo; 하고 넘기기 쉬운데, 막상 예금이나 적금을 고를 때는 이 차이가 생각보다 크게 느껴진다. 나도 최근에 예금 금리를 비교하다가 단리인지 복리인지부터 다시 확인하게 되더라.&lt;/p&gt;&#xA;&lt;p&gt;이 글에서는 단리와 복리를 가장 쉬운 방식으로 비교해보고, 이자를 어떻게 계산하는지, 실제로 얼마나 차이가 나는지 그래프로 보여줄게. 그리고 복리가 무조건 좋은 건 아닌 이유도 같이 보자.&lt;/p&gt;&#xA;&#xA;&#xA;&#xA;&lt;h2 id=&#34;단리와-복리-뭐가-다른가&#34; class=&#34;heading &#34;&gt;단리와 복리, 뭐가 다른가&lt;a href=&#34;#%eb%8b%a8%eb%a6%ac%ec%99%80-%eb%b3%b5%eb%a6%ac-%eb%ad%90%ea%b0%80-%eb%8b%a4%eb%a5%b8%ea%b0%80&#34; aria-labelledby=&#34;단리와-복리-뭐가-다른가&#34;&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;                &#xA;                        &#xA;                        &#xA;                        &lt;svg class=&#34;svg-inline--fa fas fa-link anchor&#34; fill=&#34;currentColor&#34; aria-hidden=&#34;true&#34; role=&#34;img&#34; viewBox=&#34;0 0 576 512&#34; overflow=&#34;visible&#34;&gt;&lt;use href=&#34;#fas-link&#34;&gt;&lt;/use&gt;&lt;/svg&gt;&amp;nbsp;&#xA;    &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;단리는 &lt;strong&gt;원금에만 이자가 붙는 방식&lt;/strong&gt;이다. 반대로 복리는 &lt;strong&gt;원금에 붙은 이자까지 다시 원금처럼 계산하는 방식&lt;/strong&gt;이다. 말은 어렵지만 핵심은 단순하다. 단리는 이자가 늘어도 계산 기준이 그대로이고, 복리는 시간이 지날수록 계산 기준이 커진다.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>파킹 통장이란? 이자도 챙기고 유동성까지 잡는 가장 쉬운 방법</title>
-      <link>https://money.devkuma.com/posts/parking-account-guide/</link>
-      <pubDate>Fri, 01 May 2026 00:00:00 +0900</pubDate>
-      <guid>https://money.devkuma.com/posts/parking-account-guide/</guid>
-      <description>&lt;h2 id=&#34;파킹-통장이란-왜-요즘-다들-쓰는-걸까&#34; class=&#34;heading &#34;&gt;파킹 통장이란? 왜 요즘 다들 쓰는 걸까?&lt;a href=&#34;#%ed%8c%8c%ed%82%b9-%ed%86%b5%ec%9e%a5%ec%9d%b4%eb%9e%80-%ec%99%9c-%ec%9a%94%ec%a6%98-%eb%8b%a4%eb%93%a4-%ec%93%b0%eb%8a%94-%ea%b1%b8%ea%b9%8c&#34; aria-labelledby=&#34;파킹-통장이란-왜-요즘-다들-쓰는-걸까&#34;&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;                &#xA;                        &#xA;                        &#xA;                        &lt;svg class=&#34;svg-inline--fa fas fa-link anchor&#34; fill=&#34;currentColor&#34; aria-hidden=&#34;true&#34; role=&#34;img&#34; viewBox=&#34;0 0 576 512&#34; overflow=&#34;visible&#34;&gt;&lt;use href=&#34;#fas-link&#34;&gt;&lt;/use&gt;&lt;/svg&gt;&amp;nbsp;&#xA;    &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;돈을 모으다 보면 항상 애매한 순간이 온다. 당장 쓸 돈은 아닌데, 그렇다고 묶어두기엔 불안한 돈 말이다. 그냥 일반 통장에 넣어두자니 이자가 거의 없고, 예적금에 넣자니 중간에 쓸 수도 있다.&lt;/p&gt;&#xA;&lt;p&gt;이럴 때 등장하는 게 바로 &lt;strong&gt;파킹 통장&lt;/strong&gt; 이다. 말 그대로 돈을 잠깐 &amp;ldquo;주차&amp;rdquo; 해두는 통장인데, 자유롭게 입출금이 가능하면서도 일반 통장보다 높은 금리를 준다.&lt;/p&gt;&#xA;&lt;p&gt;요즘 금리 변동이 심한 상황에서 파킹 통장은 단기 자금 관리의 기본 도구로 자리 잡았다.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>금융 문맹 탈출 첫걸음, &#34;경제금융용어&#34; 무료 다운로드와 활용법</title>
-      <link>https://money.devkuma.com/posts/economic-financial-terms-guide-download/</link>
-      <pubDate>Thu, 30 Apr 2026 00:09:00 +0900</pubDate>
-      <guid>https://money.devkuma.com/posts/economic-financial-terms-guide-download/</guid>
-      <description>&lt;h2 id=&#34;왜-지금-경제금융용어를-봐야-할까&#34; class=&#34;heading &#34;&gt;왜 지금 &amp;ldquo;경제금융용어&amp;quot;를 봐야 할까&lt;a href=&#34;#%ec%99%9c-%ec%a7%80%ea%b8%88-%ea%b2%bd%ec%a0%9c%ea%b8%88%ec%9c%b5%ec%9a%a9%ec%96%b4%eb%a5%bc-%eb%b4%90%ec%95%bc-%ed%95%a0%ea%b9%8c&#34; aria-labelledby=&#34;왜-지금-경제금융용어를-봐야-할까&#34;&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;                &#xA;                        &#xA;                        &#xA;                        &lt;svg class=&#34;svg-inline--fa fas fa-link anchor&#34; fill=&#34;currentColor&#34; aria-hidden=&#34;true&#34; role=&#34;img&#34; viewBox=&#34;0 0 576 512&#34; overflow=&#34;visible&#34;&gt;&lt;use href=&#34;#fas-link&#34;&gt;&lt;/use&gt;&lt;/svg&gt;&amp;nbsp;&#xA;    &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;회사 일만 하면서 월급 들어오면 저축만 반복하던 시기가 있었다. 그때는 나름 안정적으로 살고 있다고 생각했는데, 어느 순간 깨달았다. 나는 금융을 전혀 모르고 있었다.&lt;/p&gt;&#xA;&lt;p&gt;금리, 인플레이션, 채권 같은 단어는 뉴스에 계속 나오는데 정확히 이해하지 못했다. 결국 이건 선택이 아니라 생존 문제라는 생각이 들었다.&lt;/p&gt;&#xA;&lt;p&gt;그 과정에서 발견한 게 바로 &lt;strong&gt;&amp;ldquo;경제금융용어&amp;rdquo; 책자&lt;/strong&gt; 다. 어렵게 느껴졌던 경제 용어를 가장 기초부터 정리해주는 자료였다.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>ISA, IRP, 연금저축에 대한 쉬운 설명</title>
-      <link>https://money.devkuma.com/posts/irs-irp-pension-savings/</link>
-      <pubDate>Sun, 22 Feb 2026 12:26:00 +0900</pubDate>
-      <guid>https://money.devkuma.com/posts/irs-irp-pension-savings/</guid>
-      <description>&lt;h2 id=&#34;1-isa-개인종합자산관리계좌&#34; class=&#34;heading &#34;&gt;1. ISA (개인종합자산관리계좌)&lt;a href=&#34;#1-isa-%ea%b0%9c%ec%9d%b8%ec%a2%85%ed%95%a9%ec%9e%90%ec%82%b0%ea%b4%80%eb%a6%ac%ea%b3%84%ec%a2%8c&#34; aria-labelledby=&#34;1-isa-개인종합자산관리계좌&#34;&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;                &#xA;                        &#xA;                        &#xA;                        &lt;svg class=&#34;svg-inline--fa fas fa-link anchor&#34; fill=&#34;currentColor&#34; aria-hidden=&#34;true&#34; role=&#34;img&#34; viewBox=&#34;0 0 576 512&#34; overflow=&#34;visible&#34;&gt;&lt;use href=&#34;#fas-link&#34;&gt;&lt;/use&gt;&lt;/svg&gt;&amp;nbsp;&#xA;    &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;ISA(Individual Savings Account)는 하나의 계좌에서 예금, 펀드, ETF, 주식 등 다양한 금융상품을 통합 관리하면서 세제 혜택을 받을 수 있는 계좌이다.&lt;/p&gt;&#xA;&#xA;&#xA;&#xA;&lt;h3 id=&#34;주요-특징&#34; class=&#34;heading &#34;&gt;① 주요 특징&lt;a href=&#34;#%ec%a3%bc%ec%9a%94-%ed%8a%b9%ec%a7%95&#34; aria-labelledby=&#34;주요-특징&#34;&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;                &#xA;                        &#xA;                        &#xA;                        &lt;svg class=&#34;svg-inline--fa fas fa-link anchor&#34; fill=&#34;currentColor&#34; aria-hidden=&#34;true&#34; role=&#34;img&#34; viewBox=&#34;0 0 576 512&#34; overflow=&#34;visible&#34;&gt;&lt;use href=&#34;#fas-link&#34;&gt;&lt;/use&gt;&lt;/svg&gt;&amp;nbsp;&#xA;    &lt;/a&gt;&#xA;&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;하나의 계좌로 다양한 금융상품 운용 가능&lt;/li&gt;&#xA;&lt;li&gt;일정 한도 내 수익에 대해 비과세 혜택&lt;/li&gt;&#xA;&lt;li&gt;초과 수익에 대해서는 저율(9.9%) 분리과세 적용&lt;/li&gt;&#xA;&lt;li&gt;의무 가입기간: 일반적으로 3년&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&#xA;&#xA;&#xA;&lt;h3 id=&#34;세제-혜택&#34; class=&#34;heading &#34;&gt;② 세제 혜택&lt;a href=&#34;#%ec%84%b8%ec%a0%9c-%ed%98%9c%ed%83%9d&#34; aria-labelledby=&#34;세제-혜택&#34;&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;                &#xA;                        &#xA;                        &#xA;                        &lt;svg class=&#34;svg-inline--fa fas fa-link anchor&#34; fill=&#34;currentColor&#34; aria-hidden=&#34;true&#34; role=&#34;img&#34; viewBox=&#34;0 0 576 512&#34; overflow=&#34;visible&#34;&gt;&lt;use href=&#34;#fas-link&#34;&gt;&lt;/use&gt;&lt;/svg&gt;&amp;nbsp;&#xA;    &lt;/a&gt;&#xA;&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;일반형: 순이익 200만원까지 비과세&lt;/li&gt;&#xA;&lt;li&gt;서민형/농어민형: 순이익 400만원까지 비과세&lt;/li&gt;&#xA;&lt;li&gt;비과세 한도 초과분은 9.9% 분리과세&#xA;(일반 금융소득세 15.4%보다 낮음)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&#xA;&#xA;&#xA;&lt;h3 id=&#34;납입-한도&#34; class=&#34;heading &#34;&gt;③ 납입 한도&lt;a href=&#34;#%eb%82%a9%ec%9e%85-%ed%95%9c%eb%8f%84&#34; aria-labelledby=&#34;납입-한도&#34;&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;                &#xA;                        &#xA;                        &#xA;                        &lt;svg class=&#34;svg-inline--fa fas fa-link anchor&#34; fill=&#34;currentColor&#34; aria-hidden=&#34;true&#34; role=&#34;img&#34; viewBox=&#34;0 0 576 512&#34; overflow=&#34;visible&#34;&gt;&lt;use href=&#34;#fas-link&#34;&gt;&lt;/use&gt;&lt;/svg&gt;&amp;nbsp;&#xA;    &lt;/a&gt;&#xA;&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;연 2,000만원&lt;/li&gt;&#xA;&lt;li&gt;최대 1억원까지 누적 납입 가능&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&#xA;&#xA;&#xA;&lt;h3 id=&#34;목적&#34; class=&#34;heading &#34;&gt;④ 목적&lt;a href=&#34;#%eb%aa%a9%ec%a0%81&#34; aria-labelledby=&#34;목적&#34;&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;                &#xA;                        &#xA;                        &#xA;                        &lt;svg class=&#34;svg-inline--fa fas fa-link anchor&#34; fill=&#34;currentColor&#34; aria-hidden=&#34;true&#34; role=&#34;img&#34; viewBox=&#34;0 0 576 512&#34; overflow=&#34;visible&#34;&gt;&lt;use href=&#34;#fas-link&#34;&gt;&lt;/use&gt;&lt;/svg&gt;&amp;nbsp;&#xA;    &lt;/a&gt;&#xA;&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;중·단기 자산 형성&lt;/li&gt;&#xA;&lt;li&gt;절세를 통한 투자 수익 극대화&lt;/li&gt;&#xA;&lt;li&gt;금융상품 통합 관리&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;ISA는 비교적 유연한 인출이 가능하며, 노후 전용 상품은 아니다.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>금융 지능이란?</title>
-      <link>https://money.devkuma.com/posts/financial-intelligence/</link>
-      <pubDate>Sun, 08 Feb 2026 11:49:00 +0900</pubDate>
-      <guid>https://money.devkuma.com/posts/financial-intelligence/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;금융 지능(Financial Intelligence)&lt;/strong&gt; 은 쉽게 말해서 &lt;strong&gt;돈의 흐름을 이해하고, 합리적으로 돈을 관리하고, 장기적으로 자산을 늘릴 수 있는 능력&lt;/strong&gt;을 의미한다.&lt;br&gt;&#xA;단순히 &amp;ldquo;돈을 많이 아는 것&amp;quot;이 아니라 &lt;strong&gt;돈을 다루는 사고방식 + 판단력 + 실행 능력&lt;/strong&gt;을 포함한다.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&#xA;&#xA;&#xA;&lt;h2 id=&#34;금융-지능이란&#34; class=&#34;heading &#34;&gt;금융 지능이란?&lt;a href=&#34;#%ea%b8%88%ec%9c%b5-%ec%a7%80%eb%8a%a5%ec%9d%b4%eb%9e%80&#34; aria-labelledby=&#34;금융-지능이란&#34;&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;                &#xA;                        &#xA;                        &#xA;                        &lt;svg class=&#34;svg-inline--fa fas fa-link anchor&#34; fill=&#34;currentColor&#34; aria-hidden=&#34;true&#34; role=&#34;img&#34; viewBox=&#34;0 0 576 512&#34; overflow=&#34;visible&#34;&gt;&lt;use href=&#34;#fas-link&#34;&gt;&lt;/use&gt;&lt;/svg&gt;&amp;nbsp;&#xA;    &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;금융 지능(Financial Intelligence)&lt;/strong&gt; 이란 개인이 재무와 관련된 정보를 이해하고 분석하여 합리적인 의사결정을 내릴 수 있는 능력을 의미한다. 이는 단순히 금융 지식을 보유하는 수준을 넘어, 수입과 지출을 관리하고 자산을 형성하며 장기적으로 재정적 안정과 성장을 달성하는 종합적인 역량을 포함한다.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>은행과 저축은행의 차이</title>
-      <link>https://money.devkuma.com/posts/bank-vs-savings-bank/</link>
-      <pubDate>Sat, 06 Apr 2024 23:46:00 +0900</pubDate>
-      <guid>https://money.devkuma.com/posts/bank-vs-savings-bank/</guid>
-      <description>&lt;p&gt;은행은 제1금융권이라고 하고, 이를 제외한 대부분의 금융기관을 제2금융권이라고 한다.&lt;br&gt;&#xA;예를 들면, 증권사, 종합금융회사, 보험회사, 카드사, 캐피탈 등이 해당된다.&lt;/p&gt;&#xA;&lt;p&gt;그리고 &amp;lsquo;저축은행&amp;rsquo;도 제2금융권에 속한다. 사실 저축은행은 &amp;lsquo;은행&amp;rsquo;이 아니기 때문이다.&lt;br&gt;&#xA;저축은행은 원래 &amp;lsquo;신용금고&amp;rsquo;라는 이름의 사금융 기관이다.&lt;/p&gt;&#xA;&lt;p&gt;예전에 비자금과 금융사기의 도구로 사용되며 &amp;lsquo;신용금고&amp;rsquo;라는 단어 자체의 이미지가 나빠지자 사람들은 신용금고 이용을 꺼려해지게 되면서&lt;/p&gt;&#xA;&lt;p&gt;관련 업계가 완전히 사장될 것을 우려해 국회는 은행법을 개정하며 &amp;lsquo;은행&amp;rsquo;이라는 이름의 사용을 허가하였고, 현재의 ‘저축은행’이 되었다&#xA;여기서 주의 할 점은 &amp;lsquo;저축은행&amp;rsquo;을 표기할 때도 &amp;lsquo;저축 은행&amp;rsquo; 이렇게 띄어쓰면 안된다.&lt;/p&gt;</description>
-    </item>
-  </channel>
+	<channel>
+		<title>금융 on Show Me the Money::devkuma</title>
+		<link>https://money.devkuma.com/posts/finance/</link>
+		<description>Recent content in 금융 on Show Me the Money::devkuma</description>
+		<generator>Hugo</generator>
+		<language>ko-KR</language>
+		
+		
+		
+		
+			<lastBuildDate>Fri, 29 May 2026 22:50:34 +0900</lastBuildDate>
+		
+			<atom:link href="https://money.devkuma.com/posts/finance/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>왜 투자를 고려해야 할까? 저축만으로 부족한 이유와 초보 투자 시작법</title>
+				<link>https://money.devkuma.com/posts/why-consider-investing/</link>
+				<pubDate>Fri, 29 May 2026 22:50:34 +0900</pubDate>
+				<guid>https://money.devkuma.com/posts/why-consider-investing/</guid>
+				<description>&lt;p&gt;&amp;ldquo;투자는 돈 많은 사람이 하는 것 아닌가?&amp;ldquo;라고 생각하는 사람이 많다. 월급을 받고 생활비를 쓰고 적금을 넣기도 빠듯한데, 투자까지 생각하라는 말이 부담스럽게 들릴 수 있다. 주식시장 뉴스에서는 매일 오르내림이 반복되고, 주변에서는 누가 벌었다거나 잃었다는 이야기도 들린다.&lt;/p&gt;&#xA;&lt;p&gt;그래서 투자를 아예 멀리하는 사람도 있다. 하지만 투자를 고려한다는 말은 무조건 주식을 많이 사라는 뜻이 아니다. 내 돈의 가치가 시간이 지나면서 어떻게 변하는지 이해하고, 미래의 생활비와 노후 자금을 어떻게 준비할지 생각해보자는 뜻에 가깝다.&lt;/p&gt;&#xA;&lt;p&gt;이 글에서는 왜 투자를 고려해야 하는지, 저축만으로는 어떤 한계가 있는지, 초보자가 투자를 시작하기 전에 무엇을 먼저 준비해야 하는지 쉽게 정리했다.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>연금 종류 총정리: 국민연금, 퇴직연금, 개인연금, 주택연금까지 쉽게 이해하기</title>
+				<link>https://money.devkuma.com/posts/pension-types/</link>
+				<pubDate>Thu, 28 May 2026 09:00:00 +0900</pubDate>
+				<guid>https://money.devkuma.com/posts/pension-types/</guid>
+				<description>&lt;p&gt;연금은 막연하게 &amp;ldquo;나중에 받는 돈&amp;rdquo; 정도로 생각하기 쉽다. 월급에서 국민연금이 빠져나가고, 회사에서는 퇴직연금을 운용한다고 하고, 은행이나 증권사에서는 연금저축과 IRP를 권한다. 부모님 세대 이야기를 들으면 기초연금, 주택연금 같은 말도 자주 나온다.&lt;/p&gt;&#xA;&lt;p&gt;문제는 이름은 전부 연금인데 성격이 꽤 다르다는 점이다. 어떤 연금은 의무적으로 가입하고, 어떤 연금은 내가 선택해서 준비한다. 어떤 연금은 소득이 있어야 쌓이고, 어떤 연금은 집이나 농지를 담보로 매달 받는 구조다.&lt;/p&gt;&#xA;&lt;p&gt;이 글에서는 연금 종류를 한 번에 이해할 수 있도록 크게 공적연금, 직역연금, 퇴직연금, 개인연금, 자산담보형 연금으로 나눠 정리하였다. 처음 보는 사람도 &amp;ldquo;나는 어떤 연금을 기본으로 보고, 무엇을 추가로 준비해야 하는지&amp;rdquo; 감을 잡는 데 초점을 맞췄다.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>연금저축이란? 세액공제, 종류, 장단점까지 초보자용으로 쉽게 정리</title>
+				<link>https://money.devkuma.com/posts/pension-savings/</link>
+				<pubDate>Thu, 28 May 2026 08:10:46 +0900</pubDate>
+				<guid>https://money.devkuma.com/posts/pension-savings/</guid>
+				<description>&lt;p&gt;연금저축은 이름만 보면 단순한 저축상품처럼 느껴진다. 하지만 실제로는 노후자금을 준비하면서 세액공제까지 받을 수 있는 개인연금 계좌에 가깝다. 직장인이라면 연말정산에서 자주 듣고, 자영업자라면 종합소득세를 줄이는 방법으로 자주 접하게 된다.&lt;/p&gt;&#xA;&lt;p&gt;문제는 처음 볼 때 용어가 꽤 헷갈린다는 점이다. 연금저축펀드, 연금저축보험, IRP, 세액공제, 과세이연 같은 단어가 한꺼번에 나온다. 그래서 &amp;ldquo;좋다는데 뭘 가입해야 하지?&amp;rdquo;, &amp;ldquo;중간에 돈이 필요하면 어떻게 하지?&amp;rdquo;, &amp;ldquo;얼마를 넣어야 하지?&amp;rdquo; 같은 질문이 자연스럽게 생긴다.&lt;/p&gt;&#xA;&lt;p&gt;이 글에서는 연금저축이 무엇인지, 어떤 혜택이 있는지, 가입 전에 무엇을 조심해야 하는지 초보자 눈높이에서 정리하였다.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>대출금리 구조 쉽게 이해하기: 기준금리, 가산금리, 우대금리 차이</title>
+				<link>https://money.devkuma.com/posts/loan-interest-rate-structure/</link>
+				<pubDate>Wed, 27 May 2026 22:50:50 +0900</pubDate>
+				<guid>https://money.devkuma.com/posts/loan-interest-rate-structure/</guid>
+				<description>&lt;p&gt;대출 상담을 받으면 금리 숫자 하나만 보이기 쉽다. &amp;ldquo;연 4.8%&amp;ldquo;처럼 최종 금리만 들으면 비싸다, 싸다 정도는 느낄 수 있지만 왜 그 금리가 나왔는지는 잘 보이지 않는다.&lt;/p&gt;&#xA;&lt;p&gt;그런데 대출금리는 생각보다 단순한 구조로 만들어진다. 은행이 돈을 조달하는 비용, 고객의 위험도, 은행이 깎아주는 우대 조건이 합쳐져 최종 금리가 된다.&lt;/p&gt;&#xA;&lt;p&gt;이 글에서는 대출금리를 기준금리, 가산금리, 우대금리로 나누어 설명하였다. 대출을 새로 받을 때뿐 아니라 기존 대출을 연장하거나 갈아탈 때도 꼭 알아두면 좋다.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;h2 id=&#34;대출금리는-세-가지로-나눠서-봐야-한다&#34; class=&#34;heading&#34;&gt;대출금리는 세 가지로 나눠서 봐야 한다&lt;a href=&#34;#%eb%8c%80%ec%b6%9c%ea%b8%88%eb%a6%ac%eb%8a%94-%ec%84%b8-%ea%b0%80%ec%a7%80%eb%a1%9c-%eb%82%98%eb%88%a0%ec%84%9c-%eb%b4%90%ec%95%bc-%ed%95%9c%eb%8b%a4&#34; aria-labelledby=&#34;대출금리는-세-가지로-나눠서-봐야-한다&#34;&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;                &#xA;                        &#xA;                        &#xA;                        &lt;svg class=&#34;svg-inline--fa fas fa-link anchor&#34; fill=&#34;currentColor&#34; aria-hidden=&#34;true&#34; role=&#34;img&#34; viewBox=&#34;0 0 576 512&#34; overflow=&#34;visible&#34;&gt;&lt;use href=&#34;#fas-link&#34;&gt;&lt;/use&gt;&lt;/svg&gt;&amp;nbsp;&#xA;    &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&#xA;&lt;p&gt;대출금리는 보통 다음 구조로 이해하면 쉽다.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>미국채 투자 방법, 직접 투자와 미국채 ETF 차이 쉽게 이해하기</title>
+				<link>https://money.devkuma.com/posts/us-treasury-investing/</link>
+				<pubDate>Thu, 21 May 2026 21:45:35 +0900</pubDate>
+				<guid>https://money.devkuma.com/posts/us-treasury-investing/</guid>
+				<description>&lt;p&gt;미국채에 관심을 갖는 사람은 보통 두 가지 상황에 놓여 있다. 주식시장이 너무 흔들려서 조금 안정적인 자산을 찾고 있거나, 달러 자산을 일부라도 가져가고 싶은 경우다. &amp;ldquo;미국 정부가 발행한 채권&amp;quot;이라는 말만 들으면 안전해 보이지만, 막상 투자하려고 하면 만기, 금리, 환율, ETF 같은 단어가 한꺼번에 나온다.&lt;/p&gt;&#xA;&lt;p&gt;미국채는 미국 정부가 돈을 빌리기 위해 발행하는 채권이다. 쉽게 말해 투자자가 미국 정부에 돈을 빌려주고, 정해진 기간 동안 이자를 받다가 만기 때 원금을 돌려받는 구조다. 그래서 미국채는 전 세계 금융시장에서 대표적인 안전자산으로 다뤄진다.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>예금과 적금 차이, 이자 계산까지 쉽게 이해하기</title>
+				<link>https://money.devkuma.com/posts/deposit-vs-savings/</link>
+				<pubDate>Wed, 20 May 2026 08:21:02 +0900</pubDate>
+				<guid>https://money.devkuma.com/posts/deposit-vs-savings/</guid>
+				<description>&lt;p&gt;예금과 적금은 둘 다 은행에 돈을 맡기고 이자를 받는 저축 상품이다. 그런데 막상 가입하려고 보면 &amp;ldquo;예금이랑 적금이 뭐가 다르지?&amp;rdquo;, &amp;ldquo;금리가 같으면 이자도 같은 것 아닌가?&amp;rdquo; 같은 생각이 들 수 있다.&lt;/p&gt;&#xA;&lt;p&gt;핵심은 간단하다. 예금은 목돈을 한 번에 맡기는 방식이고, 적금은 돈을 여러 번 나누어 넣는 방식이다. 금액과 금리가 같다면 보통 정기예금이 정기적금보다 이자가 더 많다. 예금은 처음부터 전체 금액에 이자가 붙지만, 적금은 매달 넣은 돈마다 이자가 붙는 기간이 다르기 때문이다.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;h2 id=&#34;예금이란&#34; class=&#34;heading&#34;&gt;예금이란?&lt;a href=&#34;#%ec%98%88%ea%b8%88%ec%9d%b4%eb%9e%80&#34; aria-labelledby=&#34;예금이란&#34;&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;                &#xA;                        &#xA;                        &#xA;                        &lt;svg class=&#34;svg-inline--fa fas fa-link anchor&#34; fill=&#34;currentColor&#34; aria-hidden=&#34;true&#34; role=&#34;img&#34; viewBox=&#34;0 0 576 512&#34; overflow=&#34;visible&#34;&gt;&lt;use href=&#34;#fas-link&#34;&gt;&lt;/use&gt;&lt;/svg&gt;&amp;nbsp;&#xA;    &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&#xA;&lt;p&gt;예금은 은행에 돈을 맡기는 상품을 말한다. 넓게 보면 입출금통장도 예금이고, 일정 기간 돈을 묶어두는 정기예금도 예금이다.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>KCB NICE 신용점수 차이 나는 이유와 점수 올리는 방법</title>
+				<link>https://money.devkuma.com/posts/kcb-nice-credit-score-difference/</link>
+				<pubDate>Wed, 20 May 2026 08:08:23 +0900</pubDate>
+				<guid>https://money.devkuma.com/posts/kcb-nice-credit-score-difference/</guid>
+				<description>&lt;p&gt;신용점수를 조회했는데 KCB 점수와 NICE 점수가 서로 다르게 나오는 경우가 많다. 어떤 사람은 NICE가 더 높고, 어떤 사람은 KCB가 더 높다. 그래서 &amp;ldquo;내 신용점수가 정확히 몇 점이라는 거지?&amp;ldquo;라는 생각이 들 수 있다.&lt;/p&gt;&#xA;&lt;p&gt;결론부터 말하면 둘 다 내 신용점수다. 다만 점수를 계산하는 회사가 다르고, 각 회사가 중요하게 보는 기준도 조금씩 다르다. 은행이나 카드사가 대출 한도, 금리, 카드 발급 가능성을 볼 때도 두 점수 중 하나만 기계적으로 보는 것이 아니라 자체 심사 기준과 함께 참고한다.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>카드사 사이트 주소 모음, 국내 카드사 공식 홈페이지 한눈에 정리</title>
+				<link>https://money.devkuma.com/posts/card-company-site-list/</link>
+				<pubDate>Tue, 19 May 2026 07:33:38 +0900</pubDate>
+				<guid>https://money.devkuma.com/posts/card-company-site-list/</guid>
+				<description>&lt;p&gt;카드 이용내역을 확인하거나 결제일을 바꾸고 싶을 때, 포인트를 조회하거나 분실 신고를 해야 할 때 가장 먼저 필요한 것이 카드사 공식 홈페이지 주소다. 평소에는 앱으로 처리하는 일이 많지만, 카드 발급 신청, 명세서 확인, 한도 변경, 금융 서비스 조회는 홈페이지에서 보는 것이 더 편할 때도 있다.&lt;/p&gt;&#xA;&lt;p&gt;문제는 카드사 이름을 검색했을 때 광고 페이지, 이벤트 페이지, 비슷하게 생긴 피싱 사이트가 함께 보일 수 있다는 점이다. 특히 카드번호, CVC, 비밀번호 앞자리, 인증번호를 입력하는 화면이라면 공식 사이트인지 더 꼼꼼히 확인해야 한다.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>은행 사이트 주소 모음, 국내 은행 공식 홈페이지 한눈에 정리</title>
+				<link>https://money.devkuma.com/posts/bank-site-list/</link>
+				<pubDate>Tue, 19 May 2026 07:29:59 +0900</pubDate>
+				<guid>https://money.devkuma.com/posts/bank-site-list/</guid>
+				<description>&lt;p&gt;은행 홈페이지 주소는 평소에는 별것 아닌 것처럼 보이지만, 막상 계좌 조회나 이체, 대출 상담, 예·적금 가입을 하려 할 때 정확히 알아두면 꽤 중요하다. 특히 문자나 검색 광고를 통해 비슷하게 생긴 사이트에 잘못 들어가면 개인정보나 금융 정보가 노출될 수 있다.&lt;/p&gt;&#xA;&lt;p&gt;인터넷뱅킹과 모바일뱅킹을 자주 쓴다면 은행 이름을 매번 검색하기보다 공식 홈페이지 주소를 즐겨찾기에 등록해두는 편이 안전하다. 은행 앱도 공식 앱마켓에서 직접 검색해 설치하는 것이 좋고, 문자나 이메일에 들어 있는 링크를 눌러 접속하는 습관은 피하는 것이 좋다.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>직접투자와 간접투자 차이, 종류와 장단점 쉽게 정리</title>
+				<link>https://money.devkuma.com/posts/direct-vs-indirect-investing/</link>
+				<pubDate>Mon, 18 May 2026 23:26:03 +0900</pubDate>
+				<guid>https://money.devkuma.com/posts/direct-vs-indirect-investing/</guid>
+				<description>&lt;p&gt;투자를 시작하려고 하면 가장 먼저 부딪히는 고민이 있다. 내가 직접 종목을 고를 것인지, 아니면 펀드나 ETF처럼 누군가 운용하는 상품을 활용할 것인지다. 주변에서는 &amp;ldquo;좋은 주식을 직접 사야 돈을 번다&amp;quot;고 말하기도 하고, 또 다른 쪽에서는 &amp;ldquo;초보자는 분산투자 상품부터 해야 한다&amp;quot;고 말한다.&lt;/p&gt;&#xA;&lt;p&gt;둘 다 맞는 말일 수 있다. 직접투자는 내가 판단하고 내가 책임지는 방식이고, 간접투자는 전문가나 상품 구조를 활용해 투자하는 방식이다. 어느 쪽이 무조건 좋다고 말하기 어렵다. 투자자의 시간, 지식, 성향, 자금 규모, 목표 기간에 따라 더 맞는 방식이 달라진다.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>사모펀드 뜻과 특징, 장단점까지 한눈에 이해하기</title>
+				<link>https://money.devkuma.com/posts/private-fund/</link>
+				<pubDate>Mon, 18 May 2026 23:14:14 +0900</pubDate>
+				<guid>https://money.devkuma.com/posts/private-fund/</guid>
+				<description>&lt;p&gt;사모펀드는 경제 뉴스에서 자주 나오지만, 막상 설명하려고 하면 조금 애매한 투자 상품이다. &amp;ldquo;큰돈을 가진 사람들만 하는 투자&amp;rdquo;, &amp;ldquo;기업을 사고파는 펀드&amp;rdquo;, &amp;ldquo;수익률은 높지만 위험한 상품&amp;quot;처럼 여러 이미지가 섞여 있기 때문이다.&lt;/p&gt;&#xA;&lt;p&gt;사모펀드를 이해할 때 가장 먼저 잡아야 할 기준은 &amp;ldquo;누구에게 돈을 모으는가&amp;quot;다. 많은 사람에게 공개적으로 판매하는 펀드는 공모펀드이고, 제한된 소수 투자자에게 비공개로 자금을 모아 운용하는 펀드는 사모펀드다.&lt;/p&gt;&#xA;&lt;p&gt;다만 사모펀드는 구조가 복잡하고, 투자 대상도 주식이나 채권처럼 단순하지 않은 경우가 많다. 그래서 수익 가능성만 보고 접근하기보다, 돈이 얼마나 오래 묶이는지, 손실이 났을 때 감당할 수 있는지, 운용사가 무엇에 투자하는지를 먼저 봐야 한다.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>돈이란 무엇인가? 경제에서 돈이 움직이는 원리와 화폐의 기능</title>
+				<link>https://money.devkuma.com/posts/what-is-money/</link>
+				<pubDate>Sun, 17 May 2026 16:38:48 +0900</pubDate>
+				<guid>https://money.devkuma.com/posts/what-is-money/</guid>
+				<description>&lt;p&gt;돈은 매일 쓰지만 막상 &amp;ldquo;돈이 뭐야?&amp;ldquo;라고 물으면 대답이 생각보다 쉽지 않다. 지갑에 있는 현금도 돈이고, 은행 앱에 찍힌 예금 잔액도 돈이고, 카드로 결제할 수 있는 한도도 어떤 의미에서는 돈처럼 느껴진다.&lt;/p&gt;&#xA;&lt;p&gt;돈을 단순히 종이 지폐나 동전으로만 보면 경제를 이해하기 어렵다. 지금의 경제에서는 월급, 예금, 대출, 카드 결제, 주식 투자, 금리, 인플레이션이 모두 돈의 흐름과 연결되어 있다. 그래서 돈을 제대로 이해한다는 것은 &amp;ldquo;많이 버는 방법&amp;quot;을 알기 전에, 돈이 왜 가치가 있고 어떻게 움직이는지 이해하는 일에 가깝다.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>돈을 맡기면 왜 이자를 줄까? 예금금리와 대출금리의 원리</title>
+				<link>https://money.devkuma.com/posts/deposit-loan-interest-basics/</link>
+				<pubDate>Mon, 11 May 2026 22:28:30 +0900</pubDate>
+				<guid>https://money.devkuma.com/posts/deposit-loan-interest-basics/</guid>
+				<description>&lt;p&gt;은행에 돈을 맡기면 시간이 지난 뒤 이자가 붙는다. 처음 금융을 배울 때는 이 부분이 조금 이상하게 느껴질 수 있다. 은행이 내 돈을 보관해주는데 왜 오히려 나에게 돈을 더 줄까.&lt;/p&gt;&#xA;&lt;p&gt;반대로 대출을 받으면 은행에 이자를 내야 한다. 같은 이자인데 예금할 때는 받고, 대출할 때는 낸다. 결국 이자를 이해하려면 은행이 돈을 어떻게 모으고, 그 돈을 어떻게 굴리는지 알아야 한다.&lt;/p&gt;&#xA;&lt;p&gt;이 글에서는 이자와 금리의 기본 개념부터 예금금리, 대출금리, 예대마진까지 초보자도 이해하기 쉽게 정리하였다.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>뱅크런 뜻과 원인, 실제 사례로 쉽게 이해하는 은행 대규모 예금 인출 사태</title>
+				<link>https://money.devkuma.com/posts/bank-run/</link>
+				<pubDate>Mon, 11 May 2026 22:18:07 +0900</pubDate>
+				<guid>https://money.devkuma.com/posts/bank-run/</guid>
+				<description>&lt;p&gt;은행은 평소에는 가장 안전한 금융기관처럼 느껴진다. 월급이 들어오고, 카드값이 빠져나가고, 정기예금과 적금을 맡겨두는 곳이기 때문이다. 그런데 금융 뉴스에서 가끔 &amp;ldquo;뱅크런 우려&amp;rdquo;, &amp;ldquo;대규모 예금 인출&amp;rdquo;, &amp;ldquo;은행 유동성 위기&amp;rdquo; 같은 표현이 나오면 갑자기 불안해진다.&lt;/p&gt;&#xA;&lt;p&gt;뱅크런은 은행에 맡긴 돈을 사람들이 한꺼번에 찾으려는 현상이다. 단순히 예금이 조금 줄어드는 수준이 아니라, 예금자들의 불안이 빠르게 번지면서 은행의 지급 능력 자체를 흔드는 상황을 말한다.&lt;/p&gt;&#xA;&lt;p&gt;이 글에서는 뱅크런의 뜻, 왜 은행에 이런 일이 생기는지, 실제 사례와 디지털 시대의 특징, 그리고 개인이 어떤 기준으로 예금을 관리하면 좋은지 정리하였다.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>CMA 통장이란? 장단점과 종류, 원금손실 위험까지 쉽게 정리</title>
+				<link>https://money.devkuma.com/posts/cma-account-guide/</link>
+				<pubDate>Sun, 10 May 2026 18:25:11 +0900</pubDate>
+				<guid>https://money.devkuma.com/posts/cma-account-guide/</guid>
+				<description>&lt;p&gt;월급이 들어오면 며칠 뒤 카드값, 관리비, 통신비가 빠져나간다. 투자하려고 모아둔 돈도 당장 매수할 종목이 없으면 며칠 또는 몇 주 동안 현금으로 남아 있다. 이런 돈을 일반 입출금 통장에 그대로 두면 이자가 거의 붙지 않는다.&lt;/p&gt;&#xA;&lt;p&gt;이럴 때 많이 찾는 계좌가 &lt;strong&gt;CMA 통장&lt;/strong&gt; 이다. CMA는 자유롭게 입출금하면서도 일반 통장보다 높은 수익을 기대할 수 있어 &amp;ldquo;재테크 기본 통장&amp;quot;처럼 쓰인다. 다만 은행 예금과 완전히 같은 상품은 아니므로, 장점만 보고 큰돈을 넣기 전에 구조와 위험을 같이 이해해야 한다.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>계좌개설 20일 제한 뜻과 해제일 확인 방법</title>
+				<link>https://money.devkuma.com/posts/account-opening-20-business-day-rule/</link>
+				<pubDate>Sun, 10 May 2026 18:12:21 +0900</pubDate>
+				<guid>https://money.devkuma.com/posts/account-opening-20-business-day-rule/</guid>
+				<description>&lt;p&gt;예금 금리가 조금만 올라가도 &amp;ldquo;이번에는 저 은행 특판으로 갈아타야겠다&amp;quot;는 생각이 든다. 그런데 막상 새 통장을 만들려고 하면 &amp;ldquo;최근 입출금 계좌를 개설해 신규 계좌 개설이 어렵다&amp;quot;는 안내가 뜨는 경우가 있다. 이때 걸리는 것이 흔히 말하는 계좌개설 20일 제한이다.&lt;/p&gt;&#xA;&lt;p&gt;정확한 이름은 &amp;ldquo;단기간 다수계좌 개설 제한&amp;quot;이다. 한 금융회사에서 입출금 통장이나 증권 계좌를 새로 만든 뒤 일정 기간 안에 다른 금융회사에서 또 새 계좌를 만드는 것을 제한하는 방식이다. 대포통장, 보이스피싱, 명의도용 계좌를 줄이기 위한 목적이지만, 예금 특판이나 공모주 청약을 준비하는 사람에게는 꽤 답답한 규칙으로 느껴진다.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>삼성증권 중개형 ISA 개설 이벤트 혜택 정리: 신규·이전 고객은 어디까지 받을 수 있을까</title>
+				<link>https://money.devkuma.com/posts/samsung-securities-isa-event/</link>
+				<pubDate>Sun, 10 May 2026 09:14:09 +0900</pubDate>
+				<guid>https://money.devkuma.com/posts/samsung-securities-isa-event/</guid>
+				<description>&lt;p&gt;요즘 ISA 계좌 하나쯤은 다들 고민한다. 절세에 좋다는 건 알겠는데, 막상 만들려고 하면 증권사도 많고 이벤트도 자주 바뀌어서 언제 개설해야 할지 애매하다.&lt;/p&gt;&#xA;&lt;p&gt;나도 ISA 만기가 다가오면서 증권사 이벤트를 찾아보다가 삼성증권 중개형 ISA 이벤트를 보게 되었다. 조건을 보니 신규 개설자, 기존 고객, 타사 ISA 이전을 고민하는 사람에게 각각 볼 만한 포인트가 있었다.&lt;/p&gt;&#xA;&lt;p&gt;다만 먼저 분명히 해둘 점이 있다. 이 글은 삼성증권 ISA 계좌 개설 추천이나 투자 권유가 아니다. 계좌 개설 여부, 이벤트 참여 여부, 투자 여부는 모두 본인이 직접 판단해야 한다. 그리고 모든 증권사 이벤트를 비교한 것이 아니므로 다른 증권사에 더 좋은 조건이 있을 가능성도 있다.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>BIS 비율이란? 은행 건전성을 보는 자본 적정성 지표 쉽게 이해하기</title>
+				<link>https://money.devkuma.com/posts/bis-capital-ratio/</link>
+				<pubDate>Sun, 10 May 2026 00:48:42 +0900</pubDate>
+				<guid>https://money.devkuma.com/posts/bis-capital-ratio/</guid>
+				<description>&lt;p&gt;은행은 평소에는 안전해 보인다. 예금을 받고, 대출을 해주고, 이자를 받는 구조라 단순해 보이기도 한다. 하지만 은행의 자산 대부분은 대출과 투자자산이다. 경기 침체가 오거나 부동산 가격이 급락하거나 기업이 대출을 갚지 못하면 은행도 손실을 볼 수 있다.&lt;/p&gt;&#xA;&lt;p&gt;이때 중요한 질문이 생긴다. &amp;ldquo;은행이 손실을 감당할 만큼 충분한 자본을 갖고 있는가?&amp;rdquo; 이 질문에 답하기 위해 쓰는 대표적인 지표가 &lt;strong&gt;BIS 비율&lt;/strong&gt;이다.&lt;/p&gt;&#xA;&lt;p&gt;BIS 비율은 은행의 자기자본을 위험가중자산으로 나눈 비율이다. 쉽게 말하면 은행이 위험한 자산을 얼마나 갖고 있고, 그 위험을 버틸 자기자본은 얼마나 준비했는지 보는 지표다. 은행의 체력을 보는 숫자라고 이해하면 된다.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>캐리 트레이드란? 금리 차이로 수익을 노리는 외환 투자 전략 쉽게 이해하기</title>
+				<link>https://money.devkuma.com/posts/carry-trade/</link>
+				<pubDate>Sun, 10 May 2026 00:33:17 +0900</pubDate>
+				<guid>https://money.devkuma.com/posts/carry-trade/</guid>
+				<description>&lt;p&gt;환율 뉴스를 보다 보면 &amp;ldquo;엔 캐리 트레이드 청산&amp;rdquo;, &amp;ldquo;달러 강세와 캐리 트레이드&amp;rdquo;, &amp;ldquo;고금리 통화로 자금이 이동한다&amp;rdquo; 같은 표현이 나온다. 주식이나 예금보다 낯선 말이라 어렵게 느껴지지만, 핵심은 단순하다. 금리가 낮은 통화로 돈을 조달하고, 금리가 높은 통화에 투자해 차이를 노리는 전략이다.&lt;/p&gt;&#xA;&lt;p&gt;캐리 트레이드(Carry Trade)는 서로 다른 통화 간의 금리 차이를 활용해 수익을 얻으려는 외환 투자 전략이다. 예를 들어 어떤 통화는 연 1% 금리이고 다른 통화는 연 5% 금리라면, 낮은 금리 통화로 자금을 마련해 높은 금리 통화에 투자할 때 연 4%포인트의 금리 차이를 기대할 수 있다.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>1금융권과 2금융권 차이, 은행과 저축은행을 고르기 전에 알아야 할 것</title>
+				<link>https://money.devkuma.com/posts/first-second-financial-sector-difference/</link>
+				<pubDate>Thu, 07 May 2026 22:39:13 +0900</pubDate>
+				<guid>https://money.devkuma.com/posts/first-second-financial-sector-difference/</guid>
+				<description>&lt;p&gt;은행 앱에서 예금을 찾다 보면 제1금융권, 제2금융권이라는 말을 자주 보게 된다. 대출을 알아볼 때도 마찬가지다. 어떤 곳은 금리가 낮지만 심사가 까다롭고, 어떤 곳은 금리가 높지만 승인 가능성이 상대적으로 높다고 말한다. 그러다 보면 자연스럽게 이런 생각이 든다. 도대체 1금융권과 2금융권은 무엇이 다를까.&lt;/p&gt;&#xA;&lt;p&gt;결론부터 말하면 제1금융권은 우리가 보통 &amp;ldquo;은행&amp;quot;이라고 부르는 기관이고, 제2금융권은 은행은 아니지만 금융 서비스를 제공하는 제도권 금융기관이다. 둘 다 돈을 맡기고 빌리는 금융 업무를 하지만, 적용받는 법, 취급하는 상품, 금리 수준, 심사 기준, 안정성에서 차이가 있다.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>기준금리가 오르면 예금금리와 대출금리는 왜 같이 움직일까</title>
+				<link>https://money.devkuma.com/posts/base-rate-deposit-loan-interest/</link>
+				<pubDate>Wed, 06 May 2026 23:32:08 +0900</pubDate>
+				<guid>https://money.devkuma.com/posts/base-rate-deposit-loan-interest/</guid>
+				<description>&lt;p&gt;뉴스에서 &amp;ldquo;한국은행이 기준금리를 올렸다&amp;quot;는 말을 들으면 바로 궁금해진다. 그러면 내 예금 이자도 오를까. 대출 이자는 언제부터 늘어날까. 은행 앱에서 보는 금리는 왜 뉴스에 나온 기준금리와 숫자가 다를까.&lt;/p&gt;&#xA;&lt;p&gt;금리는 돈의 가격이다. 돈을 맡기는 사람에게는 이자가 수익이고, 돈을 빌리는 사람에게는 이자가 비용이다. 그래서 기준금리가 움직이면 예금금리와 대출금리도 영향을 받는다. 다만 버튼을 누르듯이 동시에 똑같이 움직이는 것은 아니다.&lt;/p&gt;&#xA;&lt;p&gt;이 글에서는 기준금리가 무엇인지, 예금금리와 대출금리는 무엇이 다른지, 기준금리가 오를 때 왜 예금과 대출 금리가 같이 움직일 수 있는지 쉽게 정리하였다.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>연금저축·IRP 세액공제 총정리: 한도, 환급액, ISA 전환까지 쉽게 설명</title>
+				<link>https://money.devkuma.com/posts/pension-savings-irp-tax-credit/</link>
+				<pubDate>Sun, 03 May 2026 11:14:33 +0900</pubDate>
+				<guid>https://money.devkuma.com/posts/pension-savings-irp-tax-credit/</guid>
+				<description>&lt;p&gt;연말정산을 할 때마다 &amp;ldquo;이번에는 돌려받을까, 더 낼까&amp;rdquo; 하는 생각이 먼저 든다. 연말정산은 1년 동안 미리 낸 세금과 실제로 부담해야 할 세금을 다시 맞추는 과정이다. 미리 낸 세금이 많으면 환급을 받고, 적게 냈으면 추가로 납부한다.&lt;/p&gt;&#xA;&lt;p&gt;그래서 많은 사람이 연말정산 전에 세액공제 항목을 찾는다. 그중에서도 연금저축과 IRP는 비교적 구조가 명확하다. 노후 자금을 준비하면서 지금 내야 할 세금을 줄일 수 있기 때문이다.&lt;/p&gt;&#xA;&lt;p&gt;다만 처음 보면 용어가 꽤 헷갈린다. 연금저축은 얼마까지 되는지, IRP는 꼭 필요한지, 얼마를 넣어야 최대 환급을 받을 수 있는지 감이 잘 안 온다. 이 글에서는 연금저축과 IRP 세액공제를 누구나 이해하기 쉽게 정리하였다.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>단리와 복리 차이 쉽게 비교: 이자 계산법과 그래프까지</title>
+				<link>https://money.devkuma.com/posts/simple-vs-compound-interest/</link>
+				<pubDate>Sat, 02 May 2026 23:34:59 +0900</pubDate>
+				<guid>https://money.devkuma.com/posts/simple-vs-compound-interest/</guid>
+				<description>&lt;p&gt;은행에 이자율을 알아보다 보면 단리, 복리라는 말이 꼭 나온다. 처음에는 그냥 &amp;ldquo;이자 붙는 방식이 다르겠지&amp;rdquo; 하고 넘기기 쉬운데, 막상 예금이나 적금을 고를 때는 이 차이가 생각보다 크게 느껴진다. 나도 최근에 예금 금리를 비교하다가 단리인지 복리인지부터 다시 확인하게 되더라.&lt;/p&gt;&#xA;&lt;p&gt;이 글에서는 단리와 복리를 가장 쉬운 방식으로 비교해보고, 이자를 어떻게 계산하는지, 실제로 얼마나 차이가 나는지 그래프로 보여줄게. 그리고 복리가 무조건 좋은 건 아닌 이유도 같이 보자.&lt;/p&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;h2 id=&#34;단리와-복리-뭐가-다른가&#34; class=&#34;heading&#34;&gt;단리와 복리, 뭐가 다른가&lt;a href=&#34;#%eb%8b%a8%eb%a6%ac%ec%99%80-%eb%b3%b5%eb%a6%ac-%eb%ad%90%ea%b0%80-%eb%8b%a4%eb%a5%b8%ea%b0%80&#34; aria-labelledby=&#34;단리와-복리-뭐가-다른가&#34;&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;                &#xA;                        &#xA;                        &#xA;                        &lt;svg class=&#34;svg-inline--fa fas fa-link anchor&#34; fill=&#34;currentColor&#34; aria-hidden=&#34;true&#34; role=&#34;img&#34; viewBox=&#34;0 0 576 512&#34; overflow=&#34;visible&#34;&gt;&lt;use href=&#34;#fas-link&#34;&gt;&lt;/use&gt;&lt;/svg&gt;&amp;nbsp;&#xA;    &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&#xA;&lt;p&gt;단리는 &lt;strong&gt;원금에만 이자가 붙는 방식&lt;/strong&gt;이다. 반대로 복리는 &lt;strong&gt;원금에 붙은 이자까지 다시 원금처럼 계산하는 방식&lt;/strong&gt;이다. 말은 어렵지만 핵심은 단순하다. 단리는 이자가 늘어도 계산 기준이 그대로이고, 복리는 시간이 지날수록 계산 기준이 커진다.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>파킹 통장이란? 이자도 챙기고 유동성까지 잡는 가장 쉬운 방법</title>
+				<link>https://money.devkuma.com/posts/parking-account-guide/</link>
+				<pubDate>Fri, 01 May 2026 00:00:00 +0900</pubDate>
+				<guid>https://money.devkuma.com/posts/parking-account-guide/</guid>
+				<description>&lt;h2 id=&#34;파킹-통장이란-왜-요즘-다들-쓰는-걸까&#34; class=&#34;heading&#34;&gt;파킹 통장이란? 왜 요즘 다들 쓰는 걸까?&lt;a href=&#34;#%ed%8c%8c%ed%82%b9-%ed%86%b5%ec%9e%a5%ec%9d%b4%eb%9e%80-%ec%99%9c-%ec%9a%94%ec%a6%98-%eb%8b%a4%eb%93%a4-%ec%93%b0%eb%8a%94-%ea%b1%b8%ea%b9%8c&#34; aria-labelledby=&#34;파킹-통장이란-왜-요즘-다들-쓰는-걸까&#34;&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;                &#xA;                        &#xA;                        &#xA;                        &lt;svg class=&#34;svg-inline--fa fas fa-link anchor&#34; fill=&#34;currentColor&#34; aria-hidden=&#34;true&#34; role=&#34;img&#34; viewBox=&#34;0 0 576 512&#34; overflow=&#34;visible&#34;&gt;&lt;use href=&#34;#fas-link&#34;&gt;&lt;/use&gt;&lt;/svg&gt;&amp;nbsp;&#xA;    &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&#xA;&lt;p&gt;돈을 모으다 보면 항상 애매한 순간이 온다. 당장 쓸 돈은 아닌데, 그렇다고 묶어두기엔 불안한 돈 말이다. 그냥 일반 통장에 넣어두자니 이자가 거의 없고, 예적금에 넣자니 중간에 쓸 수도 있다.&lt;/p&gt;&#xA;&lt;p&gt;이럴 때 등장하는 게 바로 &lt;strong&gt;파킹 통장&lt;/strong&gt; 이다. 말 그대로 돈을 잠깐 &amp;ldquo;주차&amp;rdquo; 해두는 통장인데, 자유롭게 입출금이 가능하면서도 일반 통장보다 높은 금리를 준다.&lt;/p&gt;&#xA;&lt;p&gt;요즘 금리 변동이 심한 상황에서 파킹 통장은 단기 자금 관리의 기본 도구로 자리 잡았다.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>금융 문맹 탈출 첫걸음, &#34;경제금융용어&#34; 무료 다운로드와 활용법</title>
+				<link>https://money.devkuma.com/posts/economic-financial-terms-guide-download/</link>
+				<pubDate>Thu, 30 Apr 2026 00:09:00 +0900</pubDate>
+				<guid>https://money.devkuma.com/posts/economic-financial-terms-guide-download/</guid>
+				<description>&lt;h2 id=&#34;왜-지금-경제금융용어를-봐야-할까&#34; class=&#34;heading&#34;&gt;왜 지금 &amp;ldquo;경제금융용어&amp;quot;를 봐야 할까&lt;a href=&#34;#%ec%99%9c-%ec%a7%80%ea%b8%88-%ea%b2%bd%ec%a0%9c%ea%b8%88%ec%9c%b5%ec%9a%a9%ec%96%b4%eb%a5%bc-%eb%b4%90%ec%95%bc-%ed%95%a0%ea%b9%8c&#34; aria-labelledby=&#34;왜-지금-경제금융용어를-봐야-할까&#34;&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;                &#xA;                        &#xA;                        &#xA;                        &lt;svg class=&#34;svg-inline--fa fas fa-link anchor&#34; fill=&#34;currentColor&#34; aria-hidden=&#34;true&#34; role=&#34;img&#34; viewBox=&#34;0 0 576 512&#34; overflow=&#34;visible&#34;&gt;&lt;use href=&#34;#fas-link&#34;&gt;&lt;/use&gt;&lt;/svg&gt;&amp;nbsp;&#xA;    &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&#xA;&lt;p&gt;회사 일만 하면서 월급 들어오면 저축만 반복하던 시기가 있었다. 그때는 나름 안정적으로 살고 있다고 생각했는데, 어느 순간 깨달았다. 나는 금융을 전혀 모르고 있었다.&lt;/p&gt;&#xA;&lt;p&gt;금리, 인플레이션, 채권 같은 단어는 뉴스에 계속 나오는데 정확히 이해하지 못했다. 결국 이건 선택이 아니라 생존 문제라는 생각이 들었다.&lt;/p&gt;&#xA;&lt;p&gt;그 과정에서 발견한 게 바로 &lt;strong&gt;&amp;ldquo;경제금융용어&amp;rdquo; 책자&lt;/strong&gt; 다. 어렵게 느껴졌던 경제 용어를 가장 기초부터 정리해주는 자료였다.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>ISA, IRP, 연금저축에 대한 쉬운 설명</title>
+				<link>https://money.devkuma.com/posts/irs-irp-pension-savings/</link>
+				<pubDate>Sun, 22 Feb 2026 12:26:00 +0900</pubDate>
+				<guid>https://money.devkuma.com/posts/irs-irp-pension-savings/</guid>
+				<description>&lt;h2 id=&#34;1-isa-개인종합자산관리계좌&#34; class=&#34;heading&#34;&gt;1. ISA (개인종합자산관리계좌)&lt;a href=&#34;#1-isa-%ea%b0%9c%ec%9d%b8%ec%a2%85%ed%95%a9%ec%9e%90%ec%82%b0%ea%b4%80%eb%a6%ac%ea%b3%84%ec%a2%8c&#34; aria-labelledby=&#34;1-isa-개인종합자산관리계좌&#34;&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;                &#xA;                        &#xA;                        &#xA;                        &lt;svg class=&#34;svg-inline--fa fas fa-link anchor&#34; fill=&#34;currentColor&#34; aria-hidden=&#34;true&#34; role=&#34;img&#34; viewBox=&#34;0 0 576 512&#34; overflow=&#34;visible&#34;&gt;&lt;use href=&#34;#fas-link&#34;&gt;&lt;/use&gt;&lt;/svg&gt;&amp;nbsp;&#xA;    &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&#xA;&lt;p&gt;ISA(Individual Savings Account)는 하나의 계좌에서 예금, 펀드, ETF, 주식 등 다양한 금융상품을 통합 관리하면서 세제 혜택을 받을 수 있는 계좌이다.&lt;/p&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;h3 id=&#34;주요-특징&#34; class=&#34;heading&#34;&gt;① 주요 특징&lt;a href=&#34;#%ec%a3%bc%ec%9a%94-%ed%8a%b9%ec%a7%95&#34; aria-labelledby=&#34;주요-특징&#34;&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;                &#xA;                        &#xA;                        &#xA;                        &lt;svg class=&#34;svg-inline--fa fas fa-link anchor&#34; fill=&#34;currentColor&#34; aria-hidden=&#34;true&#34; role=&#34;img&#34; viewBox=&#34;0 0 576 512&#34; overflow=&#34;visible&#34;&gt;&lt;use href=&#34;#fas-link&#34;&gt;&lt;/use&gt;&lt;/svg&gt;&amp;nbsp;&#xA;    &lt;/a&gt;&#xA;&lt;/h3&gt;&#xA;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;하나의 계좌로 다양한 금융상품 운용 가능&lt;/li&gt;&#xA;&lt;li&gt;일정 한도 내 수익에 대해 비과세 혜택&lt;/li&gt;&#xA;&lt;li&gt;초과 수익에 대해서는 저율(9.9%) 분리과세 적용&lt;/li&gt;&#xA;&lt;li&gt;의무 가입기간: 일반적으로 3년&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;h3 id=&#34;세제-혜택&#34; class=&#34;heading&#34;&gt;② 세제 혜택&lt;a href=&#34;#%ec%84%b8%ec%a0%9c-%ed%98%9c%ed%83%9d&#34; aria-labelledby=&#34;세제-혜택&#34;&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;                &#xA;                        &#xA;                        &#xA;                        &lt;svg class=&#34;svg-inline--fa fas fa-link anchor&#34; fill=&#34;currentColor&#34; aria-hidden=&#34;true&#34; role=&#34;img&#34; viewBox=&#34;0 0 576 512&#34; overflow=&#34;visible&#34;&gt;&lt;use href=&#34;#fas-link&#34;&gt;&lt;/use&gt;&lt;/svg&gt;&amp;nbsp;&#xA;    &lt;/a&gt;&#xA;&lt;/h3&gt;&#xA;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;일반형: 순이익 200만원까지 비과세&lt;/li&gt;&#xA;&lt;li&gt;서민형/농어민형: 순이익 400만원까지 비과세&lt;/li&gt;&#xA;&lt;li&gt;비과세 한도 초과분은 9.9% 분리과세&#xA;(일반 금융소득세 15.4%보다 낮음)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;h3 id=&#34;납입-한도&#34; class=&#34;heading&#34;&gt;③ 납입 한도&lt;a href=&#34;#%eb%82%a9%ec%9e%85-%ed%95%9c%eb%8f%84&#34; aria-labelledby=&#34;납입-한도&#34;&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;                &#xA;                        &#xA;                        &#xA;                        &lt;svg class=&#34;svg-inline--fa fas fa-link anchor&#34; fill=&#34;currentColor&#34; aria-hidden=&#34;true&#34; role=&#34;img&#34; viewBox=&#34;0 0 576 512&#34; overflow=&#34;visible&#34;&gt;&lt;use href=&#34;#fas-link&#34;&gt;&lt;/use&gt;&lt;/svg&gt;&amp;nbsp;&#xA;    &lt;/a&gt;&#xA;&lt;/h3&gt;&#xA;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;연 2,000만원&lt;/li&gt;&#xA;&lt;li&gt;최대 1억원까지 누적 납입 가능&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;h3 id=&#34;목적&#34; class=&#34;heading&#34;&gt;④ 목적&lt;a href=&#34;#%eb%aa%a9%ec%a0%81&#34; aria-labelledby=&#34;목적&#34;&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;                &#xA;                        &#xA;                        &#xA;                        &lt;svg class=&#34;svg-inline--fa fas fa-link anchor&#34; fill=&#34;currentColor&#34; aria-hidden=&#34;true&#34; role=&#34;img&#34; viewBox=&#34;0 0 576 512&#34; overflow=&#34;visible&#34;&gt;&lt;use href=&#34;#fas-link&#34;&gt;&lt;/use&gt;&lt;/svg&gt;&amp;nbsp;&#xA;    &lt;/a&gt;&#xA;&lt;/h3&gt;&#xA;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;중·단기 자산 형성&lt;/li&gt;&#xA;&lt;li&gt;절세를 통한 투자 수익 극대화&lt;/li&gt;&#xA;&lt;li&gt;금융상품 통합 관리&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;ISA는 비교적 유연한 인출이 가능하며, 노후 전용 상품은 아니다.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>금융 지능이란?</title>
+				<link>https://money.devkuma.com/posts/financial-intelligence/</link>
+				<pubDate>Sun, 08 Feb 2026 11:49:00 +0900</pubDate>
+				<guid>https://money.devkuma.com/posts/financial-intelligence/</guid>
+				<description>&lt;p&gt;&lt;strong&gt;금융 지능(Financial Intelligence)&lt;/strong&gt; 은 쉽게 말해서 &lt;strong&gt;돈의 흐름을 이해하고, 합리적으로 돈을 관리하고, 장기적으로 자산을 늘릴 수 있는 능력&lt;/strong&gt;을 의미한다.&lt;br&gt;&#xA;단순히 &amp;ldquo;돈을 많이 아는 것&amp;quot;이 아니라 &lt;strong&gt;돈을 다루는 사고방식 + 판단력 + 실행 능력&lt;/strong&gt;을 포함한다.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;h2 id=&#34;금융-지능이란&#34; class=&#34;heading&#34;&gt;금융 지능이란?&lt;a href=&#34;#%ea%b8%88%ec%9c%b5-%ec%a7%80%eb%8a%a5%ec%9d%b4%eb%9e%80&#34; aria-labelledby=&#34;금융-지능이란&#34;&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;                &#xA;                        &#xA;                        &#xA;                        &lt;svg class=&#34;svg-inline--fa fas fa-link anchor&#34; fill=&#34;currentColor&#34; aria-hidden=&#34;true&#34; role=&#34;img&#34; viewBox=&#34;0 0 576 512&#34; overflow=&#34;visible&#34;&gt;&lt;use href=&#34;#fas-link&#34;&gt;&lt;/use&gt;&lt;/svg&gt;&amp;nbsp;&#xA;    &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&#xA;&lt;p&gt;&lt;strong&gt;금융 지능(Financial Intelligence)&lt;/strong&gt; 이란 개인이 재무와 관련된 정보를 이해하고 분석하여 합리적인 의사결정을 내릴 수 있는 능력을 의미한다. 이는 단순히 금융 지식을 보유하는 수준을 넘어, 수입과 지출을 관리하고 자산을 형성하며 장기적으로 재정적 안정과 성장을 달성하는 종합적인 역량을 포함한다.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>은행과 저축은행의 차이</title>
+				<link>https://money.devkuma.com/posts/bank-vs-savings-bank/</link>
+				<pubDate>Sat, 06 Apr 2024 23:46:00 +0900</pubDate>
+				<guid>https://money.devkuma.com/posts/bank-vs-savings-bank/</guid>
+				<description>&lt;p&gt;은행은 제1금융권이라고 하고, 이를 제외한 대부분의 금융기관을 제2금융권이라고 한다.&lt;br&gt;&#xA;예를 들면, 증권사, 종합금융회사, 보험회사, 카드사, 캐피탈 등이 해당된다.&lt;/p&gt;&#xA;&lt;p&gt;그리고 &amp;lsquo;저축은행&amp;rsquo;도 제2금융권에 속한다. 사실 저축은행은 &amp;lsquo;은행&amp;rsquo;이 아니기 때문이다.&lt;br&gt;&#xA;저축은행은 원래 &amp;lsquo;신용금고&amp;rsquo;라는 이름의 사금융 기관이다.&lt;/p&gt;&#xA;&lt;p&gt;예전에 비자금과 금융사기의 도구로 사용되며 &amp;lsquo;신용금고&amp;rsquo;라는 단어 자체의 이미지가 나빠지자 사람들은 신용금고 이용을 꺼려해지게 되면서&lt;/p&gt;&#xA;&lt;p&gt;관련 업계가 완전히 사장될 것을 우려해 국회는 은행법을 개정하며 &amp;lsquo;은행&amp;rsquo;이라는 이름의 사용을 허가하였고, 현재의 ‘저축은행’이 되었다&#xA;여기서 주의 할 점은 &amp;lsquo;저축은행&amp;rsquo;을 표기할 때도 &amp;lsquo;저축 은행&amp;rsquo; 이렇게 띄어쓰면 안된다.&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

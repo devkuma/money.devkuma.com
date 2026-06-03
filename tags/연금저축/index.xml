@@ -1,33 +1,38 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>연금저축 on Show Me the Money::devkuma</title>
-    <link>https://money.devkuma.com/tags/%EC%97%B0%EA%B8%88%EC%A0%80%EC%B6%95/</link>
-    <description>Recent content in 연금저축 on Show Me the Money::devkuma</description>
-    <generator>Hugo</generator>
-    <language>ko-KR</language>
-    <lastBuildDate>Thu, 28 May 2026 08:10:46 +0900</lastBuildDate>
-    <atom:link href="https://money.devkuma.com/tags/%EC%97%B0%EA%B8%88%EC%A0%80%EC%B6%95/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>[시리즈 연재 ③] ISA 해지한다면 계좌 해지부터 연금 전환까지 완벽 가이드</title>
-      <link>https://money.devkuma.com/posts/isa-closure-pension-transfer-guide/</link>
-      <pubDate>Tue, 12 May 2026 22:34:52 +0900</pubDate>
-      <guid>https://money.devkuma.com/posts/isa-closure-pension-transfer-guide/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;[시리즈 연재] 3년 된 ISA, 어떻게 해야 할까?&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;a href=&#34;https://money.devkuma.com/posts/isa-after-three-years-checklist/&#34; target=&#34;_blank&#34;&gt;가입 후 3년 지난 ISA, 해지 전에 꼭 점검해야 할 5가지&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;a href=&#34;https://money.devkuma.com/posts/isa-maintenance-checklist/&#34; target=&#34;_blank&#34;&gt;ISA 유지한다면 제대로 활용하고 있는지 점검하는 방법&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;ISA 해지한다면 계좌 해지부터 연금 전환까지 완벽 가이드&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;ISA를 해지하기로 결정했다면 다음 고민은 &amp;ldquo;돈을 어디로 옮길 것인가&amp;quot;다. 단순히 현금으로 빼서 쓰는 것도 가능하지만, 당장 쓸 돈이 아니라 노후자금으로 이어갈 계획이라면 연금계좌 전환을 꼭 검토할 만하다.&lt;/p&gt;&#xA;&lt;p&gt;ISA 만기해지자금을 연금계좌로 전환하면 전환금액의 10%, 최대 300만 원까지 추가 세액공제 혜택을 받을 수 있다. 원래 연금저축과 IRP의 연간 세액공제 한도는 합산 900만 원인데, ISA 만기자금 전환이 있는 해에는 최대 1,200만 원까지 세액공제 대상이 될 수 있다.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>연금저축이란? 세액공제, 종류, 장단점까지 초보자용으로 쉽게 정리</title>
-      <link>https://money.devkuma.com/posts/pension-savings/</link>
-      <pubDate>Thu, 28 May 2026 08:10:46 +0900</pubDate>
-      <guid>https://money.devkuma.com/posts/pension-savings/</guid>
-      <description>&lt;p&gt;연금저축은 이름만 보면 단순한 저축상품처럼 느껴진다. 하지만 실제로는 노후자금을 준비하면서 세액공제까지 받을 수 있는 개인연금 계좌에 가깝다. 직장인이라면 연말정산에서 자주 듣고, 자영업자라면 종합소득세를 줄이는 방법으로 자주 접하게 된다.&lt;/p&gt;&#xA;&lt;p&gt;문제는 처음 볼 때 용어가 꽤 헷갈린다는 점이다. 연금저축펀드, 연금저축보험, IRP, 세액공제, 과세이연 같은 단어가 한꺼번에 나온다. 그래서 &amp;ldquo;좋다는데 뭘 가입해야 하지?&amp;rdquo;, &amp;ldquo;중간에 돈이 필요하면 어떻게 하지?&amp;rdquo;, &amp;ldquo;얼마를 넣어야 하지?&amp;rdquo; 같은 질문이 자연스럽게 생긴다.&lt;/p&gt;&#xA;&lt;p&gt;이 글에서는 연금저축이 무엇인지, 어떤 혜택이 있는지, 가입 전에 무엇을 조심해야 하는지 초보자 눈높이에서 정리하였다.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>연금저축·IRP 세액공제 총정리: 한도, 환급액, ISA 전환까지 쉽게 설명</title>
-      <link>https://money.devkuma.com/posts/pension-savings-irp-tax-credit/</link>
-      <pubDate>Sun, 03 May 2026 11:14:33 +0900</pubDate>
-      <guid>https://money.devkuma.com/posts/pension-savings-irp-tax-credit/</guid>
-      <description>&lt;p&gt;연말정산을 할 때마다 &amp;ldquo;이번에는 돌려받을까, 더 낼까&amp;rdquo; 하는 생각이 먼저 든다. 연말정산은 1년 동안 미리 낸 세금과 실제로 부담해야 할 세금을 다시 맞추는 과정이다. 미리 낸 세금이 많으면 환급을 받고, 적게 냈으면 추가로 납부한다.&lt;/p&gt;&#xA;&lt;p&gt;그래서 많은 사람이 연말정산 전에 세액공제 항목을 찾는다. 그중에서도 연금저축과 IRP는 비교적 구조가 명확하다. 노후 자금을 준비하면서 지금 내야 할 세금을 줄일 수 있기 때문이다.&lt;/p&gt;&#xA;&lt;p&gt;다만 처음 보면 용어가 꽤 헷갈린다. 연금저축은 얼마까지 되는지, IRP는 꼭 필요한지, 얼마를 넣어야 최대 환급을 받을 수 있는지 감이 잘 안 온다. 이 글에서는 연금저축과 IRP 세액공제를 누구나 이해하기 쉽게 정리하였다.&lt;/p&gt;</description>
-    </item>
-  </channel>
+	<channel>
+		<title>연금저축 on Show Me the Money::devkuma</title>
+		<link>https://money.devkuma.com/tags/%EC%97%B0%EA%B8%88%EC%A0%80%EC%B6%95/</link>
+		<description>Recent content in 연금저축 on Show Me the Money::devkuma</description>
+		<generator>Hugo</generator>
+		<language>ko-KR</language>
+		
+		
+		
+		
+			<lastBuildDate>Thu, 28 May 2026 08:10:46 +0900</lastBuildDate>
+		
+			<atom:link href="https://money.devkuma.com/tags/%EC%97%B0%EA%B8%88%EC%A0%80%EC%B6%95/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>[시리즈 연재 ③] ISA 해지한다면 계좌 해지부터 연금 전환까지 완벽 가이드</title>
+				<link>https://money.devkuma.com/posts/isa-closure-pension-transfer-guide/</link>
+				<pubDate>Tue, 12 May 2026 22:34:52 +0900</pubDate>
+				<guid>https://money.devkuma.com/posts/isa-closure-pension-transfer-guide/</guid>
+				<description>&lt;p&gt;&lt;strong&gt;[시리즈 연재] 3년 된 ISA, 어떻게 해야 할까?&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;a href=&#34;https://money.devkuma.com/posts/isa-after-three-years-checklist/&#34; target=&#34;_blank&#34;&gt;가입 후 3년 지난 ISA, 해지 전에 꼭 점검해야 할 5가지&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;a href=&#34;https://money.devkuma.com/posts/isa-maintenance-checklist/&#34; target=&#34;_blank&#34;&gt;ISA 유지한다면 제대로 활용하고 있는지 점검하는 방법&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;ISA 해지한다면 계좌 해지부터 연금 전환까지 완벽 가이드&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;ISA를 해지하기로 결정했다면 다음 고민은 &amp;ldquo;돈을 어디로 옮길 것인가&amp;quot;다. 단순히 현금으로 빼서 쓰는 것도 가능하지만, 당장 쓸 돈이 아니라 노후자금으로 이어갈 계획이라면 연금계좌 전환을 꼭 검토할 만하다.&lt;/p&gt;&#xA;&lt;p&gt;ISA 만기해지자금을 연금계좌로 전환하면 전환금액의 10%, 최대 300만 원까지 추가 세액공제 혜택을 받을 수 있다. 원래 연금저축과 IRP의 연간 세액공제 한도는 합산 900만 원인데, ISA 만기자금 전환이 있는 해에는 최대 1,200만 원까지 세액공제 대상이 될 수 있다.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>연금저축이란? 세액공제, 종류, 장단점까지 초보자용으로 쉽게 정리</title>
+				<link>https://money.devkuma.com/posts/pension-savings/</link>
+				<pubDate>Thu, 28 May 2026 08:10:46 +0900</pubDate>
+				<guid>https://money.devkuma.com/posts/pension-savings/</guid>
+				<description>&lt;p&gt;연금저축은 이름만 보면 단순한 저축상품처럼 느껴진다. 하지만 실제로는 노후자금을 준비하면서 세액공제까지 받을 수 있는 개인연금 계좌에 가깝다. 직장인이라면 연말정산에서 자주 듣고, 자영업자라면 종합소득세를 줄이는 방법으로 자주 접하게 된다.&lt;/p&gt;&#xA;&lt;p&gt;문제는 처음 볼 때 용어가 꽤 헷갈린다는 점이다. 연금저축펀드, 연금저축보험, IRP, 세액공제, 과세이연 같은 단어가 한꺼번에 나온다. 그래서 &amp;ldquo;좋다는데 뭘 가입해야 하지?&amp;rdquo;, &amp;ldquo;중간에 돈이 필요하면 어떻게 하지?&amp;rdquo;, &amp;ldquo;얼마를 넣어야 하지?&amp;rdquo; 같은 질문이 자연스럽게 생긴다.&lt;/p&gt;&#xA;&lt;p&gt;이 글에서는 연금저축이 무엇인지, 어떤 혜택이 있는지, 가입 전에 무엇을 조심해야 하는지 초보자 눈높이에서 정리하였다.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>연금저축·IRP 세액공제 총정리: 한도, 환급액, ISA 전환까지 쉽게 설명</title>
+				<link>https://money.devkuma.com/posts/pension-savings-irp-tax-credit/</link>
+				<pubDate>Sun, 03 May 2026 11:14:33 +0900</pubDate>
+				<guid>https://money.devkuma.com/posts/pension-savings-irp-tax-credit/</guid>
+				<description>&lt;p&gt;연말정산을 할 때마다 &amp;ldquo;이번에는 돌려받을까, 더 낼까&amp;rdquo; 하는 생각이 먼저 든다. 연말정산은 1년 동안 미리 낸 세금과 실제로 부담해야 할 세금을 다시 맞추는 과정이다. 미리 낸 세금이 많으면 환급을 받고, 적게 냈으면 추가로 납부한다.&lt;/p&gt;&#xA;&lt;p&gt;그래서 많은 사람이 연말정산 전에 세액공제 항목을 찾는다. 그중에서도 연금저축과 IRP는 비교적 구조가 명확하다. 노후 자금을 준비하면서 지금 내야 할 세금을 줄일 수 있기 때문이다.&lt;/p&gt;&#xA;&lt;p&gt;다만 처음 보면 용어가 꽤 헷갈린다. 연금저축은 얼마까지 되는지, IRP는 꼭 필요한지, 얼마를 넣어야 최대 환급을 받을 수 있는지 감이 잘 안 온다. 이 글에서는 연금저축과 IRP 세액공제를 누구나 이해하기 쉽게 정리하였다.&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

@@ -1,19 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>20일제한 on Show Me the Money::devkuma</title>
-    <link>https://money.devkuma.com/tags/20%EC%9D%BC%EC%A0%9C%ED%95%9C/</link>
-    <description>Recent content in 20일제한 on Show Me the Money::devkuma</description>
-    <generator>Hugo</generator>
-    <language>ko-KR</language>
-    <lastBuildDate>Sun, 10 May 2026 18:12:21 +0900</lastBuildDate>
-    <atom:link href="https://money.devkuma.com/tags/20%EC%9D%BC%EC%A0%9C%ED%95%9C/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>계좌개설 20일 제한 뜻과 해제일 확인 방법</title>
-      <link>https://money.devkuma.com/posts/account-opening-20-business-day-rule/</link>
-      <pubDate>Sun, 10 May 2026 18:12:21 +0900</pubDate>
-      <guid>https://money.devkuma.com/posts/account-opening-20-business-day-rule/</guid>
-      <description>&lt;p&gt;예금 금리가 조금만 올라가도 &amp;ldquo;이번에는 저 은행 특판으로 갈아타야겠다&amp;quot;는 생각이 든다. 그런데 막상 새 통장을 만들려고 하면 &amp;ldquo;최근 입출금 계좌를 개설해 신규 계좌 개설이 어렵다&amp;quot;는 안내가 뜨는 경우가 있다. 이때 걸리는 것이 흔히 말하는 계좌개설 20일 제한이다.&lt;/p&gt;&#xA;&lt;p&gt;정확한 이름은 &amp;ldquo;단기간 다수계좌 개설 제한&amp;quot;이다. 한 금융회사에서 입출금 통장이나 증권 계좌를 새로 만든 뒤 일정 기간 안에 다른 금융회사에서 또 새 계좌를 만드는 것을 제한하는 방식이다. 대포통장, 보이스피싱, 명의도용 계좌를 줄이기 위한 목적이지만, 예금 특판이나 공모주 청약을 준비하는 사람에게는 꽤 답답한 규칙으로 느껴진다.&lt;/p&gt;</description>
-    </item>
-  </channel>
+	<channel>
+		<title>20일제한 on Show Me the Money::devkuma</title>
+		<link>https://money.devkuma.com/tags/20%EC%9D%BC%EC%A0%9C%ED%95%9C/</link>
+		<description>Recent content in 20일제한 on Show Me the Money::devkuma</description>
+		<generator>Hugo</generator>
+		<language>ko-KR</language>
+		
+		
+		
+		
+			<lastBuildDate>Sun, 10 May 2026 18:12:21 +0900</lastBuildDate>
+		
+			<atom:link href="https://money.devkuma.com/tags/20%EC%9D%BC%EC%A0%9C%ED%95%9C/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>계좌개설 20일 제한 뜻과 해제일 확인 방법</title>
+				<link>https://money.devkuma.com/posts/account-opening-20-business-day-rule/</link>
+				<pubDate>Sun, 10 May 2026 18:12:21 +0900</pubDate>
+				<guid>https://money.devkuma.com/posts/account-opening-20-business-day-rule/</guid>
+				<description>&lt;p&gt;예금 금리가 조금만 올라가도 &amp;ldquo;이번에는 저 은행 특판으로 갈아타야겠다&amp;quot;는 생각이 든다. 그런데 막상 새 통장을 만들려고 하면 &amp;ldquo;최근 입출금 계좌를 개설해 신규 계좌 개설이 어렵다&amp;quot;는 안내가 뜨는 경우가 있다. 이때 걸리는 것이 흔히 말하는 계좌개설 20일 제한이다.&lt;/p&gt;&#xA;&lt;p&gt;정확한 이름은 &amp;ldquo;단기간 다수계좌 개설 제한&amp;quot;이다. 한 금융회사에서 입출금 통장이나 증권 계좌를 새로 만든 뒤 일정 기간 안에 다른 금융회사에서 또 새 계좌를 만드는 것을 제한하는 방식이다. 대포통장, 보이스피싱, 명의도용 계좌를 줄이기 위한 목적이지만, 예금 특판이나 공모주 청약을 준비하는 사람에게는 꽤 답답한 규칙으로 느껴진다.&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

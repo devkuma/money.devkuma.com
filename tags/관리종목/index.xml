@@ -1,19 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>관리종목 on Show Me the Money::devkuma</title>
-    <link>https://money.devkuma.com/tags/%EA%B4%80%EB%A6%AC%EC%A2%85%EB%AA%A9/</link>
-    <description>Recent content in 관리종목 on Show Me the Money::devkuma</description>
-    <generator>Hugo</generator>
-    <language>ko-KR</language>
-    <lastBuildDate>Wed, 20 May 2026 21:24:04 +0900</lastBuildDate>
-    <atom:link href="https://money.devkuma.com/tags/%EA%B4%80%EB%A6%AC%EC%A2%85%EB%AA%A9/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>상장폐지 요건 강화, 동전주와 부실기업 퇴출 기준 쉽게 정리</title>
-      <link>https://money.devkuma.com/posts/delisting-rules-tightened/</link>
-      <pubDate>Wed, 20 May 2026 21:24:04 +0900</pubDate>
-      <guid>https://money.devkuma.com/posts/delisting-rules-tightened/</guid>
-      <description>&lt;p&gt;주식을 하다 보면 &amp;ldquo;상장폐지&amp;quot;라는 말이 가장 무섭게 들릴 때가 있다. 주가가 많이 빠지는 것도 힘들지만, 상장폐지는 아예 시장에서 거래할 자격을 잃는 일이기 때문이다. 특히 코스닥 소형주나 동전주를 매매하는 사람이라면 상장폐지 요건이 어떻게 바뀌는지 꼭 알아둘 필요가 있다.&lt;/p&gt;&#xA;&lt;p&gt;2026년에는 부실기업을 더 빠르게 걸러내기 위한 상장폐지 개혁이 본격적으로 시행된다. 핵심은 시가총액 기준을 더 빨리 올리고, 주가 1,000원 미만인 동전주 기준을 새로 만들며, 완전자본잠식과 공시위반 기준도 강화하는 것이다.&lt;/p&gt;&#xA;&lt;p&gt;이 제도는 시장 전체로 보면 건전성을 높이는 방향이지만, 개인 투자자 입장에서는 보유 종목의 위험 신호를 더 빨리 확인해야 한다는 뜻이기도 하다. 상장폐지가 무엇인지, 어떤 기준이 강화되는지, 내 주식이 상장폐지되면 어떤 절차를 거치는지 차근차근 살펴보자.&lt;/p&gt;</description>
-    </item>
-  </channel>
+	<channel>
+		<title>관리종목 on Show Me the Money::devkuma</title>
+		<link>https://money.devkuma.com/tags/%EA%B4%80%EB%A6%AC%EC%A2%85%EB%AA%A9/</link>
+		<description>Recent content in 관리종목 on Show Me the Money::devkuma</description>
+		<generator>Hugo</generator>
+		<language>ko-KR</language>
+		
+		
+		
+		
+			<lastBuildDate>Wed, 20 May 2026 21:24:04 +0900</lastBuildDate>
+		
+			<atom:link href="https://money.devkuma.com/tags/%EA%B4%80%EB%A6%AC%EC%A2%85%EB%AA%A9/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>상장폐지 요건 강화, 동전주와 부실기업 퇴출 기준 쉽게 정리</title>
+				<link>https://money.devkuma.com/posts/delisting-rules-tightened/</link>
+				<pubDate>Wed, 20 May 2026 21:24:04 +0900</pubDate>
+				<guid>https://money.devkuma.com/posts/delisting-rules-tightened/</guid>
+				<description>&lt;p&gt;주식을 하다 보면 &amp;ldquo;상장폐지&amp;quot;라는 말이 가장 무섭게 들릴 때가 있다. 주가가 많이 빠지는 것도 힘들지만, 상장폐지는 아예 시장에서 거래할 자격을 잃는 일이기 때문이다. 특히 코스닥 소형주나 동전주를 매매하는 사람이라면 상장폐지 요건이 어떻게 바뀌는지 꼭 알아둘 필요가 있다.&lt;/p&gt;&#xA;&lt;p&gt;2026년에는 부실기업을 더 빠르게 걸러내기 위한 상장폐지 개혁이 본격적으로 시행된다. 핵심은 시가총액 기준을 더 빨리 올리고, 주가 1,000원 미만인 동전주 기준을 새로 만들며, 완전자본잠식과 공시위반 기준도 강화하는 것이다.&lt;/p&gt;&#xA;&lt;p&gt;이 제도는 시장 전체로 보면 건전성을 높이는 방향이지만, 개인 투자자 입장에서는 보유 종목의 위험 신호를 더 빨리 확인해야 한다는 뜻이기도 하다. 상장폐지가 무엇인지, 어떤 기준이 강화되는지, 내 주식이 상장폐지되면 어떤 절차를 거치는지 차근차근 살펴보자.&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

@@ -1,19 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>주식옵션 on Show Me the Money::devkuma</title>
-    <link>https://money.devkuma.com/tags/%EC%A3%BC%EC%8B%9D%EC%98%B5%EC%85%98/</link>
-    <description>Recent content in 주식옵션 on Show Me the Money::devkuma</description>
-    <generator>Hugo</generator>
-    <language>ko-KR</language>
-    <lastBuildDate>Thu, 14 May 2026 21:53:49 +0900</lastBuildDate>
-    <atom:link href="https://money.devkuma.com/tags/%EC%A3%BC%EC%8B%9D%EC%98%B5%EC%85%98/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>콜옵션 풋옵션 뜻과 차이, 초보자가 이해하기 쉬운 옵션 기초</title>
-      <link>https://money.devkuma.com/posts/call-option-put-option/</link>
-      <pubDate>Thu, 14 May 2026 21:53:49 +0900</pubDate>
-      <guid>https://money.devkuma.com/posts/call-option-put-option/</guid>
-      <description>&lt;p&gt;주식 공부를 하다 보면 콜옵션, 풋옵션이라는 말을 한 번쯤 듣게 된다. 뉴스에서는 경영권 분쟁, 임원 보상, 파생상품 투자, 커버드콜 ETF 같은 이야기와 함께 자주 나온다. 2024년에는 민희진 전 어도어 대표의 풋옵션 이슈가 알려지면서 &amp;ldquo;풋옵션이 대체 뭐길래 1,000억 원대라는 말이 나오지?&amp;ldquo;라고 궁금해한 사람도 많았다.&lt;/p&gt;&#xA;&lt;p&gt;옵션은 말 그대로 &amp;ldquo;권리&amp;quot;다. 미래의 특정 시점에 어떤 자산을 미리 정한 가격으로 사거나 팔 수 있는 권리를 말한다. 주식뿐 아니라 채권, 금, 원유, 지수 같은 여러 자산이 옵션의 대상이 될 수 있다.&lt;/p&gt;</description>
-    </item>
-  </channel>
+	<channel>
+		<title>주식옵션 on Show Me the Money::devkuma</title>
+		<link>https://money.devkuma.com/tags/%EC%A3%BC%EC%8B%9D%EC%98%B5%EC%85%98/</link>
+		<description>Recent content in 주식옵션 on Show Me the Money::devkuma</description>
+		<generator>Hugo</generator>
+		<language>ko-KR</language>
+		
+		
+		
+		
+			<lastBuildDate>Thu, 14 May 2026 21:53:49 +0900</lastBuildDate>
+		
+			<atom:link href="https://money.devkuma.com/tags/%EC%A3%BC%EC%8B%9D%EC%98%B5%EC%85%98/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>콜옵션 풋옵션 뜻과 차이, 초보자가 이해하기 쉬운 옵션 기초</title>
+				<link>https://money.devkuma.com/posts/call-option-put-option/</link>
+				<pubDate>Thu, 14 May 2026 21:53:49 +0900</pubDate>
+				<guid>https://money.devkuma.com/posts/call-option-put-option/</guid>
+				<description>&lt;p&gt;주식 공부를 하다 보면 콜옵션, 풋옵션이라는 말을 한 번쯤 듣게 된다. 뉴스에서는 경영권 분쟁, 임원 보상, 파생상품 투자, 커버드콜 ETF 같은 이야기와 함께 자주 나온다. 2024년에는 민희진 전 어도어 대표의 풋옵션 이슈가 알려지면서 &amp;ldquo;풋옵션이 대체 뭐길래 1,000억 원대라는 말이 나오지?&amp;ldquo;라고 궁금해한 사람도 많았다.&lt;/p&gt;&#xA;&lt;p&gt;옵션은 말 그대로 &amp;ldquo;권리&amp;quot;다. 미래의 특정 시점에 어떤 자산을 미리 정한 가격으로 사거나 팔 수 있는 권리를 말한다. 주식뿐 아니라 채권, 금, 원유, 지수 같은 여러 자산이 옵션의 대상이 될 수 있다.&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

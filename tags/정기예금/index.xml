@@ -1,26 +1,31 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>정기예금 on Show Me the Money::devkuma</title>
-    <link>https://money.devkuma.com/tags/%EC%A0%95%EA%B8%B0%EC%98%88%EA%B8%88/</link>
-    <description>Recent content in 정기예금 on Show Me the Money::devkuma</description>
-    <generator>Hugo</generator>
-    <language>ko-KR</language>
-    <lastBuildDate>Sun, 24 May 2026 08:20:34 +0900</lastBuildDate>
-    <atom:link href="https://money.devkuma.com/tags/%EC%A0%95%EA%B8%B0%EC%98%88%EA%B8%88/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>신탁형 ISA 운용 가능 상품, 국내 주식 투자와 중개형 차이까지 쉽게 정리</title>
-      <link>https://money.devkuma.com/posts/isa-account-type-trust/</link>
-      <pubDate>Sun, 24 May 2026 08:20:34 +0900</pubDate>
-      <guid>https://money.devkuma.com/posts/isa-account-type-trust/</guid>
-      <description>&lt;p&gt;ISA 계좌를 알아보다 보면 신탁형, 일임형, 중개형이라는 말이 계속 나온다. 이름만 봐서는 차이가 잘 안 느껴진다. 특히 신탁형 ISA는 &amp;ldquo;은행에서 만드는 ISA인가?&amp;rdquo;, &amp;ldquo;국내 주식도 살 수 있나?&amp;rdquo;, &amp;ldquo;중개형 ISA와 뭐가 다른가?&amp;rdquo; 같은 질문이 자연스럽게 생긴다.&lt;/p&gt;&#xA;&lt;p&gt;신탁형 ISA는 내가 원하는 금융상품을 고르고, 금융기관에 운용을 지시하는 방식의 ISA다. 정기예금, 펀드 같은 상품을 한 계좌 안에서 운용할 수 있고, 일부 금융기관에서는 국내 상장주식도 선택할 수 있다.&lt;/p&gt;&#xA;&lt;p&gt;다만 모든 신탁형 ISA가 똑같은 상품을 제공하는 것은 아니다. 금융기관마다 운용 가능 상품, 최저 가입 금액, 보수율, 주식 투자 가능 범위가 다르다. 이 글에서는 신탁형 ISA의 개념과 투자 가능 상품, 국내 주식 투자 가능 여부, 신탁보수와 주의사항을 정리했다.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>예금과 적금 차이, 이자 계산까지 쉽게 이해하기</title>
-      <link>https://money.devkuma.com/posts/deposit-vs-savings/</link>
-      <pubDate>Wed, 20 May 2026 08:21:02 +0900</pubDate>
-      <guid>https://money.devkuma.com/posts/deposit-vs-savings/</guid>
-      <description>&lt;p&gt;예금과 적금은 둘 다 은행에 돈을 맡기고 이자를 받는 저축 상품이다. 그런데 막상 가입하려고 보면 &amp;ldquo;예금이랑 적금이 뭐가 다르지?&amp;rdquo;, &amp;ldquo;금리가 같으면 이자도 같은 것 아닌가?&amp;rdquo; 같은 생각이 들 수 있다.&lt;/p&gt;&#xA;&lt;p&gt;핵심은 간단하다. 예금은 목돈을 한 번에 맡기는 방식이고, 적금은 돈을 여러 번 나누어 넣는 방식이다. 금액과 금리가 같다면 보통 정기예금이 정기적금보다 이자가 더 많다. 예금은 처음부터 전체 금액에 이자가 붙지만, 적금은 매달 넣은 돈마다 이자가 붙는 기간이 다르기 때문이다.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&#xA;&#xA;&#xA;&lt;h2 id=&#34;예금이란&#34; class=&#34;heading &#34;&gt;예금이란?&lt;a href=&#34;#%ec%98%88%ea%b8%88%ec%9d%b4%eb%9e%80&#34; aria-labelledby=&#34;예금이란&#34;&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;                &#xA;                        &#xA;                        &#xA;                        &lt;svg class=&#34;svg-inline--fa fas fa-link anchor&#34; fill=&#34;currentColor&#34; aria-hidden=&#34;true&#34; role=&#34;img&#34; viewBox=&#34;0 0 576 512&#34; overflow=&#34;visible&#34;&gt;&lt;use href=&#34;#fas-link&#34;&gt;&lt;/use&gt;&lt;/svg&gt;&amp;nbsp;&#xA;    &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&lt;p&gt;예금은 은행에 돈을 맡기는 상품을 말한다. 넓게 보면 입출금통장도 예금이고, 일정 기간 돈을 묶어두는 정기예금도 예금이다.&lt;/p&gt;</description>
-    </item>
-  </channel>
+	<channel>
+		<title>정기예금 on Show Me the Money::devkuma</title>
+		<link>https://money.devkuma.com/tags/%EC%A0%95%EA%B8%B0%EC%98%88%EA%B8%88/</link>
+		<description>Recent content in 정기예금 on Show Me the Money::devkuma</description>
+		<generator>Hugo</generator>
+		<language>ko-KR</language>
+		
+		
+		
+		
+			<lastBuildDate>Sun, 24 May 2026 08:20:34 +0900</lastBuildDate>
+		
+			<atom:link href="https://money.devkuma.com/tags/%EC%A0%95%EA%B8%B0%EC%98%88%EA%B8%88/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>신탁형 ISA 운용 가능 상품, 국내 주식 투자와 중개형 차이까지 쉽게 정리</title>
+				<link>https://money.devkuma.com/posts/isa-account-type-trust/</link>
+				<pubDate>Sun, 24 May 2026 08:20:34 +0900</pubDate>
+				<guid>https://money.devkuma.com/posts/isa-account-type-trust/</guid>
+				<description>&lt;p&gt;ISA 계좌를 알아보다 보면 신탁형, 일임형, 중개형이라는 말이 계속 나온다. 이름만 봐서는 차이가 잘 안 느껴진다. 특히 신탁형 ISA는 &amp;ldquo;은행에서 만드는 ISA인가?&amp;rdquo;, &amp;ldquo;국내 주식도 살 수 있나?&amp;rdquo;, &amp;ldquo;중개형 ISA와 뭐가 다른가?&amp;rdquo; 같은 질문이 자연스럽게 생긴다.&lt;/p&gt;&#xA;&lt;p&gt;신탁형 ISA는 내가 원하는 금융상품을 고르고, 금융기관에 운용을 지시하는 방식의 ISA다. 정기예금, 펀드 같은 상품을 한 계좌 안에서 운용할 수 있고, 일부 금융기관에서는 국내 상장주식도 선택할 수 있다.&lt;/p&gt;&#xA;&lt;p&gt;다만 모든 신탁형 ISA가 똑같은 상품을 제공하는 것은 아니다. 금융기관마다 운용 가능 상품, 최저 가입 금액, 보수율, 주식 투자 가능 범위가 다르다. 이 글에서는 신탁형 ISA의 개념과 투자 가능 상품, 국내 주식 투자 가능 여부, 신탁보수와 주의사항을 정리했다.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>예금과 적금 차이, 이자 계산까지 쉽게 이해하기</title>
+				<link>https://money.devkuma.com/posts/deposit-vs-savings/</link>
+				<pubDate>Wed, 20 May 2026 08:21:02 +0900</pubDate>
+				<guid>https://money.devkuma.com/posts/deposit-vs-savings/</guid>
+				<description>&lt;p&gt;예금과 적금은 둘 다 은행에 돈을 맡기고 이자를 받는 저축 상품이다. 그런데 막상 가입하려고 보면 &amp;ldquo;예금이랑 적금이 뭐가 다르지?&amp;rdquo;, &amp;ldquo;금리가 같으면 이자도 같은 것 아닌가?&amp;rdquo; 같은 생각이 들 수 있다.&lt;/p&gt;&#xA;&lt;p&gt;핵심은 간단하다. 예금은 목돈을 한 번에 맡기는 방식이고, 적금은 돈을 여러 번 나누어 넣는 방식이다. 금액과 금리가 같다면 보통 정기예금이 정기적금보다 이자가 더 많다. 예금은 처음부터 전체 금액에 이자가 붙지만, 적금은 매달 넣은 돈마다 이자가 붙는 기간이 다르기 때문이다.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;h2 id=&#34;예금이란&#34; class=&#34;heading&#34;&gt;예금이란?&lt;a href=&#34;#%ec%98%88%ea%b8%88%ec%9d%b4%eb%9e%80&#34; aria-labelledby=&#34;예금이란&#34;&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;                &#xA;                        &#xA;                        &#xA;                        &lt;svg class=&#34;svg-inline--fa fas fa-link anchor&#34; fill=&#34;currentColor&#34; aria-hidden=&#34;true&#34; role=&#34;img&#34; viewBox=&#34;0 0 576 512&#34; overflow=&#34;visible&#34;&gt;&lt;use href=&#34;#fas-link&#34;&gt;&lt;/use&gt;&lt;/svg&gt;&amp;nbsp;&#xA;    &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&#xA;&lt;p&gt;예금은 은행에 돈을 맡기는 상품을 말한다. 넓게 보면 입출금통장도 예금이고, 일정 기간 돈을 묶어두는 정기예금도 예금이다.&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

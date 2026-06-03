@@ -1,19 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>횡보 on Show Me the Money::devkuma</title>
-    <link>https://money.devkuma.com/tags/%ED%9A%A1%EB%B3%B4/</link>
-    <description>Recent content in 횡보 on Show Me the Money::devkuma</description>
-    <generator>Hugo</generator>
-    <language>ko-KR</language>
-    <lastBuildDate>Mon, 18 May 2026 23:03:52 +0900</lastBuildDate>
-    <atom:link href="https://money.devkuma.com/tags/%ED%9A%A1%EB%B3%B4/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>보합 횡보 혼조세 뜻, 주식 뉴스에서 자주 나오는 장세 표현 쉽게 정리</title>
-      <link>https://money.devkuma.com/posts/stock-flat-sideways-mixed-market/</link>
-      <pubDate>Mon, 18 May 2026 23:03:52 +0900</pubDate>
-      <guid>https://money.devkuma.com/posts/stock-flat-sideways-mixed-market/</guid>
-      <description>&lt;p&gt;주식 뉴스를 보다 보면 &amp;ldquo;코스피 보합권 마감&amp;rdquo;, &amp;ldquo;지수는 횡보했지만 업종별 혼조세&amp;rdquo;, &amp;ldquo;강보합 출발 후 약보합 전환&amp;rdquo; 같은 표현이 자주 나온다. 단어는 익숙해 보여도 막상 뜻을 물어보면 애매하다. 오른다는 말인지, 내린다는 말인지, 그냥 가만히 있다는 말인지 헷갈린다.&lt;/p&gt;&#xA;&lt;p&gt;이런 표현들은 대부분 시장의 방향과 분위기를 짧게 설명하기 위해 쓰인다. 상승, 하락처럼 명확한 말보다 미묘한 차이를 담고 있어서 처음 주식 투자를 시작한 사람에게는 더 어렵게 느껴진다.&lt;/p&gt;&#xA;&lt;p&gt;이 글에서는 주식 시황에서 자주 나오는 &lt;strong&gt;보합, 강보합, 약보합, 횡보, 혼조세&lt;/strong&gt;를 한 번에 정리하였다. 단어 뜻만 외우는 것보다 &amp;ldquo;뉴스를 어떻게 읽어야 하는지&amp;quot;에 초점을 맞추면 훨씬 오래 기억된다.&lt;/p&gt;</description>
-    </item>
-  </channel>
+	<channel>
+		<title>횡보 on Show Me the Money::devkuma</title>
+		<link>https://money.devkuma.com/tags/%ED%9A%A1%EB%B3%B4/</link>
+		<description>Recent content in 횡보 on Show Me the Money::devkuma</description>
+		<generator>Hugo</generator>
+		<language>ko-KR</language>
+		
+		
+		
+		
+			<lastBuildDate>Mon, 18 May 2026 23:03:52 +0900</lastBuildDate>
+		
+			<atom:link href="https://money.devkuma.com/tags/%ED%9A%A1%EB%B3%B4/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>보합 횡보 혼조세 뜻, 주식 뉴스에서 자주 나오는 장세 표현 쉽게 정리</title>
+				<link>https://money.devkuma.com/posts/stock-flat-sideways-mixed-market/</link>
+				<pubDate>Mon, 18 May 2026 23:03:52 +0900</pubDate>
+				<guid>https://money.devkuma.com/posts/stock-flat-sideways-mixed-market/</guid>
+				<description>&lt;p&gt;주식 뉴스를 보다 보면 &amp;ldquo;코스피 보합권 마감&amp;rdquo;, &amp;ldquo;지수는 횡보했지만 업종별 혼조세&amp;rdquo;, &amp;ldquo;강보합 출발 후 약보합 전환&amp;rdquo; 같은 표현이 자주 나온다. 단어는 익숙해 보여도 막상 뜻을 물어보면 애매하다. 오른다는 말인지, 내린다는 말인지, 그냥 가만히 있다는 말인지 헷갈린다.&lt;/p&gt;&#xA;&lt;p&gt;이런 표현들은 대부분 시장의 방향과 분위기를 짧게 설명하기 위해 쓰인다. 상승, 하락처럼 명확한 말보다 미묘한 차이를 담고 있어서 처음 주식 투자를 시작한 사람에게는 더 어렵게 느껴진다.&lt;/p&gt;&#xA;&lt;p&gt;이 글에서는 주식 시황에서 자주 나오는 &lt;strong&gt;보합, 강보합, 약보합, 횡보, 혼조세&lt;/strong&gt;를 한 번에 정리하였다. 단어 뜻만 외우는 것보다 &amp;ldquo;뉴스를 어떻게 읽어야 하는지&amp;quot;에 초점을 맞추면 훨씬 오래 기억된다.&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

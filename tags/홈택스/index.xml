@@ -1,19 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>홈택스 on Show Me the Money::devkuma</title>
-    <link>https://money.devkuma.com/tags/%ED%99%88%ED%83%9D%EC%8A%A4/</link>
-    <description>Recent content in 홈택스 on Show Me the Money::devkuma</description>
-    <generator>Hugo</generator>
-    <language>ko-KR</language>
-    <lastBuildDate>Fri, 08 May 2026 08:29:40 +0900</lastBuildDate>
-    <atom:link href="https://money.devkuma.com/tags/%ED%99%88%ED%83%9D%EC%8A%A4/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>해외주식 양도소득세 신고 방법, 250만 원 공제와 세율 22% 쉽게 정리</title>
-      <link>https://money.devkuma.com/posts/foreign-stock-capital-gains-tax/</link>
-      <pubDate>Fri, 08 May 2026 08:29:40 +0900</pubDate>
-      <guid>https://money.devkuma.com/posts/foreign-stock-capital-gains-tax/</guid>
-      <description>&lt;p&gt;해외주식을 하다 보면 매수와 매도 타이밍에는 민감해도 세금은 뒤로 미루기 쉽다. 특히 테슬라, 엔비디아, 애플, 마이크로소프트처럼 익숙한 미국 주식으로 수익이 났다면 &amp;ldquo;증권사 계좌에 돈이 들어왔으니 끝난 것 아닌가&amp;quot;라고 생각할 수 있다.&lt;/p&gt;&#xA;&lt;p&gt;하지만 해외주식은 국내 상장주식과 세금 구조가 다르다. 일반 개인 투자자라도 해외주식을 팔아 연간 양도차익이 일정 금액을 넘으면 직접 양도소득세를 신고하고 납부해야 한다. 배당소득세처럼 증권사가 알아서 원천징수하고 끝나는 방식이 아니다.&lt;/p&gt;&#xA;&lt;p&gt;이 글에서는 해외주식 양도소득세가 언제 발생하는지, 국내주식과 무엇이 다른지, 250만 원 기본공제와 22% 세율은 어떻게 적용되는지, 5월 신고 때 무엇을 확인해야 하는지 초보자 기준으로 정리하였다.&lt;/p&gt;</description>
-    </item>
-  </channel>
+	<channel>
+		<title>홈택스 on Show Me the Money::devkuma</title>
+		<link>https://money.devkuma.com/tags/%ED%99%88%ED%83%9D%EC%8A%A4/</link>
+		<description>Recent content in 홈택스 on Show Me the Money::devkuma</description>
+		<generator>Hugo</generator>
+		<language>ko-KR</language>
+		
+		
+		
+		
+			<lastBuildDate>Fri, 08 May 2026 08:29:40 +0900</lastBuildDate>
+		
+			<atom:link href="https://money.devkuma.com/tags/%ED%99%88%ED%83%9D%EC%8A%A4/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>해외주식 양도소득세 신고 방법, 250만 원 공제와 세율 22% 쉽게 정리</title>
+				<link>https://money.devkuma.com/posts/foreign-stock-capital-gains-tax/</link>
+				<pubDate>Fri, 08 May 2026 08:29:40 +0900</pubDate>
+				<guid>https://money.devkuma.com/posts/foreign-stock-capital-gains-tax/</guid>
+				<description>&lt;p&gt;해외주식을 하다 보면 매수와 매도 타이밍에는 민감해도 세금은 뒤로 미루기 쉽다. 특히 테슬라, 엔비디아, 애플, 마이크로소프트처럼 익숙한 미국 주식으로 수익이 났다면 &amp;ldquo;증권사 계좌에 돈이 들어왔으니 끝난 것 아닌가&amp;quot;라고 생각할 수 있다.&lt;/p&gt;&#xA;&lt;p&gt;하지만 해외주식은 국내 상장주식과 세금 구조가 다르다. 일반 개인 투자자라도 해외주식을 팔아 연간 양도차익이 일정 금액을 넘으면 직접 양도소득세를 신고하고 납부해야 한다. 배당소득세처럼 증권사가 알아서 원천징수하고 끝나는 방식이 아니다.&lt;/p&gt;&#xA;&lt;p&gt;이 글에서는 해외주식 양도소득세가 언제 발생하는지, 국내주식과 무엇이 다른지, 250만 원 기본공제와 22% 세율은 어떻게 적용되는지, 5월 신고 때 무엇을 확인해야 하는지 초보자 기준으로 정리하였다.&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

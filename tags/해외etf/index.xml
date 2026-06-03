@@ -1,26 +1,31 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>해외ETF on Show Me the Money::devkuma</title>
-    <link>https://money.devkuma.com/tags/%ED%95%B4%EC%99%B8etf/</link>
-    <description>Recent content in 해외ETF on Show Me the Money::devkuma</description>
-    <generator>Hugo</generator>
-    <language>ko-KR</language>
-    <lastBuildDate>Mon, 25 May 2026 11:31:22 +0900</lastBuildDate>
-    <atom:link href="https://money.devkuma.com/tags/%ED%95%B4%EC%99%B8etf/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>환헤지 환노출 ETF 차이, (H) 표시 뜻과 투자 전략 쉽게 정리</title>
-      <link>https://money.devkuma.com/posts/etf-hedged-unhedged/</link>
-      <pubDate>Mon, 25 May 2026 11:31:22 +0900</pubDate>
-      <guid>https://money.devkuma.com/posts/etf-hedged-unhedged/</guid>
-      <description>&lt;p&gt;해외 주식 ETF를 고르다 보면 상품명 뒤에 &lt;code&gt;(H)&lt;/code&gt;가 붙은 것을 자주 보게 된다. 예를 들어 &amp;ldquo;미국S&amp;amp;P500(H)&amp;ldquo;처럼 표시된 상품이다. 처음 보면 단순한 상품 코드처럼 보이지만, 실제로는 환율 변동을 얼마나 반영할지 알려주는 중요한 표시다.&lt;/p&gt;&#xA;&lt;p&gt;해외 ETF 수익률은 주가만으로 결정되지 않는다. 미국 주식이 올라도 원·달러 환율이 많이 떨어지면 원화 기준 수익률은 줄어들 수 있고, 반대로 주식은 조금 빠졌는데 환율이 오르면서 손실이 덜해질 수도 있다. 그래서 해외 ETF를 살 때는 &amp;ldquo;이 ETF가 환헤지인지, 환노출인지&amp;quot;를 확인해야 한다.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>ETF 세금 총정리, 국내 ETF와 해외상장 ETF 매매차익·분배금 과세 비교</title>
-      <link>https://money.devkuma.com/posts/etf-tax-guide/</link>
-      <pubDate>Sun, 17 May 2026 22:46:15 +0900</pubDate>
-      <guid>https://money.devkuma.com/posts/etf-tax-guide/</guid>
-      <description>&lt;p&gt;ETF는 주식처럼 사고팔 수 있어서 세금도 주식과 똑같다고 생각하기 쉽다. 그런데 실제로는 그렇지 않다. 국내 증시에 상장된 ETF인지, 해외 거래소에 직접 상장된 ETF인지, 또 ETF가 국내 주식에 투자하는지 해외 주식에 투자하는지에 따라 세금이 달라진다.&lt;/p&gt;&#xA;&lt;p&gt;특히 초보자가 가장 많이 헷갈리는 부분은 &amp;ldquo;국내 상장 해외 ETF&amp;quot;다. 예를 들어 TIGER 미국S&amp;amp;P500, KODEX 미국나스닥100처럼 한국거래소에서 원화로 사고파는 ETF는 미국 주식에 투자하더라도 세금은 해외 상장 ETF와 다르게 처리된다.&lt;/p&gt;&#xA;&lt;p&gt;이 글에서는 ETF 투자자가 꼭 알아야 할 세금을 매매차익과 분배금으로 나누어 정리하였다. 세금은 투자 수익률의 마지막 숫자를 바꾸기 때문에, 상품을 고르기 전에 한 번은 확인해두는 것이 좋다.&lt;/p&gt;</description>
-    </item>
-  </channel>
+	<channel>
+		<title>해외ETF on Show Me the Money::devkuma</title>
+		<link>https://money.devkuma.com/tags/%ED%95%B4%EC%99%B8etf/</link>
+		<description>Recent content in 해외ETF on Show Me the Money::devkuma</description>
+		<generator>Hugo</generator>
+		<language>ko-KR</language>
+		
+		
+		
+		
+			<lastBuildDate>Mon, 25 May 2026 11:31:22 +0900</lastBuildDate>
+		
+			<atom:link href="https://money.devkuma.com/tags/%ED%95%B4%EC%99%B8etf/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>환헤지 환노출 ETF 차이, (H) 표시 뜻과 투자 전략 쉽게 정리</title>
+				<link>https://money.devkuma.com/posts/etf-hedged-unhedged/</link>
+				<pubDate>Mon, 25 May 2026 11:31:22 +0900</pubDate>
+				<guid>https://money.devkuma.com/posts/etf-hedged-unhedged/</guid>
+				<description>&lt;p&gt;해외 주식 ETF를 고르다 보면 상품명 뒤에 &lt;code&gt;(H)&lt;/code&gt;가 붙은 것을 자주 보게 된다. 예를 들어 &amp;ldquo;미국S&amp;amp;P500(H)&amp;ldquo;처럼 표시된 상품이다. 처음 보면 단순한 상품 코드처럼 보이지만, 실제로는 환율 변동을 얼마나 반영할지 알려주는 중요한 표시다.&lt;/p&gt;&#xA;&lt;p&gt;해외 ETF 수익률은 주가만으로 결정되지 않는다. 미국 주식이 올라도 원·달러 환율이 많이 떨어지면 원화 기준 수익률은 줄어들 수 있고, 반대로 주식은 조금 빠졌는데 환율이 오르면서 손실이 덜해질 수도 있다. 그래서 해외 ETF를 살 때는 &amp;ldquo;이 ETF가 환헤지인지, 환노출인지&amp;quot;를 확인해야 한다.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>ETF 세금 총정리, 국내 ETF와 해외상장 ETF 매매차익·분배금 과세 비교</title>
+				<link>https://money.devkuma.com/posts/etf-tax-guide/</link>
+				<pubDate>Sun, 17 May 2026 22:46:15 +0900</pubDate>
+				<guid>https://money.devkuma.com/posts/etf-tax-guide/</guid>
+				<description>&lt;p&gt;ETF는 주식처럼 사고팔 수 있어서 세금도 주식과 똑같다고 생각하기 쉽다. 그런데 실제로는 그렇지 않다. 국내 증시에 상장된 ETF인지, 해외 거래소에 직접 상장된 ETF인지, 또 ETF가 국내 주식에 투자하는지 해외 주식에 투자하는지에 따라 세금이 달라진다.&lt;/p&gt;&#xA;&lt;p&gt;특히 초보자가 가장 많이 헷갈리는 부분은 &amp;ldquo;국내 상장 해외 ETF&amp;quot;다. 예를 들어 TIGER 미국S&amp;amp;P500, KODEX 미국나스닥100처럼 한국거래소에서 원화로 사고파는 ETF는 미국 주식에 투자하더라도 세금은 해외 상장 ETF와 다르게 처리된다.&lt;/p&gt;&#xA;&lt;p&gt;이 글에서는 ETF 투자자가 꼭 알아야 할 세금을 매매차익과 분배금으로 나누어 정리하였다. 세금은 투자 수익률의 마지막 숫자를 바꾸기 때문에, 상품을 고르기 전에 한 번은 확인해두는 것이 좋다.&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

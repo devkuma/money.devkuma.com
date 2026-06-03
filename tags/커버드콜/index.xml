@@ -1,19 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>커버드콜 on Show Me the Money::devkuma</title>
-    <link>https://money.devkuma.com/tags/%EC%BB%A4%EB%B2%84%EB%93%9C%EC%BD%9C/</link>
-    <description>Recent content in 커버드콜 on Show Me the Money::devkuma</description>
-    <generator>Hugo</generator>
-    <language>ko-KR</language>
-    <lastBuildDate>Sun, 24 May 2026 12:17:26 +0900</lastBuildDate>
-    <atom:link href="https://money.devkuma.com/tags/%EC%BB%A4%EB%B2%84%EB%93%9C%EC%BD%9C/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>커버드콜이란? 커버드콜 ETF 구조와 장점, 위험성 쉽게 정리</title>
-      <link>https://money.devkuma.com/posts/etf-types-covered-call-guide/</link>
-      <pubDate>Sun, 24 May 2026 12:17:26 +0900</pubDate>
-      <guid>https://money.devkuma.com/posts/etf-types-covered-call-guide/</guid>
-      <description>&lt;p&gt;커버드콜 ETF는 월배당 ETF와 함께 자주 언급되는 상품이다. 이름만 보면 어려워 보이지만, 핵심은 비교적 단순하다. 주식이나 채권 같은 기초자산을 보유하면서 그 자산의 콜옵션을 팔아 옵션 프리미엄을 받는 전략이다.&lt;/p&gt;&#xA;&lt;p&gt;최근에는 &amp;ldquo;연 10% 목표 분배&amp;rdquo;, &amp;ldquo;월분배&amp;rdquo;, &amp;ldquo;프리미엄&amp;rdquo; 같은 표현이 붙은 커버드콜 ETF가 늘었다. 그래서 안정적으로 현금흐름을 받을 수 있는 상품처럼 느껴질 수 있다. 하지만 커버드콜 ETF는 예금이나 확정금리 상품이 아니다. 기초자산이 크게 하락하면 손실이 날 수 있고, 반대로 기초자산이 크게 상승할 때는 수익이 제한될 수 있다.&lt;/p&gt;</description>
-    </item>
-  </channel>
+	<channel>
+		<title>커버드콜 on Show Me the Money::devkuma</title>
+		<link>https://money.devkuma.com/tags/%EC%BB%A4%EB%B2%84%EB%93%9C%EC%BD%9C/</link>
+		<description>Recent content in 커버드콜 on Show Me the Money::devkuma</description>
+		<generator>Hugo</generator>
+		<language>ko-KR</language>
+		
+		
+		
+		
+			<lastBuildDate>Sun, 24 May 2026 12:17:26 +0900</lastBuildDate>
+		
+			<atom:link href="https://money.devkuma.com/tags/%EC%BB%A4%EB%B2%84%EB%93%9C%EC%BD%9C/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>커버드콜이란? 커버드콜 ETF 구조와 장점, 위험성 쉽게 정리</title>
+				<link>https://money.devkuma.com/posts/etf-types-covered-call-guide/</link>
+				<pubDate>Sun, 24 May 2026 12:17:26 +0900</pubDate>
+				<guid>https://money.devkuma.com/posts/etf-types-covered-call-guide/</guid>
+				<description>&lt;p&gt;커버드콜 ETF는 월배당 ETF와 함께 자주 언급되는 상품이다. 이름만 보면 어려워 보이지만, 핵심은 비교적 단순하다. 주식이나 채권 같은 기초자산을 보유하면서 그 자산의 콜옵션을 팔아 옵션 프리미엄을 받는 전략이다.&lt;/p&gt;&#xA;&lt;p&gt;최근에는 &amp;ldquo;연 10% 목표 분배&amp;rdquo;, &amp;ldquo;월분배&amp;rdquo;, &amp;ldquo;프리미엄&amp;rdquo; 같은 표현이 붙은 커버드콜 ETF가 늘었다. 그래서 안정적으로 현금흐름을 받을 수 있는 상품처럼 느껴질 수 있다. 하지만 커버드콜 ETF는 예금이나 확정금리 상품이 아니다. 기초자산이 크게 하락하면 손실이 날 수 있고, 반대로 기초자산이 크게 상승할 때는 수익이 제한될 수 있다.&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

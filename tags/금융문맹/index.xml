@@ -1,26 +1,31 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>금융문맹 on Show Me the Money::devkuma</title>
-    <link>https://money.devkuma.com/tags/%EA%B8%88%EC%9C%B5%EB%AC%B8%EB%A7%B9/</link>
-    <description>Recent content in 금융문맹 on Show Me the Money::devkuma</description>
-    <generator>Hugo</generator>
-    <language>ko-KR</language>
-    <lastBuildDate>Wed, 06 May 2026 23:04:47 +0900</lastBuildDate>
-    <atom:link href="https://money.devkuma.com/tags/%EA%B8%88%EC%9C%B5%EB%AC%B8%EB%A7%B9/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>실패하지 않는 주식투자 입문 가이드, 초보자가 먼저 알아야 할 기본 원칙</title>
-      <link>https://money.devkuma.com/posts/stock-investing-beginner-guide/</link>
-      <pubDate>Wed, 06 May 2026 23:04:47 +0900</pubDate>
-      <guid>https://money.devkuma.com/posts/stock-investing-beginner-guide/</guid>
-      <description>&lt;p&gt;주식투자를 시작하려고 하면 마음이 복잡해진다. 주변에서는 누가 어떤 종목으로 돈을 벌었다고 하고, 뉴스에서는 AI, 반도체, 2차전지, 바이오 같은 이야기가 계속 나온다. 증권 앱을 열면 당장이라도 매수 버튼을 눌러야 할 것 같지만, 막상 내 돈을 넣으려면 겁이 난다.&lt;/p&gt;&#xA;&lt;p&gt;나도 금융 문맹을 벗어나야겠다고 생각하면서 가장 먼저 부딪힌 벽이 주식이었다. 예금과 적금은 원금과 이자가 비교적 분명한데, 주식은 하루에도 가격이 오르내린다. 공부하지 않고 들어가면 투자가 아니라 감정 게임이 되기 쉽다.&lt;/p&gt;&#xA;&lt;p&gt;주식투자 입문에서 가장 중요한 목표는 대박을 잡는 것이 아니다. 오래 살아남는 것이다. 처음부터 큰돈을 벌려고 하면 조급해지고, 조급하면 위험한 선택을 하기 쉽다. 이 글에서는 초보자가 주식투자를 시작하기 전에 꼭 알아야 할 기본 원칙을 정리하였다.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>경제 공부하는 방법, 금융 문맹을 벗어나기 위한 현실적인 시작법</title>
-      <link>https://money.devkuma.com/posts/how-to-study-economics/</link>
-      <pubDate>Wed, 06 May 2026 23:02:43 +0900</pubDate>
-      <guid>https://money.devkuma.com/posts/how-to-study-economics/</guid>
-      <description>&lt;p&gt;경제 공부를 해야겠다고 마음먹는 순간은 대개 불편함에서 온다. 월급은 들어오는데 돈이 어디로 나가는지 모르겠고, 금리가 오른다는데 내 대출이 왜 부담스러워지는지 모르겠고, 뉴스에서는 환율과 물가 이야기가 계속 나오는데 내 생활과 어떻게 연결되는지 감이 잡히지 않는다.&lt;/p&gt;&#xA;&lt;p&gt;나도 처음에는 경제라는 말이 너무 크게 느껴졌다. 경제학 교과서부터 봐야 할 것 같고, 주식 차트를 읽어야 할 것 같고, 어려운 용어를 전부 외워야 할 것 같았다. 그런데 금융 문맹을 벗어나기 위한 공부는 그렇게 거창하게 시작할 필요가 없다.&lt;/p&gt;</description>
-    </item>
-  </channel>
+	<channel>
+		<title>금융문맹 on Show Me the Money::devkuma</title>
+		<link>https://money.devkuma.com/tags/%EA%B8%88%EC%9C%B5%EB%AC%B8%EB%A7%B9/</link>
+		<description>Recent content in 금융문맹 on Show Me the Money::devkuma</description>
+		<generator>Hugo</generator>
+		<language>ko-KR</language>
+		
+		
+		
+		
+			<lastBuildDate>Wed, 06 May 2026 23:04:47 +0900</lastBuildDate>
+		
+			<atom:link href="https://money.devkuma.com/tags/%EA%B8%88%EC%9C%B5%EB%AC%B8%EB%A7%B9/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>실패하지 않는 주식투자 입문 가이드, 초보자가 먼저 알아야 할 기본 원칙</title>
+				<link>https://money.devkuma.com/posts/stock-investing-beginner-guide/</link>
+				<pubDate>Wed, 06 May 2026 23:04:47 +0900</pubDate>
+				<guid>https://money.devkuma.com/posts/stock-investing-beginner-guide/</guid>
+				<description>&lt;p&gt;주식투자를 시작하려고 하면 마음이 복잡해진다. 주변에서는 누가 어떤 종목으로 돈을 벌었다고 하고, 뉴스에서는 AI, 반도체, 2차전지, 바이오 같은 이야기가 계속 나온다. 증권 앱을 열면 당장이라도 매수 버튼을 눌러야 할 것 같지만, 막상 내 돈을 넣으려면 겁이 난다.&lt;/p&gt;&#xA;&lt;p&gt;나도 금융 문맹을 벗어나야겠다고 생각하면서 가장 먼저 부딪힌 벽이 주식이었다. 예금과 적금은 원금과 이자가 비교적 분명한데, 주식은 하루에도 가격이 오르내린다. 공부하지 않고 들어가면 투자가 아니라 감정 게임이 되기 쉽다.&lt;/p&gt;&#xA;&lt;p&gt;주식투자 입문에서 가장 중요한 목표는 대박을 잡는 것이 아니다. 오래 살아남는 것이다. 처음부터 큰돈을 벌려고 하면 조급해지고, 조급하면 위험한 선택을 하기 쉽다. 이 글에서는 초보자가 주식투자를 시작하기 전에 꼭 알아야 할 기본 원칙을 정리하였다.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>경제 공부하는 방법, 금융 문맹을 벗어나기 위한 현실적인 시작법</title>
+				<link>https://money.devkuma.com/posts/how-to-study-economics/</link>
+				<pubDate>Wed, 06 May 2026 23:02:43 +0900</pubDate>
+				<guid>https://money.devkuma.com/posts/how-to-study-economics/</guid>
+				<description>&lt;p&gt;경제 공부를 해야겠다고 마음먹는 순간은 대개 불편함에서 온다. 월급은 들어오는데 돈이 어디로 나가는지 모르겠고, 금리가 오른다는데 내 대출이 왜 부담스러워지는지 모르겠고, 뉴스에서는 환율과 물가 이야기가 계속 나오는데 내 생활과 어떻게 연결되는지 감이 잡히지 않는다.&lt;/p&gt;&#xA;&lt;p&gt;나도 처음에는 경제라는 말이 너무 크게 느껴졌다. 경제학 교과서부터 봐야 할 것 같고, 주식 차트를 읽어야 할 것 같고, 어려운 용어를 전부 외워야 할 것 같았다. 그런데 금융 문맹을 벗어나기 위한 공부는 그렇게 거창하게 시작할 필요가 없다.&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

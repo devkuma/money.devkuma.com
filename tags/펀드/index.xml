@@ -1,47 +1,52 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>펀드 on Show Me the Money::devkuma</title>
-    <link>https://money.devkuma.com/tags/%ED%8E%80%EB%93%9C/</link>
-    <description>Recent content in 펀드 on Show Me the Money::devkuma</description>
-    <generator>Hugo</generator>
-    <language>ko-KR</language>
-    <lastBuildDate>Mon, 01 Jun 2026 21:33:19 +0900</lastBuildDate>
-    <atom:link href="https://money.devkuma.com/tags/%ED%8E%80%EB%93%9C/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>ETF 뜻과 장단점, 주식·펀드와의 차이 쉽게 정리</title>
-      <link>https://money.devkuma.com/posts/etf-guide/</link>
-      <pubDate>Sun, 24 May 2026 12:03:43 +0900</pubDate>
-      <guid>https://money.devkuma.com/posts/etf-guide/</guid>
-      <description>&lt;p&gt;ETF는 주식 투자를 처음 공부할 때 꽤 자주 만나는 단어다. &amp;ldquo;S&amp;amp;P 500 ETF를 모아간다&amp;rdquo;, &amp;ldquo;코스피 200 ETF에 투자한다&amp;rdquo;, &amp;ldquo;월배당 ETF가 인기다&amp;rdquo; 같은 말을 듣다 보면 ETF가 뭔가 편하고 좋아 보이긴 하는데, 정확히 주식인지 펀드인지 헷갈릴 수 있다.&lt;/p&gt;&#xA;&lt;p&gt;ETF는 쉽게 말해 &lt;strong&gt;주식처럼 사고팔 수 있는 펀드&lt;/strong&gt;다. 하나의 기업에 투자하는 주식과 달리 여러 종목이나 자산을 한 번에 담을 수 있고, 일반 펀드와 달리 거래소에서 실시간으로 매매할 수 있다. 그래서 ETF는 주식과 펀드의 중간 성격을 가진 투자 상품이라고 이해하면 쉽다.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>펀드란 무엇일까? 초보자를 위한 종류, 수수료, 장단점, 환매 방법 정리</title>
-      <link>https://money.devkuma.com/posts/what-is-fund/</link>
-      <pubDate>Mon, 25 May 2026 22:45:40 +0900</pubDate>
-      <guid>https://money.devkuma.com/posts/what-is-fund/</guid>
-      <description>&lt;p&gt;주식 투자를 시작해보려고 하면 가장 먼저 막히는 부분이 종목 선택이다. 어떤 회사를 사야 하는지, 언제 사야 하는지, 떨어질 때는 버텨야 하는지 팔아야 하는지 판단하기가 쉽지 않다. 그래서 직접 투자보다 부담이 덜한 방법을 찾다가 &amp;ldquo;펀드&amp;quot;라는 말을 자주 만나게 된다.&lt;/p&gt;&#xA;&lt;p&gt;펀드는 여러 투자자의 돈을 모아 전문가가 대신 운용하는 투자 상품이다. 내가 직접 개별 종목을 고르지 않아도 되고, 비교적 적은 금액으로 여러 자산에 나누어 투자할 수 있다는 점 때문에 초보 투자자에게 자주 추천된다.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>신탁형 ISA 운용 가능 상품, 국내 주식 투자와 중개형 차이까지 쉽게 정리</title>
-      <link>https://money.devkuma.com/posts/isa-account-type-trust/</link>
-      <pubDate>Sun, 24 May 2026 08:20:34 +0900</pubDate>
-      <guid>https://money.devkuma.com/posts/isa-account-type-trust/</guid>
-      <description>&lt;p&gt;ISA 계좌를 알아보다 보면 신탁형, 일임형, 중개형이라는 말이 계속 나온다. 이름만 봐서는 차이가 잘 안 느껴진다. 특히 신탁형 ISA는 &amp;ldquo;은행에서 만드는 ISA인가?&amp;rdquo;, &amp;ldquo;국내 주식도 살 수 있나?&amp;rdquo;, &amp;ldquo;중개형 ISA와 뭐가 다른가?&amp;rdquo; 같은 질문이 자연스럽게 생긴다.&lt;/p&gt;&#xA;&lt;p&gt;신탁형 ISA는 내가 원하는 금융상품을 고르고, 금융기관에 운용을 지시하는 방식의 ISA다. 정기예금, 펀드 같은 상품을 한 계좌 안에서 운용할 수 있고, 일부 금융기관에서는 국내 상장주식도 선택할 수 있다.&lt;/p&gt;&#xA;&lt;p&gt;다만 모든 신탁형 ISA가 똑같은 상품을 제공하는 것은 아니다. 금융기관마다 운용 가능 상품, 최저 가입 금액, 보수율, 주식 투자 가능 범위가 다르다. 이 글에서는 신탁형 ISA의 개념과 투자 가능 상품, 국내 주식 투자 가능 여부, 신탁보수와 주의사항을 정리했다.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>인덱스 펀드 뜻과 장단점, 액티브 펀드 차이 쉽게 비교하기</title>
-      <link>https://money.devkuma.com/posts/index-fund-vs-active-fund/</link>
-      <pubDate>Mon, 01 Jun 2026 21:33:19 +0900</pubDate>
-      <guid>https://money.devkuma.com/posts/index-fund-vs-active-fund/</guid>
-      <description>&lt;p&gt;투자를 시작하면 &amp;ldquo;시장 평균만 따라가도 충분하다&amp;quot;는 말을 자주 듣는다. 반대로 좋은 종목을 골라 시장보다 높은 수익을 내야 한다는 주장도 있다. 어떤 방식이 맞는지 고민하다 보면 인덱스 펀드와 액티브 펀드라는 용어를 만나게 된다.&lt;/p&gt;&#xA;&lt;p&gt;두 상품은 모두 여러 투자자의 돈을 모아 운용하는 펀드다. 하지만 목표와 운용 방법이 다르다. 인덱스 펀드는 특정 지수를 따라가는 데 집중하고, 액티브 펀드는 펀드매니저의 판단으로 시장 평균보다 높은 성과를 내는 것을 목표로 한다.&lt;/p&gt;&#xA;&lt;p&gt;이 글에서는 인덱스 펀드의 뜻과 장단점, 액티브 펀드와의 차이, ETF와 혼동하기 쉬운 부분, 가입 전에 확인할 내용을 쉽게 정리했다.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>직접투자와 간접투자 차이, 종류와 장단점 쉽게 정리</title>
-      <link>https://money.devkuma.com/posts/direct-vs-indirect-investing/</link>
-      <pubDate>Mon, 18 May 2026 23:26:03 +0900</pubDate>
-      <guid>https://money.devkuma.com/posts/direct-vs-indirect-investing/</guid>
-      <description>&lt;p&gt;투자를 시작하려고 하면 가장 먼저 부딪히는 고민이 있다. 내가 직접 종목을 고를 것인지, 아니면 펀드나 ETF처럼 누군가 운용하는 상품을 활용할 것인지다. 주변에서는 &amp;ldquo;좋은 주식을 직접 사야 돈을 번다&amp;quot;고 말하기도 하고, 또 다른 쪽에서는 &amp;ldquo;초보자는 분산투자 상품부터 해야 한다&amp;quot;고 말한다.&lt;/p&gt;&#xA;&lt;p&gt;둘 다 맞는 말일 수 있다. 직접투자는 내가 판단하고 내가 책임지는 방식이고, 간접투자는 전문가나 상품 구조를 활용해 투자하는 방식이다. 어느 쪽이 무조건 좋다고 말하기 어렵다. 투자자의 시간, 지식, 성향, 자금 규모, 목표 기간에 따라 더 맞는 방식이 달라진다.&lt;/p&gt;</description>
-    </item>
-  </channel>
+	<channel>
+		<title>펀드 on Show Me the Money::devkuma</title>
+		<link>https://money.devkuma.com/tags/%ED%8E%80%EB%93%9C/</link>
+		<description>Recent content in 펀드 on Show Me the Money::devkuma</description>
+		<generator>Hugo</generator>
+		<language>ko-KR</language>
+		
+		
+		
+		
+			<lastBuildDate>Mon, 01 Jun 2026 21:33:19 +0900</lastBuildDate>
+		
+			<atom:link href="https://money.devkuma.com/tags/%ED%8E%80%EB%93%9C/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>ETF 뜻과 장단점, 주식·펀드와의 차이 쉽게 정리</title>
+				<link>https://money.devkuma.com/posts/etf-guide/</link>
+				<pubDate>Sun, 24 May 2026 12:03:43 +0900</pubDate>
+				<guid>https://money.devkuma.com/posts/etf-guide/</guid>
+				<description>&lt;p&gt;ETF는 주식 투자를 처음 공부할 때 꽤 자주 만나는 단어다. &amp;ldquo;S&amp;amp;P 500 ETF를 모아간다&amp;rdquo;, &amp;ldquo;코스피 200 ETF에 투자한다&amp;rdquo;, &amp;ldquo;월배당 ETF가 인기다&amp;rdquo; 같은 말을 듣다 보면 ETF가 뭔가 편하고 좋아 보이긴 하는데, 정확히 주식인지 펀드인지 헷갈릴 수 있다.&lt;/p&gt;&#xA;&lt;p&gt;ETF는 쉽게 말해 &lt;strong&gt;주식처럼 사고팔 수 있는 펀드&lt;/strong&gt;다. 하나의 기업에 투자하는 주식과 달리 여러 종목이나 자산을 한 번에 담을 수 있고, 일반 펀드와 달리 거래소에서 실시간으로 매매할 수 있다. 그래서 ETF는 주식과 펀드의 중간 성격을 가진 투자 상품이라고 이해하면 쉽다.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>펀드란 무엇일까? 초보자를 위한 종류, 수수료, 장단점, 환매 방법 정리</title>
+				<link>https://money.devkuma.com/posts/what-is-fund/</link>
+				<pubDate>Mon, 25 May 2026 22:45:40 +0900</pubDate>
+				<guid>https://money.devkuma.com/posts/what-is-fund/</guid>
+				<description>&lt;p&gt;주식 투자를 시작해보려고 하면 가장 먼저 막히는 부분이 종목 선택이다. 어떤 회사를 사야 하는지, 언제 사야 하는지, 떨어질 때는 버텨야 하는지 팔아야 하는지 판단하기가 쉽지 않다. 그래서 직접 투자보다 부담이 덜한 방법을 찾다가 &amp;ldquo;펀드&amp;quot;라는 말을 자주 만나게 된다.&lt;/p&gt;&#xA;&lt;p&gt;펀드는 여러 투자자의 돈을 모아 전문가가 대신 운용하는 투자 상품이다. 내가 직접 개별 종목을 고르지 않아도 되고, 비교적 적은 금액으로 여러 자산에 나누어 투자할 수 있다는 점 때문에 초보 투자자에게 자주 추천된다.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>신탁형 ISA 운용 가능 상품, 국내 주식 투자와 중개형 차이까지 쉽게 정리</title>
+				<link>https://money.devkuma.com/posts/isa-account-type-trust/</link>
+				<pubDate>Sun, 24 May 2026 08:20:34 +0900</pubDate>
+				<guid>https://money.devkuma.com/posts/isa-account-type-trust/</guid>
+				<description>&lt;p&gt;ISA 계좌를 알아보다 보면 신탁형, 일임형, 중개형이라는 말이 계속 나온다. 이름만 봐서는 차이가 잘 안 느껴진다. 특히 신탁형 ISA는 &amp;ldquo;은행에서 만드는 ISA인가?&amp;rdquo;, &amp;ldquo;국내 주식도 살 수 있나?&amp;rdquo;, &amp;ldquo;중개형 ISA와 뭐가 다른가?&amp;rdquo; 같은 질문이 자연스럽게 생긴다.&lt;/p&gt;&#xA;&lt;p&gt;신탁형 ISA는 내가 원하는 금융상품을 고르고, 금융기관에 운용을 지시하는 방식의 ISA다. 정기예금, 펀드 같은 상품을 한 계좌 안에서 운용할 수 있고, 일부 금융기관에서는 국내 상장주식도 선택할 수 있다.&lt;/p&gt;&#xA;&lt;p&gt;다만 모든 신탁형 ISA가 똑같은 상품을 제공하는 것은 아니다. 금융기관마다 운용 가능 상품, 최저 가입 금액, 보수율, 주식 투자 가능 범위가 다르다. 이 글에서는 신탁형 ISA의 개념과 투자 가능 상품, 국내 주식 투자 가능 여부, 신탁보수와 주의사항을 정리했다.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>인덱스 펀드 뜻과 장단점, 액티브 펀드 차이 쉽게 비교하기</title>
+				<link>https://money.devkuma.com/posts/index-fund-vs-active-fund/</link>
+				<pubDate>Mon, 01 Jun 2026 21:33:19 +0900</pubDate>
+				<guid>https://money.devkuma.com/posts/index-fund-vs-active-fund/</guid>
+				<description>&lt;p&gt;투자를 시작하면 &amp;ldquo;시장 평균만 따라가도 충분하다&amp;quot;는 말을 자주 듣는다. 반대로 좋은 종목을 골라 시장보다 높은 수익을 내야 한다는 주장도 있다. 어떤 방식이 맞는지 고민하다 보면 인덱스 펀드와 액티브 펀드라는 용어를 만나게 된다.&lt;/p&gt;&#xA;&lt;p&gt;두 상품은 모두 여러 투자자의 돈을 모아 운용하는 펀드다. 하지만 목표와 운용 방법이 다르다. 인덱스 펀드는 특정 지수를 따라가는 데 집중하고, 액티브 펀드는 펀드매니저의 판단으로 시장 평균보다 높은 성과를 내는 것을 목표로 한다.&lt;/p&gt;&#xA;&lt;p&gt;이 글에서는 인덱스 펀드의 뜻과 장단점, 액티브 펀드와의 차이, ETF와 혼동하기 쉬운 부분, 가입 전에 확인할 내용을 쉽게 정리했다.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>직접투자와 간접투자 차이, 종류와 장단점 쉽게 정리</title>
+				<link>https://money.devkuma.com/posts/direct-vs-indirect-investing/</link>
+				<pubDate>Mon, 18 May 2026 23:26:03 +0900</pubDate>
+				<guid>https://money.devkuma.com/posts/direct-vs-indirect-investing/</guid>
+				<description>&lt;p&gt;투자를 시작하려고 하면 가장 먼저 부딪히는 고민이 있다. 내가 직접 종목을 고를 것인지, 아니면 펀드나 ETF처럼 누군가 운용하는 상품을 활용할 것인지다. 주변에서는 &amp;ldquo;좋은 주식을 직접 사야 돈을 번다&amp;quot;고 말하기도 하고, 또 다른 쪽에서는 &amp;ldquo;초보자는 분산투자 상품부터 해야 한다&amp;quot;고 말한다.&lt;/p&gt;&#xA;&lt;p&gt;둘 다 맞는 말일 수 있다. 직접투자는 내가 판단하고 내가 책임지는 방식이고, 간접투자는 전문가나 상품 구조를 활용해 투자하는 방식이다. 어느 쪽이 무조건 좋다고 말하기 어렵다. 투자자의 시간, 지식, 성향, 자금 규모, 목표 기간에 따라 더 맞는 방식이 달라진다.&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

@@ -1,19 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>토지거래허가제 on Show Me the Money::devkuma</title>
-    <link>https://money.devkuma.com/tags/%ED%86%A0%EC%A7%80%EA%B1%B0%EB%9E%98%ED%97%88%EA%B0%80%EC%A0%9C/</link>
-    <description>Recent content in 토지거래허가제 on Show Me the Money::devkuma</description>
-    <generator>Hugo</generator>
-    <language>ko-KR</language>
-    <lastBuildDate>Tue, 12 May 2026 23:00:59 +0900</lastBuildDate>
-    <atom:link href="https://money.devkuma.com/tags/%ED%86%A0%EC%A7%80%EA%B1%B0%EB%9E%98%ED%97%88%EA%B0%80%EC%A0%9C/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>토지거래허가제란? 실거주 의무와 계약 전 체크 포인트 쉽게 정리</title>
-      <link>https://money.devkuma.com/posts/land-transaction-permit-system/</link>
-      <pubDate>Tue, 12 May 2026 23:00:59 +0900</pubDate>
-      <guid>https://money.devkuma.com/posts/land-transaction-permit-system/</guid>
-      <description>&lt;p&gt;부동산 뉴스를 보다 보면 &amp;ldquo;토지거래허가구역&amp;rdquo;, &amp;ldquo;토허제&amp;rdquo;, &amp;ldquo;실거주 2년&amp;rdquo; 같은 말이 자주 나온다. 이름만 보면 땅을 사고팔 때만 해당되는 제도처럼 느껴지지만, 실제로는 아파트 매매에도 영향을 줄 수 있다. 특히 서울 전역이나 경기 일부 지역처럼 아파트가 토지거래허가구역으로 지정된 곳에서는 일반적인 매매계약처럼 생각하고 접근하면 낭패를 볼 수 있다.&lt;/p&gt;&#xA;&lt;p&gt;토지거래허가제의 핵심은 간단하다. &lt;strong&gt;정해진 구역 안에서 일정 면적을 넘는 부동산을 거래하려면 계약 당사자가 관할 관청의 허가를 받아야 한다&lt;/strong&gt; 는 제도다. 투기 목적 거래를 줄이고, 실제로 거주하거나 이용하려는 사람 중심으로 거래가 이루어지게 하려는 장치다.&lt;/p&gt;</description>
-    </item>
-  </channel>
+	<channel>
+		<title>토지거래허가제 on Show Me the Money::devkuma</title>
+		<link>https://money.devkuma.com/tags/%ED%86%A0%EC%A7%80%EA%B1%B0%EB%9E%98%ED%97%88%EA%B0%80%EC%A0%9C/</link>
+		<description>Recent content in 토지거래허가제 on Show Me the Money::devkuma</description>
+		<generator>Hugo</generator>
+		<language>ko-KR</language>
+		
+		
+		
+		
+			<lastBuildDate>Tue, 12 May 2026 23:00:59 +0900</lastBuildDate>
+		
+			<atom:link href="https://money.devkuma.com/tags/%ED%86%A0%EC%A7%80%EA%B1%B0%EB%9E%98%ED%97%88%EA%B0%80%EC%A0%9C/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>토지거래허가제란? 실거주 의무와 계약 전 체크 포인트 쉽게 정리</title>
+				<link>https://money.devkuma.com/posts/land-transaction-permit-system/</link>
+				<pubDate>Tue, 12 May 2026 23:00:59 +0900</pubDate>
+				<guid>https://money.devkuma.com/posts/land-transaction-permit-system/</guid>
+				<description>&lt;p&gt;부동산 뉴스를 보다 보면 &amp;ldquo;토지거래허가구역&amp;rdquo;, &amp;ldquo;토허제&amp;rdquo;, &amp;ldquo;실거주 2년&amp;rdquo; 같은 말이 자주 나온다. 이름만 보면 땅을 사고팔 때만 해당되는 제도처럼 느껴지지만, 실제로는 아파트 매매에도 영향을 줄 수 있다. 특히 서울 전역이나 경기 일부 지역처럼 아파트가 토지거래허가구역으로 지정된 곳에서는 일반적인 매매계약처럼 생각하고 접근하면 낭패를 볼 수 있다.&lt;/p&gt;&#xA;&lt;p&gt;토지거래허가제의 핵심은 간단하다. &lt;strong&gt;정해진 구역 안에서 일정 면적을 넘는 부동산을 거래하려면 계약 당사자가 관할 관청의 허가를 받아야 한다&lt;/strong&gt; 는 제도다. 투기 목적 거래를 줄이고, 실제로 거주하거나 이용하려는 사람 중심으로 거래가 이루어지게 하려는 장치다.&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

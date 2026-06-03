@@ -1,19 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>디딤돌대출 on Show Me the Money::devkuma</title>
-    <link>https://money.devkuma.com/tags/%EB%94%94%EB%94%A4%EB%8F%8C%EB%8C%80%EC%B6%9C/</link>
-    <description>Recent content in 디딤돌대출 on Show Me the Money::devkuma</description>
-    <generator>Hugo</generator>
-    <language>ko-KR</language>
-    <lastBuildDate>Sun, 31 May 2026 07:35:13 +0900</lastBuildDate>
-    <atom:link href="https://money.devkuma.com/tags/%EB%94%94%EB%94%A4%EB%8F%8C%EB%8C%80%EC%B6%9C/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>후취담보란? 미등기 아파트 잔금대출 구조와 확인할 점</title>
-      <link>https://money.devkuma.com/posts/deferred-collateral/</link>
-      <pubDate>Sun, 31 May 2026 07:35:13 +0900</pubDate>
-      <guid>https://money.devkuma.com/posts/deferred-collateral/</guid>
-      <description>&lt;p&gt;신축 아파트에 입주할 때는 잔금을 치러야 열쇠를 받을 수 있다. 그런데 대출을 알아보면 예상하지 못한 문제가 생길 수 있다. 아직 소유권보존등기나 소유권이전등기가 끝나지 않아, 입주할 집을 바로 담보로 잡기 어려운 경우다.&lt;/p&gt;&#xA;&lt;p&gt;일반적인 주택담보대출은 은행이 주택에 근저당권을 설정하고 돈을 빌려주는 구조다. 하지만 신축 아파트는 입주 시점과 등기 시점이 항상 일치하지 않는다. 잔금은 지금 필요한데 담보 설정은 나중에야 가능한 상황이 생긴다.&lt;/p&gt;&#xA;&lt;p&gt;이때 자주 나오는 용어가 후취담보다. 이름만 보면 어렵지만 핵심은 단순하다. 먼저 대출을 실행하고, 소유권 등기가 가능해지면 나중에 해당 주택을 담보로 잡는 방식이다. 이 글에서는 후취담보의 뜻과 실제로 확인해야 할 내용을 정리하였다.&lt;/p&gt;</description>
-    </item>
-  </channel>
+	<channel>
+		<title>디딤돌대출 on Show Me the Money::devkuma</title>
+		<link>https://money.devkuma.com/tags/%EB%94%94%EB%94%A4%EB%8F%8C%EB%8C%80%EC%B6%9C/</link>
+		<description>Recent content in 디딤돌대출 on Show Me the Money::devkuma</description>
+		<generator>Hugo</generator>
+		<language>ko-KR</language>
+		
+		
+		
+		
+			<lastBuildDate>Sun, 31 May 2026 07:35:13 +0900</lastBuildDate>
+		
+			<atom:link href="https://money.devkuma.com/tags/%EB%94%94%EB%94%A4%EB%8F%8C%EB%8C%80%EC%B6%9C/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>후취담보란? 미등기 아파트 잔금대출 구조와 확인할 점</title>
+				<link>https://money.devkuma.com/posts/deferred-collateral/</link>
+				<pubDate>Sun, 31 May 2026 07:35:13 +0900</pubDate>
+				<guid>https://money.devkuma.com/posts/deferred-collateral/</guid>
+				<description>&lt;p&gt;신축 아파트에 입주할 때는 잔금을 치러야 열쇠를 받을 수 있다. 그런데 대출을 알아보면 예상하지 못한 문제가 생길 수 있다. 아직 소유권보존등기나 소유권이전등기가 끝나지 않아, 입주할 집을 바로 담보로 잡기 어려운 경우다.&lt;/p&gt;&#xA;&lt;p&gt;일반적인 주택담보대출은 은행이 주택에 근저당권을 설정하고 돈을 빌려주는 구조다. 하지만 신축 아파트는 입주 시점과 등기 시점이 항상 일치하지 않는다. 잔금은 지금 필요한데 담보 설정은 나중에야 가능한 상황이 생긴다.&lt;/p&gt;&#xA;&lt;p&gt;이때 자주 나오는 용어가 후취담보다. 이름만 보면 어렵지만 핵심은 단순하다. 먼저 대출을 실행하고, 소유권 등기가 가능해지면 나중에 해당 주택을 담보로 잡는 방식이다. 이 글에서는 후취담보의 뜻과 실제로 확인해야 할 내용을 정리하였다.&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

@@ -1,19 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>증거금률 on Show Me the Money::devkuma</title>
-    <link>https://money.devkuma.com/tags/%EC%A6%9D%EA%B1%B0%EA%B8%88%EB%A5%A0/</link>
-    <description>Recent content in 증거금률 on Show Me the Money::devkuma</description>
-    <generator>Hugo</generator>
-    <language>ko-KR</language>
-    <lastBuildDate>Mon, 01 Jun 2026 08:22:01 +0900</lastBuildDate>
-    <atom:link href="https://money.devkuma.com/tags/%EC%A6%9D%EA%B1%B0%EA%B8%88%EB%A5%A0/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>주식 증거금 뜻과 미수 거래 위험, 반대매매 전에 꼭 알아야 할 내용</title>
-      <link>https://money.devkuma.com/posts/stock-margin-trading/</link>
-      <pubDate>Mon, 01 Jun 2026 08:22:01 +0900</pubDate>
-      <guid>https://money.devkuma.com/posts/stock-margin-trading/</guid>
-      <description>&lt;p&gt;주식 앱에서 주문을 넣다 보면 계좌에 있는 현금보다 더 많은 금액을 주문할 수 있는 경우가 있다. 처음에는 증권사가 주식 매수 자금을 빌려주는 것처럼 느껴질 수 있다. 하지만 결제일까지 돈을 채우지 못하면 미수금이 발생하고, 보유 주식이 원하지 않는 가격에 강제로 팔릴 수도 있다.&lt;/p&gt;&#xA;&lt;p&gt;이 구조를 이해하려면 예수금, 증거금, 증거금률, 미수금이라는 용어를 구분해야 한다. 특히 초보 투자자는 매수 가능 금액을 내 돈으로 착각하기 쉽다. 주문이 된다는 것과 감당할 수 있는 거래라는 것은 전혀 다른 이야기다.&lt;/p&gt;</description>
-    </item>
-  </channel>
+	<channel>
+		<title>증거금률 on Show Me the Money::devkuma</title>
+		<link>https://money.devkuma.com/tags/%EC%A6%9D%EA%B1%B0%EA%B8%88%EB%A5%A0/</link>
+		<description>Recent content in 증거금률 on Show Me the Money::devkuma</description>
+		<generator>Hugo</generator>
+		<language>ko-KR</language>
+		
+		
+		
+		
+			<lastBuildDate>Mon, 01 Jun 2026 08:22:01 +0900</lastBuildDate>
+		
+			<atom:link href="https://money.devkuma.com/tags/%EC%A6%9D%EA%B1%B0%EA%B8%88%EB%A5%A0/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>주식 증거금 뜻과 미수 거래 위험, 반대매매 전에 꼭 알아야 할 내용</title>
+				<link>https://money.devkuma.com/posts/stock-margin-trading/</link>
+				<pubDate>Mon, 01 Jun 2026 08:22:01 +0900</pubDate>
+				<guid>https://money.devkuma.com/posts/stock-margin-trading/</guid>
+				<description>&lt;p&gt;주식 앱에서 주문을 넣다 보면 계좌에 있는 현금보다 더 많은 금액을 주문할 수 있는 경우가 있다. 처음에는 증권사가 주식 매수 자금을 빌려주는 것처럼 느껴질 수 있다. 하지만 결제일까지 돈을 채우지 못하면 미수금이 발생하고, 보유 주식이 원하지 않는 가격에 강제로 팔릴 수도 있다.&lt;/p&gt;&#xA;&lt;p&gt;이 구조를 이해하려면 예수금, 증거금, 증거금률, 미수금이라는 용어를 구분해야 한다. 특히 초보 투자자는 매수 가능 금액을 내 돈으로 착각하기 쉽다. 주문이 된다는 것과 감당할 수 있는 거래라는 것은 전혀 다른 이야기다.&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

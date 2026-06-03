@@ -1,61 +1,66 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>양도소득세 on Show Me the Money::devkuma</title>
-    <link>https://money.devkuma.com/tags/%EC%96%91%EB%8F%84%EC%86%8C%EB%93%9D%EC%84%B8/</link>
-    <description>Recent content in 양도소득세 on Show Me the Money::devkuma</description>
-    <generator>Hugo</generator>
-    <language>ko-KR</language>
-    <lastBuildDate>Wed, 27 May 2026 09:55:48 +0900</lastBuildDate>
-    <atom:link href="https://money.devkuma.com/tags/%EC%96%91%EB%8F%84%EC%86%8C%EB%93%9D%EC%84%B8/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>ETF 세금 총정리, 국내 ETF와 해외상장 ETF 매매차익·분배금 과세 비교</title>
-      <link>https://money.devkuma.com/posts/etf-tax-guide/</link>
-      <pubDate>Sun, 17 May 2026 22:46:15 +0900</pubDate>
-      <guid>https://money.devkuma.com/posts/etf-tax-guide/</guid>
-      <description>&lt;p&gt;ETF는 주식처럼 사고팔 수 있어서 세금도 주식과 똑같다고 생각하기 쉽다. 그런데 실제로는 그렇지 않다. 국내 증시에 상장된 ETF인지, 해외 거래소에 직접 상장된 ETF인지, 또 ETF가 국내 주식에 투자하는지 해외 주식에 투자하는지에 따라 세금이 달라진다.&lt;/p&gt;&#xA;&lt;p&gt;특히 초보자가 가장 많이 헷갈리는 부분은 &amp;ldquo;국내 상장 해외 ETF&amp;quot;다. 예를 들어 TIGER 미국S&amp;amp;P500, KODEX 미국나스닥100처럼 한국거래소에서 원화로 사고파는 ETF는 미국 주식에 투자하더라도 세금은 해외 상장 ETF와 다르게 처리된다.&lt;/p&gt;&#xA;&lt;p&gt;이 글에서는 ETF 투자자가 꼭 알아야 할 세금을 매매차익과 분배금으로 나누어 정리하였다. 세금은 투자 수익률의 마지막 숫자를 바꾸기 때문에, 상품을 고르기 전에 한 번은 확인해두는 것이 좋다.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>RIA 계좌란? 해외주식 양도소득세 줄이는 국내시장복귀계좌 쉽게 정리</title>
-      <link>https://money.devkuma.com/posts/ria-account/</link>
-      <pubDate>Wed, 27 May 2026 09:55:48 +0900</pubDate>
-      <guid>https://money.devkuma.com/posts/ria-account/</guid>
-      <description>&lt;p&gt;해외주식에서 수익이 났는데 막상 팔려고 하면 세금이 먼저 떠오른다. 특히 미국 주식이나 해외 ETF를 오래 들고 있다가 평가이익이 커진 사람이라면 &amp;ldquo;팔면 양도소득세가 얼마나 나올까?&amp;ldquo;라는 고민을 하게 된다.&lt;/p&gt;&#xA;&lt;p&gt;RIA 계좌는 이런 상황에서 한 번쯤 확인해볼 만한 제도다. 정확한 이름은 국내시장복귀계좌이고, 해외주식을 팔아 생긴 자금을 국내 주식시장으로 옮기면 해외주식 양도소득세 부담을 줄여주는 한시적 계좌다.&lt;/p&gt;&#xA;&lt;p&gt;다만 이름만 보면 절세 만능 계좌처럼 보이지만 실제로는 조건이 꽤 분명하다. 대상 주식, 매도 시점, 5천만 원 한도, 1년 유지 조건, 다른 계좌에서 해외주식을 새로 사는 경우까지 같이 봐야 한다. 이 글에서는 RIA 계좌가 무엇인지 초보자도 이해할 수 있게 정리하였다.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>다가구주택 용도변경 주의점, 다세대주택으로 보이면 양도세가 커질 수 있다</title>
-      <link>https://money.devkuma.com/posts/multifamily-house-use-change-tax-risk/</link>
-      <pubDate>Sun, 17 May 2026 16:28:19 +0900</pubDate>
-      <guid>https://money.devkuma.com/posts/multifamily-house-use-change-tax-risk/</guid>
-      <description>&lt;p&gt;다가구주택을 가진 사람이라면 &amp;ldquo;건물 한 채니까 1주택이겠지&amp;quot;라고 생각하기 쉽다. 특히 건축물대장에 다가구주택이라고 적혀 있고, 등기부도 건물 전체가 하나로 되어 있으면 더 그렇다. 그런데 실제 사용 현황이 달라지면 세금 판단은 예상과 다르게 흘러갈 수 있다.&lt;/p&gt;&#xA;&lt;p&gt;대표적인 사례가 1층 상가를 주택으로 바꾸는 경우다. 공실이 오래되거나 상권이 약해져 월세가 잘 나오지 않으면, 상가를 원룸처럼 고쳐 임대하고 싶은 마음이 생긴다. 당장 월세 몇십만 원이 더 들어오는 것처럼 보이지만, 나중에 건물을 팔 때 양도소득세가 크게 늘어날 수 있다.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>공시지가와 실거래가 차이: 부동산 세금 기준 한눈에 정리</title>
-      <link>https://money.devkuma.com/posts/official-land-price-vs-actual-transaction-price/</link>
-      <pubDate>Sun, 10 May 2026 07:57:10 +0900</pubDate>
-      <guid>https://money.devkuma.com/posts/official-land-price-vs-actual-transaction-price/</guid>
-      <description>&lt;p&gt;집을 사거나 팔 때 가장 헷갈리는 말 중 하나가 공시지가와 실거래가다. 집값이 8억 원이라고 들었는데 세금 계산에서는 5억 원대 공시가격이 나오고, 토지는 공시지가라는 말을 쓰고, 아파트는 공동주택 공시가격이라는 말이 따로 나온다. 처음 보면 전부 &amp;ldquo;부동산 가격&amp;quot;처럼 보여서 뭐가 기준인지 헷갈릴 수밖에 없다.&lt;/p&gt;&#xA;&lt;p&gt;핵심은 간단하다. &lt;strong&gt;실거래가는 실제로 사고판 가격&lt;/strong&gt; 이고, &lt;strong&gt;공시지가는 정부가 공시하는 토지 가격&lt;/strong&gt; 이다. 다만 주택에서는 공시지가보다 &amp;ldquo;공시가격&amp;quot;이라는 표현을 더 정확히 써야 한다. 아파트나 빌라 같은 공동주택은 공동주택 공시가격, 단독주택은 개별주택가격 또는 표준주택가격을 확인하는 식이다.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>해외주식 양도소득세 신고 방법, 250만 원 공제와 세율 22% 쉽게 정리</title>
-      <link>https://money.devkuma.com/posts/foreign-stock-capital-gains-tax/</link>
-      <pubDate>Fri, 08 May 2026 08:29:40 +0900</pubDate>
-      <guid>https://money.devkuma.com/posts/foreign-stock-capital-gains-tax/</guid>
-      <description>&lt;p&gt;해외주식을 하다 보면 매수와 매도 타이밍에는 민감해도 세금은 뒤로 미루기 쉽다. 특히 테슬라, 엔비디아, 애플, 마이크로소프트처럼 익숙한 미국 주식으로 수익이 났다면 &amp;ldquo;증권사 계좌에 돈이 들어왔으니 끝난 것 아닌가&amp;quot;라고 생각할 수 있다.&lt;/p&gt;&#xA;&lt;p&gt;하지만 해외주식은 국내 상장주식과 세금 구조가 다르다. 일반 개인 투자자라도 해외주식을 팔아 연간 양도차익이 일정 금액을 넘으면 직접 양도소득세를 신고하고 납부해야 한다. 배당소득세처럼 증권사가 알아서 원천징수하고 끝나는 방식이 아니다.&lt;/p&gt;&#xA;&lt;p&gt;이 글에서는 해외주식 양도소득세가 언제 발생하는지, 국내주식과 무엇이 다른지, 250만 원 기본공제와 22% 세율은 어떻게 적용되는지, 5월 신고 때 무엇을 확인해야 하는지 초보자 기준으로 정리하였다.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>국내 주식 세금 총정리, 양도소득세 배당소득세 증권거래세 쉽게 이해하기</title>
-      <link>https://money.devkuma.com/posts/korea-stock-tax-guide/</link>
-      <pubDate>Fri, 08 May 2026 08:25:24 +0900</pubDate>
-      <guid>https://money.devkuma.com/posts/korea-stock-tax-guide/</guid>
-      <description>&lt;p&gt;국내 주식을 처음 시작하면 수익률과 종목만 보게 된다. 그런데 실제로 계좌를 오래 굴리다 보면 세금도 수익률에 영향을 준다. 주식을 팔 때 빠져나가는 세금이 있고, 배당금을 받을 때 원천징수되는 세금이 있으며, 특정 조건에 해당하면 직접 신고해야 하는 세금도 있다.&lt;/p&gt;&#xA;&lt;p&gt;국내 주식 세금은 크게 세 가지로 나누면 이해하기 쉽다. 주식을 팔아 이익이 났을 때 보는 &lt;strong&gt;양도소득세&lt;/strong&gt;, 배당금을 받을 때 붙는 &lt;strong&gt;배당소득세&lt;/strong&gt;, 주식을 매도할 때 거래금액에 붙는 &lt;strong&gt;증권거래세&lt;/strong&gt; 다.&lt;/p&gt;&#xA;&lt;p&gt;대부분의 일반 개인 투자자는 국내 상장주식을 장내에서 사고팔 때 양도소득세를 크게 신경 쓰지 않는 경우가 많다. 하지만 배당소득세와 증권거래세는 소액 투자자에게도 바로 적용된다. 이 글에서는 국내 주식 투자자가 꼭 알아야 할 세금 구조를 초보자 기준으로 정리하였다.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>다주택자 양도소득세 중과 5월 10일부터 시행: 대상, 세율, 달라지는 점 정리</title>
-      <link>https://money.devkuma.com/posts/multi-homeowner-capital-gains-tax-surcharge/</link>
-      <pubDate>Sun, 03 May 2026 11:59:25 +0900</pubDate>
-      <guid>https://money.devkuma.com/posts/multi-homeowner-capital-gains-tax-surcharge/</guid>
-      <description>&lt;p&gt;집을 여러 채 갖고 있는 사람에게 가장 민감한 세금 중 하나가 양도소득세다. 집을 보유하는 동안에는 재산세나 종부세가 부담이고, 집을 팔 때는 양도소득세가 부담이 된다. 특히 다주택자가 조정대상지역 주택을 팔 때 적용되는 &lt;strong&gt;양도세 중과&lt;/strong&gt; 는 세금 차이가 꽤 크게 벌어질 수 있다.&lt;/p&gt;&#xA;&lt;p&gt;2026년 5월 3일 기준으로 보면, 다주택자 양도소득세 중과 유예는 2026년 5월 9일까지로 알려져 있다. 유예가 끝나면 2026년 5월 10일부터 조정대상지역 내 주택을 파는 다주택자에게 중과세율이 다시 적용될 수 있다.&lt;/p&gt;</description>
-    </item>
-  </channel>
+	<channel>
+		<title>양도소득세 on Show Me the Money::devkuma</title>
+		<link>https://money.devkuma.com/tags/%EC%96%91%EB%8F%84%EC%86%8C%EB%93%9D%EC%84%B8/</link>
+		<description>Recent content in 양도소득세 on Show Me the Money::devkuma</description>
+		<generator>Hugo</generator>
+		<language>ko-KR</language>
+		
+		
+		
+		
+			<lastBuildDate>Wed, 27 May 2026 09:55:48 +0900</lastBuildDate>
+		
+			<atom:link href="https://money.devkuma.com/tags/%EC%96%91%EB%8F%84%EC%86%8C%EB%93%9D%EC%84%B8/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>ETF 세금 총정리, 국내 ETF와 해외상장 ETF 매매차익·분배금 과세 비교</title>
+				<link>https://money.devkuma.com/posts/etf-tax-guide/</link>
+				<pubDate>Sun, 17 May 2026 22:46:15 +0900</pubDate>
+				<guid>https://money.devkuma.com/posts/etf-tax-guide/</guid>
+				<description>&lt;p&gt;ETF는 주식처럼 사고팔 수 있어서 세금도 주식과 똑같다고 생각하기 쉽다. 그런데 실제로는 그렇지 않다. 국내 증시에 상장된 ETF인지, 해외 거래소에 직접 상장된 ETF인지, 또 ETF가 국내 주식에 투자하는지 해외 주식에 투자하는지에 따라 세금이 달라진다.&lt;/p&gt;&#xA;&lt;p&gt;특히 초보자가 가장 많이 헷갈리는 부분은 &amp;ldquo;국내 상장 해외 ETF&amp;quot;다. 예를 들어 TIGER 미국S&amp;amp;P500, KODEX 미국나스닥100처럼 한국거래소에서 원화로 사고파는 ETF는 미국 주식에 투자하더라도 세금은 해외 상장 ETF와 다르게 처리된다.&lt;/p&gt;&#xA;&lt;p&gt;이 글에서는 ETF 투자자가 꼭 알아야 할 세금을 매매차익과 분배금으로 나누어 정리하였다. 세금은 투자 수익률의 마지막 숫자를 바꾸기 때문에, 상품을 고르기 전에 한 번은 확인해두는 것이 좋다.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>RIA 계좌란? 해외주식 양도소득세 줄이는 국내시장복귀계좌 쉽게 정리</title>
+				<link>https://money.devkuma.com/posts/ria-account/</link>
+				<pubDate>Wed, 27 May 2026 09:55:48 +0900</pubDate>
+				<guid>https://money.devkuma.com/posts/ria-account/</guid>
+				<description>&lt;p&gt;해외주식에서 수익이 났는데 막상 팔려고 하면 세금이 먼저 떠오른다. 특히 미국 주식이나 해외 ETF를 오래 들고 있다가 평가이익이 커진 사람이라면 &amp;ldquo;팔면 양도소득세가 얼마나 나올까?&amp;ldquo;라는 고민을 하게 된다.&lt;/p&gt;&#xA;&lt;p&gt;RIA 계좌는 이런 상황에서 한 번쯤 확인해볼 만한 제도다. 정확한 이름은 국내시장복귀계좌이고, 해외주식을 팔아 생긴 자금을 국내 주식시장으로 옮기면 해외주식 양도소득세 부담을 줄여주는 한시적 계좌다.&lt;/p&gt;&#xA;&lt;p&gt;다만 이름만 보면 절세 만능 계좌처럼 보이지만 실제로는 조건이 꽤 분명하다. 대상 주식, 매도 시점, 5천만 원 한도, 1년 유지 조건, 다른 계좌에서 해외주식을 새로 사는 경우까지 같이 봐야 한다. 이 글에서는 RIA 계좌가 무엇인지 초보자도 이해할 수 있게 정리하였다.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>다가구주택 용도변경 주의점, 다세대주택으로 보이면 양도세가 커질 수 있다</title>
+				<link>https://money.devkuma.com/posts/multifamily-house-use-change-tax-risk/</link>
+				<pubDate>Sun, 17 May 2026 16:28:19 +0900</pubDate>
+				<guid>https://money.devkuma.com/posts/multifamily-house-use-change-tax-risk/</guid>
+				<description>&lt;p&gt;다가구주택을 가진 사람이라면 &amp;ldquo;건물 한 채니까 1주택이겠지&amp;quot;라고 생각하기 쉽다. 특히 건축물대장에 다가구주택이라고 적혀 있고, 등기부도 건물 전체가 하나로 되어 있으면 더 그렇다. 그런데 실제 사용 현황이 달라지면 세금 판단은 예상과 다르게 흘러갈 수 있다.&lt;/p&gt;&#xA;&lt;p&gt;대표적인 사례가 1층 상가를 주택으로 바꾸는 경우다. 공실이 오래되거나 상권이 약해져 월세가 잘 나오지 않으면, 상가를 원룸처럼 고쳐 임대하고 싶은 마음이 생긴다. 당장 월세 몇십만 원이 더 들어오는 것처럼 보이지만, 나중에 건물을 팔 때 양도소득세가 크게 늘어날 수 있다.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>공시지가와 실거래가 차이: 부동산 세금 기준 한눈에 정리</title>
+				<link>https://money.devkuma.com/posts/official-land-price-vs-actual-transaction-price/</link>
+				<pubDate>Sun, 10 May 2026 07:57:10 +0900</pubDate>
+				<guid>https://money.devkuma.com/posts/official-land-price-vs-actual-transaction-price/</guid>
+				<description>&lt;p&gt;집을 사거나 팔 때 가장 헷갈리는 말 중 하나가 공시지가와 실거래가다. 집값이 8억 원이라고 들었는데 세금 계산에서는 5억 원대 공시가격이 나오고, 토지는 공시지가라는 말을 쓰고, 아파트는 공동주택 공시가격이라는 말이 따로 나온다. 처음 보면 전부 &amp;ldquo;부동산 가격&amp;quot;처럼 보여서 뭐가 기준인지 헷갈릴 수밖에 없다.&lt;/p&gt;&#xA;&lt;p&gt;핵심은 간단하다. &lt;strong&gt;실거래가는 실제로 사고판 가격&lt;/strong&gt; 이고, &lt;strong&gt;공시지가는 정부가 공시하는 토지 가격&lt;/strong&gt; 이다. 다만 주택에서는 공시지가보다 &amp;ldquo;공시가격&amp;quot;이라는 표현을 더 정확히 써야 한다. 아파트나 빌라 같은 공동주택은 공동주택 공시가격, 단독주택은 개별주택가격 또는 표준주택가격을 확인하는 식이다.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>해외주식 양도소득세 신고 방법, 250만 원 공제와 세율 22% 쉽게 정리</title>
+				<link>https://money.devkuma.com/posts/foreign-stock-capital-gains-tax/</link>
+				<pubDate>Fri, 08 May 2026 08:29:40 +0900</pubDate>
+				<guid>https://money.devkuma.com/posts/foreign-stock-capital-gains-tax/</guid>
+				<description>&lt;p&gt;해외주식을 하다 보면 매수와 매도 타이밍에는 민감해도 세금은 뒤로 미루기 쉽다. 특히 테슬라, 엔비디아, 애플, 마이크로소프트처럼 익숙한 미국 주식으로 수익이 났다면 &amp;ldquo;증권사 계좌에 돈이 들어왔으니 끝난 것 아닌가&amp;quot;라고 생각할 수 있다.&lt;/p&gt;&#xA;&lt;p&gt;하지만 해외주식은 국내 상장주식과 세금 구조가 다르다. 일반 개인 투자자라도 해외주식을 팔아 연간 양도차익이 일정 금액을 넘으면 직접 양도소득세를 신고하고 납부해야 한다. 배당소득세처럼 증권사가 알아서 원천징수하고 끝나는 방식이 아니다.&lt;/p&gt;&#xA;&lt;p&gt;이 글에서는 해외주식 양도소득세가 언제 발생하는지, 국내주식과 무엇이 다른지, 250만 원 기본공제와 22% 세율은 어떻게 적용되는지, 5월 신고 때 무엇을 확인해야 하는지 초보자 기준으로 정리하였다.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>국내 주식 세금 총정리, 양도소득세 배당소득세 증권거래세 쉽게 이해하기</title>
+				<link>https://money.devkuma.com/posts/korea-stock-tax-guide/</link>
+				<pubDate>Fri, 08 May 2026 08:25:24 +0900</pubDate>
+				<guid>https://money.devkuma.com/posts/korea-stock-tax-guide/</guid>
+				<description>&lt;p&gt;국내 주식을 처음 시작하면 수익률과 종목만 보게 된다. 그런데 실제로 계좌를 오래 굴리다 보면 세금도 수익률에 영향을 준다. 주식을 팔 때 빠져나가는 세금이 있고, 배당금을 받을 때 원천징수되는 세금이 있으며, 특정 조건에 해당하면 직접 신고해야 하는 세금도 있다.&lt;/p&gt;&#xA;&lt;p&gt;국내 주식 세금은 크게 세 가지로 나누면 이해하기 쉽다. 주식을 팔아 이익이 났을 때 보는 &lt;strong&gt;양도소득세&lt;/strong&gt;, 배당금을 받을 때 붙는 &lt;strong&gt;배당소득세&lt;/strong&gt;, 주식을 매도할 때 거래금액에 붙는 &lt;strong&gt;증권거래세&lt;/strong&gt; 다.&lt;/p&gt;&#xA;&lt;p&gt;대부분의 일반 개인 투자자는 국내 상장주식을 장내에서 사고팔 때 양도소득세를 크게 신경 쓰지 않는 경우가 많다. 하지만 배당소득세와 증권거래세는 소액 투자자에게도 바로 적용된다. 이 글에서는 국내 주식 투자자가 꼭 알아야 할 세금 구조를 초보자 기준으로 정리하였다.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>다주택자 양도소득세 중과 5월 10일부터 시행: 대상, 세율, 달라지는 점 정리</title>
+				<link>https://money.devkuma.com/posts/multi-homeowner-capital-gains-tax-surcharge/</link>
+				<pubDate>Sun, 03 May 2026 11:59:25 +0900</pubDate>
+				<guid>https://money.devkuma.com/posts/multi-homeowner-capital-gains-tax-surcharge/</guid>
+				<description>&lt;p&gt;집을 여러 채 갖고 있는 사람에게 가장 민감한 세금 중 하나가 양도소득세다. 집을 보유하는 동안에는 재산세나 종부세가 부담이고, 집을 팔 때는 양도소득세가 부담이 된다. 특히 다주택자가 조정대상지역 주택을 팔 때 적용되는 &lt;strong&gt;양도세 중과&lt;/strong&gt; 는 세금 차이가 꽤 크게 벌어질 수 있다.&lt;/p&gt;&#xA;&lt;p&gt;2026년 5월 3일 기준으로 보면, 다주택자 양도소득세 중과 유예는 2026년 5월 9일까지로 알려져 있다. 유예가 끝나면 2026년 5월 10일부터 조정대상지역 내 주택을 파는 다주택자에게 중과세율이 다시 적용될 수 있다.&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

@@ -1,19 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>상한가 on Show Me the Money::devkuma</title>
-    <link>https://money.devkuma.com/tags/%EC%83%81%ED%95%9C%EA%B0%80/</link>
-    <description>Recent content in 상한가 on Show Me the Money::devkuma</description>
-    <generator>Hugo</generator>
-    <language>ko-KR</language>
-    <lastBuildDate>Sat, 09 May 2026 08:56:36 +0900</lastBuildDate>
-    <atom:link href="https://money.devkuma.com/tags/%EC%83%81%ED%95%9C%EA%B0%80/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>주식 용어: 상한가 하한가, 주식 가격제한폭 30% 쉽게 이해하기</title>
-      <link>https://money.devkuma.com/posts/limit-up-limit-down/</link>
-      <pubDate>Sat, 09 May 2026 08:56:36 +0900</pubDate>
-      <guid>https://money.devkuma.com/posts/limit-up-limit-down/</guid>
-      <description>&lt;p&gt;주식 뉴스를 보다 보면 &amp;ldquo;상한가를 기록했다&amp;rdquo;, &amp;ldquo;하한가로 밀렸다&amp;rdquo; 같은 표현이 자주 나온다. 처음 들으면 단순히 많이 올랐거나 많이 떨어졌다는 말처럼 보이지만, 실제로는 하루 동안 주가가 움직일 수 있는 한계 가격을 뜻한다.&lt;/p&gt;&#xA;&lt;p&gt;국내 주식시장은 개별 종목의 가격이 하루에 끝없이 오르거나 끝없이 떨어지지 않도록 가격제한폭을 둔다. 코스피와 코스닥은 전일 종가를 기준으로 대체로 위아래 30%까지 움직일 수 있고, 이 위쪽 끝이 &lt;strong&gt;상한가&lt;/strong&gt;, 아래쪽 끝이 &lt;strong&gt;하한가&lt;/strong&gt; 다.&lt;/p&gt;&#xA;&lt;p&gt;상한가와 하한가를 알면 뉴스 문장을 이해하는 데 그치지 않고, 내 계좌에서 주가가 왜 더 오르지 않는지, 왜 특정 가격 아래로 더 내려가지 않는지까지 이해할 수 있다. 초보 투자자가 반드시 알아야 할 기본 가격 용어다.&lt;/p&gt;</description>
-    </item>
-  </channel>
+	<channel>
+		<title>상한가 on Show Me the Money::devkuma</title>
+		<link>https://money.devkuma.com/tags/%EC%83%81%ED%95%9C%EA%B0%80/</link>
+		<description>Recent content in 상한가 on Show Me the Money::devkuma</description>
+		<generator>Hugo</generator>
+		<language>ko-KR</language>
+		
+		
+		
+		
+			<lastBuildDate>Sat, 09 May 2026 08:56:36 +0900</lastBuildDate>
+		
+			<atom:link href="https://money.devkuma.com/tags/%EC%83%81%ED%95%9C%EA%B0%80/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>주식 용어: 상한가 하한가, 주식 가격제한폭 30% 쉽게 이해하기</title>
+				<link>https://money.devkuma.com/posts/limit-up-limit-down/</link>
+				<pubDate>Sat, 09 May 2026 08:56:36 +0900</pubDate>
+				<guid>https://money.devkuma.com/posts/limit-up-limit-down/</guid>
+				<description>&lt;p&gt;주식 뉴스를 보다 보면 &amp;ldquo;상한가를 기록했다&amp;rdquo;, &amp;ldquo;하한가로 밀렸다&amp;rdquo; 같은 표현이 자주 나온다. 처음 들으면 단순히 많이 올랐거나 많이 떨어졌다는 말처럼 보이지만, 실제로는 하루 동안 주가가 움직일 수 있는 한계 가격을 뜻한다.&lt;/p&gt;&#xA;&lt;p&gt;국내 주식시장은 개별 종목의 가격이 하루에 끝없이 오르거나 끝없이 떨어지지 않도록 가격제한폭을 둔다. 코스피와 코스닥은 전일 종가를 기준으로 대체로 위아래 30%까지 움직일 수 있고, 이 위쪽 끝이 &lt;strong&gt;상한가&lt;/strong&gt;, 아래쪽 끝이 &lt;strong&gt;하한가&lt;/strong&gt; 다.&lt;/p&gt;&#xA;&lt;p&gt;상한가와 하한가를 알면 뉴스 문장을 이해하는 데 그치지 않고, 내 계좌에서 주가가 왜 더 오르지 않는지, 왜 특정 가격 아래로 더 내려가지 않는지까지 이해할 수 있다. 초보 투자자가 반드시 알아야 할 기본 가격 용어다.&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

@@ -1,33 +1,38 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>소득공제 on Show Me the Money::devkuma</title>
-    <link>https://money.devkuma.com/tags/%EC%86%8C%EB%93%9D%EA%B3%B5%EC%A0%9C/</link>
-    <description>Recent content in 소득공제 on Show Me the Money::devkuma</description>
-    <generator>Hugo</generator>
-    <language>ko-KR</language>
-    <lastBuildDate>Sun, 17 May 2026 16:09:50 +0900</lastBuildDate>
-    <atom:link href="https://money.devkuma.com/tags/%EC%86%8C%EB%93%9D%EA%B3%B5%EC%A0%9C/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>절세와 탈세 차이, 합법적으로 세금 줄이는 기준과 탈세 사례</title>
-      <link>https://money.devkuma.com/posts/tax-saving-vs-tax-evasion/</link>
-      <pubDate>Sun, 17 May 2026 16:09:50 +0900</pubDate>
-      <guid>https://money.devkuma.com/posts/tax-saving-vs-tax-evasion/</guid>
-      <description>&lt;p&gt;세금은 가능하면 줄이고 싶다. 월급을 받는 사람도 연말정산 환급액이 커지면 기분이 좋고, 사업자는 종합소득세나 부가가치세 신고 때 비용을 빠짐없이 인정받고 싶다. 그런데 여기서 자주 헷갈리는 말이 있다. 바로 &amp;ldquo;절세&amp;quot;와 &amp;ldquo;탈세&amp;quot;다.&lt;/p&gt;&#xA;&lt;p&gt;둘 다 세금을 줄인다는 점에서는 비슷해 보인다. 하지만 실제 의미는 완전히 다르다. &lt;strong&gt;절세는 세법이 허용하는 범위 안에서 세금을 줄이는 것&lt;/strong&gt;이고, &lt;strong&gt;탈세는&lt;/strong&gt; &lt;strong&gt;거짓 자료나 고의적인 누락으로 세금을 줄이려는 불법 행위&lt;/strong&gt;다.&lt;/p&gt;&#xA;&lt;p&gt;문제는 현실에서 이 경계가 늘 또렷하게 느껴지지는 않는다는 점이다. &amp;ldquo;이 정도 비용은 넣어도 되지 않을까?&amp;rdquo;, &amp;ldquo;현금 매출은 조금 빠져도 모르지 않을까?&amp;rdquo;, &amp;ldquo;명의만 잠깐 빌리면 괜찮지 않을까?&amp;rdquo; 같은 생각이 절세처럼 보이다가 탈세가 될 수 있다. 이 글에서는 초보자도 바로 구분할 수 있도록 절세와 탈세의 차이, 대표 사례, 피해야 할 행동을 정리하였다.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>국민성장펀드란? 2026년 판매 일정, 투자 방법, 세금 혜택 쉽게 정리</title>
-      <link>https://money.devkuma.com/posts/national-growth-fund/</link>
-      <pubDate>Sat, 09 May 2026 18:12:44 +0900</pubDate>
-      <guid>https://money.devkuma.com/posts/national-growth-fund/</guid>
-      <description>&lt;p&gt;투자를 하다 보면 늘 같은 고민이 생긴다. 예금보다 높은 수익은 기대하고 싶은데, 막상 원금이 크게 흔들릴 가능성을 생각하면 선뜻 돈을 넣기 어렵다. 특히 펀드는 투자 대상과 구조가 복잡해 보이고, 세금까지 따져야 해서 초보자에게는 더 어렵게 느껴진다.&lt;/p&gt;&#xA;&lt;p&gt;2026년에 판매되는 &lt;strong&gt;국민참여형 국민성장펀드&lt;/strong&gt;는 이런 고민 때문에 관심을 받고 있다. 정부가 추진하는 국민성장펀드의 일부를 일반 국민도 투자할 수 있게 만든 상품이고, 첨단전략산업에 투자하면서 소득공제와 분리과세 혜택까지 붙어 있다.&lt;/p&gt;&#xA;&lt;p&gt;다만 이름만 보고 &amp;ldquo;정부가 원금을 보장해주는 안전한 상품&amp;quot;이라고 이해하면 곤란하다. 이 펀드는 예금자보호가 되는 예금이 아니라 투자상품이다. 손실을 줄여주는 구조는 있지만, 손실 가능성 자체가 사라지는 것은 아니다. 그래서 가입 전에는 판매 일정, 한도, 세제 혜택, 환매 제한을 같이 봐야 한다.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>경기지역화폐 신청 방법과 충전 혜택, 사용처까지 초보자도 쉽게 정리</title>
-      <link>https://money.devkuma.com/posts/gyeonggi-local-currency/</link>
-      <pubDate>Tue, 05 May 2026 07:32:06 +0900</pubDate>
-      <guid>https://money.devkuma.com/posts/gyeonggi-local-currency/</guid>
-      <description>&lt;p&gt;생활비를 아끼는 방법을 찾다 보면 경기지역화폐라는 말을 자주 보게 된다. 동네 마트, 병원, 학원, 음식점처럼 자주 가는 곳에서 쓸 수 있고, 충전할 때 인센티브를 받을 수 있어서 잘만 쓰면 체감 할인 효과가 꽤 크다.&lt;/p&gt;&#xA;&lt;p&gt;하지만 처음 쓰려면 헷갈리는 부분도 많다. 어느 앱을 설치해야 하는지, 카드는 어떻게 신청하는지, 충전하면 얼마를 더 받을 수 있는지, 아무 가게에서나 결제되는지 바로 감이 오지 않는다.&lt;/p&gt;&#xA;&lt;p&gt;경기지역화폐는 경기도 31개 시·군에서 발행하는 지역화폐다. 지역 안에서 돈이 돌게 만들어 전통시장과 소상공인 매출을 돕고, 사용자에게는 인센티브와 소득공제 혜택을 주는 구조다. 이 글에서는 경기지역화폐 신청 방법, 구매와 충전 방법, 앱 설치 링크, 실제 혜택과 사용처 확인 방법을 누구나 이해하기 쉽게 정리하였다.&lt;/p&gt;</description>
-    </item>
-  </channel>
+	<channel>
+		<title>소득공제 on Show Me the Money::devkuma</title>
+		<link>https://money.devkuma.com/tags/%EC%86%8C%EB%93%9D%EA%B3%B5%EC%A0%9C/</link>
+		<description>Recent content in 소득공제 on Show Me the Money::devkuma</description>
+		<generator>Hugo</generator>
+		<language>ko-KR</language>
+		
+		
+		
+		
+			<lastBuildDate>Sun, 17 May 2026 16:09:50 +0900</lastBuildDate>
+		
+			<atom:link href="https://money.devkuma.com/tags/%EC%86%8C%EB%93%9D%EA%B3%B5%EC%A0%9C/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>절세와 탈세 차이, 합법적으로 세금 줄이는 기준과 탈세 사례</title>
+				<link>https://money.devkuma.com/posts/tax-saving-vs-tax-evasion/</link>
+				<pubDate>Sun, 17 May 2026 16:09:50 +0900</pubDate>
+				<guid>https://money.devkuma.com/posts/tax-saving-vs-tax-evasion/</guid>
+				<description>&lt;p&gt;세금은 가능하면 줄이고 싶다. 월급을 받는 사람도 연말정산 환급액이 커지면 기분이 좋고, 사업자는 종합소득세나 부가가치세 신고 때 비용을 빠짐없이 인정받고 싶다. 그런데 여기서 자주 헷갈리는 말이 있다. 바로 &amp;ldquo;절세&amp;quot;와 &amp;ldquo;탈세&amp;quot;다.&lt;/p&gt;&#xA;&lt;p&gt;둘 다 세금을 줄인다는 점에서는 비슷해 보인다. 하지만 실제 의미는 완전히 다르다. &lt;strong&gt;절세는 세법이 허용하는 범위 안에서 세금을 줄이는 것&lt;/strong&gt;이고, &lt;strong&gt;탈세는&lt;/strong&gt; &lt;strong&gt;거짓 자료나 고의적인 누락으로 세금을 줄이려는 불법 행위&lt;/strong&gt;다.&lt;/p&gt;&#xA;&lt;p&gt;문제는 현실에서 이 경계가 늘 또렷하게 느껴지지는 않는다는 점이다. &amp;ldquo;이 정도 비용은 넣어도 되지 않을까?&amp;rdquo;, &amp;ldquo;현금 매출은 조금 빠져도 모르지 않을까?&amp;rdquo;, &amp;ldquo;명의만 잠깐 빌리면 괜찮지 않을까?&amp;rdquo; 같은 생각이 절세처럼 보이다가 탈세가 될 수 있다. 이 글에서는 초보자도 바로 구분할 수 있도록 절세와 탈세의 차이, 대표 사례, 피해야 할 행동을 정리하였다.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>국민성장펀드란? 2026년 판매 일정, 투자 방법, 세금 혜택 쉽게 정리</title>
+				<link>https://money.devkuma.com/posts/national-growth-fund/</link>
+				<pubDate>Sat, 09 May 2026 18:12:44 +0900</pubDate>
+				<guid>https://money.devkuma.com/posts/national-growth-fund/</guid>
+				<description>&lt;p&gt;투자를 하다 보면 늘 같은 고민이 생긴다. 예금보다 높은 수익은 기대하고 싶은데, 막상 원금이 크게 흔들릴 가능성을 생각하면 선뜻 돈을 넣기 어렵다. 특히 펀드는 투자 대상과 구조가 복잡해 보이고, 세금까지 따져야 해서 초보자에게는 더 어렵게 느껴진다.&lt;/p&gt;&#xA;&lt;p&gt;2026년에 판매되는 &lt;strong&gt;국민참여형 국민성장펀드&lt;/strong&gt;는 이런 고민 때문에 관심을 받고 있다. 정부가 추진하는 국민성장펀드의 일부를 일반 국민도 투자할 수 있게 만든 상품이고, 첨단전략산업에 투자하면서 소득공제와 분리과세 혜택까지 붙어 있다.&lt;/p&gt;&#xA;&lt;p&gt;다만 이름만 보고 &amp;ldquo;정부가 원금을 보장해주는 안전한 상품&amp;quot;이라고 이해하면 곤란하다. 이 펀드는 예금자보호가 되는 예금이 아니라 투자상품이다. 손실을 줄여주는 구조는 있지만, 손실 가능성 자체가 사라지는 것은 아니다. 그래서 가입 전에는 판매 일정, 한도, 세제 혜택, 환매 제한을 같이 봐야 한다.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>경기지역화폐 신청 방법과 충전 혜택, 사용처까지 초보자도 쉽게 정리</title>
+				<link>https://money.devkuma.com/posts/gyeonggi-local-currency/</link>
+				<pubDate>Tue, 05 May 2026 07:32:06 +0900</pubDate>
+				<guid>https://money.devkuma.com/posts/gyeonggi-local-currency/</guid>
+				<description>&lt;p&gt;생활비를 아끼는 방법을 찾다 보면 경기지역화폐라는 말을 자주 보게 된다. 동네 마트, 병원, 학원, 음식점처럼 자주 가는 곳에서 쓸 수 있고, 충전할 때 인센티브를 받을 수 있어서 잘만 쓰면 체감 할인 효과가 꽤 크다.&lt;/p&gt;&#xA;&lt;p&gt;하지만 처음 쓰려면 헷갈리는 부분도 많다. 어느 앱을 설치해야 하는지, 카드는 어떻게 신청하는지, 충전하면 얼마를 더 받을 수 있는지, 아무 가게에서나 결제되는지 바로 감이 오지 않는다.&lt;/p&gt;&#xA;&lt;p&gt;경기지역화폐는 경기도 31개 시·군에서 발행하는 지역화폐다. 지역 안에서 돈이 돌게 만들어 전통시장과 소상공인 매출을 돕고, 사용자에게는 인센티브와 소득공제 혜택을 주는 구조다. 이 글에서는 경기지역화폐 신청 방법, 구매와 충전 방법, 앱 설치 링크, 실제 혜택과 사용처 확인 방법을 누구나 이해하기 쉽게 정리하였다.&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>
