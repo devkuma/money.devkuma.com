@@ -10,7 +10,7 @@
 		
 		
 		
-			<lastBuildDate>Mon, 25 May 2026 15:22:55 +0900</lastBuildDate>
+			<lastBuildDate>Wed, 03 Jun 2026 23:51:24 +0900</lastBuildDate>
 		
 			<atom:link href="https://money.devkuma.com/categories/%EA%B2%BD%EC%A0%9C-%EC%9D%B4%EC%95%BC%EA%B8%B0/index.xml" rel="self" type="application/rss+xml" />
 			<item>
@@ -61,6 +61,13 @@
 				<pubDate>Sun, 24 May 2026 08:20:34 +0900</pubDate>
 				<guid>https://money.devkuma.com/posts/isa-account-type-trust/</guid>
 				<description>&lt;p&gt;ISA 계좌를 알아보다 보면 신탁형, 일임형, 중개형이라는 말이 계속 나온다. 이름만 봐서는 차이가 잘 안 느껴진다. 특히 신탁형 ISA는 &amp;ldquo;은행에서 만드는 ISA인가?&amp;rdquo;, &amp;ldquo;국내 주식도 살 수 있나?&amp;rdquo;, &amp;ldquo;중개형 ISA와 뭐가 다른가?&amp;rdquo; 같은 질문이 자연스럽게 생긴다.&lt;/p&gt;&#xA;&lt;p&gt;신탁형 ISA는 내가 원하는 금융상품을 고르고, 금융기관에 운용을 지시하는 방식의 ISA다. 정기예금, 펀드 같은 상품을 한 계좌 안에서 운용할 수 있고, 일부 금융기관에서는 국내 상장주식도 선택할 수 있다.&lt;/p&gt;&#xA;&lt;p&gt;다만 모든 신탁형 ISA가 똑같은 상품을 제공하는 것은 아니다. 금융기관마다 운용 가능 상품, 최저 가입 금액, 보수율, 주식 투자 가능 범위가 다르다. 이 글에서는 신탁형 ISA의 개념과 투자 가능 상품, 국내 주식 투자 가능 여부, 신탁보수와 주의사항을 정리했다.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>캔틸론 효과란? 돈이 풀려도 모두가 똑같이 부자가 되지 않는 이유</title>
+				<link>https://money.devkuma.com/posts/cantillon-effect/</link>
+				<pubDate>Wed, 03 Jun 2026 23:51:24 +0900</pubDate>
+				<guid>https://money.devkuma.com/posts/cantillon-effect/</guid>
+				<description>&lt;p&gt;경제 뉴스에서 &amp;ldquo;시중에 돈이 많이 풀렸다&amp;quot;라는 말을 자주 듣는다. 기준금리가 내려가고, 대출이 늘고, 정부가 재정을 쓰고, 중앙은행이 시장에 유동성을 공급하면 돈의 양은 늘어난다. 그런데 이상한 점이 있다. 돈이 많이 풀렸다고 하는데 내 월급은 크게 늘지 않고, 장바구니 물가는 오르고, 집값이나 주식 같은 자산 가격만 먼저 뛰는 경우가 많다.&lt;/p&gt;&#xA;&lt;p&gt;이 현상을 이해할 때 자주 등장하는 개념이 캔틸론 효과다. 핵심은 간단하다. 새로 생긴 돈은 모든 사람에게 동시에, 같은 양으로, 같은 조건으로 도착하지 않는다. 돈을 먼저 받는 사람은 아직 가격이 오르기 전에 자산과 상품을 살 수 있지만, 돈을 늦게 받는 사람은 이미 오른 가격을 마주하게 된다.&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>신용점수 관리가 중요한 이유와 점수 올리는 현실적인 방법</title>
