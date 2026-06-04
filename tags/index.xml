@@ -10,14 +10,105 @@
 		
 		
 		
-			<lastBuildDate>Thu, 04 Jun 2026 21:35:30 +0900</lastBuildDate>
+			<lastBuildDate>Thu, 04 Jun 2026 22:12:52 +0900</lastBuildDate>
 		
 			<atom:link href="https://money.devkuma.com/tags/index.xml" rel="self" type="application/rss+xml" />
 			<item>
+				<title>기본공제</title>
+				<link>https://money.devkuma.com/tags/%EA%B8%B0%EB%B3%B8%EA%B3%B5%EC%A0%9C/</link>
+				<pubDate>Thu, 04 Jun 2026 22:12:52 +0900</pubDate>
+				<guid>https://money.devkuma.com/tags/%EA%B8%B0%EB%B3%B8%EA%B3%B5%EC%A0%9C/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>나이요건</title>
+				<link>https://money.devkuma.com/tags/%EB%82%98%EC%9D%B4%EC%9A%94%EA%B1%B4/</link>
+				<pubDate>Thu, 04 Jun 2026 22:12:52 +0900</pubDate>
+				<guid>https://money.devkuma.com/tags/%EB%82%98%EC%9D%B4%EC%9A%94%EA%B1%B4/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>부양가족공제</title>
+				<link>https://money.devkuma.com/tags/%EB%B6%80%EC%96%91%EA%B0%80%EC%A1%B1%EA%B3%B5%EC%A0%9C/</link>
+				<pubDate>Thu, 04 Jun 2026 22:12:52 +0900</pubDate>
+				<guid>https://money.devkuma.com/tags/%EB%B6%80%EC%96%91%EA%B0%80%EC%A1%B1%EA%B3%B5%EC%A0%9C/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>소득요건</title>
+				<link>https://money.devkuma.com/tags/%EC%86%8C%EB%93%9D%EC%9A%94%EA%B1%B4/</link>
+				<pubDate>Thu, 04 Jun 2026 22:12:52 +0900</pubDate>
+				<guid>https://money.devkuma.com/tags/%EC%86%8C%EB%93%9D%EC%9A%94%EA%B1%B4/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>연말정산</title>
+				<link>https://money.devkuma.com/tags/%EC%97%B0%EB%A7%90%EC%A0%95%EC%82%B0/</link>
+				<pubDate>Thu, 04 Jun 2026 22:12:52 +0900</pubDate>
+				<guid>https://money.devkuma.com/tags/%EC%97%B0%EB%A7%90%EC%A0%95%EC%82%B0/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>인적공제</title>
+				<link>https://money.devkuma.com/tags/%EC%9D%B8%EC%A0%81%EA%B3%B5%EC%A0%9C/</link>
+				<pubDate>Thu, 04 Jun 2026 22:12:52 +0900</pubDate>
+				<guid>https://money.devkuma.com/tags/%EC%9D%B8%EC%A0%81%EA%B3%B5%EC%A0%9C/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>추가공제</title>
+				<link>https://money.devkuma.com/tags/%EC%B6%94%EA%B0%80%EA%B3%B5%EC%A0%9C/</link>
+				<pubDate>Thu, 04 Jun 2026 22:12:52 +0900</pubDate>
+				<guid>https://money.devkuma.com/tags/%EC%B6%94%EA%B0%80%EA%B3%B5%EC%A0%9C/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>홈택스</title>
+				<link>https://money.devkuma.com/tags/%ED%99%88%ED%83%9D%EC%8A%A4/</link>
+				<pubDate>Thu, 04 Jun 2026 22:12:52 +0900</pubDate>
+				<guid>https://money.devkuma.com/tags/%ED%99%88%ED%83%9D%EC%8A%A4/</guid>
+				<description></description>
+			</item>
+			<item>
 				<title>무주택세대주</title>
 				<link>https://money.devkuma.com/tags/%EB%AC%B4%EC%A3%BC%ED%83%9D%EC%84%B8%EB%8C%80%EC%A3%BC/</link>
-				<pubDate>Thu, 04 Jun 2026 21:35:30 +0900</pubDate>
+				<pubDate>Thu, 04 Jun 2026 22:08:15 +0900</pubDate>
 				<guid>https://money.devkuma.com/tags/%EB%AC%B4%EC%A3%BC%ED%83%9D%EC%84%B8%EB%8C%80%EC%A3%BC/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>월세공제</title>
+				<link>https://money.devkuma.com/tags/%EC%9B%94%EC%84%B8%EA%B3%B5%EC%A0%9C/</link>
+				<pubDate>Thu, 04 Jun 2026 22:08:15 +0900</pubDate>
+				<guid>https://money.devkuma.com/tags/%EC%9B%94%EC%84%B8%EA%B3%B5%EC%A0%9C/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>월세세액공제</title>
+				<link>https://money.devkuma.com/tags/%EC%9B%94%EC%84%B8%EC%84%B8%EC%95%A1%EA%B3%B5%EC%A0%9C/</link>
+				<pubDate>Thu, 04 Jun 2026 22:08:15 +0900</pubDate>
+				<guid>https://money.devkuma.com/tags/%EC%9B%94%EC%84%B8%EC%84%B8%EC%95%A1%EA%B3%B5%EC%A0%9C/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>월세소득공제</title>
+				<link>https://money.devkuma.com/tags/%EC%9B%94%EC%84%B8%EC%86%8C%EB%93%9D%EA%B3%B5%EC%A0%9C/</link>
+				<pubDate>Thu, 04 Jun 2026 22:08:15 +0900</pubDate>
+				<guid>https://money.devkuma.com/tags/%EC%9B%94%EC%84%B8%EC%86%8C%EB%93%9D%EA%B3%B5%EC%A0%9C/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>임대차계약서</title>
+				<link>https://money.devkuma.com/tags/%EC%9E%84%EB%8C%80%EC%B0%A8%EA%B3%84%EC%95%BD%EC%84%9C/</link>
+				<pubDate>Thu, 04 Jun 2026 22:08:15 +0900</pubDate>
+				<guid>https://money.devkuma.com/tags/%EC%9E%84%EB%8C%80%EC%B0%A8%EA%B3%84%EC%95%BD%EC%84%9C/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>현금영수증</title>
+				<link>https://money.devkuma.com/tags/%ED%98%84%EA%B8%88%EC%98%81%EC%88%98%EC%A6%9D/</link>
+				<pubDate>Thu, 04 Jun 2026 22:08:15 +0900</pubDate>
+				<guid>https://money.devkuma.com/tags/%ED%98%84%EA%B8%88%EC%98%81%EC%88%98%EC%A6%9D/</guid>
 				<description></description>
 			</item>
 			<item>
@@ -25,20 +116,6 @@
 				<link>https://money.devkuma.com/tags/%EC%86%8C%EB%93%9D%EA%B3%B5%EC%A0%9C/</link>
 				<pubDate>Thu, 04 Jun 2026 21:35:30 +0900</pubDate>
 				<guid>https://money.devkuma.com/tags/%EC%86%8C%EB%93%9D%EA%B3%B5%EC%A0%9C/</guid>
-				<description></description>
-			</item>
-			<item>
-				<title>연말정산</title>
-				<link>https://money.devkuma.com/tags/%EC%97%B0%EB%A7%90%EC%A0%95%EC%82%B0/</link>
-				<pubDate>Thu, 04 Jun 2026 21:35:30 +0900</pubDate>
-				<guid>https://money.devkuma.com/tags/%EC%97%B0%EB%A7%90%EC%A0%95%EC%82%B0/</guid>
-				<description></description>
-			</item>
-			<item>
-				<title>월세세액공제</title>
-				<link>https://money.devkuma.com/tags/%EC%9B%94%EC%84%B8%EC%84%B8%EC%95%A1%EA%B3%B5%EC%A0%9C/</link>
-				<pubDate>Thu, 04 Jun 2026 21:35:30 +0900</pubDate>
-				<guid>https://money.devkuma.com/tags/%EC%9B%94%EC%84%B8%EC%84%B8%EC%95%A1%EA%B3%B5%EC%A0%9C/</guid>
 				<description></description>
 			</item>
 			<item>
@@ -270,13 +347,6 @@
 				<link>https://money.devkuma.com/tags/%EC%B2%B4%ED%81%AC%EC%B9%B4%EB%93%9C/</link>
 				<pubDate>Thu, 04 Jun 2026 21:11:34 +0900</pubDate>
 				<guid>https://money.devkuma.com/tags/%EC%B2%B4%ED%81%AC%EC%B9%B4%EB%93%9C/</guid>
-				<description></description>
-			</item>
-			<item>
-				<title>현금영수증</title>
-				<link>https://money.devkuma.com/tags/%ED%98%84%EA%B8%88%EC%98%81%EC%88%98%EC%A6%9D/</link>
-				<pubDate>Thu, 04 Jun 2026 21:11:34 +0900</pubDate>
-				<guid>https://money.devkuma.com/tags/%ED%98%84%EA%B8%88%EC%98%81%EC%88%98%EC%A6%9D/</guid>
 				<description></description>
 			</item>
 			<item>
@@ -4701,13 +4771,6 @@
 				<link>https://money.devkuma.com/tags/%EC%A3%BC%EC%8B%9D%EC%84%B8%EA%B8%88/</link>
 				<pubDate>Fri, 08 May 2026 08:29:40 +0900</pubDate>
 				<guid>https://money.devkuma.com/tags/%EC%A3%BC%EC%8B%9D%EC%84%B8%EA%B8%88/</guid>
-				<description></description>
-			</item>
-			<item>
-				<title>홈택스</title>
-				<link>https://money.devkuma.com/tags/%ED%99%88%ED%83%9D%EC%8A%A4/</link>
-				<pubDate>Fri, 08 May 2026 08:29:40 +0900</pubDate>
-				<guid>https://money.devkuma.com/tags/%ED%99%88%ED%83%9D%EC%8A%A4/</guid>
 				<description></description>
 			</item>
 			<item>
