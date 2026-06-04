@@ -10,9 +10,65 @@
 		
 		
 		
-			<lastBuildDate>Wed, 03 Jun 2026 23:51:24 +0900</lastBuildDate>
+			<lastBuildDate>Thu, 04 Jun 2026 08:52:02 +0900</lastBuildDate>
 		
 			<atom:link href="https://money.devkuma.com/tags/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>4대보험</title>
+				<link>https://money.devkuma.com/tags/4%EB%8C%80%EB%B3%B4%ED%97%98/</link>
+				<pubDate>Thu, 04 Jun 2026 08:52:02 +0900</pubDate>
+				<guid>https://money.devkuma.com/tags/4%EB%8C%80%EB%B3%B4%ED%97%98/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>급여명세서</title>
+				<link>https://money.devkuma.com/tags/%EA%B8%89%EC%97%AC%EB%AA%85%EC%84%B8%EC%84%9C/</link>
+				<pubDate>Thu, 04 Jun 2026 08:52:02 +0900</pubDate>
+				<guid>https://money.devkuma.com/tags/%EA%B8%89%EC%97%AC%EB%AA%85%EC%84%B8%EC%84%9C/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>세전</title>
+				<link>https://money.devkuma.com/tags/%EC%84%B8%EC%A0%84/</link>
+				<pubDate>Thu, 04 Jun 2026 08:52:02 +0900</pubDate>
+				<guid>https://money.devkuma.com/tags/%EC%84%B8%EC%A0%84/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>세후</title>
+				<link>https://money.devkuma.com/tags/%EC%84%B8%ED%9B%84/</link>
+				<pubDate>Thu, 04 Jun 2026 08:52:02 +0900</pubDate>
+				<guid>https://money.devkuma.com/tags/%EC%84%B8%ED%9B%84/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>소득세</title>
+				<link>https://money.devkuma.com/tags/%EC%86%8C%EB%93%9D%EC%84%B8/</link>
+				<pubDate>Thu, 04 Jun 2026 08:52:02 +0900</pubDate>
+				<guid>https://money.devkuma.com/tags/%EC%86%8C%EB%93%9D%EC%84%B8/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>실수령액</title>
+				<link>https://money.devkuma.com/tags/%EC%8B%A4%EC%88%98%EB%A0%B9%EC%95%A1/</link>
+				<pubDate>Thu, 04 Jun 2026 08:52:02 +0900</pubDate>
+				<guid>https://money.devkuma.com/tags/%EC%8B%A4%EC%88%98%EB%A0%B9%EC%95%A1/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>연봉</title>
+				<link>https://money.devkuma.com/tags/%EC%97%B0%EB%B4%89/</link>
+				<pubDate>Thu, 04 Jun 2026 08:52:02 +0900</pubDate>
+				<guid>https://money.devkuma.com/tags/%EC%97%B0%EB%B4%89/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>월급</title>
+				<link>https://money.devkuma.com/tags/%EC%9B%94%EA%B8%89/</link>
+				<pubDate>Thu, 04 Jun 2026 08:52:02 +0900</pubDate>
+				<guid>https://money.devkuma.com/tags/%EC%9B%94%EA%B8%89/</guid>
+				<description></description>
+			</item>
 			<item>
 				<title>경제용어</title>
 				<link>https://money.devkuma.com/tags/%EA%B2%BD%EC%A0%9C%EC%9A%A9%EC%96%B4/</link>
@@ -4837,31 +4893,10 @@
 				<description></description>
 			</item>
 			<item>
-				<title>소득세</title>
-				<link>https://money.devkuma.com/tags/%EC%86%8C%EB%93%9D%EC%84%B8/</link>
-				<pubDate>Tue, 05 May 2026 08:45:45 +0900</pubDate>
-				<guid>https://money.devkuma.com/tags/%EC%86%8C%EB%93%9D%EC%84%B8/</guid>
-				<description></description>
-			</item>
-			<item>
 				<title>원천징수</title>
 				<link>https://money.devkuma.com/tags/%EC%9B%90%EC%B2%9C%EC%A7%95%EC%88%98/</link>
 				<pubDate>Tue, 05 May 2026 08:45:45 +0900</pubDate>
 				<guid>https://money.devkuma.com/tags/%EC%9B%90%EC%B2%9C%EC%A7%95%EC%88%98/</guid>
-				<description></description>
-			</item>
-			<item>
-				<title>세전</title>
-				<link>https://money.devkuma.com/tags/%EC%84%B8%EC%A0%84/</link>
-				<pubDate>Tue, 05 May 2026 08:39:33 +0900</pubDate>
-				<guid>https://money.devkuma.com/tags/%EC%84%B8%EC%A0%84/</guid>
-				<description></description>
-			</item>
-			<item>
-				<title>세후</title>
-				<link>https://money.devkuma.com/tags/%EC%84%B8%ED%9B%84/</link>
-				<pubDate>Tue, 05 May 2026 08:39:33 +0900</pubDate>
-				<guid>https://money.devkuma.com/tags/%EC%84%B8%ED%9B%84/</guid>
 				<description></description>
 			</item>
 			<item>
