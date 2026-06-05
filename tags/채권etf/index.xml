@@ -10,7 +10,7 @@
 		
 		
 		
-			<lastBuildDate>Sun, 24 May 2026 12:06:57 +0900</lastBuildDate>
+			<lastBuildDate>Fri, 05 Jun 2026 23:51:44 +0900</lastBuildDate>
 		
 			<atom:link href="https://money.devkuma.com/tags/%EC%B1%84%EA%B6%8Cetf/index.xml" rel="self" type="application/rss+xml" />
 			<item>
@@ -19,6 +19,13 @@
 				<pubDate>Sun, 24 May 2026 12:06:57 +0900</pubDate>
 				<guid>https://money.devkuma.com/posts/etf-types-guide/</guid>
 				<description>&lt;p&gt;ETF를 처음 알게 되면 &amp;ldquo;S&amp;amp;P 500 ETF 하나 사면 되는 것 아닌가?&amp;ldquo;라고 생각하기 쉽다. 그런데 막상 증권사 앱에서 ETF를 검색해보면 종류가 너무 많다. 지수형, 섹터형, 테마형, 채권형, 배당형, 환헤지, 레버리지, 인버스 같은 말이 한꺼번에 나오니 어떤 상품을 골라야 할지 헷갈린다.&lt;/p&gt;&#xA;&lt;p&gt;ETF는 기본적으로 주식처럼 거래되는 펀드지만, 무엇을 담고 어떻게 움직이느냐에 따라 성격이 완전히 달라진다. 어떤 ETF는 시장 전체에 넓게 투자하는 상품이고, 어떤 ETF는 특정 산업에 집중 투자하는 상품이다. 또 어떤 ETF는 환율 영향을 줄이려 하고, 어떤 ETF는 하루 수익률을 2배로 키우거나 시장 하락에 베팅하기도 한다.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>채권 듀레이션 뜻, 금리와 채권 가격 변동을 이해하는 핵심 개념</title>
+				<link>https://money.devkuma.com/posts/bond-duration/</link>
+				<pubDate>Fri, 05 Jun 2026 23:51:44 +0900</pubDate>
+				<guid>https://money.devkuma.com/posts/bond-duration/</guid>
+				<description>&lt;p&gt;채권 투자를 시작하면 금리, 만기, 표면금리, 수익률 같은 단어를 먼저 만나게 된다. 여기까지도 어렵지만, 조금 더 들어가면 &amp;ldquo;듀레이션&amp;quot;이라는 말이 나온다. 이름부터 낯설고 계산식도 복잡해 보여서 그냥 넘기기 쉽다.&lt;/p&gt;&#xA;&lt;p&gt;하지만 채권을 만기 전에 팔 가능성이 있거나, 채권형 ETF와 펀드에 투자한다면 듀레이션은 꼭 알아야 한다. 듀레이션을 모르면 금리가 조금 움직였을 뿐인데 왜 내 채권 ETF 가격이 크게 흔들리는지 이해하기 어렵다.&lt;/p&gt;&#xA;&lt;p&gt;듀레이션은 쉽게 말해 채권 투자금의 평균 회수 기간이면서, 동시에 금리 변화에 채권 가격이 얼마나 민감하게 움직이는지를 보여주는 지표다. 이 글에서는 초보자 기준으로 듀레이션의 뜻, 만기와의 차이, 금리와 가격의 관계, 채권 ETF를 볼 때 활용하는 방법을 정리했다.&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>기준금리가 내려가면 채권 가격은 왜 오를까? 금리 하락기 채권 투자 판단법</title>

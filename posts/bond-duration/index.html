@@ -1,0 +1,2148 @@
+
+
+
+<!doctype html>
+<html lang="ko" class="no-js">
+    <head>
+
+<script src="/js/critical.bundle.min.a8c0814b35e0a7b1a8e5265b551bde6d5e4bb321db28f493d51366366c118c70.js"
+         integrity="sha256-qMCBSzXgp7Go5SZbVRvebV5LsyHbKPST1RNmNmwRjHA=" crossorigin="anonymous"></script><meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="generator" content="Hugo 0.162.1">
+    <meta name="theme" content="Hinode 2.11.2">
+    
+
+
+
+
+
+    
+    
+<link rel="stylesheet" href="/css/main.min.7de8a724d7dab626cfd48cc0d3d0afd9d9b95bdf0dabec1464fd5f96bdab2d57.css" integrity="sha256-feinJNfatibP1IzA09Cv2dm5W98Nq+wUZP1flr2rLVc=" crossorigin="anonymous">
+    
+        
+    
+    
+        
+        
+             
+            <link rel="preload" href="/fonts/inter-v12-latin-regular.woff2" as="font" type="font/woff2" crossorigin>
+        
+
+
+
+    
+    
+    
+
+
+
+
+
+
+    
+  <meta name="robots" content="index, follow">
+    <meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta name="bingbot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <title>채권 듀레이션 뜻, 금리와 채권 가격 변동을 이해하는 핵심 개념 - Show Me the Money::devkuma </title>
+    <meta name="description" content="채권 듀레이션의 뜻을 평균 회수 기간과 금리 민감도 관점에서 쉽게 설명하고, 만기·이자율·채권 ETF 투자 시 확인할 점을 정리했다.">
+
+<meta property="og:locale" content="en_US">
+<meta property="og:type" content="article">
+<meta property="og:title" content="채권 듀레이션 뜻, 금리와 채권 가격 변동을 이해하는 핵심 개념">
+<meta property="og:description" content="채권 듀레이션의 뜻을 평균 회수 기간과 금리 민감도 관점에서 쉽게 설명하고, 만기·이자율·채권 ETF 투자 시 확인할 점을 정리했다.">
+
+<meta property="og:url" content="https://money.devkuma.com/posts/bond-duration/">
+<meta property="og:site_name" content="Show Me the Money::devkuma">
+<meta property="article:published_time" content="2026-06-05T23:51:44+09:00">
+    <meta property="article:modified_time" content="2026-06-05T23:51:44+09:00">
+    <meta property="og:image" content="https://money.devkuma.com/posts/geralt-clock-1280x640.png">
+<meta property="og:image:alt" content="채권 듀레이션 뜻, 금리와 채권 가격 변동을 이해하는 핵심 개념">
+
+
+
+<meta name="twitter:card" content="summary_large_image">
+
+
+<meta name="twitter:title" content="채권 듀레이션 뜻, 금리와 채권 가격 변동을 이해하는 핵심 개념">
+<meta name="twitter:description" content="채권 듀레이션의 뜻을 평균 회수 기간과 금리 민감도 관점에서 쉽게 설명하고, 만기·이자율·채권 ETF 투자 시 확인할 점을 정리했다.">
+<meta name="twitter:image" content="https://money.devkuma.com/posts/geralt-clock-1280x640.png">
+<meta name="twitter:image:alt" content="채권 듀레이션 뜻, 금리와 채권 가격 변동을 이해하는 핵심 개념">
+
+
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+        "@id": "https://money.devkuma.com/#/schema/organization/1",
+      "name": "Hinode",
+      "url": "https://money.devkuma.com/",
+      "sameAs": [null,"https://github.com/gethinode/hinode"],
+      "logo": {
+          "@type": "ImageObject",
+          "@id": "https://money.devkuma.com/#/schema/image/1",
+          "url": "https://money.devkuma.com/favicons/512x512.png",
+          "width": 512 ,
+          "height": 512 ,
+          "caption": "Hinode"
+        },
+        "image": {
+          "@id": "https://money.devkuma.com/#/schema/image/1"
+        }
+      },
+    {
+      "@type": "WebSite",
+      "@id": "https://money.devkuma.com/#/schema/website/1",
+      "url": "https://money.devkuma.com/",
+      "name": "Show Me the Money::devkuma",
+      "description": "Hinode is a clean documentation and blog theme for your Hugo site based on Bootstrap 5.",
+      "publisher": {
+          "@id": "https://money.devkuma.com/#/schema/organization/1"
+        }
+      },
+    {
+      "@type": "WebPage",
+      "@id": "https://money.devkuma.com/posts/bond-duration/",
+      "url": "https://money.devkuma.com/posts/bond-duration/",
+      "name": "채권 듀레이션 뜻, 금리와 채권 가격 변동을 이해하는 핵심 개념",
+      "description": "채권 듀레이션의 뜻을 평균 회수 기간과 금리 민감도 관점에서 쉽게 설명하고, 만기·이자율·채권 ETF 투자 시 확인할 점을 정리했다.",
+      "isPartOf": {
+        "@id": "https://money.devkuma.com/#/schema/website/1"
+      },
+      "about": {
+          "@id": "https://money.devkuma.com/#/schema/organization/1"
+        },
+      "datePublished": "2026-06-05T23:51:44CET","dateModified": "2026-06-05T23:51:44CET","breadcrumb": {
+        "@id": "https://money.devkuma.com/posts/bond-duration/#/schema/breadcrumb/1"
+      },
+      "primaryImageOfPage": {
+        "@id": "https://money.devkuma.com/posts/bond-duration/#/schema/image/2"
+      },
+      "inLanguage": "en-US",
+      "potentialAction": [{
+        "@type": "ReadAction", "target": ["https://money.devkuma.com/posts/bond-duration/"]
+      }]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://money.devkuma.com/posts/bond-duration/#/schema/breadcrumb/1",
+      "name": "Breadcrumbs",
+      "itemListElement": [{
+        "@type": "ListItem",
+        "position":  1 ,
+        "item": {
+          "@type": "WebPage",
+          "@id": "https://money.devkuma.com/",
+          "url": "https://money.devkuma.com/",
+          "name": "Home"
+          }
+        },{
+        "@type": "ListItem",
+        "position":  2 ,
+        "item": {
+          "@type": "WebPage",
+          "@id": "https://money.devkuma.com/posts/",
+          "url": "https://money.devkuma.com/posts/",
+          "name": "Posts"
+          }
+        },{
+        "@type": "ListItem",
+        "position":  3 ,
+        "item": {
+          "@id": "https://money.devkuma.com/posts/bond-duration/"
+          }
+        }]
+    },
+
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "ImageObject",
+          "@id": "https://money.devkuma.com/posts/bond-duration/#/schema/image/2",
+          "url": "https://money.devkuma.com/posts/geralt-clock-1280x640.png",
+          "contentUrl": "https://money.devkuma.com/posts/geralt-clock-1280x640.png",
+          "caption": "채권 듀레이션 뜻, 금리와 채권 가격 변동을 이해하는 핵심 개념"
+        }
+      ]
+    }
+
+  ]
+}
+</script>
+
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicons/favicon-96x96_hu_bcafd75a361bcb2.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicons/favicon-96x96_hu_ef780cd502e896ea.png">
+        <link rel="icon" type="image/png" sizes="48x48" href="/favicons/favicon-96x96_hu_8f60ad9056f52802.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="/favicons/favicon-96x96_hu_a6aa36da47e45ca3.png">
+    
+
+</head><body class="navbar-fixed">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        
+        
+        
+    
+
+
+
+
+<div class="container-fluid fixed-top p-0">
+
+
+
+
+
+<nav class="navbar px-4 py-4 navbar-fs-6 navbar-md-fs bg-body navbar-fixed-top navbar-expand-md"
+        
+        
+        >
+        <div class="container-xxl p-0">
+            <div class="d-flex navbar-container">
+                
+                <div class="d-flex align-items-center">
+                            <button class="navbar-toggler collapsed p-0 mx-auto invisible fw-30" type="button">
+
+
+
+
+
+
+                
+                        
+                        
+                        <svg class="svg-inline--fa fas fa-ellipsis fa-fw" fill="currentColor" aria-hidden="true" role="img" viewBox="0 0 448 512" overflow="visible"><use href="#fas-ellipsis"></use></svg></button></div>
+                
+
+                <div class="w-100 d-flex align-items-center w-md-auto">
+                    <a class="navbar-brand mx-auto" href="/" aria-label="Home">
+    
+    
+
+
+<img class="img-fluid m-auto"
+            src="/img/logo_icon-2800x2800.png"
+             srcset="/img/logo_icon-576x576.webp 576w, /img/logo_icon-768x768.webp 768w, /img/logo_icon-992x992.webp 992w, /img/logo_icon-1200x1200.webp 1200w, /img/logo_icon-1400x1400.webp 1400w, /img/logo_icon-2800x2800.webp 2800w" sizes="100vw" height="30" width="30" alt="Show Me the Money::devkuma"></a>
+                </div>
+                <div class="d-flex align-items-center">
+                    <button class="navbar-toggler main-nav-toggler collapsed p-0" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbar-0-collapse"
+                        aria-controls="navbar-0" aria-expanded="false" aria-label="Toggle main navigation">
+                        <span class="toggler-icon top-bar emphasis"></span>
+                        <span class="toggler-icon middle-bar emphasis"></span>
+                        <span class="toggler-icon bottom-bar emphasis"></span>
+                    </button>
+                </div>
+            </div>
+    
+            <div class="navbar-collapse collapse" id="navbar-0-collapse">
+                
+                    <div class="d-flex flex-fill ms-md-3 mt-4 mt-md-0 me-md-3">
+    <form class="search flex-fill position-relative me-auto">
+        <input class="search-input form-control is-search" type="search" placeholder="" aria-label="" autocomplete="off" name="search-input">
+        <div class="search-suggestions shadow bg-body rounded d-none" data-no-results=""></div>
+    </form>
+</div>
+
+                <ul class="navbar-nav navbar-nav-scroll ms-auto">
+                    
+        
+            <li class="nav-item ">
+
+
+
+
+
+
+
+
+    
+
+
+    
+    
+
+    
+        <a
+            class="nav-link"
+            
+            data-nav="main" data-nav-main="home"
+             href="/"
+            
+            
+            ><span class=" d-md-none ">Home</span>
+            
+            <span class=" d-none d-md-block">Home</span>
+            
+        </a>
+    
+</li>
+        
+            <li class="nav-item ">
+
+
+
+
+
+
+
+
+    
+
+
+    
+    
+
+    
+        <a
+            class="nav-link"
+            
+            data-nav="main" data-nav-main="%EB%89%B4%EC%8A%A4"
+             href="/news/"
+            
+            
+            ><span class=" d-md-none ">뉴스</span>
+            
+            <span class=" d-none d-md-block">뉴스</span>
+            
+        </a>
+    
+</li>
+        
+            <li class="nav-item ">
+
+
+
+
+
+
+
+
+    
+
+
+    
+    
+
+    
+        <a
+            class="nav-link"
+            
+            data-nav="main" data-nav-main="%EA%B2%BD%EC%A0%9C"
+             href="/posts/economy/"
+            
+            
+            ><span class=" d-md-none ">경제</span>
+            
+            <span class=" d-none d-md-block">경제</span>
+            
+        </a>
+    
+</li>
+        
+            <li class="nav-item ">
+
+
+
+
+
+
+
+
+    
+
+
+    
+    
+
+    
+        <a
+            class="nav-link"
+            
+            data-nav="main" data-nav-main="%EA%B8%88%EC%9C%B5"
+             href="/posts/finance/"
+            
+            
+            ><span class=" d-md-none ">금융</span>
+            
+            <span class=" d-none d-md-block">금융</span>
+            
+        </a>
+    
+</li>
+        
+            <li class="nav-item ">
+
+
+
+
+
+
+
+
+    
+
+
+    
+    
+
+    
+        <a
+            class="nav-link"
+            
+            data-nav="main" data-nav-main="%EC%A3%BC%EC%8B%9D"
+             href="/posts/stock/"
+            
+            
+            ><span class=" d-md-none ">주식</span>
+            
+            <span class=" d-none d-md-block">주식</span>
+            
+        </a>
+    
+</li>
+        
+            <li class="nav-item ">
+
+
+
+
+
+
+
+
+    
+
+
+    
+    
+
+    
+        <a
+            class="nav-link"
+            
+            data-nav="main" data-nav-main="%EC%B1%84%EA%B6%8C"
+             href="/posts/bond/"
+            
+            
+            ><span class=" d-md-none ">채권</span>
+            
+            <span class=" d-none d-md-block">채권</span>
+            
+        </a>
+    
+</li>
+        
+            <li class="nav-item ">
+
+
+
+
+
+
+
+
+    
+
+
+    
+    
+
+    
+        <a
+            class="nav-link"
+            
+            data-nav="main" data-nav-main="%EC%BD%94%EC%9D%B8"
+             href="/posts/coin/"
+            
+            
+            ><span class=" d-md-none ">코인</span>
+            
+            <span class=" d-none d-md-block">코인</span>
+            
+        </a>
+    
+</li>
+        
+            <li class="nav-item ">
+
+
+
+
+
+
+
+
+    
+
+
+    
+    
+
+    
+        <a
+            class="nav-link"
+            
+            data-nav="main" data-nav-main="%EB%8C%80%EC%B6%9C"
+             href="/posts/loan/"
+            
+            
+            ><span class=" d-md-none ">대출</span>
+            
+            <span class=" d-none d-md-block">대출</span>
+            
+        </a>
+    
+</li>
+        
+            <li class="nav-item ">
+
+
+
+
+
+
+
+
+    
+
+
+    
+    
+
+    
+        <a
+            class="nav-link"
+            
+            data-nav="main" data-nav-main="%EB%B6%80%EB%8F%99%EC%82%B0"
+             href="/posts/real-estate/"
+            
+            
+            ><span class=" d-md-none ">부동산</span>
+            
+            <span class=" d-none d-md-block">부동산</span>
+            
+        </a>
+    
+</li>
+        
+            <li class="nav-item ">
+
+
+
+
+
+
+
+
+    
+
+
+    
+    
+
+    
+        <a
+            class="nav-link"
+            
+            data-nav="main" data-nav-main="%EB%B3%B4%ED%97%98"
+             href="/posts/insurance/"
+            
+            
+            ><span class=" d-md-none ">보험</span>
+            
+            <span class=" d-none d-md-block">보험</span>
+            
+        </a>
+    
+</li>
+        
+            <li class="nav-item ">
+
+
+
+
+
+
+
+
+    
+
+
+    
+    
+
+    
+        <a
+            class="nav-link"
+            
+            data-nav="main" data-nav-main="%EC%84%B8%EA%B8%88"
+             href="/posts/tax/"
+            
+            
+            ><span class=" d-md-none ">세금</span>
+            
+            <span class=" d-none d-md-block">세금</span>
+            
+        </a>
+    
+</li>
+        
+            <li class="nav-item ">
+
+
+
+
+
+
+
+
+    
+
+
+    
+    
+
+    
+        <a
+            class="nav-link"
+            
+            data-nav="main" data-nav-main="about-me"
+             href="/about/"
+            
+            
+            ><span class=" d-md-none ">About Me</span>
+            
+            <span class=" d-none d-md-block">About Me</span>
+            
+        </a>
+    
+</li>
+        
+            <li class="nav-item ">
+
+
+
+
+
+
+
+
+    
+
+
+    
+    
+
+    
+        <a
+            class="nav-link"
+            
+            data-nav="main" data-nav-main="tags"
+             href="/tags/"
+            
+            
+            ><span class=" d-md-none ">Tags</span>
+            
+            <span class=" d-none d-md-block">Tags</span>
+            
+        </a>
+    
+</li>
+    
+                    
+                    
+                    
+                                    
+                    <li class="nav-link navbar-fs-6 navbar-md-fs d-flex mode-switch align-items-center" id="navbar-mode">
+    <input type="checkbox" class="checkbox navbar-mode-selector" id="navbar-mode-checkbox" aria-label="Toggle theme" />
+    <label class="label" for="navbar-mode-checkbox">
+        
+
+
+
+
+
+
+                
+                        
+                        
+                        <svg class="svg-inline--fa fas fa-sun fa-fw" fill="currentColor" aria-hidden="true" role="img" viewBox="0 0 576 512" overflow="visible"><use href="#fas-sun"></use></svg>
+
+
+
+
+
+
+                
+                        
+                        
+                        <svg class="svg-inline--fa fas fa-moon fa-fw" fill="currentColor" aria-hidden="true" role="img" viewBox="0 0 512 512" overflow="visible"><use href="#fas-moon"></use></svg>
+            <div class="ball"></div>
+        
+    </label>
+</li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</div>
+<main id="container" class="main">
+                
+
+    
+    
+    
+    
+    
+        <div class="container-xxl flex-fill py-4 px-4 px-xxl-0">
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3">
+                <div class="col col-lg-2 d-none d-lg-block sidebar-overflow sticky-top p-0">
+                    
+                </div>
+                <div class="col-12 col-md-9 col-lg-8 mb-5">
+                    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+    
+
+        
+    
+
+        
+    
+
+
+
+
+    <nav aria-label="breadcrumb" class="d-sm-none">
+        <ol class="breadcrumb">
+                <li class="breadcrumb-item">
+                    <a href="/posts/bond/">
+                        
+
+
+
+
+
+
+                
+                        
+                        
+                        <svg class="svg-inline--fa fas fa-angle-left " fill="currentColor" aria-hidden="true" role="img" viewBox="0 0 256 512" overflow="visible"><use href="#fas-angle-left"></use></svg>&nbsp;&nbsp;채권
+                    </a>
+                </li></ol>
+    </nav>
+
+    <nav aria-label="breadcrumb" class="d-none d-sm-block">
+        <ol class="breadcrumb">
+                
+                <li class="breadcrumb-item"><a href="/">Home</a></li>
+                
+                <li class="breadcrumb-item"><a href="/posts/">금융의 모든 지식!</a></li>
+                
+                <li class="breadcrumb-item"><a href="/posts/bond/">채권</a></li><li class="breadcrumb-item active" aria-current="page">
+                
+                
+                채권 듀레이션
+            </li>
+        </ol>
+    </nav>
+
+<h1 id="채권-듀레이션-뜻-금리와-채권-가격-변동을-이해하는-핵심-개념" class="display-4 pt-1">채권 듀레이션 뜻, 금리와 채권 가격 변동을 이해하는 핵심 개념</h1>
+
+
+    <small class="text-body-secondary text-uppercase">
+            
+                Posted on 2026년 6월 5일
+            &bull;
+        
+            7&nbsp;min read
+            &bull;
+        1,459&nbsp;words
+    </small>
+
+<div class="mt-3">
+        <div class="d-none-dark">
+            <div class="hstack gap-1">
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+<a aria-label="채권듀레이션"
+        href="/tags/%EC%B1%84%EA%B6%8C%EB%93%80%EB%A0%88%EC%9D%B4%EC%85%98/" class="btn btn-light btn-sm position-relative "
+        role="button"
+        >
+        <span class="d-flex justify-content-start">
+            <span class="my-auto">채권듀레이션</span>
+        </span></a>&nbsp;
+
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+<a aria-label="듀레이션"
+        href="/tags/%EB%93%80%EB%A0%88%EC%9D%B4%EC%85%98/" class="btn btn-light btn-sm position-relative "
+        role="button"
+        >
+        <span class="d-flex justify-content-start">
+            <span class="my-auto">듀레이션</span>
+        </span></a>&nbsp;
+
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+<a aria-label="채권투자"
+        href="/tags/%EC%B1%84%EA%B6%8C%ED%88%AC%EC%9E%90/" class="btn btn-light btn-sm position-relative "
+        role="button"
+        >
+        <span class="d-flex justify-content-start">
+            <span class="my-auto">채권투자</span>
+        </span></a>&nbsp;
+
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+<a aria-label="금리"
+        href="/tags/%EA%B8%88%EB%A6%AC/" class="btn btn-light btn-sm position-relative "
+        role="button"
+        >
+        <span class="d-flex justify-content-start">
+            <span class="my-auto">금리</span>
+        </span></a>&nbsp;
+
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+<a aria-label="채권가격"
+        href="/tags/%EC%B1%84%EA%B6%8C%EA%B0%80%EA%B2%A9/" class="btn btn-light btn-sm position-relative "
+        role="button"
+        >
+        <span class="d-flex justify-content-start">
+            <span class="my-auto">채권가격</span>
+        </span></a>&nbsp;
+
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+<a aria-label="맥컬리듀레이션"
+        href="/tags/%EB%A7%A5%EC%BB%AC%EB%A6%AC%EB%93%80%EB%A0%88%EC%9D%B4%EC%85%98/" class="btn btn-light btn-sm position-relative "
+        role="button"
+        >
+        <span class="d-flex justify-content-start">
+            <span class="my-auto">맥컬리듀레이션</span>
+        </span></a>&nbsp;
+
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+<a aria-label="수정듀레이션"
+        href="/tags/%EC%88%98%EC%A0%95%EB%93%80%EB%A0%88%EC%9D%B4%EC%85%98/" class="btn btn-light btn-sm position-relative "
+        role="button"
+        >
+        <span class="d-flex justify-content-start">
+            <span class="my-auto">수정듀레이션</span>
+        </span></a>&nbsp;
+
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+<a aria-label="채권ETF"
+        href="/tags/%EC%B1%84%EA%B6%8Cetf/" class="btn btn-light btn-sm position-relative "
+        role="button"
+        >
+        <span class="d-flex justify-content-start">
+            <span class="my-auto">채권ETF</span>
+        </span></a>&nbsp;
+
+                </div>
+        </div>
+        
+        <div class="d-none-light">
+            <div class="hstack gap-1">
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+<a aria-label="채권듀레이션"
+        href="/tags/%EC%B1%84%EA%B6%8C%EB%93%80%EB%A0%88%EC%9D%B4%EC%85%98/" class="btn btn-outline-primary btn-sm position-relative "
+        role="button"
+        >
+        <span class="d-flex justify-content-start">
+            <span class="my-auto">채권듀레이션</span>
+        </span></a>&nbsp;
+
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+<a aria-label="듀레이션"
+        href="/tags/%EB%93%80%EB%A0%88%EC%9D%B4%EC%85%98/" class="btn btn-outline-primary btn-sm position-relative "
+        role="button"
+        >
+        <span class="d-flex justify-content-start">
+            <span class="my-auto">듀레이션</span>
+        </span></a>&nbsp;
+
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+<a aria-label="채권투자"
+        href="/tags/%EC%B1%84%EA%B6%8C%ED%88%AC%EC%9E%90/" class="btn btn-outline-primary btn-sm position-relative "
+        role="button"
+        >
+        <span class="d-flex justify-content-start">
+            <span class="my-auto">채권투자</span>
+        </span></a>&nbsp;
+
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+<a aria-label="금리"
+        href="/tags/%EA%B8%88%EB%A6%AC/" class="btn btn-outline-primary btn-sm position-relative "
+        role="button"
+        >
+        <span class="d-flex justify-content-start">
+            <span class="my-auto">금리</span>
+        </span></a>&nbsp;
+
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+<a aria-label="채권가격"
+        href="/tags/%EC%B1%84%EA%B6%8C%EA%B0%80%EA%B2%A9/" class="btn btn-outline-primary btn-sm position-relative "
+        role="button"
+        >
+        <span class="d-flex justify-content-start">
+            <span class="my-auto">채권가격</span>
+        </span></a>&nbsp;
+
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+<a aria-label="맥컬리듀레이션"
+        href="/tags/%EB%A7%A5%EC%BB%AC%EB%A6%AC%EB%93%80%EB%A0%88%EC%9D%B4%EC%85%98/" class="btn btn-outline-primary btn-sm position-relative "
+        role="button"
+        >
+        <span class="d-flex justify-content-start">
+            <span class="my-auto">맥컬리듀레이션</span>
+        </span></a>&nbsp;
+
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+<a aria-label="수정듀레이션"
+        href="/tags/%EC%88%98%EC%A0%95%EB%93%80%EB%A0%88%EC%9D%B4%EC%85%98/" class="btn btn-outline-primary btn-sm position-relative "
+        role="button"
+        >
+        <span class="d-flex justify-content-start">
+            <span class="my-auto">수정듀레이션</span>
+        </span></a>&nbsp;
+
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+<a aria-label="채권ETF"
+        href="/tags/%EC%B1%84%EA%B6%8Cetf/" class="btn btn-outline-primary btn-sm position-relative "
+        role="button"
+        >
+        <span class="d-flex justify-content-start">
+            <span class="my-auto">채권ETF</span>
+        </span></a>&nbsp;
+
+                </div>
+        </div>
+    </div>
+
+    <div class="lead text-muted py-4">채권 듀레이션의 뜻을 평균 회수 기간과 금리 민감도 관점에서 쉽게 설명하고, 만기·이자율·채권 ETF 투자 시 확인할 점을 정리했다.</div>
+
+
+<div class="d-md-none pb-5">
+
+
+
+
+
+
+
+
+
+    
+        <div class="d-grid gap-2 mx-auto">
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+<a aria-label="On this page"
+        href="#toc-collapse" class="btn btn-outline-secondary position-relative toc-button"
+         data-bs-toggle="collapse" aria-expanded="false" aria-controls="toc-collapse"role="button"
+        >
+        <span class="d-flex justify-content-between">
+            <span class="my-auto">On this page</span>
+                <span class="align-self-center ps-1">
+                    
+
+
+
+
+
+
+                
+                        
+                        
+                        <svg class="svg-inline--fa fas fa-sort " fill="currentColor" aria-hidden="true" role="img" viewBox="0 0 384 512" overflow="visible"><use href="#fas-sort"></use></svg>
+                </span>
+            
+        </span></a>
+</div>
+
+        <div class="collapse border bg-body-tertiary rounded p-1 navbar-nav-scroll" id="toc-collapse">
+            <small>
+                <div class="toc toc-panel text-body p-2">
+                        <a class="toc-item toc-level-1" href="/posts/bond-duration/#듀레이션은-투자금을-평균적으로-회수하는-기간이다">듀레이션은 투자금을 평균적으로 회수하는 기간이다</a>
+                        <a class="toc-item toc-level-2" href="/posts/bond-duration/#만기와-듀레이션은-다르다">만기와 듀레이션은 다르다</a>
+                        <a class="toc-item toc-level-1" href="/posts/bond-duration/#듀레이션이-중요한-이유는-금리-민감도-때문이다">듀레이션이 중요한 이유는 금리 민감도 때문이다</a>
+                        <a class="toc-item toc-level-2" href="/posts/bond-duration/#금리-상승기와-하락기에는-전략이-달라진다">금리 상승기와 하락기에는 전략이 달라진다</a>
+                        <a class="toc-item toc-level-1" href="/posts/bond-duration/#듀레이션이-길어지는-조건과-짧아지는-조건">듀레이션이 길어지는 조건과 짧아지는 조건</a>
+                        <a class="toc-item toc-level-2" href="/posts/bond-duration/#듀레이션이-긴-채권은-수익-기회와-위험이-함께-크다">듀레이션이 긴 채권은 수익 기회와 위험이 함께 크다</a>
+                        <a class="toc-item toc-level-1" href="/posts/bond-duration/#맥컬리-듀레이션과-수정-듀레이션의-차이">맥컬리 듀레이션과 수정 듀레이션의 차이</a>
+                        <a class="toc-item toc-level-1" href="/posts/bond-duration/#채권-etf를-볼-때-듀레이션을-확인해야-한다">채권 ETF를 볼 때 듀레이션을 확인해야 한다</a>
+                        <a class="toc-item toc-level-2" href="/posts/bond-duration/#채권-etf-선택-전-체크리스트">채권 ETF 선택 전 체크리스트</a>
+                        <a class="toc-item toc-level-1" href="/posts/bond-duration/#듀레이션을-투자에-활용하는-방법">듀레이션을 투자에 활용하는 방법</a>
+                        <a class="toc-item toc-level-1" href="/posts/bond-duration/#정리">정리</a>
+                        <a class="toc-item toc-level-1" href="/posts/bond-duration/#자주-묻는-질문">자주 묻는 질문</a>
+                        <a class="toc-item toc-level-2" href="/posts/bond-duration/#채권-듀레이션이란-무엇인가">채권 듀레이션이란 무엇인가?</a>
+                        <a class="toc-item toc-level-2" href="/posts/bond-duration/#듀레이션과-만기는-같은-말인가">듀레이션과 만기는 같은 말인가?</a>
+                        <a class="toc-item toc-level-2" href="/posts/bond-duration/#듀레이션이-길면-좋은-것인가">듀레이션이 길면 좋은 것인가?</a>
+                        <a class="toc-item toc-level-2" href="/posts/bond-duration/#금리가-오를-때는-어떤-채권이-유리한가">금리가 오를 때는 어떤 채권이 유리한가?</a>
+                        <a class="toc-item toc-level-2" href="/posts/bond-duration/#채권-etf도-듀레이션을-봐야-하나">채권 ETF도 듀레이션을 봐야 하나?</a>
+                </div>
+            </small>
+        </div>
+</div>
+
+                    
+
+
+
+<div class="img-wrap mb-5"><img class="img-fluid rounded"
+            src="/posts/geralt-clock-2800x1200.png"
+             fetchpriority="high" srcset="/posts/geralt-clock-576x247.webp 576w, /posts/geralt-clock-768x329.webp 768w, /posts/geralt-clock-992x425.webp 992w, /posts/geralt-clock-1200x514.webp 1200w, /posts/geralt-clock-1400x600.webp 1400w, /posts/geralt-clock-2800x1200.webp 2800w" sizes="100vw" height="1200" width="2800" alt="채권 듀레이션 뜻, 금리와 채권 가격 변동을 이해하는 핵심 개념"></div><p>채권 투자를 시작하면 금리, 만기, 표면금리, 수익률 같은 단어를 먼저 만나게 된다. 여기까지도 어렵지만, 조금 더 들어가면 &ldquo;듀레이션&quot;이라는 말이 나온다. 이름부터 낯설고 계산식도 복잡해 보여서 그냥 넘기기 쉽다.</p>
+<p>하지만 채권을 만기 전에 팔 가능성이 있거나, 채권형 ETF와 펀드에 투자한다면 듀레이션은 꼭 알아야 한다. 듀레이션을 모르면 금리가 조금 움직였을 뿐인데 왜 내 채권 ETF 가격이 크게 흔들리는지 이해하기 어렵다.</p>
+<p>듀레이션은 쉽게 말해 채권 투자금의 평균 회수 기간이면서, 동시에 금리 변화에 채권 가격이 얼마나 민감하게 움직이는지를 보여주는 지표다. 이 글에서는 초보자 기준으로 듀레이션의 뜻, 만기와의 차이, 금리와 가격의 관계, 채권 ETF를 볼 때 활용하는 방법을 정리했다.</p>
+<hr>
+
+
+
+
+
+
+
+
+
+
+
+
+<h2 id="듀레이션은-투자금을-평균적으로-회수하는-기간이다" class="heading">듀레이션은 투자금을 평균적으로 회수하는 기간이다<a href="#%eb%93%80%eb%a0%88%ec%9d%b4%ec%85%98%ec%9d%80-%ed%88%ac%ec%9e%90%ea%b8%88%ec%9d%84-%ed%8f%89%ea%b7%a0%ec%a0%81%ec%9c%bc%eb%a1%9c-%ed%9a%8c%ec%88%98%ed%95%98%eb%8a%94-%ea%b8%b0%ea%b0%84%ec%9d%b4%eb%8b%a4" aria-labelledby="듀레이션은-투자금을-평균적으로-회수하는-기간이다">
+
+
+
+
+
+
+                
+                        
+                        
+                        <svg class="svg-inline--fa fas fa-link anchor" fill="currentColor" aria-hidden="true" role="img" viewBox="0 0 576 512" overflow="visible"><use href="#fas-link"></use></svg>&nbsp;
+    </a>
+</h2>
+
+<p>듀레이션(Duration)은 원래 &ldquo;지속 기간&quot;이라는 뜻을 가진 영어 단어다. 채권 투자에서는 내가 투자한 돈을 평균적으로 회수하는 데 걸리는 기간을 말한다.</p>
+<p>채권은 만기일에 원금을 돌려받고, 중간중간 이자를 받을 수 있다. 이때 돈이 한 번에 돌아오는 것이 아니라 여러 시점에 나뉘어 들어온다. 듀레이션은 이런 현금흐름을 현재가치로 계산해 평균 회수 기간을 구한 값이다.</p>
+<p>예를 들어 3년 만기 이표채가 있다고 해보자. 이 채권은 1년 후, 2년 후에 이자를 주고, 3년 후에는 이자와 원금을 함께 준다. 투자자는 만기까지 기다려야 원금을 받지만, 중간에 이자를 받기 때문에 투자금 일부는 만기 전에 회수되는 효과가 있다. 그래서 이표채의 듀레이션은 보통 만기보다 짧다.</p>
+<p>반대로 중간 이자가 없는 할인채는 돈이 만기에 한 번에 들어온다. 이 경우 듀레이션은 만기에 가까워진다. 중간 현금흐름이 많을수록 듀레이션은 짧아지고, 원금 회수가 뒤로 몰릴수록 듀레이션은 길어진다.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+<h3 id="만기와-듀레이션은-다르다" class="heading">만기와 듀레이션은 다르다<a href="#%eb%a7%8c%ea%b8%b0%ec%99%80-%eb%93%80%eb%a0%88%ec%9d%b4%ec%85%98%ec%9d%80-%eb%8b%a4%eb%a5%b4%eb%8b%a4" aria-labelledby="만기와-듀레이션은-다르다">
+
+
+
+
+
+
+                
+                        
+                        
+                        <svg class="svg-inline--fa fas fa-link anchor" fill="currentColor" aria-hidden="true" role="img" viewBox="0 0 576 512" overflow="visible"><use href="#fas-link"></use></svg>&nbsp;
+    </a>
+</h3>
+
+<p>초보자가 가장 많이 헷갈리는 부분이 만기와 듀레이션이다. 만기는 채권 원금을 돌려받는 마지막 날짜다. 듀레이션은 이자와 원금을 모두 고려한 평균 회수 기간이다.</p>
+
+
+
+
+
+
+    
+
+
+
+
+
+
+<table class="table">
+  <thead>
+    
+      
+      <tr>
+          <th >구분</th>
+          <th >의미</th>
+          <th >예시</th>
+      </tr>
+    
+  </thead>
+  <tbody>
+    
+      
+        <tr>
+            <td >만기</td>
+            <td >원금을 최종 상환받는 날짜까지의 기간</td>
+            <td >10년 만기 국채</td>
+        </tr>
+      
+    
+      
+        <tr>
+            <td >듀레이션</td>
+            <td >투자금이 평균적으로 회수되는 기간</td>
+            <td >듀레이션 8년</td>
+        </tr>
+      
+  </tbody>
+</table><p>만기가 10년이라고 해서 듀레이션도 항상 10년인 것은 아니다. 중간에 이자를 받는 채권이라면 듀레이션은 대체로 10년보다 짧다. 다만 만기가 길수록 듀레이션도 길어지는 경향은 있다.</p>
+<hr>
+
+
+
+
+
+
+
+
+
+
+
+
+<h2 id="듀레이션이-중요한-이유는-금리-민감도-때문이다" class="heading">듀레이션이 중요한 이유는 금리 민감도 때문이다<a href="#%eb%93%80%eb%a0%88%ec%9d%b4%ec%85%98%ec%9d%b4-%ec%a4%91%ec%9a%94%ed%95%9c-%ec%9d%b4%ec%9c%a0%eb%8a%94-%ea%b8%88%eb%a6%ac-%eb%af%bc%ea%b0%90%eb%8f%84-%eb%95%8c%eb%ac%b8%ec%9d%b4%eb%8b%a4" aria-labelledby="듀레이션이-중요한-이유는-금리-민감도-때문이다">
+
+
+
+
+
+
+                
+                        
+                        
+                        <svg class="svg-inline--fa fas fa-link anchor" fill="currentColor" aria-hidden="true" role="img" viewBox="0 0 576 512" overflow="visible"><use href="#fas-link"></use></svg>&nbsp;
+    </a>
+</h2>
+
+<p>듀레이션을 알아야 하는 진짜 이유는 채권 가격 변동 때문이다. 채권 가격은 시장금리와 반대로 움직이는 경향이 있다. 시장금리가 오르면 기존 채권 가격은 떨어지고, 시장금리가 내리면 기존 채권 가격은 오른다.</p>
+<p>여기서 듀레이션은 금리가 변할 때 채권 가격이 얼마나 움직일지 가늠하는 지표가 된다. 듀레이션이 긴 채권은 금리 변화에 더 민감하다. 듀레이션이 짧은 채권은 금리 변화에 상대적으로 덜 흔들린다.</p>
+<p>간단히 말하면 이렇게 볼 수 있다.</p>
+<div class="codeblock syntax-highlight mb-3"><div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-text" data-lang="text"><span style="display:flex;"><span>채권 가격 변동률 ≒ - 듀레이션 x 금리 변동폭</span></span></code></pre></div></div><p>예를 들어 듀레이션이 5년인 채권이 있다고 하자. 시장금리가 1%포인트 오르면 채권 가격은 대략 5% 하락할 수 있다. 반대로 시장금리가 1%포인트 내리면 채권 가격은 대략 5% 상승할 수 있다.</p>
+<p>듀레이션이 10년인 채권이라면 같은 1%포인트 금리 변화에도 가격이 약 10% 움직일 수 있다. 실제 가격 변화는 볼록성, 이자 지급 구조, 시장 상황에 따라 달라지지만, 큰 방향을 이해하는 데는 이 정도 감각이 매우 유용하다.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+<h3 id="금리-상승기와-하락기에는-전략이-달라진다" class="heading">금리 상승기와 하락기에는 전략이 달라진다<a href="#%ea%b8%88%eb%a6%ac-%ec%83%81%ec%8a%b9%ea%b8%b0%ec%99%80-%ed%95%98%eb%9d%bd%ea%b8%b0%ec%97%90%eb%8a%94-%ec%a0%84%eb%9e%b5%ec%9d%b4-%eb%8b%ac%eb%9d%bc%ec%a7%84%eb%8b%a4" aria-labelledby="금리-상승기와-하락기에는-전략이-달라진다">
+
+
+
+
+
+
+                
+                        
+                        
+                        <svg class="svg-inline--fa fas fa-link anchor" fill="currentColor" aria-hidden="true" role="img" viewBox="0 0 576 512" overflow="visible"><use href="#fas-link"></use></svg>&nbsp;
+    </a>
+</h3>
+
+<p>금리가 오를 것으로 예상된다면 듀레이션이 짧은 채권이 상대적으로 유리하다. 금리가 올라도 가격 하락 폭이 작기 때문이다. 단기채 ETF나 단기 국채, 만기가 짧은 우량채가 여기에 가깝다.</p>
+<p>반대로 금리가 내릴 것으로 예상된다면 듀레이션이 긴 채권이 더 큰 가격 상승을 기대할 수 있다. 장기 국채나 장기채 ETF가 대표적이다. 금리가 크게 하락하면 장기채 가격이 크게 오를 수 있다.</p>
+<p>다만 금리 방향을 정확히 맞히기는 어렵다. 듀레이션을 활용할 때도 &ldquo;이번에는 무조건 장기채가 오른다&quot;처럼 단정하기보다, 내 포트폴리오가 금리 변화에 얼마나 민감한지 파악하는 도구로 쓰는 편이 현실적이다.</p>
+<hr>
+
+
+
+
+
+
+
+
+
+
+
+
+<h2 id="듀레이션이-길어지는-조건과-짧아지는-조건" class="heading">듀레이션이 길어지는 조건과 짧아지는 조건<a href="#%eb%93%80%eb%a0%88%ec%9d%b4%ec%85%98%ec%9d%b4-%ea%b8%b8%ec%96%b4%ec%a7%80%eb%8a%94-%ec%a1%b0%ea%b1%b4%ea%b3%bc-%ec%a7%a7%ec%95%84%ec%a7%80%eb%8a%94-%ec%a1%b0%ea%b1%b4" aria-labelledby="듀레이션이-길어지는-조건과-짧아지는-조건">
+
+
+
+
+
+
+                
+                        
+                        
+                        <svg class="svg-inline--fa fas fa-link anchor" fill="currentColor" aria-hidden="true" role="img" viewBox="0 0 576 512" overflow="visible"><use href="#fas-link"></use></svg>&nbsp;
+    </a>
+</h2>
+
+<p>듀레이션은 채권의 만기, 표면금리, 시장금리, 이자 지급 방식에 따라 달라진다. 복잡한 계산식까지 외울 필요는 없지만, 어떤 조건에서 길어지고 짧아지는지는 알아두는 것이 좋다.</p>
+
+
+
+
+
+
+    
+
+
+
+
+
+
+<table class="table">
+  <thead>
+    
+      
+      <tr>
+          <th >조건</th>
+          <th >듀레이션 영향</th>
+          <th >이유</th>
+      </tr>
+    
+  </thead>
+  <tbody>
+    
+      
+        <tr>
+            <td >만기가 길수록</td>
+            <td >길어진다</td>
+            <td >원금 회수 시점이 뒤로 밀린다</td>
+        </tr>
+      
+    
+      
+        <tr>
+            <td >표면금리가 낮을수록</td>
+            <td >길어진다</td>
+            <td >중간에 받는 이자가 적다</td>
+        </tr>
+      
+    
+      
+        <tr>
+            <td >표면금리가 높을수록</td>
+            <td >짧아진다</td>
+            <td >중간 현금흐름이 많다</td>
+        </tr>
+      
+    
+      
+        <tr>
+            <td >할인채처럼 중간 이자가 없을수록</td>
+            <td >만기에 가까워진다</td>
+            <td >돈이 만기에 몰려 들어온다</td>
+        </tr>
+      
+    
+      
+        <tr>
+            <td >시장금리가 높을수록</td>
+            <td >대체로 짧아진다</td>
+            <td >먼 미래 현금흐름의 현재가치 비중이 줄어든다</td>
+        </tr>
+      
+  </tbody>
+</table><p>예를 들어 10년 만기 채권 두 개가 있다고 하자. 하나는 매년 이자를 많이 주고, 다른 하나는 이자가 거의 없다. 둘 다 만기는 10년이지만 듀레이션은 다를 수 있다. 이자를 많이 주는 채권은 투자금 일부를 앞에서 회수하는 효과가 있으므로 듀레이션이 짧아진다.</p>
+<p>그래서 &ldquo;장기채 = 무조건 듀레이션이 만기와 같다&quot;고 생각하면 안 된다. 만기와 듀레이션은 방향은 비슷하지만 같은 숫자는 아니다.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+<h3 id="듀레이션이-긴-채권은-수익-기회와-위험이-함께-크다" class="heading">듀레이션이 긴 채권은 수익 기회와 위험이 함께 크다<a href="#%eb%93%80%eb%a0%88%ec%9d%b4%ec%85%98%ec%9d%b4-%ea%b8%b4-%ec%b1%84%ea%b6%8c%ec%9d%80-%ec%88%98%ec%9d%b5-%ea%b8%b0%ed%9a%8c%ec%99%80-%ec%9c%84%ed%97%98%ec%9d%b4-%ed%95%a8%ea%bb%98-%ed%81%ac%eb%8b%a4" aria-labelledby="듀레이션이-긴-채권은-수익-기회와-위험이-함께-크다">
+
+
+
+
+
+
+                
+                        
+                        
+                        <svg class="svg-inline--fa fas fa-link anchor" fill="currentColor" aria-hidden="true" role="img" viewBox="0 0 576 512" overflow="visible"><use href="#fas-link"></use></svg>&nbsp;
+    </a>
+</h3>
+
+<p>듀레이션이 길다는 것은 금리 변화에 예민하다는 뜻이다. 금리가 내려가면 가격 상승 폭이 클 수 있지만, 금리가 오르면 손실 폭도 커질 수 있다.</p>
+<p>장기채 ETF가 금리 하락기에 크게 오르는 이유도 여기에 있다. 반대로 금리 상승기에는 장기채 ETF가 생각보다 크게 하락할 수 있다. 채권이라는 이름 때문에 안전할 것이라고 생각하고 들어갔다가 가격 변동에 놀라는 경우가 많다.</p>
+<p>채권 투자를 할 때는 수익률만 볼 것이 아니라 듀레이션도 함께 봐야 한다. 특히 &ldquo;초장기&rdquo;, &ldquo;30년&rdquo;, &ldquo;장기국채&rdquo; 같은 이름이 들어간 상품은 듀레이션이 길 가능성이 높다.</p>
+<hr>
+
+
+
+
+
+
+
+
+
+
+
+
+<h2 id="맥컬리-듀레이션과-수정-듀레이션의-차이" class="heading">맥컬리 듀레이션과 수정 듀레이션의 차이<a href="#%eb%a7%a5%ec%bb%ac%eb%a6%ac-%eb%93%80%eb%a0%88%ec%9d%b4%ec%85%98%ea%b3%bc-%ec%88%98%ec%a0%95-%eb%93%80%eb%a0%88%ec%9d%b4%ec%85%98%ec%9d%98-%ec%b0%a8%ec%9d%b4" aria-labelledby="맥컬리-듀레이션과-수정-듀레이션의-차이">
+
+
+
+
+
+
+                
+                        
+                        
+                        <svg class="svg-inline--fa fas fa-link anchor" fill="currentColor" aria-hidden="true" role="img" viewBox="0 0 576 512" overflow="visible"><use href="#fas-link"></use></svg>&nbsp;
+    </a>
+</h2>
+
+<p>듀레이션을 찾아보면 맥컬리 듀레이션, 수정 듀레이션이라는 말이 나온다. 처음부터 계산식까지 깊게 들어갈 필요는 없지만, 둘의 역할은 구분해두면 좋다.</p>
+<p>맥컬리 듀레이션은 투자금의 평균 회수 기간이다. 단위는 보통 &ldquo;년&quot;이다. 앞에서 설명한 듀레이션의 기본 개념이 여기에 가깝다.</p>
+<p>수정 듀레이션은 금리 변화에 대한 채권 가격 민감도를 보여주는 지표다. 실무적으로 &ldquo;금리가 1%포인트 움직이면 채권 가격이 얼마나 움직일까?&ldquo;를 볼 때 더 자주 쓰인다.</p>
+
+
+
+
+
+
+    
+
+
+
+
+
+
+<table class="table">
+  <thead>
+    
+      
+      <tr>
+          <th >구분</th>
+          <th >쉽게 말하면</th>
+          <th >주로 보는 이유</th>
+      </tr>
+    
+  </thead>
+  <tbody>
+    
+      
+        <tr>
+            <td >맥컬리 듀레이션</td>
+            <td >평균 회수 기간</td>
+            <td >투자금이 평균적으로 언제 돌아오는지 이해</td>
+        </tr>
+      
+    
+      
+        <tr>
+            <td >수정 듀레이션</td>
+            <td >금리 민감도</td>
+            <td >금리 변화에 따른 채권 가격 변동 추정</td>
+        </tr>
+      
+  </tbody>
+</table><p>일반 투자자가 채권형 ETF나 펀드 설명서에서 듀레이션을 볼 때는 계산식보다 의미가 중요하다. 숫자가 클수록 금리 변화에 더 크게 흔들릴 가능성이 높고, 숫자가 작을수록 금리 변화에 덜 민감하다고 이해하면 된다.</p>
+<hr>
+
+
+
+
+
+
+
+
+
+
+
+
+<h2 id="채권-etf를-볼-때-듀레이션을-확인해야-한다" class="heading">채권 ETF를 볼 때 듀레이션을 확인해야 한다<a href="#%ec%b1%84%ea%b6%8c-etf%eb%a5%bc-%eb%b3%bc-%eb%95%8c-%eb%93%80%eb%a0%88%ec%9d%b4%ec%85%98%ec%9d%84-%ed%99%95%ec%9d%b8%ed%95%b4%ec%95%bc-%ed%95%9c%eb%8b%a4" aria-labelledby="채권-etf를-볼-때-듀레이션을-확인해야-한다">
+
+
+
+
+
+
+                
+                        
+                        
+                        <svg class="svg-inline--fa fas fa-link anchor" fill="currentColor" aria-hidden="true" role="img" viewBox="0 0 576 512" overflow="visible"><use href="#fas-link"></use></svg>&nbsp;
+    </a>
+</h2>
+
+<p>개별 채권을 만기까지 보유하는 투자자라면 발행기관이 부도나지 않는 한 만기 수익률을 중심으로 볼 수 있다. 물론 중간 가격 변동은 생기지만, 만기까지 들고 갈 계획이라면 가격 변동을 견디는 관점이 가능하다.</p>
+<p>하지만 채권 ETF와 채권형 펀드는 다르다. ETF는 여러 채권을 담고 있고, 시간이 지나면 보유 채권을 교체하면서 일정한 만기와 듀레이션을 유지하는 경우가 많다. 그래서 만기까지 한 채권을 들고 가는 것과 가격 움직임이 다를 수 있다.</p>
+<p>예를 들어 &ldquo;단기채 ETF&quot;는 듀레이션이 짧아 금리 변화에 덜 민감한 편이다. 현금성 자산에 가까운 역할을 기대할 수 있지만, 기대 수익률도 상대적으로 낮을 수 있다.</p>
+<p>반대로 &ldquo;30년 국채 ETF&quot;나 &ldquo;장기채 ETF&quot;는 듀레이션이 길다. 금리 하락기에는 큰 수익을 기대할 수 있지만, 금리 상승기에는 가격 하락이 클 수 있다. 채권 ETF인데도 주식형 ETF 못지않게 흔들리는 것처럼 느껴질 수 있다.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+<h3 id="채권-etf-선택-전-체크리스트" class="heading">채권 ETF 선택 전 체크리스트<a href="#%ec%b1%84%ea%b6%8c-etf-%ec%84%a0%ed%83%9d-%ec%a0%84-%ec%b2%b4%ed%81%ac%eb%a6%ac%ec%8a%a4%ed%8a%b8" aria-labelledby="채권-etf-선택-전-체크리스트">
+
+
+
+
+
+
+                
+                        
+                        
+                        <svg class="svg-inline--fa fas fa-link anchor" fill="currentColor" aria-hidden="true" role="img" viewBox="0 0 576 512" overflow="visible"><use href="#fas-link"></use></svg>&nbsp;
+    </a>
+</h3>
+
+<ul>
+<li>상품명에 단기, 중기, 장기, 10년, 30년 같은 표현이 있는가?</li>
+<li>상품 설명서의 평균 듀레이션은 몇 년인가?</li>
+<li>금리가 1%포인트 움직이면 가격이 어느 정도 변할 수 있는가?</li>
+<li>만기매칭형 ETF인지, 일반 채권 ETF인지 확인했는가?</li>
+<li>신용등급과 보유 채권 종류는 어떤가?</li>
+<li>내 투자 기간과 듀레이션이 맞는가?</li>
+</ul>
+<p>단기 자금이라면 듀레이션이 긴 상품은 조심해야 한다. 6개월 뒤 전세 보증금이나 계약금으로 쓸 돈을 장기채 ETF에 넣었다가 금리가 오르면 필요한 시점에 손실을 보고 팔아야 할 수 있다.</p>
+<hr>
+
+
+
+
+
+
+
+
+
+
+
+
+<h2 id="듀레이션을-투자에-활용하는-방법" class="heading">듀레이션을 투자에 활용하는 방법<a href="#%eb%93%80%eb%a0%88%ec%9d%b4%ec%85%98%ec%9d%84-%ed%88%ac%ec%9e%90%ec%97%90-%ed%99%9c%ec%9a%a9%ed%95%98%eb%8a%94-%eb%b0%a9%eb%b2%95" aria-labelledby="듀레이션을-투자에-활용하는-방법">
+
+
+
+
+
+
+                
+                        
+                        
+                        <svg class="svg-inline--fa fas fa-link anchor" fill="currentColor" aria-hidden="true" role="img" viewBox="0 0 576 512" overflow="visible"><use href="#fas-link"></use></svg>&nbsp;
+    </a>
+</h2>
+
+<p>듀레이션은 투자 타이밍을 완벽하게 맞히는 도구가 아니다. 내 채권 자산이 금리에 얼마나 민감한지 확인하는 위험 관리 도구에 가깝다.</p>
+<p>금리 하락을 기대한다면 장기채나 듀레이션이 긴 채권 비중을 늘릴 수 있다. 금리가 내려가면 기존 채권 가격이 오르기 때문이다. 특히 장기 국채는 금리 하락 효과를 크게 받을 수 있다.</p>
+<p>반대로 금리 상승이 걱정된다면 단기채나 듀레이션이 짧은 상품을 중심으로 가져가는 편이 안정적이다. 가격 하락 폭을 줄이고, 만기가 돌아온 돈을 더 높은 금리의 채권에 다시 투자할 기회도 생긴다.</p>
+<p>다만 초보자라면 금리 예측에 너무 많은 비중을 두지 않는 것이 좋다. 전문가도 금리 방향을 계속 맞히기는 어렵다. 차라리 내 투자 기간에 맞춰 듀레이션을 고르는 것이 더 실용적이다.</p>
+<p>예를 들어 1년 안에 쓸 돈은 단기채나 예금 중심으로, 5년 이상 운용할 수 있는 일부 자금은 중장기 채권으로 나누는 식이다. 이렇게 하면 금리 전망이 조금 틀려도 전체 자산이 한쪽으로 크게 흔들리는 것을 줄일 수 있다.</p>
+<hr>
+
+
+
+
+
+
+
+
+
+
+
+
+<h2 id="정리" class="heading">정리<a href="#%ec%a0%95%eb%a6%ac" aria-labelledby="정리">
+
+
+
+
+
+
+                
+                        
+                        
+                        <svg class="svg-inline--fa fas fa-link anchor" fill="currentColor" aria-hidden="true" role="img" viewBox="0 0 576 512" overflow="visible"><use href="#fas-link"></use></svg>&nbsp;
+    </a>
+</h2>
+
+<p>채권 듀레이션은 투자금을 평균적으로 회수하는 기간이면서, 금리 변화에 따른 채권 가격 민감도를 보여주는 핵심 지표다. 만기와 비슷해 보이지만 같은 개념은 아니다. 이자를 중간에 받는 채권은 보통 듀레이션이 만기보다 짧다.</p>
+<p>듀레이션이 길수록 금리 변화에 민감하다. 금리가 내려가면 가격 상승 폭이 클 수 있지만, 금리가 오르면 가격 하락 폭도 커질 수 있다. 반대로 듀레이션이 짧은 채권은 가격 변동이 상대적으로 작지만, 금리 하락기에 얻을 수 있는 가격 상승도 제한적이다.</p>
+<p>개별 채권을 만기까지 보유할지, 채권 ETF를 사고팔지에 따라 듀레이션의 의미도 달라진다. 채권 ETF는 보유 채권을 교체하면서 일정한 듀레이션을 유지하는 경우가 많으므로, 상품 설명서에서 평균 듀레이션을 꼭 확인해야 한다.</p>
+<p>채권 투자에서 중요한 것은 &ldquo;채권은 안전하다&quot;라고 단순하게 생각하지 않는 것이다. 신용등급, 만기, 수익률과 함께 듀레이션을 보면 내가 감당할 수 있는 가격 변동 범위를 더 현실적으로 판단할 수 있다.</p>
+<hr>
+
+
+
+
+
+
+
+
+
+
+
+
+<h2 id="자주-묻는-질문" class="heading">자주 묻는 질문<a href="#%ec%9e%90%ec%a3%bc-%eb%ac%bb%eb%8a%94-%ec%a7%88%eb%ac%b8" aria-labelledby="자주-묻는-질문">
+
+
+
+
+
+
+                
+                        
+                        
+                        <svg class="svg-inline--fa fas fa-link anchor" fill="currentColor" aria-hidden="true" role="img" viewBox="0 0 576 512" overflow="visible"><use href="#fas-link"></use></svg>&nbsp;
+    </a>
+</h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h3 id="채권-듀레이션이란-무엇인가" class="heading">채권 듀레이션이란 무엇인가?<a href="#%ec%b1%84%ea%b6%8c-%eb%93%80%eb%a0%88%ec%9d%b4%ec%85%98%ec%9d%b4%eb%9e%80-%eb%ac%b4%ec%97%87%ec%9d%b8%ea%b0%80" aria-labelledby="채권-듀레이션이란-무엇인가">
+
+
+
+
+
+
+                
+                        
+                        
+                        <svg class="svg-inline--fa fas fa-link anchor" fill="currentColor" aria-hidden="true" role="img" viewBox="0 0 576 512" overflow="visible"><use href="#fas-link"></use></svg>&nbsp;
+    </a>
+</h3>
+
+<p>채권 듀레이션은 투자한 돈을 평균적으로 회수하는 데 걸리는 기간이다. 동시에 금리 변화에 따라 채권 가격이 얼마나 민감하게 움직이는지 보여주는 지표로도 쓰인다.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+<h3 id="듀레이션과-만기는-같은-말인가" class="heading">듀레이션과 만기는 같은 말인가?<a href="#%eb%93%80%eb%a0%88%ec%9d%b4%ec%85%98%ea%b3%bc-%eb%a7%8c%ea%b8%b0%eb%8a%94-%ea%b0%99%ec%9d%80-%eb%a7%90%ec%9d%b8%ea%b0%80" aria-labelledby="듀레이션과-만기는-같은-말인가">
+
+
+
+
+
+
+                
+                        
+                        
+                        <svg class="svg-inline--fa fas fa-link anchor" fill="currentColor" aria-hidden="true" role="img" viewBox="0 0 576 512" overflow="visible"><use href="#fas-link"></use></svg>&nbsp;
+    </a>
+</h3>
+
+<p>아니다. 만기는 원금을 최종 상환받는 날짜까지의 기간이고, 듀레이션은 이자와 원금의 현금흐름을 고려한 평균 회수 기간이다. 이표채는 중간에 이자를 받기 때문에 듀레이션이 만기보다 짧은 경우가 많다.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+<h3 id="듀레이션이-길면-좋은-것인가" class="heading">듀레이션이 길면 좋은 것인가?<a href="#%eb%93%80%eb%a0%88%ec%9d%b4%ec%85%98%ec%9d%b4-%ea%b8%b8%eb%a9%b4-%ec%a2%8b%ec%9d%80-%ea%b2%83%ec%9d%b8%ea%b0%80" aria-labelledby="듀레이션이-길면-좋은-것인가">
+
+
+
+
+
+
+                
+                        
+                        
+                        <svg class="svg-inline--fa fas fa-link anchor" fill="currentColor" aria-hidden="true" role="img" viewBox="0 0 576 512" overflow="visible"><use href="#fas-link"></use></svg>&nbsp;
+    </a>
+</h3>
+
+<p>항상 좋은 것은 아니다. 듀레이션이 길면 금리 하락기에는 가격 상승 폭이 클 수 있지만, 금리 상승기에는 손실 폭도 커질 수 있다. 수익 기회와 위험이 함께 커지는 구조다.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+<h3 id="금리가-오를-때는-어떤-채권이-유리한가" class="heading">금리가 오를 때는 어떤 채권이 유리한가?<a href="#%ea%b8%88%eb%a6%ac%ea%b0%80-%ec%98%a4%eb%a5%bc-%eb%95%8c%eb%8a%94-%ec%96%b4%eb%96%a4-%ec%b1%84%ea%b6%8c%ec%9d%b4-%ec%9c%a0%eb%a6%ac%ed%95%9c%ea%b0%80" aria-labelledby="금리가-오를-때는-어떤-채권이-유리한가">
+
+
+
+
+
+
+                
+                        
+                        
+                        <svg class="svg-inline--fa fas fa-link anchor" fill="currentColor" aria-hidden="true" role="img" viewBox="0 0 576 512" overflow="visible"><use href="#fas-link"></use></svg>&nbsp;
+    </a>
+</h3>
+
+<p>일반적으로 금리 상승기에는 듀레이션이 짧은 단기채가 상대적으로 유리하다. 금리가 올라도 가격 하락 폭이 작고, 만기가 돌아오면 더 높은 금리의 채권으로 갈아탈 기회가 생길 수 있다.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+<h3 id="채권-etf도-듀레이션을-봐야-하나" class="heading">채권 ETF도 듀레이션을 봐야 하나?<a href="#%ec%b1%84%ea%b6%8c-etf%eb%8f%84-%eb%93%80%eb%a0%88%ec%9d%b4%ec%85%98%ec%9d%84-%eb%b4%90%ec%95%bc-%ed%95%98%eb%82%98" aria-labelledby="채권-etf도-듀레이션을-봐야-하나">
+
+
+
+
+
+
+                
+                        
+                        
+                        <svg class="svg-inline--fa fas fa-link anchor" fill="currentColor" aria-hidden="true" role="img" viewBox="0 0 576 512" overflow="visible"><use href="#fas-link"></use></svg>&nbsp;
+    </a>
+</h3>
+
+<p>봐야 한다. 채권 ETF는 보유 채권의 평균 듀레이션에 따라 가격 변동성이 크게 달라진다. 단기채 ETF는 덜 흔들리고, 장기채 ETF는 금리 변화에 크게 움직일 수 있다.</p>
+
+
+                    
+                    
+<div class="row row-cols-2 mt-5 mb-3">
+    <div class="col">
+        </div>
+    <div class="col text-end">
+        <a class="previous" href="/posts/bond-investing-when-rates-fall/">
+                    기준금리가 내려가면 채권 가격은 왜 오를까? 금리 하락기 채권 투자 판단법&nbsp;
+
+
+
+
+
+
+                
+                        
+                        
+                        <svg class="svg-inline--fa fas fa-arrow-right " fill="currentColor" aria-hidden="true" role="img" viewBox="0 0 512 512" overflow="visible"><use href="#fas-arrow-right"></use></svg>
+                </a></div>
+</div>
+
+                </div>
+                <div class="col col-md-3 col-lg-2 d-none d-md-block">
+                    
+    <div class="toc toc-sidebar mb-5 my-md-0 mb-lg-5 pb-3 text-body-secondary sticky-top">
+        
+
+        
+            
+            
+
+
+
+
+
+
+
+
+
+            <strong class="d-block mb-2">On this page</strong>
+            <nav class="toc">
+                
+                
+                    
+                
+
+                
+                    
+                    <a  class="toc-item toc-level-1" href="/posts/bond-duration/#듀레이션은-투자금을-평균적으로-회수하는-기간이다">듀레이션은 투자금을 평균적으로 회수하는 기간이다</a>
+                
+                    
+                    <a  class="toc-item toc-level-2" href="/posts/bond-duration/#만기와-듀레이션은-다르다">만기와 듀레이션은 다르다</a>
+                
+                    
+                    <a  class="toc-item toc-level-1" href="/posts/bond-duration/#듀레이션이-중요한-이유는-금리-민감도-때문이다">듀레이션이 중요한 이유는 금리 민감도 때문이다</a>
+                
+                    
+                    <a  class="toc-item toc-level-2" href="/posts/bond-duration/#금리-상승기와-하락기에는-전략이-달라진다">금리 상승기와 하락기에는 전략이 달라진다</a>
+                
+                    
+                    <a  class="toc-item toc-level-1" href="/posts/bond-duration/#듀레이션이-길어지는-조건과-짧아지는-조건">듀레이션이 길어지는 조건과 짧아지는 조건</a>
+                
+                    
+                    <a  class="toc-item toc-level-2" href="/posts/bond-duration/#듀레이션이-긴-채권은-수익-기회와-위험이-함께-크다">듀레이션이 긴 채권은 수익 기회와 위험이 함께 크다</a>
+                
+                    
+                    <a  class="toc-item toc-level-1" href="/posts/bond-duration/#맥컬리-듀레이션과-수정-듀레이션의-차이">맥컬리 듀레이션과 수정 듀레이션의 차이</a>
+                
+                    
+                    <a  class="toc-item toc-level-1" href="/posts/bond-duration/#채권-etf를-볼-때-듀레이션을-확인해야-한다">채권 ETF를 볼 때 듀레이션을 확인해야 한다</a>
+                
+                    
+                    <a  class="toc-item toc-level-2" href="/posts/bond-duration/#채권-etf-선택-전-체크리스트">채권 ETF 선택 전 체크리스트</a>
+                
+                    
+                        
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+<a aria-label="Show 8 more"
+        href="#toc-collapse-items" id="btnTOCShowMore" class="btn btn-link link-primary position-relative toc-item" data-bs-toggle="collapse" aria-expanded="false" aria-controls="toc-collapse-items"role="button"
+        >
+        <span class="d-flex justify-content-start">
+            <span class="my-auto">Show 8 more</span>
+        </span></a>
+
+                        <div class="collapse" id="toc-collapse-items">
+                        
+                    <a  class="toc-item toc-level-1" href="/posts/bond-duration/#듀레이션을-투자에-활용하는-방법">듀레이션을 투자에 활용하는 방법</a>
+                
+                    
+                    <a  class="toc-item toc-level-1" href="/posts/bond-duration/#정리">정리</a>
+                
+                    
+                    <a  class="toc-item toc-level-1" href="/posts/bond-duration/#자주-묻는-질문">자주 묻는 질문</a>
+                
+                    
+                    <a  class="toc-item toc-level-2" href="/posts/bond-duration/#채권-듀레이션이란-무엇인가">채권 듀레이션이란 무엇인가?</a>
+                
+                    
+                    <a  class="toc-item toc-level-2" href="/posts/bond-duration/#듀레이션과-만기는-같은-말인가">듀레이션과 만기는 같은 말인가?</a>
+                
+                    
+                    <a  class="toc-item toc-level-2" href="/posts/bond-duration/#듀레이션이-길면-좋은-것인가">듀레이션이 길면 좋은 것인가?</a>
+                
+                    
+                    <a  class="toc-item toc-level-2" href="/posts/bond-duration/#금리가-오를-때는-어떤-채권이-유리한가">금리가 오를 때는 어떤 채권이 유리한가?</a>
+                
+                    
+                    <a  class="toc-item toc-level-2" href="/posts/bond-duration/#채권-etf도-듀레이션을-봐야-하나">채권 ETF도 듀레이션을 봐야 하나?</a>
+                
+
+                
+                    &nbsp;
+                    
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+<a aria-label="Show less"
+        href="#toc-collapse-items" id="btnTOCShowLess" class="btn btn-link link-primary position-relative toc-item" data-bs-toggle="collapse" aria-expanded="false" aria-controls="toc-collapse-items"role="button"
+        >
+        <span class="d-flex justify-content-start">
+            <span class="my-auto">Show less</span>
+        </span></a>
+
+                </div>
+            </nav>
+        
+    
+
+
+
+        </div>
+
+
+                </div>
+            </div>
+        </div>
+    
+</main>
+
+<footer class="container-fluid footer text-center p-3">
+    <div class="container-xxl text-center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8543127460401091"
+     crossorigin="anonymous"></script>
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-8543127460401091"
+     data-ad-slot="3689386360"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+        <small>
+            Copyright © 2026 Show Me the Money::devkuma All rights reserved.
+             |
+            
+                
+                Powered by 
+    <a href="https://gethinode.com" class="link-bg-footer"  target="_blank" rel="noopener noreferrer nofollow">Hinode</a>
+.
+            
+        </small>
+    </div>
+</footer>
+<div id="toast-container" class="toast-container position-fixed bottom-0 end-0 p-3">
+
+
+
+
+
+
+
+
+<div id="toast-copied-code-message" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+    <div class="toast-header">
+        <strong class="me-auto">Show Me the Money::devkuma</strong>
+        <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+    </div>
+    <div class="toast-body">Code copied to clipboard</div>
+</div>
+</div>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" display="none">
+        <symbol id="fas-ellipsis" overflow="visible" viewBox="0 0 448 512"><path fill="currentColor" d="M0 256a56 56 0 1 1 112 0 56 56 0 1 1 -112 0zm168 0a56 56 0 1 1 112 0 56 56 0 1 1 -112 0zm224-56a56 56 0 1 1 0 112 56 56 0 1 1 0-112z"/></symbol>
+<symbol id="fas-sun" overflow="visible" viewBox="0 0 576 512"><path fill="currentColor" d="M288-32c8.4 0 16.3 4.4 20.6 11.7L364.1 72.3 468.9 46c8.2-2 16.9 .4 22.8 6.3S500 67 498 75.1l-26.3 104.7 92.7 55.5c7.2 4.3 11.7 12.2 11.7 20.6s-4.4 16.3-11.7 20.6L471.7 332.1 498 436.8c2 8.2-.4 16.9-6.3 22.8S477 468 468.9 466l-104.7-26.3-55.5 92.7c-4.3 7.2-12.2 11.7-20.6 11.7s-16.3-4.4-20.6-11.7L211.9 439.7 107.2 466c-8.2 2-16.8-.4-22.8-6.3S76 445 78 436.8l26.2-104.7-92.6-55.5C4.4 272.2 0 264.4 0 256s4.4-16.3 11.7-20.6L104.3 179.9 78 75.1c-2-8.2 .3-16.8 6.3-22.8S99 44 107.2 46l104.7 26.2 55.5-92.6 1.8-2.6c4.5-5.7 11.4-9.1 18.8-9.1zm0 144a144 144 0 1 0 0 288 144 144 0 1 0 0-288zm0 240a96 96 0 1 1 0-192 96 96 0 1 1 0 192z"/></symbol>
+<symbol id="fas-moon" overflow="visible" viewBox="0 0 512 512"><path fill="currentColor" d="M256 0C114.6 0 0 114.6 0 256S114.6 512 256 512c68.8 0 131.3-27.2 177.3-71.4 7.3-7 9.4-17.9 5.3-27.1s-13.7-14.9-23.8-14.1c-4.9 .4-9.8 .6-14.8 .6-101.6 0-184-82.4-184-184 0-72.1 41.5-134.6 102.1-164.8 9.1-4.5 14.3-14.3 13.1-24.4S322.6 8.5 312.7 6.3C294.4 2.2 275.4 0 256 0z"/></symbol>
+<symbol id="fas-angle-left" overflow="visible" viewBox="0 0 256 512"><path fill="currentColor" d="M9.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L77.3 256 214.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z"/></symbol>
+<symbol id="fas-sort" overflow="visible" viewBox="0 0 384 512"><path fill="currentColor" d="M2.4 204.2c5 12 16.6 19.8 29.6 19.8l320 0c12.9 0 24.6-7.8 29.6-19.8s2.2-25.7-6.9-34.9l-160-160c-12.5-12.5-32.8-12.5-45.3 0l-160 160c-9.2 9.2-11.9 22.9-6.9 34.9zm0 103.5c-5 12-2.2 25.7 6.9 34.9l160 160c12.5 12.5 32.8 12.5 45.3 0l160-160c9.2-9.2 11.9-22.9 6.9-34.9S364.9 288 352 288L32 288c-12.9 0-24.6 7.8-29.6 19.8z"/></symbol>
+<symbol id="fas-link" overflow="visible" viewBox="0 0 576 512"><path fill="currentColor" d="M419.5 96c-16.6 0-32.7 4.5-46.8 12.7-15.8-16-34.2-29.4-54.5-39.5 28.2-24 64.1-37.2 101.3-37.2 86.4 0 156.5 70 156.5 156.5 0 41.5-16.5 81.3-45.8 110.6l-71.1 71.1c-29.3 29.3-69.1 45.8-110.6 45.8-86.4 0-156.5-70-156.5-156.5 0-1.5 0-3 .1-4.5 .5-17.7 15.2-31.6 32.9-31.1s31.6 15.2 31.1 32.9c0 .9 0 1.8 0 2.6 0 51.1 41.4 92.5 92.5 92.5 24.5 0 48-9.7 65.4-27.1l71.1-71.1c17.3-17.3 27.1-40.9 27.1-65.4 0-51.1-41.4-92.5-92.5-92.5zM275.2 173.3c-1.9-.8-3.8-1.9-5.5-3.1-12.6-6.5-27-10.2-42.1-10.2-24.5 0-48 9.7-65.4 27.1L91.1 258.2c-17.3 17.3-27.1 40.9-27.1 65.4 0 51.1 41.4 92.5 92.5 92.5 16.5 0 32.6-4.4 46.7-12.6 15.8 16 34.2 29.4 54.6 39.5-28.2 23.9-64 37.2-101.3 37.2-86.4 0-156.5-70-156.5-156.5 0-41.5 16.5-81.3 45.8-110.6l71.1-71.1c29.3-29.3 69.1-45.8 110.6-45.8 86.6 0 156.5 70.6 156.5 156.9 0 1.3 0 2.6 0 3.9-.4 17.7-15.1 31.6-32.8 31.2s-31.6-15.1-31.2-32.8c0-.8 0-1.5 0-2.3 0-33.7-18-63.3-44.8-79.6z"/></symbol>
+<symbol id="fas-arrow-right" overflow="visible" viewBox="0 0 512 512"><path fill="currentColor" d="M502.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L402.7 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l370.7 0-105.4 105.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"/></symbol>
+    </svg>
+
+  
+    
+
+  
+
+
+<script src="/js/core.bundle-analytics.ko.min.bef138a0b0039c16630a4767e923e751563c440bb5d0c7c226422e8df10640e9.js"
+         data-category="analytics" integrity="sha256-vvE4oLADnBZjCkdn6SPnUVY8RAu10MfCJkIujfEGQOk=" crossorigin="anonymous" async></script>
+
+<script src="/js/core.bundle.ko.min.f33bf11b4a97200fdbb0e1c92edce7986556e8224ff6e8ecb8bf6a5b371fbccb.js"
+         integrity="sha256-8zvxG0qXIA/bsOHJLtznmGVW6CJP9ujsuL9qWzcfvMs=" crossorigin="anonymous" async></script></body>
+</html>

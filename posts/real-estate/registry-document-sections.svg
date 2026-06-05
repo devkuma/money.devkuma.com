@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540" role="img" aria-labelledby="title desc">
+  <title id="title">등기부등본 표제부 갑구 을구 구조</title>
+  <desc id="desc">등기부등본을 표제부, 갑구, 을구 세 영역으로 나누어 확인할 항목을 설명한 이미지</desc>
+  <rect width="960" height="540" fill="#f7f4ed"/>
+  <rect x="64" y="52" width="832" height="436" rx="18" fill="#ffffff" stroke="#2f3a44" stroke-width="3"/>
+  <text x="96" y="105" font-family="Arial, sans-serif" font-size="34" font-weight="700" fill="#1f2933">등기부등본은 3곳만 먼저 보면 된다</text>
+  <text x="96" y="142" font-family="Arial, sans-serif" font-size="19" fill="#5b6670">계약서 주소와 등기부의 물건, 소유자, 권리관계를 순서대로 확인한다.</text>
+  <g>
+    <rect x="96" y="185" width="768" height="76" rx="12" fill="#e7f0ea" stroke="#47765b" stroke-width="2"/>
+    <text x="124" y="219" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#1d4d35">1. 표제부</text>
+    <text x="124" y="247" font-family="Arial, sans-serif" font-size="18" fill="#274235">주소, 면적, 건물 구조, 대지권 등 "이 집이 맞는지" 확인</text>
+  </g>
+  <g>
+    <rect x="96" y="286" width="768" height="76" rx="12" fill="#edf1f8" stroke="#516f9e" stroke-width="2"/>
+    <text x="124" y="320" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#294b7a">2. 갑구</text>
+    <text x="124" y="348" font-family="Arial, sans-serif" font-size="18" fill="#334761">소유자, 소유권 이전, 가압류, 가처분 등 "누구 집인지" 확인</text>
+  </g>
+  <g>
+    <rect x="96" y="387" width="768" height="76" rx="12" fill="#f8ebe3" stroke="#b0643f" stroke-width="2"/>
+    <text x="124" y="421" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#8a3d1d">3. 을구</text>
+    <text x="124" y="449" font-family="Arial, sans-serif" font-size="18" fill="#5c3a2b">근저당권, 전세권, 임차권 등 "빚과 담보권" 확인</text>
+  </g>
+</svg>

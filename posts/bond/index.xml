@@ -10,9 +10,16 @@
 		
 		
 		
-			<lastBuildDate>Mon, 11 May 2026 22:45:02 +0900</lastBuildDate>
+			<lastBuildDate>Fri, 05 Jun 2026 23:51:44 +0900</lastBuildDate>
 		
 			<atom:link href="https://money.devkuma.com/posts/bond/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>채권 듀레이션 뜻, 금리와 채권 가격 변동을 이해하는 핵심 개념</title>
+				<link>https://money.devkuma.com/posts/bond-duration/</link>
+				<pubDate>Fri, 05 Jun 2026 23:51:44 +0900</pubDate>
+				<guid>https://money.devkuma.com/posts/bond-duration/</guid>
+				<description>&lt;p&gt;채권 투자를 시작하면 금리, 만기, 표면금리, 수익률 같은 단어를 먼저 만나게 된다. 여기까지도 어렵지만, 조금 더 들어가면 &amp;ldquo;듀레이션&amp;quot;이라는 말이 나온다. 이름부터 낯설고 계산식도 복잡해 보여서 그냥 넘기기 쉽다.&lt;/p&gt;&#xA;&lt;p&gt;하지만 채권을 만기 전에 팔 가능성이 있거나, 채권형 ETF와 펀드에 투자한다면 듀레이션은 꼭 알아야 한다. 듀레이션을 모르면 금리가 조금 움직였을 뿐인데 왜 내 채권 ETF 가격이 크게 흔들리는지 이해하기 어렵다.&lt;/p&gt;&#xA;&lt;p&gt;듀레이션은 쉽게 말해 채권 투자금의 평균 회수 기간이면서, 동시에 금리 변화에 채권 가격이 얼마나 민감하게 움직이는지를 보여주는 지표다. 이 글에서는 초보자 기준으로 듀레이션의 뜻, 만기와의 차이, 금리와 가격의 관계, 채권 ETF를 볼 때 활용하는 방법을 정리했다.&lt;/p&gt;</description>
+			</item>
 			<item>
 				<title>기준금리가 내려가면 채권 가격은 왜 오를까? 금리 하락기 채권 투자 판단법</title>
 				<link>https://money.devkuma.com/posts/bond-investing-when-rates-fall/</link>
