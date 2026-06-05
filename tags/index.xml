@@ -10,9 +10,44 @@
 		
 		
 		
-			<lastBuildDate>Sat, 06 Jun 2026 00:06:19 +0900</lastBuildDate>
+			<lastBuildDate>Sat, 06 Jun 2026 00:14:49 +0900</lastBuildDate>
 		
 			<atom:link href="https://money.devkuma.com/tags/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>뉴스</title>
+				<link>https://money.devkuma.com/tags/%EB%89%B4%EC%8A%A4/</link>
+				<pubDate>Sat, 06 Jun 2026 00:14:49 +0900</pubDate>
+				<guid>https://money.devkuma.com/tags/%EB%89%B4%EC%8A%A4/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>달러환율</title>
+				<link>https://money.devkuma.com/tags/%EB%8B%AC%EB%9F%AC%ED%99%98%EC%9C%A8/</link>
+				<pubDate>Sat, 06 Jun 2026 00:14:49 +0900</pubDate>
+				<guid>https://money.devkuma.com/tags/%EB%8B%AC%EB%9F%AC%ED%99%98%EC%9C%A8/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>시장동향</title>
+				<link>https://money.devkuma.com/tags/%EC%8B%9C%EC%9E%A5%EB%8F%99%ED%96%A5/</link>
+				<pubDate>Sat, 06 Jun 2026 00:14:49 +0900</pubDate>
+				<guid>https://money.devkuma.com/tags/%EC%8B%9C%EC%9E%A5%EB%8F%99%ED%96%A5/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>외환시장</title>
+				<link>https://money.devkuma.com/tags/%EC%99%B8%ED%99%98%EC%8B%9C%EC%9E%A5/</link>
+				<pubDate>Sat, 06 Jun 2026 00:14:49 +0900</pubDate>
+				<guid>https://money.devkuma.com/tags/%EC%99%B8%ED%99%98%EC%8B%9C%EC%9E%A5/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>원달러환율</title>
+				<link>https://money.devkuma.com/tags/%EC%9B%90%EB%8B%AC%EB%9F%AC%ED%99%98%EC%9C%A8/</link>
+				<pubDate>Sat, 06 Jun 2026 00:14:49 +0900</pubDate>
+				<guid>https://money.devkuma.com/tags/%EC%9B%90%EB%8B%AC%EB%9F%AC%ED%99%98%EC%9C%A8/</guid>
+				<description></description>
+			</item>
 			<item>
 				<title>HF</title>
 				<link>https://money.devkuma.com/tags/hf/</link>
@@ -1029,24 +1064,10 @@
 				<description></description>
 			</item>
 			<item>
-				<title>뉴스</title>
-				<link>https://money.devkuma.com/tags/%EB%89%B4%EC%8A%A4/</link>
-				<pubDate>Wed, 03 Jun 2026 22:51:27 +0900</pubDate>
-				<guid>https://money.devkuma.com/tags/%EB%89%B4%EC%8A%A4/</guid>
-				<description></description>
-			</item>
-			<item>
 				<title>로봇</title>
 				<link>https://money.devkuma.com/tags/%EB%A1%9C%EB%B4%87/</link>
 				<pubDate>Wed, 03 Jun 2026 22:51:27 +0900</pubDate>
 				<guid>https://money.devkuma.com/tags/%EB%A1%9C%EB%B4%87/</guid>
-				<description></description>
-			</item>
-			<item>
-				<title>시장동향</title>
-				<link>https://money.devkuma.com/tags/%EC%8B%9C%EC%9E%A5%EB%8F%99%ED%96%A5/</link>
-				<pubDate>Wed, 03 Jun 2026 22:51:27 +0900</pubDate>
-				<guid>https://money.devkuma.com/tags/%EC%8B%9C%EC%9E%A5%EB%8F%99%ED%96%A5/</guid>
 				<description></description>
 			</item>
 			<item>
