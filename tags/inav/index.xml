@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>INAV on Show Me the Money::devkuma</title>
+		<link>https://money.devkuma.com/tags/inav/</link>
+		<description>Recent content in INAV on Show Me the Money::devkuma</description>
+		<generator>Hugo</generator>
+		<language>ko-KR</language>
+		
+		
+		
+		
+			<lastBuildDate>Mon, 25 May 2026 00:00:00 +0900</lastBuildDate>
+		
+			<atom:link href="https://money.devkuma.com/tags/inav/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>ETF 가격 결정 원리, NAV 괴리율 추적오차 쉽게 이해하기</title>
+				<link>https://money.devkuma.com/posts/etf-price-nav-premium-discount-tracking-error/</link>
+				<pubDate>Mon, 25 May 2026 00:00:00 +0900</pubDate>
+				<guid>https://money.devkuma.com/posts/etf-price-nav-premium-discount-tracking-error/</guid>
+				<description>&lt;p&gt;ETF는 주식처럼 장중에 바로 사고팔 수 있다. 그래서 처음 ETF를 보면 &amp;ldquo;그냥 주식 가격처럼 수요와 공급으로 정해지는 것 아닌가?&amp;ldquo;라고 생각하기 쉽다. 절반은 맞고 절반은 다르다. ETF도 거래소에서 매수자와 매도자가 만나 가격이 정해지지만, 그 뒤에는 ETF가 실제로 들고 있는 자산 가치가 기준으로 깔려 있다.&lt;/p&gt;&#xA;&lt;p&gt;ETF 투자에서 가격 구조를 모르면 생각보다 비싸게 사거나, 급하게 팔면서 손해를 키울 수 있다. 특히 거래량이 적은 ETF, 해외 자산을 담은 ETF, 장 시작 직후와 장 마감 직전에는 시장가격과 실제 가치의 차이가 벌어질 수 있다.&lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>

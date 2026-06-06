@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>음봉 on Show Me the Money::devkuma</title>
+		<link>https://money.devkuma.com/tags/%EC%9D%8C%EB%B4%89/</link>
+		<description>Recent content in 음봉 on Show Me the Money::devkuma</description>
+		<generator>Hugo</generator>
+		<language>ko-KR</language>
+		
+		
+		
+		
+			<lastBuildDate>Tue, 26 May 2026 22:35:38 +0900</lastBuildDate>
+		
+			<atom:link href="https://money.devkuma.com/tags/%EC%9D%8C%EB%B4%89/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>캔들차트 보는 법, 주식 초보를 위한 캔들 종류와 패턴 기초 정리</title>
+				<link>https://money.devkuma.com/posts/stock-candlestick-chart/</link>
+				<pubDate>Tue, 26 May 2026 22:35:38 +0900</pubDate>
+				<guid>https://money.devkuma.com/posts/stock-candlestick-chart/</guid>
+				<description>&lt;p&gt;주식 앱을 열면 가장 먼저 보이는 것이 차트다. 그런데 초보자에게 차트는 꽤 낯설다. 빨간색과 파란색 막대가 계속 이어져 있고, 위아래로 선이 달려 있는데 이것이 무엇을 의미하는지 모르면 주가가 올랐는지 내렸는지도 헷갈릴 수 있다.&lt;/p&gt;&#xA;&lt;p&gt;이 막대를 캔들이라고 부른다. 촛불처럼 생겼다고 해서 캔들차트라는 이름이 붙었다. 캔들 하나에는 일정 기간 동안의 시가, 종가, 고가, 저가가 담긴다. 그래서 캔들차트를 볼 줄 알면 그날 주가가 얼마나 올랐는지, 장중에 얼마나 흔들렸는지, 매수세와 매도세 중 어느 쪽이 강했는지 대략 파악할 수 있다.&lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>

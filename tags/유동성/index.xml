@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>유동성 on Show Me the Money::devkuma</title>
+		<link>https://money.devkuma.com/tags/%EC%9C%A0%EB%8F%99%EC%84%B1/</link>
+		<description>Recent content in 유동성 on Show Me the Money::devkuma</description>
+		<generator>Hugo</generator>
+		<language>ko-KR</language>
+		
+		
+		
+		
+			<lastBuildDate>Mon, 01 Jun 2026 21:55:20 +0900</lastBuildDate>
+		
+			<atom:link href="https://money.devkuma.com/tags/%EC%9C%A0%EB%8F%99%EC%84%B1/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>주식 거래량 보는 법, 거래대금과 차이부터 주가 흐름 해석까지</title>
+				<link>https://money.devkuma.com/posts/stock-trading-volume/</link>
+				<pubDate>Mon, 01 Jun 2026 21:55:20 +0900</pubDate>
+				<guid>https://money.devkuma.com/posts/stock-trading-volume/</guid>
+				<description>&lt;p&gt;주식 차트를 보면 가격 아래에 길이가 다른 막대가 표시된다. 어떤 날은 막대가 짧고, 어떤 날은 갑자기 몇 배나 길어진다. 이 막대가 거래량이다.&lt;/p&gt;&#xA;&lt;p&gt;주가만 보면 &amp;ldquo;얼마나 올랐는지&amp;quot;를 알 수 있다. 거래량까지 함께 보면 &amp;ldquo;얼마나 많은 사람이 참여한 움직임인지&amp;quot;를 짐작할 수 있다. 같은 5% 상승이라도 적은 거래량으로 오른 경우와 평소보다 몇 배 많은 거래량으로 오른 경우는 의미가 다를 수 있다.&lt;/p&gt;&#xA;&lt;p&gt;하지만 거래량이 늘었다고 무조건 좋은 신호인 것은 아니다. 주가가 급락할 때도 거래량은 크게 증가할 수 있다. 이 글에서는 주식 거래량의 뜻, 거래대금과의 차이, 차트에서 거래량을 읽는 방법, 초보자가 조심해야 할 해석을 쉽게 정리했다.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>주식 액면분할 뜻과 효과, 주가가 싸지는 것처럼 보이는 이유</title>
+				<link>https://money.devkuma.com/posts/stock-split-meaning/</link>
+				<pubDate>Fri, 29 May 2026 22:46:07 +0900</pubDate>
+				<guid>https://money.devkuma.com/posts/stock-split-meaning/</guid>
+				<description>&lt;p&gt;주식 뉴스를 보다 보면 &amp;ldquo;1주를 5주로 액면분할한다&amp;rdquo;, &amp;ldquo;액면분할 이후 거래가 재개된다&amp;quot;는 말을 볼 때가 있다. 처음 들으면 회사가 주식을 새로 찍어내는 것 같기도 하고, 주가가 싸졌으니 저평가가 된 것처럼 느껴지기도 한다.&lt;/p&gt;&#xA;&lt;p&gt;하지만 액면분할은 기업 가치가 갑자기 좋아지는 이벤트가 아니다. 쉽게 말해 피자 한 판을 4조각으로 자르던 것을 8조각으로 더 잘게 자르는 것과 비슷하다. 조각 수는 늘어나지만 피자 한 판의 크기는 그대로다.&lt;/p&gt;&#xA;&lt;p&gt;이 글에서는 액면분할의 뜻, 계산 방식, 주가와 시가총액에 미치는 영향, 투자자가 조심해야 할 부분까지 초보자 기준으로 정리했다. 액면분할 공시를 봤을 때 &amp;ldquo;이게 호재인가?&amp;rdquo; 하고 바로 매수 버튼을 누르기 전에 꼭 알아두면 좋다.&lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>

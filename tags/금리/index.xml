@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>금리 on Show Me the Money::devkuma</title>
+		<link>https://money.devkuma.com/tags/%EA%B8%88%EB%A6%AC/</link>
+		<description>Recent content in 금리 on Show Me the Money::devkuma</description>
+		<generator>Hugo</generator>
+		<language>ko-KR</language>
+		
+		
+		
+		
+			<lastBuildDate>Fri, 05 Jun 2026 23:51:44 +0900</lastBuildDate>
+		
+			<atom:link href="https://money.devkuma.com/tags/%EA%B8%88%EB%A6%AC/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>채권 듀레이션 뜻, 금리와 채권 가격 변동을 이해하는 핵심 개념</title>
+				<link>https://money.devkuma.com/posts/bond-duration/</link>
+				<pubDate>Fri, 05 Jun 2026 23:51:44 +0900</pubDate>
+				<guid>https://money.devkuma.com/posts/bond-duration/</guid>
+				<description>&lt;p&gt;채권 투자를 시작하면 금리, 만기, 표면금리, 수익률 같은 단어를 먼저 만나게 된다. 여기까지도 어렵지만, 조금 더 들어가면 &amp;ldquo;듀레이션&amp;quot;이라는 말이 나온다. 이름부터 낯설고 계산식도 복잡해 보여서 그냥 넘기기 쉽다.&lt;/p&gt;&#xA;&lt;p&gt;하지만 채권을 만기 전에 팔 가능성이 있거나, 채권형 ETF와 펀드에 투자한다면 듀레이션은 꼭 알아야 한다. 듀레이션을 모르면 금리가 조금 움직였을 뿐인데 왜 내 채권 ETF 가격이 크게 흔들리는지 이해하기 어렵다.&lt;/p&gt;&#xA;&lt;p&gt;듀레이션은 쉽게 말해 채권 투자금의 평균 회수 기간이면서, 동시에 금리 변화에 채권 가격이 얼마나 민감하게 움직이는지를 보여주는 지표다. 이 글에서는 초보자 기준으로 듀레이션의 뜻, 만기와의 차이, 금리와 가격의 관계, 채권 ETF를 볼 때 활용하는 방법을 정리했다.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>스태그플레이션 뜻과 원인, 경기 침체인데 물가가 오르는 S의 공포</title>
+				<link>https://money.devkuma.com/posts/stagflation-meaning-and-causes/</link>
+				<pubDate>Sun, 31 May 2026 23:55:18 +0900</pubDate>
+				<guid>https://money.devkuma.com/posts/stagflation-meaning-and-causes/</guid>
+				<description>&lt;p&gt;뉴스에서 &amp;ldquo;S의 공포&amp;quot;라는 표현이 나오면 대개 스태그플레이션을 말한다. 물가는 계속 오르는데 경기는 살아나지 않고, 월급과 일자리는 불안해지는 상황이다. 장을 보거나 외식할 때 지출은 늘어나는데 투자 수익률과 소득은 오히려 줄어들 수 있다.&lt;/p&gt;&#xA;&lt;p&gt;인플레이션도 생활을 어렵게 만들지만 스태그플레이션은 더 까다롭다. 물가를 잡기 위해 금리를 올리면 경기가 더 위축될 수 있고, 경기를 살리기 위해 금리를 내리면 물가가 더 오를 수 있기 때문이다.&lt;/p&gt;&#xA;&lt;p&gt;이 글에서는 스태그플레이션의 뜻과 원인, 1970년대 오일쇼크 사례, 인플레이션과의 차이, 개인이 자산관리에서 확인해야 할 부분을 쉽게 정리했다.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>돈을 맡기면 왜 이자를 줄까? 예금금리와 대출금리의 원리</title>
+				<link>https://money.devkuma.com/posts/deposit-loan-interest-basics/</link>
+				<pubDate>Mon, 11 May 2026 22:28:30 +0900</pubDate>
+				<guid>https://money.devkuma.com/posts/deposit-loan-interest-basics/</guid>
+				<description>&lt;p&gt;은행에 돈을 맡기면 시간이 지난 뒤 이자가 붙는다. 처음 금융을 배울 때는 이 부분이 조금 이상하게 느껴질 수 있다. 은행이 내 돈을 보관해주는데 왜 오히려 나에게 돈을 더 줄까.&lt;/p&gt;&#xA;&lt;p&gt;반대로 대출을 받으면 은행에 이자를 내야 한다. 같은 이자인데 예금할 때는 받고, 대출할 때는 낸다. 결국 이자를 이해하려면 은행이 돈을 어떻게 모으고, 그 돈을 어떻게 굴리는지 알아야 한다.&lt;/p&gt;&#xA;&lt;p&gt;이 글에서는 이자와 금리의 기본 개념부터 예금금리, 대출금리, 예대마진까지 초보자도 이해하기 쉽게 정리하였다.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>채권 용어: 롤링 효과, 채권 가격이 만기가 가까워질수록 오를 수 있는 이유</title>
+				<link>https://money.devkuma.com/posts/rolling-effect/</link>
+				<pubDate>Sat, 09 May 2026 17:47:09 +0900</pubDate>
+				<guid>https://money.devkuma.com/posts/rolling-effect/</guid>
+				<description>&lt;p&gt;채권 투자를 공부하다 보면 &amp;ldquo;롤링 효과&amp;quot;라는 용어를 듣게 된다. 처음 들으면 어려운 전문 용어처럼 느껴지지만, 핵심은 단순하다. 시간이 지나면서 채권의 남은 만기가 짧아지고, 그 과정에서 채권 가격이 오를 수 있다는 뜻이다.&lt;/p&gt;&#xA;&lt;p&gt;채권은 주식처럼 매일 기업 실적만 보고 움직이는 자산이 아니다. 약속된 이자, 만기, 시장금리, 남은 기간이 함께 가격을 만든다. 그래서 같은 채권이라도 만기까지 10년 남았을 때와 8년 남았을 때의 가격이 달라질 수 있다.&lt;/p&gt;&#xA;&lt;p&gt;롤링 효과는 이 &amp;ldquo;남은 기간이 줄어드는 과정&amp;quot;에서 생기는 투자 수익을 설명하는 말이다. 특히 수익률곡선이 일반적인 우상향 모양일 때 더 자주 이야기된다.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>단리와 복리 차이 쉽게 비교: 이자 계산법과 그래프까지</title>
+				<link>https://money.devkuma.com/posts/simple-vs-compound-interest/</link>
+				<pubDate>Sat, 02 May 2026 23:34:59 +0900</pubDate>
+				<guid>https://money.devkuma.com/posts/simple-vs-compound-interest/</guid>
+				<description>&lt;p&gt;은행에 이자율을 알아보다 보면 단리, 복리라는 말이 꼭 나온다. 처음에는 그냥 &amp;ldquo;이자 붙는 방식이 다르겠지&amp;rdquo; 하고 넘기기 쉬운데, 막상 예금이나 적금을 고를 때는 이 차이가 생각보다 크게 느껴진다. 나도 최근에 예금 금리를 비교하다가 단리인지 복리인지부터 다시 확인하게 되더라.&lt;/p&gt;&#xA;&lt;p&gt;이 글에서는 단리와 복리를 가장 쉬운 방식으로 비교해보고, 이자를 어떻게 계산하는지, 실제로 얼마나 차이가 나는지 그래프로 보여줄게. 그리고 복리가 무조건 좋은 건 아닌 이유도 같이 보자.&lt;/p&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;h2 id=&#34;단리와-복리-뭐가-다른가&#34; class=&#34;heading&#34;&gt;단리와 복리, 뭐가 다른가&lt;a href=&#34;#%eb%8b%a8%eb%a6%ac%ec%99%80-%eb%b3%b5%eb%a6%ac-%eb%ad%90%ea%b0%80-%eb%8b%a4%eb%a5%b8%ea%b0%80&#34; aria-labelledby=&#34;단리와-복리-뭐가-다른가&#34;&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;                &#xA;                        &#xA;                        &#xA;                        &lt;svg class=&#34;svg-inline--fa fas fa-link anchor&#34; fill=&#34;currentColor&#34; aria-hidden=&#34;true&#34; role=&#34;img&#34; viewBox=&#34;0 0 576 512&#34; overflow=&#34;visible&#34;&gt;&lt;use href=&#34;#fas-link&#34;&gt;&lt;/use&gt;&lt;/svg&gt;&amp;nbsp;&#xA;    &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&#xA;&lt;p&gt;단리는 &lt;strong&gt;원금에만 이자가 붙는 방식&lt;/strong&gt;이다. 반대로 복리는 &lt;strong&gt;원금에 붙은 이자까지 다시 원금처럼 계산하는 방식&lt;/strong&gt;이다. 말은 어렵지만 핵심은 단순하다. 단리는 이자가 늘어도 계산 기준이 그대로이고, 복리는 시간이 지날수록 계산 기준이 커진다.&lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>

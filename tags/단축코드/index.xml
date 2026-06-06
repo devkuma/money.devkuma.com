@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>단축코드 on Show Me the Money::devkuma</title>
+		<link>https://money.devkuma.com/tags/%EB%8B%A8%EC%B6%95%EC%BD%94%EB%93%9C/</link>
+		<description>Recent content in 단축코드 on Show Me the Money::devkuma</description>
+		<generator>Hugo</generator>
+		<language>ko-KR</language>
+		
+		
+		
+		
+			<lastBuildDate>Mon, 01 Jun 2026 21:17:43 +0900</lastBuildDate>
+		
+			<atom:link href="https://money.devkuma.com/tags/%EB%8B%A8%EC%B6%95%EC%BD%94%EB%93%9C/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>주식 종목코드 6자리 의미와 체계, 삼성전자 005930으로 쉽게 이해하기</title>
+				<link>https://money.devkuma.com/posts/stock-ticker-code/</link>
+				<pubDate>Mon, 01 Jun 2026 21:17:43 +0900</pubDate>
+				<guid>https://money.devkuma.com/posts/stock-ticker-code/</guid>
+				<description>&lt;p&gt;주식 앱에서 삼성전자를 검색하면 종목명 옆에 &lt;code&gt;005930&lt;/code&gt;이라는 숫자가 표시된다. SK하이닉스는 &lt;code&gt;000660&lt;/code&gt;, LG에너지솔루션은 &lt;code&gt;373220&lt;/code&gt;이다. 처음에는 단순한 번호처럼 보이지만, 주식 주문과 시세 조회에서 종목을 정확하게 구분하는 중요한 코드다.&lt;/p&gt;&#xA;&lt;p&gt;기업 이름은 비슷할 수 있고 회사명이 바뀌기도 한다. 반면 종목코드는 각 상품을 구분하기 위해 부여된다. 특히 같은 회사가 보통주와 우선주를 함께 발행하면 종목명만 대충 보고 주문해서는 안 된다.&lt;/p&gt;&#xA;&lt;p&gt;이 글에서는 국내 주식 앱에서 자주 보는 종목코드 6자리의 의미, 정식 증권표준코드와의 차이, 삼성전자와 삼성전자우 코드가 다른 이유를 쉽게 정리했다.&lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>디페깅 on Show Me the Money::devkuma</title>
+		<link>https://money.devkuma.com/tags/%EB%94%94%ED%8E%98%EA%B9%85/</link>
+		<description>Recent content in 디페깅 on Show Me the Money::devkuma</description>
+		<generator>Hugo</generator>
+		<language>ko-KR</language>
+		
+		
+		
+		
+			<lastBuildDate>Mon, 01 Jun 2026 00:07:45 +0900</lastBuildDate>
+		
+			<atom:link href="https://money.devkuma.com/tags/%EB%94%94%ED%8E%98%EA%B9%85/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>스테이블코인이란? 종류, 페깅 원리, 활용 방법과 디페깅 리스크 총정리</title>
+				<link>https://money.devkuma.com/posts/what-is-stablecoin/</link>
+				<pubDate>Mon, 01 Jun 2026 00:07:45 +0900</pubDate>
+				<guid>https://money.devkuma.com/posts/what-is-stablecoin/</guid>
+				<description>&lt;p&gt;코인 시장에서는 가격이 하루에도 크게 움직인다. 비트코인과 이더리움처럼 잘 알려진 코인도 짧은 시간에 가격이 오르내릴 수 있다. 이런 자산을 그대로 일상 결제나 송금에 사용하기는 어렵다.&lt;/p&gt;&#xA;&lt;p&gt;스테이블코인은 이 문제를 줄이기 위해 만들어졌다. 달러, 금, 다른 암호화폐 같은 특정 자산에 가치를 연결해 가격을 안정적으로 유지하도록 설계한 가상자산이다.&lt;/p&gt;&#xA;&lt;p&gt;이름에 &amp;ldquo;스테이블&amp;quot;이 들어가지만 무조건 안전한 것은 아니다. 무엇을 담보로 하는지, 1달러 가치를 어떤 방식으로 유지하는지, 발행사가 준비자산을 제대로 보유하고 있는지에 따라 위험이 달라진다.&lt;/p&gt;&#xA;&lt;p&gt;이 글에서는 스테이블코인의 뜻, 페깅과 디페깅의 의미, 종류별 작동 원리, 활용 방법, 이용 전에 확인해야 할 리스크를 쉽게 정리하였다.&lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>
