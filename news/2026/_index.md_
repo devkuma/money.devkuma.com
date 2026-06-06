@@ -1,0 +1,32 @@
+---
+_schema: default
+title: 2026
+description: 2026
+icon: fa-solid fa-arrows-rotate
+content_blocks:
+  - _bookshop_name: hero
+    heading:
+      title: 2026
+      align: start
+      width: 8
+    breadcrumb: true
+  - _bookshop_name: articles
+    hide_empty: false
+    input:
+      section: news/2026
+      reverse: true
+      sort: date
+    more:
+      title: More articles
+    cols: 1
+    padding: 3
+    limit: 9
+    paginate: true
+    cover: false
+    header_style: none
+    body_style: full
+    footer_style: tags
+    orientation: horizontal-sm
+    class: card-zoom card-body-margin
+    justify: start
+---
