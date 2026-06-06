@@ -10,9 +10,23 @@
 		
 		
 		
-			<lastBuildDate>Sat, 06 Jun 2026 07:40:06 +0900</lastBuildDate>
+			<lastBuildDate>Sun, 07 Jun 2026 00:29:26 +0900</lastBuildDate>
 		
 			<atom:link href="https://money.devkuma.com/categories/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>세금</title>
+				<link>https://money.devkuma.com/categories/%EC%84%B8%EA%B8%88/</link>
+				<pubDate>Sun, 07 Jun 2026 00:29:26 +0900</pubDate>
+				<guid>https://money.devkuma.com/categories/%EC%84%B8%EA%B8%88/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>보험</title>
+				<link>https://money.devkuma.com/categories/%EB%B3%B4%ED%97%98/</link>
+				<pubDate>Sun, 07 Jun 2026 00:23:53 +0900</pubDate>
+				<guid>https://money.devkuma.com/categories/%EB%B3%B4%ED%97%98/</guid>
+				<description></description>
+			</item>
 			<item>
 				<title>부동산</title>
 				<link>https://money.devkuma.com/categories/%EB%B6%80%EB%8F%99%EC%82%B0/</link>
@@ -46,13 +60,6 @@
 				<link>https://money.devkuma.com/categories/%EC%B1%84%EA%B6%8C/</link>
 				<pubDate>Fri, 05 Jun 2026 23:51:44 +0900</pubDate>
 				<guid>https://money.devkuma.com/categories/%EC%B1%84%EA%B6%8C/</guid>
-				<description></description>
-			</item>
-			<item>
-				<title>세금</title>
-				<link>https://money.devkuma.com/categories/%EC%84%B8%EA%B8%88/</link>
-				<pubDate>Thu, 04 Jun 2026 22:12:52 +0900</pubDate>
-				<guid>https://money.devkuma.com/categories/%EC%84%B8%EA%B8%88/</guid>
 				<description></description>
 			</item>
 			<item>
@@ -95,13 +102,6 @@
 				<link>https://money.devkuma.com/categories/%EA%B2%BD%EC%A0%9C/</link>
 				<pubDate>Mon, 11 May 2026 22:28:30 +0900</pubDate>
 				<guid>https://money.devkuma.com/categories/%EA%B2%BD%EC%A0%9C/</guid>
-				<description></description>
-			</item>
-			<item>
-				<title>보험</title>
-				<link>https://money.devkuma.com/categories/%EB%B3%B4%ED%97%98/</link>
-				<pubDate>Mon, 11 May 2026 21:42:00 +0900</pubDate>
-				<guid>https://money.devkuma.com/categories/%EB%B3%B4%ED%97%98/</guid>
 				<description></description>
 			</item>
 			<item>
