@@ -10,9 +10,65 @@
 		
 		
 		
-			<lastBuildDate>Mon, 08 Jun 2026 21:46:33 +0900</lastBuildDate>
+			<lastBuildDate>Mon, 08 Jun 2026 22:02:16 +0900</lastBuildDate>
 		
 			<atom:link href="https://money.devkuma.com/tags/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>ETF</title>
+				<link>https://money.devkuma.com/tags/etf/</link>
+				<pubDate>Mon, 08 Jun 2026 22:02:16 +0900</pubDate>
+				<guid>https://money.devkuma.com/tags/etf/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>IRP</title>
+				<link>https://money.devkuma.com/tags/irp/</link>
+				<pubDate>Mon, 08 Jun 2026 22:02:16 +0900</pubDate>
+				<guid>https://money.devkuma.com/tags/irp/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>배당ETF</title>
+				<link>https://money.devkuma.com/tags/%EB%B0%B0%EB%8B%B9etf/</link>
+				<pubDate>Mon, 08 Jun 2026 22:02:16 +0900</pubDate>
+				<guid>https://money.devkuma.com/tags/%EB%B0%B0%EB%8B%B9etf/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>배당투자</title>
+				<link>https://money.devkuma.com/tags/%EB%B0%B0%EB%8B%B9%ED%88%AC%EC%9E%90/</link>
+				<pubDate>Mon, 08 Jun 2026 22:02:16 +0900</pubDate>
+				<guid>https://money.devkuma.com/tags/%EB%B0%B0%EB%8B%B9%ED%88%AC%EC%9E%90/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>분배금</title>
+				<link>https://money.devkuma.com/tags/%EB%B6%84%EB%B0%B0%EA%B8%88/</link>
+				<pubDate>Mon, 08 Jun 2026 22:02:16 +0900</pubDate>
+				<guid>https://money.devkuma.com/tags/%EB%B6%84%EB%B0%B0%EA%B8%88/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>연금저축</title>
+				<link>https://money.devkuma.com/tags/%EC%97%B0%EA%B8%88%EC%A0%80%EC%B6%95/</link>
+				<pubDate>Mon, 08 Jun 2026 22:02:16 +0900</pubDate>
+				<guid>https://money.devkuma.com/tags/%EC%97%B0%EA%B8%88%EC%A0%80%EC%B6%95/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>월배당ETF</title>
+				<link>https://money.devkuma.com/tags/%EC%9B%94%EB%B0%B0%EB%8B%B9etf/</link>
+				<pubDate>Mon, 08 Jun 2026 22:02:16 +0900</pubDate>
+				<guid>https://money.devkuma.com/tags/%EC%9B%94%EB%B0%B0%EB%8B%B9etf/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>커버드콜</title>
+				<link>https://money.devkuma.com/tags/%EC%BB%A4%EB%B2%84%EB%93%9C%EC%BD%9C/</link>
+				<pubDate>Mon, 08 Jun 2026 22:02:16 +0900</pubDate>
+				<guid>https://money.devkuma.com/tags/%EC%BB%A4%EB%B2%84%EB%93%9C%EC%BD%9C/</guid>
+				<description></description>
+			</item>
 			<item>
 				<title>보험</title>
 				<link>https://money.devkuma.com/tags/%EB%B3%B4%ED%97%98/</link>
@@ -329,20 +385,6 @@
 				<description></description>
 			</item>
 			<item>
-				<title>ETF</title>
-				<link>https://money.devkuma.com/tags/etf/</link>
-				<pubDate>Sun, 07 Jun 2026 23:15:30 +0900</pubDate>
-				<guid>https://money.devkuma.com/tags/etf/</guid>
-				<description></description>
-			</item>
-			<item>
-				<title>IRP</title>
-				<link>https://money.devkuma.com/tags/irp/</link>
-				<pubDate>Sun, 07 Jun 2026 23:15:30 +0900</pubDate>
-				<guid>https://money.devkuma.com/tags/irp/</guid>
-				<description></description>
-			</item>
-			<item>
 				<title>ISA</title>
 				<link>https://money.devkuma.com/tags/isa/</link>
 				<pubDate>Sun, 07 Jun 2026 23:15:30 +0900</pubDate>
@@ -368,20 +410,6 @@
 				<link>https://money.devkuma.com/tags/%EB%A7%8C%EA%B8%B0%EC%88%98%EC%9D%B5%EB%A5%A0/</link>
 				<pubDate>Sun, 07 Jun 2026 23:15:30 +0900</pubDate>
 				<guid>https://money.devkuma.com/tags/%EB%A7%8C%EA%B8%B0%EC%88%98%EC%9D%B5%EB%A5%A0/</guid>
-				<description></description>
-			</item>
-			<item>
-				<title>분배금</title>
-				<link>https://money.devkuma.com/tags/%EB%B6%84%EB%B0%B0%EA%B8%88/</link>
-				<pubDate>Sun, 07 Jun 2026 23:15:30 +0900</pubDate>
-				<guid>https://money.devkuma.com/tags/%EB%B6%84%EB%B0%B0%EA%B8%88/</guid>
-				<description></description>
-			</item>
-			<item>
-				<title>연금저축</title>
-				<link>https://money.devkuma.com/tags/%EC%97%B0%EA%B8%88%EC%A0%80%EC%B6%95/</link>
-				<pubDate>Sun, 07 Jun 2026 23:15:30 +0900</pubDate>
-				<guid>https://money.devkuma.com/tags/%EC%97%B0%EA%B8%88%EC%A0%80%EC%B6%95/</guid>
 				<description></description>
 			</item>
 			<item>
@@ -1400,13 +1428,6 @@
 				<description></description>
 			</item>
 			<item>
-				<title>월배당ETF</title>
-				<link>https://money.devkuma.com/tags/%EC%9B%94%EB%B0%B0%EB%8B%B9etf/</link>
-				<pubDate>Wed, 03 Jun 2026 23:12:34 +0900</pubDate>
-				<guid>https://money.devkuma.com/tags/%EC%9B%94%EB%B0%B0%EB%8B%B9etf/</guid>
-				<description></description>
-			</item>
-			<item>
 				<title>인컴ETF</title>
 				<link>https://money.devkuma.com/tags/%EC%9D%B8%EC%BB%B4etf/</link>
 				<pubDate>Wed, 03 Jun 2026 23:12:34 +0900</pubDate>
@@ -2296,13 +2317,6 @@
 				<description></description>
 			</item>
 			<item>
-				<title>배당투자</title>
-				<link>https://money.devkuma.com/tags/%EB%B0%B0%EB%8B%B9%ED%88%AC%EC%9E%90/</link>
-				<pubDate>Sun, 31 May 2026 23:50:40 +0900</pubDate>
-				<guid>https://money.devkuma.com/tags/%EB%B0%B0%EB%8B%B9%ED%88%AC%EC%9E%90/</guid>
-				<description></description>
-			</item>
-			<item>
 				<title>보통주</title>
 				<link>https://money.devkuma.com/tags/%EB%B3%B4%ED%86%B5%EC%A3%BC/</link>
 				<pubDate>Sun, 31 May 2026 23:50:40 +0900</pubDate>
@@ -3185,13 +3199,6 @@
 				<description></description>
 			</item>
 			<item>
-				<title>커버드콜</title>
-				<link>https://money.devkuma.com/tags/%EC%BB%A4%EB%B2%84%EB%93%9C%EC%BD%9C/</link>
-				<pubDate>Sun, 24 May 2026 12:17:26 +0900</pubDate>
-				<guid>https://money.devkuma.com/tags/%EC%BB%A4%EB%B2%84%EB%93%9C%EC%BD%9C/</guid>
-				<description></description>
-			</item>
-			<item>
 				<title>금ETF</title>
 				<link>https://money.devkuma.com/tags/%EA%B8%88etf/</link>
 				<pubDate>Sun, 24 May 2026 12:14:33 +0900</pubDate>
@@ -3259,13 +3266,6 @@
 				<link>https://money.devkuma.com/tags/etf%EC%A2%85%EB%A5%98/</link>
 				<pubDate>Sun, 24 May 2026 12:06:57 +0900</pubDate>
 				<guid>https://money.devkuma.com/tags/etf%EC%A2%85%EB%A5%98/</guid>
-				<description></description>
-			</item>
-			<item>
-				<title>배당ETF</title>
-				<link>https://money.devkuma.com/tags/%EB%B0%B0%EB%8B%B9etf/</link>
-				<pubDate>Sun, 24 May 2026 12:06:57 +0900</pubDate>
-				<guid>https://money.devkuma.com/tags/%EB%B0%B0%EB%8B%B9etf/</guid>
 				<description></description>
 			</item>
 			<item>

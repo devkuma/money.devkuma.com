@@ -10,7 +10,7 @@
 		
 		
 		
-			<lastBuildDate>Sun, 07 Jun 2026 23:15:30 +0900</lastBuildDate>
+			<lastBuildDate>Mon, 08 Jun 2026 22:02:16 +0900</lastBuildDate>
 		
 			<atom:link href="https://money.devkuma.com/tags/etf/index.xml" rel="self" type="application/rss+xml" />
 			<item>
@@ -75,6 +75,13 @@
 				<pubDate>Sun, 17 May 2026 22:46:15 +0900</pubDate>
 				<guid>https://money.devkuma.com/posts/etf-tax-guide/</guid>
 				<description>&lt;p&gt;ETF는 주식처럼 사고팔 수 있어서 세금도 주식과 똑같다고 생각하기 쉽다. 그런데 실제로는 그렇지 않다. 국내 증시에 상장된 ETF인지, 해외 거래소에 직접 상장된 ETF인지, 또 ETF가 국내 주식에 투자하는지 해외 주식에 투자하는지에 따라 세금이 달라진다.&lt;/p&gt;&#xA;&lt;p&gt;특히 초보자가 가장 많이 헷갈리는 부분은 &amp;ldquo;국내 상장 해외 ETF&amp;quot;다. 예를 들어 TIGER 미국S&amp;amp;P500, KODEX 미국나스닥100처럼 한국거래소에서 원화로 사고파는 ETF는 미국 주식에 투자하더라도 세금은 해외 상장 ETF와 다르게 처리된다.&lt;/p&gt;&#xA;&lt;p&gt;이 글에서는 ETF 투자자가 꼭 알아야 할 세금을 매매차익과 분배금으로 나누어 정리하였다. 세금은 투자 수익률의 마지막 숫자를 바꾸기 때문에, 상품을 고르기 전에 한 번은 확인해두는 것이 좋다.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>월배당 ETF 장단점, 제2의 월급처럼 보이는 분배금의 진짜 구조</title>
+				<link>https://money.devkuma.com/posts/monthly-dividend-etf-pros-cons/</link>
+				<pubDate>Mon, 08 Jun 2026 22:02:16 +0900</pubDate>
+				<guid>https://money.devkuma.com/posts/monthly-dividend-etf-pros-cons/</guid>
+				<description>&lt;p&gt;월배당 ETF는 이름 그대로 매월 분배금을 지급하는 ETF다. 분기나 반기마다 배당을 받는 일반 배당 ETF와 달리 매달 현금이 들어오기 때문에, 투자자 입장에서는 제2의 월급처럼 느껴질 수 있다. 은퇴자, 생활비 일부를 투자 수익으로 충당하려는 사람, 연금계좌에서 현금흐름을 만들고 싶은 사람에게 특히 관심이 많다.&lt;/p&gt;&#xA;&lt;p&gt;하지만 월배당 ETF를 단순히 &amp;ldquo;매달 돈 주는 좋은 상품&amp;quot;으로만 보면 위험하다. 분배금이 꾸준히 들어온다고 해서 원금이 안전하다는 뜻은 아니고, 분배율이 높다고 해서 총수익률이 높다는 뜻도 아니다. 어떤 상품은 배당주에서 나오는 배당금을 재원으로 삼지만, 어떤 상품은 옵션 프리미엄이나 채권 이자, 리츠 임대수익, 자산 매각분까지 활용한다.&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>만기매칭형 채권 ETF란? 예금처럼 만기가 있는 채권 ETF 쉽게 이해하기</title>
