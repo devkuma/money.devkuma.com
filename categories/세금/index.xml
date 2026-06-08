@@ -10,7 +10,7 @@
 		
 		
 		
-			<lastBuildDate>Sun, 07 Jun 2026 00:29:26 +0900</lastBuildDate>
+			<lastBuildDate>Mon, 08 Jun 2026 21:39:03 +0900</lastBuildDate>
 		
 			<atom:link href="https://money.devkuma.com/categories/%EC%84%B8%EA%B8%88/index.xml" rel="self" type="application/rss+xml" />
 			<item>
@@ -19,6 +19,13 @@
 				<pubDate>Sun, 17 May 2026 22:46:15 +0900</pubDate>
 				<guid>https://money.devkuma.com/posts/etf-tax-guide/</guid>
 				<description>&lt;p&gt;ETF는 주식처럼 사고팔 수 있어서 세금도 주식과 똑같다고 생각하기 쉽다. 그런데 실제로는 그렇지 않다. 국내 증시에 상장된 ETF인지, 해외 거래소에 직접 상장된 ETF인지, 또 ETF가 국내 주식에 투자하는지 해외 주식에 투자하는지에 따라 세금이 달라진다.&lt;/p&gt;&#xA;&lt;p&gt;특히 초보자가 가장 많이 헷갈리는 부분은 &amp;ldquo;국내 상장 해외 ETF&amp;quot;다. 예를 들어 TIGER 미국S&amp;amp;P500, KODEX 미국나스닥100처럼 한국거래소에서 원화로 사고파는 ETF는 미국 주식에 투자하더라도 세금은 해외 상장 ETF와 다르게 처리된다.&lt;/p&gt;&#xA;&lt;p&gt;이 글에서는 ETF 투자자가 꼭 알아야 할 세금을 매매차익과 분배금으로 나누어 정리하였다. 세금은 투자 수익률의 마지막 숫자를 바꾸기 때문에, 상품을 고르기 전에 한 번은 확인해두는 것이 좋다.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>프리랜서 3.3% 원천징수와 환급, 종합소득세 신고 전 꼭 알아야 할 기준</title>
+				<link>https://money.devkuma.com/posts/freelancer-withholding-tax-refund/</link>
+				<pubDate>Mon, 08 Jun 2026 21:39:03 +0900</pubDate>
+				<guid>https://money.devkuma.com/posts/freelancer-withholding-tax-refund/</guid>
+				<description>&lt;p&gt;프리랜서로 일을 시작하면 가장 먼저 헷갈리는 숫자가 3.3%다. 계약서에는 100만 원이라고 적혀 있는데 통장에는 96만 7천 원만 들어온다. 처음에는 수수료처럼 느껴지지만, 실제로는 소득을 지급하는 쪽에서 세금을 미리 떼어 납부한 것이다.&lt;/p&gt;&#xA;&lt;p&gt;문제는 이 3.3%가 최종 세금이 아니라는 점이다. 이미 세금을 냈으니 끝이라고 생각하면 종합소득세 신고를 놓칠 수 있고, 돌려받을 수 있는 환급금도 못 받을 수 있다. 반대로 3.3%를 뗐으니 무조건 환급된다고 생각하는 것도 위험하다. 실제 세금은 1년 전체 소득과 필요경비, 공제 항목을 반영해 다시 계산된다.&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>증여세 면제한도 가족별 정리, 배우자·자녀·부모·형제자매 공제 기준</title>
