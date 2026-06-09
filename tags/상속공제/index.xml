@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>상속공제 on Money::devkuma</title>
+		<link>https://money.devkuma.com/tags/%EC%83%81%EC%86%8D%EA%B3%B5%EC%A0%9C/</link>
+		<description>Recent content in 상속공제 on Money::devkuma</description>
+		<generator>Hugo</generator>
+		<language>ko-KR</language>
+		
+		
+		
+		
+			<lastBuildDate>Tue, 09 Jun 2026 23:49:32 +0900</lastBuildDate>
+		
+			<atom:link href="https://money.devkuma.com/tags/%EC%83%81%EC%86%8D%EA%B3%B5%EC%A0%9C/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>상속세와 증여세 차이, 세율은 같아도 세금이 달라지는 이유</title>
+				<link>https://money.devkuma.com/posts/inheritance-tax-vs-gift-tax/</link>
+				<pubDate>Tue, 09 Jun 2026 23:49:32 +0900</pubDate>
+				<guid>https://money.devkuma.com/posts/inheritance-tax-vs-gift-tax/</guid>
+				<description>&lt;p&gt;상속세와 증여세는 모두 재산을 무상으로 넘겨받을 때 생기는 세금이다. 그래서 둘을 비슷하게 생각하기 쉽다. 부모가 자녀에게 재산을 넘겨준다는 점에서는 같아 보이기 때문이다.&lt;/p&gt;&#xA;&lt;p&gt;하지만 세금 계산에서는 차이가 크다. 상속세는 사람이 사망한 뒤 남긴 재산에 붙는 세금이고, 증여세는 살아 있을 때 재산을 넘겨줄 때 붙는 세금이다. 발생 시점이 다르고, 세금을 계산하는 단위도 다르며, 공제 방식과 신고기한도 다르다.&lt;/p&gt;&#xA;&lt;p&gt;특히 부동산, 예금, 주식, 보험금처럼 자산이 여러 종류로 나뉘어 있다면 &amp;ldquo;상속이 나을까, 미리 증여가 나을까&amp;quot;라는 고민이 생긴다. 이 글에서는 상속세와 증여세의 차이를 초보자 기준으로 정리하였다.&lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>

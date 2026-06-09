@@ -1,0 +1,2444 @@
+
+
+
+<!doctype html>
+<html lang="ko" class="no-js">
+    <head>
+
+<script src="/js/critical.bundle.min.a8c0814b35e0a7b1a8e5265b551bde6d5e4bb321db28f493d51366366c118c70.js"
+         integrity="sha256-qMCBSzXgp7Go5SZbVRvebV5LsyHbKPST1RNmNmwRjHA=" crossorigin="anonymous"></script><meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="generator" content="Hugo 0.162.1">
+    <meta name="theme" content="Hinode 2.11.2">
+    
+
+
+
+
+
+    
+    
+<link rel="stylesheet" href="/css/main.min.7de8a724d7dab626cfd48cc0d3d0afd9d9b95bdf0dabec1464fd5f96bdab2d57.css" integrity="sha256-feinJNfatibP1IzA09Cv2dm5W98Nq+wUZP1flr2rLVc=" crossorigin="anonymous">
+    
+        
+    
+    
+        
+        
+             
+            <link rel="preload" href="/fonts/inter-v12-latin-regular.woff2" as="font" type="font/woff2" crossorigin>
+        
+
+
+
+    
+    
+    
+
+
+
+
+
+
+    
+  <meta name="robots" content="index, follow">
+    <meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta name="bingbot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <title>상속세와 증여세 차이, 세율은 같아도 세금이 달라지는 이유 - Money::devkuma </title>
+    <meta name="description" content="상속세와 증여세의 차이를 발생 시점, 납세의무자, 계산 방식, 공제, 신고기한, 사전증여 전략 기준으로 초보자도 이해하기 쉽게 정리하였다.">
+
+<meta property="og:locale" content="en_US">
+<meta property="og:type" content="article">
+<meta property="og:title" content="상속세와 증여세 차이, 세율은 같아도 세금이 달라지는 이유">
+<meta property="og:description" content="상속세와 증여세의 차이를 발생 시점, 납세의무자, 계산 방식, 공제, 신고기한, 사전증여 전략 기준으로 초보자도 이해하기 쉽게 정리하였다.">
+
+<meta property="og:url" content="https://money.devkuma.com/posts/inheritance-tax-vs-gift-tax/">
+<meta property="og:site_name" content="Money::devkuma">
+<meta property="article:published_time" content="2026-06-09T23:49:32+09:00">
+    <meta property="article:modified_time" content="2026-06-09T23:49:32+09:00">
+    <meta property="og:image" content="https://money.devkuma.com/posts/tax/tax-1280x640.png">
+<meta property="og:image:alt" content="상속세와 증여세 차이, 세율은 같아도 세금이 달라지는 이유">
+
+
+
+<meta name="twitter:card" content="summary_large_image">
+
+
+<meta name="twitter:title" content="상속세와 증여세 차이, 세율은 같아도 세금이 달라지는 이유">
+<meta name="twitter:description" content="상속세와 증여세의 차이를 발생 시점, 납세의무자, 계산 방식, 공제, 신고기한, 사전증여 전략 기준으로 초보자도 이해하기 쉽게 정리하였다.">
+<meta name="twitter:image" content="https://money.devkuma.com/posts/tax/tax-1280x640.png">
+<meta name="twitter:image:alt" content="상속세와 증여세 차이, 세율은 같아도 세금이 달라지는 이유">
+
+
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+        "@id": "https://money.devkuma.com/#/schema/organization/1",
+      "name": "Hinode",
+      "url": "https://money.devkuma.com/",
+      "sameAs": [null,"https://github.com/gethinode/hinode"],
+      "logo": {
+          "@type": "ImageObject",
+          "@id": "https://money.devkuma.com/#/schema/image/1",
+          "url": "https://money.devkuma.com/favicons/512x512.png",
+          "width": 512 ,
+          "height": 512 ,
+          "caption": "Hinode"
+        },
+        "image": {
+          "@id": "https://money.devkuma.com/#/schema/image/1"
+        }
+      },
+    {
+      "@type": "WebSite",
+      "@id": "https://money.devkuma.com/#/schema/website/1",
+      "url": "https://money.devkuma.com/",
+      "name": "Money::devkuma",
+      "description": "Hinode is a clean documentation and blog theme for your Hugo site based on Bootstrap 5.",
+      "publisher": {
+          "@id": "https://money.devkuma.com/#/schema/organization/1"
+        }
+      },
+    {
+      "@type": "WebPage",
+      "@id": "https://money.devkuma.com/posts/inheritance-tax-vs-gift-tax/",
+      "url": "https://money.devkuma.com/posts/inheritance-tax-vs-gift-tax/",
+      "name": "상속세와 증여세 차이, 세율은 같아도 세금이 달라지는 이유",
+      "description": "상속세와 증여세의 차이를 발생 시점, 납세의무자, 계산 방식, 공제, 신고기한, 사전증여 전략 기준으로 초보자도 이해하기 쉽게 정리하였다.",
+      "isPartOf": {
+        "@id": "https://money.devkuma.com/#/schema/website/1"
+      },
+      "about": {
+          "@id": "https://money.devkuma.com/#/schema/organization/1"
+        },
+      "datePublished": "2026-06-09T23:49:32CET","dateModified": "2026-06-09T23:49:32CET","breadcrumb": {
+        "@id": "https://money.devkuma.com/posts/inheritance-tax-vs-gift-tax/#/schema/breadcrumb/1"
+      },
+      "primaryImageOfPage": {
+        "@id": "https://money.devkuma.com/posts/inheritance-tax-vs-gift-tax/#/schema/image/2"
+      },
+      "inLanguage": "en-US",
+      "potentialAction": [{
+        "@type": "ReadAction", "target": ["https://money.devkuma.com/posts/inheritance-tax-vs-gift-tax/"]
+      }]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://money.devkuma.com/posts/inheritance-tax-vs-gift-tax/#/schema/breadcrumb/1",
+      "name": "Breadcrumbs",
+      "itemListElement": [{
+        "@type": "ListItem",
+        "position":  1 ,
+        "item": {
+          "@type": "WebPage",
+          "@id": "https://money.devkuma.com/",
+          "url": "https://money.devkuma.com/",
+          "name": "Home"
+          }
+        },{
+        "@type": "ListItem",
+        "position":  2 ,
+        "item": {
+          "@type": "WebPage",
+          "@id": "https://money.devkuma.com/posts/",
+          "url": "https://money.devkuma.com/posts/",
+          "name": "Posts"
+          }
+        },{
+        "@type": "ListItem",
+        "position":  3 ,
+        "item": {
+          "@id": "https://money.devkuma.com/posts/inheritance-tax-vs-gift-tax/"
+          }
+        }]
+    },
+
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "ImageObject",
+          "@id": "https://money.devkuma.com/posts/inheritance-tax-vs-gift-tax/#/schema/image/2",
+          "url": "https://money.devkuma.com/posts/tax/tax-1280x640.png",
+          "contentUrl": "https://money.devkuma.com/posts/tax/tax-1280x640.png",
+          "caption": "상속세와 증여세 차이, 세율은 같아도 세금이 달라지는 이유"
+        }
+      ]
+    }
+
+  ]
+}
+</script>
+
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicons/favicon-96x96_hu_bcafd75a361bcb2.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicons/favicon-96x96_hu_ef780cd502e896ea.png">
+        <link rel="icon" type="image/png" sizes="48x48" href="/favicons/favicon-96x96_hu_8f60ad9056f52802.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="/favicons/favicon-96x96_hu_a6aa36da47e45ca3.png">
+    
+
+</head><body class="navbar-fixed">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        
+        
+        
+    
+
+
+
+
+<div class="container-fluid fixed-top p-0">
+
+
+
+
+
+<nav class="navbar px-4 py-4 navbar-fs-6 navbar-md-fs bg-body navbar-fixed-top navbar-expand-md"
+        
+        
+        >
+        <div class="container-xxl p-0">
+            <div class="d-flex navbar-container">
+                
+                <div class="d-flex align-items-center">
+                            <button class="navbar-toggler collapsed p-0 mx-auto invisible fw-30" type="button">
+
+
+
+
+
+
+                
+                        
+                        
+                        <svg class="svg-inline--fa fas fa-ellipsis fa-fw" fill="currentColor" aria-hidden="true" role="img" viewBox="0 0 448 512" overflow="visible"><use href="#fas-ellipsis"></use></svg></button></div>
+                
+
+                <div class="w-100 d-flex align-items-center w-md-auto">
+                    <a class="navbar-brand mx-auto" href="/" aria-label="Home">
+    
+    
+
+
+<img class="img-fluid m-auto"
+            src="/img/logo_icon-2800x2800.png"
+             srcset="/img/logo_icon-576x576.webp 576w, /img/logo_icon-768x768.webp 768w, /img/logo_icon-992x992.webp 992w, /img/logo_icon-1200x1200.webp 1200w, /img/logo_icon-1400x1400.webp 1400w, /img/logo_icon-2800x2800.webp 2800w" sizes="100vw" height="30" width="30" alt="Money::devkuma"></a>
+                </div>
+                <div class="d-flex align-items-center">
+                    <button class="navbar-toggler main-nav-toggler collapsed p-0" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbar-0-collapse"
+                        aria-controls="navbar-0" aria-expanded="false" aria-label="Toggle main navigation">
+                        <span class="toggler-icon top-bar emphasis"></span>
+                        <span class="toggler-icon middle-bar emphasis"></span>
+                        <span class="toggler-icon bottom-bar emphasis"></span>
+                    </button>
+                </div>
+            </div>
+    
+            <div class="navbar-collapse collapse" id="navbar-0-collapse">
+                
+                    <div class="d-flex flex-fill ms-md-3 mt-4 mt-md-0 me-md-3">
+    <form class="search flex-fill position-relative me-auto">
+        <input class="search-input form-control is-search" type="search" placeholder="" aria-label="" autocomplete="off" name="search-input">
+        <div class="search-suggestions shadow bg-body rounded d-none" data-no-results=""></div>
+    </form>
+</div>
+
+                <ul class="navbar-nav navbar-nav-scroll ms-auto">
+                    
+        
+            <li class="nav-item ">
+
+
+
+
+
+
+
+
+    
+
+
+    
+    
+
+    
+        <a
+            class="nav-link"
+            
+            data-nav="main" data-nav-main="home"
+             href="/"
+            
+            
+            ><span class=" d-md-none ">Home</span>
+            
+            <span class=" d-none d-md-block">Home</span>
+            
+        </a>
+    
+</li>
+        
+            <li class="nav-item ">
+
+
+
+
+
+
+
+
+    
+
+
+    
+    
+
+    
+        <a
+            class="nav-link"
+            
+            data-nav="main" data-nav-main="%EB%89%B4%EC%8A%A4"
+             href="/news/"
+            
+            
+            ><span class=" d-md-none ">뉴스</span>
+            
+            <span class=" d-none d-md-block">뉴스</span>
+            
+        </a>
+    
+</li>
+        
+            <li class="nav-item ">
+
+
+
+
+
+
+
+
+    
+
+
+    
+    
+
+    
+        <a
+            class="nav-link"
+            
+            data-nav="main" data-nav-main="%EA%B2%BD%EC%A0%9C"
+             href="/posts/economy/"
+            
+            
+            ><span class=" d-md-none ">경제</span>
+            
+            <span class=" d-none d-md-block">경제</span>
+            
+        </a>
+    
+</li>
+        
+            <li class="nav-item ">
+
+
+
+
+
+
+
+
+    
+
+
+    
+    
+
+    
+        <a
+            class="nav-link"
+            
+            data-nav="main" data-nav-main="%EA%B8%88%EC%9C%B5"
+             href="/posts/finance/"
+            
+            
+            ><span class=" d-md-none ">금융</span>
+            
+            <span class=" d-none d-md-block">금융</span>
+            
+        </a>
+    
+</li>
+        
+            <li class="nav-item ">
+
+
+
+
+
+
+
+
+    
+
+
+    
+    
+
+    
+        <a
+            class="nav-link"
+            
+            data-nav="main" data-nav-main="%EC%A3%BC%EC%8B%9D"
+             href="/posts/stock/"
+            
+            
+            ><span class=" d-md-none ">주식</span>
+            
+            <span class=" d-none d-md-block">주식</span>
+            
+        </a>
+    
+</li>
+        
+            <li class="nav-item ">
+
+
+
+
+
+
+
+
+    
+
+
+    
+    
+
+    
+        <a
+            class="nav-link"
+            
+            data-nav="main" data-nav-main="%EC%B1%84%EA%B6%8C"
+             href="/posts/bond/"
+            
+            
+            ><span class=" d-md-none ">채권</span>
+            
+            <span class=" d-none d-md-block">채권</span>
+            
+        </a>
+    
+</li>
+        
+            <li class="nav-item ">
+
+
+
+
+
+
+
+
+    
+
+
+    
+    
+
+    
+        <a
+            class="nav-link"
+            
+            data-nav="main" data-nav-main="%EC%BD%94%EC%9D%B8"
+             href="/posts/coin/"
+            
+            
+            ><span class=" d-md-none ">코인</span>
+            
+            <span class=" d-none d-md-block">코인</span>
+            
+        </a>
+    
+</li>
+        
+            <li class="nav-item ">
+
+
+
+
+
+
+
+
+    
+
+
+    
+    
+
+    
+        <a
+            class="nav-link"
+            
+            data-nav="main" data-nav-main="%EB%8C%80%EC%B6%9C"
+             href="/posts/loan/"
+            
+            
+            ><span class=" d-md-none ">대출</span>
+            
+            <span class=" d-none d-md-block">대출</span>
+            
+        </a>
+    
+</li>
+        
+            <li class="nav-item ">
+
+
+
+
+
+
+
+
+    
+
+
+    
+    
+
+    
+        <a
+            class="nav-link"
+            
+            data-nav="main" data-nav-main="%EB%B6%80%EB%8F%99%EC%82%B0"
+             href="/posts/real-estate/"
+            
+            
+            ><span class=" d-md-none ">부동산</span>
+            
+            <span class=" d-none d-md-block">부동산</span>
+            
+        </a>
+    
+</li>
+        
+            <li class="nav-item ">
+
+
+
+
+
+
+
+
+    
+
+
+    
+    
+
+    
+        <a
+            class="nav-link"
+            
+            data-nav="main" data-nav-main="%EB%B3%B4%ED%97%98"
+             href="/posts/insurance/"
+            
+            
+            ><span class=" d-md-none ">보험</span>
+            
+            <span class=" d-none d-md-block">보험</span>
+            
+        </a>
+    
+</li>
+        
+            <li class="nav-item ">
+
+
+
+
+
+
+
+
+    
+
+
+    
+    
+
+    
+        <a
+            class="nav-link"
+            
+            data-nav="main" data-nav-main="%EC%84%B8%EA%B8%88"
+             href="/posts/tax/"
+            
+            
+            ><span class=" d-md-none ">세금</span>
+            
+            <span class=" d-none d-md-block">세금</span>
+            
+        </a>
+    
+</li>
+        
+            <li class="nav-item ">
+
+
+
+
+
+
+
+
+    
+
+
+    
+    
+
+    
+        <a
+            class="nav-link"
+            
+            data-nav="main" data-nav-main="about-me"
+             href="/about/"
+            
+            
+            ><span class=" d-md-none ">About Me</span>
+            
+            <span class=" d-none d-md-block">About Me</span>
+            
+        </a>
+    
+</li>
+        
+            <li class="nav-item ">
+
+
+
+
+
+
+
+
+    
+
+
+    
+    
+
+    
+        <a
+            class="nav-link"
+            
+            data-nav="main" data-nav-main="tags"
+             href="/tags/"
+            
+            
+            ><span class=" d-md-none ">Tags</span>
+            
+            <span class=" d-none d-md-block">Tags</span>
+            
+        </a>
+    
+</li>
+    
+                    
+                    
+                    
+                                    
+                    <li class="nav-link navbar-fs-6 navbar-md-fs d-flex mode-switch align-items-center" id="navbar-mode">
+    <input type="checkbox" class="checkbox navbar-mode-selector" id="navbar-mode-checkbox" aria-label="Toggle theme" />
+    <label class="label" for="navbar-mode-checkbox">
+        
+
+
+
+
+
+
+                
+                        
+                        
+                        <svg class="svg-inline--fa fas fa-sun fa-fw" fill="currentColor" aria-hidden="true" role="img" viewBox="0 0 576 512" overflow="visible"><use href="#fas-sun"></use></svg>
+
+
+
+
+
+
+                
+                        
+                        
+                        <svg class="svg-inline--fa fas fa-moon fa-fw" fill="currentColor" aria-hidden="true" role="img" viewBox="0 0 512 512" overflow="visible"><use href="#fas-moon"></use></svg>
+            <div class="ball"></div>
+        
+    </label>
+</li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</div>
+<main id="container" class="main">
+                
+
+    
+    
+    
+    
+    
+        <div class="container-xxl flex-fill py-4 px-4 px-xxl-0">
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3">
+                <div class="col col-lg-2 d-none d-lg-block sidebar-overflow sticky-top p-0">
+                    
+                </div>
+                <div class="col-12 col-md-9 col-lg-8 mb-5">
+                    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+    
+
+        
+    
+
+        
+    
+
+
+
+
+    <nav aria-label="breadcrumb" class="d-sm-none">
+        <ol class="breadcrumb">
+                <li class="breadcrumb-item">
+                    <a href="/posts/tax/">
+                        
+
+
+
+
+
+
+                
+                        
+                        
+                        <svg class="svg-inline--fa fas fa-angle-left " fill="currentColor" aria-hidden="true" role="img" viewBox="0 0 256 512" overflow="visible"><use href="#fas-angle-left"></use></svg>&nbsp;&nbsp;세금
+                    </a>
+                </li></ol>
+    </nav>
+
+    <nav aria-label="breadcrumb" class="d-none d-sm-block">
+        <ol class="breadcrumb">
+                
+                <li class="breadcrumb-item"><a href="/">Home</a></li>
+                
+                <li class="breadcrumb-item"><a href="/posts/">금융의 모든 지식!</a></li>
+                
+                <li class="breadcrumb-item"><a href="/posts/tax/">세금</a></li><li class="breadcrumb-item active" aria-current="page">
+                
+                
+                상속세와 증여세 차이
+            </li>
+        </ol>
+    </nav>
+
+<h1 id="상속세와-증여세-차이-세율은-같아도-세금이-달라지는-이유" class="display-4 pt-1">상속세와 증여세 차이, 세율은 같아도 세금이 달라지는 이유</h1>
+
+
+    <small class="text-body-secondary text-uppercase">
+            
+                Posted on 2026년 6월 9일
+            &bull;
+        
+            6&nbsp;min read
+            &bull;
+        1,275&nbsp;words
+    </small>
+
+<div class="mt-3">
+        <div class="d-none-dark">
+            <div class="hstack gap-1">
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+<a aria-label="상속세"
+        href="/tags/%EC%83%81%EC%86%8D%EC%84%B8/" class="btn btn-light btn-sm position-relative "
+        role="button"
+        >
+        <span class="d-flex justify-content-start">
+            <span class="my-auto">상속세</span>
+        </span></a>&nbsp;
+
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+<a aria-label="증여세"
+        href="/tags/%EC%A6%9D%EC%97%AC%EC%84%B8/" class="btn btn-light btn-sm position-relative "
+        role="button"
+        >
+        <span class="d-flex justify-content-start">
+            <span class="my-auto">증여세</span>
+        </span></a>&nbsp;
+
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+<a aria-label="상속세증여세차이"
+        href="/tags/%EC%83%81%EC%86%8D%EC%84%B8%EC%A6%9D%EC%97%AC%EC%84%B8%EC%B0%A8%EC%9D%B4/" class="btn btn-light btn-sm position-relative "
+        role="button"
+        >
+        <span class="d-flex justify-content-start">
+            <span class="my-auto">상속세증여세차이</span>
+        </span></a>&nbsp;
+
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+<a aria-label="증여재산공제"
+        href="/tags/%EC%A6%9D%EC%97%AC%EC%9E%AC%EC%82%B0%EA%B3%B5%EC%A0%9C/" class="btn btn-light btn-sm position-relative "
+        role="button"
+        >
+        <span class="d-flex justify-content-start">
+            <span class="my-auto">증여재산공제</span>
+        </span></a>&nbsp;
+
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+<a aria-label="상속공제"
+        href="/tags/%EC%83%81%EC%86%8D%EA%B3%B5%EC%A0%9C/" class="btn btn-light btn-sm position-relative "
+        role="button"
+        >
+        <span class="d-flex justify-content-start">
+            <span class="my-auto">상속공제</span>
+        </span></a>&nbsp;
+
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+<a aria-label="사전증여"
+        href="/tags/%EC%82%AC%EC%A0%84%EC%A6%9D%EC%97%AC/" class="btn btn-light btn-sm position-relative "
+        role="button"
+        >
+        <span class="d-flex justify-content-start">
+            <span class="my-auto">사전증여</span>
+        </span></a>&nbsp;
+
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+<a aria-label="세금"
+        href="/tags/%EC%84%B8%EA%B8%88/" class="btn btn-light btn-sm position-relative "
+        role="button"
+        >
+        <span class="d-flex justify-content-start">
+            <span class="my-auto">세금</span>
+        </span></a>&nbsp;
+
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+<a aria-label="절세"
+        href="/tags/%EC%A0%88%EC%84%B8/" class="btn btn-light btn-sm position-relative "
+        role="button"
+        >
+        <span class="d-flex justify-content-start">
+            <span class="my-auto">절세</span>
+        </span></a>&nbsp;
+
+                </div>
+        </div>
+        
+        <div class="d-none-light">
+            <div class="hstack gap-1">
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+<a aria-label="상속세"
+        href="/tags/%EC%83%81%EC%86%8D%EC%84%B8/" class="btn btn-outline-primary btn-sm position-relative "
+        role="button"
+        >
+        <span class="d-flex justify-content-start">
+            <span class="my-auto">상속세</span>
+        </span></a>&nbsp;
+
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+<a aria-label="증여세"
+        href="/tags/%EC%A6%9D%EC%97%AC%EC%84%B8/" class="btn btn-outline-primary btn-sm position-relative "
+        role="button"
+        >
+        <span class="d-flex justify-content-start">
+            <span class="my-auto">증여세</span>
+        </span></a>&nbsp;
+
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+<a aria-label="상속세증여세차이"
+        href="/tags/%EC%83%81%EC%86%8D%EC%84%B8%EC%A6%9D%EC%97%AC%EC%84%B8%EC%B0%A8%EC%9D%B4/" class="btn btn-outline-primary btn-sm position-relative "
+        role="button"
+        >
+        <span class="d-flex justify-content-start">
+            <span class="my-auto">상속세증여세차이</span>
+        </span></a>&nbsp;
+
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+<a aria-label="증여재산공제"
+        href="/tags/%EC%A6%9D%EC%97%AC%EC%9E%AC%EC%82%B0%EA%B3%B5%EC%A0%9C/" class="btn btn-outline-primary btn-sm position-relative "
+        role="button"
+        >
+        <span class="d-flex justify-content-start">
+            <span class="my-auto">증여재산공제</span>
+        </span></a>&nbsp;
+
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+<a aria-label="상속공제"
+        href="/tags/%EC%83%81%EC%86%8D%EA%B3%B5%EC%A0%9C/" class="btn btn-outline-primary btn-sm position-relative "
+        role="button"
+        >
+        <span class="d-flex justify-content-start">
+            <span class="my-auto">상속공제</span>
+        </span></a>&nbsp;
+
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+<a aria-label="사전증여"
+        href="/tags/%EC%82%AC%EC%A0%84%EC%A6%9D%EC%97%AC/" class="btn btn-outline-primary btn-sm position-relative "
+        role="button"
+        >
+        <span class="d-flex justify-content-start">
+            <span class="my-auto">사전증여</span>
+        </span></a>&nbsp;
+
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+<a aria-label="세금"
+        href="/tags/%EC%84%B8%EA%B8%88/" class="btn btn-outline-primary btn-sm position-relative "
+        role="button"
+        >
+        <span class="d-flex justify-content-start">
+            <span class="my-auto">세금</span>
+        </span></a>&nbsp;
+
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+<a aria-label="절세"
+        href="/tags/%EC%A0%88%EC%84%B8/" class="btn btn-outline-primary btn-sm position-relative "
+        role="button"
+        >
+        <span class="d-flex justify-content-start">
+            <span class="my-auto">절세</span>
+        </span></a>&nbsp;
+
+                </div>
+        </div>
+    </div>
+
+    <div class="lead text-muted py-4">상속세와 증여세의 차이를 발생 시점, 납세의무자, 계산 방식, 공제, 신고기한, 사전증여 전략 기준으로 초보자도 이해하기 쉽게 정리하였다.</div>
+
+
+<div class="d-md-none pb-5">
+
+
+
+
+
+
+
+
+
+    
+        <div class="d-grid gap-2 mx-auto">
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+<a aria-label="On this page"
+        href="#toc-collapse" class="btn btn-outline-secondary position-relative toc-button"
+         data-bs-toggle="collapse" aria-expanded="false" aria-controls="toc-collapse"role="button"
+        >
+        <span class="d-flex justify-content-between">
+            <span class="my-auto">On this page</span>
+                <span class="align-self-center ps-1">
+                    
+
+
+
+
+
+
+                
+                        
+                        
+                        <svg class="svg-inline--fa fas fa-sort " fill="currentColor" aria-hidden="true" role="img" viewBox="0 0 384 512" overflow="visible"><use href="#fas-sort"></use></svg>
+                </span>
+            
+        </span></a>
+</div>
+
+        <div class="collapse border bg-body-tertiary rounded p-1 navbar-nav-scroll" id="toc-collapse">
+            <small>
+                <div class="toc toc-panel text-body p-2">
+                        <a class="toc-item toc-level-1" href="/posts/inheritance-tax-vs-gift-tax/#상속세와-증여세의-핵심-차이">상속세와 증여세의 핵심 차이</a>
+                        <a class="toc-item toc-level-1" href="/posts/inheritance-tax-vs-gift-tax/#세율은-같지만-계산-방식이-다르다">세율은 같지만 계산 방식이 다르다</a>
+                        <a class="toc-item toc-level-1" href="/posts/inheritance-tax-vs-gift-tax/#공제-방식이-다르다">공제 방식이 다르다</a>
+                        <a class="toc-item toc-level-1" href="/posts/inheritance-tax-vs-gift-tax/#신고기한도-다르다">신고기한도 다르다</a>
+                        <a class="toc-item toc-level-1" href="/posts/inheritance-tax-vs-gift-tax/#상속과-증여-중-무엇이-유리할까">상속과 증여 중 무엇이 유리할까</a>
+                        <a class="toc-item toc-level-2" href="/posts/inheritance-tax-vs-gift-tax/#상속이-유리할-수-있는-경우">상속이 유리할 수 있는 경우</a>
+                        <a class="toc-item toc-level-2" href="/posts/inheritance-tax-vs-gift-tax/#증여가-유리할-수-있는-경우">증여가 유리할 수 있는 경우</a>
+                        <a class="toc-item toc-level-2" href="/posts/inheritance-tax-vs-gift-tax/#사전증여는-상속세와-연결된다">사전증여는 상속세와 연결된다</a>
+                        <a class="toc-item toc-level-1" href="/posts/inheritance-tax-vs-gift-tax/#실수하기-쉬운-포인트">실수하기 쉬운 포인트</a>
+                        <a class="toc-item toc-level-1" href="/posts/inheritance-tax-vs-gift-tax/#정리">정리</a>
+                        <a class="toc-item toc-level-1" href="/posts/inheritance-tax-vs-gift-tax/#자주-묻는-질문">자주 묻는 질문</a>
+                        <a class="toc-item toc-level-2" href="/posts/inheritance-tax-vs-gift-tax/#상속세와-증여세-세율은-같은가">상속세와 증여세 세율은 같은가?</a>
+                        <a class="toc-item toc-level-2" href="/posts/inheritance-tax-vs-gift-tax/#부모가-자녀에게-생활비를-주면-증여세가-나오나">부모가 자녀에게 생활비를 주면 증여세가 나오나?</a>
+                        <a class="toc-item toc-level-2" href="/posts/inheritance-tax-vs-gift-tax/#상속-전에-미리-증여하면-무조건-절세가-되나">상속 전에 미리 증여하면 무조건 절세가 되나?</a>
+                        <a class="toc-item toc-level-2" href="/posts/inheritance-tax-vs-gift-tax/#증여세는-누가-내야-하나">증여세는 누가 내야 하나?</a>
+                        <a class="toc-item toc-level-2" href="/posts/inheritance-tax-vs-gift-tax/#상속세-신고기한과-증여세-신고기한은-어떻게-다른가">상속세 신고기한과 증여세 신고기한은 어떻게 다른가?</a>
+                </div>
+            </small>
+        </div>
+</div>
+
+                    
+
+
+
+<div class="img-wrap mb-5"><img class="img-fluid rounded"
+            src="/posts/tax/tax-2800x1200.png"
+             fetchpriority="high" srcset="/posts/tax/tax-576x247.webp 576w, /posts/tax/tax-768x329.webp 768w, /posts/tax/tax-992x425.webp 992w, /posts/tax/tax-1200x514.webp 1200w, /posts/tax/tax-1400x600.webp 1400w, /posts/tax/tax-2800x1200.webp 2800w" sizes="100vw" height="1200" width="2800" alt="상속세와 증여세 차이, 세율은 같아도 세금이 달라지는 이유"></div><p>상속세와 증여세는 모두 재산을 무상으로 넘겨받을 때 생기는 세금이다. 그래서 둘을 비슷하게 생각하기 쉽다. 부모가 자녀에게 재산을 넘겨준다는 점에서는 같아 보이기 때문이다.</p>
+<p>하지만 세금 계산에서는 차이가 크다. 상속세는 사람이 사망한 뒤 남긴 재산에 붙는 세금이고, 증여세는 살아 있을 때 재산을 넘겨줄 때 붙는 세금이다. 발생 시점이 다르고, 세금을 계산하는 단위도 다르며, 공제 방식과 신고기한도 다르다.</p>
+<p>특히 부동산, 예금, 주식, 보험금처럼 자산이 여러 종류로 나뉘어 있다면 &ldquo;상속이 나을까, 미리 증여가 나을까&quot;라는 고민이 생긴다. 이 글에서는 상속세와 증여세의 차이를 초보자 기준으로 정리하였다.</p>
+<hr>
+
+
+
+
+
+
+
+
+
+
+
+
+<h2 id="상속세와-증여세의-핵심-차이" class="heading">상속세와 증여세의 핵심 차이<a href="#%ec%83%81%ec%86%8d%ec%84%b8%ec%99%80-%ec%a6%9d%ec%97%ac%ec%84%b8%ec%9d%98-%ed%95%b5%ec%8b%ac-%ec%b0%a8%ec%9d%b4" aria-labelledby="상속세와-증여세의-핵심-차이">
+
+
+
+
+
+
+                
+                        
+                        
+                        <svg class="svg-inline--fa fas fa-link anchor" fill="currentColor" aria-hidden="true" role="img" viewBox="0 0 576 512" overflow="visible"><use href="#fas-link"></use></svg>&nbsp;
+    </a>
+</h2>
+
+<p>상속세와 증여세의 가장 큰 차이는 재산이 넘어가는 시점이다.</p>
+<p>상속세는 재산을 가진 사람이 사망하면서 상속인에게 재산이 이전될 때 발생한다. 사망한 사람을 피상속인, 재산을 받는 사람을 상속인이라고 한다.</p>
+<p>증여세는 재산을 가진 사람이 살아 있을 때 다른 사람에게 재산을 무상으로 넘길 때 발생한다. 재산을 주는 사람을 증여자, 받는 사람을 수증자라고 한다.</p>
+
+
+
+
+
+
+    
+
+
+
+
+
+
+<table class="table">
+  <thead>
+    
+      
+      <tr>
+          <th >구분</th>
+          <th >상속세</th>
+          <th >증여세</th>
+      </tr>
+    
+  </thead>
+  <tbody>
+    
+      
+        <tr>
+            <td >발생 시점</td>
+            <td >사망 후 재산 이전</td>
+            <td >생전에 재산 이전</td>
+        </tr>
+      
+    
+      
+        <tr>
+            <td >재산을 주는 사람</td>
+            <td >피상속인</td>
+            <td >증여자</td>
+        </tr>
+      
+    
+      
+        <tr>
+            <td >재산을 받는 사람</td>
+            <td >상속인, 수유자</td>
+            <td >수증자</td>
+        </tr>
+      
+    
+      
+        <tr>
+            <td >세금 부담자</td>
+            <td >상속인 등이 상속받은 재산 한도 내 부담</td>
+            <td >재산을 받은 수증자</td>
+        </tr>
+      
+    
+      
+        <tr>
+            <td >계산 관점</td>
+            <td >사망자가 남긴 전체 재산 중심</td>
+            <td >받은 사람별 증여재산 중심</td>
+        </tr>
+      
+    
+      
+        <tr>
+            <td >신고기한</td>
+            <td >상속개시일이 속하는 달의 말일부터 6개월 이내</td>
+            <td >증여받은 날이 속하는 달의 말일부터 3개월 이내</td>
+        </tr>
+      
+  </tbody>
+</table><p>쉽게 말하면 상속세는 &ldquo;돌아가신 분이 남긴 재산 전체&quot;를 먼저 보고, 증여세는 &ldquo;누가 얼마를 받았는지&quot;를 중심으로 본다.</p>
+<p>이 차이 때문에 같은 재산을 가족에게 넘기더라도 세금 결과가 달라질 수 있다.</p>
+<hr>
+
+
+
+
+
+
+
+
+
+
+
+
+<h2 id="세율은-같지만-계산-방식이-다르다" class="heading">세율은 같지만 계산 방식이 다르다<a href="#%ec%84%b8%ec%9c%a8%ec%9d%80-%ea%b0%99%ec%a7%80%eb%a7%8c-%ea%b3%84%ec%82%b0-%eb%b0%a9%ec%8b%9d%ec%9d%b4-%eb%8b%a4%eb%a5%b4%eb%8b%a4" aria-labelledby="세율은-같지만-계산-방식이-다르다">
+
+
+
+
+
+
+                
+                        
+                        
+                        <svg class="svg-inline--fa fas fa-link anchor" fill="currentColor" aria-hidden="true" role="img" viewBox="0 0 576 512" overflow="visible"><use href="#fas-link"></use></svg>&nbsp;
+    </a>
+</h2>
+
+<p>상속세와 증여세는 기본 세율 구조가 같다. 과세표준에 따라 10%부터 50%까지 누진세율이 적용된다.</p>
+
+
+
+
+
+
+    
+
+
+
+
+
+
+<table class="table">
+  <thead>
+    
+      
+      <tr>
+          <th class="text-end">과세표준</th>
+          <th class="text-end">세율</th>
+          <th class="text-end">누진공제</th>
+      </tr>
+    
+  </thead>
+  <tbody>
+    
+      
+        <tr>
+            <td class="text-end">1억 원 이하</td>
+            <td class="text-end">10%</td>
+            <td class="text-end">없음</td>
+        </tr>
+      
+    
+      
+        <tr>
+            <td class="text-end">1억 원 초과 5억 원 이하</td>
+            <td class="text-end">20%</td>
+            <td class="text-end">1,000만 원</td>
+        </tr>
+      
+    
+      
+        <tr>
+            <td class="text-end">5억 원 초과 10억 원 이하</td>
+            <td class="text-end">30%</td>
+            <td class="text-end">6,000만 원</td>
+        </tr>
+      
+    
+      
+        <tr>
+            <td class="text-end">10억 원 초과 30억 원 이하</td>
+            <td class="text-end">40%</td>
+            <td class="text-end">1억 6,000만 원</td>
+        </tr>
+      
+    
+      
+        <tr>
+            <td class="text-end">30억 원 초과</td>
+            <td class="text-end">50%</td>
+            <td class="text-end">4억 6,000만 원</td>
+        </tr>
+      
+  </tbody>
+</table><p>겉으로 보면 세율이 같으니 상속이든 증여든 비슷해 보인다. 하지만 실제 세금은 공제와 계산 단위 때문에 달라진다.</p>
+<p>상속세는 사망자가 남긴 상속재산 전체를 기준으로 계산한다. 여기서 채무, 공과금, 장례비용 등을 빼고, 상속공제를 적용한 뒤 과세표준을 구한다. 상속재산이 크면 누진세율의 높은 구간에 들어갈 가능성이 커진다.</p>
+<p>증여세는 수증자가 증여받은 재산을 기준으로 계산한다. 같은 사람이 같은 증여자로부터 10년 안에 받은 금액은 합산하지만, 생전에 여러 사람에게 나누어 증여하면 각 수증자별로 공제와 세율 적용이 달라질 수 있다.</p>
+<p>예를 들어 부모가 자녀 1명에게 5억 원을 한 번에 증여하는 경우와, 여러 자녀에게 나누어 증여하는 경우는 세금 계산 결과가 달라질 수 있다. 다만 단순히 나누기만 한다고 항상 절세가 되는 것은 아니다. 증여재산공제, 10년 합산, 세대생략 할증, 자금출처까지 함께 봐야 한다.</p>
+<hr>
+
+
+
+
+
+
+
+
+
+
+
+
+<h2 id="공제-방식이-다르다" class="heading">공제 방식이 다르다<a href="#%ea%b3%b5%ec%a0%9c-%eb%b0%a9%ec%8b%9d%ec%9d%b4-%eb%8b%a4%eb%a5%b4%eb%8b%a4" aria-labelledby="공제-방식이-다르다">
+
+
+
+
+
+
+                
+                        
+                        
+                        <svg class="svg-inline--fa fas fa-link anchor" fill="currentColor" aria-hidden="true" role="img" viewBox="0 0 576 512" overflow="visible"><use href="#fas-link"></use></svg>&nbsp;
+    </a>
+</h2>
+
+<p>상속세와 증여세는 공제 구조도 다르다. 공제는 세금을 계산하기 전에 일정 금액을 빼주는 장치다. 공제가 클수록 과세표준이 줄어들고, 세금 부담도 줄어든다.</p>
+<p>상속세는 상속공제가 중요하다. 대표적으로 기초공제, 인적공제, 일괄공제, 배우자 상속공제, 금융재산 상속공제 등이 있다. 일반적인 가족 상속에서는 일괄공제 5억 원과 배우자 상속공제가 자주 거론된다.</p>
+<p>증여세는 증여재산공제가 중요하다. 국세청 기준으로 수증자가 거주자이고 기본세율이 적용되는 증여재산인 경우, 가족 관계에 따라 10년간 아래 공제 한도가 적용된다.</p>
+
+
+
+
+
+
+    
+
+
+
+
+
+
+<table class="table">
+  <thead>
+    
+      
+      <tr>
+          <th >증여자와 수증자 관계</th>
+          <th class="text-end">증여재산공제 한도</th>
+      </tr>
+    
+  </thead>
+  <tbody>
+    
+      
+        <tr>
+            <td >배우자</td>
+            <td class="text-end">6억 원</td>
+        </tr>
+      
+    
+      
+        <tr>
+            <td >직계존속이 성인 자녀에게 증여</td>
+            <td class="text-end">5,000만 원</td>
+        </tr>
+      
+    
+      
+        <tr>
+            <td >직계존속이 미성년 자녀에게 증여</td>
+            <td class="text-end">2,000만 원</td>
+        </tr>
+      
+    
+      
+        <tr>
+            <td >직계비속이 부모 등 직계존속에게 증여</td>
+            <td class="text-end">5,000만 원</td>
+        </tr>
+      
+    
+      
+        <tr>
+            <td >기타 친족</td>
+            <td class="text-end">1,000만 원</td>
+        </tr>
+      
+    
+      
+        <tr>
+            <td >기타</td>
+            <td class="text-end">없음</td>
+        </tr>
+      
+  </tbody>
+</table><p>증여재산공제는 &ldquo;10년간의 누계한도&quot;라는 점이 중요하다. 부모가 성인 자녀에게 올해 5,000만 원을 주고 내년에 또 5,000만 원을 준다고 해서 모두 공제되는 것이 아니다. 10년 안에 같은 그룹에서 받은 금액을 합산한다.</p>
+<p>증여세 면제한도는 별도 글에서도 정리하였다.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+<a aria-label="증여세 면제한도 가족별 기준 보기"
+        href="/posts/gift-tax-exemption-limit/" class="btn btn-outline-dark position-relative col-12"
+        role="button"
+        >
+        <span class="d-flex justify-content-center">
+            <span class="my-auto">증여세 면제한도 가족별 기준 보기</span>
+        </span></a>&nbsp;
+
+
+<hr>
+
+
+
+
+
+
+
+
+
+
+
+
+<h2 id="신고기한도-다르다" class="heading">신고기한도 다르다<a href="#%ec%8b%a0%ea%b3%a0%ea%b8%b0%ed%95%9c%eb%8f%84-%eb%8b%a4%eb%a5%b4%eb%8b%a4" aria-labelledby="신고기한도-다르다">
+
+
+
+
+
+
+                
+                        
+                        
+                        <svg class="svg-inline--fa fas fa-link anchor" fill="currentColor" aria-hidden="true" role="img" viewBox="0 0 576 512" overflow="visible"><use href="#fas-link"></use></svg>&nbsp;
+    </a>
+</h2>
+
+<p>상속세와 증여세는 신고기한이 다르다. 이 차이를 놓치면 가산세 문제가 생길 수 있다.</p>
+<p>상속세는 상속개시일이 속하는 달의 말일부터 6개월 이내에 신고해야 한다. 상속개시일은 보통 사망일을 의미한다. 예를 들어 2026년 6월 10일에 상속이 개시되었다면, 2026년 6월 말일부터 6개월 이내가 기본 신고기한 계산의 출발점이 된다. 피상속인이나 상속인 전원이 비거주자인 경우에는 9개월 이내 기준이 적용될 수 있다.</p>
+<p>증여세는 증여받은 날이 속하는 달의 말일부터 3개월 이내에 신고해야 한다. 예를 들어 2026년 6월 10일에 현금을 증여받았다면, 2026년 6월 말일부터 3개월 이내에 신고기한을 계산한다.</p>
+<p>기한 내 신고하면 신고세액공제 3%를 받을 수 있다. 반대로 신고하지 않거나 과소신고하면 무신고가산세, 과소신고가산세, 납부지연가산세가 붙을 수 있다.</p>
+<p>세금은 &ldquo;나중에 걸리면 내면 되지&quot;라고 생각하기 어렵다. 부동산 취득, 예금 증가, 주식 매수, 전세자금 마련 과정에서 자금 출처가 확인될 수 있기 때문이다. 증여나 상속이 있었다면 신고 대상인지 먼저 확인하는 편이 낫다.</p>
+<hr>
+
+
+
+
+
+
+
+
+
+
+
+
+<h2 id="상속과-증여-중-무엇이-유리할까" class="heading">상속과 증여 중 무엇이 유리할까<a href="#%ec%83%81%ec%86%8d%ea%b3%bc-%ec%a6%9d%ec%97%ac-%ec%a4%91-%eb%ac%b4%ec%97%87%ec%9d%b4-%ec%9c%a0%eb%a6%ac%ed%95%a0%ea%b9%8c" aria-labelledby="상속과-증여-중-무엇이-유리할까">
+
+
+
+
+
+
+                
+                        
+                        
+                        <svg class="svg-inline--fa fas fa-link anchor" fill="currentColor" aria-hidden="true" role="img" viewBox="0 0 576 512" overflow="visible"><use href="#fas-link"></use></svg>&nbsp;
+    </a>
+</h2>
+
+<p>상속세와 증여세 중 무엇이 무조건 유리하다고 말하기는 어렵다. 재산 규모, 가족 구성, 배우자 유무, 자녀 수, 재산 종류, 부동산 가격 상승 가능성, 사전증여 시점에 따라 달라진다.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+<h3 id="상속이-유리할-수-있는-경우" class="heading">상속이 유리할 수 있는 경우<a href="#%ec%83%81%ec%86%8d%ec%9d%b4-%ec%9c%a0%eb%a6%ac%ed%95%a0-%ec%88%98-%ec%9e%88%eb%8a%94-%ea%b2%bd%ec%9a%b0" aria-labelledby="상속이-유리할-수-있는-경우">
+
+
+
+
+
+
+                
+                        
+                        
+                        <svg class="svg-inline--fa fas fa-link anchor" fill="currentColor" aria-hidden="true" role="img" viewBox="0 0 576 512" overflow="visible"><use href="#fas-link"></use></svg>&nbsp;
+    </a>
+</h3>
+
+<p>상속재산이 크지 않고, 상속공제를 적용하면 실제 과세표준이 크지 않은 경우에는 굳이 무리해서 사전증여를 할 필요가 없을 수 있다.</p>
+<p>예를 들어 상속재산이 대부분 주거용 부동산이고 배우자와 자녀가 함께 상속받는 구조라면 상속공제와 배우자 상속공제가 중요하게 작용할 수 있다. 이 경우에는 생전에 증여하면서 취득세, 증여세, 양도소득세 이월과세 문제를 만들기보다 상속 구조를 먼저 검토하는 편이 나을 수 있다.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+<h3 id="증여가-유리할-수-있는-경우" class="heading">증여가 유리할 수 있는 경우<a href="#%ec%a6%9d%ec%97%ac%ea%b0%80-%ec%9c%a0%eb%a6%ac%ed%95%a0-%ec%88%98-%ec%9e%88%eb%8a%94-%ea%b2%bd%ec%9a%b0" aria-labelledby="증여가-유리할-수-있는-경우">
+
+
+
+
+
+
+                
+                        
+                        
+                        <svg class="svg-inline--fa fas fa-link anchor" fill="currentColor" aria-hidden="true" role="img" viewBox="0 0 576 512" overflow="visible"><use href="#fas-link"></use></svg>&nbsp;
+    </a>
+</h3>
+
+<p>재산이 앞으로 크게 오를 가능성이 있거나, 자녀에게 미리 자금 계획을 세워줘야 한다면 증여를 검토할 수 있다.</p>
+<p>예를 들어 부모가 자녀에게 전세자금이나 주택 구입자금 일부를 지원하려는 경우, 증여재산공제 한도 안에서 계획적으로 증여하면 세금 부담을 줄일 수 있다. 또 장기간에 걸쳐 10년 단위 공제를 활용하면 한 번에 큰 재산이 상속되는 것보다 세금 부담을 분산할 수 있다.</p>
+<p>다만 부동산 증여는 단순하지 않다. 증여세뿐 아니라 취득세, 향후 양도소득세, 이월과세, 부담부증여의 채무 인수 문제까지 같이 봐야 한다.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+<h3 id="사전증여는-상속세와-연결된다" class="heading">사전증여는 상속세와 연결된다<a href="#%ec%82%ac%ec%a0%84%ec%a6%9d%ec%97%ac%eb%8a%94-%ec%83%81%ec%86%8d%ec%84%b8%ec%99%80-%ec%97%b0%ea%b2%b0%eb%90%9c%eb%8b%a4" aria-labelledby="사전증여는-상속세와-연결된다">
+
+
+
+
+
+
+                
+                        
+                        
+                        <svg class="svg-inline--fa fas fa-link anchor" fill="currentColor" aria-hidden="true" role="img" viewBox="0 0 576 512" overflow="visible"><use href="#fas-link"></use></svg>&nbsp;
+    </a>
+</h3>
+
+<p>생전에 증여했다고 해서 상속세와 완전히 분리되는 것은 아니다. 상속개시 전 일정 기간 안의 사전증여재산은 상속세 계산에 합산될 수 있다.</p>
+<p>일반적으로 상속인에게 한 사전증여는 상속개시 전 10년 이내, 상속인이 아닌 사람에게 한 사전증여는 5년 이내 증여분이 상속세 계산에 영향을 줄 수 있다. 따라서 상속세를 줄이려고 급하게 증여했는데, 얼마 지나지 않아 상속이 발생하면 기대한 절세 효과가 줄어들 수 있다.</p>
+<p>결국 상속과 증여는 따로 보는 것이 아니라, 가족 전체의 자산 이전 계획으로 같이 봐야 한다.</p>
+<hr>
+
+
+
+
+
+
+
+
+
+
+
+
+<h2 id="실수하기-쉬운-포인트" class="heading">실수하기 쉬운 포인트<a href="#%ec%8b%a4%ec%88%98%ed%95%98%ea%b8%b0-%ec%89%ac%ec%9a%b4-%ed%8f%ac%ec%9d%b8%ed%8a%b8" aria-labelledby="실수하기-쉬운-포인트">
+
+
+
+
+
+
+                
+                        
+                        
+                        <svg class="svg-inline--fa fas fa-link anchor" fill="currentColor" aria-hidden="true" role="img" viewBox="0 0 576 512" overflow="visible"><use href="#fas-link"></use></svg>&nbsp;
+    </a>
+</h2>
+
+<p>상속세와 증여세에서 자주 생기는 실수는 몇 가지로 정리된다.</p>
+<p>첫째, 가족끼리 주고받은 돈은 세금이 없다고 생각하는 것이다. 생활비나 교육비처럼 사회통념상 인정되는 지출은 비과세가 될 수 있지만, 목돈이 예금이나 부동산 취득자금으로 남으면 증여로 볼 수 있다.</p>
+<p>둘째, 증여재산공제를 매년 새로 받는다고 오해하는 것이다. 배우자 6억 원, 성인 자녀 5,000만 원 같은 공제는 대부분 10년 합산 기준이다.</p>
+<p>셋째, 세율표만 보고 세금을 단순 계산하는 것이다. 실제 세금은 공제, 채무, 사전증여, 감정평가, 신고세액공제, 가산세 여부에 따라 달라진다.</p>
+<p>넷째, 신고기한을 놓치는 것이다. 상속세는 6개월, 증여세는 3개월이라는 차이를 기억해야 한다. 기한 내 신고하면 신고세액공제 3%를 받을 수 있지만, 늦으면 가산세 부담이 생길 수 있다.</p>
+<p>다섯째, 부동산 증여를 증여세만 보고 결정하는 것이다. 부동산은 취득세와 양도소득세까지 함께 봐야 한다. 특히 배우자나 직계존비속에게 증여한 뒤 단기간 내 양도하는 경우에는 이월과세 문제가 생길 수 있다.</p>
+<hr>
+
+
+
+
+
+
+
+
+
+
+
+
+<h2 id="정리" class="heading">정리<a href="#%ec%a0%95%eb%a6%ac" aria-labelledby="정리">
+
+
+
+
+
+
+                
+                        
+                        
+                        <svg class="svg-inline--fa fas fa-link anchor" fill="currentColor" aria-hidden="true" role="img" viewBox="0 0 576 512" overflow="visible"><use href="#fas-link"></use></svg>&nbsp;
+    </a>
+</h2>
+
+<p>상속세와 증여세는 모두 재산을 무상으로 넘겨받을 때 생기는 세금이지만 구조가 다르다. 상속세는 사망 후 남긴 재산 전체를 중심으로 계산하고, 증여세는 생전에 받은 사람별 증여재산을 중심으로 계산한다.</p>
+<p>세율은 10%부터 50%까지 같은 구조지만, 공제 방식과 신고기한이 다르기 때문에 실제 세금은 달라질 수 있다. 상속세는 상속개시일이 속하는 달의 말일부터 6개월 이내, 증여세는 증여받은 날이 속하는 달의 말일부터 3개월 이내 신고가 기본이다.</p>
+<p>상속이 유리한지 증여가 유리한지는 재산 규모와 가족 상황에 따라 달라진다. 단순히 &ldquo;미리 주면 무조건 절세&quot;라고 판단하기보다, 공제 한도, 사전증여 합산, 취득세, 양도소득세까지 함께 계산해야 한다.</p>
+<p>재산 이전 금액이 크거나 부동산이 포함되어 있다면 신고 전에 세무 전문가와 숫자로 계산해 보는 편이 안전하다.</p>
+<hr>
+
+
+
+
+
+
+
+
+
+
+
+
+<h2 id="자주-묻는-질문" class="heading">자주 묻는 질문<a href="#%ec%9e%90%ec%a3%bc-%eb%ac%bb%eb%8a%94-%ec%a7%88%eb%ac%b8" aria-labelledby="자주-묻는-질문">
+
+
+
+
+
+
+                
+                        
+                        
+                        <svg class="svg-inline--fa fas fa-link anchor" fill="currentColor" aria-hidden="true" role="img" viewBox="0 0 576 512" overflow="visible"><use href="#fas-link"></use></svg>&nbsp;
+    </a>
+</h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h3 id="상속세와-증여세-세율은-같은가" class="heading">상속세와 증여세 세율은 같은가?<a href="#%ec%83%81%ec%86%8d%ec%84%b8%ec%99%80-%ec%a6%9d%ec%97%ac%ec%84%b8-%ec%84%b8%ec%9c%a8%ec%9d%80-%ea%b0%99%ec%9d%80%ea%b0%80" aria-labelledby="상속세와-증여세-세율은-같은가">
+
+
+
+
+
+
+                
+                        
+                        
+                        <svg class="svg-inline--fa fas fa-link anchor" fill="currentColor" aria-hidden="true" role="img" viewBox="0 0 576 512" overflow="visible"><use href="#fas-link"></use></svg>&nbsp;
+    </a>
+</h3>
+
+<p>기본 세율 구조는 같다. 과세표준에 따라 1억 원 이하는 10%, 30억 원 초과는 50%까지 적용된다. 다만 공제와 계산 방식이 달라 실제 세금은 달라질 수 있다.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+<h3 id="부모가-자녀에게-생활비를-주면-증여세가-나오나" class="heading">부모가 자녀에게 생활비를 주면 증여세가 나오나?<a href="#%eb%b6%80%eb%aa%a8%ea%b0%80-%ec%9e%90%eb%85%80%ec%97%90%ea%b2%8c-%ec%83%9d%ed%99%9c%eb%b9%84%eb%a5%bc-%ec%a3%bc%eb%a9%b4-%ec%a6%9d%ec%97%ac%ec%84%b8%ea%b0%80-%eb%82%98%ec%98%a4%eb%82%98" aria-labelledby="부모가-자녀에게-생활비를-주면-증여세가-나오나">
+
+
+
+
+
+
+                
+                        
+                        
+                        <svg class="svg-inline--fa fas fa-link anchor" fill="currentColor" aria-hidden="true" role="img" viewBox="0 0 576 512" overflow="visible"><use href="#fas-link"></use></svg>&nbsp;
+    </a>
+</h3>
+
+<p>사회통념상 인정되는 생활비나 교육비는 비과세로 볼 수 있다. 하지만 받은 돈을 쓰지 않고 예금하거나 부동산, 주식 취득자금으로 사용하면 증여로 볼 수 있다.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+<h3 id="상속-전에-미리-증여하면-무조건-절세가-되나" class="heading">상속 전에 미리 증여하면 무조건 절세가 되나?<a href="#%ec%83%81%ec%86%8d-%ec%a0%84%ec%97%90-%eb%af%b8%eb%a6%ac-%ec%a6%9d%ec%97%ac%ed%95%98%eb%a9%b4-%eb%ac%b4%ec%a1%b0%ea%b1%b4-%ec%a0%88%ec%84%b8%ea%b0%80-%eb%90%98%eb%82%98" aria-labelledby="상속-전에-미리-증여하면-무조건-절세가-되나">
+
+
+
+
+
+
+                
+                        
+                        
+                        <svg class="svg-inline--fa fas fa-link anchor" fill="currentColor" aria-hidden="true" role="img" viewBox="0 0 576 512" overflow="visible"><use href="#fas-link"></use></svg>&nbsp;
+    </a>
+</h3>
+
+<p>무조건 그렇지는 않다. 상속개시 전 일정 기간 안의 사전증여재산은 상속세 계산에 합산될 수 있고, 부동산 증여는 취득세와 양도소득세 문제도 함께 생길 수 있다.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+<h3 id="증여세는-누가-내야-하나" class="heading">증여세는 누가 내야 하나?<a href="#%ec%a6%9d%ec%97%ac%ec%84%b8%eb%8a%94-%eb%88%84%ea%b0%80-%eb%82%b4%ec%95%bc-%ed%95%98%eb%82%98" aria-labelledby="증여세는-누가-내야-하나">
+
+
+
+
+
+
+                
+                        
+                        
+                        <svg class="svg-inline--fa fas fa-link anchor" fill="currentColor" aria-hidden="true" role="img" viewBox="0 0 576 512" overflow="visible"><use href="#fas-link"></use></svg>&nbsp;
+    </a>
+</h3>
+
+<p>원칙적으로 증여세는 재산을 받은 사람, 즉 수증자가 낸다. 부모가 자녀에게 돈을 주었다면 자녀가 증여세 납세의무자가 된다.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+<h3 id="상속세-신고기한과-증여세-신고기한은-어떻게-다른가" class="heading">상속세 신고기한과 증여세 신고기한은 어떻게 다른가?<a href="#%ec%83%81%ec%86%8d%ec%84%b8-%ec%8b%a0%ea%b3%a0%ea%b8%b0%ed%95%9c%ea%b3%bc-%ec%a6%9d%ec%97%ac%ec%84%b8-%ec%8b%a0%ea%b3%a0%ea%b8%b0%ed%95%9c%ec%9d%80-%ec%96%b4%eb%96%bb%ea%b2%8c-%eb%8b%a4%eb%a5%b8%ea%b0%80" aria-labelledby="상속세-신고기한과-증여세-신고기한은-어떻게-다른가">
+
+
+
+
+
+
+                
+                        
+                        
+                        <svg class="svg-inline--fa fas fa-link anchor" fill="currentColor" aria-hidden="true" role="img" viewBox="0 0 576 512" overflow="visible"><use href="#fas-link"></use></svg>&nbsp;
+    </a>
+</h3>
+
+<p>상속세는 상속개시일이 속하는 달의 말일부터 6개월 이내가 기본이다. 증여세는 증여받은 날이 속하는 달의 말일부터 3개월 이내에 신고해야 한다.</p>
+
+
+                    
+                    
+<div class="row row-cols-2 mt-5 mb-3">
+    <div class="col">
+        </div>
+    <div class="col text-end">
+        <a class="previous" href="/posts/corporate-tax/">
+                    법인세&nbsp;
+
+
+
+
+
+
+                
+                        
+                        
+                        <svg class="svg-inline--fa fas fa-arrow-right " fill="currentColor" aria-hidden="true" role="img" viewBox="0 0 512 512" overflow="visible"><use href="#fas-arrow-right"></use></svg>
+                </a></div>
+</div>
+
+<div class="row row-cols-2 mt-5">
+    <div class="col">
+        <strong>최근 게시글</strong>
+    </div>
+    <div class="col text-end">
+        <a class="previous" href="/posts/tax/">
+            전체보기
+
+
+
+
+
+
+                
+                        
+                        
+                        <svg class="svg-inline--fa fas fa-angles-right " fill="currentColor" aria-hidden="true" role="img" viewBox="0 0 448 512" overflow="visible"><use href="#fas-angles-right"></use></svg>
+        </a>
+    </div>
+</div>
+<hr>
+
+    
+    <p>
+        <a href="/posts/inheritance-tax-vs-gift-tax/">
+            <p class="h6">상속세와 증여세 차이, 세율은 같아도 세금이 달라지는 이유</p>
+            <p>상속세와 증여세의 차이를 발생 시점, 납세의무자, 계산 방식, 공제, 신고기한, 사전증여 전략 기준으로 초보자도 이해하기 쉽게 정리하였다.</p>
+        </a>
+        
+    </p>
+    <hr>
+    
+
+    
+    <p>
+        <a href="/posts/corporate-tax/">
+            <p class="h6">법인세 뜻과 신고기한, 2026년 이후 세율과 계산 흐름 쉽게 정리</p>
+            <p>법인세의 뜻과 납부 대상, 12월 결산법인 신고기한, 2026년 이후 법인세율, 과세표준과 세무조정 계산 흐름을 초보자도 이해하기 쉽게 정리하였다.</p>
+        </a>
+        
+    </p>
+    <hr>
+    
+
+    
+    <p>
+        <a href="/posts/freelancer-withholding-tax-refund/">
+            <p class="h6">프리랜서 3.3% 원천징수와 환급, 종합소득세 신고 전 꼭 알아야 할 기준</p>
+            <p>프리랜서가 받는 3.3% 원천징수의 의미, 실수령액 계산법, 종합소득세 신고와 환급 기준, 필요경비와 증빙 관리 방법을 쉽게 정리하였다.</p>
+        </a>
+        
+    </p>
+    <hr>
+    
+
+    
+    <p>
+        <a href="/posts/gift-tax-exemption-limit/">
+            <p class="h6">증여세 면제한도 가족별 정리, 배우자·자녀·부모·형제자매 공제 기준</p>
+            <p>증여세 면제한도를 배우자, 성인 자녀, 미성년 자녀, 부모, 조부모, 형제자매, 사위·며느리 등 가족별로 10년 합산 기준으로 정리했다.</p>
+        </a>
+        
+    </p>
+    <hr>
+    
+
+    
+    <p>
+        <a href="/posts/year-end-tax-dependent-deduction/">
+            <p class="h6">연말정산 부양가족 공제 기준과 신청 방법, 나이·소득 요건 쉽게 정리</p>
+            <p>연말정산 부양가족 공제의 기본공제 150만 원, 관계 요건, 나이 요건, 소득 요건, 추가공제와 홈택스 신청 방법을 쉽게 정리했다.</p>
+        </a>
+        
+    </p>
+    <hr>
+    
+
+    
+    <p>
+        <a href="/posts/year-end-tax-monthly-rent-credit/">
+            <p class="h6">연말정산 월세 세액공제 조건과 서류, 월세 소득공제 차이 쉽게 정리</p>
+            <p>연말정산 월세 세액공제 조건, 공제율과 한도, 필요 서류, 집주인 동의 여부, 월세 소득공제와의 차이를 초보자도 이해하기 쉽게 정리했다.</p>
+        </a>
+        
+    </p>
+    <hr>
+    
+
+    
+    <p>
+        <a href="/posts/jeonse-loan-year-end-tax-deduction/">
+            <p class="h6">전세대출 연말정산 소득공제 조건, 한도, 신청방법 쉽게 정리</p>
+            <p>전세대출 연말정산 소득공제의 대상자, 주택 요건, 공제율과 한도, 금융기관 대출 조건, 월세 세액공제와의 차이, 신청 서류를 정리했다.</p>
+        </a>
+        
+    </p>
+    <hr>
+    
+
+    
+    <p>
+        <a href="/posts/family-card-year-end-tax/">
+            <p class="h6">가족카드 연말정산 소득공제 누가 받을까? 발급 방법과 혜택까지 정리</p>
+            <p>가족카드 사용액의 연말정산 소득공제를 누가 받는지, 본인회원과 가족회원 차이, 발급 방법, 혜택과 주의점을 쉽게 정리했다.</p>
+        </a>
+        
+    </p>
+    <hr>
+    
+
+    
+    <p>
+        <a href="/posts/year-end-tax-insurance-premium-deduction/">
+            <p class="h6">연말정산 보험료 공제 쉽게 정리, 보장성보험·연금저축보험·실손보험 처리 방법</p>
+            <p>연말정산 보험료 공제에서 보장성보험과 연금저축보험 공제 한도, 공제율, 부양가족 요건, 실손보험금 처리 방법을 쉽게 정리했다.</p>
+        </a>
+        
+    </p>
+    <hr>
+    
+
+    
+    <p>
+        <a href="/posts/year-end-tax-credit-card-vs-check-card/">
+            <p class="h6">연말정산 신용카드 vs 체크카드 공제율, 공제 한도, 제외 항목 쉽게 정리</p>
+            <p>연말정산에서 신용카드와 체크카드 공제율이 어떻게 다른지, 공제 한도와 제외 항목, 카드 사용 전략까지 초보자도 이해하기 쉽게 정리했다.</p>
+        </a>
+        
+    </p>
+    <hr>
+    
+
+    
+    <p>
+        <a href="/posts/before-tax-after-tax-meaning/">
+            <p class="h6">세전 세후 뜻 쉽게 정리, 월급과 연봉 실수령액이 다른 이유</p>
+            <p>세전과 세후의 뜻, 월급과 연봉에서 실수령액이 달라지는 이유, 급여명세서에서 빠지는 공제 항목을 초보자도 이해하기 쉽게 정리했다.</p>
+        </a>
+        
+    </p>
+    <hr>
+    
+
+    
+    <p>
+        <a href="/posts/tax-saving-vs-tax-evasion/">
+            <p class="h6">절세와 탈세 차이, 합법적으로 세금 줄이는 기준과 탈세 사례</p>
+            <p>절세와 탈세의 차이를 세법상 기준, 증빙자료, 소득공제와 세액공제, 가공경비와 수입 누락 사례로 초보자도 이해하기 쉽게 정리했다.</p>
+        </a>
+        
+    </p>
+    <hr>
+    
+
+    
+    <p>
+        <a href="/posts/sole-proprietor-vs-corporation/">
+            <p class="h6">개인사업자와 법인사업자 차이, 창업 전에 꼭 알아야 할 기준</p>
+            <p>창업할 때 개인사업자와 법인사업자 중 무엇을 선택해야 할지 설립 절차, 세금, 책임 범위, 자금 조달, 운영 방식 차이로 쉽게 정리했다.</p>
+        </a>
+        
+    </p>
+    <hr>
+    
+
+    
+    <p>
+        <a href="/posts/value-added-tax-basics/">
+            <p class="h6">부가가치세란 어떤 세금일까, 부가세 별도와 계산 방법 쉽게 정리</p>
+            <p>부가가치세의 뜻과 부가세 별도 의미, 최종소비자와 사업자의 관계, 매출세액과 매입세액을 이용한 계산 방법과 신고 기간을 쉽게 정리했다.</p>
+        </a>
+        
+    </p>
+    <hr>
+    
+
+    
+    <p>
+        <a href="/posts/employment-income-tax-vs-global-income-tax/">
+            <p class="h6">근로소득세와 종합소득세 차이, 직장인과 사업자는 세금 신고가 어떻게 다를까</p>
+            <p>근로소득세와 종합소득세의 차이, 직장인 연말정산과 사업자 5월 신고, 부업 소득이 있는 직장인이 종합소득세를 신고해야 하는 경우를 쉽게 정리했다.</p>
+        </a>
+        
+    </p>
+    <hr>
+    
+
+    
+    <p>
+        <a href="/posts/withholding-tax-system/">
+            <p class="h6">원천징수 제도 뜻 쉽게 정리, 세전·세후 월급 차이까지 한 번에 이해하기</p>
+            <p>원천징수 제도의 뜻과 원천징수의무자, 세전·세후 월급 차이, 근로소득세가 미리 빠지는 이유, 연말정산과의 관계를 누구나 이해하기 쉽게 정리하였다.</p>
+        </a>
+        
+    </p>
+    <hr>
+    
+
+    
+    <p>
+        <a href="/posts/multi-homeowner-capital-gains-tax-surcharge/">
+            <p class="h6">다주택자 양도소득세 중과 5월 10일부터 시행: 대상, 세율, 달라지는 점 정리</p>
+            <p>2026년 5월 10일부터 다시 적용될 다주택자 양도소득세 중과의 뜻, 대상, 세율, 장기보유특별공제 배제, 매도 전 체크할 내용을 쉽게 정리했다.</p>
+        </a>
+        
+    </p>
+    <hr>
+    
+
+    
+    <p>
+        <a href="/posts/property-tax-payment-guide/">
+            <p class="h6">재산세 납부기간과 계산법 총정리: 7월·9월 언제, 어떻게 내야 할까</p>
+            <p>주택 재산세를 언제 내는지, 7월과 9월에 왜 나눠 내는지, 세율과 계산법, 위택스 납부 방법, 매매 시 주의사항까지 쉽게 정리했다.</p>
+        </a>
+        
+    </p>
+    <hr>
+    
+
+    
+    <p>
+        <a href="/posts/holding-tax-property-comprehensive-real-estate-tax/">
+            <p class="h6">보유세란? 재산세, 종부세 기준과 공시가격 쉽게 정리</p>
+            <p>보유세의 뜻부터 재산세와 종합부동산세 차이, 6월 1일 과세 기준일, 공시가격 조회와 이의신청, 계산 흐름까지 초보자 눈높이로 정리했다.</p>
+        </a>
+        
+    </p>
+    <hr>
+    
+
+    
+    <p>
+        <a href="/posts/gift-tax/">
+            <p class="h6">자녀 증여세 - 면제 한도부터 신고, 절세 팁</p>
+            <p>한국에서 자녀에게 재산을 증여할 때 적용되는 증여세 제도에 대해, 증여세 계산·공제, 신고 절차, 절세 팁까지 추가로 설명한다.</p>
+        </a>
+        
+    </p>
+    <hr>
+    
+
+    
+
+
+                </div>
+                <div class="col col-md-3 col-lg-2 d-none d-md-block">
+                    
+    <div class="toc toc-sidebar mb-5 my-md-0 mb-lg-5 pb-3 text-body-secondary sticky-top">
+        
+
+        
+            
+            
+
+
+
+
+
+
+
+
+
+            <strong class="d-block mb-2">On this page</strong>
+            <nav class="toc">
+                
+                
+                    
+                
+
+                
+                    
+                    <a  class="toc-item toc-level-1" href="/posts/inheritance-tax-vs-gift-tax/#상속세와-증여세의-핵심-차이">상속세와 증여세의 핵심 차이</a>
+                
+                    
+                    <a  class="toc-item toc-level-1" href="/posts/inheritance-tax-vs-gift-tax/#세율은-같지만-계산-방식이-다르다">세율은 같지만 계산 방식이 다르다</a>
+                
+                    
+                    <a  class="toc-item toc-level-1" href="/posts/inheritance-tax-vs-gift-tax/#공제-방식이-다르다">공제 방식이 다르다</a>
+                
+                    
+                    <a  class="toc-item toc-level-1" href="/posts/inheritance-tax-vs-gift-tax/#신고기한도-다르다">신고기한도 다르다</a>
+                
+                    
+                    <a  class="toc-item toc-level-1" href="/posts/inheritance-tax-vs-gift-tax/#상속과-증여-중-무엇이-유리할까">상속과 증여 중 무엇이 유리할까</a>
+                
+                    
+                    <a  class="toc-item toc-level-2" href="/posts/inheritance-tax-vs-gift-tax/#상속이-유리할-수-있는-경우">상속이 유리할 수 있는 경우</a>
+                
+                    
+                    <a  class="toc-item toc-level-2" href="/posts/inheritance-tax-vs-gift-tax/#증여가-유리할-수-있는-경우">증여가 유리할 수 있는 경우</a>
+                
+                    
+                    <a  class="toc-item toc-level-2" href="/posts/inheritance-tax-vs-gift-tax/#사전증여는-상속세와-연결된다">사전증여는 상속세와 연결된다</a>
+                
+                    
+                    <a  class="toc-item toc-level-1" href="/posts/inheritance-tax-vs-gift-tax/#실수하기-쉬운-포인트">실수하기 쉬운 포인트</a>
+                
+                    
+                        
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+<a aria-label="Show 7 more"
+        href="#toc-collapse-items" id="btnTOCShowMore" class="btn btn-link link-primary position-relative toc-item" data-bs-toggle="collapse" aria-expanded="false" aria-controls="toc-collapse-items"role="button"
+        >
+        <span class="d-flex justify-content-start">
+            <span class="my-auto">Show 7 more</span>
+        </span></a>
+
+                        <div class="collapse" id="toc-collapse-items">
+                        
+                    <a  class="toc-item toc-level-1" href="/posts/inheritance-tax-vs-gift-tax/#정리">정리</a>
+                
+                    
+                    <a  class="toc-item toc-level-1" href="/posts/inheritance-tax-vs-gift-tax/#자주-묻는-질문">자주 묻는 질문</a>
+                
+                    
+                    <a  class="toc-item toc-level-2" href="/posts/inheritance-tax-vs-gift-tax/#상속세와-증여세-세율은-같은가">상속세와 증여세 세율은 같은가?</a>
+                
+                    
+                    <a  class="toc-item toc-level-2" href="/posts/inheritance-tax-vs-gift-tax/#부모가-자녀에게-생활비를-주면-증여세가-나오나">부모가 자녀에게 생활비를 주면 증여세가 나오나?</a>
+                
+                    
+                    <a  class="toc-item toc-level-2" href="/posts/inheritance-tax-vs-gift-tax/#상속-전에-미리-증여하면-무조건-절세가-되나">상속 전에 미리 증여하면 무조건 절세가 되나?</a>
+                
+                    
+                    <a  class="toc-item toc-level-2" href="/posts/inheritance-tax-vs-gift-tax/#증여세는-누가-내야-하나">증여세는 누가 내야 하나?</a>
+                
+                    
+                    <a  class="toc-item toc-level-2" href="/posts/inheritance-tax-vs-gift-tax/#상속세-신고기한과-증여세-신고기한은-어떻게-다른가">상속세 신고기한과 증여세 신고기한은 어떻게 다른가?</a>
+                
+
+                
+                    &nbsp;
+                    
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+<a aria-label="Show less"
+        href="#toc-collapse-items" id="btnTOCShowLess" class="btn btn-link link-primary position-relative toc-item" data-bs-toggle="collapse" aria-expanded="false" aria-controls="toc-collapse-items"role="button"
+        >
+        <span class="d-flex justify-content-start">
+            <span class="my-auto">Show less</span>
+        </span></a>
+
+                </div>
+            </nav>
+        
+    
+
+
+
+        </div>
+
+
+                </div>
+            </div>
+        </div>
+    
+</main>
+<footer class="container-fluid footer text-center p-3">
+    <div class="container-xxl text-center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8543127460401091"
+     crossorigin="anonymous"></script>
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-8543127460401091"
+     data-ad-slot="3689386360"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+        <small>
+            Copyright © 2026 Money::devkuma All rights reserved.
+            
+        </small>
+    </div>
+</footer>
+<div id="toast-container" class="toast-container position-fixed bottom-0 end-0 p-3">
+
+
+
+
+
+
+
+
+<div id="toast-copied-code-message" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+    <div class="toast-header">
+        <strong class="me-auto">Money::devkuma</strong>
+        <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+    </div>
+    <div class="toast-body">Code copied to clipboard</div>
+</div>
+</div>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" display="none">
+        <symbol id="fas-ellipsis" overflow="visible" viewBox="0 0 448 512"><path fill="currentColor" d="M0 256a56 56 0 1 1 112 0 56 56 0 1 1 -112 0zm168 0a56 56 0 1 1 112 0 56 56 0 1 1 -112 0zm224-56a56 56 0 1 1 0 112 56 56 0 1 1 0-112z"/></symbol>
+<symbol id="fas-sun" overflow="visible" viewBox="0 0 576 512"><path fill="currentColor" d="M288-32c8.4 0 16.3 4.4 20.6 11.7L364.1 72.3 468.9 46c8.2-2 16.9 .4 22.8 6.3S500 67 498 75.1l-26.3 104.7 92.7 55.5c7.2 4.3 11.7 12.2 11.7 20.6s-4.4 16.3-11.7 20.6L471.7 332.1 498 436.8c2 8.2-.4 16.9-6.3 22.8S477 468 468.9 466l-104.7-26.3-55.5 92.7c-4.3 7.2-12.2 11.7-20.6 11.7s-16.3-4.4-20.6-11.7L211.9 439.7 107.2 466c-8.2 2-16.8-.4-22.8-6.3S76 445 78 436.8l26.2-104.7-92.6-55.5C4.4 272.2 0 264.4 0 256s4.4-16.3 11.7-20.6L104.3 179.9 78 75.1c-2-8.2 .3-16.8 6.3-22.8S99 44 107.2 46l104.7 26.2 55.5-92.6 1.8-2.6c4.5-5.7 11.4-9.1 18.8-9.1zm0 144a144 144 0 1 0 0 288 144 144 0 1 0 0-288zm0 240a96 96 0 1 1 0-192 96 96 0 1 1 0 192z"/></symbol>
+<symbol id="fas-moon" overflow="visible" viewBox="0 0 512 512"><path fill="currentColor" d="M256 0C114.6 0 0 114.6 0 256S114.6 512 256 512c68.8 0 131.3-27.2 177.3-71.4 7.3-7 9.4-17.9 5.3-27.1s-13.7-14.9-23.8-14.1c-4.9 .4-9.8 .6-14.8 .6-101.6 0-184-82.4-184-184 0-72.1 41.5-134.6 102.1-164.8 9.1-4.5 14.3-14.3 13.1-24.4S322.6 8.5 312.7 6.3C294.4 2.2 275.4 0 256 0z"/></symbol>
+<symbol id="fas-angle-left" overflow="visible" viewBox="0 0 256 512"><path fill="currentColor" d="M9.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L77.3 256 214.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z"/></symbol>
+<symbol id="fas-sort" overflow="visible" viewBox="0 0 384 512"><path fill="currentColor" d="M2.4 204.2c5 12 16.6 19.8 29.6 19.8l320 0c12.9 0 24.6-7.8 29.6-19.8s2.2-25.7-6.9-34.9l-160-160c-12.5-12.5-32.8-12.5-45.3 0l-160 160c-9.2 9.2-11.9 22.9-6.9 34.9zm0 103.5c-5 12-2.2 25.7 6.9 34.9l160 160c12.5 12.5 32.8 12.5 45.3 0l160-160c9.2-9.2 11.9-22.9 6.9-34.9S364.9 288 352 288L32 288c-12.9 0-24.6 7.8-29.6 19.8z"/></symbol>
+<symbol id="fas-link" overflow="visible" viewBox="0 0 576 512"><path fill="currentColor" d="M419.5 96c-16.6 0-32.7 4.5-46.8 12.7-15.8-16-34.2-29.4-54.5-39.5 28.2-24 64.1-37.2 101.3-37.2 86.4 0 156.5 70 156.5 156.5 0 41.5-16.5 81.3-45.8 110.6l-71.1 71.1c-29.3 29.3-69.1 45.8-110.6 45.8-86.4 0-156.5-70-156.5-156.5 0-1.5 0-3 .1-4.5 .5-17.7 15.2-31.6 32.9-31.1s31.6 15.2 31.1 32.9c0 .9 0 1.8 0 2.6 0 51.1 41.4 92.5 92.5 92.5 24.5 0 48-9.7 65.4-27.1l71.1-71.1c17.3-17.3 27.1-40.9 27.1-65.4 0-51.1-41.4-92.5-92.5-92.5zM275.2 173.3c-1.9-.8-3.8-1.9-5.5-3.1-12.6-6.5-27-10.2-42.1-10.2-24.5 0-48 9.7-65.4 27.1L91.1 258.2c-17.3 17.3-27.1 40.9-27.1 65.4 0 51.1 41.4 92.5 92.5 92.5 16.5 0 32.6-4.4 46.7-12.6 15.8 16 34.2 29.4 54.6 39.5-28.2 23.9-64 37.2-101.3 37.2-86.4 0-156.5-70-156.5-156.5 0-41.5 16.5-81.3 45.8-110.6l71.1-71.1c29.3-29.3 69.1-45.8 110.6-45.8 86.6 0 156.5 70.6 156.5 156.9 0 1.3 0 2.6 0 3.9-.4 17.7-15.1 31.6-32.8 31.2s-31.6-15.1-31.2-32.8c0-.8 0-1.5 0-2.3 0-33.7-18-63.3-44.8-79.6z"/></symbol>
+<symbol id="fas-arrow-right" overflow="visible" viewBox="0 0 512 512"><path fill="currentColor" d="M502.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L402.7 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l370.7 0-105.4 105.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"/></symbol>
+<symbol id="fas-angles-right" overflow="visible" viewBox="0 0 448 512"><path fill="currentColor" d="M439.1 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L371.2 256 233.9 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160zm-352 160l160-160c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L179.2 256 41.9 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0z"/></symbol>
+    </svg>
+
+  
+    
+
+  
+
+
+<script src="/js/core.bundle-analytics.ko.min.bef138a0b0039c16630a4767e923e751563c440bb5d0c7c226422e8df10640e9.js"
+         data-category="analytics" integrity="sha256-vvE4oLADnBZjCkdn6SPnUVY8RAu10MfCJkIujfEGQOk=" crossorigin="anonymous" async></script>
+
+<script src="/js/core.bundle.ko.min.3f6e8f957d3882478dc9775151b43a9a3f7eb283760d0cb1e574477470fe2d47.js"
+         integrity="sha256-P26PlX04gkeNyXdRUbQ6mj9&#43;soN2DQyx5XRHdHD&#43;LUc=" crossorigin="anonymous" async></script></body>
+</html>
