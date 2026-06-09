@@ -10,7 +10,7 @@
 		
 		
 		
-			<lastBuildDate>Tue, 09 Jun 2026 23:49:32 +0900</lastBuildDate>
+			<lastBuildDate>Tue, 09 Jun 2026 23:58:14 +0900</lastBuildDate>
 		
 			<atom:link href="https://money.devkuma.com/categories/%EC%84%B8%EA%B8%88/index.xml" rel="self" type="application/rss+xml" />
 			<item>
@@ -19,6 +19,13 @@
 				<pubDate>Sun, 17 May 2026 22:46:15 +0900</pubDate>
 				<guid>https://money.devkuma.com/posts/etf-tax-guide/</guid>
 				<description>&lt;p&gt;ETF는 주식처럼 사고팔 수 있어서 세금도 주식과 똑같다고 생각하기 쉽다. 그런데 실제로는 그렇지 않다. 국내 증시에 상장된 ETF인지, 해외 거래소에 직접 상장된 ETF인지, 또 ETF가 국내 주식에 투자하는지 해외 주식에 투자하는지에 따라 세금이 달라진다.&lt;/p&gt;&#xA;&lt;p&gt;특히 초보자가 가장 많이 헷갈리는 부분은 &amp;ldquo;국내 상장 해외 ETF&amp;quot;다. 예를 들어 TIGER 미국S&amp;amp;P500, KODEX 미국나스닥100처럼 한국거래소에서 원화로 사고파는 ETF는 미국 주식에 투자하더라도 세금은 해외 상장 ETF와 다르게 처리된다.&lt;/p&gt;&#xA;&lt;p&gt;이 글에서는 ETF 투자자가 꼭 알아야 할 세금을 매매차익과 분배금으로 나누어 정리하였다. 세금은 투자 수익률의 마지막 숫자를 바꾸기 때문에, 상품을 고르기 전에 한 번은 확인해두는 것이 좋다.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>법인카드 사용범위: 인정 지출항목과 올바른 영수증 관리법</title>
+				<link>https://money.devkuma.com/posts/corporate-card-expense-rules/</link>
+				<pubDate>Tue, 09 Jun 2026 23:58:14 +0900</pubDate>
+				<guid>https://money.devkuma.com/posts/corporate-card-expense-rules/</guid>
+				<description>&lt;p&gt;법인카드는 회사 돈을 쓰는 카드다. 그래서 개인카드보다 더 편해 보이지만, 실제로는 더 조심해서 써야 한다. 법인카드로 결제했다고 해서 모든 금액이 자동으로 비용 처리되는 것은 아니다.&lt;/p&gt;&#xA;&lt;p&gt;세무상 비용으로 인정되려면 기본적으로 &lt;strong&gt;업무와 관련된 지출&lt;/strong&gt;이어야 한다. 사무용품을 사거나, 거래처 미팅을 하거나, 출장을 가는 비용처럼 회사 매출이나 운영과 관련된 지출이어야 한다. 반대로 대표 개인의 쇼핑, 가족 식사, 개인 여행, 사적인 병원비처럼 회사와 무관한 지출은 법인카드로 결제했더라도 문제가 될 수 있다.&lt;/p&gt;&#xA;&lt;p&gt;법인카드는 잘 쓰면 경비 관리와 증빙 처리가 쉬워진다. 하지만 잘못 쓰면 비용 부인, 대표자 상여처분, 소득세 부담, 심하면 법적 분쟁까지 이어질 수 있다. 이 글에서는 법인카드 사용범위와 인정되는 지출 항목, 영수증 관리 방법을 정리하였다.&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>상속세와 증여세 차이, 세율은 같아도 세금이 달라지는 이유</title>
