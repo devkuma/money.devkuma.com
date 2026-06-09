@@ -1,18 +1,25 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
-		<title>세금 on Show Me the Money::devkuma</title>
+		<title>세금 on Money::devkuma</title>
 		<link>https://money.devkuma.com/posts/tax/</link>
-		<description>Recent content in 세금 on Show Me the Money::devkuma</description>
+		<description>Recent content in 세금 on Money::devkuma</description>
 		<generator>Hugo</generator>
 		<language>ko-KR</language>
 		
 		
 		
 		
-			<lastBuildDate>Mon, 08 Jun 2026 21:39:03 +0900</lastBuildDate>
+			<lastBuildDate>Tue, 09 Jun 2026 22:25:15 +0900</lastBuildDate>
 		
 			<atom:link href="https://money.devkuma.com/posts/tax/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>법인세 뜻과 신고기한, 2026년 이후 세율과 계산 흐름 쉽게 정리</title>
+				<link>https://money.devkuma.com/posts/corporate-tax/</link>
+				<pubDate>Tue, 09 Jun 2026 22:25:15 +0900</pubDate>
+				<guid>https://money.devkuma.com/posts/corporate-tax/</guid>
+				<description>&lt;p&gt;개인사업자는 종합소득세를 신고하고, 법인사업자는 법인세를 신고한다. 말은 익숙하지만 막상 법인을 만들고 나면 법인세가 무엇을 기준으로 계산되는지, 언제까지 신고해야 하는지, 매출만 있으면 무조건 많이 내는 세금인지 헷갈리기 쉽다.&lt;/p&gt;&#xA;&lt;p&gt;법인세는 법인 형태의 사업자에게 생긴 소득에 대해 부과되는 세금이다. 쉽게 말해 회사가 1년 동안 사업을 해서 번 돈에 매기는 세금이다. 다만 통장에 돈이 들어온 금액 전체에 바로 세율을 곱하는 구조는 아니다. 회계상 이익을 기준으로 세법에 맞게 조정하고, 이월결손금이나 공제·감면을 반영한 뒤 최종 세액이 계산된다.&lt;/p&gt;</description>
+			</item>
 			<item>
 				<title>프리랜서 3.3% 원천징수와 환급, 종합소득세 신고 전 꼭 알아야 할 기준</title>
 				<link>https://money.devkuma.com/posts/freelancer-withholding-tax-refund/</link>

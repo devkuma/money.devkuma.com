@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
-		<title>부자 너구리! on Show Me the Money::devkuma</title>
+		<title>부자 너구리! on Money::devkuma</title>
 		<link>https://money.devkuma.com/</link>
-		<description>Recent content in 부자 너구리! on Show Me the Money::devkuma</description>
+		<description>Recent content in 부자 너구리! on Money::devkuma</description>
 		<generator>Hugo</generator>
 		<language>ko-KR</language>
 		
 		
 		
 		
-			<lastBuildDate>Mon, 08 Jun 2026 22:18:01 +0900</lastBuildDate>
+			<lastBuildDate>Tue, 09 Jun 2026 22:25:15 +0900</lastBuildDate>
 		
 			<atom:link href="https://money.devkuma.com/index.xml" rel="self" type="application/rss+xml" />
 			<item>
@@ -278,6 +278,20 @@
 				<pubDate>Tue, 02 Jun 2026 09:38:11 +0900</pubDate>
 				<guid>https://money.devkuma.com/stock/498400/</guid>
 				<description>&lt;p&gt;월배당 ETF를 찾다 보면 &lt;code&gt;KODEX 200타겟위클리커버드콜(498400)&lt;/code&gt;이라는 이름을 자주 만나게 된다. 코스피200에 투자하면서 위클리 옵션 프리미엄을 활용해 매월 분배금을 지급하는 상품이다.&lt;/p&gt;&#xA;&lt;p&gt;이름이 길고 &amp;ldquo;커버드콜&amp;rdquo;, &amp;ldquo;위클리 옵션&amp;rdquo;, &amp;ldquo;타겟 프리미엄&amp;rdquo; 같은 용어가 들어 있어 처음에는 어렵게 느껴질 수 있다. 월배당이라는 점만 보면 적금처럼 매달 이자가 나오는 상품으로 오해하기도 쉽다.&lt;/p&gt;&#xA;&lt;p&gt;하지만 이 ETF는 원금 보장 상품이 아니다. 코스피200이 하락하면 ETF 가격도 떨어질 수 있고, 주식시장이 빠르게 상승할 때는 일반 코스피200 ETF보다 수익이 제한될 수 있다. 이 글에서는 KODEX 200타겟위클리커버드콜이 어떤 ETF인지, 분배금은 어디에서 나오는지, 투자 전에 무엇을 확인해야 하는지 쉽게 정리했다.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>법인세 뜻과 신고기한, 2026년 이후 세율과 계산 흐름 쉽게 정리</title>
+				<link>https://money.devkuma.com/posts/corporate-tax/</link>
+				<pubDate>Tue, 09 Jun 2026 22:25:15 +0900</pubDate>
+				<guid>https://money.devkuma.com/posts/corporate-tax/</guid>
+				<description>&lt;p&gt;개인사업자는 종합소득세를 신고하고, 법인사업자는 법인세를 신고한다. 말은 익숙하지만 막상 법인을 만들고 나면 법인세가 무엇을 기준으로 계산되는지, 언제까지 신고해야 하는지, 매출만 있으면 무조건 많이 내는 세금인지 헷갈리기 쉽다.&lt;/p&gt;&#xA;&lt;p&gt;법인세는 법인 형태의 사업자에게 생긴 소득에 대해 부과되는 세금이다. 쉽게 말해 회사가 1년 동안 사업을 해서 번 돈에 매기는 세금이다. 다만 통장에 돈이 들어온 금액 전체에 바로 세율을 곱하는 구조는 아니다. 회계상 이익을 기준으로 세법에 맞게 조정하고, 이월결손금이나 공제·감면을 반영한 뒤 최종 세액이 계산된다.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>주식 미수금 뜻과 반대매매 위험, 초보자가 꼭 확인해야 할 계좌 화면</title>
+				<link>https://money.devkuma.com/posts/stock-unpaid-balance/</link>
+				<pubDate>Tue, 09 Jun 2026 22:15:38 +0900</pubDate>
+				<guid>https://money.devkuma.com/posts/stock-unpaid-balance/</guid>
+				<description>&lt;p&gt;주식 계좌를 처음 쓰다 보면 이상한 순간이 있다. 분명 계좌에는 100만원만 넣었는데 주문 가능 금액은 200만원, 250만원처럼 더 크게 보인다. 이 숫자를 보고 &amp;ldquo;내가 살 수 있는 돈이 이만큼 있구나&amp;quot;라고 생각하면 미수금이 생길 수 있다.&lt;/p&gt;&#xA;&lt;p&gt;주식 미수금은 간단히 말해 결제일까지 채워 넣지 못한 부족한 돈이다. 주식을 살 때 매수 대금 전부를 바로 내는 것이 아니라 일부 증거금만 먼저 잡히는 경우가 있는데, 나머지 금액을 정해진 날까지 넣지 못하면 그 부족액이 미수금으로 표시된다.&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>전세권설정과 확정일자 차이, 전세보증금 지키는 방법 쉽게 비교</title>

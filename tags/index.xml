@@ -1,18 +1,123 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
-		<title>Tags on Show Me the Money::devkuma</title>
+		<title>Tags on Money::devkuma</title>
 		<link>https://money.devkuma.com/tags/</link>
-		<description>Recent content in Tags on Show Me the Money::devkuma</description>
+		<description>Recent content in Tags on Money::devkuma</description>
 		<generator>Hugo</generator>
 		<language>ko-KR</language>
 		
 		
 		
 		
-			<lastBuildDate>Mon, 08 Jun 2026 22:18:01 +0900</lastBuildDate>
+			<lastBuildDate>Tue, 09 Jun 2026 22:25:15 +0900</lastBuildDate>
 		
 			<atom:link href="https://money.devkuma.com/tags/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>과세표준</title>
+				<link>https://money.devkuma.com/tags/%EA%B3%BC%EC%84%B8%ED%91%9C%EC%A4%80/</link>
+				<pubDate>Tue, 09 Jun 2026 22:25:15 +0900</pubDate>
+				<guid>https://money.devkuma.com/tags/%EA%B3%BC%EC%84%B8%ED%91%9C%EC%A4%80/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>법인사업자</title>
+				<link>https://money.devkuma.com/tags/%EB%B2%95%EC%9D%B8%EC%82%AC%EC%97%85%EC%9E%90/</link>
+				<pubDate>Tue, 09 Jun 2026 22:25:15 +0900</pubDate>
+				<guid>https://money.devkuma.com/tags/%EB%B2%95%EC%9D%B8%EC%82%AC%EC%97%85%EC%9E%90/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>법인세</title>
+				<link>https://money.devkuma.com/tags/%EB%B2%95%EC%9D%B8%EC%84%B8/</link>
+				<pubDate>Tue, 09 Jun 2026 22:25:15 +0900</pubDate>
+				<guid>https://money.devkuma.com/tags/%EB%B2%95%EC%9D%B8%EC%84%B8/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>법인세신고</title>
+				<link>https://money.devkuma.com/tags/%EB%B2%95%EC%9D%B8%EC%84%B8%EC%8B%A0%EA%B3%A0/</link>
+				<pubDate>Tue, 09 Jun 2026 22:25:15 +0900</pubDate>
+				<guid>https://money.devkuma.com/tags/%EB%B2%95%EC%9D%B8%EC%84%B8%EC%8B%A0%EA%B3%A0/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>법인세신고기한</title>
+				<link>https://money.devkuma.com/tags/%EB%B2%95%EC%9D%B8%EC%84%B8%EC%8B%A0%EA%B3%A0%EA%B8%B0%ED%95%9C/</link>
+				<pubDate>Tue, 09 Jun 2026 22:25:15 +0900</pubDate>
+				<guid>https://money.devkuma.com/tags/%EB%B2%95%EC%9D%B8%EC%84%B8%EC%8B%A0%EA%B3%A0%EA%B8%B0%ED%95%9C/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>법인세율</title>
+				<link>https://money.devkuma.com/tags/%EB%B2%95%EC%9D%B8%EC%84%B8%EC%9C%A8/</link>
+				<pubDate>Tue, 09 Jun 2026 22:25:15 +0900</pubDate>
+				<guid>https://money.devkuma.com/tags/%EB%B2%95%EC%9D%B8%EC%84%B8%EC%9C%A8/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>세무조정</title>
+				<link>https://money.devkuma.com/tags/%EC%84%B8%EB%AC%B4%EC%A1%B0%EC%A0%95/</link>
+				<pubDate>Tue, 09 Jun 2026 22:25:15 +0900</pubDate>
+				<guid>https://money.devkuma.com/tags/%EC%84%B8%EB%AC%B4%EC%A1%B0%EC%A0%95/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>D플러스2</title>
+				<link>https://money.devkuma.com/tags/d%ED%94%8C%EB%9F%AC%EC%8A%A42/</link>
+				<pubDate>Tue, 09 Jun 2026 22:15:38 +0900</pubDate>
+				<guid>https://money.devkuma.com/tags/d%ED%94%8C%EB%9F%AC%EC%8A%A42/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>미수거래</title>
+				<link>https://money.devkuma.com/tags/%EB%AF%B8%EC%88%98%EA%B1%B0%EB%9E%98/</link>
+				<pubDate>Tue, 09 Jun 2026 22:15:38 +0900</pubDate>
+				<guid>https://money.devkuma.com/tags/%EB%AF%B8%EC%88%98%EA%B1%B0%EB%9E%98/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>미수금</title>
+				<link>https://money.devkuma.com/tags/%EB%AF%B8%EC%88%98%EA%B8%88/</link>
+				<pubDate>Tue, 09 Jun 2026 22:15:38 +0900</pubDate>
+				<guid>https://money.devkuma.com/tags/%EB%AF%B8%EC%88%98%EA%B8%88/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>반대매매</title>
+				<link>https://money.devkuma.com/tags/%EB%B0%98%EB%8C%80%EB%A7%A4%EB%A7%A4/</link>
+				<pubDate>Tue, 09 Jun 2026 22:15:38 +0900</pubDate>
+				<guid>https://money.devkuma.com/tags/%EB%B0%98%EB%8C%80%EB%A7%A4%EB%A7%A4/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>예수금</title>
+				<link>https://money.devkuma.com/tags/%EC%98%88%EC%88%98%EA%B8%88/</link>
+				<pubDate>Tue, 09 Jun 2026 22:15:38 +0900</pubDate>
+				<guid>https://money.devkuma.com/tags/%EC%98%88%EC%88%98%EA%B8%88/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>주식미수금</title>
+				<link>https://money.devkuma.com/tags/%EC%A3%BC%EC%8B%9D%EB%AF%B8%EC%88%98%EA%B8%88/</link>
+				<pubDate>Tue, 09 Jun 2026 22:15:38 +0900</pubDate>
+				<guid>https://money.devkuma.com/tags/%EC%A3%BC%EC%8B%9D%EB%AF%B8%EC%88%98%EA%B8%88/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>주식초보</title>
+				<link>https://money.devkuma.com/tags/%EC%A3%BC%EC%8B%9D%EC%B4%88%EB%B3%B4/</link>
+				<pubDate>Tue, 09 Jun 2026 22:15:38 +0900</pubDate>
+				<guid>https://money.devkuma.com/tags/%EC%A3%BC%EC%8B%9D%EC%B4%88%EB%B3%B4/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>증거금</title>
+				<link>https://money.devkuma.com/tags/%EC%A6%9D%EA%B1%B0%EA%B8%88/</link>
+				<pubDate>Tue, 09 Jun 2026 22:15:38 +0900</pubDate>
+				<guid>https://money.devkuma.com/tags/%EC%A6%9D%EA%B1%B0%EA%B8%88/</guid>
+				<description></description>
+			</item>
 			<item>
 				<title>대항력</title>
 				<link>https://money.devkuma.com/tags/%EB%8C%80%ED%95%AD%EB%A0%A5/</link>
@@ -1519,13 +1624,6 @@
 				<description></description>
 			</item>
 			<item>
-				<title>주식초보</title>
-				<link>https://money.devkuma.com/tags/%EC%A3%BC%EC%8B%9D%EC%B4%88%EB%B3%B4/</link>
-				<pubDate>Wed, 03 Jun 2026 23:06:11 +0900</pubDate>
-				<guid>https://money.devkuma.com/tags/%EC%A3%BC%EC%8B%9D%EC%B4%88%EB%B3%B4/</guid>
-				<description></description>
-			</item>
-			<item>
 				<title>증자</title>
 				<link>https://money.devkuma.com/tags/%EC%A6%9D%EC%9E%90/</link>
 				<pubDate>Wed, 03 Jun 2026 23:06:11 +0900</pubDate>
@@ -2058,34 +2156,6 @@
 				<description></description>
 			</item>
 			<item>
-				<title>미수거래</title>
-				<link>https://money.devkuma.com/tags/%EB%AF%B8%EC%88%98%EA%B1%B0%EB%9E%98/</link>
-				<pubDate>Mon, 01 Jun 2026 08:22:01 +0900</pubDate>
-				<guid>https://money.devkuma.com/tags/%EB%AF%B8%EC%88%98%EA%B1%B0%EB%9E%98/</guid>
-				<description></description>
-			</item>
-			<item>
-				<title>미수금</title>
-				<link>https://money.devkuma.com/tags/%EB%AF%B8%EC%88%98%EA%B8%88/</link>
-				<pubDate>Mon, 01 Jun 2026 08:22:01 +0900</pubDate>
-				<guid>https://money.devkuma.com/tags/%EB%AF%B8%EC%88%98%EA%B8%88/</guid>
-				<description></description>
-			</item>
-			<item>
-				<title>반대매매</title>
-				<link>https://money.devkuma.com/tags/%EB%B0%98%EB%8C%80%EB%A7%A4%EB%A7%A4/</link>
-				<pubDate>Mon, 01 Jun 2026 08:22:01 +0900</pubDate>
-				<guid>https://money.devkuma.com/tags/%EB%B0%98%EB%8C%80%EB%A7%A4%EB%A7%A4/</guid>
-				<description></description>
-			</item>
-			<item>
-				<title>예수금</title>
-				<link>https://money.devkuma.com/tags/%EC%98%88%EC%88%98%EA%B8%88/</link>
-				<pubDate>Mon, 01 Jun 2026 08:22:01 +0900</pubDate>
-				<guid>https://money.devkuma.com/tags/%EC%98%88%EC%88%98%EA%B8%88/</guid>
-				<description></description>
-			</item>
-			<item>
 				<title>주식주문</title>
 				<link>https://money.devkuma.com/tags/%EC%A3%BC%EC%8B%9D%EC%A3%BC%EB%AC%B8/</link>
 				<pubDate>Mon, 01 Jun 2026 08:22:01 +0900</pubDate>
@@ -2132,13 +2202,6 @@
 				<link>https://money.devkuma.com/tags/%EC%98%B5%EC%85%98%EA%B1%B0%EB%9E%98/</link>
 				<pubDate>Mon, 01 Jun 2026 08:16:34 +0900</pubDate>
 				<guid>https://money.devkuma.com/tags/%EC%98%B5%EC%85%98%EA%B1%B0%EB%9E%98/</guid>
-				<description></description>
-			</item>
-			<item>
-				<title>증거금</title>
-				<link>https://money.devkuma.com/tags/%EC%A6%9D%EA%B1%B0%EA%B8%88/</link>
-				<pubDate>Mon, 01 Jun 2026 08:16:34 +0900</pubDate>
-				<guid>https://money.devkuma.com/tags/%EC%A6%9D%EA%B1%B0%EA%B8%88/</guid>
 				<description></description>
 			</item>
 			<item>
@@ -4746,24 +4809,10 @@
 				<description></description>
 			</item>
 			<item>
-				<title>법인사업자</title>
-				<link>https://money.devkuma.com/tags/%EB%B2%95%EC%9D%B8%EC%82%AC%EC%97%85%EC%9E%90/</link>
-				<pubDate>Mon, 11 May 2026 21:10:29 +0900</pubDate>
-				<guid>https://money.devkuma.com/tags/%EB%B2%95%EC%9D%B8%EC%82%AC%EC%97%85%EC%9E%90/</guid>
-				<description></description>
-			</item>
-			<item>
 				<title>법인설립</title>
 				<link>https://money.devkuma.com/tags/%EB%B2%95%EC%9D%B8%EC%84%A4%EB%A6%BD/</link>
 				<pubDate>Mon, 11 May 2026 21:10:29 +0900</pubDate>
 				<guid>https://money.devkuma.com/tags/%EB%B2%95%EC%9D%B8%EC%84%A4%EB%A6%BD/</guid>
-				<description></description>
-			</item>
-			<item>
-				<title>법인세</title>
-				<link>https://money.devkuma.com/tags/%EB%B2%95%EC%9D%B8%EC%84%B8/</link>
-				<pubDate>Mon, 11 May 2026 21:10:29 +0900</pubDate>
-				<guid>https://money.devkuma.com/tags/%EB%B2%95%EC%9D%B8%EC%84%B8/</guid>
 				<description></description>
 			</item>
 			<item>

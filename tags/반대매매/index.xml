@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
-		<title>반대매매 on Show Me the Money::devkuma</title>
+		<title>반대매매 on Money::devkuma</title>
 		<link>https://money.devkuma.com/tags/%EB%B0%98%EB%8C%80%EB%A7%A4%EB%A7%A4/</link>
-		<description>Recent content in 반대매매 on Show Me the Money::devkuma</description>
+		<description>Recent content in 반대매매 on Money::devkuma</description>
 		<generator>Hugo</generator>
 		<language>ko-KR</language>
 		
 		
 		
 		
-			<lastBuildDate>Mon, 01 Jun 2026 08:22:01 +0900</lastBuildDate>
+			<lastBuildDate>Tue, 09 Jun 2026 22:15:38 +0900</lastBuildDate>
 		
 			<atom:link href="https://money.devkuma.com/tags/%EB%B0%98%EB%8C%80%EB%A7%A4%EB%A7%A4/index.xml" rel="self" type="application/rss+xml" />
 			<item>
@@ -19,6 +19,13 @@
 				<pubDate>Wed, 13 May 2026 21:40:39 +0900</pubDate>
 				<guid>https://money.devkuma.com/posts/stock-deposit/</guid>
 				<description>&lt;p&gt;주식을 처음 팔아보면 이상한 순간이 온다. 분명히 매도 체결은 됐는데 은행 계좌로 바로 돈을 빼려고 하면 출금 가능 금액이 늘어나지 않는다. 앱에는 예수금, D+1, D+2, 주문가능금액 같은 말이 같이 나오니 더 헷갈린다.&lt;/p&gt;&#xA;&lt;p&gt;주식 예수금은 어렵게 보면 증권 계좌 안의 대기 자금이고, 쉽게 보면 아직 주식을 사는 데 쓰지 않은 현금이다. 다만 일반 입출금 통장 잔액과 완전히 같지는 않다. 주식 거래에는 체결일과 실제 결제일 사이의 시간이 있기 때문이다.&lt;/p&gt;&#xA;&lt;p&gt;이 글에서는 주식 예수금이 무엇인지, 왜 주식을 팔아도 바로 출금되지 않는지, 주문가능금액과 출금가능금액은 어떻게 다른지 차근차근 정리하였다. 초보자가 특히 조심해야 할 미수금과 반대매매도 함께 다룬다.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>주식 미수금 뜻과 반대매매 위험, 초보자가 꼭 확인해야 할 계좌 화면</title>
+				<link>https://money.devkuma.com/posts/stock-unpaid-balance/</link>
+				<pubDate>Tue, 09 Jun 2026 22:15:38 +0900</pubDate>
+				<guid>https://money.devkuma.com/posts/stock-unpaid-balance/</guid>
+				<description>&lt;p&gt;주식 계좌를 처음 쓰다 보면 이상한 순간이 있다. 분명 계좌에는 100만원만 넣었는데 주문 가능 금액은 200만원, 250만원처럼 더 크게 보인다. 이 숫자를 보고 &amp;ldquo;내가 살 수 있는 돈이 이만큼 있구나&amp;quot;라고 생각하면 미수금이 생길 수 있다.&lt;/p&gt;&#xA;&lt;p&gt;주식 미수금은 간단히 말해 결제일까지 채워 넣지 못한 부족한 돈이다. 주식을 살 때 매수 대금 전부를 바로 내는 것이 아니라 일부 증거금만 먼저 잡히는 경우가 있는데, 나머지 금액을 정해진 날까지 넣지 못하면 그 부족액이 미수금으로 표시된다.&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>주식 증거금 뜻과 미수 거래 위험, 반대매매 전에 꼭 알아야 할 내용</title>

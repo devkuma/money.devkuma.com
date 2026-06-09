@@ -1,18 +1,32 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
-		<title>Categories on Show Me the Money::devkuma</title>
+		<title>Categories on Money::devkuma</title>
 		<link>https://money.devkuma.com/categories/</link>
-		<description>Recent content in Categories on Show Me the Money::devkuma</description>
+		<description>Recent content in Categories on Money::devkuma</description>
 		<generator>Hugo</generator>
 		<language>ko-KR</language>
 		
 		
 		
 		
-			<lastBuildDate>Mon, 08 Jun 2026 22:18:01 +0900</lastBuildDate>
+			<lastBuildDate>Tue, 09 Jun 2026 22:25:15 +0900</lastBuildDate>
 		
 			<atom:link href="https://money.devkuma.com/categories/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>세금</title>
+				<link>https://money.devkuma.com/categories/%EC%84%B8%EA%B8%88/</link>
+				<pubDate>Tue, 09 Jun 2026 22:25:15 +0900</pubDate>
+				<guid>https://money.devkuma.com/categories/%EC%84%B8%EA%B8%88/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>주식</title>
+				<link>https://money.devkuma.com/categories/%EC%A3%BC%EC%8B%9D/</link>
+				<pubDate>Tue, 09 Jun 2026 22:15:38 +0900</pubDate>
+				<guid>https://money.devkuma.com/categories/%EC%A3%BC%EC%8B%9D/</guid>
+				<description></description>
+			</item>
 			<item>
 				<title>부동산</title>
 				<link>https://money.devkuma.com/categories/%EB%B6%80%EB%8F%99%EC%82%B0/</link>
@@ -21,24 +35,10 @@
 				<description></description>
 			</item>
 			<item>
-				<title>주식</title>
-				<link>https://money.devkuma.com/categories/%EC%A3%BC%EC%8B%9D/</link>
-				<pubDate>Mon, 08 Jun 2026 22:02:16 +0900</pubDate>
-				<guid>https://money.devkuma.com/categories/%EC%A3%BC%EC%8B%9D/</guid>
-				<description></description>
-			</item>
-			<item>
 				<title>보험</title>
 				<link>https://money.devkuma.com/categories/%EB%B3%B4%ED%97%98/</link>
 				<pubDate>Mon, 08 Jun 2026 21:46:33 +0900</pubDate>
 				<guid>https://money.devkuma.com/categories/%EB%B3%B4%ED%97%98/</guid>
-				<description></description>
-			</item>
-			<item>
-				<title>세금</title>
-				<link>https://money.devkuma.com/categories/%EC%84%B8%EA%B8%88/</link>
-				<pubDate>Mon, 08 Jun 2026 21:39:03 +0900</pubDate>
-				<guid>https://money.devkuma.com/categories/%EC%84%B8%EA%B8%88/</guid>
 				<description></description>
 			</item>
 			<item>
