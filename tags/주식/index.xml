@@ -10,7 +10,7 @@
 		
 		
 		
-			<lastBuildDate>Tue, 09 Jun 2026 22:31:16 +0900</lastBuildDate>
+			<lastBuildDate>Wed, 10 Jun 2026 23:49:28 +0900</lastBuildDate>
 		
 			<atom:link href="https://money.devkuma.com/tags/%EC%A3%BC%EC%8B%9D/index.xml" rel="self" type="application/rss+xml" />
 			<item>
@@ -40,6 +40,13 @@
 				<pubDate>Wed, 13 May 2026 21:40:39 +0900</pubDate>
 				<guid>https://money.devkuma.com/posts/stock-deposit/</guid>
 				<description>&lt;p&gt;주식을 처음 팔아보면 이상한 순간이 온다. 분명히 매도 체결은 됐는데 은행 계좌로 바로 돈을 빼려고 하면 출금 가능 금액이 늘어나지 않는다. 앱에는 예수금, D+1, D+2, 주문가능금액 같은 말이 같이 나오니 더 헷갈린다.&lt;/p&gt;&#xA;&lt;p&gt;주식 예수금은 어렵게 보면 증권 계좌 안의 대기 자금이고, 쉽게 보면 아직 주식을 사는 데 쓰지 않은 현금이다. 다만 일반 입출금 통장 잔액과 완전히 같지는 않다. 주식 거래에는 체결일과 실제 결제일 사이의 시간이 있기 때문이다.&lt;/p&gt;&#xA;&lt;p&gt;이 글에서는 주식 예수금이 무엇인지, 왜 주식을 팔아도 바로 출금되지 않는지, 주문가능금액과 출금가능금액은 어떻게 다른지 차근차근 정리하였다. 초보자가 특히 조심해야 할 미수금과 반대매매도 함께 다룬다.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>코인 vs 주식 차이, 거래시간·상하한가·가격 결정 방식 쉽게 비교하기</title>
+				<link>https://money.devkuma.com/posts/coin-vs-stock/</link>
+				<pubDate>Wed, 10 Jun 2026 23:49:28 +0900</pubDate>
+				<guid>https://money.devkuma.com/posts/coin-vs-stock/</guid>
+				<description>&lt;p&gt;코인과 주식은 모두 가격이 오르면 수익을 얻고, 가격이 내리면 손실을 보는 투자 대상이다. 스마트폰 앱으로 사고팔 수 있다는 점도 비슷하다. 그래서 처음 투자하는 사람은 코인을 주식의 다른 버전처럼 생각하기 쉽다.&lt;/p&gt;&#xA;&lt;p&gt;하지만 실제 구조는 많이 다르다. 주식은 기업의 일부를 소유하는 투자이고, 코인은 블록체인 네트워크나 디지털 자산에 투자하는 경우가 많다. 거래 시간, 상하한가, 거래소 구조, 가격을 움직이는 요인도 다르다.&lt;/p&gt;&#xA;&lt;p&gt;이 차이를 모르면 주식에서 쓰던 기준을 그대로 코인에 적용하거나, 코인 시장의 속도를 주식처럼 가볍게 생각하다가 손실을 크게 볼 수 있다. 이 글에서는 코인과 주식의 차이를 초보자 눈높이에서 정리하였다.&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>2026년 6월 투자 전략 뉴스, 주식 강세와 채권 선별 전략 핵심 정리</title>

@@ -10,9 +10,16 @@
 		
 		
 		
-			<lastBuildDate>Wed, 10 Jun 2026 23:40:49 +0900</lastBuildDate>
+			<lastBuildDate>Wed, 10 Jun 2026 23:49:28 +0900</lastBuildDate>
 		
 			<atom:link href="https://money.devkuma.com/tags/%EA%B0%80%EC%83%81%EC%9E%90%EC%82%B0/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>코인 vs 주식 차이, 거래시간·상하한가·가격 결정 방식 쉽게 비교하기</title>
+				<link>https://money.devkuma.com/posts/coin-vs-stock/</link>
+				<pubDate>Wed, 10 Jun 2026 23:49:28 +0900</pubDate>
+				<guid>https://money.devkuma.com/posts/coin-vs-stock/</guid>
+				<description>&lt;p&gt;코인과 주식은 모두 가격이 오르면 수익을 얻고, 가격이 내리면 손실을 보는 투자 대상이다. 스마트폰 앱으로 사고팔 수 있다는 점도 비슷하다. 그래서 처음 투자하는 사람은 코인을 주식의 다른 버전처럼 생각하기 쉽다.&lt;/p&gt;&#xA;&lt;p&gt;하지만 실제 구조는 많이 다르다. 주식은 기업의 일부를 소유하는 투자이고, 코인은 블록체인 네트워크나 디지털 자산에 투자하는 경우가 많다. 거래 시간, 상하한가, 거래소 구조, 가격을 움직이는 요인도 다르다.&lt;/p&gt;&#xA;&lt;p&gt;이 차이를 모르면 주식에서 쓰던 기준을 그대로 코인에 적용하거나, 코인 시장의 속도를 주식처럼 가볍게 생각하다가 손실을 크게 볼 수 있다. 이 글에서는 코인과 주식의 차이를 초보자 눈높이에서 정리하였다.&lt;/p&gt;</description>
+			</item>
 			<item>
 				<title>블록체인 기술이란? 뜻, 원리, 장단점과 활용 사례 쉽게 이해하기</title>
 				<link>https://money.devkuma.com/posts/what-is-blockchain/</link>

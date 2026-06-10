@@ -10,7 +10,7 @@
 		
 		
 		
-			<lastBuildDate>Mon, 08 Jun 2026 21:30:28 +0900</lastBuildDate>
+			<lastBuildDate>Wed, 10 Jun 2026 23:49:28 +0900</lastBuildDate>
 		
 			<atom:link href="https://money.devkuma.com/tags/%EC%A3%BC%EC%8B%9D%ED%88%AC%EC%9E%90/index.xml" rel="self" type="application/rss+xml" />
 			<item>
@@ -47,6 +47,13 @@
 				<pubDate>Sun, 24 May 2026 12:20:54 +0900</pubDate>
 				<guid>https://money.devkuma.com/posts/etf-types-inverse-leveraged-guide/</guid>
 				<description>&lt;p&gt;주식시장이 크게 오르거나 빠질 때마다 인버스 ETF와 레버리지 ETF가 검색어에 자주 오른다. 시장이 내려갈 것 같으면 인버스, 시장이 강하게 오를 것 같으면 레버리지에 관심이 생긴다. 이름만 보면 방향만 맞히면 쉽게 수익을 낼 수 있을 것 같지만, 실제 구조는 생각보다 까다롭다.&lt;/p&gt;&#xA;&lt;p&gt;인버스와 레버리지는 모두 기초지수의 &amp;ldquo;하루 수익률&amp;quot;을 기준으로 움직이도록 설계된 파생형 ETF다. 여기서 중요한 말은 하루 수익률이다. 한 달이나 1년 동안 지수가 10% 올랐다고 해서 레버리지 ETF가 정확히 20% 오르는 구조가 아니다. 매일 수익률을 다시 계산하기 때문에 시장이 오르락내리락하면 예상과 다른 결과가 나올 수 있다.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>코인 vs 주식 차이, 거래시간·상하한가·가격 결정 방식 쉽게 비교하기</title>
+				<link>https://money.devkuma.com/posts/coin-vs-stock/</link>
+				<pubDate>Wed, 10 Jun 2026 23:49:28 +0900</pubDate>
+				<guid>https://money.devkuma.com/posts/coin-vs-stock/</guid>
+				<description>&lt;p&gt;코인과 주식은 모두 가격이 오르면 수익을 얻고, 가격이 내리면 손실을 보는 투자 대상이다. 스마트폰 앱으로 사고팔 수 있다는 점도 비슷하다. 그래서 처음 투자하는 사람은 코인을 주식의 다른 버전처럼 생각하기 쉽다.&lt;/p&gt;&#xA;&lt;p&gt;하지만 실제 구조는 많이 다르다. 주식은 기업의 일부를 소유하는 투자이고, 코인은 블록체인 네트워크나 디지털 자산에 투자하는 경우가 많다. 거래 시간, 상하한가, 거래소 구조, 가격을 움직이는 요인도 다르다.&lt;/p&gt;&#xA;&lt;p&gt;이 차이를 모르면 주식에서 쓰던 기준을 그대로 코인에 적용하거나, 코인 시장의 속도를 주식처럼 가볍게 생각하다가 손실을 크게 볼 수 있다. 이 글에서는 코인과 주식의 차이를 초보자 눈높이에서 정리하였다.&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>ROE, ROA, 영업이익률 차이와 함께 보는 법, 초보 투자자가 헷갈리지 않는 기준</title>
