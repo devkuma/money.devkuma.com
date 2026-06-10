@@ -10,9 +10,44 @@
 		
 		
 		
-			<lastBuildDate>Wed, 10 Jun 2026 09:28:02 +0900</lastBuildDate>
+			<lastBuildDate>Wed, 10 Jun 2026 09:48:20 +0900</lastBuildDate>
 		
 			<atom:link href="https://money.devkuma.com/tags/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>IRP</title>
+				<link>https://money.devkuma.com/tags/irp/</link>
+				<pubDate>Wed, 10 Jun 2026 09:48:20 +0900</pubDate>
+				<guid>https://money.devkuma.com/tags/irp/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>기타소득세</title>
+				<link>https://money.devkuma.com/tags/%EA%B8%B0%ED%83%80%EC%86%8C%EB%93%9D%EC%84%B8/</link>
+				<pubDate>Wed, 10 Jun 2026 09:48:20 +0900</pubDate>
+				<guid>https://money.devkuma.com/tags/%EA%B8%B0%ED%83%80%EC%86%8C%EB%93%9D%EC%84%B8/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>연금소득세</title>
+				<link>https://money.devkuma.com/tags/%EC%97%B0%EA%B8%88%EC%86%8C%EB%93%9D%EC%84%B8/</link>
+				<pubDate>Wed, 10 Jun 2026 09:48:20 +0900</pubDate>
+				<guid>https://money.devkuma.com/tags/%EC%97%B0%EA%B8%88%EC%86%8C%EB%93%9D%EC%84%B8/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>중도인출</title>
+				<link>https://money.devkuma.com/tags/%EC%A4%91%EB%8F%84%EC%9D%B8%EC%B6%9C/</link>
+				<pubDate>Wed, 10 Jun 2026 09:48:20 +0900</pubDate>
+				<guid>https://money.devkuma.com/tags/%EC%A4%91%EB%8F%84%EC%9D%B8%EC%B6%9C/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>퇴직연금</title>
+				<link>https://money.devkuma.com/tags/%ED%87%B4%EC%A7%81%EC%97%B0%EA%B8%88/</link>
+				<pubDate>Wed, 10 Jun 2026 09:48:20 +0900</pubDate>
+				<guid>https://money.devkuma.com/tags/%ED%87%B4%EC%A7%81%EC%97%B0%EA%B8%88/</guid>
+				<description></description>
+			</item>
 			<item>
 				<title>금리인하요구권</title>
 				<link>https://money.devkuma.com/tags/%EA%B8%88%EB%A6%AC%EC%9D%B8%ED%95%98%EC%9A%94%EA%B5%AC%EA%B6%8C/</link>
@@ -886,13 +921,6 @@
 				<link>https://money.devkuma.com/tags/etf/</link>
 				<pubDate>Mon, 08 Jun 2026 22:02:16 +0900</pubDate>
 				<guid>https://money.devkuma.com/tags/etf/</guid>
-				<description></description>
-			</item>
-			<item>
-				<title>IRP</title>
-				<link>https://money.devkuma.com/tags/irp/</link>
-				<pubDate>Mon, 08 Jun 2026 22:02:16 +0900</pubDate>
-				<guid>https://money.devkuma.com/tags/irp/</guid>
 				<description></description>
 			</item>
 			<item>
@@ -3406,13 +3434,6 @@
 				<link>https://money.devkuma.com/tags/%EC%A3%BC%ED%83%9D%EC%97%B0%EA%B8%88/</link>
 				<pubDate>Thu, 28 May 2026 09:00:00 +0900</pubDate>
 				<guid>https://money.devkuma.com/tags/%EC%A3%BC%ED%83%9D%EC%97%B0%EA%B8%88/</guid>
-				<description></description>
-			</item>
-			<item>
-				<title>퇴직연금</title>
-				<link>https://money.devkuma.com/tags/%ED%87%B4%EC%A7%81%EC%97%B0%EA%B8%88/</link>
-				<pubDate>Thu, 28 May 2026 09:00:00 +0900</pubDate>
-				<guid>https://money.devkuma.com/tags/%ED%87%B4%EC%A7%81%EC%97%B0%EA%B8%88/</guid>
 				<description></description>
 			</item>
 			<item>
