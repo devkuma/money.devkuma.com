@@ -10,9 +10,16 @@
 		
 		
 		
-			<lastBuildDate>Wed, 10 Jun 2026 21:58:44 +0900</lastBuildDate>
+			<lastBuildDate>Wed, 10 Jun 2026 22:13:03 +0900</lastBuildDate>
 		
 			<atom:link href="https://money.devkuma.com/categories/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>코인</title>
+				<link>https://money.devkuma.com/categories/%EC%BD%94%EC%9D%B8/</link>
+				<pubDate>Wed, 10 Jun 2026 22:13:03 +0900</pubDate>
+				<guid>https://money.devkuma.com/categories/%EC%BD%94%EC%9D%B8/</guid>
+				<description></description>
+			</item>
 			<item>
 				<title>세금</title>
 				<link>https://money.devkuma.com/categories/%EC%84%B8%EA%B8%88/</link>
@@ -67,13 +74,6 @@
 				<link>https://money.devkuma.com/categories/%EC%B1%84%EA%B6%8C/</link>
 				<pubDate>Fri, 05 Jun 2026 23:51:44 +0900</pubDate>
 				<guid>https://money.devkuma.com/categories/%EC%B1%84%EA%B6%8C/</guid>
-				<description></description>
-			</item>
-			<item>
-				<title>코인</title>
-				<link>https://money.devkuma.com/categories/%EC%BD%94%EC%9D%B8/</link>
-				<pubDate>Thu, 04 Jun 2026 21:14:26 +0900</pubDate>
-				<guid>https://money.devkuma.com/categories/%EC%BD%94%EC%9D%B8/</guid>
 				<description></description>
 			</item>
 			<item>

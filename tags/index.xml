@@ -10,9 +10,58 @@
 		
 		
 		
-			<lastBuildDate>Wed, 10 Jun 2026 21:58:44 +0900</lastBuildDate>
+			<lastBuildDate>Wed, 10 Jun 2026 22:13:03 +0900</lastBuildDate>
 		
 			<atom:link href="https://money.devkuma.com/tags/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>가상자산</title>
+				<link>https://money.devkuma.com/tags/%EA%B0%80%EC%83%81%EC%9E%90%EC%82%B0/</link>
+				<pubDate>Wed, 10 Jun 2026 22:13:03 +0900</pubDate>
+				<guid>https://money.devkuma.com/tags/%EA%B0%80%EC%83%81%EC%9E%90%EC%82%B0/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>비트코인</title>
+				<link>https://money.devkuma.com/tags/%EB%B9%84%ED%8A%B8%EC%BD%94%EC%9D%B8/</link>
+				<pubDate>Wed, 10 Jun 2026 22:13:03 +0900</pubDate>
+				<guid>https://money.devkuma.com/tags/%EB%B9%84%ED%8A%B8%EC%BD%94%EC%9D%B8/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>비트코인가격</title>
+				<link>https://money.devkuma.com/tags/%EB%B9%84%ED%8A%B8%EC%BD%94%EC%9D%B8%EA%B0%80%EA%B2%A9/</link>
+				<pubDate>Wed, 10 Jun 2026 22:13:03 +0900</pubDate>
+				<guid>https://money.devkuma.com/tags/%EB%B9%84%ED%8A%B8%EC%BD%94%EC%9D%B8%EA%B0%80%EA%B2%A9/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>알트코인</title>
+				<link>https://money.devkuma.com/tags/%EC%95%8C%ED%8A%B8%EC%BD%94%EC%9D%B8/</link>
+				<pubDate>Wed, 10 Jun 2026 22:13:03 +0900</pubDate>
+				<guid>https://money.devkuma.com/tags/%EC%95%8C%ED%8A%B8%EC%BD%94%EC%9D%B8/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>암호화폐</title>
+				<link>https://money.devkuma.com/tags/%EC%95%94%ED%98%B8%ED%99%94%ED%8F%90/</link>
+				<pubDate>Wed, 10 Jun 2026 22:13:03 +0900</pubDate>
+				<guid>https://money.devkuma.com/tags/%EC%95%94%ED%98%B8%ED%99%94%ED%8F%90/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>코인시장</title>
+				<link>https://money.devkuma.com/tags/%EC%BD%94%EC%9D%B8%EC%8B%9C%EC%9E%A5/</link>
+				<pubDate>Wed, 10 Jun 2026 22:13:03 +0900</pubDate>
+				<guid>https://money.devkuma.com/tags/%EC%BD%94%EC%9D%B8%EC%8B%9C%EC%9E%A5/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>코인투자</title>
+				<link>https://money.devkuma.com/tags/%EC%BD%94%EC%9D%B8%ED%88%AC%EC%9E%90/</link>
+				<pubDate>Wed, 10 Jun 2026 22:13:03 +0900</pubDate>
+				<guid>https://money.devkuma.com/tags/%EC%BD%94%EC%9D%B8%ED%88%AC%EC%9E%90/</guid>
+				<description></description>
+			</item>
 			<item>
 				<title>경정청구</title>
 				<link>https://money.devkuma.com/tags/%EA%B2%BD%EC%A0%95%EC%B2%AD%EA%B5%AC/</link>
@@ -1876,27 +1925,6 @@
 				<description></description>
 			</item>
 			<item>
-				<title>알트코인</title>
-				<link>https://money.devkuma.com/tags/%EC%95%8C%ED%8A%B8%EC%BD%94%EC%9D%B8/</link>
-				<pubDate>Thu, 04 Jun 2026 21:14:26 +0900</pubDate>
-				<guid>https://money.devkuma.com/tags/%EC%95%8C%ED%8A%B8%EC%BD%94%EC%9D%B8/</guid>
-				<description></description>
-			</item>
-			<item>
-				<title>암호화폐</title>
-				<link>https://money.devkuma.com/tags/%EC%95%94%ED%98%B8%ED%99%94%ED%8F%90/</link>
-				<pubDate>Thu, 04 Jun 2026 21:14:26 +0900</pubDate>
-				<guid>https://money.devkuma.com/tags/%EC%95%94%ED%98%B8%ED%99%94%ED%8F%90/</guid>
-				<description></description>
-			</item>
-			<item>
-				<title>코인투자</title>
-				<link>https://money.devkuma.com/tags/%EC%BD%94%EC%9D%B8%ED%88%AC%EC%9E%90/</link>
-				<pubDate>Thu, 04 Jun 2026 21:14:26 +0900</pubDate>
-				<guid>https://money.devkuma.com/tags/%EC%BD%94%EC%9D%B8%ED%88%AC%EC%9E%90/</guid>
-				<description></description>
-			</item>
-			<item>
 				<title>4대보험</title>
 				<link>https://money.devkuma.com/tags/4%EB%8C%80%EB%B3%B4%ED%97%98/</link>
 				<pubDate>Thu, 04 Jun 2026 08:52:02 +0900</pubDate>
@@ -2527,13 +2555,6 @@
 				<description></description>
 			</item>
 			<item>
-				<title>가상자산</title>
-				<link>https://money.devkuma.com/tags/%EA%B0%80%EC%83%81%EC%9E%90%EC%82%B0/</link>
-				<pubDate>Mon, 01 Jun 2026 21:41:25 +0900</pubDate>
-				<guid>https://money.devkuma.com/tags/%EA%B0%80%EC%83%81%EC%9E%90%EC%82%B0/</guid>
-				<description></description>
-			</item>
-			<item>
 				<title>디지털결제</title>
 				<link>https://money.devkuma.com/tags/%EB%94%94%EC%A7%80%ED%84%B8%EA%B2%B0%EC%A0%9C/</link>
 				<pubDate>Mon, 01 Jun 2026 21:41:25 +0900</pubDate>
@@ -2888,13 +2909,6 @@
 				<link>https://money.devkuma.com/tags/%EB%94%94%ED%8C%8C%EC%9D%B4/</link>
 				<pubDate>Mon, 01 Jun 2026 00:04:49 +0900</pubDate>
 				<guid>https://money.devkuma.com/tags/%EB%94%94%ED%8C%8C%EC%9D%B4/</guid>
-				<description></description>
-			</item>
-			<item>
-				<title>비트코인</title>
-				<link>https://money.devkuma.com/tags/%EB%B9%84%ED%8A%B8%EC%BD%94%EC%9D%B8/</link>
-				<pubDate>Mon, 01 Jun 2026 00:04:49 +0900</pubDate>
-				<guid>https://money.devkuma.com/tags/%EB%B9%84%ED%8A%B8%EC%BD%94%EC%9D%B8/</guid>
 				<description></description>
 			</item>
 			<item>
