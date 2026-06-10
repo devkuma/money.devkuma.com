@@ -10,21 +10,189 @@
 		
 		
 		
-			<lastBuildDate>Wed, 10 Jun 2026 22:13:03 +0900</lastBuildDate>
+			<lastBuildDate>Wed, 10 Jun 2026 23:40:49 +0900</lastBuildDate>
 		
 			<atom:link href="https://money.devkuma.com/tags/index.xml" rel="self" type="application/rss+xml" />
 			<item>
 				<title>가상자산</title>
 				<link>https://money.devkuma.com/tags/%EA%B0%80%EC%83%81%EC%9E%90%EC%82%B0/</link>
-				<pubDate>Wed, 10 Jun 2026 22:13:03 +0900</pubDate>
+				<pubDate>Wed, 10 Jun 2026 23:40:49 +0900</pubDate>
 				<guid>https://money.devkuma.com/tags/%EA%B0%80%EC%83%81%EC%9E%90%EC%82%B0/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>분산원장</title>
+				<link>https://money.devkuma.com/tags/%EB%B6%84%EC%82%B0%EC%9B%90%EC%9E%A5/</link>
+				<pubDate>Wed, 10 Jun 2026 23:40:49 +0900</pubDate>
+				<guid>https://money.devkuma.com/tags/%EB%B6%84%EC%82%B0%EC%9B%90%EC%9E%A5/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>블록체인</title>
+				<link>https://money.devkuma.com/tags/%EB%B8%94%EB%A1%9D%EC%B2%B4%EC%9D%B8/</link>
+				<pubDate>Wed, 10 Jun 2026 23:40:49 +0900</pubDate>
+				<guid>https://money.devkuma.com/tags/%EB%B8%94%EB%A1%9D%EC%B2%B4%EC%9D%B8/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>비트코인</title>
 				<link>https://money.devkuma.com/tags/%EB%B9%84%ED%8A%B8%EC%BD%94%EC%9D%B8/</link>
-				<pubDate>Wed, 10 Jun 2026 22:13:03 +0900</pubDate>
+				<pubDate>Wed, 10 Jun 2026 23:40:49 +0900</pubDate>
 				<guid>https://money.devkuma.com/tags/%EB%B9%84%ED%8A%B8%EC%BD%94%EC%9D%B8/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>스마트컨트랙트</title>
+				<link>https://money.devkuma.com/tags/%EC%8A%A4%EB%A7%88%ED%8A%B8%EC%BB%A8%ED%8A%B8%EB%9E%99%ED%8A%B8/</link>
+				<pubDate>Wed, 10 Jun 2026 23:40:49 +0900</pubDate>
+				<guid>https://money.devkuma.com/tags/%EC%8A%A4%EB%A7%88%ED%8A%B8%EC%BB%A8%ED%8A%B8%EB%9E%99%ED%8A%B8/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>암호화폐</title>
+				<link>https://money.devkuma.com/tags/%EC%95%94%ED%98%B8%ED%99%94%ED%8F%90/</link>
+				<pubDate>Wed, 10 Jun 2026 23:40:49 +0900</pubDate>
+				<guid>https://money.devkuma.com/tags/%EC%95%94%ED%98%B8%ED%99%94%ED%8F%90/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>이더리움</title>
+				<link>https://money.devkuma.com/tags/%EC%9D%B4%EB%8D%94%EB%A6%AC%EC%9B%80/</link>
+				<pubDate>Wed, 10 Jun 2026 23:40:49 +0900</pubDate>
+				<guid>https://money.devkuma.com/tags/%EC%9D%B4%EB%8D%94%EB%A6%AC%EC%9B%80/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>합의알고리즘</title>
+				<link>https://money.devkuma.com/tags/%ED%95%A9%EC%9D%98%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/</link>
+				<pubDate>Wed, 10 Jun 2026 23:40:49 +0900</pubDate>
+				<guid>https://money.devkuma.com/tags/%ED%95%A9%EC%9D%98%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>해시</title>
+				<link>https://money.devkuma.com/tags/%ED%95%B4%EC%8B%9C/</link>
+				<pubDate>Wed, 10 Jun 2026 23:40:49 +0900</pubDate>
+				<guid>https://money.devkuma.com/tags/%ED%95%B4%EC%8B%9C/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>CBDC</title>
+				<link>https://money.devkuma.com/tags/cbdc/</link>
+				<pubDate>Wed, 10 Jun 2026 23:32:55 +0900</pubDate>
+				<guid>https://money.devkuma.com/tags/cbdc/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>USDC</title>
+				<link>https://money.devkuma.com/tags/usdc/</link>
+				<pubDate>Wed, 10 Jun 2026 23:32:55 +0900</pubDate>
+				<guid>https://money.devkuma.com/tags/usdc/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>USDT</title>
+				<link>https://money.devkuma.com/tags/usdt/</link>
+				<pubDate>Wed, 10 Jun 2026 23:32:55 +0900</pubDate>
+				<guid>https://money.devkuma.com/tags/usdt/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>디지털화폐</title>
+				<link>https://money.devkuma.com/tags/%EB%94%94%EC%A7%80%ED%84%B8%ED%99%94%ED%8F%90/</link>
+				<pubDate>Wed, 10 Jun 2026 23:32:55 +0900</pubDate>
+				<guid>https://money.devkuma.com/tags/%EB%94%94%EC%A7%80%ED%84%B8%ED%99%94%ED%8F%90/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>스테이블코인</title>
+				<link>https://money.devkuma.com/tags/%EC%8A%A4%ED%85%8C%EC%9D%B4%EB%B8%94%EC%BD%94%EC%9D%B8/</link>
+				<pubDate>Wed, 10 Jun 2026 23:32:55 +0900</pubDate>
+				<guid>https://money.devkuma.com/tags/%EC%8A%A4%ED%85%8C%EC%9D%B4%EB%B8%94%EC%BD%94%EC%9D%B8/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>원화스테이블코인</title>
+				<link>https://money.devkuma.com/tags/%EC%9B%90%ED%99%94%EC%8A%A4%ED%85%8C%EC%9D%B4%EB%B8%94%EC%BD%94%EC%9D%B8/</link>
+				<pubDate>Wed, 10 Jun 2026 23:32:55 +0900</pubDate>
+				<guid>https://money.devkuma.com/tags/%EC%9B%90%ED%99%94%EC%8A%A4%ED%85%8C%EC%9D%B4%EB%B8%94%EC%BD%94%EC%9D%B8/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>중앙은행디지털화폐</title>
+				<link>https://money.devkuma.com/tags/%EC%A4%91%EC%95%99%EC%9D%80%ED%96%89%EB%94%94%EC%A7%80%ED%84%B8%ED%99%94%ED%8F%90/</link>
+				<pubDate>Wed, 10 Jun 2026 23:32:55 +0900</pubDate>
+				<guid>https://money.devkuma.com/tags/%EC%A4%91%EC%95%99%EC%9D%80%ED%96%89%EB%94%94%EC%A7%80%ED%84%B8%ED%99%94%ED%8F%90/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>디파이</title>
+				<link>https://money.devkuma.com/tags/%EB%94%94%ED%8C%8C%EC%9D%B4/</link>
+				<pubDate>Wed, 10 Jun 2026 23:28:40 +0900</pubDate>
+				<guid>https://money.devkuma.com/tags/%EB%94%94%ED%8C%8C%EC%9D%B4/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>코인</title>
+				<link>https://money.devkuma.com/tags/%EC%BD%94%EC%9D%B8/</link>
+				<pubDate>Wed, 10 Jun 2026 23:28:40 +0900</pubDate>
+				<guid>https://money.devkuma.com/tags/%EC%BD%94%EC%9D%B8/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>금융소득</title>
+				<link>https://money.devkuma.com/tags/%EA%B8%88%EC%9C%B5%EC%86%8C%EB%93%9D/</link>
+				<pubDate>Wed, 10 Jun 2026 22:48:26 +0900</pubDate>
+				<guid>https://money.devkuma.com/tags/%EA%B8%88%EC%9C%B5%EC%86%8C%EB%93%9D/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>분리과세소득</title>
+				<link>https://money.devkuma.com/tags/%EB%B6%84%EB%A6%AC%EA%B3%BC%EC%84%B8%EC%86%8C%EB%93%9D/</link>
+				<pubDate>Wed, 10 Jun 2026 22:48:26 +0900</pubDate>
+				<guid>https://money.devkuma.com/tags/%EB%B6%84%EB%A6%AC%EA%B3%BC%EC%84%B8%EC%86%8C%EB%93%9D/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>비과세소득</title>
+				<link>https://money.devkuma.com/tags/%EB%B9%84%EA%B3%BC%EC%84%B8%EC%86%8C%EB%93%9D/</link>
+				<pubDate>Wed, 10 Jun 2026 22:48:26 +0900</pubDate>
+				<guid>https://money.devkuma.com/tags/%EB%B9%84%EA%B3%BC%EC%84%B8%EC%86%8C%EB%93%9D/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>소득공제</title>
+				<link>https://money.devkuma.com/tags/%EC%86%8C%EB%93%9D%EA%B3%B5%EC%A0%9C/</link>
+				<pubDate>Wed, 10 Jun 2026 22:48:26 +0900</pubDate>
+				<guid>https://money.devkuma.com/tags/%EC%86%8C%EB%93%9D%EA%B3%B5%EC%A0%9C/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>연말정산</title>
+				<link>https://money.devkuma.com/tags/%EC%97%B0%EB%A7%90%EC%A0%95%EC%82%B0/</link>
+				<pubDate>Wed, 10 Jun 2026 22:48:26 +0900</pubDate>
+				<guid>https://money.devkuma.com/tags/%EC%97%B0%EB%A7%90%EC%A0%95%EC%82%B0/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>원천징수</title>
+				<link>https://money.devkuma.com/tags/%EC%9B%90%EC%B2%9C%EC%A7%95%EC%88%98/</link>
+				<pubDate>Wed, 10 Jun 2026 22:48:26 +0900</pubDate>
+				<guid>https://money.devkuma.com/tags/%EC%9B%90%EC%B2%9C%EC%A7%95%EC%88%98/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>절세</title>
+				<link>https://money.devkuma.com/tags/%EC%A0%88%EC%84%B8/</link>
+				<pubDate>Wed, 10 Jun 2026 22:48:26 +0900</pubDate>
+				<guid>https://money.devkuma.com/tags/%EC%A0%88%EC%84%B8/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>종합소득세</title>
+				<link>https://money.devkuma.com/tags/%EC%A2%85%ED%95%A9%EC%86%8C%EB%93%9D%EC%84%B8/</link>
+				<pubDate>Wed, 10 Jun 2026 22:48:26 +0900</pubDate>
+				<guid>https://money.devkuma.com/tags/%EC%A2%85%ED%95%A9%EC%86%8C%EB%93%9D%EC%84%B8/</guid>
 				<description></description>
 			</item>
 			<item>
@@ -39,13 +207,6 @@
 				<link>https://money.devkuma.com/tags/%EC%95%8C%ED%8A%B8%EC%BD%94%EC%9D%B8/</link>
 				<pubDate>Wed, 10 Jun 2026 22:13:03 +0900</pubDate>
 				<guid>https://money.devkuma.com/tags/%EC%95%8C%ED%8A%B8%EC%BD%94%EC%9D%B8/</guid>
-				<description></description>
-			</item>
-			<item>
-				<title>암호화폐</title>
-				<link>https://money.devkuma.com/tags/%EC%95%94%ED%98%B8%ED%99%94%ED%8F%90/</link>
-				<pubDate>Wed, 10 Jun 2026 22:13:03 +0900</pubDate>
-				<guid>https://money.devkuma.com/tags/%EC%95%94%ED%98%B8%ED%99%94%ED%8F%90/</guid>
 				<description></description>
 			</item>
 			<item>
@@ -67,13 +228,6 @@
 				<link>https://money.devkuma.com/tags/%EA%B2%BD%EC%A0%95%EC%B2%AD%EA%B5%AC/</link>
 				<pubDate>Wed, 10 Jun 2026 21:58:44 +0900</pubDate>
 				<guid>https://money.devkuma.com/tags/%EA%B2%BD%EC%A0%95%EC%B2%AD%EA%B5%AC/</guid>
-				<description></description>
-			</item>
-			<item>
-				<title>연말정산</title>
-				<link>https://money.devkuma.com/tags/%EC%97%B0%EB%A7%90%EC%A0%95%EC%82%B0/</link>
-				<pubDate>Wed, 10 Jun 2026 21:58:44 +0900</pubDate>
-				<guid>https://money.devkuma.com/tags/%EC%97%B0%EB%A7%90%EC%A0%95%EC%82%B0/</guid>
 				<description></description>
 			</item>
 			<item>
@@ -550,13 +704,6 @@
 				<link>https://money.devkuma.com/tags/%EC%84%B8%EA%B8%88/</link>
 				<pubDate>Tue, 09 Jun 2026 23:49:32 +0900</pubDate>
 				<guid>https://money.devkuma.com/tags/%EC%84%B8%EA%B8%88/</guid>
-				<description></description>
-			</item>
-			<item>
-				<title>절세</title>
-				<link>https://money.devkuma.com/tags/%EC%A0%88%EC%84%B8/</link>
-				<pubDate>Tue, 09 Jun 2026 23:49:32 +0900</pubDate>
-				<guid>https://money.devkuma.com/tags/%EC%A0%88%EC%84%B8/</guid>
 				<description></description>
 			</item>
 			<item>
@@ -1162,20 +1309,6 @@
 				<description></description>
 			</item>
 			<item>
-				<title>원천징수</title>
-				<link>https://money.devkuma.com/tags/%EC%9B%90%EC%B2%9C%EC%A7%95%EC%88%98/</link>
-				<pubDate>Mon, 08 Jun 2026 21:39:03 +0900</pubDate>
-				<guid>https://money.devkuma.com/tags/%EC%9B%90%EC%B2%9C%EC%A7%95%EC%88%98/</guid>
-				<description></description>
-			</item>
-			<item>
-				<title>종합소득세</title>
-				<link>https://money.devkuma.com/tags/%EC%A2%85%ED%95%A9%EC%86%8C%EB%93%9D%EC%84%B8/</link>
-				<pubDate>Mon, 08 Jun 2026 21:39:03 +0900</pubDate>
-				<guid>https://money.devkuma.com/tags/%EC%A2%85%ED%95%A9%EC%86%8C%EB%93%9D%EC%84%B8/</guid>
-				<description></description>
-			</item>
-			<item>
 				<title>프리랜서</title>
 				<link>https://money.devkuma.com/tags/%ED%94%84%EB%A6%AC%EB%9E%9C%EC%84%9C/</link>
 				<pubDate>Mon, 08 Jun 2026 21:39:03 +0900</pubDate>
@@ -1694,6 +1827,13 @@
 				<description></description>
 			</item>
 			<item>
+				<title>동거요건</title>
+				<link>https://money.devkuma.com/tags/%EB%8F%99%EA%B1%B0%EC%9A%94%EA%B1%B4/</link>
+				<pubDate>Thu, 04 Jun 2026 22:12:52 +0900</pubDate>
+				<guid>https://money.devkuma.com/tags/%EB%8F%99%EA%B1%B0%EC%9A%94%EA%B1%B4/</guid>
+				<description></description>
+			</item>
+			<item>
 				<title>부양가족공제</title>
 				<link>https://money.devkuma.com/tags/%EB%B6%80%EC%96%91%EA%B0%80%EC%A1%B1%EA%B3%B5%EC%A0%9C/</link>
 				<pubDate>Thu, 04 Jun 2026 22:12:52 +0900</pubDate>
@@ -1747,13 +1887,6 @@
 				<link>https://money.devkuma.com/tags/%EC%9E%84%EB%8C%80%EC%B0%A8%EA%B3%84%EC%95%BD%EC%84%9C/</link>
 				<pubDate>Thu, 04 Jun 2026 22:08:15 +0900</pubDate>
 				<guid>https://money.devkuma.com/tags/%EC%9E%84%EB%8C%80%EC%B0%A8%EA%B3%84%EC%95%BD%EC%84%9C/</guid>
-				<description></description>
-			</item>
-			<item>
-				<title>소득공제</title>
-				<link>https://money.devkuma.com/tags/%EC%86%8C%EB%93%9D%EA%B3%B5%EC%A0%9C/</link>
-				<pubDate>Thu, 04 Jun 2026 21:35:30 +0900</pubDate>
-				<guid>https://money.devkuma.com/tags/%EC%86%8C%EB%93%9D%EA%B3%B5%EC%A0%9C/</guid>
 				<description></description>
 			</item>
 			<item>
@@ -2443,13 +2576,6 @@
 				<description></description>
 			</item>
 			<item>
-				<title>CBDC</title>
-				<link>https://money.devkuma.com/tags/cbdc/</link>
-				<pubDate>Mon, 01 Jun 2026 21:48:57 +0900</pubDate>
-				<guid>https://money.devkuma.com/tags/cbdc/</guid>
-				<description></description>
-			</item>
-			<item>
 				<title>가상자산2단계법</title>
 				<link>https://money.devkuma.com/tags/%EA%B0%80%EC%83%81%EC%9E%90%EC%82%B02%EB%8B%A8%EA%B3%84%EB%B2%95/</link>
 				<pubDate>Mon, 01 Jun 2026 21:48:57 +0900</pubDate>
@@ -2457,31 +2583,10 @@
 				<description></description>
 			</item>
 			<item>
-				<title>디지털화폐</title>
-				<link>https://money.devkuma.com/tags/%EB%94%94%EC%A7%80%ED%84%B8%ED%99%94%ED%8F%90/</link>
-				<pubDate>Mon, 01 Jun 2026 21:48:57 +0900</pubDate>
-				<guid>https://money.devkuma.com/tags/%EB%94%94%EC%A7%80%ED%84%B8%ED%99%94%ED%8F%90/</guid>
-				<description></description>
-			</item>
-			<item>
-				<title>블록체인</title>
-				<link>https://money.devkuma.com/tags/%EB%B8%94%EB%A1%9D%EC%B2%B4%EC%9D%B8/</link>
-				<pubDate>Mon, 01 Jun 2026 21:48:57 +0900</pubDate>
-				<guid>https://money.devkuma.com/tags/%EB%B8%94%EB%A1%9D%EC%B2%B4%EC%9D%B8/</guid>
-				<description></description>
-			</item>
-			<item>
 				<title>예금토큰</title>
 				<link>https://money.devkuma.com/tags/%EC%98%88%EA%B8%88%ED%86%A0%ED%81%B0/</link>
 				<pubDate>Mon, 01 Jun 2026 21:48:57 +0900</pubDate>
 				<guid>https://money.devkuma.com/tags/%EC%98%88%EA%B8%88%ED%86%A0%ED%81%B0/</guid>
-				<description></description>
-			</item>
-			<item>
-				<title>원화스테이블코인</title>
-				<link>https://money.devkuma.com/tags/%EC%9B%90%ED%99%94%EC%8A%A4%ED%85%8C%EC%9D%B4%EB%B8%94%EC%BD%94%EC%9D%B8/</link>
-				<pubDate>Mon, 01 Jun 2026 21:48:57 +0900</pubDate>
-				<guid>https://money.devkuma.com/tags/%EC%9B%90%ED%99%94%EC%8A%A4%ED%85%8C%EC%9D%B4%EB%B8%94%EC%BD%94%EC%9D%B8/</guid>
 				<description></description>
 			</item>
 			<item>
@@ -2541,13 +2646,6 @@
 				<description></description>
 			</item>
 			<item>
-				<title>스테이블코인</title>
-				<link>https://money.devkuma.com/tags/%EC%8A%A4%ED%85%8C%EC%9D%B4%EB%B8%94%EC%BD%94%EC%9D%B8/</link>
-				<pubDate>Mon, 01 Jun 2026 21:45:43 +0900</pubDate>
-				<guid>https://money.devkuma.com/tags/%EC%8A%A4%ED%85%8C%EC%9D%B4%EB%B8%94%EC%BD%94%EC%9D%B8/</guid>
-				<description></description>
-			</item>
-			<item>
 				<title>RWA</title>
 				<link>https://money.devkuma.com/tags/rwa/</link>
 				<pubDate>Mon, 01 Jun 2026 21:41:25 +0900</pubDate>
@@ -2559,13 +2657,6 @@
 				<link>https://money.devkuma.com/tags/%EB%94%94%EC%A7%80%ED%84%B8%EA%B2%B0%EC%A0%9C/</link>
 				<pubDate>Mon, 01 Jun 2026 21:41:25 +0900</pubDate>
 				<guid>https://money.devkuma.com/tags/%EB%94%94%EC%A7%80%ED%84%B8%EA%B2%B0%EC%A0%9C/</guid>
-				<description></description>
-			</item>
-			<item>
-				<title>스마트컨트랙트</title>
-				<link>https://money.devkuma.com/tags/%EC%8A%A4%EB%A7%88%ED%8A%B8%EC%BB%A8%ED%8A%B8%EB%9E%99%ED%8A%B8/</link>
-				<pubDate>Mon, 01 Jun 2026 21:41:25 +0900</pubDate>
-				<guid>https://money.devkuma.com/tags/%EC%8A%A4%EB%A7%88%ED%8A%B8%EC%BB%A8%ED%8A%B8%EB%9E%99%ED%8A%B8/</guid>
 				<description></description>
 			</item>
 			<item>
@@ -2870,20 +2961,6 @@
 				<description></description>
 			</item>
 			<item>
-				<title>USDC</title>
-				<link>https://money.devkuma.com/tags/usdc/</link>
-				<pubDate>Mon, 01 Jun 2026 00:07:45 +0900</pubDate>
-				<guid>https://money.devkuma.com/tags/usdc/</guid>
-				<description></description>
-			</item>
-			<item>
-				<title>USDT</title>
-				<link>https://money.devkuma.com/tags/usdt/</link>
-				<pubDate>Mon, 01 Jun 2026 00:07:45 +0900</pubDate>
-				<guid>https://money.devkuma.com/tags/usdt/</guid>
-				<description></description>
-			</item>
-			<item>
 				<title>디페깅</title>
 				<link>https://money.devkuma.com/tags/%EB%94%94%ED%8E%98%EA%B9%85/</link>
 				<pubDate>Mon, 01 Jun 2026 00:07:45 +0900</pubDate>
@@ -2905,13 +2982,6 @@
 				<description></description>
 			</item>
 			<item>
-				<title>디파이</title>
-				<link>https://money.devkuma.com/tags/%EB%94%94%ED%8C%8C%EC%9D%B4/</link>
-				<pubDate>Mon, 01 Jun 2026 00:04:49 +0900</pubDate>
-				<guid>https://money.devkuma.com/tags/%EB%94%94%ED%8C%8C%EC%9D%B4/</guid>
-				<description></description>
-			</item>
-			<item>
 				<title>비트코인도미넌스</title>
 				<link>https://money.devkuma.com/tags/%EB%B9%84%ED%8A%B8%EC%BD%94%EC%9D%B8%EB%8F%84%EB%AF%B8%EB%84%8C%EC%8A%A4/</link>
 				<pubDate>Mon, 01 Jun 2026 00:04:49 +0900</pubDate>
@@ -2930,13 +3000,6 @@
 				<link>https://money.devkuma.com/tags/%EC%95%8C%ED%8A%B8%EC%BD%94%EC%9D%B8%EC%8B%9C%EC%A6%8C/</link>
 				<pubDate>Mon, 01 Jun 2026 00:04:49 +0900</pubDate>
 				<guid>https://money.devkuma.com/tags/%EC%95%8C%ED%8A%B8%EC%BD%94%EC%9D%B8%EC%8B%9C%EC%A6%8C/</guid>
-				<description></description>
-			</item>
-			<item>
-				<title>이더리움</title>
-				<link>https://money.devkuma.com/tags/%EC%9D%B4%EB%8D%94%EB%A6%AC%EC%9B%80/</link>
-				<pubDate>Mon, 01 Jun 2026 00:04:49 +0900</pubDate>
-				<guid>https://money.devkuma.com/tags/%EC%9D%B4%EB%8D%94%EB%A6%AC%EC%9B%80/</guid>
 				<description></description>
 			</item>
 			<item>
@@ -3063,13 +3126,6 @@
 				<link>https://money.devkuma.com/tags/%EC%86%94%EB%9D%BC%EB%82%98/</link>
 				<pubDate>Sun, 31 May 2026 08:13:40 +0900</pubDate>
 				<guid>https://money.devkuma.com/tags/%EC%86%94%EB%9D%BC%EB%82%98/</guid>
-				<description></description>
-			</item>
-			<item>
-				<title>코인</title>
-				<link>https://money.devkuma.com/tags/%EC%BD%94%EC%9D%B8/</link>
-				<pubDate>Sun, 31 May 2026 08:13:40 +0900</pubDate>
-				<guid>https://money.devkuma.com/tags/%EC%BD%94%EC%9D%B8/</guid>
 				<description></description>
 			</item>
 			<item>

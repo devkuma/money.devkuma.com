@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>해시 on Money::devkuma</title>
+		<link>https://money.devkuma.com/tags/%ED%95%B4%EC%8B%9C/</link>
+		<description>Recent content in 해시 on Money::devkuma</description>
+		<generator>Hugo</generator>
+		<language>ko-KR</language>
+		
+		
+		
+		
+			<lastBuildDate>Wed, 10 Jun 2026 23:40:49 +0900</lastBuildDate>
+		
+			<atom:link href="https://money.devkuma.com/tags/%ED%95%B4%EC%8B%9C/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>블록체인 기술이란? 뜻, 원리, 장단점과 활용 사례 쉽게 이해하기</title>
+				<link>https://money.devkuma.com/posts/what-is-blockchain/</link>
+				<pubDate>Wed, 10 Jun 2026 23:40:49 +0900</pubDate>
+				<guid>https://money.devkuma.com/posts/what-is-blockchain/</guid>
+				<description>&lt;p&gt;블록체인이라는 말은 코인 이야기에서 빠지지 않는다. 비트코인, 이더리움, NFT, 스테이블코인, 토큰증권까지 대부분 블록체인과 연결되어 설명된다. 그런데 막상 &amp;ldquo;블록체인이 뭐냐&amp;quot;고 물으면 한 문장으로 말하기 어렵다.&lt;/p&gt;&#xA;&lt;p&gt;블록체인은 쉽게 말해 여러 사람이 같은 거래 장부를 나눠서 보관하고, 정해진 규칙으로 검증하며, 한 번 기록된 내용을 마음대로 고치기 어렵게 만든 기술이다. 그래서 &amp;ldquo;분산 원장&amp;rdquo;, &amp;ldquo;공공 거래 장부&amp;rdquo;, &amp;ldquo;신뢰의 기술&amp;quot;이라고도 부른다.&lt;/p&gt;&#xA;&lt;p&gt;중요한 것은 블록체인이 곧 코인은 아니라는 점이다. 코인은 블록체인을 활용한 대표 사례 중 하나다. 블록체인은 금융, 인증, 물류, 저작권, 공공 기록처럼 데이터의 신뢰가 중요한 곳에 쓰일 수 있다. 이 글에서는 블록체인의 뜻, 작동 원리, 장점과 한계, 실제 활용 사례를 초보자 눈높이에서 정리하였다.&lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>

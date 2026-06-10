@@ -10,9 +10,16 @@
 		
 		
 		
-			<lastBuildDate>Mon, 01 Jun 2026 21:48:57 +0900</lastBuildDate>
+			<lastBuildDate>Wed, 10 Jun 2026 23:32:55 +0900</lastBuildDate>
 		
 			<atom:link href="https://money.devkuma.com/tags/%EC%9B%90%ED%99%94%EC%8A%A4%ED%85%8C%EC%9D%B4%EB%B8%94%EC%BD%94%EC%9D%B8/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>CBDC와 스테이블코인의 차이점, 발행 주체·법적 지위·활용 방식 쉽게 비교하기</title>
+				<link>https://money.devkuma.com/posts/cbdc-vs-stablecoin/</link>
+				<pubDate>Wed, 10 Jun 2026 23:32:55 +0900</pubDate>
+				<guid>https://money.devkuma.com/posts/cbdc-vs-stablecoin/</guid>
+				<description>&lt;p&gt;디지털화폐 이야기를 보다 보면 CBDC와 스테이블코인이 자주 함께 나온다. 둘 다 스마트폰이나 디지털 지갑으로 주고받을 수 있고, 현금보다 빠른 결제와 송금을 목표로 한다는 점에서는 비슷해 보인다.&lt;/p&gt;&#xA;&lt;p&gt;하지만 둘은 출발점이 완전히 다르다. CBDC는 중앙은행이 발행하는 디지털 법정화폐다. 스테이블코인은 민간 기업이나 블록체인 프로젝트가 발행하고, 달러 같은 특정 자산에 가치를 연동하는 가상자산이다.&lt;/p&gt;&#xA;&lt;p&gt;겉으로는 모두 &amp;ldquo;디지털 돈&amp;quot;처럼 보이지만, 누가 발행하는지, 어떤 법적 지위를 갖는지, 누구를 믿고 사용하는지, 개인정보와 규제는 어떻게 적용되는지가 다르다. 이 차이를 알아야 디지털화폐 관련 뉴스와 원화 스테이블코인 논의를 제대로 이해할 수 있다.&lt;/p&gt;</description>
+			</item>
 			<item>
 				<title>한국형 원화 스테이블코인은 어디까지 왔을까, 프로젝트 한강과 예금 토큰 정리</title>
 				<link>https://money.devkuma.com/posts/korean-won-stablecoin/</link>

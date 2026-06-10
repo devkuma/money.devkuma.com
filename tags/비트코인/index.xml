@@ -10,9 +10,23 @@
 		
 		
 		
-			<lastBuildDate>Wed, 10 Jun 2026 22:13:03 +0900</lastBuildDate>
+			<lastBuildDate>Wed, 10 Jun 2026 23:40:49 +0900</lastBuildDate>
 		
 			<atom:link href="https://money.devkuma.com/tags/%EB%B9%84%ED%8A%B8%EC%BD%94%EC%9D%B8/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>블록체인 기술이란? 뜻, 원리, 장단점과 활용 사례 쉽게 이해하기</title>
+				<link>https://money.devkuma.com/posts/what-is-blockchain/</link>
+				<pubDate>Wed, 10 Jun 2026 23:40:49 +0900</pubDate>
+				<guid>https://money.devkuma.com/posts/what-is-blockchain/</guid>
+				<description>&lt;p&gt;블록체인이라는 말은 코인 이야기에서 빠지지 않는다. 비트코인, 이더리움, NFT, 스테이블코인, 토큰증권까지 대부분 블록체인과 연결되어 설명된다. 그런데 막상 &amp;ldquo;블록체인이 뭐냐&amp;quot;고 물으면 한 문장으로 말하기 어렵다.&lt;/p&gt;&#xA;&lt;p&gt;블록체인은 쉽게 말해 여러 사람이 같은 거래 장부를 나눠서 보관하고, 정해진 규칙으로 검증하며, 한 번 기록된 내용을 마음대로 고치기 어렵게 만든 기술이다. 그래서 &amp;ldquo;분산 원장&amp;rdquo;, &amp;ldquo;공공 거래 장부&amp;rdquo;, &amp;ldquo;신뢰의 기술&amp;quot;이라고도 부른다.&lt;/p&gt;&#xA;&lt;p&gt;중요한 것은 블록체인이 곧 코인은 아니라는 점이다. 코인은 블록체인을 활용한 대표 사례 중 하나다. 블록체인은 금융, 인증, 물류, 저작권, 공공 기록처럼 데이터의 신뢰가 중요한 곳에 쓰일 수 있다. 이 글에서는 블록체인의 뜻, 작동 원리, 장점과 한계, 실제 활용 사례를 초보자 눈높이에서 정리하였다.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>비트코인 vs 이더리움 차이, 초보자가 꼭 알아야 할 목적·기능·투자 관점 비교</title>
+				<link>https://money.devkuma.com/posts/bitcoin-vs-ethereum/</link>
+				<pubDate>Wed, 10 Jun 2026 23:28:40 +0900</pubDate>
+				<guid>https://money.devkuma.com/posts/bitcoin-vs-ethereum/</guid>
+				<description>&lt;p&gt;코인 시장을 처음 보면 비트코인과 이더리움이 거의 같은 종류처럼 느껴진다. 둘 다 블록체인 위에서 움직이고, 거래소에서 사고팔 수 있고, 가격도 크게 오르내린다. 그래서 &amp;ldquo;둘 중 뭐가 더 좋은 코인인가&amp;quot;라는 식으로 접근하기 쉽다.&lt;/p&gt;&#xA;&lt;p&gt;하지만 비트코인과 이더리움은 출발점이 다르다. 비트코인은 중앙기관 없이 가치를 주고받는 디지털 화폐이자 희소한 자산에 가깝다. 이더리움은 블록체인 위에서 프로그램과 서비스를 실행하는 플랫폼에 가깝다.&lt;/p&gt;&#xA;&lt;p&gt;둘의 차이를 이해하면 코인 시장을 보는 기준이 훨씬 선명해진다. 비트코인은 왜 &amp;ldquo;디지털 금&amp;quot;으로 불리는지, 이더리움은 왜 DeFi와 NFT 이야기에 자주 등장하는지, 투자할 때 어떤 위험을 따로 봐야 하는지 정리하였다.&lt;/p&gt;</description>
+			</item>
 			<item>
 				<title>비트코인 6만 달러 붕괴 우려, 하락 원인과 개인 투자자 대응법</title>
 				<link>https://money.devkuma.com/posts/bitcoin-under-60000/</link>

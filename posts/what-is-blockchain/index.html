@@ -1,0 +1,2722 @@
+
+
+
+<!doctype html>
+<html lang="ko" class="no-js">
+    <head>
+
+<script src="/js/critical.bundle.min.a8c0814b35e0a7b1a8e5265b551bde6d5e4bb321db28f493d51366366c118c70.js"
+         integrity="sha256-qMCBSzXgp7Go5SZbVRvebV5LsyHbKPST1RNmNmwRjHA=" crossorigin="anonymous"></script><meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="generator" content="Hugo 0.162.1">
+    <meta name="theme" content="Hinode 2.11.2">
+    
+
+
+
+
+
+    
+    
+<link rel="stylesheet" href="/css/main.min.7de8a724d7dab626cfd48cc0d3d0afd9d9b95bdf0dabec1464fd5f96bdab2d57.css" integrity="sha256-feinJNfatibP1IzA09Cv2dm5W98Nq+wUZP1flr2rLVc=" crossorigin="anonymous">
+    
+        
+    
+    
+        
+        
+             
+            <link rel="preload" href="/fonts/inter-v12-latin-regular.woff2" as="font" type="font/woff2" crossorigin>
+        
+
+
+
+    
+    
+    
+
+
+
+
+
+
+    
+  <meta name="robots" content="index, follow">
+    <meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta name="bingbot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <title>블록체인 기술이란? 뜻, 원리, 장단점과 활용 사례 쉽게 이해하기 - Money::devkuma </title>
+    <meta name="description" content="블록체인의 뜻과 작동 원리를 분산 원장, 블록, 해시, 합의 알고리즘, 스마트 계약 중심으로 초보자도 이해하기 쉽게 정리했다.">
+
+<meta property="og:locale" content="en_US">
+<meta property="og:type" content="article">
+<meta property="og:title" content="블록체인 기술이란? 뜻, 원리, 장단점과 활용 사례 쉽게 이해하기">
+<meta property="og:description" content="블록체인의 뜻과 작동 원리를 분산 원장, 블록, 해시, 합의 알고리즘, 스마트 계약 중심으로 초보자도 이해하기 쉽게 정리했다.">
+
+<meta property="og:url" content="https://money.devkuma.com/posts/what-is-blockchain/">
+<meta property="og:site_name" content="Money::devkuma">
+<meta property="article:published_time" content="2026-06-10T23:40:49+09:00">
+    <meta property="article:modified_time" content="2026-06-10T23:40:49+09:00">
+    <meta property="og:image" content="https://money.devkuma.com/posts/coin/bitcoin-and-dollar-1280x640.png">
+<meta property="og:image:alt" content="블록체인 기술이란? 뜻, 원리, 장단점과 활용 사례 쉽게 이해하기">
+
+
+
+<meta name="twitter:card" content="summary_large_image">
+
+
+<meta name="twitter:title" content="블록체인 기술이란? 뜻, 원리, 장단점과 활용 사례 쉽게 이해하기">
+<meta name="twitter:description" content="블록체인의 뜻과 작동 원리를 분산 원장, 블록, 해시, 합의 알고리즘, 스마트 계약 중심으로 초보자도 이해하기 쉽게 정리했다.">
+<meta name="twitter:image" content="https://money.devkuma.com/posts/coin/bitcoin-and-dollar-1280x640.png">
+<meta name="twitter:image:alt" content="블록체인 기술이란? 뜻, 원리, 장단점과 활용 사례 쉽게 이해하기">
+
+
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+        "@id": "https://money.devkuma.com/#/schema/organization/1",
+      "name": "Hinode",
+      "url": "https://money.devkuma.com/",
+      "sameAs": [null,"https://github.com/gethinode/hinode"],
+      "logo": {
+          "@type": "ImageObject",
+          "@id": "https://money.devkuma.com/#/schema/image/1",
+          "url": "https://money.devkuma.com/favicons/512x512.png",
+          "width": 512 ,
+          "height": 512 ,
+          "caption": "Hinode"
+        },
+        "image": {
+          "@id": "https://money.devkuma.com/#/schema/image/1"
+        }
+      },
+    {
+      "@type": "WebSite",
+      "@id": "https://money.devkuma.com/#/schema/website/1",
+      "url": "https://money.devkuma.com/",
+      "name": "Money::devkuma",
+      "description": "Hinode is a clean documentation and blog theme for your Hugo site based on Bootstrap 5.",
+      "publisher": {
+          "@id": "https://money.devkuma.com/#/schema/organization/1"
+        }
+      },
+    {
+      "@type": "WebPage",
+      "@id": "https://money.devkuma.com/posts/what-is-blockchain/",
+      "url": "https://money.devkuma.com/posts/what-is-blockchain/",
+      "name": "블록체인 기술이란? 뜻, 원리, 장단점과 활용 사례 쉽게 이해하기",
+      "description": "블록체인의 뜻과 작동 원리를 분산 원장, 블록, 해시, 합의 알고리즘, 스마트 계약 중심으로 초보자도 이해하기 쉽게 정리했다.",
+      "isPartOf": {
+        "@id": "https://money.devkuma.com/#/schema/website/1"
+      },
+      "about": {
+          "@id": "https://money.devkuma.com/#/schema/organization/1"
+        },
+      "datePublished": "2026-06-10T23:40:49CET","dateModified": "2026-06-10T23:40:49CET","breadcrumb": {
+        "@id": "https://money.devkuma.com/posts/what-is-blockchain/#/schema/breadcrumb/1"
+      },
+      "primaryImageOfPage": {
+        "@id": "https://money.devkuma.com/posts/what-is-blockchain/#/schema/image/2"
+      },
+      "inLanguage": "en-US",
+      "potentialAction": [{
+        "@type": "ReadAction", "target": ["https://money.devkuma.com/posts/what-is-blockchain/"]
+      }]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://money.devkuma.com/posts/what-is-blockchain/#/schema/breadcrumb/1",
+      "name": "Breadcrumbs",
+      "itemListElement": [{
+        "@type": "ListItem",
+        "position":  1 ,
+        "item": {
+          "@type": "WebPage",
+          "@id": "https://money.devkuma.com/",
+          "url": "https://money.devkuma.com/",
+          "name": "Home"
+          }
+        },{
+        "@type": "ListItem",
+        "position":  2 ,
+        "item": {
+          "@type": "WebPage",
+          "@id": "https://money.devkuma.com/posts/",
+          "url": "https://money.devkuma.com/posts/",
+          "name": "Posts"
+          }
+        },{
+        "@type": "ListItem",
+        "position":  3 ,
+        "item": {
+          "@id": "https://money.devkuma.com/posts/what-is-blockchain/"
+          }
+        }]
+    },
+
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "ImageObject",
+          "@id": "https://money.devkuma.com/posts/what-is-blockchain/#/schema/image/2",
+          "url": "https://money.devkuma.com/posts/coin/bitcoin-and-dollar-1280x640.png",
+          "contentUrl": "https://money.devkuma.com/posts/coin/bitcoin-and-dollar-1280x640.png",
+          "caption": "블록체인 기술이란? 뜻, 원리, 장단점과 활용 사례 쉽게 이해하기"
+        }
+      ]
+    }
+
+  ]
+}
+</script>
+
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicons/favicon-96x96_hu_bcafd75a361bcb2.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicons/favicon-96x96_hu_ef780cd502e896ea.png">
+        <link rel="icon" type="image/png" sizes="48x48" href="/favicons/favicon-96x96_hu_8f60ad9056f52802.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="/favicons/favicon-96x96_hu_a6aa36da47e45ca3.png">
+    
+
+</head><body class="navbar-fixed">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        
+        
+        
+    
+
+
+
+
+<div class="container-fluid fixed-top p-0">
+
+
+
+
+
+<nav class="navbar px-4 py-4 navbar-fs-6 navbar-md-fs bg-body navbar-fixed-top navbar-expand-md"
+        
+        
+        >
+        <div class="container-xxl p-0">
+            <div class="d-flex navbar-container">
+                
+                <div class="d-flex align-items-center">
+                            <button class="navbar-toggler collapsed p-0 mx-auto invisible fw-30" type="button">
+
+
+
+
+
+
+                
+                        
+                        
+                        <svg class="svg-inline--fa fas fa-ellipsis fa-fw" fill="currentColor" aria-hidden="true" role="img" viewBox="0 0 448 512" overflow="visible"><use href="#fas-ellipsis"></use></svg></button></div>
+                
+
+                <div class="w-100 d-flex align-items-center w-md-auto">
+                    <a class="navbar-brand mx-auto" href="/" aria-label="Home">
+    
+    
+
+
+<img class="img-fluid m-auto"
+            src="/img/logo_icon-2800x2800.png"
+             srcset="/img/logo_icon-576x576.webp 576w, /img/logo_icon-768x768.webp 768w, /img/logo_icon-992x992.webp 992w, /img/logo_icon-1200x1200.webp 1200w, /img/logo_icon-1400x1400.webp 1400w, /img/logo_icon-2800x2800.webp 2800w" sizes="100vw" height="30" width="30" alt="Money::devkuma"></a>
+                </div>
+                <div class="d-flex align-items-center">
+                    <button class="navbar-toggler main-nav-toggler collapsed p-0" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbar-0-collapse"
+                        aria-controls="navbar-0" aria-expanded="false" aria-label="Toggle main navigation">
+                        <span class="toggler-icon top-bar emphasis"></span>
+                        <span class="toggler-icon middle-bar emphasis"></span>
+                        <span class="toggler-icon bottom-bar emphasis"></span>
+                    </button>
+                </div>
+            </div>
+    
+            <div class="navbar-collapse collapse" id="navbar-0-collapse">
+                
+                    <div class="d-flex flex-fill ms-md-3 mt-4 mt-md-0 me-md-3">
+    <form class="search flex-fill position-relative me-auto">
+        <input class="search-input form-control is-search" type="search" placeholder="" aria-label="" autocomplete="off" name="search-input">
+        <div class="search-suggestions shadow bg-body rounded d-none" data-no-results=""></div>
+    </form>
+</div>
+
+                <ul class="navbar-nav navbar-nav-scroll ms-auto">
+                    
+        
+            <li class="nav-item ">
+
+
+
+
+
+
+
+
+    
+
+
+    
+    
+
+    
+        <a
+            class="nav-link"
+            
+            data-nav="main" data-nav-main="home"
+             href="/"
+            
+            
+            ><span class=" d-md-none ">Home</span>
+            
+            <span class=" d-none d-md-block">Home</span>
+            
+        </a>
+    
+</li>
+        
+            <li class="nav-item ">
+
+
+
+
+
+
+
+
+    
+
+
+    
+    
+
+    
+        <a
+            class="nav-link"
+            
+            data-nav="main" data-nav-main="%EB%89%B4%EC%8A%A4"
+             href="/news/"
+            
+            
+            ><span class=" d-md-none ">뉴스</span>
+            
+            <span class=" d-none d-md-block">뉴스</span>
+            
+        </a>
+    
+</li>
+        
+            <li class="nav-item ">
+
+
+
+
+
+
+
+
+    
+
+
+    
+    
+
+    
+        <a
+            class="nav-link"
+            
+            data-nav="main" data-nav-main="%EA%B2%BD%EC%A0%9C"
+             href="/posts/economy/"
+            
+            
+            ><span class=" d-md-none ">경제</span>
+            
+            <span class=" d-none d-md-block">경제</span>
+            
+        </a>
+    
+</li>
+        
+            <li class="nav-item ">
+
+
+
+
+
+
+
+
+    
+
+
+    
+    
+
+    
+        <a
+            class="nav-link"
+            
+            data-nav="main" data-nav-main="%EA%B8%88%EC%9C%B5"
+             href="/posts/finance/"
+            
+            
+            ><span class=" d-md-none ">금융</span>
+            
+            <span class=" d-none d-md-block">금융</span>
+            
+        </a>
+    
+</li>
+        
+            <li class="nav-item ">
+
+
+
+
+
+
+
+
+    
+
+
+    
+    
+
+    
+        <a
+            class="nav-link"
+            
+            data-nav="main" data-nav-main="%EC%A3%BC%EC%8B%9D"
+             href="/posts/stock/"
+            
+            
+            ><span class=" d-md-none ">주식</span>
+            
+            <span class=" d-none d-md-block">주식</span>
+            
+        </a>
+    
+</li>
+        
+            <li class="nav-item ">
+
+
+
+
+
+
+
+
+    
+
+
+    
+    
+
+    
+        <a
+            class="nav-link"
+            
+            data-nav="main" data-nav-main="%EC%B1%84%EA%B6%8C"
+             href="/posts/bond/"
+            
+            
+            ><span class=" d-md-none ">채권</span>
+            
+            <span class=" d-none d-md-block">채권</span>
+            
+        </a>
+    
+</li>
+        
+            <li class="nav-item ">
+
+
+
+
+
+
+
+
+    
+
+
+    
+    
+
+    
+        <a
+            class="nav-link"
+            
+            data-nav="main" data-nav-main="%EC%BD%94%EC%9D%B8"
+             href="/posts/coin/"
+            
+            
+            ><span class=" d-md-none ">코인</span>
+            
+            <span class=" d-none d-md-block">코인</span>
+            
+        </a>
+    
+</li>
+        
+            <li class="nav-item ">
+
+
+
+
+
+
+
+
+    
+
+
+    
+    
+
+    
+        <a
+            class="nav-link"
+            
+            data-nav="main" data-nav-main="%EB%8C%80%EC%B6%9C"
+             href="/posts/loan/"
+            
+            
+            ><span class=" d-md-none ">대출</span>
+            
+            <span class=" d-none d-md-block">대출</span>
+            
+        </a>
+    
+</li>
+        
+            <li class="nav-item ">
+
+
+
+
+
+
+
+
+    
+
+
+    
+    
+
+    
+        <a
+            class="nav-link"
+            
+            data-nav="main" data-nav-main="%EB%B6%80%EB%8F%99%EC%82%B0"
+             href="/posts/real-estate/"
+            
+            
+            ><span class=" d-md-none ">부동산</span>
+            
+            <span class=" d-none d-md-block">부동산</span>
+            
+        </a>
+    
+</li>
+        
+            <li class="nav-item ">
+
+
+
+
+
+
+
+
+    
+
+
+    
+    
+
+    
+        <a
+            class="nav-link"
+            
+            data-nav="main" data-nav-main="%EB%B3%B4%ED%97%98"
+             href="/posts/insurance/"
+            
+            
+            ><span class=" d-md-none ">보험</span>
+            
+            <span class=" d-none d-md-block">보험</span>
+            
+        </a>
+    
+</li>
+        
+            <li class="nav-item ">
+
+
+
+
+
+
+
+
+    
+
+
+    
+    
+
+    
+        <a
+            class="nav-link"
+            
+            data-nav="main" data-nav-main="%EC%84%B8%EA%B8%88"
+             href="/posts/tax/"
+            
+            
+            ><span class=" d-md-none ">세금</span>
+            
+            <span class=" d-none d-md-block">세금</span>
+            
+        </a>
+    
+</li>
+        
+            <li class="nav-item ">
+
+
+
+
+
+
+
+
+    
+
+
+    
+    
+
+    
+        <a
+            class="nav-link"
+            
+            data-nav="main" data-nav-main="about-me"
+             href="/about/"
+            
+            
+            ><span class=" d-md-none ">About Me</span>
+            
+            <span class=" d-none d-md-block">About Me</span>
+            
+        </a>
+    
+</li>
+        
+            <li class="nav-item ">
+
+
+
+
+
+
+
+
+    
+
+
+    
+    
+
+    
+        <a
+            class="nav-link"
+            
+            data-nav="main" data-nav-main="tags"
+             href="/tags/"
+            
+            
+            ><span class=" d-md-none ">Tags</span>
+            
+            <span class=" d-none d-md-block">Tags</span>
+            
+        </a>
+    
+</li>
+    
+                    
+                    
+                    
+                                    
+                    <li class="nav-link navbar-fs-6 navbar-md-fs d-flex mode-switch align-items-center" id="navbar-mode">
+    <input type="checkbox" class="checkbox navbar-mode-selector" id="navbar-mode-checkbox" aria-label="Toggle theme" />
+    <label class="label" for="navbar-mode-checkbox">
+        
+
+
+
+
+
+
+                
+                        
+                        
+                        <svg class="svg-inline--fa fas fa-sun fa-fw" fill="currentColor" aria-hidden="true" role="img" viewBox="0 0 576 512" overflow="visible"><use href="#fas-sun"></use></svg>
+
+
+
+
+
+
+                
+                        
+                        
+                        <svg class="svg-inline--fa fas fa-moon fa-fw" fill="currentColor" aria-hidden="true" role="img" viewBox="0 0 512 512" overflow="visible"><use href="#fas-moon"></use></svg>
+            <div class="ball"></div>
+        
+    </label>
+</li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</div>
+<main id="container" class="main">
+                
+
+    
+    
+    
+    
+    
+        <div class="container-xxl flex-fill py-4 px-4 px-xxl-0">
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3">
+                <div class="col col-lg-2 d-none d-lg-block sidebar-overflow sticky-top p-0">
+                    
+                </div>
+                <div class="col-12 col-md-9 col-lg-8 mb-5">
+                    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+    
+
+        
+    
+
+        
+    
+
+
+
+
+    <nav aria-label="breadcrumb" class="d-sm-none">
+        <ol class="breadcrumb">
+                <li class="breadcrumb-item">
+                    <a href="/posts/coin/">
+                        
+
+
+
+
+
+
+                
+                        
+                        
+                        <svg class="svg-inline--fa fas fa-angle-left " fill="currentColor" aria-hidden="true" role="img" viewBox="0 0 256 512" overflow="visible"><use href="#fas-angle-left"></use></svg>&nbsp;&nbsp;코인
+                    </a>
+                </li></ol>
+    </nav>
+
+    <nav aria-label="breadcrumb" class="d-none d-sm-block">
+        <ol class="breadcrumb">
+                
+                <li class="breadcrumb-item"><a href="/">Home</a></li>
+                
+                <li class="breadcrumb-item"><a href="/posts/">금융의 모든 지식!</a></li>
+                
+                <li class="breadcrumb-item"><a href="/posts/coin/">코인</a></li><li class="breadcrumb-item active" aria-current="page">
+                
+                
+                블록체인 기술이란
+            </li>
+        </ol>
+    </nav>
+
+<h1 id="블록체인-기술이란-뜻-원리-장단점과-활용-사례-쉽게-이해하기" class="display-4 pt-1">블록체인 기술이란? 뜻, 원리, 장단점과 활용 사례 쉽게 이해하기</h1>
+
+
+    <small class="text-body-secondary text-uppercase">
+            
+                Posted on 2026년 6월 10일
+            &bull;
+        
+            8&nbsp;min read
+            &bull;
+        1,590&nbsp;words
+    </small>
+
+<div class="mt-3">
+        <div class="d-none-dark">
+            <div class="hstack gap-1">
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+<a aria-label="블록체인"
+        href="/tags/%EB%B8%94%EB%A1%9D%EC%B2%B4%EC%9D%B8/" class="btn btn-light btn-sm position-relative "
+        role="button"
+        >
+        <span class="d-flex justify-content-start">
+            <span class="my-auto">블록체인</span>
+        </span></a>&nbsp;
+
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+<a aria-label="분산원장"
+        href="/tags/%EB%B6%84%EC%82%B0%EC%9B%90%EC%9E%A5/" class="btn btn-light btn-sm position-relative "
+        role="button"
+        >
+        <span class="d-flex justify-content-start">
+            <span class="my-auto">분산원장</span>
+        </span></a>&nbsp;
+
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+<a aria-label="비트코인"
+        href="/tags/%EB%B9%84%ED%8A%B8%EC%BD%94%EC%9D%B8/" class="btn btn-light btn-sm position-relative "
+        role="button"
+        >
+        <span class="d-flex justify-content-start">
+            <span class="my-auto">비트코인</span>
+        </span></a>&nbsp;
+
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+<a aria-label="이더리움"
+        href="/tags/%EC%9D%B4%EB%8D%94%EB%A6%AC%EC%9B%80/" class="btn btn-light btn-sm position-relative "
+        role="button"
+        >
+        <span class="d-flex justify-content-start">
+            <span class="my-auto">이더리움</span>
+        </span></a>&nbsp;
+
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+<a aria-label="스마트컨트랙트"
+        href="/tags/%EC%8A%A4%EB%A7%88%ED%8A%B8%EC%BB%A8%ED%8A%B8%EB%9E%99%ED%8A%B8/" class="btn btn-light btn-sm position-relative "
+        role="button"
+        >
+        <span class="d-flex justify-content-start">
+            <span class="my-auto">스마트컨트랙트</span>
+        </span></a>&nbsp;
+
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+<a aria-label="암호화폐"
+        href="/tags/%EC%95%94%ED%98%B8%ED%99%94%ED%8F%90/" class="btn btn-light btn-sm position-relative "
+        role="button"
+        >
+        <span class="d-flex justify-content-start">
+            <span class="my-auto">암호화폐</span>
+        </span></a>&nbsp;
+
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+<a aria-label="가상자산"
+        href="/tags/%EA%B0%80%EC%83%81%EC%9E%90%EC%82%B0/" class="btn btn-light btn-sm position-relative "
+        role="button"
+        >
+        <span class="d-flex justify-content-start">
+            <span class="my-auto">가상자산</span>
+        </span></a>&nbsp;
+
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+<a aria-label="합의알고리즘"
+        href="/tags/%ED%95%A9%EC%9D%98%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/" class="btn btn-light btn-sm position-relative "
+        role="button"
+        >
+        <span class="d-flex justify-content-start">
+            <span class="my-auto">합의알고리즘</span>
+        </span></a>&nbsp;
+
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+<a aria-label="해시"
+        href="/tags/%ED%95%B4%EC%8B%9C/" class="btn btn-light btn-sm position-relative "
+        role="button"
+        >
+        <span class="d-flex justify-content-start">
+            <span class="my-auto">해시</span>
+        </span></a>&nbsp;
+
+                </div>
+        </div>
+        
+        <div class="d-none-light">
+            <div class="hstack gap-1">
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+<a aria-label="블록체인"
+        href="/tags/%EB%B8%94%EB%A1%9D%EC%B2%B4%EC%9D%B8/" class="btn btn-outline-primary btn-sm position-relative "
+        role="button"
+        >
+        <span class="d-flex justify-content-start">
+            <span class="my-auto">블록체인</span>
+        </span></a>&nbsp;
+
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+<a aria-label="분산원장"
+        href="/tags/%EB%B6%84%EC%82%B0%EC%9B%90%EC%9E%A5/" class="btn btn-outline-primary btn-sm position-relative "
+        role="button"
+        >
+        <span class="d-flex justify-content-start">
+            <span class="my-auto">분산원장</span>
+        </span></a>&nbsp;
+
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+<a aria-label="비트코인"
+        href="/tags/%EB%B9%84%ED%8A%B8%EC%BD%94%EC%9D%B8/" class="btn btn-outline-primary btn-sm position-relative "
+        role="button"
+        >
+        <span class="d-flex justify-content-start">
+            <span class="my-auto">비트코인</span>
+        </span></a>&nbsp;
+
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+<a aria-label="이더리움"
+        href="/tags/%EC%9D%B4%EB%8D%94%EB%A6%AC%EC%9B%80/" class="btn btn-outline-primary btn-sm position-relative "
+        role="button"
+        >
+        <span class="d-flex justify-content-start">
+            <span class="my-auto">이더리움</span>
+        </span></a>&nbsp;
+
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+<a aria-label="스마트컨트랙트"
+        href="/tags/%EC%8A%A4%EB%A7%88%ED%8A%B8%EC%BB%A8%ED%8A%B8%EB%9E%99%ED%8A%B8/" class="btn btn-outline-primary btn-sm position-relative "
+        role="button"
+        >
+        <span class="d-flex justify-content-start">
+            <span class="my-auto">스마트컨트랙트</span>
+        </span></a>&nbsp;
+
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+<a aria-label="암호화폐"
+        href="/tags/%EC%95%94%ED%98%B8%ED%99%94%ED%8F%90/" class="btn btn-outline-primary btn-sm position-relative "
+        role="button"
+        >
+        <span class="d-flex justify-content-start">
+            <span class="my-auto">암호화폐</span>
+        </span></a>&nbsp;
+
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+<a aria-label="가상자산"
+        href="/tags/%EA%B0%80%EC%83%81%EC%9E%90%EC%82%B0/" class="btn btn-outline-primary btn-sm position-relative "
+        role="button"
+        >
+        <span class="d-flex justify-content-start">
+            <span class="my-auto">가상자산</span>
+        </span></a>&nbsp;
+
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+<a aria-label="합의알고리즘"
+        href="/tags/%ED%95%A9%EC%9D%98%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/" class="btn btn-outline-primary btn-sm position-relative "
+        role="button"
+        >
+        <span class="d-flex justify-content-start">
+            <span class="my-auto">합의알고리즘</span>
+        </span></a>&nbsp;
+
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+<a aria-label="해시"
+        href="/tags/%ED%95%B4%EC%8B%9C/" class="btn btn-outline-primary btn-sm position-relative "
+        role="button"
+        >
+        <span class="d-flex justify-content-start">
+            <span class="my-auto">해시</span>
+        </span></a>&nbsp;
+
+                </div>
+        </div>
+    </div>
+
+    <div class="lead text-muted py-4">블록체인의 뜻과 작동 원리를 분산 원장, 블록, 해시, 합의 알고리즘, 스마트 계약 중심으로 초보자도 이해하기 쉽게 정리했다.</div>
+
+
+<div class="d-md-none pb-5">
+
+
+
+
+
+
+
+
+
+    
+        <div class="d-grid gap-2 mx-auto">
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+<a aria-label="On this page"
+        href="#toc-collapse" class="btn btn-outline-secondary position-relative toc-button"
+         data-bs-toggle="collapse" aria-expanded="false" aria-controls="toc-collapse"role="button"
+        >
+        <span class="d-flex justify-content-between">
+            <span class="my-auto">On this page</span>
+                <span class="align-self-center ps-1">
+                    
+
+
+
+
+
+
+                
+                        
+                        
+                        <svg class="svg-inline--fa fas fa-sort " fill="currentColor" aria-hidden="true" role="img" viewBox="0 0 384 512" overflow="visible"><use href="#fas-sort"></use></svg>
+                </span>
+            
+        </span></a>
+</div>
+
+        <div class="collapse border bg-body-tertiary rounded p-1 navbar-nav-scroll" id="toc-collapse">
+            <small>
+                <div class="toc toc-panel text-body p-2">
+                        <a class="toc-item toc-level-1" href="/posts/what-is-blockchain/#블록체인은-여러-사람이-함께-보관하는-디지털-장부다">블록체인은 여러 사람이 함께 보관하는 디지털 장부다</a>
+                        <a class="toc-item toc-level-1" href="/posts/what-is-blockchain/#블록체인은-이렇게-작동한다">블록체인은 이렇게 작동한다</a>
+                        <a class="toc-item toc-level-2" href="/posts/what-is-blockchain/#분산-원장">분산 원장</a>
+                        <a class="toc-item toc-level-2" href="/posts/what-is-blockchain/#p2p-네트워크">P2P 네트워크</a>
+                        <a class="toc-item toc-level-2" href="/posts/what-is-blockchain/#해시와-암호화">해시와 암호화</a>
+                        <a class="toc-item toc-level-2" href="/posts/what-is-blockchain/#합의-알고리즘">합의 알고리즘</a>
+                        <a class="toc-item toc-level-1" href="/posts/what-is-blockchain/#블록체인이-위변조에-강한-이유">블록체인이 위변조에 강한 이유</a>
+                        <a class="toc-item toc-level-1" href="/posts/what-is-blockchain/#블록체인의-장점과-한계">블록체인의 장점과 한계</a>
+                        <a class="toc-item toc-level-1" href="/posts/what-is-blockchain/#퍼블릭-프라이빗-컨소시엄-블록체인의-차이">퍼블릭, 프라이빗, 컨소시엄 블록체인의 차이</a>
+                        <a class="toc-item toc-level-2" href="/posts/what-is-blockchain/#퍼블릭-블록체인">퍼블릭 블록체인</a>
+                        <a class="toc-item toc-level-2" href="/posts/what-is-blockchain/#프라이빗-블록체인">프라이빗 블록체인</a>
+                        <a class="toc-item toc-level-2" href="/posts/what-is-blockchain/#컨소시엄-블록체인">컨소시엄 블록체인</a>
+                        <a class="toc-item toc-level-1" href="/posts/what-is-blockchain/#블록체인은-어디에-활용될까">블록체인은 어디에 활용될까</a>
+                        <a class="toc-item toc-level-2" href="/posts/what-is-blockchain/#금융과-송금">금융과 송금</a>
+                        <a class="toc-item toc-level-2" href="/posts/what-is-blockchain/#인증과-신원-관리">인증과 신원 관리</a>
+                        <a class="toc-item toc-level-2" href="/posts/what-is-blockchain/#물류와-유통">물류와 유통</a>
+                        <a class="toc-item toc-level-2" href="/posts/what-is-blockchain/#스마트-계약">스마트 계약</a>
+                        <a class="toc-item toc-level-2" href="/posts/what-is-blockchain/#저작권과-디지털-소유권">저작권과 디지털 소유권</a>
+                        <a class="toc-item toc-level-1" href="/posts/what-is-blockchain/#블록체인을-이해할-때-주의할-점">블록체인을 이해할 때 주의할 점</a>
+                        <a class="toc-item toc-level-1" href="/posts/what-is-blockchain/#정리">정리</a>
+                        <a class="toc-item toc-level-1" href="/posts/what-is-blockchain/#자주-묻는-질문">자주 묻는 질문</a>
+                        <a class="toc-item toc-level-2" href="/posts/what-is-blockchain/#블록체인과-비트코인은-같은-말인가">블록체인과 비트코인은 같은 말인가?</a>
+                        <a class="toc-item toc-level-2" href="/posts/what-is-blockchain/#블록체인은-왜-위변조가-어렵나">블록체인은 왜 위변조가 어렵나?</a>
+                        <a class="toc-item toc-level-2" href="/posts/what-is-blockchain/#블록체인은-무조건-안전한가">블록체인은 무조건 안전한가?</a>
+                        <a class="toc-item toc-level-2" href="/posts/what-is-blockchain/#스마트-계약은-무엇인가">스마트 계약은 무엇인가?</a>
+                        <a class="toc-item toc-level-2" href="/posts/what-is-blockchain/#블록체인은-코인-말고-어디에-쓰이나">블록체인은 코인 말고 어디에 쓰이나?</a>
+                </div>
+            </small>
+        </div>
+</div>
+
+                    
+
+
+
+<div class="img-wrap mb-5"><img class="img-fluid rounded"
+            src="/posts/coin/bitcoin-and-dollar-2800x1200.png"
+             fetchpriority="high" srcset="/posts/coin/bitcoin-and-dollar-576x247.webp 576w, /posts/coin/bitcoin-and-dollar-768x329.webp 768w, /posts/coin/bitcoin-and-dollar-992x425.webp 992w, /posts/coin/bitcoin-and-dollar-1200x514.webp 1200w, /posts/coin/bitcoin-and-dollar-1400x600.webp 1400w, /posts/coin/bitcoin-and-dollar-2800x1200.webp 2800w" sizes="100vw" height="1200" width="2800" alt="블록체인 기술이란? 뜻, 원리, 장단점과 활용 사례 쉽게 이해하기"></div><p>블록체인이라는 말은 코인 이야기에서 빠지지 않는다. 비트코인, 이더리움, NFT, 스테이블코인, 토큰증권까지 대부분 블록체인과 연결되어 설명된다. 그런데 막상 &ldquo;블록체인이 뭐냐&quot;고 물으면 한 문장으로 말하기 어렵다.</p>
+<p>블록체인은 쉽게 말해 여러 사람이 같은 거래 장부를 나눠서 보관하고, 정해진 규칙으로 검증하며, 한 번 기록된 내용을 마음대로 고치기 어렵게 만든 기술이다. 그래서 &ldquo;분산 원장&rdquo;, &ldquo;공공 거래 장부&rdquo;, &ldquo;신뢰의 기술&quot;이라고도 부른다.</p>
+<p>중요한 것은 블록체인이 곧 코인은 아니라는 점이다. 코인은 블록체인을 활용한 대표 사례 중 하나다. 블록체인은 금융, 인증, 물류, 저작권, 공공 기록처럼 데이터의 신뢰가 중요한 곳에 쓰일 수 있다. 이 글에서는 블록체인의 뜻, 작동 원리, 장점과 한계, 실제 활용 사례를 초보자 눈높이에서 정리하였다.</p>
+<hr>
+
+
+
+
+
+
+
+
+
+
+
+
+<h2 id="블록체인은-여러-사람이-함께-보관하는-디지털-장부다" class="heading">블록체인은 여러 사람이 함께 보관하는 디지털 장부다<a href="#%eb%b8%94%eb%a1%9d%ec%b2%b4%ec%9d%b8%ec%9d%80-%ec%97%ac%eb%9f%ac-%ec%82%ac%eb%9e%8c%ec%9d%b4-%ed%95%a8%ea%bb%98-%eb%b3%b4%ea%b4%80%ed%95%98%eb%8a%94-%eb%94%94%ec%a7%80%ed%84%b8-%ec%9e%a5%eb%b6%80%eb%8b%a4" aria-labelledby="블록체인은-여러-사람이-함께-보관하는-디지털-장부다">
+
+
+
+
+
+
+                
+                        
+                        
+                        <svg class="svg-inline--fa fas fa-link anchor" fill="currentColor" aria-hidden="true" role="img" viewBox="0 0 576 512" overflow="visible"><use href="#fas-link"></use></svg>&nbsp;
+    </a>
+</h2>
+
+<p>블록체인(Blockchain)은 이름 그대로 블록(Block)을 체인(Chain)처럼 연결한 구조다. 여기서 블록은 거래나 데이터 기록을 담은 묶음이고, 체인은 그 블록들이 순서대로 연결된 흐름이다.</p>
+<p>기존 금융 시스템에서는 보통 중앙 서버가 장부를 관리한다. 은행 계좌 잔액, 송금 기록, 결제 내역은 은행의 시스템에 저장된다. 이용자는 은행이 장부를 정확히 관리한다고 믿고 서비스를 사용한다.</p>
+<p>블록체인은 이 구조를 다르게 만든다. 하나의 중앙 서버가 모든 기록을 독점해서 관리하는 대신, 네트워크에 참여한 여러 컴퓨터가 같은 장부를 나눠서 보관한다. 누군가 거래를 만들면 참여자들이 그 거래가 맞는지 확인하고, 정해진 규칙에 따라 장부에 추가한다.</p>
+<p>예를 들어 A가 B에게 1코인을 보냈다고 해보자. 이 기록은 한 회사의 내부 장부에만 남는 것이 아니라, 네트워크 참여자들이 공유하는 장부에 함께 기록된다. 그래서 특정 한 곳의 서버가 고장나거나 누군가 일부 기록을 바꿔도 전체 장부를 쉽게 조작하기 어렵다.</p>
+<p>블록체인의 핵심은 &ldquo;누구 한 명만 믿지 않아도 되게 만드는 구조&quot;다. 참여자들이 같은 장부를 보고, 같은 규칙으로 검증하고, 같은 기록을 유지하기 때문에 신뢰 비용을 줄일 수 있다.</p>
+<hr>
+
+
+
+
+
+
+
+
+
+
+
+
+<h2 id="블록체인은-이렇게-작동한다" class="heading">블록체인은 이렇게 작동한다<a href="#%eb%b8%94%eb%a1%9d%ec%b2%b4%ec%9d%b8%ec%9d%80-%ec%9d%b4%eb%a0%87%ea%b2%8c-%ec%9e%91%eb%8f%99%ed%95%9c%eb%8b%a4" aria-labelledby="블록체인은-이렇게-작동한다">
+
+
+
+
+
+
+                
+                        
+                        
+                        <svg class="svg-inline--fa fas fa-link anchor" fill="currentColor" aria-hidden="true" role="img" viewBox="0 0 576 512" overflow="visible"><use href="#fas-link"></use></svg>&nbsp;
+    </a>
+</h2>
+
+<p>블록체인을 이해하려면 분산 원장, P2P 네트워크, 해시, 합의 알고리즘 네 가지를 먼저 보면 된다.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+<h3 id="분산-원장" class="heading">분산 원장<a href="#%eb%b6%84%ec%82%b0-%ec%9b%90%ec%9e%a5" aria-labelledby="분산-원장">
+
+
+
+
+
+
+                
+                        
+                        
+                        <svg class="svg-inline--fa fas fa-link anchor" fill="currentColor" aria-hidden="true" role="img" viewBox="0 0 576 512" overflow="visible"><use href="#fas-link"></use></svg>&nbsp;
+    </a>
+</h3>
+
+<p>원장은 거래 기록을 적어둔 장부다. 분산 원장은 이 장부를 한 곳에만 두지 않고 여러 참여자가 나눠서 보관하는 방식이다.</p>
+<p>중앙 서버 방식에서는 서버가 공격받거나 내부자가 기록을 바꾸면 문제가 커질 수 있다. 분산 원장에서는 여러 참여자가 같은 기록을 갖고 있기 때문에 일부 데이터가 이상해져도 다른 참여자의 장부와 비교해 오류를 찾을 수 있다.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+<h3 id="p2p-네트워크" class="heading">P2P 네트워크<a href="#p2p-%eb%84%a4%ed%8a%b8%ec%9b%8c%ed%81%ac" aria-labelledby="p2p-네트워크">
+
+
+
+
+
+
+                
+                        
+                        
+                        <svg class="svg-inline--fa fas fa-link anchor" fill="currentColor" aria-hidden="true" role="img" viewBox="0 0 576 512" overflow="visible"><use href="#fas-link"></use></svg>&nbsp;
+    </a>
+</h3>
+
+<p>P2P는 Peer to Peer의 줄임말이다. 중앙 서버를 거치지 않고 참여자끼리 직접 데이터를 주고받는 구조를 뜻한다.</p>
+<p>블록체인에서는 거래 정보가 네트워크 참여자에게 퍼지고, 참여자들이 그 거래가 규칙에 맞는지 확인한다. 이때 참여하는 컴퓨터를 보통 노드라고 부른다.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+<h3 id="해시와-암호화" class="heading">해시와 암호화<a href="#%ed%95%b4%ec%8b%9c%ec%99%80-%ec%95%94%ed%98%b8%ed%99%94" aria-labelledby="해시와-암호화">
+
+
+
+
+
+
+                
+                        
+                        
+                        <svg class="svg-inline--fa fas fa-link anchor" fill="currentColor" aria-hidden="true" role="img" viewBox="0 0 576 512" overflow="visible"><use href="#fas-link"></use></svg>&nbsp;
+    </a>
+</h3>
+
+<p>블록체인은 데이터를 안전하게 연결하기 위해 해시(Hash)를 사용한다. 해시는 어떤 데이터를 고정된 길이의 값으로 바꾸는 기술이다. 데이터가 조금만 바뀌어도 해시값은 완전히 달라진다.</p>
+<p>쉽게 말하면 해시는 데이터의 지문과 비슷하다. 원본 데이터가 조금이라도 바뀌면 지문이 달라지므로 변조 여부를 찾기 쉽다. 각 블록은 이전 블록의 해시값을 포함해 연결된다. 그래서 중간 블록을 고치면 그 뒤에 이어진 블록들의 연결도 함께 깨진다.</p>
+<p>블록체인은 개인키와 공개키 같은 암호 기술도 사용한다. 개인키는 자산을 움직일 권한을 증명하는 비밀키에 가깝고, 공개키는 서명이 맞는지 확인하는 데 쓰인다. 개인키를 잃어버리면 자산을 되찾기 어려울 수 있으므로 지갑 관리가 매우 중요하다.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+<h3 id="합의-알고리즘" class="heading">합의 알고리즘<a href="#%ed%95%a9%ec%9d%98-%ec%95%8c%ea%b3%a0%eb%a6%ac%ec%a6%98" aria-labelledby="합의-알고리즘">
+
+
+
+
+
+
+                
+                        
+                        
+                        <svg class="svg-inline--fa fas fa-link anchor" fill="currentColor" aria-hidden="true" role="img" viewBox="0 0 576 512" overflow="visible"><use href="#fas-link"></use></svg>&nbsp;
+    </a>
+</h3>
+
+<p>블록체인에서는 거래가 발생했다고 바로 장부에 확정되지 않는다. 네트워크가 &ldquo;이 거래는 맞다&quot;고 인정하는 절차가 필요하다. 이 규칙을 합의 알고리즘이라고 한다.</p>
+<p>비트코인은 작업증명(PoW)을 사용한다. 채굴자들이 계산 경쟁을 통해 블록을 만들고 보상을 받는 방식이다. 이더리움은 2022년 지분증명(PoS)으로 전환했다. 코인을 맡긴 검증자가 거래를 확인하고 블록 생성에 참여하는 방식이다.</p>
+<p>합의 알고리즘은 블록체인의 보안, 속도, 수수료, 에너지 사용량에 큰 영향을 준다. 그래서 블록체인을 볼 때는 &ldquo;어떤 코인인가&quot;뿐 아니라 &ldquo;어떤 방식으로 거래를 검증하는가&quot;도 함께 봐야 한다.</p>
+<hr>
+
+
+
+
+
+
+
+
+
+
+
+
+<h2 id="블록체인이-위변조에-강한-이유" class="heading">블록체인이 위변조에 강한 이유<a href="#%eb%b8%94%eb%a1%9d%ec%b2%b4%ec%9d%b8%ec%9d%b4-%ec%9c%84%eb%b3%80%ec%a1%b0%ec%97%90-%ea%b0%95%ed%95%9c-%ec%9d%b4%ec%9c%a0" aria-labelledby="블록체인이-위변조에-강한-이유">
+
+
+
+
+
+
+                
+                        
+                        
+                        <svg class="svg-inline--fa fas fa-link anchor" fill="currentColor" aria-hidden="true" role="img" viewBox="0 0 576 512" overflow="visible"><use href="#fas-link"></use></svg>&nbsp;
+    </a>
+</h2>
+
+<p>블록체인은 한 번 기록된 데이터를 바꾸기 어렵게 설계되어 있다. 이유는 세 가지다.</p>
+<p>첫째, 여러 참여자가 같은 장부를 보관한다. 한 사람이 자기 장부만 고쳐도 다른 참여자의 장부와 맞지 않으면 인정받기 어렵다.</p>
+<p>둘째, 블록들이 해시로 연결되어 있다. 과거 기록 하나를 바꾸면 해당 블록의 해시가 달라지고, 그 뒤에 연결된 블록과의 관계도 깨진다. 과거 기록을 몰래 고치려면 이후 기록까지 다시 맞춰야 한다.</p>
+<p>셋째, 네트워크의 합의를 통과해야 한다. 퍼블릭 블록체인에서는 많은 참여자가 정해진 규칙에 따라 거래를 검증한다. 공격자가 장부를 마음대로 바꾸려면 네트워크의 상당 부분을 장악해야 하므로 비용과 난이도가 높아진다.</p>
+<p>다만 &ldquo;위변조가 어렵다&quot;는 말이 &ldquo;절대 안전하다&quot;는 뜻은 아니다. 블록체인 자체가 튼튼해도 거래소가 해킹될 수 있고, 개인키를 잃어버릴 수 있고, 스마트 컨트랙트 코드에 버그가 있을 수 있다. 블록체인의 보안과 사용자의 보안은 구분해서 봐야 한다.</p>
+<hr>
+
+
+
+
+
+
+
+
+
+
+
+
+<h2 id="블록체인의-장점과-한계" class="heading">블록체인의 장점과 한계<a href="#%eb%b8%94%eb%a1%9d%ec%b2%b4%ec%9d%b8%ec%9d%98-%ec%9e%a5%ec%a0%90%ea%b3%bc-%ed%95%9c%ea%b3%84" aria-labelledby="블록체인의-장점과-한계">
+
+
+
+
+
+
+                
+                        
+                        
+                        <svg class="svg-inline--fa fas fa-link anchor" fill="currentColor" aria-hidden="true" role="img" viewBox="0 0 576 512" overflow="visible"><use href="#fas-link"></use></svg>&nbsp;
+    </a>
+</h2>
+
+<p>블록체인은 장점이 분명하지만 모든 문제를 해결하는 만능 기술은 아니다. 어떤 장점이 있고 어떤 한계가 있는지 같이 봐야 한다.</p>
+
+
+
+
+
+
+    
+
+
+
+
+
+
+<table class="table">
+  <thead>
+    
+      
+      <tr>
+          <th >구분</th>
+          <th >내용</th>
+      </tr>
+    
+  </thead>
+  <tbody>
+    
+      
+        <tr>
+            <td >투명성</td>
+            <td >참여자들이 같은 장부를 공유하므로 기록 확인이 쉽다</td>
+        </tr>
+      
+    
+      
+        <tr>
+            <td >위변조 방지</td>
+            <td >해시와 분산 구조로 과거 기록을 바꾸기 어렵다</td>
+        </tr>
+      
+    
+      
+        <tr>
+            <td >중개 비용 절감</td>
+            <td >중앙기관이나 중개자를 줄여 거래 절차를 단순화할 수 있다</td>
+        </tr>
+      
+    
+      
+        <tr>
+            <td >자동화</td>
+            <td >스마트 컨트랙트로 조건이 충족되면 계약을 자동 실행할 수 있다</td>
+        </tr>
+      
+    
+      
+        <tr>
+            <td >장애 분산</td>
+            <td >한 서버에만 의존하지 않아 단일 장애점 위험을 줄일 수 있다</td>
+        </tr>
+      
+  </tbody>
+</table><p>하지만 한계도 있다.</p>
+
+
+
+
+
+
+    
+
+
+
+
+
+
+<table class="table">
+  <thead>
+    
+      
+      <tr>
+          <th >한계</th>
+          <th >설명</th>
+      </tr>
+    
+  </thead>
+  <tbody>
+    
+      
+        <tr>
+            <td >처리 속도</td>
+            <td >모든 참여자가 검증하는 구조라 중앙 서버보다 느릴 수 있다</td>
+        </tr>
+      
+    
+      
+        <tr>
+            <td >수수료</td>
+            <td >네트워크가 혼잡하면 거래 수수료가 높아질 수 있다</td>
+        </tr>
+      
+    
+      
+        <tr>
+            <td >개인정보</td>
+            <td >공개 블록체인에서는 거래 내역이 노출될 수 있다</td>
+        </tr>
+      
+    
+      
+        <tr>
+            <td >복구 어려움</td>
+            <td >개인키를 잃어버리면 자산 복구가 어렵다</td>
+        </tr>
+      
+    
+      
+        <tr>
+            <td >법적 책임</td>
+            <td >탈중앙화 구조에서는 사고 발생 시 책임 주체가 불명확할 수 있다</td>
+        </tr>
+      
+  </tbody>
+</table><p>블록체인이 필요한 곳은 &ldquo;여러 주체가 같은 기록을 믿고 공유해야 하는데, 특정 한 기관만 믿기 어려운 영역&quot;이다. 반대로 한 회사 내부에서만 쓰는 단순한 데이터 관리라면 일반 데이터베이스가 더 빠르고 효율적일 수 있다.</p>
+<hr>
+
+
+
+
+
+
+
+
+
+
+
+
+<h2 id="퍼블릭-프라이빗-컨소시엄-블록체인의-차이" class="heading">퍼블릭, 프라이빗, 컨소시엄 블록체인의 차이<a href="#%ed%8d%bc%eb%b8%94%eb%a6%ad-%ed%94%84%eb%9d%bc%ec%9d%b4%eb%b9%97-%ec%bb%a8%ec%86%8c%ec%8b%9c%ec%97%84-%eb%b8%94%eb%a1%9d%ec%b2%b4%ec%9d%b8%ec%9d%98-%ec%b0%a8%ec%9d%b4" aria-labelledby="퍼블릭-프라이빗-컨소시엄-블록체인의-차이">
+
+
+
+
+
+
+                
+                        
+                        
+                        <svg class="svg-inline--fa fas fa-link anchor" fill="currentColor" aria-hidden="true" role="img" viewBox="0 0 576 512" overflow="visible"><use href="#fas-link"></use></svg>&nbsp;
+    </a>
+</h2>
+
+<p>블록체인은 누구나 참여할 수 있는지에 따라 종류가 나뉜다.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+<h3 id="퍼블릭-블록체인" class="heading">퍼블릭 블록체인<a href="#%ed%8d%bc%eb%b8%94%eb%a6%ad-%eb%b8%94%eb%a1%9d%ec%b2%b4%ec%9d%b8" aria-labelledby="퍼블릭-블록체인">
+
+
+
+
+
+
+                
+                        
+                        
+                        <svg class="svg-inline--fa fas fa-link anchor" fill="currentColor" aria-hidden="true" role="img" viewBox="0 0 576 512" overflow="visible"><use href="#fas-link"></use></svg>&nbsp;
+    </a>
+</h3>
+
+<p>퍼블릭 블록체인은 누구나 네트워크에 참여할 수 있는 구조다. 비트코인과 이더리움이 대표적이다. 누구나 거래 기록을 확인하고, 조건을 갖추면 검증에도 참여할 수 있다.</p>
+<p>장점은 개방성과 탈중앙성이다. 단점은 처리 속도, 수수료, 개인정보 노출 문제가 생길 수 있다는 점이다.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+<h3 id="프라이빗-블록체인" class="heading">프라이빗 블록체인<a href="#%ed%94%84%eb%9d%bc%ec%9d%b4%eb%b9%97-%eb%b8%94%eb%a1%9d%ec%b2%b4%ec%9d%b8" aria-labelledby="프라이빗-블록체인">
+
+
+
+
+
+
+                
+                        
+                        
+                        <svg class="svg-inline--fa fas fa-link anchor" fill="currentColor" aria-hidden="true" role="img" viewBox="0 0 576 512" overflow="visible"><use href="#fas-link"></use></svg>&nbsp;
+    </a>
+</h3>
+
+<p>프라이빗 블록체인은 특정 조직이 참여자를 제한하고 관리하는 구조다. 기업 내부 기록 관리나 특정 서비스 운영에 활용될 수 있다.</p>
+<p>장점은 통제와 효율성이다. 참여자가 제한되어 있어 처리 속도와 권한 관리가 쉬울 수 있다. 반면 중앙 관리자의 영향력이 크기 때문에 퍼블릭 블록체인만큼 탈중앙적이라고 보기는 어렵다.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+<h3 id="컨소시엄-블록체인" class="heading">컨소시엄 블록체인<a href="#%ec%bb%a8%ec%86%8c%ec%8b%9c%ec%97%84-%eb%b8%94%eb%a1%9d%ec%b2%b4%ec%9d%b8" aria-labelledby="컨소시엄-블록체인">
+
+
+
+
+
+
+                
+                        
+                        
+                        <svg class="svg-inline--fa fas fa-link anchor" fill="currentColor" aria-hidden="true" role="img" viewBox="0 0 576 512" overflow="visible"><use href="#fas-link"></use></svg>&nbsp;
+    </a>
+</h3>
+
+<p>컨소시엄 블록체인은 여러 기업이나 기관이 협의체를 만들어 함께 운영하는 방식이다. 은행, 보험사, 물류 회사, 공공기관처럼 여러 주체가 같은 데이터를 공유해야 할 때 논의된다.</p>
+<p>예를 들어 무역금융에서는 수입업체, 수출업체, 은행, 물류 회사가 같은 서류와 결제 정보를 확인해야 한다. 컨소시엄 블록체인은 이런 여러 참여자가 동일한 기록을 공유하는 데 쓰일 수 있다.</p>
+
+
+
+
+
+
+    
+
+
+
+
+
+
+<table class="table">
+  <thead>
+    
+      
+      <tr>
+          <th >종류</th>
+          <th >참여 범위</th>
+          <th >대표 특징</th>
+      </tr>
+    
+  </thead>
+  <tbody>
+    
+      
+        <tr>
+            <td >퍼블릭 블록체인</td>
+            <td >누구나 참여 가능</td>
+            <td >개방성, 탈중앙성</td>
+        </tr>
+      
+    
+      
+        <tr>
+            <td >프라이빗 블록체인</td>
+            <td >특정 조직이 참여자 제한</td>
+            <td >효율성, 권한 관리</td>
+        </tr>
+      
+    
+      
+        <tr>
+            <td >컨소시엄 블록체인</td>
+            <td >여러 기관이 공동 운영</td>
+            <td >기관 간 데이터 공유</td>
+        </tr>
+      
+  </tbody>
+</table><hr>
+
+
+
+
+
+
+
+
+
+
+
+
+<h2 id="블록체인은-어디에-활용될까" class="heading">블록체인은 어디에 활용될까<a href="#%eb%b8%94%eb%a1%9d%ec%b2%b4%ec%9d%b8%ec%9d%80-%ec%96%b4%eb%94%94%ec%97%90-%ed%99%9c%ec%9a%a9%eb%90%a0%ea%b9%8c" aria-labelledby="블록체인은-어디에-활용될까">
+
+
+
+
+
+
+                
+                        
+                        
+                        <svg class="svg-inline--fa fas fa-link anchor" fill="currentColor" aria-hidden="true" role="img" viewBox="0 0 576 512" overflow="visible"><use href="#fas-link"></use></svg>&nbsp;
+    </a>
+</h2>
+
+<p>블록체인은 코인 외에도 여러 분야에서 활용될 수 있다. 핵심은 기록의 신뢰와 추적이 필요한 영역이다.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+<h3 id="금융과-송금" class="heading">금융과 송금<a href="#%ea%b8%88%ec%9c%b5%ea%b3%bc-%ec%86%a1%ea%b8%88" aria-labelledby="금융과-송금">
+
+
+
+
+
+
+                
+                        
+                        
+                        <svg class="svg-inline--fa fas fa-link anchor" fill="currentColor" aria-hidden="true" role="img" viewBox="0 0 576 512" overflow="visible"><use href="#fas-link"></use></svg>&nbsp;
+    </a>
+</h3>
+
+<p>비트코인은 블록체인을 활용한 대표 사례다. 중앙기관 없이 개인 간 가치를 이전하는 실험에서 출발했다. 이후 스테이블코인, 해외송금, 결제, 토큰증권, DeFi 같은 분야로 확장되었다.</p>
+<p>코인 종류와 구조가 궁금하다면 아래 글도 함께 읽어보면 좋다.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+<a aria-label="코인 종류와 특징 한 번에 이해하기"
+        href="/posts/types-of-cryptocurrency/" class="btn btn-outline-dark position-relative col-12"
+        role="button"
+        >
+        <span class="d-flex justify-content-center">
+            <span class="my-auto">코인 종류와 특징 한 번에 이해하기</span>
+        </span></a>&nbsp;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h3 id="인증과-신원-관리" class="heading">인증과 신원 관리<a href="#%ec%9d%b8%ec%a6%9d%ea%b3%bc-%ec%8b%a0%ec%9b%90-%ea%b4%80%eb%a6%ac" aria-labelledby="인증과-신원-관리">
+
+
+
+
+
+
+                
+                        
+                        
+                        <svg class="svg-inline--fa fas fa-link anchor" fill="currentColor" aria-hidden="true" role="img" viewBox="0 0 576 512" overflow="visible"><use href="#fas-link"></use></svg>&nbsp;
+    </a>
+</h3>
+
+<p>분산신원관리(DID)는 개인이 자신의 신원 정보를 더 직접적으로 관리하도록 돕는 기술이다. 기존에는 여러 기관이 개인정보를 각각 보관했다면, 블록체인 기반 인증은 필요한 정보만 검증하는 방식으로 개인정보 노출을 줄이는 방향을 추구한다.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+<h3 id="물류와-유통" class="heading">물류와 유통<a href="#%eb%ac%bc%eb%a5%98%ec%99%80-%ec%9c%a0%ed%86%b5" aria-labelledby="물류와-유통">
+
+
+
+
+
+
+                
+                        
+                        
+                        <svg class="svg-inline--fa fas fa-link anchor" fill="currentColor" aria-hidden="true" role="img" viewBox="0 0 576 512" overflow="visible"><use href="#fas-link"></use></svg>&nbsp;
+    </a>
+</h3>
+
+<p>제품의 원산지, 이동 경로, 품질 인증 기록을 블록체인에 남기면 위조나 정보 조작을 줄이는 데 도움이 될 수 있다. 식품, 의약품, 명품, 부품 공급망처럼 추적이 중요한 분야에서 활용 가능성이 있다.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+<h3 id="스마트-계약" class="heading">스마트 계약<a href="#%ec%8a%a4%eb%a7%88%ed%8a%b8-%ea%b3%84%ec%95%bd" aria-labelledby="스마트-계약">
+
+
+
+
+
+
+                
+                        
+                        
+                        <svg class="svg-inline--fa fas fa-link anchor" fill="currentColor" aria-hidden="true" role="img" viewBox="0 0 576 512" overflow="visible"><use href="#fas-link"></use></svg>&nbsp;
+    </a>
+</h3>
+
+<p>스마트 계약은 정해진 조건이 충족되면 자동으로 실행되는 프로그램이다. 예를 들어 대금이 입금되면 디지털 자산 소유권을 이전하거나, 담보 조건이 맞으면 대출을 실행하는 방식이다.</p>
+<p>이더리움은 스마트 계약을 대중화한 대표적인 블록체인이다. 비트코인과 이더리움의 차이가 궁금하다면 아래 글을 참고하면 좋다.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+<a aria-label="비트코인 vs 이더리움 차이 쉽게 비교하기"
+        href="/posts/bitcoin-vs-ethereum/" class="btn btn-outline-dark position-relative col-12"
+        role="button"
+        >
+        <span class="d-flex justify-content-center">
+            <span class="my-auto">비트코인 vs 이더리움 차이 쉽게 비교하기</span>
+        </span></a>&nbsp;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h3 id="저작권과-디지털-소유권" class="heading">저작권과 디지털 소유권<a href="#%ec%a0%80%ec%9e%91%ea%b6%8c%ea%b3%bc-%eb%94%94%ec%a7%80%ed%84%b8-%ec%86%8c%ec%9c%a0%ea%b6%8c" aria-labelledby="저작권과-디지털-소유권">
+
+
+
+
+
+
+                
+                        
+                        
+                        <svg class="svg-inline--fa fas fa-link anchor" fill="currentColor" aria-hidden="true" role="img" viewBox="0 0 576 512" overflow="visible"><use href="#fas-link"></use></svg>&nbsp;
+    </a>
+</h3>
+
+<p>NFT는 디지털 파일이나 권리에 고유한 식별값을 부여해 소유권과 거래 이력을 기록하는 방식이다. 그림, 음악, 게임 아이템, 멤버십, 티켓 같은 분야에 적용될 수 있다.</p>
+<p>다만 NFT를 샀다고 항상 저작권 전체를 소유하는 것은 아니다. 실제로 어떤 권리를 받는지는 계약 조건과 플랫폼 정책을 확인해야 한다.</p>
+<hr>
+
+
+
+
+
+
+
+
+
+
+
+
+<h2 id="블록체인을-이해할-때-주의할-점" class="heading">블록체인을 이해할 때 주의할 점<a href="#%eb%b8%94%eb%a1%9d%ec%b2%b4%ec%9d%b8%ec%9d%84-%ec%9d%b4%ed%95%b4%ed%95%a0-%eb%95%8c-%ec%a3%bc%ec%9d%98%ed%95%a0-%ec%a0%90" aria-labelledby="블록체인을-이해할-때-주의할-점">
+
+
+
+
+
+
+                
+                        
+                        
+                        <svg class="svg-inline--fa fas fa-link anchor" fill="currentColor" aria-hidden="true" role="img" viewBox="0 0 576 512" overflow="visible"><use href="#fas-link"></use></svg>&nbsp;
+    </a>
+</h2>
+
+<p>블록체인은 좋은 기술이지만 과장도 많다. 초보자는 아래 내용을 기억하면 좋다.</p>
+<p>첫째, 블록체인과 코인은 같은 말이 아니다. 코인은 블록체인의 대표 활용 사례다. 블록체인은 데이터 기록과 검증을 위한 기술이고, 코인은 그 위에서 움직이는 자산일 수 있다.</p>
+<p>둘째, 탈중앙화가 항상 완전한 것은 아니다. 어떤 블록체인은 검증자가 소수에 집중될 수 있고, 어떤 프로젝트는 재단이나 기업의 영향력이 클 수 있다.</p>
+<p>셋째, 기록이 투명하다고 해서 모든 문제가 해결되지는 않는다. 잘못된 데이터가 처음부터 입력되면 블록체인은 그 잘못된 기록을 그대로 보관할 수 있다. 이를 &ldquo;입력 데이터의 신뢰 문제&quot;라고 볼 수 있다.</p>
+<p>넷째, 스마트 계약은 코드이므로 버그가 생길 수 있다. 자동 실행된다는 장점은 있지만, 코드에 허점이 있으면 해킹이나 자금 손실로 이어질 수 있다.</p>
+<p>다섯째, 투자와 기술을 구분해야 한다. 좋은 기술이 반드시 좋은 투자 수익으로 이어지지는 않는다. 블록체인 프로젝트를 볼 때는 실제 사용처, 사용자 수, 수수료 구조, 보안, 규제 리스크를 함께 확인해야 한다.</p>
+<hr>
+
+
+
+
+
+
+
+
+
+
+
+
+<h2 id="정리" class="heading">정리<a href="#%ec%a0%95%eb%a6%ac" aria-labelledby="정리">
+
+
+
+
+
+
+                
+                        
+                        
+                        <svg class="svg-inline--fa fas fa-link anchor" fill="currentColor" aria-hidden="true" role="img" viewBox="0 0 576 512" overflow="visible"><use href="#fas-link"></use></svg>&nbsp;
+    </a>
+</h2>
+
+<p>블록체인은 거래나 데이터를 블록 단위로 묶고, 이를 순서대로 연결해 여러 참여자가 함께 보관하고 검증하는 기술이다. 중앙 서버 한 곳에 의존하지 않고 분산 원장, P2P 네트워크, 해시, 합의 알고리즘을 활용해 기록의 신뢰를 높인다.</p>
+<p>장점은 투명성, 위변조 방지, 중개 비용 절감, 스마트 계약 자동화다. 한계는 처리 속도, 수수료, 개인정보, 개인키 관리, 법적 책임 문제다. 그래서 블록체인은 모든 시스템을 대체하는 기술이라기보다 여러 주체가 같은 기록을 믿고 공유해야 하는 곳에서 강점을 가진다.</p>
+<p>블록체인을 이해하면 비트코인, 이더리움, 스테이블코인, NFT, 토큰증권 같은 주제도 훨씬 쉽게 보인다. 코인 가격만 보기보다 그 뒤에 있는 장부 구조와 검증 방식을 먼저 이해하는 것이 중요하다.</p>
+<hr>
+
+
+
+
+
+
+
+
+
+
+
+
+<h2 id="자주-묻는-질문" class="heading">자주 묻는 질문<a href="#%ec%9e%90%ec%a3%bc-%eb%ac%bb%eb%8a%94-%ec%a7%88%eb%ac%b8" aria-labelledby="자주-묻는-질문">
+
+
+
+
+
+
+                
+                        
+                        
+                        <svg class="svg-inline--fa fas fa-link anchor" fill="currentColor" aria-hidden="true" role="img" viewBox="0 0 576 512" overflow="visible"><use href="#fas-link"></use></svg>&nbsp;
+    </a>
+</h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h3 id="블록체인과-비트코인은-같은-말인가" class="heading">블록체인과 비트코인은 같은 말인가?<a href="#%eb%b8%94%eb%a1%9d%ec%b2%b4%ec%9d%b8%ea%b3%bc-%eb%b9%84%ed%8a%b8%ec%bd%94%ec%9d%b8%ec%9d%80-%ea%b0%99%ec%9d%80-%eb%a7%90%ec%9d%b8%ea%b0%80" aria-labelledby="블록체인과-비트코인은-같은-말인가">
+
+
+
+
+
+
+                
+                        
+                        
+                        <svg class="svg-inline--fa fas fa-link anchor" fill="currentColor" aria-hidden="true" role="img" viewBox="0 0 576 512" overflow="visible"><use href="#fas-link"></use></svg>&nbsp;
+    </a>
+</h3>
+
+<p>같은 말이 아니다. 블록체인은 데이터를 기록하고 검증하는 기술이고, 비트코인은 그 기술을 활용한 대표적인 암호화폐다. 비트코인 외에도 이더리움, 스테이블코인, NFT, 토큰증권 등 다양한 분야에서 블록체인이 활용된다.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+<h3 id="블록체인은-왜-위변조가-어렵나" class="heading">블록체인은 왜 위변조가 어렵나?<a href="#%eb%b8%94%eb%a1%9d%ec%b2%b4%ec%9d%b8%ec%9d%80-%ec%99%9c-%ec%9c%84%eb%b3%80%ec%a1%b0%ea%b0%80-%ec%96%b4%eb%a0%b5%eb%82%98" aria-labelledby="블록체인은-왜-위변조가-어렵나">
+
+
+
+
+
+
+                
+                        
+                        
+                        <svg class="svg-inline--fa fas fa-link anchor" fill="currentColor" aria-hidden="true" role="img" viewBox="0 0 576 512" overflow="visible"><use href="#fas-link"></use></svg>&nbsp;
+    </a>
+</h3>
+
+<p>여러 참여자가 같은 장부를 보관하고, 블록들이 해시로 연결되어 있으며, 거래를 기록하려면 네트워크의 합의를 거쳐야 하기 때문이다. 일부 기록만 몰래 바꾸면 다른 장부와 맞지 않고 연결 구조도 깨진다.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+<h3 id="블록체인은-무조건-안전한가" class="heading">블록체인은 무조건 안전한가?<a href="#%eb%b8%94%eb%a1%9d%ec%b2%b4%ec%9d%b8%ec%9d%80-%eb%ac%b4%ec%a1%b0%ea%b1%b4-%ec%95%88%ec%a0%84%ed%95%9c%ea%b0%80" aria-labelledby="블록체인은-무조건-안전한가">
+
+
+
+
+
+
+                
+                        
+                        
+                        <svg class="svg-inline--fa fas fa-link anchor" fill="currentColor" aria-hidden="true" role="img" viewBox="0 0 576 512" overflow="visible"><use href="#fas-link"></use></svg>&nbsp;
+    </a>
+</h3>
+
+<p>아니다. 블록체인 구조 자체가 위변조에 강하더라도 거래소 해킹, 개인키 분실, 스마트 계약 버그, 피싱, 잘못된 송금 같은 위험은 남아 있다. 기술의 보안과 사용자의 보안은 따로 관리해야 한다.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+<h3 id="스마트-계약은-무엇인가" class="heading">스마트 계약은 무엇인가?<a href="#%ec%8a%a4%eb%a7%88%ed%8a%b8-%ea%b3%84%ec%95%bd%ec%9d%80-%eb%ac%b4%ec%97%87%ec%9d%b8%ea%b0%80" aria-labelledby="스마트-계약은-무엇인가">
+
+
+
+
+
+
+                
+                        
+                        
+                        <svg class="svg-inline--fa fas fa-link anchor" fill="currentColor" aria-hidden="true" role="img" viewBox="0 0 576 512" overflow="visible"><use href="#fas-link"></use></svg>&nbsp;
+    </a>
+</h3>
+
+<p>스마트 계약은 미리 정한 조건이 충족되면 자동으로 실행되는 프로그램이다. 예를 들어 돈이 입금되면 NFT 소유권을 이전하거나, 담보 조건이 맞으면 대출을 실행하는 식으로 작동할 수 있다.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+<h3 id="블록체인은-코인-말고-어디에-쓰이나" class="heading">블록체인은 코인 말고 어디에 쓰이나?<a href="#%eb%b8%94%eb%a1%9d%ec%b2%b4%ec%9d%b8%ec%9d%80-%ec%bd%94%ec%9d%b8-%eb%a7%90%ea%b3%a0-%ec%96%b4%eb%94%94%ec%97%90-%ec%93%b0%ec%9d%b4%eb%82%98" aria-labelledby="블록체인은-코인-말고-어디에-쓰이나">
+
+
+
+
+
+
+                
+                        
+                        
+                        <svg class="svg-inline--fa fas fa-link anchor" fill="currentColor" aria-hidden="true" role="img" viewBox="0 0 576 512" overflow="visible"><use href="#fas-link"></use></svg>&nbsp;
+    </a>
+</h3>
+
+<p>인증, 해외송금, 물류 추적, 저작권 관리, 전자투표, 공공 기록, 토큰증권, 무역금융 등 데이터의 신뢰와 추적이 중요한 분야에 쓰일 수 있다. 다만 모든 분야에 블록체인이 필요한 것은 아니므로 기존 데이터베이스보다 나은 이유가 있는지 확인해야 한다.</p>
+
+
+                    
+                    
+<div class="row row-cols-2 mt-5 mb-3">
+    <div class="col">
+        </div>
+    <div class="col text-end">
+        <a class="previous" href="/posts/cbdc-vs-stablecoin/">
+                    CBDC와 스테이블코인의 차이점&nbsp;
+
+
+
+
+
+
+                
+                        
+                        
+                        <svg class="svg-inline--fa fas fa-arrow-right " fill="currentColor" aria-hidden="true" role="img" viewBox="0 0 512 512" overflow="visible"><use href="#fas-arrow-right"></use></svg>
+                </a></div>
+</div>
+
+<div class="row row-cols-2 mt-5">
+    <div class="col">
+        <strong>최근 게시글</strong>
+    </div>
+    <div class="col text-end">
+        <a class="previous" href="/posts/coin/">
+            전체보기
+
+
+
+
+
+
+                
+                        
+                        
+                        <svg class="svg-inline--fa fas fa-angles-right " fill="currentColor" aria-hidden="true" role="img" viewBox="0 0 448 512" overflow="visible"><use href="#fas-angles-right"></use></svg>
+        </a>
+    </div>
+</div>
+<hr>
+
+    
+    <p>
+        <a href="/posts/what-is-blockchain/">
+            <p class="h6">블록체인 기술이란? 뜻, 원리, 장단점과 활용 사례 쉽게 이해하기</p>
+            <p>블록체인의 뜻과 작동 원리를 분산 원장, 블록, 해시, 합의 알고리즘, 스마트 계약 중심으로 초보자도 이해하기 쉽게 정리했다.</p>
+        </a>
+        
+    </p>
+    <hr>
+    
+
+    
+    <p>
+        <a href="/posts/cbdc-vs-stablecoin/">
+            <p class="h6">CBDC와 스테이블코인의 차이점, 발행 주체·법적 지위·활용 방식 쉽게 비교하기</p>
+            <p>CBDC와 스테이블코인의 차이를 발행 주체, 법적 지위, 신뢰 기반, 통제 수준, 활용 방식, 개인정보 관점에서 초보자도 이해하기 쉽게 정리했다.</p>
+        </a>
+        
+    </p>
+    <hr>
+    
+
+    
+    <p>
+        <a href="/posts/bitcoin-vs-ethereum/">
+            <p class="h6">비트코인 vs 이더리움 차이, 초보자가 꼭 알아야 할 목적·기능·투자 관점 비교</p>
+            <p>비트코인과 이더리움의 차이를 목적, 발행량, 합의 방식, 스마트 컨트랙트, 투자 관점에서 초보자도 이해하기 쉽게 비교했다.</p>
+        </a>
+        
+    </p>
+    <hr>
+    
+
+    
+    <p>
+        <a href="/posts/bitcoin-under-60000/">
+            <p class="h6">비트코인 6만 달러 붕괴 우려, 하락 원인과 개인 투자자 대응법</p>
+            <p>비트코인 가격이 6만 달러선까지 밀린 이유와 스트래티지 매도, 알트코인 동반 하락, 개인 투자자가 확인할 대응 기준을 정리했다.</p>
+        </a>
+        
+    </p>
+    <hr>
+    
+
+    
+    <p>
+        <a href="/posts/ripple-xrp-price-forecast/">
+            <p class="h6">리플(XRP) 가격 전망, 2026년 이후 상승 요인과 투자 리스크 정리</p>
+            <p>리플(XRP)의 현재 가격 흐름, 장기 상승 요인, 하락 리스크, 2026년 이후 가격 전망을 초보 투자자도 이해하기 쉽게 정리했다.</p>
+        </a>
+        
+    </p>
+    <hr>
+    
+
+    
+    <p>
+        <a href="/posts/korean-won-stablecoin/">
+            <p class="h6">한국형 원화 스테이블코인은 어디까지 왔을까, 프로젝트 한강과 예금 토큰 정리</p>
+            <p>한국형 원화 스테이블코인 논의와 한국은행 프로젝트 한강, 기관용 디지털화폐, 예금 토큰의 차이, 발행 주체와 소비자 보호 쟁점을 정리했다.</p>
+        </a>
+        
+    </p>
+    <hr>
+    
+
+    
+    <p>
+        <a href="/posts/global-digital-currency-competition/">
+            <p class="h6">디지털 화폐 전쟁, 미국·중국·EU는 스테이블코인과 CBDC에 어떻게 대응할까</p>
+            <p>미국의 GENIUS Act, 중국의 디지털 위안화, EU의 MiCA, 홍콩의 스테이블코인 발행 규제를 통해 세계 각국의 디지털 화폐 경쟁을 쉽게 설명했다.</p>
+        </a>
+        
+    </p>
+    <hr>
+    
+
+    
+    <p>
+        <a href="/posts/stablecoin-commercialization/">
+            <p class="h6">스테이블코인이 상용화되면 달라지는 것, 송금·결제·RWA 투자 변화 정리</p>
+            <p>스테이블코인이 상용화되면 해외 송금, 결제 정산, 스마트 컨트랙트, 실물자산 토큰화 투자가 어떻게 달라질 수 있는지와 주의할 위험을 정리했다.</p>
+        </a>
+        
+    </p>
+    <hr>
+    
+
+    
+    <p>
+        <a href="/posts/what-is-stablecoin/">
+            <p class="h6">스테이블코인이란? 종류, 페깅 원리, 활용 방법과 디페깅 리스크 총정리</p>
+            <p>스테이블코인의 뜻과 페깅 원리, 법정화폐 담보형·암호화폐 담보형·알고리즘형의 차이, 송금과 결제 활용법, 디페깅 위험을 정리했다.</p>
+        </a>
+        
+    </p>
+    <hr>
+    
+
+    
+    <p>
+        <a href="/posts/what-is-altcoin/">
+            <p class="h6">알트코인이란? 종류, 알트코인 시즌 인덱스, 비트코인과의 차이 쉽게 이해하기</p>
+            <p>알트코인의 뜻과 종류, 비트코인과의 차이, 알트코인 시즌 인덱스와 비트코인 도미넌스를 해석하는 방법, 투자 전 확인할 위험 요소를 정리했다.</p>
+        </a>
+        
+    </p>
+    <hr>
+    
+
+    
+    <p>
+        <a href="/posts/types-of-cryptocurrency/">
+            <p class="h6">코인 종류와 특징 총정리, 비트코인·알트코인·스테이블코인 쉽게 구분하기</p>
+            <p>비트코인과 알트코인의 차이부터 메인넷 코인, 토큰, 스테이블코인, DeFi·NFT 관련 코인, CBDC까지 코인 종류와 특징을 초보자 눈높이에서 정리했다.</p>
+        </a>
+        
+    </p>
+    <hr>
+    
+
+    
+    <p>
+        <a href="/posts/why-stablecoins-were-created/">
+            <p class="h6">스테이블코인은 왜 만들어졌을까? 비트코인과 다른 점 쉽게 이해하기</p>
+            <p>스테이블코인이 비트코인의 가격 변동성 문제에서 어떻게 탄생했는지, USDT와 USDC의 역할, 송금·결제·디지털자산 시장에서의 쓰임새를 쉽게 설명한다.</p>
+        </a>
+        
+    </p>
+    <hr>
+    
+
+    
+    <p>
+        <a href="/posts/stablecoin-theme-stocks/">
+            <p class="h6">스테이블코인 테마주 투자, 급등 전에 꼭 봐야 할 핵심 포인트</p>
+            <p>스테이블코인 테마주가 주목받는 이유와 국내외 관련 기업, 급등락 위험, 고평가 논란, 투자 전 확인해야 할 체크포인트를 초보자 눈높이로 정리했다.</p>
+        </a>
+        
+    </p>
+    <hr>
+    
+
+
+                </div>
+                <div class="col col-md-3 col-lg-2 d-none d-md-block">
+                    
+    <div class="toc toc-sidebar mb-5 my-md-0 mb-lg-5 pb-3 text-body-secondary sticky-top">
+        
+
+        
+            
+            
+
+
+
+
+
+
+
+
+
+            <strong class="d-block mb-2">On this page</strong>
+            <nav class="toc">
+                
+                
+                    
+                
+
+                
+                    
+                    <a  class="toc-item toc-level-1" href="/posts/what-is-blockchain/#블록체인은-여러-사람이-함께-보관하는-디지털-장부다">블록체인은 여러 사람이 함께 보관하는 디지털 장부다</a>
+                
+                    
+                    <a  class="toc-item toc-level-1" href="/posts/what-is-blockchain/#블록체인은-이렇게-작동한다">블록체인은 이렇게 작동한다</a>
+                
+                    
+                    <a  class="toc-item toc-level-2" href="/posts/what-is-blockchain/#분산-원장">분산 원장</a>
+                
+                    
+                    <a  class="toc-item toc-level-2" href="/posts/what-is-blockchain/#p2p-네트워크">P2P 네트워크</a>
+                
+                    
+                    <a  class="toc-item toc-level-2" href="/posts/what-is-blockchain/#해시와-암호화">해시와 암호화</a>
+                
+                    
+                    <a  class="toc-item toc-level-2" href="/posts/what-is-blockchain/#합의-알고리즘">합의 알고리즘</a>
+                
+                    
+                    <a  class="toc-item toc-level-1" href="/posts/what-is-blockchain/#블록체인이-위변조에-강한-이유">블록체인이 위변조에 강한 이유</a>
+                
+                    
+                    <a  class="toc-item toc-level-1" href="/posts/what-is-blockchain/#블록체인의-장점과-한계">블록체인의 장점과 한계</a>
+                
+                    
+                    <a  class="toc-item toc-level-1" href="/posts/what-is-blockchain/#퍼블릭-프라이빗-컨소시엄-블록체인의-차이">퍼블릭, 프라이빗, 컨소시엄 블록체인의 차이</a>
+                
+                    
+                        
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+<a aria-label="Show 17 more"
+        href="#toc-collapse-items" id="btnTOCShowMore" class="btn btn-link link-primary position-relative toc-item" data-bs-toggle="collapse" aria-expanded="false" aria-controls="toc-collapse-items"role="button"
+        >
+        <span class="d-flex justify-content-start">
+            <span class="my-auto">Show 17 more</span>
+        </span></a>
+
+                        <div class="collapse" id="toc-collapse-items">
+                        
+                    <a  class="toc-item toc-level-2" href="/posts/what-is-blockchain/#퍼블릭-블록체인">퍼블릭 블록체인</a>
+                
+                    
+                    <a  class="toc-item toc-level-2" href="/posts/what-is-blockchain/#프라이빗-블록체인">프라이빗 블록체인</a>
+                
+                    
+                    <a  class="toc-item toc-level-2" href="/posts/what-is-blockchain/#컨소시엄-블록체인">컨소시엄 블록체인</a>
+                
+                    
+                    <a  class="toc-item toc-level-1" href="/posts/what-is-blockchain/#블록체인은-어디에-활용될까">블록체인은 어디에 활용될까</a>
+                
+                    
+                    <a  class="toc-item toc-level-2" href="/posts/what-is-blockchain/#금융과-송금">금융과 송금</a>
+                
+                    
+                    <a  class="toc-item toc-level-2" href="/posts/what-is-blockchain/#인증과-신원-관리">인증과 신원 관리</a>
+                
+                    
+                    <a  class="toc-item toc-level-2" href="/posts/what-is-blockchain/#물류와-유통">물류와 유통</a>
+                
+                    
+                    <a  class="toc-item toc-level-2" href="/posts/what-is-blockchain/#스마트-계약">스마트 계약</a>
+                
+                    
+                    <a  class="toc-item toc-level-2" href="/posts/what-is-blockchain/#저작권과-디지털-소유권">저작권과 디지털 소유권</a>
+                
+                    
+                    <a  class="toc-item toc-level-1" href="/posts/what-is-blockchain/#블록체인을-이해할-때-주의할-점">블록체인을 이해할 때 주의할 점</a>
+                
+                    
+                    <a  class="toc-item toc-level-1" href="/posts/what-is-blockchain/#정리">정리</a>
+                
+                    
+                    <a  class="toc-item toc-level-1" href="/posts/what-is-blockchain/#자주-묻는-질문">자주 묻는 질문</a>
+                
+                    
+                    <a  class="toc-item toc-level-2" href="/posts/what-is-blockchain/#블록체인과-비트코인은-같은-말인가">블록체인과 비트코인은 같은 말인가?</a>
+                
+                    
+                    <a  class="toc-item toc-level-2" href="/posts/what-is-blockchain/#블록체인은-왜-위변조가-어렵나">블록체인은 왜 위변조가 어렵나?</a>
+                
+                    
+                    <a  class="toc-item toc-level-2" href="/posts/what-is-blockchain/#블록체인은-무조건-안전한가">블록체인은 무조건 안전한가?</a>
+                
+                    
+                    <a  class="toc-item toc-level-2" href="/posts/what-is-blockchain/#스마트-계약은-무엇인가">스마트 계약은 무엇인가?</a>
+                
+                    
+                    <a  class="toc-item toc-level-2" href="/posts/what-is-blockchain/#블록체인은-코인-말고-어디에-쓰이나">블록체인은 코인 말고 어디에 쓰이나?</a>
+                
+
+                
+                    &nbsp;
+                    
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+<a aria-label="Show less"
+        href="#toc-collapse-items" id="btnTOCShowLess" class="btn btn-link link-primary position-relative toc-item" data-bs-toggle="collapse" aria-expanded="false" aria-controls="toc-collapse-items"role="button"
+        >
+        <span class="d-flex justify-content-start">
+            <span class="my-auto">Show less</span>
+        </span></a>
+
+                </div>
+            </nav>
+        
+    
+
+
+
+        </div>
+
+
+                </div>
+            </div>
+        </div>
+    
+</main>
+<footer class="container-fluid footer text-center p-3">
+    <div class="container-xxl text-center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8543127460401091"
+     crossorigin="anonymous"></script>
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-8543127460401091"
+     data-ad-slot="3689386360"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+        <small>
+            Copyright © 2026 Money::devkuma All rights reserved.
+            
+        </small>
+    </div>
+</footer>
+<div id="toast-container" class="toast-container position-fixed bottom-0 end-0 p-3">
+
+
+
+
+
+
+
+
+<div id="toast-copied-code-message" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+    <div class="toast-header">
+        <strong class="me-auto">Money::devkuma</strong>
+        <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+    </div>
+    <div class="toast-body">Code copied to clipboard</div>
+</div>
+</div>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" display="none">
+        <symbol id="fas-ellipsis" overflow="visible" viewBox="0 0 448 512"><path fill="currentColor" d="M0 256a56 56 0 1 1 112 0 56 56 0 1 1 -112 0zm168 0a56 56 0 1 1 112 0 56 56 0 1 1 -112 0zm224-56a56 56 0 1 1 0 112 56 56 0 1 1 0-112z"/></symbol>
+<symbol id="fas-sun" overflow="visible" viewBox="0 0 576 512"><path fill="currentColor" d="M288-32c8.4 0 16.3 4.4 20.6 11.7L364.1 72.3 468.9 46c8.2-2 16.9 .4 22.8 6.3S500 67 498 75.1l-26.3 104.7 92.7 55.5c7.2 4.3 11.7 12.2 11.7 20.6s-4.4 16.3-11.7 20.6L471.7 332.1 498 436.8c2 8.2-.4 16.9-6.3 22.8S477 468 468.9 466l-104.7-26.3-55.5 92.7c-4.3 7.2-12.2 11.7-20.6 11.7s-16.3-4.4-20.6-11.7L211.9 439.7 107.2 466c-8.2 2-16.8-.4-22.8-6.3S76 445 78 436.8l26.2-104.7-92.6-55.5C4.4 272.2 0 264.4 0 256s4.4-16.3 11.7-20.6L104.3 179.9 78 75.1c-2-8.2 .3-16.8 6.3-22.8S99 44 107.2 46l104.7 26.2 55.5-92.6 1.8-2.6c4.5-5.7 11.4-9.1 18.8-9.1zm0 144a144 144 0 1 0 0 288 144 144 0 1 0 0-288zm0 240a96 96 0 1 1 0-192 96 96 0 1 1 0 192z"/></symbol>
+<symbol id="fas-moon" overflow="visible" viewBox="0 0 512 512"><path fill="currentColor" d="M256 0C114.6 0 0 114.6 0 256S114.6 512 256 512c68.8 0 131.3-27.2 177.3-71.4 7.3-7 9.4-17.9 5.3-27.1s-13.7-14.9-23.8-14.1c-4.9 .4-9.8 .6-14.8 .6-101.6 0-184-82.4-184-184 0-72.1 41.5-134.6 102.1-164.8 9.1-4.5 14.3-14.3 13.1-24.4S322.6 8.5 312.7 6.3C294.4 2.2 275.4 0 256 0z"/></symbol>
+<symbol id="fas-angle-left" overflow="visible" viewBox="0 0 256 512"><path fill="currentColor" d="M9.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L77.3 256 214.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z"/></symbol>
+<symbol id="fas-sort" overflow="visible" viewBox="0 0 384 512"><path fill="currentColor" d="M2.4 204.2c5 12 16.6 19.8 29.6 19.8l320 0c12.9 0 24.6-7.8 29.6-19.8s2.2-25.7-6.9-34.9l-160-160c-12.5-12.5-32.8-12.5-45.3 0l-160 160c-9.2 9.2-11.9 22.9-6.9 34.9zm0 103.5c-5 12-2.2 25.7 6.9 34.9l160 160c12.5 12.5 32.8 12.5 45.3 0l160-160c9.2-9.2 11.9-22.9 6.9-34.9S364.9 288 352 288L32 288c-12.9 0-24.6 7.8-29.6 19.8z"/></symbol>
+<symbol id="fas-link" overflow="visible" viewBox="0 0 576 512"><path fill="currentColor" d="M419.5 96c-16.6 0-32.7 4.5-46.8 12.7-15.8-16-34.2-29.4-54.5-39.5 28.2-24 64.1-37.2 101.3-37.2 86.4 0 156.5 70 156.5 156.5 0 41.5-16.5 81.3-45.8 110.6l-71.1 71.1c-29.3 29.3-69.1 45.8-110.6 45.8-86.4 0-156.5-70-156.5-156.5 0-1.5 0-3 .1-4.5 .5-17.7 15.2-31.6 32.9-31.1s31.6 15.2 31.1 32.9c0 .9 0 1.8 0 2.6 0 51.1 41.4 92.5 92.5 92.5 24.5 0 48-9.7 65.4-27.1l71.1-71.1c17.3-17.3 27.1-40.9 27.1-65.4 0-51.1-41.4-92.5-92.5-92.5zM275.2 173.3c-1.9-.8-3.8-1.9-5.5-3.1-12.6-6.5-27-10.2-42.1-10.2-24.5 0-48 9.7-65.4 27.1L91.1 258.2c-17.3 17.3-27.1 40.9-27.1 65.4 0 51.1 41.4 92.5 92.5 92.5 16.5 0 32.6-4.4 46.7-12.6 15.8 16 34.2 29.4 54.6 39.5-28.2 23.9-64 37.2-101.3 37.2-86.4 0-156.5-70-156.5-156.5 0-41.5 16.5-81.3 45.8-110.6l71.1-71.1c29.3-29.3 69.1-45.8 110.6-45.8 86.6 0 156.5 70.6 156.5 156.9 0 1.3 0 2.6 0 3.9-.4 17.7-15.1 31.6-32.8 31.2s-31.6-15.1-31.2-32.8c0-.8 0-1.5 0-2.3 0-33.7-18-63.3-44.8-79.6z"/></symbol>
+<symbol id="fas-arrow-right" overflow="visible" viewBox="0 0 512 512"><path fill="currentColor" d="M502.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L402.7 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l370.7 0-105.4 105.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"/></symbol>
+<symbol id="fas-angles-right" overflow="visible" viewBox="0 0 448 512"><path fill="currentColor" d="M439.1 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L371.2 256 233.9 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160zm-352 160l160-160c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L179.2 256 41.9 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0z"/></symbol>
+    </svg>
+
+  
+    
+
+  
+
+
+<script src="/js/core.bundle-analytics.ko.min.bef138a0b0039c16630a4767e923e751563c440bb5d0c7c226422e8df10640e9.js"
+         data-category="analytics" integrity="sha256-vvE4oLADnBZjCkdn6SPnUVY8RAu10MfCJkIujfEGQOk=" crossorigin="anonymous" async></script>
+
+<script src="/js/core.bundle.ko.min.a842823490f77339ee892a08d22a4a819e377a1258c4fa4d769dc5fa05e0f70a.js"
+         integrity="sha256-qEKCNJD3cznuiSoI0ipKgZ43ehJYxPpNdp3F&#43;gXg9wo=" crossorigin="anonymous" async></script></body>
+</html>
