@@ -10,21 +10,28 @@
 		
 		
 		
-			<lastBuildDate>Wed, 10 Jun 2026 08:10:05 +0900</lastBuildDate>
+			<lastBuildDate>Wed, 10 Jun 2026 09:28:02 +0900</lastBuildDate>
 		
 			<atom:link href="https://money.devkuma.com/categories/index.xml" rel="self" type="application/rss+xml" />
 			<item>
-				<title>금융</title>
-				<link>https://money.devkuma.com/categories/%EA%B8%88%EC%9C%B5/</link>
-				<pubDate>Wed, 10 Jun 2026 08:10:05 +0900</pubDate>
-				<guid>https://money.devkuma.com/categories/%EA%B8%88%EC%9C%B5/</guid>
+				<title>대출</title>
+				<link>https://money.devkuma.com/categories/%EB%8C%80%EC%B6%9C/</link>
+				<pubDate>Wed, 10 Jun 2026 09:28:02 +0900</pubDate>
+				<guid>https://money.devkuma.com/categories/%EB%8C%80%EC%B6%9C/</guid>
 				<description></description>
 			</item>
 			<item>
-				<title>대출</title>
-				<link>https://money.devkuma.com/categories/%EB%8C%80%EC%B6%9C/</link>
-				<pubDate>Wed, 10 Jun 2026 08:10:05 +0900</pubDate>
-				<guid>https://money.devkuma.com/categories/%EB%8C%80%EC%B6%9C/</guid>
+				<title>부동산</title>
+				<link>https://money.devkuma.com/categories/%EB%B6%80%EB%8F%99%EC%82%B0/</link>
+				<pubDate>Wed, 10 Jun 2026 09:18:30 +0900</pubDate>
+				<guid>https://money.devkuma.com/categories/%EB%B6%80%EB%8F%99%EC%82%B0/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>금융</title>
+				<link>https://money.devkuma.com/categories/%EA%B8%88%EC%9C%B5/</link>
+				<pubDate>Wed, 10 Jun 2026 08:50:06 +0900</pubDate>
+				<guid>https://money.devkuma.com/categories/%EA%B8%88%EC%9C%B5/</guid>
 				<description></description>
 			</item>
 			<item>
@@ -53,13 +60,6 @@
 				<link>https://money.devkuma.com/categories/%EC%A3%BC%EC%8B%9D/</link>
 				<pubDate>Tue, 09 Jun 2026 22:15:38 +0900</pubDate>
 				<guid>https://money.devkuma.com/categories/%EC%A3%BC%EC%8B%9D/</guid>
-				<description></description>
-			</item>
-			<item>
-				<title>부동산</title>
-				<link>https://money.devkuma.com/categories/%EB%B6%80%EB%8F%99%EC%82%B0/</link>
-				<pubDate>Mon, 08 Jun 2026 22:18:01 +0900</pubDate>
-				<guid>https://money.devkuma.com/categories/%EB%B6%80%EB%8F%99%EC%82%B0/</guid>
 				<description></description>
 			</item>
 			<item>
