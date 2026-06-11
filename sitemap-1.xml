@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://money.devkuma.com/</loc>
-    <lastmod>2026-06-10T23:49:28+09:00</lastmod>
+    <lastmod>2026-06-11T23:27:02+09:00</lastmod>
   </url>
   <url>
     <loc>https://money.devkuma.com/about/</loc>
@@ -10,7 +10,7 @@
   </url>
   <url>
     <loc>https://money.devkuma.com/categories/</loc>
-    <lastmod>2026-06-10T23:49:28+09:00</lastmod>
+    <lastmod>2026-06-11T23:27:02+09:00</lastmod>
   </url>
   <url>
     <loc>https://money.devkuma.com/categories/%EA%B2%BD%EC%A0%9C-%EC%9D%B4%EC%95%BC%EA%B8%B0/</loc>
@@ -26,7 +26,7 @@
   </url>
   <url>
     <loc>https://money.devkuma.com/categories/%EA%B8%88%EC%9C%B5/</loc>
-    <lastmod>2026-06-10T09:48:20+09:00</lastmod>
+    <lastmod>2026-06-11T23:10:11+09:00</lastmod>
   </url>
   <url>
     <loc>https://money.devkuma.com/categories/%EB%85%B8%EB%8F%99/</loc>
@@ -38,15 +38,15 @@
   </url>
   <url>
     <loc>https://money.devkuma.com/categories/%EB%B3%B4%ED%97%98/</loc>
-    <lastmod>2026-06-10T08:04:05+09:00</lastmod>
+    <lastmod>2026-06-11T23:22:43+09:00</lastmod>
   </url>
   <url>
     <loc>https://money.devkuma.com/categories/%EB%B6%80%EB%8F%99%EC%82%B0/</loc>
-    <lastmod>2026-06-10T09:18:30+09:00</lastmod>
+    <lastmod>2026-06-11T23:18:01+09:00</lastmod>
   </url>
   <url>
     <loc>https://money.devkuma.com/categories/%EC%84%B8%EA%B8%88/</loc>
-    <lastmod>2026-06-10T23:09:49+09:00</lastmod>
+    <lastmod>2026-06-11T23:27:02+09:00</lastmod>
   </url>
   <url>
     <loc>https://money.devkuma.com/categories/%EC%9E%AC%ED%85%8C%ED%81%AC/</loc>
@@ -162,7 +162,7 @@
   </url>
   <url>
     <loc>https://money.devkuma.com/posts/</loc>
-    <lastmod>2026-06-10T23:49:28+09:00</lastmod>
+    <lastmod>2026-06-11T23:27:02+09:00</lastmod>
   </url>
   <url>
     <loc>https://money.devkuma.com/posts/account-opening-20-business-day-rule/</loc>
@@ -319,6 +319,10 @@
   <url>
     <loc>https://money.devkuma.com/posts/delisting-rules-tightened/</loc>
     <lastmod>2026-05-20T21:24:04+09:00</lastmod>
+  </url>
+  <url>
+    <loc>https://money.devkuma.com/posts/dental-insurance-checklist-before-signup/</loc>
+    <lastmod>2026-06-11T23:22:43+09:00</lastmod>
   </url>
   <url>
     <loc>https://money.devkuma.com/posts/deposit-loan-interest-basics/</loc>
@@ -550,7 +554,7 @@
   </url>
   <url>
     <loc>https://money.devkuma.com/posts/insurance/</loc>
-    <lastmod>2026-06-10T08:04:05+09:00</lastmod>
+    <lastmod>2026-06-11T23:22:43+09:00</lastmod>
   </url>
   <url>
     <loc>https://money.devkuma.com/posts/investment-strategy-by-age/</loc>
@@ -697,6 +701,10 @@
     <lastmod>2026-05-29T08:20:02+09:00</lastmod>
   </url>
   <url>
+    <loc>https://money.devkuma.com/posts/married-couple-joint-ownership-tax/</loc>
+    <lastmod>2026-06-11T23:18:01+09:00</lastmod>
+  </url>
+  <url>
     <loc>https://money.devkuma.com/posts/may-2026-stock-market-trends/</loc>
     <lastmod>2026-05-06T21:28:04+09:00</lastmod>
   </url>
@@ -759,6 +767,10 @@
   <url>
     <loc>https://money.devkuma.com/posts/national-growth-fund/</loc>
     <lastmod>2026-05-09T18:12:44+09:00</lastmod>
+  </url>
+  <url>
+    <loc>https://money.devkuma.com/posts/national-housing-bond/</loc>
+    <lastmod>2026-06-11T23:10:11+09:00</lastmod>
   </url>
   <url>
     <loc>https://money.devkuma.com/posts/non-taxable-separate-taxation-income-deduction/</loc>
@@ -825,8 +837,12 @@
     <lastmod>2026-05-28T22:26:21+09:00</lastmod>
   </url>
   <url>
+    <loc>https://money.devkuma.com/posts/real-estate-registration-cost-statement/</loc>
+    <lastmod>2026-06-11T22:56:14+09:00</lastmod>
+  </url>
+  <url>
     <loc>https://money.devkuma.com/posts/real-estate/</loc>
-    <lastmod>2026-06-10T09:18:30+09:00</lastmod>
+    <lastmod>2026-06-11T23:18:01+09:00</lastmod>
   </url>
   <url>
     <loc>https://money.devkuma.com/posts/reconstruction-redevelopment-difference/</loc>
@@ -879,6 +895,10 @@
   <url>
     <loc>https://money.devkuma.com/posts/simple-vs-compound-interest/</loc>
     <lastmod>2026-05-02T23:34:59+09:00</lastmod>
+  </url>
+  <url>
+    <loc>https://money.devkuma.com/posts/sole-proprietor-income-tax-saving-items/</loc>
+    <lastmod>2026-06-11T23:27:02+09:00</lastmod>
   </url>
   <url>
     <loc>https://money.devkuma.com/posts/sole-proprietor-vs-corporation/</loc>
@@ -998,7 +1018,7 @@
   </url>
   <url>
     <loc>https://money.devkuma.com/posts/tax/</loc>
-    <lastmod>2026-06-10T23:09:49+09:00</lastmod>
+    <lastmod>2026-06-11T23:27:02+09:00</lastmod>
   </url>
   <url>
     <loc>https://money.devkuma.com/posts/tqqq-qld-qqq-nasdaq-etf/</loc>
