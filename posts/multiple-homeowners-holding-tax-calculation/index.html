@@ -1,0 +1,2480 @@
+
+
+
+<!doctype html>
+<html lang="ko" class="no-js">
+    <head>
+
+<script src="/js/critical.bundle.min.a8c0814b35e0a7b1a8e5265b551bde6d5e4bb321db28f493d51366366c118c70.js"
+         integrity="sha256-qMCBSzXgp7Go5SZbVRvebV5LsyHbKPST1RNmNmwRjHA=" crossorigin="anonymous"></script><meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="generator" content="Hugo 0.162.1">
+    <meta name="theme" content="Hinode 2.11.2">
+    
+
+
+
+
+
+    
+    
+<link rel="stylesheet" href="/css/main.min.7de8a724d7dab626cfd48cc0d3d0afd9d9b95bdf0dabec1464fd5f96bdab2d57.css" integrity="sha256-feinJNfatibP1IzA09Cv2dm5W98Nq+wUZP1flr2rLVc=" crossorigin="anonymous">
+    
+        
+    
+    
+        
+        
+             
+            <link rel="preload" href="/fonts/inter-v12-latin-regular.woff2" as="font" type="font/woff2" crossorigin>
+        
+
+
+
+    
+    
+    
+
+
+
+
+
+
+    
+  <meta name="robots" content="index, follow">
+    <meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <meta name="bingbot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <title>다주택자 보유세 계산 방법: 재산세와 종부세 흐름 한 번에 정리 - Money::devkuma </title>
+    <meta name="description" content="다주택자 보유세를 계산하는 순서, 재산세와 종합부동산세의 차이, 공시가격 합산과 공정시장가액비율 적용 방식, 예시 계산까지 정리했다.">
+
+<meta property="og:locale" content="en_US">
+<meta property="og:type" content="article">
+<meta property="og:title" content="다주택자 보유세 계산 방법: 재산세와 종부세 흐름 한 번에 정리">
+<meta property="og:description" content="다주택자 보유세를 계산하는 순서, 재산세와 종합부동산세의 차이, 공시가격 합산과 공정시장가액비율 적용 방식, 예시 계산까지 정리했다.">
+
+<meta property="og:url" content="https://money.devkuma.com/posts/multiple-homeowners-holding-tax-calculation/">
+<meta property="og:site_name" content="Money::devkuma">
+<meta property="article:published_time" content="2026-06-12T21:25:13+09:00">
+    <meta property="article:modified_time" content="2026-06-12T21:25:13+09:00">
+    <meta property="og:image" content="https://money.devkuma.com/posts/tax/tax-1280x640.png">
+<meta property="og:image:alt" content="다주택자 보유세 계산 방법: 재산세와 종부세 흐름 한 번에 정리">
+
+
+
+<meta name="twitter:card" content="summary_large_image">
+
+
+<meta name="twitter:title" content="다주택자 보유세 계산 방법: 재산세와 종부세 흐름 한 번에 정리">
+<meta name="twitter:description" content="다주택자 보유세를 계산하는 순서, 재산세와 종합부동산세의 차이, 공시가격 합산과 공정시장가액비율 적용 방식, 예시 계산까지 정리했다.">
+<meta name="twitter:image" content="https://money.devkuma.com/posts/tax/tax-1280x640.png">
+<meta name="twitter:image:alt" content="다주택자 보유세 계산 방법: 재산세와 종부세 흐름 한 번에 정리">
+
+
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+        "@id": "https://money.devkuma.com/#/schema/organization/1",
+      "name": "Hinode",
+      "url": "https://money.devkuma.com/",
+      "sameAs": [null,"https://github.com/gethinode/hinode"],
+      "logo": {
+          "@type": "ImageObject",
+          "@id": "https://money.devkuma.com/#/schema/image/1",
+          "url": "https://money.devkuma.com/favicons/512x512.png",
+          "width": 512 ,
+          "height": 512 ,
+          "caption": "Hinode"
+        },
+        "image": {
+          "@id": "https://money.devkuma.com/#/schema/image/1"
+        }
+      },
+    {
+      "@type": "WebSite",
+      "@id": "https://money.devkuma.com/#/schema/website/1",
+      "url": "https://money.devkuma.com/",
+      "name": "Money::devkuma",
+      "description": "Hinode is a clean documentation and blog theme for your Hugo site based on Bootstrap 5.",
+      "publisher": {
+          "@id": "https://money.devkuma.com/#/schema/organization/1"
+        }
+      },
+    {
+      "@type": "WebPage",
+      "@id": "https://money.devkuma.com/posts/multiple-homeowners-holding-tax-calculation/",
+      "url": "https://money.devkuma.com/posts/multiple-homeowners-holding-tax-calculation/",
+      "name": "다주택자 보유세 계산 방법: 재산세와 종부세 흐름 한 번에 정리",
+      "description": "다주택자 보유세를 계산하는 순서, 재산세와 종합부동산세의 차이, 공시가격 합산과 공정시장가액비율 적용 방식, 예시 계산까지 정리했다.",
+      "isPartOf": {
+        "@id": "https://money.devkuma.com/#/schema/website/1"
+      },
+      "about": {
+          "@id": "https://money.devkuma.com/#/schema/organization/1"
+        },
+      "datePublished": "2026-06-12T21:25:13CET","dateModified": "2026-06-12T21:25:13CET","breadcrumb": {
+        "@id": "https://money.devkuma.com/posts/multiple-homeowners-holding-tax-calculation/#/schema/breadcrumb/1"
+      },
+      "primaryImageOfPage": {
+        "@id": "https://money.devkuma.com/posts/multiple-homeowners-holding-tax-calculation/#/schema/image/2"
+      },
+      "inLanguage": "en-US",
+      "potentialAction": [{
+        "@type": "ReadAction", "target": ["https://money.devkuma.com/posts/multiple-homeowners-holding-tax-calculation/"]
+      }]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://money.devkuma.com/posts/multiple-homeowners-holding-tax-calculation/#/schema/breadcrumb/1",
+      "name": "Breadcrumbs",
+      "itemListElement": [{
+        "@type": "ListItem",
+        "position":  1 ,
+        "item": {
+          "@type": "WebPage",
+          "@id": "https://money.devkuma.com/",
+          "url": "https://money.devkuma.com/",
+          "name": "Home"
+          }
+        },{
+        "@type": "ListItem",
+        "position":  2 ,
+        "item": {
+          "@type": "WebPage",
+          "@id": "https://money.devkuma.com/posts/",
+          "url": "https://money.devkuma.com/posts/",
+          "name": "Posts"
+          }
+        },{
+        "@type": "ListItem",
+        "position":  3 ,
+        "item": {
+          "@id": "https://money.devkuma.com/posts/multiple-homeowners-holding-tax-calculation/"
+          }
+        }]
+    },
+
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "ImageObject",
+          "@id": "https://money.devkuma.com/posts/multiple-homeowners-holding-tax-calculation/#/schema/image/2",
+          "url": "https://money.devkuma.com/posts/tax/tax-1280x640.png",
+          "contentUrl": "https://money.devkuma.com/posts/tax/tax-1280x640.png",
+          "caption": "다주택자 보유세 계산 방법: 재산세와 종부세 흐름 한 번에 정리"
+        }
+      ]
+    }
+
+  ]
+}
+</script>
+
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicons/favicon-96x96_hu_bcafd75a361bcb2.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicons/favicon-96x96_hu_ef780cd502e896ea.png">
+        <link rel="icon" type="image/png" sizes="48x48" href="/favicons/favicon-96x96_hu_8f60ad9056f52802.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="/favicons/favicon-96x96_hu_a6aa36da47e45ca3.png">
+    
+
+</head><body class="navbar-fixed">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        
+        
+        
+    
+
+
+
+
+<div class="container-fluid fixed-top p-0">
+
+
+
+
+
+<nav class="navbar px-4 py-4 navbar-fs-6 navbar-md-fs bg-body navbar-fixed-top navbar-expand-md"
+        
+        
+        >
+        <div class="container-xxl p-0">
+            <div class="d-flex navbar-container">
+                
+                <div class="d-flex align-items-center">
+                            <button class="navbar-toggler collapsed p-0 mx-auto invisible fw-30" type="button">
+
+
+
+
+
+
+                
+                        
+                        
+                        <svg class="svg-inline--fa fas fa-ellipsis fa-fw" fill="currentColor" aria-hidden="true" role="img" viewBox="0 0 448 512" overflow="visible"><use href="#fas-ellipsis"></use></svg></button></div>
+                
+
+                <div class="w-100 d-flex align-items-center w-md-auto">
+                    <a class="navbar-brand mx-auto" href="/" aria-label="Home">
+    
+    
+
+
+<img class="img-fluid m-auto"
+            src="/img/logo_icon-2800x2800.png"
+             srcset="/img/logo_icon-576x576.webp 576w, /img/logo_icon-768x768.webp 768w, /img/logo_icon-992x992.webp 992w, /img/logo_icon-1200x1200.webp 1200w, /img/logo_icon-1400x1400.webp 1400w, /img/logo_icon-2800x2800.webp 2800w" sizes="100vw" height="30" width="30" alt="Money::devkuma"></a>
+                </div>
+                <div class="d-flex align-items-center">
+                    <button class="navbar-toggler main-nav-toggler collapsed p-0" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbar-0-collapse"
+                        aria-controls="navbar-0" aria-expanded="false" aria-label="Toggle main navigation">
+                        <span class="toggler-icon top-bar emphasis"></span>
+                        <span class="toggler-icon middle-bar emphasis"></span>
+                        <span class="toggler-icon bottom-bar emphasis"></span>
+                    </button>
+                </div>
+            </div>
+    
+            <div class="navbar-collapse collapse" id="navbar-0-collapse">
+                
+                    <div class="d-flex flex-fill ms-md-3 mt-4 mt-md-0 me-md-3">
+    <form class="search flex-fill position-relative me-auto">
+        <input class="search-input form-control is-search" type="search" placeholder="" aria-label="" autocomplete="off" name="search-input">
+        <div class="search-suggestions shadow bg-body rounded d-none" data-no-results=""></div>
+    </form>
+</div>
+
+                <ul class="navbar-nav navbar-nav-scroll ms-auto">
+                    
+        
+            <li class="nav-item ">
+
+
+
+
+
+
+
+
+    
+
+
+    
+    
+
+    
+        <a
+            class="nav-link"
+            
+            data-nav="main" data-nav-main="home"
+             href="/"
+            
+            
+            ><span class=" d-md-none ">Home</span>
+            
+            <span class=" d-none d-md-block">Home</span>
+            
+        </a>
+    
+</li>
+        
+            <li class="nav-item ">
+
+
+
+
+
+
+
+
+    
+
+
+    
+    
+
+    
+        <a
+            class="nav-link"
+            
+            data-nav="main" data-nav-main="%EB%89%B4%EC%8A%A4"
+             href="/news/"
+            
+            
+            ><span class=" d-md-none ">뉴스</span>
+            
+            <span class=" d-none d-md-block">뉴스</span>
+            
+        </a>
+    
+</li>
+        
+            <li class="nav-item ">
+
+
+
+
+
+
+
+
+    
+
+
+    
+    
+
+    
+        <a
+            class="nav-link"
+            
+            data-nav="main" data-nav-main="%EA%B2%BD%EC%A0%9C"
+             href="/posts/economy/"
+            
+            
+            ><span class=" d-md-none ">경제</span>
+            
+            <span class=" d-none d-md-block">경제</span>
+            
+        </a>
+    
+</li>
+        
+            <li class="nav-item ">
+
+
+
+
+
+
+
+
+    
+
+
+    
+    
+
+    
+        <a
+            class="nav-link"
+            
+            data-nav="main" data-nav-main="%EA%B8%88%EC%9C%B5"
+             href="/posts/finance/"
+            
+            
+            ><span class=" d-md-none ">금융</span>
+            
+            <span class=" d-none d-md-block">금융</span>
+            
+        </a>
+    
+</li>
+        
+            <li class="nav-item ">
+
+
+
+
+
+
+
+
+    
+
+
+    
+    
+
+    
+        <a
+            class="nav-link"
+            
+            data-nav="main" data-nav-main="%EC%A3%BC%EC%8B%9D"
+             href="/posts/stock/"
+            
+            
+            ><span class=" d-md-none ">주식</span>
+            
+            <span class=" d-none d-md-block">주식</span>
+            
+        </a>
+    
+</li>
+        
+            <li class="nav-item ">
+
+
+
+
+
+
+
+
+    
+
+
+    
+    
+
+    
+        <a
+            class="nav-link"
+            
+            data-nav="main" data-nav-main="%EC%B1%84%EA%B6%8C"
+             href="/posts/bond/"
+            
+            
+            ><span class=" d-md-none ">채권</span>
+            
+            <span class=" d-none d-md-block">채권</span>
+            
+        </a>
+    
+</li>
+        
+            <li class="nav-item ">
+
+
+
+
+
+
+
+
+    
+
+
+    
+    
+
+    
+        <a
+            class="nav-link"
+            
+            data-nav="main" data-nav-main="%EC%BD%94%EC%9D%B8"
+             href="/posts/coin/"
+            
+            
+            ><span class=" d-md-none ">코인</span>
+            
+            <span class=" d-none d-md-block">코인</span>
+            
+        </a>
+    
+</li>
+        
+            <li class="nav-item ">
+
+
+
+
+
+
+
+
+    
+
+
+    
+    
+
+    
+        <a
+            class="nav-link"
+            
+            data-nav="main" data-nav-main="%EB%8C%80%EC%B6%9C"
+             href="/posts/loan/"
+            
+            
+            ><span class=" d-md-none ">대출</span>
+            
+            <span class=" d-none d-md-block">대출</span>
+            
+        </a>
+    
+</li>
+        
+            <li class="nav-item ">
+
+
+
+
+
+
+
+
+    
+
+
+    
+    
+
+    
+        <a
+            class="nav-link"
+            
+            data-nav="main" data-nav-main="%EB%B6%80%EB%8F%99%EC%82%B0"
+             href="/posts/real-estate/"
+            
+            
+            ><span class=" d-md-none ">부동산</span>
+            
+            <span class=" d-none d-md-block">부동산</span>
+            
+        </a>
+    
+</li>
+        
+            <li class="nav-item ">
+
+
+
+
+
+
+
+
+    
+
+
+    
+    
+
+    
+        <a
+            class="nav-link"
+            
+            data-nav="main" data-nav-main="%EB%B3%B4%ED%97%98"
+             href="/posts/insurance/"
+            
+            
+            ><span class=" d-md-none ">보험</span>
+            
+            <span class=" d-none d-md-block">보험</span>
+            
+        </a>
+    
+</li>
+        
+            <li class="nav-item ">
+
+
+
+
+
+
+
+
+    
+
+
+    
+    
+
+    
+        <a
+            class="nav-link"
+            
+            data-nav="main" data-nav-main="%EC%84%B8%EA%B8%88"
+             href="/posts/tax/"
+            
+            
+            ><span class=" d-md-none ">세금</span>
+            
+            <span class=" d-none d-md-block">세금</span>
+            
+        </a>
+    
+</li>
+        
+            <li class="nav-item ">
+
+
+
+
+
+
+
+
+    
+
+
+    
+    
+
+    
+        <a
+            class="nav-link"
+            
+            data-nav="main" data-nav-main="about-me"
+             href="/about/"
+            
+            
+            ><span class=" d-md-none ">About Me</span>
+            
+            <span class=" d-none d-md-block">About Me</span>
+            
+        </a>
+    
+</li>
+        
+            <li class="nav-item ">
+
+
+
+
+
+
+
+
+    
+
+
+    
+    
+
+    
+        <a
+            class="nav-link"
+            
+            data-nav="main" data-nav-main="tags"
+             href="/tags/"
+            
+            
+            ><span class=" d-md-none ">Tags</span>
+            
+            <span class=" d-none d-md-block">Tags</span>
+            
+        </a>
+    
+</li>
+    
+                    
+                    
+                    
+                                    
+                    <li class="nav-link navbar-fs-6 navbar-md-fs d-flex mode-switch align-items-center" id="navbar-mode">
+    <input type="checkbox" class="checkbox navbar-mode-selector" id="navbar-mode-checkbox" aria-label="Toggle theme" />
+    <label class="label" for="navbar-mode-checkbox">
+        
+
+
+
+
+
+
+                
+                        
+                        
+                        <svg class="svg-inline--fa fas fa-sun fa-fw" fill="currentColor" aria-hidden="true" role="img" viewBox="0 0 576 512" overflow="visible"><use href="#fas-sun"></use></svg>
+
+
+
+
+
+
+                
+                        
+                        
+                        <svg class="svg-inline--fa fas fa-moon fa-fw" fill="currentColor" aria-hidden="true" role="img" viewBox="0 0 512 512" overflow="visible"><use href="#fas-moon"></use></svg>
+            <div class="ball"></div>
+        
+    </label>
+</li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</div>
+<main id="container" class="main">
+                
+
+    
+    
+    
+    
+    
+        <div class="container-xxl flex-fill py-4 px-4 px-xxl-0">
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3">
+                <div class="col col-lg-2 d-none d-lg-block sidebar-overflow sticky-top p-0">
+                    
+                </div>
+                <div class="col-12 col-md-9 col-lg-8 mb-5">
+                    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+    
+
+        
+    
+
+        
+    
+
+
+
+
+    <nav aria-label="breadcrumb" class="d-sm-none">
+        <ol class="breadcrumb">
+                <li class="breadcrumb-item">
+                    <a href="/posts/real-estate/">
+                        
+
+
+
+
+
+
+                
+                        
+                        
+                        <svg class="svg-inline--fa fas fa-angle-left " fill="currentColor" aria-hidden="true" role="img" viewBox="0 0 256 512" overflow="visible"><use href="#fas-angle-left"></use></svg>&nbsp;&nbsp;부동산
+                    </a>
+                </li></ol>
+    </nav>
+
+    <nav aria-label="breadcrumb" class="d-none d-sm-block">
+        <ol class="breadcrumb">
+                
+                <li class="breadcrumb-item"><a href="/">Home</a></li>
+                
+                <li class="breadcrumb-item"><a href="/posts/">금융의 모든 지식!</a></li>
+                
+                <li class="breadcrumb-item"><a href="/posts/real-estate/">부동산</a></li><li class="breadcrumb-item active" aria-current="page">
+                
+                
+                다주택자 보유세 계산
+            </li>
+        </ol>
+    </nav>
+
+<h1 id="다주택자-보유세-계산-방법-재산세와-종부세-흐름-한-번에-정리" class="display-4 pt-1">다주택자 보유세 계산 방법: 재산세와 종부세 흐름 한 번에 정리</h1>
+
+
+    <small class="text-body-secondary text-uppercase">
+            
+                Posted on 2026년 6월 12일
+            &bull;
+        
+            7&nbsp;min read
+            &bull;
+        1,331&nbsp;words
+    </small>
+
+<div class="mt-3">
+        <div class="d-none-dark">
+            <div class="hstack gap-1">
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+<a aria-label="다주택자"
+        href="/tags/%EB%8B%A4%EC%A3%BC%ED%83%9D%EC%9E%90/" class="btn btn-light btn-sm position-relative "
+        role="button"
+        >
+        <span class="d-flex justify-content-start">
+            <span class="my-auto">다주택자</span>
+        </span></a>&nbsp;
+
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+<a aria-label="보유세"
+        href="/tags/%EB%B3%B4%EC%9C%A0%EC%84%B8/" class="btn btn-light btn-sm position-relative "
+        role="button"
+        >
+        <span class="d-flex justify-content-start">
+            <span class="my-auto">보유세</span>
+        </span></a>&nbsp;
+
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+<a aria-label="재산세"
+        href="/tags/%EC%9E%AC%EC%82%B0%EC%84%B8/" class="btn btn-light btn-sm position-relative "
+        role="button"
+        >
+        <span class="d-flex justify-content-start">
+            <span class="my-auto">재산세</span>
+        </span></a>&nbsp;
+
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+<a aria-label="종부세"
+        href="/tags/%EC%A2%85%EB%B6%80%EC%84%B8/" class="btn btn-light btn-sm position-relative "
+        role="button"
+        >
+        <span class="d-flex justify-content-start">
+            <span class="my-auto">종부세</span>
+        </span></a>&nbsp;
+
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+<a aria-label="종합부동산세"
+        href="/tags/%EC%A2%85%ED%95%A9%EB%B6%80%EB%8F%99%EC%82%B0%EC%84%B8/" class="btn btn-light btn-sm position-relative "
+        role="button"
+        >
+        <span class="d-flex justify-content-start">
+            <span class="my-auto">종합부동산세</span>
+        </span></a>&nbsp;
+
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+<a aria-label="공시가격"
+        href="/tags/%EA%B3%B5%EC%8B%9C%EA%B0%80%EA%B2%A9/" class="btn btn-light btn-sm position-relative "
+        role="button"
+        >
+        <span class="d-flex justify-content-start">
+            <span class="my-auto">공시가격</span>
+        </span></a>&nbsp;
+
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+<a aria-label="부동산세금"
+        href="/tags/%EB%B6%80%EB%8F%99%EC%82%B0%EC%84%B8%EA%B8%88/" class="btn btn-light btn-sm position-relative "
+        role="button"
+        >
+        <span class="d-flex justify-content-start">
+            <span class="my-auto">부동산세금</span>
+        </span></a>&nbsp;
+
+                </div>
+        </div>
+        
+        <div class="d-none-light">
+            <div class="hstack gap-1">
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+<a aria-label="다주택자"
+        href="/tags/%EB%8B%A4%EC%A3%BC%ED%83%9D%EC%9E%90/" class="btn btn-outline-primary btn-sm position-relative "
+        role="button"
+        >
+        <span class="d-flex justify-content-start">
+            <span class="my-auto">다주택자</span>
+        </span></a>&nbsp;
+
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+<a aria-label="보유세"
+        href="/tags/%EB%B3%B4%EC%9C%A0%EC%84%B8/" class="btn btn-outline-primary btn-sm position-relative "
+        role="button"
+        >
+        <span class="d-flex justify-content-start">
+            <span class="my-auto">보유세</span>
+        </span></a>&nbsp;
+
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+<a aria-label="재산세"
+        href="/tags/%EC%9E%AC%EC%82%B0%EC%84%B8/" class="btn btn-outline-primary btn-sm position-relative "
+        role="button"
+        >
+        <span class="d-flex justify-content-start">
+            <span class="my-auto">재산세</span>
+        </span></a>&nbsp;
+
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+<a aria-label="종부세"
+        href="/tags/%EC%A2%85%EB%B6%80%EC%84%B8/" class="btn btn-outline-primary btn-sm position-relative "
+        role="button"
+        >
+        <span class="d-flex justify-content-start">
+            <span class="my-auto">종부세</span>
+        </span></a>&nbsp;
+
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+<a aria-label="종합부동산세"
+        href="/tags/%EC%A2%85%ED%95%A9%EB%B6%80%EB%8F%99%EC%82%B0%EC%84%B8/" class="btn btn-outline-primary btn-sm position-relative "
+        role="button"
+        >
+        <span class="d-flex justify-content-start">
+            <span class="my-auto">종합부동산세</span>
+        </span></a>&nbsp;
+
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+<a aria-label="공시가격"
+        href="/tags/%EA%B3%B5%EC%8B%9C%EA%B0%80%EA%B2%A9/" class="btn btn-outline-primary btn-sm position-relative "
+        role="button"
+        >
+        <span class="d-flex justify-content-start">
+            <span class="my-auto">공시가격</span>
+        </span></a>&nbsp;
+
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+<a aria-label="부동산세금"
+        href="/tags/%EB%B6%80%EB%8F%99%EC%82%B0%EC%84%B8%EA%B8%88/" class="btn btn-outline-primary btn-sm position-relative "
+        role="button"
+        >
+        <span class="d-flex justify-content-start">
+            <span class="my-auto">부동산세금</span>
+        </span></a>&nbsp;
+
+                </div>
+        </div>
+    </div>
+
+    <div class="lead text-muted py-4">다주택자 보유세를 계산하는 순서, 재산세와 종합부동산세의 차이, 공시가격 합산과 공정시장가액비율 적용 방식, 예시 계산까지 정리했다.</div>
+
+
+<div class="d-md-none pb-5">
+
+
+
+
+
+
+
+
+
+    
+        <div class="d-grid gap-2 mx-auto">
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+<a aria-label="On this page"
+        href="#toc-collapse" class="btn btn-outline-secondary position-relative toc-button"
+         data-bs-toggle="collapse" aria-expanded="false" aria-controls="toc-collapse"role="button"
+        >
+        <span class="d-flex justify-content-between">
+            <span class="my-auto">On this page</span>
+                <span class="align-self-center ps-1">
+                    
+
+
+
+
+
+
+                
+                        
+                        
+                        <svg class="svg-inline--fa fas fa-sort " fill="currentColor" aria-hidden="true" role="img" viewBox="0 0 384 512" overflow="visible"><use href="#fas-sort"></use></svg>
+                </span>
+            
+        </span></a>
+</div>
+
+        <div class="collapse border bg-body-tertiary rounded p-1 navbar-nav-scroll" id="toc-collapse">
+            <small>
+                <div class="toc toc-panel text-body p-2">
+                        <a class="toc-item toc-level-1" href="/posts/multiple-homeowners-holding-tax-calculation/#다주택자-보유세는-무엇을-합쳐서-보는가">다주택자 보유세는 무엇을 합쳐서 보는가</a>
+                        <a class="toc-item toc-level-1" href="/posts/multiple-homeowners-holding-tax-calculation/#계산-전에-확인할-3가지">계산 전에 확인할 3가지</a>
+                        <a class="toc-item toc-level-1" href="/posts/multiple-homeowners-holding-tax-calculation/#재산세-계산-흐름">재산세 계산 흐름</a>
+                        <a class="toc-item toc-level-1" href="/posts/multiple-homeowners-holding-tax-calculation/#종부세-계산-흐름">종부세 계산 흐름</a>
+                        <a class="toc-item toc-level-1" href="/posts/multiple-homeowners-holding-tax-calculation/#예시로-보는-다주택자-보유세-계산">예시로 보는 다주택자 보유세 계산</a>
+                        <a class="toc-item toc-level-1" href="/posts/multiple-homeowners-holding-tax-calculation/#다주택자가-자주-놓치는-부분">다주택자가 자주 놓치는 부분</a>
+                        <a class="toc-item toc-level-1" href="/posts/multiple-homeowners-holding-tax-calculation/#자주-묻는-질문">자주 묻는 질문</a>
+                        <a class="toc-item toc-level-2" href="/posts/multiple-homeowners-holding-tax-calculation/#다주택자-보유세는-집값-전체에-세율을-곱하나">다주택자 보유세는 집값 전체에 세율을 곱하나</a>
+                        <a class="toc-item toc-level-2" href="/posts/multiple-homeowners-holding-tax-calculation/#다주택자는-무조건-종부세를-내나">다주택자는 무조건 종부세를 내나</a>
+                        <a class="toc-item toc-level-2" href="/posts/multiple-homeowners-holding-tax-calculation/#재산세와-종부세는-언제-내나">재산세와 종부세는 언제 내나</a>
+                        <a class="toc-item toc-level-2" href="/posts/multiple-homeowners-holding-tax-calculation/#보유세를-줄이려면-무엇부터-확인해야-하나">보유세를 줄이려면 무엇부터 확인해야 하나</a>
+                        <a class="toc-item toc-level-1" href="/posts/multiple-homeowners-holding-tax-calculation/#마무리">마무리</a>
+                        <a class="toc-item toc-level-1" href="/posts/multiple-homeowners-holding-tax-calculation/#연관-페이지">연관 페이지</a>
+                </div>
+            </small>
+        </div>
+</div>
+
+                    
+
+
+
+<div class="img-wrap mb-5"><img class="img-fluid rounded"
+            src="/posts/tax/tax-2800x1200.png"
+             fetchpriority="high" srcset="/posts/tax/tax-576x247.webp 576w, /posts/tax/tax-768x329.webp 768w, /posts/tax/tax-992x425.webp 992w, /posts/tax/tax-1200x514.webp 1200w, /posts/tax/tax-1400x600.webp 1400w, /posts/tax/tax-2800x1200.webp 2800w" sizes="100vw" height="1200" width="2800" alt="다주택자 보유세 계산 방법: 재산세와 종부세 흐름 한 번에 정리"></div><p>집이 한 채일 때는 재산세 고지서만 확인하고 넘어가는 경우가 많다. 그런데 주택이 두 채 이상이 되면 이야기가 달라진다. 집마다 재산세가 따로 나오고, 공시가격 합계가 일정 기준을 넘으면 종합부동산세까지 확인해야 하기 때문이다.</p>
+<p>다주택자 보유세가 어렵게 느껴지는 이유는 계산이 한 번에 끝나지 않기 때문이다. 먼저 각 주택의 재산세를 계산하고, 그다음 보유 주택의 공시가격을 합산해 종부세 대상인지 본다. 여기에 공정시장가액비율, 세율, 재산세 중복분 차감, 세부담 상한 같은 요소가 붙는다.</p>
+<p>그래도 계산 흐름은 생각보다 일정하다. 이 글에서는 다주택자 보유세를 &ldquo;재산세 따로, 종부세 따로, 마지막에 합산&quot;하는 방식으로 정리하였다. 실제 세액은 고지서와 홈택스·위택스 조회가 기준이지만, 구조를 알고 있으면 왜 세금이 늘어나는지 훨씬 쉽게 이해할 수 있다.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+<h2 id="다주택자-보유세는-무엇을-합쳐서-보는가" class="heading">다주택자 보유세는 무엇을 합쳐서 보는가<a href="#%eb%8b%a4%ec%a3%bc%ed%83%9d%ec%9e%90-%eb%b3%b4%ec%9c%a0%ec%84%b8%eb%8a%94-%eb%ac%b4%ec%97%87%ec%9d%84-%ed%95%a9%ec%b3%90%ec%84%9c-%eb%b3%b4%eb%8a%94%ea%b0%80" aria-labelledby="다주택자-보유세는-무엇을-합쳐서-보는가">
+
+
+
+
+
+
+                
+                        
+                        
+                        <svg class="svg-inline--fa fas fa-link anchor" fill="currentColor" aria-hidden="true" role="img" viewBox="0 0 576 512" overflow="visible"><use href="#fas-link"></use></svg>&nbsp;
+    </a>
+</h2>
+
+<p>보유세는 부동산을 보유하고 있다는 이유로 매년 내는 세금이다. 주택을 기준으로 보면 크게 재산세와 종합부동산세가 있다.</p>
+
+
+
+
+
+
+    
+
+
+
+
+
+
+<table class="table">
+  <thead>
+    
+      
+      <tr>
+          <th >구분</th>
+          <th >성격</th>
+          <th >과세 주체</th>
+          <th >기본 계산 방식</th>
+      </tr>
+    
+  </thead>
+  <tbody>
+    
+      
+        <tr>
+            <td >재산세</td>
+            <td >주택 보유자에게 부과되는 기본 지방세</td>
+            <td >지방자치단체</td>
+            <td >주택별 공시가격 기준</td>
+        </tr>
+      
+    
+      
+        <tr>
+            <td >종합부동산세</td>
+            <td >일정 기준을 넘는 고가 주택 보유자에게 추가 부과되는 국세</td>
+            <td >국가</td>
+            <td >사람별 주택 공시가격 합산 기준</td>
+        </tr>
+      
+  </tbody>
+</table><p>다주택자가 헷갈리기 쉬운 지점은 재산세와 종부세의 기준이 다르다는 점이다. 재산세는 보통 주택별로 계산된다. A아파트, B빌라, C오피스텔 주택분이 있다면 각각 공시가격을 바탕으로 재산세가 나온다.</p>
+<p>반면 종부세는 사람별 합산 개념이 중요하다. 내가 가진 주택들의 공시가격을 모두 더한 뒤, 기본공제를 빼고 과세표준을 구한다. 그래서 주택 한 채의 공시가격은 크지 않아도 여러 채를 합치면 종부세 대상이 될 수 있다.</p>
+<p>또 하나 중요한 기준일은 매년 6월 1일이다. 재산세와 종부세 모두 그해 6월 1일 현재 소유자를 기준으로 판단한다. 6월 1일에 주택을 여러 채 보유하고 있었다면 그해 보유세 계산에서 다주택자로 반영될 수 있다.</p>
+<hr>
+
+
+
+
+
+
+
+
+
+
+
+
+<h2 id="계산-전에-확인할-3가지" class="heading">계산 전에 확인할 3가지<a href="#%ea%b3%84%ec%82%b0-%ec%a0%84%ec%97%90-%ed%99%95%ec%9d%b8%ed%95%a0-3%ea%b0%80%ec%a7%80" aria-labelledby="계산-전에-확인할-3가지">
+
+
+
+
+
+
+                
+                        
+                        
+                        <svg class="svg-inline--fa fas fa-link anchor" fill="currentColor" aria-hidden="true" role="img" viewBox="0 0 576 512" overflow="visible"><use href="#fas-link"></use></svg>&nbsp;
+    </a>
+</h2>
+
+<p>다주택자 보유세를 계산하려면 먼저 숫자 세 가지를 모아야 한다.</p>
+<p>첫째, 각 주택의 공시가격이다. 보유세는 실거래가가 아니라 공시가격에서 출발한다. 내가 8억 원에 산 아파트라도 공동주택 공시가격이 5억 원이면 세금 계산은 5억 원을 기준으로 시작한다.</p>
+<p>둘째, 주택 수와 지분이다. 단독명의인지 공동명의인지, 지분율이 몇 퍼센트인지에 따라 사람별 합산 금액이 달라진다. 부부가 각각 지분을 나누어 가진 주택은 각자의 지분만큼 공시가격이 나뉘어 반영될 수 있다.</p>
+<p>셋째, 주택으로 과세되는 물건인지 확인해야 한다. 아파트와 빌라는 대부분 주택으로 이해하기 쉽지만, 오피스텔은 실제 사용 형태와 공부상 용도에 따라 세금 판단이 달라질 수 있다. 임대주택 등록 여부나 일부 특례도 실제 세액에 영향을 줄 수 있으므로 단순히 &ldquo;몇 채&quot;라고만 보면 부족하다.</p>
+<p>보유세 계산의 출발점은 아래처럼 정리할 수 있다.</p>
+
+
+
+
+
+
+    
+
+
+
+
+
+
+<table class="table">
+  <thead>
+    
+      
+      <tr>
+          <th >확인 항목</th>
+          <th >왜 중요한가</th>
+      </tr>
+    
+  </thead>
+  <tbody>
+    
+      
+        <tr>
+            <td >공시가격</td>
+            <td >재산세와 종부세 과세표준의 출발점이다</td>
+        </tr>
+      
+    
+      
+        <tr>
+            <td >6월 1일 소유 여부</td>
+            <td >그해 보유세 납세의무자를 판단한다</td>
+        </tr>
+      
+    
+      
+        <tr>
+            <td >명의와 지분율</td>
+            <td >종부세는 사람별 합산이므로 지분 반영이 중요하다</td>
+        </tr>
+      
+    
+      
+        <tr>
+            <td >주택 수</td>
+            <td >종부세 공제와 세율 판단에 영향을 줄 수 있다</td>
+        </tr>
+      
+    
+      
+        <tr>
+            <td >임대주택 등 특례</td>
+            <td >합산 배제나 감면 가능성을 따로 확인해야 한다</td>
+        </tr>
+      
+  </tbody>
+</table><hr>
+
+
+
+
+
+
+
+
+
+
+
+
+<h2 id="재산세-계산-흐름" class="heading">재산세 계산 흐름<a href="#%ec%9e%ac%ec%82%b0%ec%84%b8-%ea%b3%84%ec%82%b0-%ed%9d%90%eb%a6%84" aria-labelledby="재산세-계산-흐름">
+
+
+
+
+
+
+                
+                        
+                        
+                        <svg class="svg-inline--fa fas fa-link anchor" fill="currentColor" aria-hidden="true" role="img" viewBox="0 0 576 512" overflow="visible"><use href="#fas-link"></use></svg>&nbsp;
+    </a>
+</h2>
+
+<p>재산세는 주택을 보유하면 기본적으로 확인해야 하는 지방세다. 다주택자라고 해서 재산세를 한꺼번에 합쳐 계산한다고 보기보다, 각 주택별로 공시가격을 기준으로 계산된다고 이해하면 쉽다.</p>
+<p>기본 구조는 다음과 같다.</p>
+<p><code>공시가격 × 공정시장가액비율 = 재산세 과세표준</code></p>
+<p><code>재산세 과세표준 × 재산세율 = 재산세 본세</code></p>
+<p><code>재산세 본세 + 도시지역분 + 지방교육세 = 실제 고지세액</code></p>
+<p>주택분 재산세 기본 세율은 과세표준 구간별 누진 구조다.</p>
+
+
+
+
+
+
+    
+
+
+
+
+
+
+<table class="table">
+  <thead>
+    
+      
+      <tr>
+          <th >과세표준</th>
+          <th class="text-end">재산세율</th>
+      </tr>
+    
+  </thead>
+  <tbody>
+    
+      
+        <tr>
+            <td >6,000만 원 이하</td>
+            <td class="text-end">0.1%</td>
+        </tr>
+      
+    
+      
+        <tr>
+            <td >6,000만 원 초과 ~ 1억 5,000만 원 이하</td>
+            <td class="text-end">6만 원 + 6,000만 원 초과분의 0.15%</td>
+        </tr>
+      
+    
+      
+        <tr>
+            <td >1억 5,000만 원 초과 ~ 3억 원 이하</td>
+            <td class="text-end">19만 5천 원 + 1억 5,000만 원 초과분의 0.25%</td>
+        </tr>
+      
+    
+      
+        <tr>
+            <td >3억 원 초과</td>
+            <td class="text-end">57만 원 + 3억 원 초과분의 0.4%</td>
+        </tr>
+      
+  </tbody>
+</table><p>예를 들어 공시가격 5억 원인 주택의 재산세 과세표준을 단순히 60%로 계산하면 3억 원이다.</p>
+<p><code>5억 원 × 60% = 3억 원</code></p>
+<p>과세표준 3억 원은 &ldquo;1억 5,000만 원 초과 ~ 3억 원 이하&rdquo; 구간에 들어간다. 재산세 본세는 다음처럼 계산된다.</p>
+<p><code>19만 5천 원 + (3억 원 - 1억 5,000만 원) × 0.25% = 57만 원</code></p>
+<p>여기에 도시지역분과 지방교육세가 붙으면 실제 고지액은 더 커진다. 다만 이 계산은 구조를 보여주는 단순 예시다. 1세대 1주택 특례, 세부담 상한, 지방자치단체 고지 방식에 따라 실제 금액은 달라질 수 있다.</p>
+<p>다주택자는 이 과정을 주택별로 반복해서 본다. A주택 재산세, B주택 재산세, C주택 재산세가 각각 나오고, 7월과 9월에 나누어 고지될 수 있다.</p>
+<hr>
+
+
+
+
+
+
+
+
+
+
+
+
+<h2 id="종부세-계산-흐름" class="heading">종부세 계산 흐름<a href="#%ec%a2%85%eb%b6%80%ec%84%b8-%ea%b3%84%ec%82%b0-%ed%9d%90%eb%a6%84" aria-labelledby="종부세-계산-흐름">
+
+
+
+
+
+
+                
+                        
+                        
+                        <svg class="svg-inline--fa fas fa-link anchor" fill="currentColor" aria-hidden="true" role="img" viewBox="0 0 576 512" overflow="visible"><use href="#fas-link"></use></svg>&nbsp;
+    </a>
+</h2>
+
+<p>종합부동산세는 재산세와 다르게 사람별 합산이 핵심이다. 2026년 6월 기준으로 주택분 종부세는 일반적인 다주택자의 경우 공시가격 합계에서 기본공제 9억 원을 빼고 계산하는 구조로 이해하면 된다. 1세대 1주택자는 별도 공제 기준이 적용될 수 있다.</p>
+<p>기본 구조는 다음과 같다.</p>
+<p><code>종부세 과세표준 = (주택 공시가격 합계 - 기본공제) × 공정시장가액비율</code></p>
+<p>그다음 과세표준 구간별 종부세율을 적용하고, 이미 재산세로 낸 부분 중 중복되는 금액을 조정한 뒤 최종세액을 계산한다.</p>
+
+
+
+
+
+
+    
+
+
+
+
+
+
+<table class="table">
+  <thead>
+    
+      
+      <tr>
+          <th >단계</th>
+          <th >계산 내용</th>
+      </tr>
+    
+  </thead>
+  <tbody>
+    
+      
+        <tr>
+            <td >1단계</td>
+            <td >사람별 주택 공시가격을 합산한다</td>
+        </tr>
+      
+    
+      
+        <tr>
+            <td >2단계</td>
+            <td >기본공제 금액을 뺀다</td>
+        </tr>
+      
+    
+      
+        <tr>
+            <td >3단계</td>
+            <td >공정시장가액비율을 곱해 과세표준을 만든다</td>
+        </tr>
+      
+    
+      
+        <tr>
+            <td >4단계</td>
+            <td >종부세율을 적용한다</td>
+        </tr>
+      
+    
+      
+        <tr>
+            <td >5단계</td>
+            <td >재산세 중복분, 세액공제, 세부담 상한 등을 반영한다</td>
+        </tr>
+      
+  </tbody>
+</table><p>예를 들어 한 사람이 공시가격 10억 원 주택 1채와 7억 원 주택 1채를 보유하고 있다고 가정해 보자. 공시가격 합계는 17억 원이다.</p>
+<p><code>17억 원 - 9억 원 = 8억 원</code></p>
+<p>여기에 공정시장가액비율을 60%로 단순 적용하면 종부세 과세표준은 4억 8천만 원이 된다.</p>
+<p><code>8억 원 × 60% = 4억 8천만 원</code></p>
+<p>이 4억 8천만 원에 종부세율을 적용해 산출세액을 구하고, 이미 재산세로 과세된 부분을 조정한다. 그래서 종부세는 &ldquo;공시가격 합계가 17억 원이니 17억 원 전체에 세율을 곱한다&quot;가 아니다. 공제와 공정시장가액비율을 거친 뒤 과세표준에 세율을 적용한다.</p>
+<p>종부세율은 주택 수와 과세표준 구간에 따라 달라진다. 단순 계산으로는 대략적인 흐름만 볼 수 있고, 실제 금액은 홈택스나 세무 전문가의 계산으로 확인하는 것이 안전하다.</p>
+<hr>
+
+
+
+
+
+
+
+
+
+
+
+
+<h2 id="예시로-보는-다주택자-보유세-계산" class="heading">예시로 보는 다주택자 보유세 계산<a href="#%ec%98%88%ec%8b%9c%eb%a1%9c-%eb%b3%b4%eb%8a%94-%eb%8b%a4%ec%a3%bc%ed%83%9d%ec%9e%90-%eb%b3%b4%ec%9c%a0%ec%84%b8-%ea%b3%84%ec%82%b0" aria-labelledby="예시로-보는-다주택자-보유세-계산">
+
+
+
+
+
+
+                
+                        
+                        
+                        <svg class="svg-inline--fa fas fa-link anchor" fill="currentColor" aria-hidden="true" role="img" viewBox="0 0 576 512" overflow="visible"><use href="#fas-link"></use></svg>&nbsp;
+    </a>
+</h2>
+
+<p>아래 예시는 이해를 돕기 위한 단순 계산이다. 실제 세액과 다를 수 있으므로 구조만 보는 것이 좋다.</p>
+
+
+
+
+
+
+    
+
+
+
+
+
+
+<table class="table">
+  <thead>
+    
+      
+      <tr>
+          <th >보유 주택</th>
+          <th class="text-end">공시가격</th>
+      </tr>
+    
+  </thead>
+  <tbody>
+    
+      
+        <tr>
+            <td >A아파트</td>
+            <td class="text-end">10억 원</td>
+        </tr>
+      
+    
+      
+        <tr>
+            <td >B빌라</td>
+            <td class="text-end">7억 원</td>
+        </tr>
+      
+    
+      
+        <tr>
+            <td >합계</td>
+            <td class="text-end">17억 원</td>
+        </tr>
+      
+  </tbody>
+</table><p>먼저 재산세는 주택별로 계산한다.</p>
+
+
+
+
+
+
+    
+
+
+
+
+
+
+<table class="table">
+  <thead>
+    
+      
+      <tr>
+          <th >구분</th>
+          <th >단순 계산 흐름</th>
+      </tr>
+    
+  </thead>
+  <tbody>
+    
+      
+        <tr>
+            <td >A아파트</td>
+            <td >공시가격 10억 원에 공정시장가액비율을 적용해 과세표준 계산</td>
+        </tr>
+      
+    
+      
+        <tr>
+            <td >B빌라</td>
+            <td >공시가격 7억 원에 공정시장가액비율을 적용해 과세표준 계산</td>
+        </tr>
+      
+    
+      
+        <tr>
+            <td >재산세 합계</td>
+            <td >A주택 재산세와 B주택 재산세를 각각 더해 확인</td>
+        </tr>
+      
+  </tbody>
+</table><p>그다음 종부세를 본다.</p>
+
+
+
+
+
+
+    
+
+
+
+
+
+
+<table class="table">
+  <thead>
+    
+      
+      <tr>
+          <th >구분</th>
+          <th class="text-end">단순 계산</th>
+      </tr>
+    
+  </thead>
+  <tbody>
+    
+      
+        <tr>
+            <td >공시가격 합계</td>
+            <td class="text-end">17억 원</td>
+        </tr>
+      
+    
+      
+        <tr>
+            <td >기본공제 가정</td>
+            <td class="text-end">9억 원</td>
+        </tr>
+      
+    
+      
+        <tr>
+            <td >공제 후 금액</td>
+            <td class="text-end">8억 원</td>
+        </tr>
+      
+    
+      
+        <tr>
+            <td >공정시장가액비율 60% 적용</td>
+            <td class="text-end">4억 8천만 원</td>
+        </tr>
+      
+    
+      
+        <tr>
+            <td >이후 단계</td>
+            <td class="text-end">종부세율 적용, 재산세 중복분 조정</td>
+        </tr>
+      
+  </tbody>
+</table><p>이 예시에서 핵심은 두 가지다. 재산세는 A주택과 B주택을 각각 보고, 종부세는 A와 B의 공시가격을 합산해 본다는 점이다. 그래서 다주택자의 보유세는 &ldquo;주택별 재산세 합계 + 사람별 종부세&quot;로 이해하면 전체 그림이 잡힌다.</p>
+<p>또 공시가격 합계가 높아질수록 종부세 과세표준이 커지고, 누진세율 구간도 올라갈 수 있다. 다주택자가 보유세 부담을 크게 느끼는 이유가 여기에 있다.</p>
+<hr>
+
+
+
+
+
+
+
+
+
+
+
+
+<h2 id="다주택자가-자주-놓치는-부분" class="heading">다주택자가 자주 놓치는 부분<a href="#%eb%8b%a4%ec%a3%bc%ed%83%9d%ec%9e%90%ea%b0%80-%ec%9e%90%ec%a3%bc-%eb%86%93%ec%b9%98%eb%8a%94-%eb%b6%80%eb%b6%84" aria-labelledby="다주택자가-자주-놓치는-부분">
+
+
+
+
+
+
+                
+                        
+                        
+                        <svg class="svg-inline--fa fas fa-link anchor" fill="currentColor" aria-hidden="true" role="img" viewBox="0 0 576 512" overflow="visible"><use href="#fas-link"></use></svg>&nbsp;
+    </a>
+</h2>
+
+<p>첫째, 실거래가가 아니라 공시가격을 본다. 시세가 20억 원이어도 공시가격 합계가 얼마인지에 따라 보유세가 달라진다. 반대로 시세가 크게 오르지 않았더라도 공시가격이 오르면 세금 부담이 늘 수 있다.</p>
+<p>둘째, 재산세를 냈다고 종부세가 끝난 것은 아니다. 재산세는 지방세이고, 종부세는 국세다. 납부 시기도 다르다. 주택분 재산세는 보통 7월과 9월에 나누어 내고, 종부세는 보통 12월에 납부한다.</p>
+<p>셋째, 공동명의는 무조건 유리하다고 단정하면 안 된다. 종부세는 사람별 합산이라 지분을 나누면 과세표준이 낮아질 수 있지만, 1세대 1주택 공제 방식, 고령자·장기보유 공제, 양도세까지 함께 보면 결과가 달라질 수 있다.</p>
+<p>넷째, 임대주택이나 일시적 2주택 같은 예외를 따로 확인해야 한다. 일정 요건을 갖춘 임대주택은 종부세 합산 배제 검토 대상이 될 수 있고, 상속주택이나 지방 저가주택 등도 세법상 판단이 달라질 수 있다. 다만 요건이 까다롭고 변경 가능성이 있으므로 반드시 최신 기준으로 확인해야 한다.</p>
+<p>다섯째, 보유세는 매년 달라질 수 있다. 공시가격, 공정시장가액비율, 세율, 공제금액, 세부담 상한은 정책 변화의 영향을 받는다. 특히 다주택자는 금액 차이가 커질 수 있으므로 전년도 고지서를 그대로 믿기보다 매년 다시 계산하는 편이 좋다.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+<h2 id="자주-묻는-질문" class="heading">자주 묻는 질문<a href="#%ec%9e%90%ec%a3%bc-%eb%ac%bb%eb%8a%94-%ec%a7%88%eb%ac%b8" aria-labelledby="자주-묻는-질문">
+
+
+
+
+
+
+                
+                        
+                        
+                        <svg class="svg-inline--fa fas fa-link anchor" fill="currentColor" aria-hidden="true" role="img" viewBox="0 0 576 512" overflow="visible"><use href="#fas-link"></use></svg>&nbsp;
+    </a>
+</h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h3 id="다주택자-보유세는-집값-전체에-세율을-곱하나" class="heading">다주택자 보유세는 집값 전체에 세율을 곱하나<a href="#%eb%8b%a4%ec%a3%bc%ed%83%9d%ec%9e%90-%eb%b3%b4%ec%9c%a0%ec%84%b8%eb%8a%94-%ec%a7%91%ea%b0%92-%ec%a0%84%ec%b2%b4%ec%97%90-%ec%84%b8%ec%9c%a8%ec%9d%84-%ea%b3%b1%ed%95%98%eb%82%98" aria-labelledby="다주택자-보유세는-집값-전체에-세율을-곱하나">
+
+
+
+
+
+
+                
+                        
+                        
+                        <svg class="svg-inline--fa fas fa-link anchor" fill="currentColor" aria-hidden="true" role="img" viewBox="0 0 576 512" overflow="visible"><use href="#fas-link"></use></svg>&nbsp;
+    </a>
+</h3>
+
+<p>아니다. 보유세는 실거래가 전체에 바로 세율을 곱하는 구조가 아니다. 재산세는 주택별 공시가격에 공정시장가액비율을 적용해 과세표준을 만들고, 종부세는 사람별 공시가격 합계에서 공제금액을 뺀 뒤 공정시장가액비율을 적용한다.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+<h3 id="다주택자는-무조건-종부세를-내나" class="heading">다주택자는 무조건 종부세를 내나<a href="#%eb%8b%a4%ec%a3%bc%ed%83%9d%ec%9e%90%eb%8a%94-%eb%ac%b4%ec%a1%b0%ea%b1%b4-%ec%a2%85%eb%b6%80%ec%84%b8%eb%a5%bc-%eb%82%b4%eb%82%98" aria-labelledby="다주택자는-무조건-종부세를-내나">
+
+
+
+
+
+
+                
+                        
+                        
+                        <svg class="svg-inline--fa fas fa-link anchor" fill="currentColor" aria-hidden="true" role="img" viewBox="0 0 576 512" overflow="visible"><use href="#fas-link"></use></svg>&nbsp;
+    </a>
+</h3>
+
+<p>무조건은 아니다. 보유 주택의 공시가격 합계, 명의, 지분, 공제금액, 합산 배제 여부에 따라 달라진다. 일반적으로는 공시가격 합계가 기본공제 기준을 넘는지부터 확인한다.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+<h3 id="재산세와-종부세는-언제-내나" class="heading">재산세와 종부세는 언제 내나<a href="#%ec%9e%ac%ec%82%b0%ec%84%b8%ec%99%80-%ec%a2%85%eb%b6%80%ec%84%b8%eb%8a%94-%ec%96%b8%ec%a0%9c-%eb%82%b4%eb%82%98" aria-labelledby="재산세와-종부세는-언제-내나">
+
+
+
+
+
+
+                
+                        
+                        
+                        <svg class="svg-inline--fa fas fa-link anchor" fill="currentColor" aria-hidden="true" role="img" viewBox="0 0 576 512" overflow="visible"><use href="#fas-link"></use></svg>&nbsp;
+    </a>
+</h3>
+
+<p>주택분 재산세는 보통 7월과 9월에 나누어 낸다. 종합부동산세는 보통 12월에 납부한다. 둘 다 6월 1일 현재 소유 여부가 중요한 기준이다.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+<h3 id="보유세를-줄이려면-무엇부터-확인해야-하나" class="heading">보유세를 줄이려면 무엇부터 확인해야 하나<a href="#%eb%b3%b4%ec%9c%a0%ec%84%b8%eb%a5%bc-%ec%a4%84%ec%9d%b4%eb%a0%a4%eb%a9%b4-%eb%ac%b4%ec%97%87%eb%b6%80%ed%84%b0-%ed%99%95%ec%9d%b8%ed%95%b4%ec%95%bc-%ed%95%98%eb%82%98" aria-labelledby="보유세를-줄이려면-무엇부터-확인해야-하나">
+
+
+
+
+
+
+                
+                        
+                        
+                        <svg class="svg-inline--fa fas fa-link anchor" fill="currentColor" aria-hidden="true" role="img" viewBox="0 0 576 512" overflow="visible"><use href="#fas-link"></use></svg>&nbsp;
+    </a>
+</h3>
+
+<p>먼저 공시가격과 주택 수, 명의 구조를 확인해야 한다. 그다음 임대주택 합산 배제, 공동명의 효과, 매도 시점, 증여나 상속 계획을 종합적으로 봐야 한다. 세금 하나만 보고 움직이면 취득세나 양도세에서 더 큰 부담이 생길 수 있다.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+<h2 id="마무리" class="heading">마무리<a href="#%eb%a7%88%eb%ac%b4%eb%a6%ac" aria-labelledby="마무리">
+
+
+
+
+
+
+                
+                        
+                        
+                        <svg class="svg-inline--fa fas fa-link anchor" fill="currentColor" aria-hidden="true" role="img" viewBox="0 0 576 512" overflow="visible"><use href="#fas-link"></use></svg>&nbsp;
+    </a>
+</h2>
+
+<p>다주택자 보유세 계산은 복잡해 보이지만 순서를 나누면 이해하기 쉽다. 먼저 각 주택의 재산세를 계산하고, 그다음 사람별 공시가격 합계로 종부세 대상인지 본다. 마지막으로 재산세와 종부세를 합쳐 한 해 보유 비용을 판단하면 된다.</p>
+<p>핵심은 공시가격, 6월 1일 소유 여부, 명의와 지분, 종부세 기본공제다. 이 네 가지만 정확히 잡아도 보유세가 왜 나오는지, 어느 지점에서 부담이 커지는지 감이 잡힌다.</p>
+<p>다만 실제 세액은 고지서가 기준이다. 보유 주택이 여러 채라면 매년 공시가격이 발표된 뒤 예상 보유세를 한 번 계산해 보고, 6월 1일 전에 보유 구조를 점검하는 습관을 들이는 것이 좋다.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+<h2 id="연관-페이지" class="heading">연관 페이지<a href="#%ec%97%b0%ea%b4%80-%ed%8e%98%ec%9d%b4%ec%a7%80" aria-labelledby="연관-페이지">
+
+
+
+
+
+
+                
+                        
+                        
+                        <svg class="svg-inline--fa fas fa-link anchor" fill="currentColor" aria-hidden="true" role="img" viewBox="0 0 576 512" overflow="visible"><use href="#fas-link"></use></svg>&nbsp;
+    </a>
+</h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+<a aria-label="다주택자 양도소득세 중과 정리 보기"
+        href="/posts/multi-homeowner-capital-gains-tax-surcharge/" class="btn btn-outline-dark position-relative col-12"
+        role="button"
+        >
+        <span class="d-flex justify-content-center">
+            <span class="my-auto">다주택자 양도소득세 중과 정리 보기</span>
+        </span></a>&nbsp;
+
+
+
+
+                    
+                    
+<div class="row row-cols-2 mt-5 mb-3">
+    <div class="col">
+        </div>
+    <div class="col text-end">
+        <a class="previous" href="/posts/apartment-management-deposit/">
+                    선수관리비&nbsp;
+
+
+
+
+
+
+                
+                        
+                        
+                        <svg class="svg-inline--fa fas fa-arrow-right " fill="currentColor" aria-hidden="true" role="img" viewBox="0 0 512 512" overflow="visible"><use href="#fas-arrow-right"></use></svg>
+                </a></div>
+</div>
+
+<div class="row row-cols-2 mt-5">
+    <div class="col">
+        <strong>최근 게시글</strong>
+    </div>
+    <div class="col text-end">
+        <a class="previous" href="/posts/real-estate/">
+            전체보기
+
+
+
+
+
+
+                
+                        
+                        
+                        <svg class="svg-inline--fa fas fa-angles-right " fill="currentColor" aria-hidden="true" role="img" viewBox="0 0 448 512" overflow="visible"><use href="#fas-angles-right"></use></svg>
+        </a>
+    </div>
+</div>
+<hr>
+
+    
+    <p>
+        <a href="/posts/multiple-homeowners-holding-tax-calculation/">
+            <p class="h6">다주택자 보유세 계산 방법: 재산세와 종부세 흐름 한 번에 정리</p>
+            <p>다주택자 보유세를 계산하는 순서, 재산세와 종합부동산세의 차이, 공시가격 합산과 공정시장가액비율 적용 방식, 예시 계산까지 정리했다.</p>
+        </a>
+        
+    </p>
+    <hr>
+    
+
+    
+    <p>
+        <a href="/posts/apartment-management-deposit/">
+            <p class="h6">선수관리비란? 아파트 매매 때 돌려받는 관리비예치금 정산 방법</p>
+            <p>선수관리비와 월 관리비의 차이, 아파트 매매 때 매도인이 돌려받는 방식, 관리사무소 확인서와 잔금 정산 시 주의할 점을 쉽게 정리했다.</p>
+        </a>
+        
+    </p>
+    <hr>
+    
+
+    
+    <p>
+        <a href="/posts/married-couple-joint-ownership-tax/">
+            <p class="h6">부부 공동명의 장단점과 세금: 종부세, 양도세, 증여세까지 쉽게 정리</p>
+            <p>부부 공동명의가 종부세와 양도세를 줄이는 원리, 증여세와 건강보험료 같은 단점, 단독명의와 비교할 때 확인할 기준을 쉽게 정리했다.</p>
+        </a>
+        
+    </p>
+    <hr>
+    
+
+    
+    <p>
+        <a href="/posts/national-housing-bond/">
+            <p class="h6">국민주택채권이란? 주택 매매 때 왜 사야 하고 실제 비용은 얼마인지 쉽게 정리</p>
+            <p>주택 매매 시 의무적으로 매입하는 국민주택채권의 뜻, 매입 대상, 계산 기준, 할인 매도 구조, 대출을 받을 때 추가로 생기는 설정채권까지 쉽게 정리했다.</p>
+        </a>
+        
+    </p>
+    <hr>
+    
+
+    
+    <p>
+        <a href="/posts/real-estate-registration-cost-statement/">
+            <p class="h6">등기 비용 내역서 항목별 설명: 취득세부터 채권, 법무사 보수료까지 쉽게 정리</p>
+            <p>부동산 매수 후 받는 등기 비용 내역서의 취득세, 교육세, 농특세, 증지, 인지, 채권, 법무사 보수료와 부가세를 항목별로 쉽게 정리했다.</p>
+        </a>
+        
+    </p>
+    <hr>
+    
+
+    
+    <p>
+        <a href="/posts/jeonse-guarantee-insurance-rejection-reasons/">
+            <p class="h6">전세보증보험 가입 거절 사유, 계약 전 반드시 확인할 위험 신호</p>
+            <p>전세보증보험 가입이 거절되는 대표 사유를 전세가율, 근저당, 선순위채권, 위반건축물, 임대인 문제, 신청 기한 순서로 쉽게 정리했다.</p>
+        </a>
+        
+    </p>
+    <hr>
+    
+
+    
+    <p>
+        <a href="/posts/jeonse-right-registration-fixed-date-difference/">
+            <p class="h6">전세권설정과 확정일자 차이, 전세보증금 지키는 방법 쉽게 비교</p>
+            <p>전세권설정과 확정일자의 차이를 집주인 동의, 비용, 효력 요건, 우선변제권, 보증금 반환 문제 발생 시 대응 기준으로 쉽게 정리했다.</p>
+        </a>
+        
+    </p>
+    <hr>
+    
+
+    
+    <p>
+        <a href="/posts/monthly-rent-contract-special-clauses-examples/">
+            <p class="h6">월세 계약 특약 문구 예시, 보증금 보호부터 수리 책임까지 한 번에 정리</p>
+            <p>월세 계약서에 넣기 좋은 특약 문구를 보증금 보호, 수리 책임, 하자 분리, 계약 해지 기준 중심으로 쉽게 정리하였다.</p>
+        </a>
+        
+    </p>
+    <hr>
+    
+
+    
+    <p>
+        <a href="/posts/mortgage-right-jeonse-check/">
+            <p class="h6">근저당권 뜻과 전세 계약 시 확인법, 보증금 위험 계산까지 쉽게 정리</p>
+            <p>근저당권의 뜻, 등기부등본 을구에서 확인하는 방법, 채권최고액과 실제 대출의 차이, 전세 계약 전 보증금 위험 계산법을 쉽게 정리했다.</p>
+        </a>
+        
+    </p>
+    <hr>
+    
+
+    
+    <p>
+        <a href="/posts/jeonse-deposit-return-guarantee/">
+            <p class="h6">전세보증보험 가입 조건과 주의점, HUG·HF 보증 신청 전 확인할 것</p>
+            <p>전세보증보험 가입 조건과 신청 시기, 필요 서류, 보증료 계산, 집주인 동의 여부, 등기부등본과 선순위채권 확인 방법을 쉽게 정리했다.</p>
+        </a>
+        
+    </p>
+    <hr>
+    
+
+    
+    <p>
+        <a href="/posts/how-to-read-real-estate-register/">
+            <p class="h6">등기부등본 보는 법, 표제부·갑구·을구와 근저당 확인 방법</p>
+            <p>부동산 계약 전 꼭 확인해야 하는 등기부등본 보는 법을 표제부, 갑구, 을구, 근저당권, 가압류, 소유자 확인 순서로 쉽게 정리했다.</p>
+        </a>
+        
+    </p>
+    <hr>
+    
+
+    
+    <p>
+        <a href="/posts/real-estate-purchase-process/">
+            <p class="h6">부동산 매매 절차 총정리, 매물 확인부터 계약 잔금 등기까지</p>
+            <p>부동산 매매 절차를 매물 탐색, 현장 확인, 등기부 확인, 계약금, 중도금, 잔금, 소유권 이전 등기 순서로 쉽게 정리했다.</p>
+        </a>
+        
+    </p>
+    <hr>
+    
+
+    
+    <p>
+        <a href="/posts/reconstruction-redevelopment-difference/">
+            <p class="h6">재건축 재개발 차이, 분담금과 이주비 절차까지 쉽게 정리</p>
+            <p>재건축과 재개발의 차이, 사업 절차, 조합원 요건, 분담금과 부담금, 이주비와 주거이전비까지 초보자 기준으로 쉽게 정리했다.</p>
+        </a>
+        
+    </p>
+    <hr>
+    
+
+    
+    <p>
+        <a href="/posts/long-term-repair-reserve-refund/">
+            <p class="h6">장기수선충당금 반환, 세입자 퇴거 때 집주인이 돌려줘야 하는 돈</p>
+            <p>아파트와 오피스텔 세입자가 관리비로 낸 장기수선충당금을 퇴거할 때 집주인에게 돌려받을 수 있는지, 확인서 발급과 특약 예외까지 정리했다.</p>
+        </a>
+        
+    </p>
+    <hr>
+    
+
+    
+    <p>
+        <a href="/posts/multifamily-house-use-change-tax-risk/">
+            <p class="h6">다가구주택 용도변경 주의점, 다세대주택으로 보이면 양도세가 커질 수 있다</p>
+            <p>다가구주택과 다세대주택의 차이, 건축물대장 확인 방법, 상가를 주택으로 바꾸거나 옥탑방을 만든 경우 생길 수 있는 양도소득세 리스크를 정리했다.</p>
+        </a>
+        
+    </p>
+    <hr>
+    
+
+    
+    <p>
+        <a href="/posts/land-transaction-permit-system/">
+            <p class="h6">토지거래허가제란? 실거주 의무와 계약 전 체크 포인트 쉽게 정리</p>
+            <p>토지거래허가제가 무엇인지, 허가 대상과 실거주 의무, 허가 없는 계약의 효력, 계약 전 확인해야 할 서류와 위반 시 제재를 쉽게 정리했다.</p>
+        </a>
+        
+    </p>
+    <hr>
+    
+
+    
+    <p>
+        <a href="/posts/official-land-price-vs-actual-transaction-price/">
+            <p class="h6">공시지가와 실거래가 차이: 부동산 세금 기준 한눈에 정리</p>
+            <p>공시지가와 실거래가의 뜻, 주택 세금에서 어떤 가격을 기준으로 쓰는지, 취득세·재산세·양도소득세·상속증여 평가까지 쉽게 정리했다.</p>
+        </a>
+        
+    </p>
+    <hr>
+    
+
+    
+    <p>
+        <a href="/posts/move-in-household-confirmation-certificate/">
+            <p class="h6">전입세대확인서 발급 방법과 확인할 수 있는 내용 완벽 정리</p>
+            <p>전입세대확인서가 무엇인지, 어떤 정보를 확인할 수 있는지, 부동산 계약에서 왜 필요한지, 발급 방법과 준비 서류를 쉽게 정리하였다.</p>
+        </a>
+        
+    </p>
+    <hr>
+    
+
+    
+    <p>
+        <a href="/posts/illegal-building-home-purchase/">
+            <p class="h6">불법 건축물 매매해도 괜찮을까? 위반건축물 확인 방법과 주의할 점</p>
+            <p>불법 건축물과 위반건축물이 무엇인지, 매매할 때 어떤 위험이 있는지, 건축물대장 확인 방법과 계약 전 체크포인트를 누구나 이해하기 쉽게 정리하였다.</p>
+        </a>
+        
+    </p>
+    <hr>
+    
+
+    
+    <p>
+        <a href="/posts/funding-plan-for-home-purchase/">
+            <p class="h6">자금조달계획서 제출 대상과 증빙서류 총정리: 작성 방법까지 쉽게 설명</p>
+            <p>자금조달계획서가 무엇인지, 제출 대상과 기한, 자기자금·대출·증여 작성 방법, 증빙서류와 반려를 막는 체크포인트까지 누구나 이해하기 쉽게 정리하였다.</p>
+        </a>
+        
+    </p>
+    <hr>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+                </div>
+                <div class="col col-md-3 col-lg-2 d-none d-md-block">
+                    
+    <div class="toc toc-sidebar mb-5 my-md-0 mb-lg-5 pb-3 text-body-secondary sticky-top">
+        
+
+        
+            
+            
+
+
+
+
+
+
+
+
+
+            <strong class="d-block mb-2">On this page</strong>
+            <nav class="toc">
+                
+                
+                    
+                
+
+                
+                    
+                    <a  class="toc-item toc-level-1" href="/posts/multiple-homeowners-holding-tax-calculation/#다주택자-보유세는-무엇을-합쳐서-보는가">다주택자 보유세는 무엇을 합쳐서 보는가</a>
+                
+                    
+                    <a  class="toc-item toc-level-1" href="/posts/multiple-homeowners-holding-tax-calculation/#계산-전에-확인할-3가지">계산 전에 확인할 3가지</a>
+                
+                    
+                    <a  class="toc-item toc-level-1" href="/posts/multiple-homeowners-holding-tax-calculation/#재산세-계산-흐름">재산세 계산 흐름</a>
+                
+                    
+                    <a  class="toc-item toc-level-1" href="/posts/multiple-homeowners-holding-tax-calculation/#종부세-계산-흐름">종부세 계산 흐름</a>
+                
+                    
+                    <a  class="toc-item toc-level-1" href="/posts/multiple-homeowners-holding-tax-calculation/#예시로-보는-다주택자-보유세-계산">예시로 보는 다주택자 보유세 계산</a>
+                
+                    
+                    <a  class="toc-item toc-level-1" href="/posts/multiple-homeowners-holding-tax-calculation/#다주택자가-자주-놓치는-부분">다주택자가 자주 놓치는 부분</a>
+                
+                    
+                    <a  class="toc-item toc-level-1" href="/posts/multiple-homeowners-holding-tax-calculation/#자주-묻는-질문">자주 묻는 질문</a>
+                
+                    
+                    <a  class="toc-item toc-level-2" href="/posts/multiple-homeowners-holding-tax-calculation/#다주택자-보유세는-집값-전체에-세율을-곱하나">다주택자 보유세는 집값 전체에 세율을 곱하나</a>
+                
+                    
+                    <a  class="toc-item toc-level-2" href="/posts/multiple-homeowners-holding-tax-calculation/#다주택자는-무조건-종부세를-내나">다주택자는 무조건 종부세를 내나</a>
+                
+                    
+                        
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+<a aria-label="Show 4 more"
+        href="#toc-collapse-items" id="btnTOCShowMore" class="btn btn-link link-primary position-relative toc-item" data-bs-toggle="collapse" aria-expanded="false" aria-controls="toc-collapse-items"role="button"
+        >
+        <span class="d-flex justify-content-start">
+            <span class="my-auto">Show 4 more</span>
+        </span></a>
+
+                        <div class="collapse" id="toc-collapse-items">
+                        
+                    <a  class="toc-item toc-level-2" href="/posts/multiple-homeowners-holding-tax-calculation/#재산세와-종부세는-언제-내나">재산세와 종부세는 언제 내나</a>
+                
+                    
+                    <a  class="toc-item toc-level-2" href="/posts/multiple-homeowners-holding-tax-calculation/#보유세를-줄이려면-무엇부터-확인해야-하나">보유세를 줄이려면 무엇부터 확인해야 하나</a>
+                
+                    
+                    <a  class="toc-item toc-level-1" href="/posts/multiple-homeowners-holding-tax-calculation/#마무리">마무리</a>
+                
+                    
+                    <a  class="toc-item toc-level-1" href="/posts/multiple-homeowners-holding-tax-calculation/#연관-페이지">연관 페이지</a>
+                
+
+                
+                    &nbsp;
+                    
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+<a aria-label="Show less"
+        href="#toc-collapse-items" id="btnTOCShowLess" class="btn btn-link link-primary position-relative toc-item" data-bs-toggle="collapse" aria-expanded="false" aria-controls="toc-collapse-items"role="button"
+        >
+        <span class="d-flex justify-content-start">
+            <span class="my-auto">Show less</span>
+        </span></a>
+
+                </div>
+            </nav>
+        
+    
+
+
+
+        </div>
+
+
+                </div>
+            </div>
+        </div>
+    
+</main>
+<footer class="container-fluid footer text-center p-3">
+    <div class="container-xxl text-center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8543127460401091"
+     crossorigin="anonymous"></script>
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-8543127460401091"
+     data-ad-slot="3689386360"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+        <small>
+            Copyright © 2026 Money::devkuma All rights reserved.
+            
+        </small>
+    </div>
+</footer>
+<div id="toast-container" class="toast-container position-fixed bottom-0 end-0 p-3">
+
+
+
+
+
+
+
+
+<div id="toast-copied-code-message" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+    <div class="toast-header">
+        <strong class="me-auto">Money::devkuma</strong>
+        <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+    </div>
+    <div class="toast-body">Code copied to clipboard</div>
+</div>
+</div>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" display="none">
+        <symbol id="fas-ellipsis" overflow="visible" viewBox="0 0 448 512"><path fill="currentColor" d="M0 256a56 56 0 1 1 112 0 56 56 0 1 1 -112 0zm168 0a56 56 0 1 1 112 0 56 56 0 1 1 -112 0zm224-56a56 56 0 1 1 0 112 56 56 0 1 1 0-112z"/></symbol>
+<symbol id="fas-sun" overflow="visible" viewBox="0 0 576 512"><path fill="currentColor" d="M288-32c8.4 0 16.3 4.4 20.6 11.7L364.1 72.3 468.9 46c8.2-2 16.9 .4 22.8 6.3S500 67 498 75.1l-26.3 104.7 92.7 55.5c7.2 4.3 11.7 12.2 11.7 20.6s-4.4 16.3-11.7 20.6L471.7 332.1 498 436.8c2 8.2-.4 16.9-6.3 22.8S477 468 468.9 466l-104.7-26.3-55.5 92.7c-4.3 7.2-12.2 11.7-20.6 11.7s-16.3-4.4-20.6-11.7L211.9 439.7 107.2 466c-8.2 2-16.8-.4-22.8-6.3S76 445 78 436.8l26.2-104.7-92.6-55.5C4.4 272.2 0 264.4 0 256s4.4-16.3 11.7-20.6L104.3 179.9 78 75.1c-2-8.2 .3-16.8 6.3-22.8S99 44 107.2 46l104.7 26.2 55.5-92.6 1.8-2.6c4.5-5.7 11.4-9.1 18.8-9.1zm0 144a144 144 0 1 0 0 288 144 144 0 1 0 0-288zm0 240a96 96 0 1 1 0-192 96 96 0 1 1 0 192z"/></symbol>
+<symbol id="fas-moon" overflow="visible" viewBox="0 0 512 512"><path fill="currentColor" d="M256 0C114.6 0 0 114.6 0 256S114.6 512 256 512c68.8 0 131.3-27.2 177.3-71.4 7.3-7 9.4-17.9 5.3-27.1s-13.7-14.9-23.8-14.1c-4.9 .4-9.8 .6-14.8 .6-101.6 0-184-82.4-184-184 0-72.1 41.5-134.6 102.1-164.8 9.1-4.5 14.3-14.3 13.1-24.4S322.6 8.5 312.7 6.3C294.4 2.2 275.4 0 256 0z"/></symbol>
+<symbol id="fas-angle-left" overflow="visible" viewBox="0 0 256 512"><path fill="currentColor" d="M9.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L77.3 256 214.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z"/></symbol>
+<symbol id="fas-sort" overflow="visible" viewBox="0 0 384 512"><path fill="currentColor" d="M2.4 204.2c5 12 16.6 19.8 29.6 19.8l320 0c12.9 0 24.6-7.8 29.6-19.8s2.2-25.7-6.9-34.9l-160-160c-12.5-12.5-32.8-12.5-45.3 0l-160 160c-9.2 9.2-11.9 22.9-6.9 34.9zm0 103.5c-5 12-2.2 25.7 6.9 34.9l160 160c12.5 12.5 32.8 12.5 45.3 0l160-160c9.2-9.2 11.9-22.9 6.9-34.9S364.9 288 352 288L32 288c-12.9 0-24.6 7.8-29.6 19.8z"/></symbol>
+<symbol id="fas-link" overflow="visible" viewBox="0 0 576 512"><path fill="currentColor" d="M419.5 96c-16.6 0-32.7 4.5-46.8 12.7-15.8-16-34.2-29.4-54.5-39.5 28.2-24 64.1-37.2 101.3-37.2 86.4 0 156.5 70 156.5 156.5 0 41.5-16.5 81.3-45.8 110.6l-71.1 71.1c-29.3 29.3-69.1 45.8-110.6 45.8-86.4 0-156.5-70-156.5-156.5 0-1.5 0-3 .1-4.5 .5-17.7 15.2-31.6 32.9-31.1s31.6 15.2 31.1 32.9c0 .9 0 1.8 0 2.6 0 51.1 41.4 92.5 92.5 92.5 24.5 0 48-9.7 65.4-27.1l71.1-71.1c17.3-17.3 27.1-40.9 27.1-65.4 0-51.1-41.4-92.5-92.5-92.5zM275.2 173.3c-1.9-.8-3.8-1.9-5.5-3.1-12.6-6.5-27-10.2-42.1-10.2-24.5 0-48 9.7-65.4 27.1L91.1 258.2c-17.3 17.3-27.1 40.9-27.1 65.4 0 51.1 41.4 92.5 92.5 92.5 16.5 0 32.6-4.4 46.7-12.6 15.8 16 34.2 29.4 54.6 39.5-28.2 23.9-64 37.2-101.3 37.2-86.4 0-156.5-70-156.5-156.5 0-41.5 16.5-81.3 45.8-110.6l71.1-71.1c29.3-29.3 69.1-45.8 110.6-45.8 86.6 0 156.5 70.6 156.5 156.9 0 1.3 0 2.6 0 3.9-.4 17.7-15.1 31.6-32.8 31.2s-31.6-15.1-31.2-32.8c0-.8 0-1.5 0-2.3 0-33.7-18-63.3-44.8-79.6z"/></symbol>
+<symbol id="fas-arrow-right" overflow="visible" viewBox="0 0 512 512"><path fill="currentColor" d="M502.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L402.7 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l370.7 0-105.4 105.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"/></symbol>
+<symbol id="fas-angles-right" overflow="visible" viewBox="0 0 448 512"><path fill="currentColor" d="M439.1 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L371.2 256 233.9 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160zm-352 160l160-160c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L179.2 256 41.9 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0z"/></symbol>
+    </svg>
+
+  
+    
+
+  
+
+
+<script src="/js/core.bundle-analytics.ko.min.bef138a0b0039c16630a4767e923e751563c440bb5d0c7c226422e8df10640e9.js"
+         data-category="analytics" integrity="sha256-vvE4oLADnBZjCkdn6SPnUVY8RAu10MfCJkIujfEGQOk=" crossorigin="anonymous" async></script>
+
+<script src="/js/core.bundle.ko.min.3e275b1d69f1914da84735700dc6f9c498a8eace0140d5beb4471e968fd8d890.js"
+         integrity="sha256-PidbHWnxkU2oRzVwDcb5xJio6s4BQNW&#43;tEcelo/Y2JA=" crossorigin="anonymous" async></script></body>
+</html>

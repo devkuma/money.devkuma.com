@@ -10,7 +10,7 @@
 		
 		
 		
-			<lastBuildDate>Thu, 11 Jun 2026 23:27:02 +0900</lastBuildDate>
+			<lastBuildDate>Fri, 12 Jun 2026 21:25:13 +0900</lastBuildDate>
 		
 			<atom:link href="https://money.devkuma.com/categories/%EC%84%B8%EA%B8%88/index.xml" rel="self" type="application/rss+xml" />
 			<item>
@@ -19,6 +19,13 @@
 				<pubDate>Sun, 17 May 2026 22:46:15 +0900</pubDate>
 				<guid>https://money.devkuma.com/posts/etf-tax-guide/</guid>
 				<description>&lt;p&gt;ETF는 주식처럼 사고팔 수 있어서 세금도 주식과 똑같다고 생각하기 쉽다. 그런데 실제로는 그렇지 않다. 국내 증시에 상장된 ETF인지, 해외 거래소에 직접 상장된 ETF인지, 또 ETF가 국내 주식에 투자하는지 해외 주식에 투자하는지에 따라 세금이 달라진다.&lt;/p&gt;&#xA;&lt;p&gt;특히 초보자가 가장 많이 헷갈리는 부분은 &amp;ldquo;국내 상장 해외 ETF&amp;quot;다. 예를 들어 TIGER 미국S&amp;amp;P500, KODEX 미국나스닥100처럼 한국거래소에서 원화로 사고파는 ETF는 미국 주식에 투자하더라도 세금은 해외 상장 ETF와 다르게 처리된다.&lt;/p&gt;&#xA;&lt;p&gt;이 글에서는 ETF 투자자가 꼭 알아야 할 세금을 매매차익과 분배금으로 나누어 정리하였다. 세금은 투자 수익률의 마지막 숫자를 바꾸기 때문에, 상품을 고르기 전에 한 번은 확인해두는 것이 좋다.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>다주택자 보유세 계산 방법: 재산세와 종부세 흐름 한 번에 정리</title>
+				<link>https://money.devkuma.com/posts/multiple-homeowners-holding-tax-calculation/</link>
+				<pubDate>Fri, 12 Jun 2026 21:25:13 +0900</pubDate>
+				<guid>https://money.devkuma.com/posts/multiple-homeowners-holding-tax-calculation/</guid>
+				<description>&lt;p&gt;집이 한 채일 때는 재산세 고지서만 확인하고 넘어가는 경우가 많다. 그런데 주택이 두 채 이상이 되면 이야기가 달라진다. 집마다 재산세가 따로 나오고, 공시가격 합계가 일정 기준을 넘으면 종합부동산세까지 확인해야 하기 때문이다.&lt;/p&gt;&#xA;&lt;p&gt;다주택자 보유세가 어렵게 느껴지는 이유는 계산이 한 번에 끝나지 않기 때문이다. 먼저 각 주택의 재산세를 계산하고, 그다음 보유 주택의 공시가격을 합산해 종부세 대상인지 본다. 여기에 공정시장가액비율, 세율, 재산세 중복분 차감, 세부담 상한 같은 요소가 붙는다.&lt;/p&gt;&#xA;&lt;p&gt;그래도 계산 흐름은 생각보다 일정하다. 이 글에서는 다주택자 보유세를 &amp;ldquo;재산세 따로, 종부세 따로, 마지막에 합산&amp;quot;하는 방식으로 정리하였다. 실제 세액은 고지서와 홈택스·위택스 조회가 기준이지만, 구조를 알고 있으면 왜 세금이 늘어나는지 훨씬 쉽게 이해할 수 있다.&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>개인사업자 종합소득세 절세 항목, 경비·공제·감면까지 쉽게 정리</title>

@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://money.devkuma.com/</loc>
-    <lastmod>2026-06-11T23:46:27+09:00</lastmod>
+    <lastmod>2026-06-12T21:25:13+09:00</lastmod>
   </url>
   <url>
     <loc>https://money.devkuma.com/about/</loc>
@@ -10,7 +10,7 @@
   </url>
   <url>
     <loc>https://money.devkuma.com/categories/</loc>
-    <lastmod>2026-06-11T23:46:27+09:00</lastmod>
+    <lastmod>2026-06-12T21:25:13+09:00</lastmod>
   </url>
   <url>
     <loc>https://money.devkuma.com/categories/%EA%B2%BD%EC%A0%9C-%EC%9D%B4%EC%95%BC%EA%B8%B0/</loc>
@@ -42,11 +42,11 @@
   </url>
   <url>
     <loc>https://money.devkuma.com/categories/%EB%B6%80%EB%8F%99%EC%82%B0/</loc>
-    <lastmod>2026-06-11T23:18:01+09:00</lastmod>
+    <lastmod>2026-06-12T21:25:13+09:00</lastmod>
   </url>
   <url>
     <loc>https://money.devkuma.com/categories/%EC%84%B8%EA%B8%88/</loc>
-    <lastmod>2026-06-11T23:27:02+09:00</lastmod>
+    <lastmod>2026-06-12T21:25:13+09:00</lastmod>
   </url>
   <url>
     <loc>https://money.devkuma.com/categories/%EC%9E%AC%ED%85%8C%ED%81%AC/</loc>
@@ -162,7 +162,7 @@
   </url>
   <url>
     <loc>https://money.devkuma.com/posts/</loc>
-    <lastmod>2026-06-11T23:46:27+09:00</lastmod>
+    <lastmod>2026-06-12T21:25:13+09:00</lastmod>
   </url>
   <url>
     <loc>https://money.devkuma.com/posts/account-opening-20-business-day-rule/</loc>
@@ -171,6 +171,10 @@
   <url>
     <loc>https://money.devkuma.com/posts/apartment-fire-insurance/</loc>
     <lastmod>2026-06-09T22:44:10+09:00</lastmod>
+  </url>
+  <url>
+    <loc>https://money.devkuma.com/posts/apartment-management-deposit/</loc>
+    <lastmod>2026-06-12T21:20:42+09:00</lastmod>
   </url>
   <url>
     <loc>https://money.devkuma.com/posts/bancassurance-guide/</loc>
@@ -769,6 +773,10 @@
     <lastmod>2026-05-17T16:28:19+09:00</lastmod>
   </url>
   <url>
+    <loc>https://money.devkuma.com/posts/multiple-homeowners-holding-tax-calculation/</loc>
+    <lastmod>2026-06-12T21:25:13+09:00</lastmod>
+  </url>
+  <url>
     <loc>https://money.devkuma.com/posts/national-growth-fund/</loc>
     <lastmod>2026-05-09T18:12:44+09:00</lastmod>
   </url>
@@ -846,7 +854,7 @@
   </url>
   <url>
     <loc>https://money.devkuma.com/posts/real-estate/</loc>
-    <lastmod>2026-06-11T23:18:01+09:00</lastmod>
+    <lastmod>2026-06-12T21:25:13+09:00</lastmod>
   </url>
   <url>
     <loc>https://money.devkuma.com/posts/reconstruction-redevelopment-difference/</loc>
