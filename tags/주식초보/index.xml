@@ -10,7 +10,7 @@
 		
 		
 		
-			<lastBuildDate>Sat, 13 Jun 2026 23:04:39 +0900</lastBuildDate>
+			<lastBuildDate>Sat, 13 Jun 2026 23:20:32 +0900</lastBuildDate>
 		
 			<atom:link href="https://money.devkuma.com/tags/%EC%A3%BC%EC%8B%9D%EC%B4%88%EB%B3%B4/index.xml" rel="self" type="application/rss+xml" />
 			<item>
@@ -54,6 +54,20 @@
 				<pubDate>Thu, 14 May 2026 21:53:49 +0900</pubDate>
 				<guid>https://money.devkuma.com/posts/call-option-put-option/</guid>
 				<description>&lt;p&gt;주식 공부를 하다 보면 콜옵션, 풋옵션이라는 말을 한 번쯤 듣게 된다. 뉴스에서는 경영권 분쟁, 임원 보상, 파생상품 투자, 커버드콜 ETF 같은 이야기와 함께 자주 나온다. 2024년에는 민희진 전 어도어 대표의 풋옵션 이슈가 알려지면서 &amp;ldquo;풋옵션이 대체 뭐길래 1,000억 원대라는 말이 나오지?&amp;ldquo;라고 궁금해한 사람도 많았다.&lt;/p&gt;&#xA;&lt;p&gt;옵션은 말 그대로 &amp;ldquo;권리&amp;quot;다. 미래의 특정 시점에 어떤 자산을 미리 정한 가격으로 사거나 팔 수 있는 권리를 말한다. 주식뿐 아니라 채권, 금, 원유, 지수 같은 여러 자산이 옵션의 대상이 될 수 있다.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>프리마켓과 애프터마켓 차이, 미국주식 시간외 거래 시간과 주의사항</title>
+				<link>https://money.devkuma.com/posts/pre-market-vs-after-market/</link>
+				<pubDate>Sat, 13 Jun 2026 23:20:32 +0900</pubDate>
+				<guid>https://money.devkuma.com/posts/pre-market-vs-after-market/</guid>
+				<description>&lt;p&gt;미국주식을 하다 보면 정규장이 열리기 전부터 주가가 움직이는 것을 보게 된다. 한국 시간으로 저녁에 이미 테슬라, 엔비디아, 애플 같은 종목이 오르거나 내리고, 정규장이 끝난 새벽 이후에도 가격이 다시 흔들린다. 이때 등장하는 말이 프리마켓과 애프터마켓이다.&lt;/p&gt;&#xA;&lt;p&gt;프리마켓은 정규장이 열리기 전 거래 시간이고, 애프터마켓은 정규장이 끝난 뒤 거래 시간이다. 둘 다 정규장 밖에서 거래된다는 점은 같지만, 반응하는 뉴스와 투자자 심리, 유동성, 활용 방식이 조금 다르다.&lt;/p&gt;&#xA;&lt;p&gt;초보자는 &amp;ldquo;거래 시간이 길어졌으니 더 좋은 것 아닌가&amp;quot;라고 생각하기 쉽다. 하지만 시간외 거래는 정규장보다 거래량이 적고, 매수·매도 호가 차이가 커질 수 있으며, 작은 주문에도 가격이 크게 움직일 수 있다. 이 글에서는 프리마켓과 애프터마켓의 차이, 한국시간 기준 거래 시간, 실제로 조심해야 할 점을 정리하였다.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>주식 분할매수 방법과 예시, 초보자가 평균단가와 리스크를 관리하는 법</title>
+				<link>https://money.devkuma.com/posts/stock-split-buying-strategy/</link>
+				<pubDate>Sat, 13 Jun 2026 23:15:28 +0900</pubDate>
+				<guid>https://money.devkuma.com/posts/stock-split-buying-strategy/</guid>
+				<description>&lt;p&gt;주식을 처음 시작하면 가장 많이 하는 실수가 &amp;ldquo;좋아 보이는 종목을 한 번에 많이 사는 것&amp;quot;이다. 매수 버튼을 누를 때는 확신이 있어 보이지만, 주가는 내가 산 다음 날부터 마음대로 움직이지 않는다. 조금만 내려도 불안하고, 더 내려가면 추가 매수를 해야 할지 손절해야 할지 판단이 흐려진다.&lt;/p&gt;&#xA;&lt;p&gt;분할매수는 이런 타이밍 부담을 줄이기 위한 방법이다. 사고 싶은 주식을 한 번에 전부 사지 않고, 정해둔 금액과 기준에 따라 여러 번 나누어 사는 것이다. 바닥을 정확히 맞히는 대신 평균 매입 단가를 관리하고, 심리적으로 버틸 수 있는 구조를 만드는 데 목적이 있다.&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>자사주 소각이 주가에 좋은 이유, 주식 수가 줄면 왜 주주 가치가 오를까</title>
