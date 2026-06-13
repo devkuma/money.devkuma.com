@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://money.devkuma.com/</loc>
-    <lastmod>2026-06-12T22:33:57+09:00</lastmod>
+    <lastmod>2026-06-13T23:04:39+09:00</lastmod>
   </url>
   <url>
     <loc>https://money.devkuma.com/about/</loc>
@@ -10,7 +10,7 @@
   </url>
   <url>
     <loc>https://money.devkuma.com/categories/</loc>
-    <lastmod>2026-06-12T22:33:57+09:00</lastmod>
+    <lastmod>2026-06-13T23:04:39+09:00</lastmod>
   </url>
   <url>
     <loc>https://money.devkuma.com/categories/%EA%B2%BD%EC%A0%9C-%EC%9D%B4%EC%95%BC%EA%B8%B0/</loc>
@@ -54,7 +54,7 @@
   </url>
   <url>
     <loc>https://money.devkuma.com/categories/%EC%A3%BC%EC%8B%9D/</loc>
-    <lastmod>2026-06-12T22:33:57+09:00</lastmod>
+    <lastmod>2026-06-13T23:04:39+09:00</lastmod>
   </url>
   <url>
     <loc>https://money.devkuma.com/categories/%EC%A7%80%EC%9B%90%EA%B8%88/</loc>
@@ -162,7 +162,7 @@
   </url>
   <url>
     <loc>https://money.devkuma.com/posts/</loc>
-    <lastmod>2026-06-12T22:33:57+09:00</lastmod>
+    <lastmod>2026-06-13T23:04:39+09:00</lastmod>
   </url>
   <url>
     <loc>https://money.devkuma.com/posts/account-opening-20-business-day-rule/</loc>
@@ -901,6 +901,10 @@
     <lastmod>2026-05-10T09:14:09+09:00</lastmod>
   </url>
   <url>
+    <loc>https://money.devkuma.com/posts/schd-etf/</loc>
+    <lastmod>2026-06-13T22:37:06+09:00</lastmod>
+  </url>
+  <url>
     <loc>https://money.devkuma.com/posts/securities-company-site-list/</loc>
     <lastmod>2026-05-19T07:22:53+09:00</lastmod>
   </url>
@@ -1038,7 +1042,7 @@
   </url>
   <url>
     <loc>https://money.devkuma.com/posts/stock/</loc>
-    <lastmod>2026-06-12T22:33:57+09:00</lastmod>
+    <lastmod>2026-06-13T23:04:39+09:00</lastmod>
   </url>
   <url>
     <loc>https://money.devkuma.com/posts/stocks-beginners-should-avoid/</loc>
@@ -1059,6 +1063,10 @@
   <url>
     <loc>https://money.devkuma.com/posts/tqqq-qld-qqq-nasdaq-etf/</loc>
     <lastmod>2026-05-23T00:47:33+09:00</lastmod>
+  </url>
+  <url>
+    <loc>https://money.devkuma.com/posts/treasury-stock-cancellation/</loc>
+    <lastmod>2026-06-13T23:04:39+09:00</lastmod>
   </url>
   <url>
     <loc>https://money.devkuma.com/posts/trickle-down-vs-fountain-effect/</loc>
