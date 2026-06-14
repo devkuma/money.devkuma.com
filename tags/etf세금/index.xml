@@ -10,7 +10,7 @@
 		
 		
 		
-			<lastBuildDate>Sun, 17 May 2026 22:46:15 +0900</lastBuildDate>
+			<lastBuildDate>Sun, 14 Jun 2026 21:51:42 +0900</lastBuildDate>
 		
 			<atom:link href="https://money.devkuma.com/tags/etf%EC%84%B8%EA%B8%88/index.xml" rel="self" type="application/rss+xml" />
 			<item>
@@ -19,6 +19,13 @@
 				<pubDate>Sun, 17 May 2026 22:46:15 +0900</pubDate>
 				<guid>https://money.devkuma.com/posts/etf-tax-guide/</guid>
 				<description>&lt;p&gt;ETF는 주식처럼 사고팔 수 있어서 세금도 주식과 똑같다고 생각하기 쉽다. 그런데 실제로는 그렇지 않다. 국내 증시에 상장된 ETF인지, 해외 거래소에 직접 상장된 ETF인지, 또 ETF가 국내 주식에 투자하는지 해외 주식에 투자하는지에 따라 세금이 달라진다.&lt;/p&gt;&#xA;&lt;p&gt;특히 초보자가 가장 많이 헷갈리는 부분은 &amp;ldquo;국내 상장 해외 ETF&amp;quot;다. 예를 들어 TIGER 미국S&amp;amp;P500, KODEX 미국나스닥100처럼 한국거래소에서 원화로 사고파는 ETF는 미국 주식에 투자하더라도 세금은 해외 상장 ETF와 다르게 처리된다.&lt;/p&gt;&#xA;&lt;p&gt;이 글에서는 ETF 투자자가 꼭 알아야 할 세금을 매매차익과 분배금으로 나누어 정리하였다. 세금은 투자 수익률의 마지막 숫자를 바꾸기 때문에, 상품을 고르기 전에 한 번은 확인해두는 것이 좋다.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>국내상장 해외 ETF와 미국상장 ETF 차이, 세금부터 환율까지 쉽게 비교</title>
+				<link>https://money.devkuma.com/posts/korea-listed-overseas-etf-vs-us-listed-etf/</link>
+				<pubDate>Sun, 14 Jun 2026 21:51:42 +0900</pubDate>
+				<guid>https://money.devkuma.com/posts/korea-listed-overseas-etf-vs-us-listed-etf/</guid>
+				<description>&lt;p&gt;S&amp;amp;P500이나 나스닥100에 투자하려고 검색해보면 비슷한 이름의 ETF가 너무 많이 나온다. &lt;code&gt;TIGER 미국S&amp;amp;P500&lt;/code&gt;, &lt;code&gt;KODEX 미국나스닥100TR&lt;/code&gt; 같은 국내 ETF도 있고, &lt;code&gt;SPY&lt;/code&gt;, &lt;code&gt;VOO&lt;/code&gt;, &lt;code&gt;QQQ&lt;/code&gt;처럼 미국 시장에 직접 상장된 ETF도 있다. 둘 다 미국 주식에 투자하는 것 같은데, 막상 어떤 것을 사야 하는지는 헷갈린다.&lt;/p&gt;&#xA;&lt;p&gt;핵심은 단순하다. 국내상장 해외 ETF는 한국 거래소에 상장된 해외 투자 ETF이고, 미국상장 ETF는 미국 거래소에 상장된 ETF를 해외주식 계좌로 직접 사는 방식이다. 같은 S&amp;amp;P500을 따라가더라도 거래 통화, 거래 시간, 세금, 계좌 활용, 상품 선택지가 달라진다.&lt;/p&gt;</description>
 			</item>
 	</channel>
 </rss>

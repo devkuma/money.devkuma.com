@@ -10,7 +10,7 @@
 		
 		
 		
-			<lastBuildDate>Mon, 25 May 2026 11:43:09 +0900</lastBuildDate>
+			<lastBuildDate>Sun, 14 Jun 2026 21:51:42 +0900</lastBuildDate>
 		
 			<atom:link href="https://money.devkuma.com/tags/%ED%99%98%EC%9C%A8/index.xml" rel="self" type="application/rss+xml" />
 			<item>
@@ -19,6 +19,13 @@
 				<pubDate>Mon, 25 May 2026 11:31:22 +0900</pubDate>
 				<guid>https://money.devkuma.com/posts/etf-hedged-unhedged/</guid>
 				<description>&lt;p&gt;해외 주식 ETF를 고르다 보면 상품명 뒤에 &lt;code&gt;(H)&lt;/code&gt;가 붙은 것을 자주 보게 된다. 예를 들어 &amp;ldquo;미국S&amp;amp;P500(H)&amp;ldquo;처럼 표시된 상품이다. 처음 보면 단순한 상품 코드처럼 보이지만, 실제로는 환율 변동을 얼마나 반영할지 알려주는 중요한 표시다.&lt;/p&gt;&#xA;&lt;p&gt;해외 ETF 수익률은 주가만으로 결정되지 않는다. 미국 주식이 올라도 원·달러 환율이 많이 떨어지면 원화 기준 수익률은 줄어들 수 있고, 반대로 주식은 조금 빠졌는데 환율이 오르면서 손실이 덜해질 수도 있다. 그래서 해외 ETF를 살 때는 &amp;ldquo;이 ETF가 환헤지인지, 환노출인지&amp;quot;를 확인해야 한다.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>국내상장 해외 ETF와 미국상장 ETF 차이, 세금부터 환율까지 쉽게 비교</title>
+				<link>https://money.devkuma.com/posts/korea-listed-overseas-etf-vs-us-listed-etf/</link>
+				<pubDate>Sun, 14 Jun 2026 21:51:42 +0900</pubDate>
+				<guid>https://money.devkuma.com/posts/korea-listed-overseas-etf-vs-us-listed-etf/</guid>
+				<description>&lt;p&gt;S&amp;amp;P500이나 나스닥100에 투자하려고 검색해보면 비슷한 이름의 ETF가 너무 많이 나온다. &lt;code&gt;TIGER 미국S&amp;amp;P500&lt;/code&gt;, &lt;code&gt;KODEX 미국나스닥100TR&lt;/code&gt; 같은 국내 ETF도 있고, &lt;code&gt;SPY&lt;/code&gt;, &lt;code&gt;VOO&lt;/code&gt;, &lt;code&gt;QQQ&lt;/code&gt;처럼 미국 시장에 직접 상장된 ETF도 있다. 둘 다 미국 주식에 투자하는 것 같은데, 막상 어떤 것을 사야 하는지는 헷갈린다.&lt;/p&gt;&#xA;&lt;p&gt;핵심은 단순하다. 국내상장 해외 ETF는 한국 거래소에 상장된 해외 투자 ETF이고, 미국상장 ETF는 미국 거래소에 상장된 ETF를 해외주식 계좌로 직접 사는 방식이다. 같은 S&amp;amp;P500을 따라가더라도 거래 통화, 거래 시간, 세금, 계좌 활용, 상품 선택지가 달라진다.&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>해외 주식 사는 법, 계좌 개설부터 환전·거래시간·세금까지 한 번에 정리</title>
