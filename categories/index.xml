@@ -10,14 +10,21 @@
 		
 		
 		
-			<lastBuildDate>Sun, 14 Jun 2026 21:58:15 +0900</lastBuildDate>
+			<lastBuildDate>Sun, 14 Jun 2026 22:52:58 +0900</lastBuildDate>
 		
 			<atom:link href="https://money.devkuma.com/categories/index.xml" rel="self" type="application/rss+xml" />
 			<item>
 				<title>주식</title>
 				<link>https://money.devkuma.com/categories/%EC%A3%BC%EC%8B%9D/</link>
-				<pubDate>Sun, 14 Jun 2026 21:58:15 +0900</pubDate>
+				<pubDate>Sun, 14 Jun 2026 22:52:58 +0900</pubDate>
 				<guid>https://money.devkuma.com/categories/%EC%A3%BC%EC%8B%9D/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>News</title>
+				<link>https://money.devkuma.com/categories/news/</link>
+				<pubDate>Sun, 14 Jun 2026 22:41:50 +0900</pubDate>
+				<guid>https://money.devkuma.com/categories/news/</guid>
 				<description></description>
 			</item>
 			<item>
@@ -67,13 +74,6 @@
 				<link>https://money.devkuma.com/categories/%EC%BD%94%EC%9D%B8/</link>
 				<pubDate>Wed, 10 Jun 2026 23:49:28 +0900</pubDate>
 				<guid>https://money.devkuma.com/categories/%EC%BD%94%EC%9D%B8/</guid>
-				<description></description>
-			</item>
-			<item>
-				<title>News</title>
-				<link>https://money.devkuma.com/categories/news/</link>
-				<pubDate>Tue, 09 Jun 2026 22:33:20 +0900</pubDate>
-				<guid>https://money.devkuma.com/categories/news/</guid>
 				<description></description>
 			</item>
 			<item>
