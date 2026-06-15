@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://money.devkuma.com/</loc>
-    <lastmod>2026-06-14T22:52:58+09:00</lastmod>
+    <lastmod>2026-06-15T21:57:50+09:00</lastmod>
   </url>
   <url>
     <loc>https://money.devkuma.com/about/</loc>
@@ -10,7 +10,7 @@
   </url>
   <url>
     <loc>https://money.devkuma.com/categories/</loc>
-    <lastmod>2026-06-14T22:52:58+09:00</lastmod>
+    <lastmod>2026-06-15T21:57:50+09:00</lastmod>
   </url>
   <url>
     <loc>https://money.devkuma.com/categories/%EA%B2%BD%EC%A0%9C-%EC%9D%B4%EC%95%BC%EA%B8%B0/</loc>
@@ -54,7 +54,7 @@
   </url>
   <url>
     <loc>https://money.devkuma.com/categories/%EC%A3%BC%EC%8B%9D/</loc>
-    <lastmod>2026-06-14T22:52:58+09:00</lastmod>
+    <lastmod>2026-06-15T21:57:50+09:00</lastmod>
   </url>
   <url>
     <loc>https://money.devkuma.com/categories/%EC%A7%80%EC%9B%90%EA%B8%88/</loc>
@@ -82,7 +82,7 @@
   </url>
   <url>
     <loc>https://money.devkuma.com/docs/etf/</loc>
-    <lastmod>2026-05-25T11:31:22+09:00</lastmod>
+    <lastmod>2026-06-05T23:59:13+09:00</lastmod>
   </url>
   <url>
     <loc>https://money.devkuma.com/docs/irp/</loc>
@@ -166,7 +166,7 @@
   </url>
   <url>
     <loc>https://money.devkuma.com/posts/</loc>
-    <lastmod>2026-06-14T22:52:58+09:00</lastmod>
+    <lastmod>2026-06-15T21:57:50+09:00</lastmod>
   </url>
   <url>
     <loc>https://money.devkuma.com/posts/account-opening-20-business-day-rule/</loc>
@@ -689,6 +689,10 @@
     <lastmod>2026-05-12T23:00:59+09:00</lastmod>
   </url>
   <url>
+    <loc>https://money.devkuma.com/posts/leveraged-etf-long-term-risk/</loc>
+    <lastmod>2026-06-15T21:49:32+09:00</lastmod>
+  </url>
+  <url>
     <loc>https://money.devkuma.com/posts/limit-up-limit-down/</loc>
     <lastmod>2026-05-09T08:56:36+09:00</lastmod>
   </url>
@@ -925,6 +929,10 @@
     <lastmod>2026-05-19T07:22:53+09:00</lastmod>
   </url>
   <url>
+    <loc>https://money.devkuma.com/posts/shareholder-return-effect/</loc>
+    <lastmod>2026-06-15T21:57:50+09:00</lastmod>
+  </url>
+  <url>
     <loc>https://money.devkuma.com/posts/shareholders-meeting-process/</loc>
     <lastmod>2026-06-01T08:11:14+09:00</lastmod>
   </url>
@@ -1062,7 +1070,7 @@
   </url>
   <url>
     <loc>https://money.devkuma.com/posts/stock/</loc>
-    <lastmod>2026-06-14T22:52:58+09:00</lastmod>
+    <lastmod>2026-06-15T21:57:50+09:00</lastmod>
   </url>
   <url>
     <loc>https://money.devkuma.com/posts/stocks-beginners-should-avoid/</loc>

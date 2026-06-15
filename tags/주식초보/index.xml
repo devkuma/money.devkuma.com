@@ -10,7 +10,7 @@
 		
 		
 		
-			<lastBuildDate>Sun, 14 Jun 2026 22:52:58 +0900</lastBuildDate>
+			<lastBuildDate>Mon, 15 Jun 2026 21:49:32 +0900</lastBuildDate>
 		
 			<atom:link href="https://money.devkuma.com/tags/%EC%A3%BC%EC%8B%9D%EC%B4%88%EB%B3%B4/index.xml" rel="self" type="application/rss+xml" />
 			<item>
@@ -54,6 +54,13 @@
 				<pubDate>Thu, 14 May 2026 21:53:49 +0900</pubDate>
 				<guid>https://money.devkuma.com/posts/call-option-put-option/</guid>
 				<description>&lt;p&gt;주식 공부를 하다 보면 콜옵션, 풋옵션이라는 말을 한 번쯤 듣게 된다. 뉴스에서는 경영권 분쟁, 임원 보상, 파생상품 투자, 커버드콜 ETF 같은 이야기와 함께 자주 나온다. 2024년에는 민희진 전 어도어 대표의 풋옵션 이슈가 알려지면서 &amp;ldquo;풋옵션이 대체 뭐길래 1,000억 원대라는 말이 나오지?&amp;ldquo;라고 궁금해한 사람도 많았다.&lt;/p&gt;&#xA;&lt;p&gt;옵션은 말 그대로 &amp;ldquo;권리&amp;quot;다. 미래의 특정 시점에 어떤 자산을 미리 정한 가격으로 사거나 팔 수 있는 권리를 말한다. 주식뿐 아니라 채권, 금, 원유, 지수 같은 여러 자산이 옵션의 대상이 될 수 있다.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>레버리지 ETF 장기투자가 위험한 이유, 변동성 잠식과 비용까지 쉽게 정리</title>
+				<link>https://money.devkuma.com/posts/leveraged-etf-long-term-risk/</link>
+				<pubDate>Mon, 15 Jun 2026 21:49:32 +0900</pubDate>
+				<guid>https://money.devkuma.com/posts/leveraged-etf-long-term-risk/</guid>
+				<description>&lt;p&gt;주식 ETF를 보다 보면 &lt;code&gt;KODEX 레버리지&lt;/code&gt;, &lt;code&gt;TQQQ&lt;/code&gt;, &lt;code&gt;SOXL&lt;/code&gt;, &lt;code&gt;SPXL&lt;/code&gt; 같은 이름을 자주 보게 된다. 이름만 봐도 수익률이 커질 것 같고, 실제로 상승장에서는 일반 ETF보다 훨씬 빠르게 오른다. 그래서 &amp;ldquo;어차피 미국 주식은 장기 우상향하니까 3배 ETF를 오래 들고 있으면 더 크게 벌 수 있지 않을까&amp;quot;라는 생각이 들기 쉽다.&lt;/p&gt;&#xA;&lt;p&gt;하지만 레버리지 ETF는 일반 지수 ETF를 단순히 2배, 3배로 키운 장기투자 상품이 아니다. 핵심은 &lt;strong&gt;하루 수익률의 배수&lt;/strong&gt; 를 추종한다는 점이다. 하루하루의 등락이 반복되면 지수는 제자리인데 레버리지 ETF는 손실이 누적될 수 있다. 여기에 운용 비용, 파생상품 비용, 금리 비용까지 붙으면 장기 보유 성과는 기대보다 훨씬 달라진다.&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>주식 투자 실패 줄이는 법, 초보자가 계좌를 지키는 현실적인 원칙</title>

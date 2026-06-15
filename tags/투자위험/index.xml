@@ -10,7 +10,7 @@
 		
 		
 		
-			<lastBuildDate>Tue, 26 May 2026 22:21:34 +0900</lastBuildDate>
+			<lastBuildDate>Mon, 15 Jun 2026 21:49:32 +0900</lastBuildDate>
 		
 			<atom:link href="https://money.devkuma.com/tags/%ED%88%AC%EC%9E%90%EC%9C%84%ED%97%98/index.xml" rel="self" type="application/rss+xml" />
 			<item>
@@ -33,6 +33,13 @@
 				<pubDate>Sun, 24 May 2026 12:20:54 +0900</pubDate>
 				<guid>https://money.devkuma.com/posts/etf-types-inverse-leveraged-guide/</guid>
 				<description>&lt;p&gt;주식시장이 크게 오르거나 빠질 때마다 인버스 ETF와 레버리지 ETF가 검색어에 자주 오른다. 시장이 내려갈 것 같으면 인버스, 시장이 강하게 오를 것 같으면 레버리지에 관심이 생긴다. 이름만 보면 방향만 맞히면 쉽게 수익을 낼 수 있을 것 같지만, 실제 구조는 생각보다 까다롭다.&lt;/p&gt;&#xA;&lt;p&gt;인버스와 레버리지는 모두 기초지수의 &amp;ldquo;하루 수익률&amp;quot;을 기준으로 움직이도록 설계된 파생형 ETF다. 여기서 중요한 말은 하루 수익률이다. 한 달이나 1년 동안 지수가 10% 올랐다고 해서 레버리지 ETF가 정확히 20% 오르는 구조가 아니다. 매일 수익률을 다시 계산하기 때문에 시장이 오르락내리락하면 예상과 다른 결과가 나올 수 있다.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>레버리지 ETF 장기투자가 위험한 이유, 변동성 잠식과 비용까지 쉽게 정리</title>
+				<link>https://money.devkuma.com/posts/leveraged-etf-long-term-risk/</link>
+				<pubDate>Mon, 15 Jun 2026 21:49:32 +0900</pubDate>
+				<guid>https://money.devkuma.com/posts/leveraged-etf-long-term-risk/</guid>
+				<description>&lt;p&gt;주식 ETF를 보다 보면 &lt;code&gt;KODEX 레버리지&lt;/code&gt;, &lt;code&gt;TQQQ&lt;/code&gt;, &lt;code&gt;SOXL&lt;/code&gt;, &lt;code&gt;SPXL&lt;/code&gt; 같은 이름을 자주 보게 된다. 이름만 봐도 수익률이 커질 것 같고, 실제로 상승장에서는 일반 ETF보다 훨씬 빠르게 오른다. 그래서 &amp;ldquo;어차피 미국 주식은 장기 우상향하니까 3배 ETF를 오래 들고 있으면 더 크게 벌 수 있지 않을까&amp;quot;라는 생각이 들기 쉽다.&lt;/p&gt;&#xA;&lt;p&gt;하지만 레버리지 ETF는 일반 지수 ETF를 단순히 2배, 3배로 키운 장기투자 상품이 아니다. 핵심은 &lt;strong&gt;하루 수익률의 배수&lt;/strong&gt; 를 추종한다는 점이다. 하루하루의 등락이 반복되면 지수는 제자리인데 레버리지 ETF는 손실이 누적될 수 있다. 여기에 운용 비용, 파생상품 비용, 금리 비용까지 붙으면 장기 보유 성과는 기대보다 훨씬 달라진다.&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>주식 용어: 공매도란? 뜻과 원리, 장단점과 위험 쉽게 이해하기</title>
