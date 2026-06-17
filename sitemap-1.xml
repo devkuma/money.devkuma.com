@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://money.devkuma.com/</loc>
-    <lastmod>2026-06-17T22:37:04+09:00</lastmod>
+    <lastmod>2026-06-17T23:41:12+09:00</lastmod>
   </url>
   <url>
     <loc>https://money.devkuma.com/about/</loc>
@@ -10,7 +10,7 @@
   </url>
   <url>
     <loc>https://money.devkuma.com/categories/</loc>
-    <lastmod>2026-06-17T22:37:04+09:00</lastmod>
+    <lastmod>2026-06-17T23:41:12+09:00</lastmod>
   </url>
   <url>
     <loc>https://money.devkuma.com/categories/%EA%B2%BD%EC%A0%9C-%EC%9D%B4%EC%95%BC%EA%B8%B0/</loc>
@@ -54,7 +54,7 @@
   </url>
   <url>
     <loc>https://money.devkuma.com/categories/%EC%A3%BC%EC%8B%9D/</loc>
-    <lastmod>2026-06-17T22:37:04+09:00</lastmod>
+    <lastmod>2026-06-17T23:41:12+09:00</lastmod>
   </url>
   <url>
     <loc>https://money.devkuma.com/categories/%EC%A7%80%EC%9B%90%EA%B8%88/</loc>
@@ -166,7 +166,7 @@
   </url>
   <url>
     <loc>https://money.devkuma.com/posts/</loc>
-    <lastmod>2026-06-17T22:37:04+09:00</lastmod>
+    <lastmod>2026-06-17T23:41:12+09:00</lastmod>
   </url>
   <url>
     <loc>https://money.devkuma.com/posts/account-opening-20-business-day-rule/</loc>
@@ -283,6 +283,10 @@
   <url>
     <loc>https://money.devkuma.com/posts/cbdc-vs-stablecoin/</loc>
     <lastmod>2026-06-10T23:32:55+09:00</lastmod>
+  </url>
+  <url>
+    <loc>https://money.devkuma.com/posts/child-investment-account/</loc>
+    <lastmod>2026-06-17T23:41:12+09:00</lastmod>
   </url>
   <url>
     <loc>https://money.devkuma.com/posts/children-insurance-age-coverage-checklist/</loc>
@@ -1074,7 +1078,7 @@
   </url>
   <url>
     <loc>https://money.devkuma.com/posts/stock/</loc>
-    <lastmod>2026-06-17T22:37:04+09:00</lastmod>
+    <lastmod>2026-06-17T23:41:12+09:00</lastmod>
   </url>
   <url>
     <loc>https://money.devkuma.com/posts/stocks-beginners-should-avoid/</loc>
