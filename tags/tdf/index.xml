@@ -10,7 +10,7 @@
 		
 		
 		
-			<lastBuildDate>Wed, 13 May 2026 21:51:06 +0900</lastBuildDate>
+			<lastBuildDate>Wed, 17 Jun 2026 21:40:30 +0900</lastBuildDate>
 		
 			<atom:link href="https://money.devkuma.com/tags/tdf/index.xml" rel="self" type="application/rss+xml" />
 			<item>
@@ -19,6 +19,13 @@
 				<pubDate>Wed, 13 May 2026 21:51:06 +0900</pubDate>
 				<guid>https://money.devkuma.com/posts/retirement-pension-default-option/</guid>
 				<description>&lt;p&gt;퇴직연금 계좌를 열어두고도 한 번도 운용 상품을 바꿔본 적이 없다면 디폴트옵션을 알아둘 필요가 있다. 퇴직연금은 오래 묵혀두는 돈이라 작은 수익률 차이도 시간이 지나면 꽤 크게 벌어진다.&lt;/p&gt;&#xA;&lt;p&gt;그런데 막상 퇴직연금 앱에 들어가 보면 예금, 펀드, TDF, 위험등급 같은 단어가 한꺼번에 나온다. 그래서 &amp;ldquo;괜히 건드렸다가 손해 보는 것 아닐까?&amp;ldquo;라는 생각으로 그대로 두는 경우가 많다. 디폴트옵션은 이런 방치 문제를 줄이기 위해 만들어진 제도다.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&lt;h2 id=&#34;퇴직연금-디폴트옵션이란&#34; class=&#34;heading&#34;&gt;퇴직연금 디폴트옵션이란?&lt;a href=&#34;#%ed%87%b4%ec%a7%81%ec%97%b0%ea%b8%88-%eb%94%94%ed%8f%b4%ed%8a%b8%ec%98%b5%ec%85%98%ec%9d%b4%eb%9e%80&#34; aria-labelledby=&#34;퇴직연금-디폴트옵션이란&#34;&gt;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;                &#xA;                        &#xA;                        &#xA;                        &lt;svg class=&#34;svg-inline--fa fas fa-link anchor&#34; fill=&#34;currentColor&#34; aria-hidden=&#34;true&#34; role=&#34;img&#34; viewBox=&#34;0 0 576 512&#34; overflow=&#34;visible&#34;&gt;&lt;use href=&#34;#fas-link&#34;&gt;&lt;/use&gt;&lt;/svg&gt;&amp;nbsp;&#xA;    &lt;/a&gt;&#xA;&lt;/h2&gt;&#xA;&#xA;&lt;p&gt;퇴직연금 디폴트옵션은 가입자가 별도로 운용 지시를 하지 않았을 때, 미리 정해둔 상품으로 퇴직연금이 자동 운용되도록 하는 제도다. 말 그대로 기본값으로 설정해두는 운용 옵션이라고 이해하면 된다.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>TDF란? 은퇴시점에 맞춰 알아서 자산배분하는 연금 펀드 쉽게 이해하기</title>
+				<link>https://money.devkuma.com/posts/target-date-fund-tdf/</link>
+				<pubDate>Wed, 17 Jun 2026 21:40:30 +0900</pubDate>
+				<guid>https://money.devkuma.com/posts/target-date-fund-tdf/</guid>
+				<description>&lt;p&gt;나이가 들수록 노후 준비라는 말이 가볍게 들리지 않는다. 젊을 때는 &amp;ldquo;나중에 생각하지&amp;rdquo; 하고 넘기기 쉬운데, 어느 순간부터는 은퇴 후 생활비, 병원비, 자녀에게 부담을 주지 않는 삶 같은 현실적인 문제가 눈에 들어온다.&lt;/p&gt;&#xA;&lt;p&gt;특히 자식에게 짐이 되고 싶지 않다는 생각을 하게 되면, 노후 준비는 단순히 돈을 많이 모으는 문제가 아니라 스스로의 생활을 지키는 문제처럼 느껴진다. 그런데 막상 연금 투자를 알아보면 주식, 채권, ETF, 리밸런싱, IRP, 연금저축 같은 말이 한꺼번에 나와서 어디서부터 시작해야 할지 막막하다.&lt;/p&gt;</description>
 			</item>
 	</channel>
 </rss>

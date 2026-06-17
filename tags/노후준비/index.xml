@@ -10,7 +10,7 @@
 		
 		
 		
-			<lastBuildDate>Thu, 28 May 2026 09:00:00 +0900</lastBuildDate>
+			<lastBuildDate>Wed, 17 Jun 2026 21:40:30 +0900</lastBuildDate>
 		
 			<atom:link href="https://money.devkuma.com/tags/%EB%85%B8%ED%9B%84%EC%A4%80%EB%B9%84/index.xml" rel="self" type="application/rss+xml" />
 			<item>
@@ -26,6 +26,13 @@
 				<pubDate>Sat, 23 May 2026 00:38:42 +0900</pubDate>
 				<guid>https://money.devkuma.com/posts/retirement-pension-db-dc/</guid>
 				<description>&lt;p&gt;퇴직연금은 회사 생활을 하는 사람이라면 언젠가 꼭 마주치는 돈이다. 그런데 막상 퇴직연금 안내문을 보면 DB형, DC형, IRP, 디폴트옵션 같은 단어가 한꺼번에 나온다. 이름만 보면 비슷해 보이지만 실제로는 누가 운용하고, 누가 책임지고, 퇴직할 때 얼마를 받을 수 있는지가 꽤 다르다.&lt;/p&gt;&#xA;&lt;p&gt;퇴직연금 DB형과 DC형을 구분하는 핵심은 간단하다. DB형은 회사가 운용하고 근로자는 정해진 계산식에 따라 퇴직급여를 받는 방식이다. DC형은 회사가 매년 일정 금액을 넣어주고, 근로자가 직접 운용한 결과에 따라 퇴직급여가 달라지는 방식이다.&lt;/p&gt;&#xA;&lt;p&gt;이 차이를 모르면 내 퇴직연금이 어떤 구조인지도 모른 채 몇 년을 지나칠 수 있다. 특히 임금이 꾸준히 오르는 사람, 임금피크제가 가까운 사람, 투자 경험이 있는 사람은 DB형과 DC형의 유불리가 달라질 수 있다. 이 글에서는 퇴직연금 DB형과 DC형의 차이를 초보자 기준으로 정리하였다.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>TDF란? 은퇴시점에 맞춰 알아서 자산배분하는 연금 펀드 쉽게 이해하기</title>
+				<link>https://money.devkuma.com/posts/target-date-fund-tdf/</link>
+				<pubDate>Wed, 17 Jun 2026 21:40:30 +0900</pubDate>
+				<guid>https://money.devkuma.com/posts/target-date-fund-tdf/</guid>
+				<description>&lt;p&gt;나이가 들수록 노후 준비라는 말이 가볍게 들리지 않는다. 젊을 때는 &amp;ldquo;나중에 생각하지&amp;rdquo; 하고 넘기기 쉬운데, 어느 순간부터는 은퇴 후 생활비, 병원비, 자녀에게 부담을 주지 않는 삶 같은 현실적인 문제가 눈에 들어온다.&lt;/p&gt;&#xA;&lt;p&gt;특히 자식에게 짐이 되고 싶지 않다는 생각을 하게 되면, 노후 준비는 단순히 돈을 많이 모으는 문제가 아니라 스스로의 생활을 지키는 문제처럼 느껴진다. 그런데 막상 연금 투자를 알아보면 주식, 채권, ETF, 리밸런싱, IRP, 연금저축 같은 말이 한꺼번에 나와서 어디서부터 시작해야 할지 막막하다.&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>연금 종류 총정리: 국민연금, 퇴직연금, 개인연금, 주택연금까지 쉽게 이해하기</title>
