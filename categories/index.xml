@@ -10,13 +10,20 @@
 		
 		
 		
-			<lastBuildDate>Sat, 20 Jun 2026 22:55:00 +0900</lastBuildDate>
+			<lastBuildDate>Sun, 21 Jun 2026 21:53:30 +0900</lastBuildDate>
 		
 			<atom:link href="https://money.devkuma.com/categories/index.xml" rel="self" type="application/rss+xml" />
 			<item>
+				<title>대출</title>
+				<link>https://money.devkuma.com/categories/%EB%8C%80%EC%B6%9C/</link>
+				<pubDate>Sun, 21 Jun 2026 21:53:30 +0900</pubDate>
+				<guid>https://money.devkuma.com/categories/%EB%8C%80%EC%B6%9C/</guid>
+				<description></description>
+			</item>
+			<item>
 				<title>보험</title>
 				<link>https://money.devkuma.com/categories/%EB%B3%B4%ED%97%98/</link>
-				<pubDate>Sat, 20 Jun 2026 22:55:00 +0900</pubDate>
+				<pubDate>Sat, 20 Jun 2026 23:10:00 +0900</pubDate>
 				<guid>https://money.devkuma.com/categories/%EB%B3%B4%ED%97%98/</guid>
 				<description></description>
 			</item>
@@ -53,13 +60,6 @@
 				<link>https://money.devkuma.com/categories/news/</link>
 				<pubDate>Sun, 14 Jun 2026 22:41:50 +0900</pubDate>
 				<guid>https://money.devkuma.com/categories/news/</guid>
-				<description></description>
-			</item>
-			<item>
-				<title>대출</title>
-				<link>https://money.devkuma.com/categories/%EB%8C%80%EC%B6%9C/</link>
-				<pubDate>Sat, 13 Jun 2026 23:29:24 +0900</pubDate>
-				<guid>https://money.devkuma.com/categories/%EB%8C%80%EC%B6%9C/</guid>
 				<description></description>
 			</item>
 			<item>

@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://money.devkuma.com/</loc>
-    <lastmod>2026-06-20T22:55:00+09:00</lastmod>
+    <lastmod>2026-06-21T21:53:30+09:00</lastmod>
   </url>
   <url>
     <loc>https://money.devkuma.com/about/</loc>
@@ -10,7 +10,7 @@
   </url>
   <url>
     <loc>https://money.devkuma.com/categories/</loc>
-    <lastmod>2026-06-20T22:55:00+09:00</lastmod>
+    <lastmod>2026-06-21T21:53:30+09:00</lastmod>
   </url>
   <url>
     <loc>https://money.devkuma.com/categories/%EA%B2%BD%EC%A0%9C-%EC%9D%B4%EC%95%BC%EA%B8%B0/</loc>
@@ -34,11 +34,11 @@
   </url>
   <url>
     <loc>https://money.devkuma.com/categories/%EB%8C%80%EC%B6%9C/</loc>
-    <lastmod>2026-06-13T23:29:24+09:00</lastmod>
+    <lastmod>2026-06-21T21:53:30+09:00</lastmod>
   </url>
   <url>
     <loc>https://money.devkuma.com/categories/%EB%B3%B4%ED%97%98/</loc>
-    <lastmod>2026-06-20T22:55:00+09:00</lastmod>
+    <lastmod>2026-06-20T23:10:00+09:00</lastmod>
   </url>
   <url>
     <loc>https://money.devkuma.com/categories/%EB%B6%80%EB%8F%99%EC%82%B0/</loc>
@@ -166,7 +166,7 @@
   </url>
   <url>
     <loc>https://money.devkuma.com/posts/</loc>
-    <lastmod>2026-06-20T22:55:00+09:00</lastmod>
+    <lastmod>2026-06-21T21:53:30+09:00</lastmod>
   </url>
   <url>
     <loc>https://money.devkuma.com/posts/account-opening-20-business-day-rule/</loc>
@@ -357,6 +357,10 @@
     <lastmod>2026-05-20T08:21:02+09:00</lastmod>
   </url>
   <url>
+    <loc>https://money.devkuma.com/posts/didimdol-vs-bogeumjari-loan/</loc>
+    <lastmod>2026-06-21T21:53:30+09:00</lastmod>
+  </url>
+  <url>
     <loc>https://money.devkuma.com/posts/direct-vs-indirect-investing/</loc>
     <lastmod>2026-05-18T23:26:03+09:00</lastmod>
   </url>
@@ -513,6 +517,10 @@
     <lastmod>2026-05-04T23:37:36+09:00</lastmod>
   </url>
   <url>
+    <loc>https://money.devkuma.com/posts/group-personal-medical-insurance-overlap/</loc>
+    <lastmod>2026-06-20T23:10:00+09:00</lastmod>
+  </url>
+  <url>
     <loc>https://money.devkuma.com/posts/gyeonggi-local-currency/</loc>
     <lastmod>2026-05-05T07:32:06+09:00</lastmod>
   </url>
@@ -606,7 +614,7 @@
   </url>
   <url>
     <loc>https://money.devkuma.com/posts/insurance/</loc>
-    <lastmod>2026-06-20T22:55:00+09:00</lastmod>
+    <lastmod>2026-06-20T23:10:00+09:00</lastmod>
   </url>
   <url>
     <loc>https://money.devkuma.com/posts/investment-strategy-by-age/</loc>
@@ -750,7 +758,7 @@
   </url>
   <url>
     <loc>https://money.devkuma.com/posts/loan/</loc>
-    <lastmod>2026-06-13T23:29:24+09:00</lastmod>
+    <lastmod>2026-06-21T21:53:30+09:00</lastmod>
   </url>
   <url>
     <loc>https://money.devkuma.com/posts/long-term-repair-reserve-refund/</loc>
