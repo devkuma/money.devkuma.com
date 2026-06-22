@@ -10,9 +10,16 @@
 		
 		
 		
-			<lastBuildDate>Sun, 21 Jun 2026 21:53:30 +0900</lastBuildDate>
+			<lastBuildDate>Mon, 22 Jun 2026 22:00:43 +0900</lastBuildDate>
 		
 			<atom:link href="https://money.devkuma.com/categories/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>부동산</title>
+				<link>https://money.devkuma.com/categories/%EB%B6%80%EB%8F%99%EC%82%B0/</link>
+				<pubDate>Mon, 22 Jun 2026 22:00:43 +0900</pubDate>
+				<guid>https://money.devkuma.com/categories/%EB%B6%80%EB%8F%99%EC%82%B0/</guid>
+				<description></description>
+			</item>
 			<item>
 				<title>대출</title>
 				<link>https://money.devkuma.com/categories/%EB%8C%80%EC%B6%9C/</link>
@@ -32,13 +39,6 @@
 				<link>https://money.devkuma.com/categories/%EC%84%B8%EA%B8%88/</link>
 				<pubDate>Sat, 20 Jun 2026 22:40:00 +0900</pubDate>
 				<guid>https://money.devkuma.com/categories/%EC%84%B8%EA%B8%88/</guid>
-				<description></description>
-			</item>
-			<item>
-				<title>부동산</title>
-				<link>https://money.devkuma.com/categories/%EB%B6%80%EB%8F%99%EC%82%B0/</link>
-				<pubDate>Sat, 20 Jun 2026 22:25:00 +0900</pubDate>
-				<guid>https://money.devkuma.com/categories/%EB%B6%80%EB%8F%99%EC%82%B0/</guid>
 				<description></description>
 			</item>
 			<item>
