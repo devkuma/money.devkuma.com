@@ -10,9 +10,30 @@
 		
 		
 		
-			<lastBuildDate>Thu, 25 Jun 2026 21:57:44 +0900</lastBuildDate>
+			<lastBuildDate>Thu, 25 Jun 2026 22:39:11 +0900</lastBuildDate>
 		
 			<atom:link href="https://money.devkuma.com/categories/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>부동산</title>
+				<link>https://money.devkuma.com/categories/%EB%B6%80%EB%8F%99%EC%82%B0/</link>
+				<pubDate>Thu, 25 Jun 2026 22:39:11 +0900</pubDate>
+				<guid>https://money.devkuma.com/categories/%EB%B6%80%EB%8F%99%EC%82%B0/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>금융</title>
+				<link>https://money.devkuma.com/categories/%EA%B8%88%EC%9C%B5/</link>
+				<pubDate>Thu, 25 Jun 2026 22:29:34 +0900</pubDate>
+				<guid>https://money.devkuma.com/categories/%EA%B8%88%EC%9C%B5/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>대출</title>
+				<link>https://money.devkuma.com/categories/%EB%8C%80%EC%B6%9C/</link>
+				<pubDate>Thu, 25 Jun 2026 22:24:05 +0900</pubDate>
+				<guid>https://money.devkuma.com/categories/%EB%8C%80%EC%B6%9C/</guid>
+				<description></description>
+			</item>
 			<item>
 				<title>경제</title>
 				<link>https://money.devkuma.com/categories/%EA%B2%BD%EC%A0%9C/</link>
@@ -28,13 +49,6 @@
 				<description></description>
 			</item>
 			<item>
-				<title>부동산</title>
-				<link>https://money.devkuma.com/categories/%EB%B6%80%EB%8F%99%EC%82%B0/</link>
-				<pubDate>Thu, 25 Jun 2026 21:35:09 +0900</pubDate>
-				<guid>https://money.devkuma.com/categories/%EB%B6%80%EB%8F%99%EC%82%B0/</guid>
-				<description></description>
-			</item>
-			<item>
 				<title>세금</title>
 				<link>https://money.devkuma.com/categories/%EC%84%B8%EA%B8%88/</link>
 				<pubDate>Thu, 25 Jun 2026 21:35:09 +0900</pubDate>
@@ -42,24 +56,10 @@
 				<description></description>
 			</item>
 			<item>
-				<title>대출</title>
-				<link>https://money.devkuma.com/categories/%EB%8C%80%EC%B6%9C/</link>
-				<pubDate>Sun, 21 Jun 2026 21:53:30 +0900</pubDate>
-				<guid>https://money.devkuma.com/categories/%EB%8C%80%EC%B6%9C/</guid>
-				<description></description>
-			</item>
-			<item>
 				<title>보험</title>
 				<link>https://money.devkuma.com/categories/%EB%B3%B4%ED%97%98/</link>
 				<pubDate>Sat, 20 Jun 2026 23:10:00 +0900</pubDate>
 				<guid>https://money.devkuma.com/categories/%EB%B3%B4%ED%97%98/</guid>
-				<description></description>
-			</item>
-			<item>
-				<title>금융</title>
-				<link>https://money.devkuma.com/categories/%EA%B8%88%EC%9C%B5/</link>
-				<pubDate>Sat, 20 Jun 2026 08:50:00 +0900</pubDate>
-				<guid>https://money.devkuma.com/categories/%EA%B8%88%EC%9C%B5/</guid>
 				<description></description>
 			</item>
 			<item>
