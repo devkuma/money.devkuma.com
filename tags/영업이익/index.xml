@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>영업이익 on Money::devkuma</title>
+		<link>https://money.devkuma.com/tags/%EC%98%81%EC%97%85%EC%9D%B4%EC%9D%B5/</link>
+		<description>Recent content in 영업이익 on Money::devkuma</description>
+		<generator>Hugo</generator>
+		<language>ko-KR</language>
+		
+		
+		
+		
+			<lastBuildDate>Mon, 29 Jun 2026 21:49:32 +0900</lastBuildDate>
+		
+			<atom:link href="https://money.devkuma.com/tags/%EC%98%81%EC%97%85%EC%9D%B4%EC%9D%B5/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>영업이익과 당기순이익 차이: 손익계산서로 기업 실적 읽는 법</title>
+				<link>https://money.devkuma.com/posts/operating-profit-vs-net-income/</link>
+				<pubDate>Mon, 29 Jun 2026 21:49:32 +0900</pubDate>
+				<guid>https://money.devkuma.com/posts/operating-profit-vs-net-income/</guid>
+				<description>&lt;p&gt;기업 실적 발표를 보면 매출액은 늘었는데 영업이익은 줄거나, 영업이익은 흑자인데 당기순이익은 적자로 나오는 경우가 있다. 반대로 본업은 부진한데 당기순이익이 크게 늘기도 한다. 어느 숫자를 믿어야 하는지 혼란스러울 수 있다.&lt;/p&gt;&#xA;&lt;p&gt;영업이익은 기업이 주된 사업으로 얼마를 벌었는지 보여준다. 당기순이익은 본업의 결과에 이자, 환율 변동, 자산 처분, 세금 같은 항목까지 모두 반영하고 마지막에 남은 이익이다. 둘 중 하나만 맞고 다른 하나가 틀린 것이 아니라 서로 다른 질문에 답하는 숫자다.&lt;/p&gt;&#xA;&lt;p&gt;투자자는 영업이익으로 본업의 경쟁력과 수익성을 보고, 당기순이익으로 모든 비용을 처리한 최종 성과를 확인해야 한다. 두 이익의 차이가 크다면 그 사이에 어떤 일이 있었는지 손익계산서와 주석에서 찾아야 한다.&lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>

@@ -10,9 +10,23 @@
 		
 		
 		
-			<lastBuildDate>Mon, 08 Jun 2026 21:30:28 +0900</lastBuildDate>
+			<lastBuildDate>Mon, 29 Jun 2026 21:49:32 +0900</lastBuildDate>
 		
 			<atom:link href="https://money.devkuma.com/tags/%EC%9E%AC%EB%AC%B4%EC%A0%9C%ED%91%9C/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>영업이익과 당기순이익 차이: 손익계산서로 기업 실적 읽는 법</title>
+				<link>https://money.devkuma.com/posts/operating-profit-vs-net-income/</link>
+				<pubDate>Mon, 29 Jun 2026 21:49:32 +0900</pubDate>
+				<guid>https://money.devkuma.com/posts/operating-profit-vs-net-income/</guid>
+				<description>&lt;p&gt;기업 실적 발표를 보면 매출액은 늘었는데 영업이익은 줄거나, 영업이익은 흑자인데 당기순이익은 적자로 나오는 경우가 있다. 반대로 본업은 부진한데 당기순이익이 크게 늘기도 한다. 어느 숫자를 믿어야 하는지 혼란스러울 수 있다.&lt;/p&gt;&#xA;&lt;p&gt;영업이익은 기업이 주된 사업으로 얼마를 벌었는지 보여준다. 당기순이익은 본업의 결과에 이자, 환율 변동, 자산 처분, 세금 같은 항목까지 모두 반영하고 마지막에 남은 이익이다. 둘 중 하나만 맞고 다른 하나가 틀린 것이 아니라 서로 다른 질문에 답하는 숫자다.&lt;/p&gt;&#xA;&lt;p&gt;투자자는 영업이익으로 본업의 경쟁력과 수익성을 보고, 당기순이익으로 모든 비용을 처리한 최종 성과를 확인해야 한다. 두 이익의 차이가 크다면 그 사이에 어떤 일이 있었는지 손익계산서와 주석에서 찾아야 한다.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>부채비율과 유동비율 뜻과 계산법: 기업 재무건전성 보는 방법</title>
+				<link>https://money.devkuma.com/posts/debt-ratio-and-current-ratio/</link>
+				<pubDate>Mon, 29 Jun 2026 21:45:45 +0900</pubDate>
+				<guid>https://money.devkuma.com/posts/debt-ratio-and-current-ratio/</guid>
+				<description>&lt;p&gt;기업의 매출과 영업이익이 빠르게 늘면 좋은 회사처럼 보인다. 하지만 사업을 키우느라 빚이 지나치게 늘었거나 당장 갚아야 할 돈이 부족하다면 작은 충격에도 자금난을 겪을 수 있다. 이때 기업의 재무 안정성을 빠르게 살펴보는 지표가 부채비율과 유동비율이다.&lt;/p&gt;&#xA;&lt;p&gt;두 지표는 모두 재무상태표에서 계산하지만 보는 방향이 다르다. 부채비율은 자기자본에 비해 전체 부채가 얼마나 많은지 보여주고, 유동비율은 1년 안에 갚아야 할 부채를 1년 안에 현금화할 수 있는 자산으로 감당할 수 있는지 보여준다.&lt;/p&gt;&#xA;&lt;p&gt;계산법은 단순하지만 숫자 하나만 보고 안전한 기업과 위험한 기업을 나누면 오류가 생긴다. 업종에 따라 정상적인 수준이 다르고, 유동자산과 부채의 구성에 따라서도 실제 상환 능력이 달라지기 때문이다.&lt;/p&gt;</description>
+			</item>
 			<item>
 				<title>ROE, ROA, 영업이익률 차이와 함께 보는 법, 초보 투자자가 헷갈리지 않는 기준</title>
 				<link>https://money.devkuma.com/posts/roe-roa-operating-margin-difference/</link>

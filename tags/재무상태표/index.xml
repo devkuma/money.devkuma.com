@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>재무상태표 on Money::devkuma</title>
+		<link>https://money.devkuma.com/tags/%EC%9E%AC%EB%AC%B4%EC%83%81%ED%83%9C%ED%91%9C/</link>
+		<description>Recent content in 재무상태표 on Money::devkuma</description>
+		<generator>Hugo</generator>
+		<language>ko-KR</language>
+		
+		
+		
+		
+			<lastBuildDate>Mon, 29 Jun 2026 21:45:45 +0900</lastBuildDate>
+		
+			<atom:link href="https://money.devkuma.com/tags/%EC%9E%AC%EB%AC%B4%EC%83%81%ED%83%9C%ED%91%9C/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>부채비율과 유동비율 뜻과 계산법: 기업 재무건전성 보는 방법</title>
+				<link>https://money.devkuma.com/posts/debt-ratio-and-current-ratio/</link>
+				<pubDate>Mon, 29 Jun 2026 21:45:45 +0900</pubDate>
+				<guid>https://money.devkuma.com/posts/debt-ratio-and-current-ratio/</guid>
+				<description>&lt;p&gt;기업의 매출과 영업이익이 빠르게 늘면 좋은 회사처럼 보인다. 하지만 사업을 키우느라 빚이 지나치게 늘었거나 당장 갚아야 할 돈이 부족하다면 작은 충격에도 자금난을 겪을 수 있다. 이때 기업의 재무 안정성을 빠르게 살펴보는 지표가 부채비율과 유동비율이다.&lt;/p&gt;&#xA;&lt;p&gt;두 지표는 모두 재무상태표에서 계산하지만 보는 방향이 다르다. 부채비율은 자기자본에 비해 전체 부채가 얼마나 많은지 보여주고, 유동비율은 1년 안에 갚아야 할 부채를 1년 안에 현금화할 수 있는 자산으로 감당할 수 있는지 보여준다.&lt;/p&gt;&#xA;&lt;p&gt;계산법은 단순하지만 숫자 하나만 보고 안전한 기업과 위험한 기업을 나누면 오류가 생긴다. 업종에 따라 정상적인 수준이 다르고, 유동자산과 부채의 구성에 따라서도 실제 상환 능력이 달라지기 때문이다.&lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>

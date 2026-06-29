@@ -10,7 +10,7 @@
 		
 		
 		
-			<lastBuildDate>Sat, 27 Jun 2026 22:07:43 +0900</lastBuildDate>
+			<lastBuildDate>Mon, 29 Jun 2026 21:54:13 +0900</lastBuildDate>
 		
 			<atom:link href="https://money.devkuma.com/index.xml" rel="self" type="application/rss+xml" />
 			<item>
@@ -278,6 +278,41 @@
 				<pubDate>Tue, 02 Jun 2026 09:38:11 +0900</pubDate>
 				<guid>https://money.devkuma.com/stock/498400/</guid>
 				<description>&lt;p&gt;월배당 ETF를 찾다 보면 &lt;code&gt;KODEX 200타겟위클리커버드콜(498400)&lt;/code&gt;이라는 이름을 자주 만나게 된다. 코스피200에 투자하면서 위클리 옵션 프리미엄을 활용해 매월 분배금을 지급하는 상품이다.&lt;/p&gt;&#xA;&lt;p&gt;이름이 길고 &amp;ldquo;커버드콜&amp;rdquo;, &amp;ldquo;위클리 옵션&amp;rdquo;, &amp;ldquo;타겟 프리미엄&amp;rdquo; 같은 용어가 들어 있어 처음에는 어렵게 느껴질 수 있다. 월배당이라는 점만 보면 적금처럼 매달 이자가 나오는 상품으로 오해하기도 쉽다.&lt;/p&gt;&#xA;&lt;p&gt;하지만 이 ETF는 원금 보장 상품이 아니다. 코스피200이 하락하면 ETF 가격도 떨어질 수 있고, 주식시장이 빠르게 상승할 때는 일반 코스피200 ETF보다 수익이 제한될 수 있다. 이 글에서는 KODEX 200타겟위클리커버드콜이 어떤 ETF인지, 분배금은 어디에서 나오는지, 투자 전에 무엇을 확인해야 하는지 쉽게 정리했다.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>외국인 지분이 중요한 이유: 보유비중과 순매수 해석하는 법</title>
+				<link>https://money.devkuma.com/posts/why-foreign-ownership-matters/</link>
+				<pubDate>Mon, 29 Jun 2026 21:54:13 +0900</pubDate>
+				<guid>https://money.devkuma.com/posts/why-foreign-ownership-matters/</guid>
+				<description>&lt;p&gt;국내 주식 시황을 보면 &amp;ldquo;외국인이 사흘 연속 순매수했다&amp;rdquo;, &amp;ldquo;외국인 지분율이 높아졌다&amp;quot;는 표현이 자주 나온다. 주가가 오르면 외국인이 샀기 때문이라고 설명하고, 주가가 내리면 외국인이 팔았다는 분석도 뒤따른다.&lt;/p&gt;&#xA;&lt;p&gt;외국인은 국내 주식시장에서 큰 자금을 움직이는 주요 투자 주체다. 특히 시가총액이 큰 종목과 지수 전체에 미치는 영향이 크기 때문에 매매 흐름을 살펴볼 필요가 있다. 하지만 외국인이 산다는 이유만으로 좋은 기업이 되거나 주가 상승이 보장되는 것은 아니다.&lt;/p&gt;&#xA;&lt;p&gt;외국인 지분을 제대로 활용하려면 보유비중과 순매수의 차이부터 알아야 한다. 장기 투자 자금인지 단기 매매인지, 기업 실적이나 환율 변화와 같은 방향으로 움직이는지도 함께 봐야 한다.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>영업이익과 당기순이익 차이: 손익계산서로 기업 실적 읽는 법</title>
+				<link>https://money.devkuma.com/posts/operating-profit-vs-net-income/</link>
+				<pubDate>Mon, 29 Jun 2026 21:49:32 +0900</pubDate>
+				<guid>https://money.devkuma.com/posts/operating-profit-vs-net-income/</guid>
+				<description>&lt;p&gt;기업 실적 발표를 보면 매출액은 늘었는데 영업이익은 줄거나, 영업이익은 흑자인데 당기순이익은 적자로 나오는 경우가 있다. 반대로 본업은 부진한데 당기순이익이 크게 늘기도 한다. 어느 숫자를 믿어야 하는지 혼란스러울 수 있다.&lt;/p&gt;&#xA;&lt;p&gt;영업이익은 기업이 주된 사업으로 얼마를 벌었는지 보여준다. 당기순이익은 본업의 결과에 이자, 환율 변동, 자산 처분, 세금 같은 항목까지 모두 반영하고 마지막에 남은 이익이다. 둘 중 하나만 맞고 다른 하나가 틀린 것이 아니라 서로 다른 질문에 답하는 숫자다.&lt;/p&gt;&#xA;&lt;p&gt;투자자는 영업이익으로 본업의 경쟁력과 수익성을 보고, 당기순이익으로 모든 비용을 처리한 최종 성과를 확인해야 한다. 두 이익의 차이가 크다면 그 사이에 어떤 일이 있었는지 손익계산서와 주석에서 찾아야 한다.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>부채비율과 유동비율 뜻과 계산법: 기업 재무건전성 보는 방법</title>
+				<link>https://money.devkuma.com/posts/debt-ratio-and-current-ratio/</link>
+				<pubDate>Mon, 29 Jun 2026 21:45:45 +0900</pubDate>
+				<guid>https://money.devkuma.com/posts/debt-ratio-and-current-ratio/</guid>
+				<description>&lt;p&gt;기업의 매출과 영업이익이 빠르게 늘면 좋은 회사처럼 보인다. 하지만 사업을 키우느라 빚이 지나치게 늘었거나 당장 갚아야 할 돈이 부족하다면 작은 충격에도 자금난을 겪을 수 있다. 이때 기업의 재무 안정성을 빠르게 살펴보는 지표가 부채비율과 유동비율이다.&lt;/p&gt;&#xA;&lt;p&gt;두 지표는 모두 재무상태표에서 계산하지만 보는 방향이 다르다. 부채비율은 자기자본에 비해 전체 부채가 얼마나 많은지 보여주고, 유동비율은 1년 안에 갚아야 할 부채를 1년 안에 현금화할 수 있는 자산으로 감당할 수 있는지 보여준다.&lt;/p&gt;&#xA;&lt;p&gt;계산법은 단순하지만 숫자 하나만 보고 안전한 기업과 위험한 기업을 나누면 오류가 생긴다. 업종에 따라 정상적인 수준이 다르고, 유동자산과 부채의 구성에 따라서도 실제 상환 능력이 달라지기 때문이다.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>ETF 분배금과 배당금 차이: 재원부터 분배락까지 쉽게 이해하기</title>
+				<link>https://money.devkuma.com/posts/etf-distribution-vs-dividend/</link>
+				<pubDate>Mon, 29 Jun 2026 21:41:53 +0900</pubDate>
+				<guid>https://money.devkuma.com/posts/etf-distribution-vs-dividend/</guid>
+				<description>&lt;p&gt;ETF를 알아보다 보면 &amp;ldquo;월배당 ETF&amp;rdquo;, &amp;ldquo;분배금 지급&amp;rdquo;, &amp;ldquo;배당수익률&amp;rdquo; 같은 표현이 한꺼번에 나온다. 증권사 앱에서도 ETF에서 받은 돈을 배당금으로 표시하는 경우가 있어 두 용어가 같은 뜻처럼 느껴진다.&lt;/p&gt;&#xA;&lt;p&gt;투자자 통장에 현금이 들어온다는 결과는 비슷하지만 정확한 구조는 다르다. 배당금은 기업이 주주에게 지급하고, 분배금은 ETF가 투자자에게 지급한다. ETF의 분배금에는 편입 기업에서 받은 배당금뿐 아니라 채권 이자나 기타 운용 수익도 들어갈 수 있다.&lt;/p&gt;&#xA;&lt;p&gt;이 차이를 알아야 분배금이 어디에서 나왔는지, 많이 지급한다고 정말 수익률이 높은지 판단할 수 있다. 특히 월마다 현금을 주는 ETF에 투자하려면 분배율보다 총수익률과 분배 재원을 먼저 봐야 한다.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>예금자보호 한도 1억 원: 보호 금융상품과 은행별 계산 방법</title>
+				<link>https://money.devkuma.com/posts/deposit-protection-limit/</link>
+				<pubDate>Mon, 29 Jun 2026 21:36:40 +0900</pubDate>
+				<guid>https://money.devkuma.com/posts/deposit-protection-limit/</guid>
+				<description>&lt;p&gt;예금이나 적금은 원금이 안전하다고 생각하기 쉽다. 하지만 금융회사가 영업정지나 파산으로 돈을 돌려주지 못할 때 모든 금액이 자동으로 보호되는 것은 아니다. 보호 대상 상품이어야 하고, 정해진 한도 안에 있어야 한다.&lt;/p&gt;&#xA;&lt;p&gt;우리나라 예금보호한도는 2025년 9월 1일부터 1인당 금융회사별로 1억 원이다. 여기서 자주 놓치는 부분이 있다. 1억 원은 계좌마다 적용되는 금액이 아니며, 원금만을 뜻하지도 않는다. 같은 금융회사에 맡긴 보호 대상 예금의 원금과 소정의 이자를 합산한다.&lt;/p&gt;&#xA;&lt;p&gt;큰돈을 예치하거나 금리가 높은 저축은행 상품을 알아보고 있다면 금리보다 먼저 보호 범위를 계산해야 한다. 이 글에서는 예금자보호 한도와 보호되는 금융상품, 여러 계좌를 가진 경우의 계산 방법을 쉽게 정리하였다.&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>국민연금 조기수령과 연기연금 손익분기점: 연령별 수령액 비교</title>
